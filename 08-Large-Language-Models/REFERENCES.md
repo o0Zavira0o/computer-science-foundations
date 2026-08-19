@@ -22,3 +22,4 @@
 | `LLM-REF-016` | Constitutional AI: Harmlessness from AI Feedback | primary-paper | Bai et al. | 2026-08-19 | — |
 | `LLM-REF-017` | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | technical-report | DeepSeek-AI | 2026-08-19 | — |
 | `LLM-REF-018` | vLLM Documentation | official-documentation | vLLM Project | 2026-08-19 | 2027-02-19 |
+| `LLM-REF-019` | Probability Theory Review — Stanford CS229 | university-course | Stanford University / CS229 | 2026-08-19 | — |

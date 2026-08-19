@@ -44,6 +44,27 @@
       "domain": "text representation layers",
       "first_lesson": "LLM-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-007",
+      "signature": "Convert next-token counts 3/1/1 into a normalized empirical distribution and verify nonnegative mass sums to one",
+      "domain": "probability normalization from counts",
+      "first_lesson": "LLM-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-008",
+      "signature": "Estimate `P(cat | the)` and `P(cat | a)` from separate context-conditioned count tables to show why conditioning changes the denominator",
+      "domain": "conditional next-token probability",
+      "first_lesson": "LLM-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-009",
+      "signature": "Compare predictive distributions with the same argmax but different concentration and separate next-token probability from whole-answer factual confidence",
+      "domain": "predictive uncertainty interpretation",
+      "first_lesson": "LLM-0003",
+      "reuse_purpose": null
     }
   ]
 }

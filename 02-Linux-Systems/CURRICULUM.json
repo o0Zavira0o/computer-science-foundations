@@ -131,7 +131,7 @@
       "id": "LNX-N-0007",
       "title": "Create, copy, move, and remove files safely",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0006"
       ],
@@ -145,7 +145,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0007"
     },
     {
       "id": "LNX-N-0008",

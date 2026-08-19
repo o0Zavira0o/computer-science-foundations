@@ -10,3 +10,6 @@
 | `LLM-EX-004` | Encode `unbelievable` with hypothetical whole-word, subword, and character tokenizers to compare discrete vocabulary choices and sequence lengths | tokenization granularity | LLM-0002 | — |
 | `LLM-EX-005` | Use a toy vocabulary mapping text pieces to integer IDs, then show that changing ID assignments without permuting model parameters breaks the tokenizer–model interface | vocabulary ID contract | LLM-0002 | — |
 | `LLM-EX-006` | Compare visible words, Unicode/byte representation, whitespace-sensitive pieces, special tokens, and token IDs to prevent collapsing distinct text representation layers | text representation layers | LLM-0002 | — |
+| `LLM-EX-007` | Convert next-token counts 3/1/1 into a normalized empirical distribution and verify nonnegative mass sums to one | probability normalization from counts | LLM-0003 | — |
+| `LLM-EX-008` | Estimate `P(cat \| the)` and `P(cat \| a)` from separate context-conditioned count tables to show why conditioning changes the denominator | conditional next-token probability | LLM-0003 | — |
+| `LLM-EX-009` | Compare predictive distributions with the same argmax but different concentration and separate next-token probability from whole-answer factual confidence | predictive uncertainty interpretation | LLM-0003 | — |

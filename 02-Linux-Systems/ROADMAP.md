@@ -18,7 +18,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LNX-N-0004` | Learn to ask Linux for help | published | LNX-N-0003 | LNX-0004 |
 | `LNX-N-0005` | Paths, names, and the single filesystem tree | published | LNX-N-0003 | LNX-0005 |
 | `LNX-N-0006` | Navigate and inspect directories | published | LNX-N-0005 | LNX-0006 |
-| `LNX-N-0007` | Create, copy, move, and remove files safely | planned | LNX-N-0006 | — |
+| `LNX-N-0007` | Create, copy, move, and remove files safely | published | LNX-N-0006 | LNX-0007 |
 | `LNX-N-0008` | Read and edit text without losing context | planned | LNX-N-0007 | — |
 | `LNX-N-0009` | Quoting, globbing, and expansion | planned | LNX-N-0003 | — |
 | `LNX-N-0010` | Standard streams, redirection, and pipelines | planned | LNX-N-0009 | — |

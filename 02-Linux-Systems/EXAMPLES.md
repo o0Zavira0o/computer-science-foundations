@@ -22,3 +22,6 @@
 | `LNX-EX-016` | Build a disposable directory tree and use a predict–cd–pwd–ls loop to distinguish navigation state changes from directory inspection | directory navigation state | LNX-0006 | — |
 | `LNX-EX-017` | Compare `ls`, `ls -A`, `ls -d directory`, and `ls -ld directory` to separate omitted dot entries, directory contents, and the directory entry itself | directory inspection semantics | LNX-0006 | — |
 | `LNX-EX-018` | Diagnose a missing relative path by checking `pwd` and the intended inspection target instead of searching or changing directories by guesswork | navigation debugging | LNX-0006 | — |
+| `LNX-EX-019` | Use a disposable tree to predict and verify how `cp SOURCE DEST`, `cp SOURCE DIR/`, and `mv` choose destination pathnames and can replace existing files | filesystem mutation destination semantics | LNX-0007 | — |
+| `LNX-EX-020` | Compare `rmdir` with recursive `rm` to show how choosing the narrowest operation constrains deletion scope and turns refusal into useful safety evidence | destructive-operation scope | LNX-0007 | — |
+| `LNX-EX-021` | Create a filename beginning with `-` and distinguish shell quoting from utility option parsing using `--` or an explicit `./` pathname | operand versus option parsing | LNX-0007 | — |

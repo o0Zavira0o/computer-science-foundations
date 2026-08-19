@@ -65,7 +65,7 @@
       "id": "LLM-N-0003",
       "title": "Probability from counts: uncertainty without mystery",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LLM-N-0002"
       ],
@@ -80,7 +80,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LLM-0003"
     },
     {
       "id": "LLM-N-0004",

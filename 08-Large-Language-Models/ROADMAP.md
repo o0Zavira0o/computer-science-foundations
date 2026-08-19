@@ -14,7 +14,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 |---|---|---|---|---|
 | `LLM-N-0001` | What a language model is | published | — | LLM-0001 |
 | `LLM-N-0002` | Text, symbols, tokens, and vocabularies | published | LLM-N-0001 | LLM-0002 |
-| `LLM-N-0003` | Probability from counts: uncertainty without mystery | planned | LLM-N-0002 | — |
+| `LLM-N-0003` | Probability from counts: uncertainty without mystery | published | LLM-N-0002 | LLM-0003 |
 | `LLM-N-0004` | Logits, softmax, and categorical prediction | planned | LLM-N-0003 | — |
 | `LLM-N-0005` | Vectors and dot products as similarity and scoring | planned | LLM-N-0004 | — |
 | `LLM-N-0006` | Matrices as organized linear transformations | planned | LLM-N-0005 | — |

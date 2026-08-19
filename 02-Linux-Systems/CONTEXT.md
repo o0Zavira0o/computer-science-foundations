@@ -17,12 +17,12 @@
 - **Nodes:** 112
 - **Coverage baseline:** audited
 - **Coverage items:** 24
-- **Published lessons:** 6
+- **Published lessons:** 7
 
 ## Registry sizes
 
 - **Concepts:** 112
-- **Examples:** 18
+- **Examples:** 21
 - **References:** 20
 
 ## Learner state
@@ -33,11 +33,13 @@
 
 ## Authoring candidates
 
-- `LNX-N-0007` — Create, copy, move, and remove files safely (L0, planned)
+- `LNX-N-0008` — Read and edit text without losing context (L0, planned)
 - `LNX-N-0009` — Quoting, globbing, and expansion (L0, planned)
+- `LNX-N-0012` — Identity, ownership, and permission intuition (L0, planned)
 - `LNX-N-0013` — Processes, jobs, and signals: first mental model (L0, planned)
 - `LNX-N-0014` — Software packages, repositories, and updates (L0, planned)
 - `LNX-N-0015` — Networks from a Linux user’s point of view (L0, planned)
+- `LNX-N-0021` — Metadata, inodes, hard links, and symbolic links (L1, planned)
 
 ## Learner next actions
 
@@ -52,6 +54,7 @@
 - `LNX-0004` — Learn to ask Linux for help (L0, complete)
 - `LNX-0005` — Paths, names, and the single filesystem tree (L0, complete)
 - `LNX-0006` — Navigate and inspect directories (L0, complete)
+- `LNX-0007` — Create, copy, move, and remove files safely (L0, complete)
 
 ## Normal-session retrieval rule
 

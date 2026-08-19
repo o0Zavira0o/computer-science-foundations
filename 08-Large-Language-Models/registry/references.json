@@ -200,6 +200,17 @@
       "review_after": "2027-02-19",
       "version": null,
       "notes": "Current serving implementation documentation."
+    },
+    {
+      "id": "LLM-REF-019",
+      "title": "Probability Theory Review — Stanford CS229",
+      "type": "university-course",
+      "authority": "Stanford University / CS229",
+      "locator": "https://cs229.stanford.edu/section/cs229-prob.pdf",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "course review notes",
+      "notes": "Probability foundations reference for events, conditional probability, distributions, and normalization used before neural language-model mechanics."
     }
   ]
 }

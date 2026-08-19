@@ -128,6 +128,27 @@
       "domain": "navigation debugging",
       "first_lesson": "LNX-0006",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-019",
+      "signature": "Use a disposable tree to predict and verify how `cp SOURCE DEST`, `cp SOURCE DIR/`, and `mv` choose destination pathnames and can replace existing files",
+      "domain": "filesystem mutation destination semantics",
+      "first_lesson": "LNX-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-020",
+      "signature": "Compare `rmdir` with recursive `rm` to show how choosing the narrowest operation constrains deletion scope and turns refusal into useful safety evidence",
+      "domain": "destructive-operation scope",
+      "first_lesson": "LNX-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-021",
+      "signature": "Create a filename beginning with `-` and distinguish shell quoting from utility option parsing using `--` or an explicit `./` pathname",
+      "domain": "operand versus option parsing",
+      "first_lesson": "LNX-0007",
+      "reuse_purpose": null
     }
   ]
 }
