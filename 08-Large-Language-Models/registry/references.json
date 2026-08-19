@@ -2,5 +2,204 @@
   "$schema": "../../schemas/reference-registry.schema.json",
   "schema_version": 1,
   "track": "large-language-models",
-  "references": []
+  "references": [
+    {
+      "id": "LLM-REF-001",
+      "title": "Stanford CS336: Language Modeling from Scratch (Spring 2026)",
+      "type": "university-course",
+      "authority": "Stanford University",
+      "locator": "https://stanford-cs336.github.io/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "Spring 2026",
+      "notes": "End-to-end implementation-centered curriculum benchmark."
+    },
+    {
+      "id": "LLM-REF-002",
+      "title": "Attention Is All You Need",
+      "type": "primary-paper",
+      "authority": "Vaswani et al.",
+      "locator": "https://arxiv.org/abs/1706.03762",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2017",
+      "notes": "Primary Transformer paper."
+    },
+    {
+      "id": "LLM-REF-003",
+      "title": "Training Compute-Optimal Large Language Models",
+      "type": "primary-paper",
+      "authority": "Hoffmann et al. / DeepMind",
+      "locator": "https://arxiv.org/abs/2203.15556",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "Chinchilla compute-optimal scaling study."
+    },
+    {
+      "id": "LLM-REF-004",
+      "title": "Scaling Laws for Neural Language Models",
+      "type": "primary-paper",
+      "authority": "Kaplan et al.",
+      "locator": "https://arxiv.org/abs/2001.08361",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2020",
+      "notes": "Earlier empirical neural scaling-law study."
+    },
+    {
+      "id": "LLM-REF-005",
+      "title": "Learning to summarize from human feedback / InstructGPT lineage: Training language models to follow instructions with human feedback",
+      "type": "primary-paper",
+      "authority": "Ouyang et al.",
+      "locator": "https://arxiv.org/abs/2203.02155",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "Instruction tuning and RLHF reference."
+    },
+    {
+      "id": "LLM-REF-006",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "type": "primary-paper",
+      "authority": "Rafailov et al.",
+      "locator": "https://arxiv.org/abs/2305.18290",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2023",
+      "notes": "Preference optimization without an explicit reward-model RL loop."
+    },
+    {
+      "id": "LLM-REF-007",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "type": "primary-paper",
+      "authority": "Dao et al.",
+      "locator": "https://arxiv.org/abs/2205.14135",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "IO-aware exact attention."
+    },
+    {
+      "id": "LLM-REF-008",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "type": "primary-paper",
+      "authority": "Kwon et al.",
+      "locator": "https://arxiv.org/abs/2309.06180",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2023",
+      "notes": "vLLM / PagedAttention serving systems paper."
+    },
+    {
+      "id": "LLM-REF-009",
+      "title": "PyTorch Autograd Documentation",
+      "type": "official-documentation",
+      "authority": "PyTorch Project",
+      "locator": "https://docs.pytorch.org/docs/stable/autograd.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "2.13 docs observed 2026-08-19",
+      "notes": "Autograd mechanics and APIs."
+    },
+    {
+      "id": "LLM-REF-010",
+      "title": "PyTorch Fully Sharded Data Parallel Documentation",
+      "type": "official-documentation",
+      "authority": "PyTorch Project",
+      "locator": "https://docs.pytorch.org/docs/stable/fsdp.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "2.13 docs observed 2026-08-19",
+      "notes": "Distributed training reference."
+    },
+    {
+      "id": "LLM-REF-011",
+      "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+      "type": "primary-paper",
+      "authority": "Kudo and Richardson",
+      "locator": "https://arxiv.org/abs/1808.06226",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2018",
+      "notes": "Subword tokenization reference."
+    },
+    {
+      "id": "LLM-REF-012",
+      "title": "Language Models are Few-Shot Learners",
+      "type": "primary-paper",
+      "authority": "Brown et al.",
+      "locator": "https://arxiv.org/abs/2005.14165",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2020",
+      "notes": "Large autoregressive LM / in-context learning milestone."
+    },
+    {
+      "id": "LLM-REF-013",
+      "title": "Holistic Evaluation of Language Models (HELM)",
+      "type": "primary-paper",
+      "authority": "Liang et al.",
+      "locator": "https://arxiv.org/abs/2211.09110",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "Evaluation taxonomy and multi-metric perspective."
+    },
+    {
+      "id": "LLM-REF-014",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "type": "primary-paper",
+      "authority": "Lewis et al.",
+      "locator": "https://arxiv.org/abs/2005.11401",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2020",
+      "notes": "Canonical RAG reference."
+    },
+    {
+      "id": "LLM-REF-015",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "type": "primary-paper",
+      "authority": "Yao et al.",
+      "locator": "https://arxiv.org/abs/2210.03629",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "Reasoning/action loop reference."
+    },
+    {
+      "id": "LLM-REF-016",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "type": "primary-paper",
+      "authority": "Bai et al.",
+      "locator": "https://arxiv.org/abs/2212.08073",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2022",
+      "notes": "Alignment/safety reference."
+    },
+    {
+      "id": "LLM-REF-017",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "type": "technical-report",
+      "authority": "DeepSeek-AI",
+      "locator": "https://arxiv.org/abs/2501.12948",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2025",
+      "notes": "Reasoning-oriented RL case study; treated as one case, not universal doctrine."
+    },
+    {
+      "id": "LLM-REF-018",
+      "title": "vLLM Documentation",
+      "type": "official-documentation",
+      "authority": "vLLM Project",
+      "locator": "https://docs.vllm.ai/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Current serving implementation documentation."
+    }
+  ]
 }

@@ -4,4 +4,6 @@
 
 | Example ID | Signature | Domain | First lesson | Reuse purpose |
 |---|---|---|---|---|
-| — | — | — | — | No examples registered yet |
+| `LLM-EX-001` | Use the contexts `The capital of France is` and `The capital of France was` to separate context from a probability distribution over next tokens | probabilistic next-token prediction | LLM-0001 | — |
+| `LLM-EX-002` | Construct a four-token toy vocabulary and compare two candidate next-token distributions rather than treating model output as one deterministic word | probability distributions | LLM-0001 | — |
+| `LLM-EX-003` | Sample repeatedly from the same toy next-token distribution to show why one model state can produce multiple continuations | sampling and generation | LLM-0001 | — |

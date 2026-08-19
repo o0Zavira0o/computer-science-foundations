@@ -2,5 +2,790 @@
   "$schema": "../../schemas/concept-registry.schema.json",
   "schema_version": 1,
   "track": "linux-systems",
-  "concepts": []
+  "concepts": [
+    {
+      "id": "LNX-C-0001",
+      "name": "Linux system model",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "first curriculum target is LNX-N-0001."
+    },
+    {
+      "id": "LNX-C-0002",
+      "name": "Linux learning sandbox",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0002."
+    },
+    {
+      "id": "LNX-C-0003",
+      "name": "Command invocation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0003."
+    },
+    {
+      "id": "LNX-C-0004",
+      "name": "Linux documentation system",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0004."
+    },
+    {
+      "id": "LNX-C-0005",
+      "name": "Filesystem namespace",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0005."
+    },
+    {
+      "id": "LNX-C-0006",
+      "name": "Directory navigation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0006."
+    },
+    {
+      "id": "LNX-C-0007",
+      "name": "Basic file operations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0007."
+    },
+    {
+      "id": "LNX-C-0008",
+      "name": "Text inspection and editing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0008."
+    },
+    {
+      "id": "LNX-C-0009",
+      "name": "Shell expansion basics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0009."
+    },
+    {
+      "id": "LNX-C-0010",
+      "name": "Unix stream composition",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0010."
+    },
+    {
+      "id": "LNX-C-0011",
+      "name": "Text-processing toolbox",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0011."
+    },
+    {
+      "id": "LNX-C-0012",
+      "name": "Unix identity and permission model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0012."
+    },
+    {
+      "id": "LNX-C-0013",
+      "name": "Process basics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0013."
+    },
+    {
+      "id": "LNX-C-0014",
+      "name": "Linux package ecosystem",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0014."
+    },
+    {
+      "id": "LNX-C-0015",
+      "name": "Network endpoint basics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0015."
+    },
+    {
+      "id": "LNX-C-0016",
+      "name": "Linux runtime filesystem surfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0016."
+    },
+    {
+      "id": "LNX-C-0017",
+      "name": "Shell execution environment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0017."
+    },
+    {
+      "id": "LNX-C-0018",
+      "name": "File selection and command batching",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0018."
+    },
+    {
+      "id": "LNX-C-0019",
+      "name": "Regex and stream editing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0019."
+    },
+    {
+      "id": "LNX-C-0020",
+      "name": "Archive and integrity workflows",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0020."
+    },
+    {
+      "id": "LNX-C-0021",
+      "name": "Filesystem object identity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0021."
+    },
+    {
+      "id": "LNX-C-0022",
+      "name": "Advanced file authorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0022."
+    },
+    {
+      "id": "LNX-C-0023",
+      "name": "Account administration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0023."
+    },
+    {
+      "id": "LNX-C-0024",
+      "name": "Process lifecycle",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0024."
+    },
+    {
+      "id": "LNX-C-0025",
+      "name": "systemd service model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0025."
+    },
+    {
+      "id": "LNX-C-0026",
+      "name": "Linux logging",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0026."
+    },
+    {
+      "id": "LNX-C-0027",
+      "name": "Linux time and scheduling",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0027."
+    },
+    {
+      "id": "LNX-C-0028",
+      "name": "Linux storage model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0028."
+    },
+    {
+      "id": "LNX-C-0029",
+      "name": "Linux network configuration model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0029."
+    },
+    {
+      "id": "LNX-C-0030",
+      "name": "SSH trust model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0030."
+    },
+    {
+      "id": "LNX-C-0031",
+      "name": "Distribution variation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0031."
+    },
+    {
+      "id": "LNX-C-0032",
+      "name": "Linux boot chain",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0032."
+    },
+    {
+      "id": "LNX-C-0033",
+      "name": "Linux device model basics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0033."
+    },
+    {
+      "id": "LNX-C-0034",
+      "name": "Shell program structure",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0034."
+    },
+    {
+      "id": "LNX-C-0035",
+      "name": "Evidence-driven troubleshooting",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0035."
+    },
+    {
+      "id": "LNX-C-0036",
+      "name": "Robust shell scripting",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0036."
+    },
+    {
+      "id": "LNX-C-0037",
+      "name": "File descriptors and syscalls",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0037."
+    },
+    {
+      "id": "LNX-C-0038",
+      "name": "Process creation semantics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0038."
+    },
+    {
+      "id": "LNX-C-0039",
+      "name": "Signal semantics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0039."
+    },
+    {
+      "id": "LNX-C-0040",
+      "name": "Linux IPC mechanisms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0040."
+    },
+    {
+      "id": "LNX-C-0041",
+      "name": "procfs semantics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0041."
+    },
+    {
+      "id": "LNX-C-0042",
+      "name": "Userspace virtual memory",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0042."
+    },
+    {
+      "id": "LNX-C-0043",
+      "name": "Linux VFS model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0043."
+    },
+    {
+      "id": "LNX-C-0044",
+      "name": "Linux block storage stack",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0044."
+    },
+    {
+      "id": "LNX-C-0045",
+      "name": "Filesystem reliability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0045."
+    },
+    {
+      "id": "LNX-C-0046",
+      "name": "Linux boot internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0046."
+    },
+    {
+      "id": "LNX-C-0047",
+      "name": "Advanced systemd",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0047."
+    },
+    {
+      "id": "LNX-C-0048",
+      "name": "udev event processing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0048."
+    },
+    {
+      "id": "LNX-C-0049",
+      "name": "Linux network operations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0049."
+    },
+    {
+      "id": "LNX-C-0050",
+      "name": "Linux packet filtering",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0050."
+    },
+    {
+      "id": "LNX-C-0051",
+      "name": "Linux namespaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0051."
+    },
+    {
+      "id": "LNX-C-0052",
+      "name": "cgroups v2",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0052."
+    },
+    {
+      "id": "LNX-C-0053",
+      "name": "Linux security primitives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0053."
+    },
+    {
+      "id": "LNX-C-0054",
+      "name": "Container primitives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0054."
+    },
+    {
+      "id": "LNX-C-0055",
+      "name": "Linux observability workflow",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0055."
+    },
+    {
+      "id": "LNX-C-0056",
+      "name": "Linux performance measurement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0056."
+    },
+    {
+      "id": "LNX-C-0057",
+      "name": "Linux failure recovery",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0057."
+    },
+    {
+      "id": "LNX-C-0058",
+      "name": "Reproducible system administration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0058."
+    },
+    {
+      "id": "LNX-C-0059",
+      "name": "Linux system composition",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0059."
+    },
+    {
+      "id": "LNX-C-0060",
+      "name": "Linux userspace ABI",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0060."
+    },
+    {
+      "id": "LNX-C-0061",
+      "name": "Linux scheduling and synchronization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0061."
+    },
+    {
+      "id": "LNX-C-0062",
+      "name": "Linux memory management internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0062."
+    },
+    {
+      "id": "LNX-C-0063",
+      "name": "Kernel memory allocators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0063."
+    },
+    {
+      "id": "LNX-C-0064",
+      "name": "VFS internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0064."
+    },
+    {
+      "id": "LNX-C-0065",
+      "name": "Filesystem internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0065."
+    },
+    {
+      "id": "LNX-C-0066",
+      "name": "Linux I/O path",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0066."
+    },
+    {
+      "id": "LNX-C-0067",
+      "name": "Linux network stack internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0067."
+    },
+    {
+      "id": "LNX-C-0068",
+      "name": "Netlink interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0068."
+    },
+    {
+      "id": "LNX-C-0069",
+      "name": "eBPF model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0069."
+    },
+    {
+      "id": "LNX-C-0070",
+      "name": "Advanced cgroups",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0070."
+    },
+    {
+      "id": "LNX-C-0071",
+      "name": "Advanced namespaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0071."
+    },
+    {
+      "id": "LNX-C-0072",
+      "name": "Linux security architecture",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0072."
+    },
+    {
+      "id": "LNX-C-0073",
+      "name": "Kernel modules",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0073."
+    },
+    {
+      "id": "LNX-C-0074",
+      "name": "Kernel build workflow",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0074."
+    },
+    {
+      "id": "LNX-C-0075",
+      "name": "Kernel tracing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0075."
+    },
+    {
+      "id": "LNX-C-0076",
+      "name": "Advanced Linux performance analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0076."
+    },
+    {
+      "id": "LNX-C-0077",
+      "name": "eBPF observability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0077."
+    },
+    {
+      "id": "LNX-C-0078",
+      "name": "Linux crash debugging",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0078."
+    },
+    {
+      "id": "LNX-C-0079",
+      "name": "Kernel diagnostic interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0079."
+    },
+    {
+      "id": "LNX-C-0080",
+      "name": "Linux virtualization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0080."
+    },
+    {
+      "id": "LNX-C-0081",
+      "name": "Linux NUMA and locality",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0081."
+    },
+    {
+      "id": "LNX-C-0082",
+      "name": "Systems performance experiment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0082."
+    },
+    {
+      "id": "LNX-C-0083",
+      "name": "Linux network laboratory",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0083."
+    },
+    {
+      "id": "LNX-C-0084",
+      "name": "Container runtime internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0084."
+    },
+    {
+      "id": "LNX-C-0085",
+      "name": "Kernel source navigation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0085."
+    },
+    {
+      "id": "LNX-C-0086",
+      "name": "Kernel concurrency primitives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0086."
+    },
+    {
+      "id": "LNX-C-0087",
+      "name": "RCU",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0087."
+    },
+    {
+      "id": "LNX-C-0088",
+      "name": "Linux scheduler internals",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0088."
+    },
+    {
+      "id": "LNX-C-0089",
+      "name": "Advanced Linux memory management",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0089."
+    },
+    {
+      "id": "LNX-C-0090",
+      "name": "Filesystem implementation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0090."
+    },
+    {
+      "id": "LNX-C-0091",
+      "name": "Advanced Linux storage I/O",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0091."
+    },
+    {
+      "id": "LNX-C-0092",
+      "name": "Advanced Linux networking",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0092."
+    },
+    {
+      "id": "LNX-C-0093",
+      "name": "Linux device drivers",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0093."
+    },
+    {
+      "id": "LNX-C-0094",
+      "name": "Advanced eBPF and XDP",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0094."
+    },
+    {
+      "id": "LNX-C-0095",
+      "name": "io_uring",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0095."
+    },
+    {
+      "id": "LNX-C-0096",
+      "name": "Kernel hardening",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0096."
+    },
+    {
+      "id": "LNX-C-0097",
+      "name": "Real-time Linux",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0097."
+    },
+    {
+      "id": "LNX-C-0098",
+      "name": "Kernel testing methodology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0098."
+    },
+    {
+      "id": "LNX-C-0099",
+      "name": "Linux performance engineering",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0099."
+    },
+    {
+      "id": "LNX-C-0100",
+      "name": "Kernel subsystem specialization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0100."
+    },
+    {
+      "id": "LNX-C-0101",
+      "name": "Kernel history analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0101."
+    },
+    {
+      "id": "LNX-C-0102",
+      "name": "Kernel contribution process",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0102."
+    },
+    {
+      "id": "LNX-C-0103",
+      "name": "Linux regression investigation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0103."
+    },
+    {
+      "id": "LNX-C-0104",
+      "name": "Linux experimental methodology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0104."
+    },
+    {
+      "id": "LNX-C-0105",
+      "name": "Systems research reading",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0105."
+    },
+    {
+      "id": "LNX-C-0106",
+      "name": "Research reproduction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0106."
+    },
+    {
+      "id": "LNX-C-0107",
+      "name": "Technical review",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0107."
+    },
+    {
+      "id": "LNX-C-0108",
+      "name": "Linux research ethics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0108."
+    },
+    {
+      "id": "LNX-C-0109",
+      "name": "Linux research frontier mapping",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0109."
+    },
+    {
+      "id": "LNX-C-0110",
+      "name": "Linux research question formulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0110."
+    },
+    {
+      "id": "LNX-C-0111",
+      "name": "Linux research prototyping",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0111."
+    },
+    {
+      "id": "LNX-C-0112",
+      "name": "Linux research communication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LNX-N-0112."
+    }
+  ]
 }

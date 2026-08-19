@@ -54,6 +54,8 @@ class CurriculumToolTests(unittest.TestCase):
             cur = load(tp / "CURRICULUM.json")
             cur["audit_status"] = "audited"
             cur["last_coverage_audit"] = "2026-08-19"
+            # This test must manufacture an empty curriculum even after real content exists.
+            cur["nodes"] = []
             dump(tp / "CURRICULUM.json", cur)
             audit = csf.audit_repository(check_generated=False)
             joined = "\n".join(audit.errors)

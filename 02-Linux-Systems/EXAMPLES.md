@@ -4,4 +4,6 @@
 
 | Example ID | Signature | Domain | First lesson | Reuse purpose |
 |---|---|---|---|---|
-| — | — | — | — | No examples registered yet |
+| `LNX-EX-001` | Trace `printf 'hello\n' > hello.txt` from shell parsing to process execution, system calls, and filesystem state | system mental model | LNX-0001 | — |
+| `LNX-EX-002` | Classify terminal, shell, GNU utility, shared library, kernel, distribution package, and hardware in one command-line interaction | layers and responsibilities | LNX-0001 | — |
+| `LNX-EX-003` | Compare `uname`, `/etc/os-release`, and a desktop environment name to show that 'Linux version' is not one single label | Linux identity and distributions | LNX-0001 | — |

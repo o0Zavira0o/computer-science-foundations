@@ -4,4 +4,4 @@
 
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No lessons published yet |
+| [`LLM-0001`](lessons/LLM-0001-what-a-language-model-is.md) | What a language model is | L0 | complete | `LLM-N-0001` | 2026-08-19 |

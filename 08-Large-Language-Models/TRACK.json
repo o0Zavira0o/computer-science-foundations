@@ -6,13 +6,27 @@
   "title": "Large Language Models (LLMs)",
   "folder": "08-Large-Language-Models",
   "order": 8,
-  "status": "scaffolded",
+  "status": "active",
   "entry_model": "zero-subject-specific-knowledge",
   "scope": {
-    "focus": "Large language models from first principles through modern architectures, training, alignment, evaluation, systems, applications, interpretability, safety, and research frontiers; exact curriculum scope is deferred to reconnaissance.",
-    "includes": [],
+    "focus": "Language models from first principles through tokenization, probability, optimization, Transformers, pretraining, post-training, evaluation, distributed training, inference systems, retrieval/tools, interpretability, safety, and open research frontiers.",
+    "includes": [
+      "Zero-entry mathematical and computational bridges",
+      "Tokenization and neural language modeling",
+      "Transformer architecture and optimization",
+      "Data engineering and scaling laws",
+      "Distributed training and numerical systems",
+      "Instruction tuning, preference optimization, and reasoning post-training",
+      "Evaluation, uncertainty, retrieval, and tool use",
+      "Inference/serving systems and efficiency",
+      "Interpretability, robustness, safety, privacy, and governance-relevant technical evidence",
+      "Research replication and frontier experimentation"
+    ],
     "delegates": [
-      "Linear algebra, systems, architecture, and parallel-computing material should be linked to canonical tracks when those tracks own the full treatment."
+      "Full linear-algebra treatment belongs to Linear Algebra.",
+      "Full CPU/GPU hardware architecture belongs to Computer Architecture.",
+      "Full parallel-programming and HPC treatment belongs to Programming Parallel Processors.",
+      "General systems fundamentals should link to Computer Systems instead of being redundantly rebuilt."
     ]
   },
   "entry_prerequisites": [],

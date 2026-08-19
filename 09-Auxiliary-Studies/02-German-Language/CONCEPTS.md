@@ -4,4 +4,109 @@
 
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
-| — | — | — | No concepts registered yet |
+| `GER-C-0001` | Sounds, spelling, and your first German utterances | D1 | — |
+| `GER-C-0002` | Introduce yourself: ich, du, Sie, heißen, sein | — | — |
+| `GER-C-0003` | The German sentence skeleton: verb-second in main clauses | — | — |
+| `GER-C-0004` | Noun gender and the definite/indefinite articles | — | — |
+| `GER-C-0005` | Plural patterns and learning nouns as lexical packages | — | — |
+| `GER-C-0006` | Numbers, prices, dates, and clock time | — | — |
+| `GER-C-0007` | Present-tense regular verbs | — | — |
+| `GER-C-0008` | High-frequency irregular verbs and vowel changes | — | — |
+| `GER-C-0009` | Questions: yes/no, W-words, and information gaps | — | — |
+| `GER-C-0010` | Negation with nicht and kein | — | — |
+| `GER-C-0011` | The accusative case as a role system | — | — |
+| `GER-C-0012` | Modal verbs and infinitives at the end | — | — |
+| `GER-C-0013` | Possessives and basic personal-reference forms | — | — |
+| `GER-C-0014` | Everyday location and direction phrases | — | — |
+| `GER-C-0015` | Food, shopping, family, study, and routine vocabulary systems | — | — |
+| `GER-C-0016` | Hear word boundaries and stressed syllables in slow German | — | — |
+| `GER-C-0017` | Read signs, forms, short messages, and micro-dialogues | — | — |
+| `GER-C-0018` | Write and perform an A1 survival interaction | — | — |
+| `GER-C-0019` | The dative case and common recipient/location patterns | — | — |
+| `GER-C-0020` | Two-way prepositions: location versus direction | — | — |
+| `GER-C-0021` | Separable-prefix verbs in real sentences | — | — |
+| `GER-C-0022` | Reflexive verbs and daily routines | — | — |
+| `GER-C-0023` | The perfect tense with haben and sein | — | — |
+| `GER-C-0024` | Präteritum of sein, haben, and modal verbs | — | — |
+| `GER-C-0025` | Adjective use before and after nouns: first system | — | — |
+| `GER-C-0026` | Comparatives and superlatives | — | — |
+| `GER-C-0027` | Subordinate clauses with weil, dass, and wenn | — | — |
+| `GER-C-0028` | Time-cause-manner-place and flexible German word order | — | — |
+| `GER-C-0029` | Relative clauses: first contact | — | — |
+| `GER-C-0030` | Personal and demonstrative pronoun choices | — | — |
+| `GER-C-0031` | Imperatives, requests, and politeness | — | — |
+| `GER-C-0032` | Word formation with common prefixes and suffixes | — | — |
+| `GER-C-0033` | Travel, housing, health, work, and services | — | — |
+| `GER-C-0034` | Build connected speech beyond isolated sentences | — | — |
+| `GER-C-0035` | Write practical emails, invitations, and short narratives | — | — |
+| `GER-C-0036` | A2 integrated performance checkpoint | — | — |
+| `GER-C-0037` | Integrate nominative, accusative, dative, and genitive roles | — | — |
+| `GER-C-0038` | Master adjective endings as information marking | — | — |
+| `GER-C-0039` | Subordinate-clause families and clause punctuation | — | — |
+| `GER-C-0040` | Passive voice with werden | — | — |
+| `GER-C-0041` | Konjunktiv II for hypotheticals, wishes, and politeness | — | — |
+| `GER-C-0042` | Future reference with werden and present-tense alternatives | — | — |
+| `GER-C-0043` | Narrative Präteritum beyond the high-frequency core | — | — |
+| `GER-C-0044` | Relative clauses with case and prepositions | — | — |
+| `GER-C-0045` | Infinitive clauses with zu | — | — |
+| `GER-C-0046` | Participles as modifiers | — | — |
+| `GER-C-0047` | Nominalization and the noun-heavy written register | — | — |
+| `GER-C-0048` | Connectors for cause, contrast, consequence, and concession | — | — |
+| `GER-C-0049` | Information structure: topic, focus, and constituent order | — | — |
+| `GER-C-0050` | Understand standard-speed everyday audio | — | — |
+| `GER-C-0051` | Read news and expository prose strategically | — | — |
+| `GER-C-0052` | Write a structured opinion text | — | — |
+| `GER-C-0053` | Tell stories and explain experiences with temporal control | — | — |
+| `GER-C-0054` | Collocations, idioms, and verb-noun combinations | — | — |
+| `GER-C-0055` | Register, du/Sie, regional variation, and pragmatic appropriateness | — | — |
+| `GER-C-0056` | B1 integrated performance checkpoint | — | — |
+| `GER-C-0057` | Advanced word order: Mittelfeld, Nachfeld, and marked placement | — | — |
+| `GER-C-0058` | Clause chaining and syntactic compression | — | — |
+| `GER-C-0059` | Konjunktiv I and reported speech | — | — |
+| `GER-C-0060` | Passive alternatives and impersonal constructions | — | — |
+| `GER-C-0061` | Participial constructions and dense written syntax | — | — |
+| `GER-C-0062` | Nominal style versus verbal style | — | — |
+| `GER-C-0063` | Modal particles: doch, ja, eben, halt, wohl, mal | — | — |
+| `GER-C-0064` | Collocational precision and phraseological competence | — | — |
+| `GER-C-0065` | Build sustained argumentation and counterargument | — | — |
+| `GER-C-0066` | Read academic and technical prose | — | — |
+| `GER-C-0067` | Present, debate, negotiate, and repair misunderstandings | — | — |
+| `GER-C-0068` | Understand faster speech and selected regional accents | — | — |
+| `GER-C-0069` | Write reports, analyses, and formal correspondence | — | — |
+| `GER-C-0070` | Diagnose and correct recurring grammatical errors | — | — |
+| `GER-C-0071` | Use corpora, dictionaries, and grammar references responsibly | — | — |
+| `GER-C-0072` | Variation: standard German, regional standards, dialect, sociolect | — | — |
+| `GER-C-0073` | Read literary prose as language, not only plot | — | — |
+| `GER-C-0074` | B2 integrated performance checkpoint | — | — |
+| `GER-C-0075` | Precision, idiomaticity, and stylistic choice at C1/C2 | — | — |
+| `GER-C-0076` | Information structure, rhythm, emphasis, and rhetorical effect | — | — |
+| `GER-C-0077` | Lexical nuance, connotation, register, and near-synonyms | — | — |
+| `GER-C-0078` | Advanced phraseology, metaphor, and conventional imagery | — | — |
+| `GER-C-0079` | Grammar at the margins: variation, preference, and acceptability | — | — |
+| `GER-C-0080` | Academic writing: synthesis, citation, stance, and cohesion | — | — |
+| `GER-C-0081` | Professional German: meetings, reports, proposals, and negotiation | — | — |
+| `GER-C-0082` | Rhetorical analysis of public and argumentative discourse | — | — |
+| `GER-C-0083` | Understand dense lectures, interviews, and implicit stance | — | — |
+| `GER-C-0084` | Read literary prose with narratological attention | — | — |
+| `GER-C-0085` | Read poetry through sound, syntax, image, and form | — | — |
+| `GER-C-0086` | Read drama through voice, pragmatics, and performance | — | — |
+| `GER-C-0087` | Mediation and translation as meaning reconstruction | — | — |
+| `GER-C-0088` | Historical change and why modern German looks the way it does | — | — |
+| `GER-C-0089` | Official orthography and evidence-based usage decisions | — | — |
+| `GER-C-0090` | C1/C2 integrated performance and independent language judgment | — | — |
+| `GER-C-0091` | Descriptive German grammar beyond learner rules | — | — |
+| `GER-C-0092` | Corpus linguistics and evidence from authentic usage | — | — |
+| `GER-C-0093` | Sociolinguistics, variation, identity, and language attitudes | — | — |
+| `GER-C-0094` | Stylistics and discourse analysis | — | — |
+| `GER-C-0095` | Literary theory as a toolkit for German texts | — | — |
+| `GER-C-0096` | Literary history and contextual reading without reducing texts to history | — | — |
+| `GER-C-0097` | Read and critique German-language scholarship | — | — |
+| `GER-C-0098` | Write a research-grade linguistic or literary analysis | — | — |
+| `GER-C-0099` | Design a corpus-based research question in German | — | — |
+| `GER-C-0100` | Design a literature or discourse research project | — | — |
+| `GER-C-0101` | Investigate a live problem in German variation or language change | — | — |
+| `GER-C-0102` | Produce a publishable or portfolio-grade research artifact in German studies | — | — |
+| `GER-C-0201` | German grapheme–sound mapping | D1 | — |
+| `GER-C-0202` | Lexical stress | D1 | — |
+| `GER-C-0203` | German special letters: ä ö ü ß | D1 | — |
+| `GER-C-0204` | Formulaic communicative chunk | D1 | — |

@@ -7,23 +7,23 @@
 - **Track:** Linux Systems
 - **ID:** `linux-systems`
 - **Code:** `LNX`
-- **Track status:** scaffolded
+- **Track status:** active
 - **Entry model:** zero-subject-specific-knowledge
-- **Focus:** Linux as an operating environment and system: user space, kernel-facing behavior, administration, observability, and internals; exact curriculum scope is deferred to reconnaissance.
+- **Focus:** Linux as a complete operating environment and researchable system: user space, portable interfaces, administration, observability, kernel-facing behavior, subsystem internals, performance, security, kernel development, and Linux-oriented systems research.
 
 ## Curriculum state
 
-- **Audit status:** not-audited
-- **Nodes:** 0
-- **Coverage baseline:** not-audited
-- **Coverage items:** 0
-- **Published lessons:** 0
+- **Audit status:** audited
+- **Nodes:** 112
+- **Coverage baseline:** audited
+- **Coverage items:** 24
+- **Published lessons:** 1
 
 ## Registry sizes
 
-- **Concepts:** 0
-- **Examples:** 0
-- **References:** 0
+- **Concepts:** 112
+- **Examples:** 3
+- **References:** 20
 
 ## Learner state
 
@@ -33,15 +33,16 @@
 
 ## Authoring candidates
 
-- BLOCKED — curriculum/coverage reconnaissance is not audited yet.
+- `LNX-N-0002` — Build a safe Linux learning laboratory (L0, ready)
 
 ## Learner next actions
 
-- None yet.
+**New lessons with practiced/demonstrated prerequisites**
+- LNX-0001 — What a Linux system actually is [L0]
 
 ## Recent lessons
 
-- None.
+- `LNX-0001` — What a Linux system actually is (L0, complete)
 
 ## Normal-session retrieval rule
 

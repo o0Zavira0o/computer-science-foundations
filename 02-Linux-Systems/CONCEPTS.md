@@ -4,4 +4,115 @@
 
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
-| — | — | — | No concepts registered yet |
+| `LNX-C-0001` | Linux system model | D1 | — |
+| `LNX-C-0002` | Linux learning sandbox | — | — |
+| `LNX-C-0003` | Command invocation | — | — |
+| `LNX-C-0004` | Linux documentation system | — | — |
+| `LNX-C-0005` | Filesystem namespace | — | — |
+| `LNX-C-0006` | Directory navigation | — | — |
+| `LNX-C-0007` | Basic file operations | — | — |
+| `LNX-C-0008` | Text inspection and editing | — | — |
+| `LNX-C-0009` | Shell expansion basics | — | — |
+| `LNX-C-0010` | Unix stream composition | — | — |
+| `LNX-C-0011` | Text-processing toolbox | — | — |
+| `LNX-C-0012` | Unix identity and permission model | — | — |
+| `LNX-C-0013` | Process basics | — | — |
+| `LNX-C-0014` | Linux package ecosystem | — | — |
+| `LNX-C-0015` | Network endpoint basics | — | — |
+| `LNX-C-0016` | Linux runtime filesystem surfaces | — | — |
+| `LNX-C-0017` | Shell execution environment | — | — |
+| `LNX-C-0018` | File selection and command batching | — | — |
+| `LNX-C-0019` | Regex and stream editing | — | — |
+| `LNX-C-0020` | Archive and integrity workflows | — | — |
+| `LNX-C-0021` | Filesystem object identity | — | — |
+| `LNX-C-0022` | Advanced file authorization | — | — |
+| `LNX-C-0023` | Account administration | — | — |
+| `LNX-C-0024` | Process lifecycle | — | — |
+| `LNX-C-0025` | systemd service model | — | — |
+| `LNX-C-0026` | Linux logging | — | — |
+| `LNX-C-0027` | Linux time and scheduling | — | — |
+| `LNX-C-0028` | Linux storage model | — | — |
+| `LNX-C-0029` | Linux network configuration model | — | — |
+| `LNX-C-0030` | SSH trust model | — | — |
+| `LNX-C-0031` | Distribution variation | — | — |
+| `LNX-C-0032` | Linux boot chain | — | — |
+| `LNX-C-0033` | Linux device model basics | — | — |
+| `LNX-C-0034` | Shell program structure | — | — |
+| `LNX-C-0035` | Evidence-driven troubleshooting | — | — |
+| `LNX-C-0036` | Robust shell scripting | — | — |
+| `LNX-C-0037` | File descriptors and syscalls | — | — |
+| `LNX-C-0038` | Process creation semantics | — | — |
+| `LNX-C-0039` | Signal semantics | — | — |
+| `LNX-C-0040` | Linux IPC mechanisms | — | — |
+| `LNX-C-0041` | procfs semantics | — | — |
+| `LNX-C-0042` | Userspace virtual memory | — | — |
+| `LNX-C-0043` | Linux VFS model | — | — |
+| `LNX-C-0044` | Linux block storage stack | — | — |
+| `LNX-C-0045` | Filesystem reliability | — | — |
+| `LNX-C-0046` | Linux boot internals | — | — |
+| `LNX-C-0047` | Advanced systemd | — | — |
+| `LNX-C-0048` | udev event processing | — | — |
+| `LNX-C-0049` | Linux network operations | — | — |
+| `LNX-C-0050` | Linux packet filtering | — | — |
+| `LNX-C-0051` | Linux namespaces | — | — |
+| `LNX-C-0052` | cgroups v2 | — | — |
+| `LNX-C-0053` | Linux security primitives | — | — |
+| `LNX-C-0054` | Container primitives | — | — |
+| `LNX-C-0055` | Linux observability workflow | — | — |
+| `LNX-C-0056` | Linux performance measurement | — | — |
+| `LNX-C-0057` | Linux failure recovery | — | — |
+| `LNX-C-0058` | Reproducible system administration | — | — |
+| `LNX-C-0059` | Linux system composition | — | — |
+| `LNX-C-0060` | Linux userspace ABI | — | — |
+| `LNX-C-0061` | Linux scheduling and synchronization | — | — |
+| `LNX-C-0062` | Linux memory management internals | — | — |
+| `LNX-C-0063` | Kernel memory allocators | — | — |
+| `LNX-C-0064` | VFS internals | — | — |
+| `LNX-C-0065` | Filesystem internals | — | — |
+| `LNX-C-0066` | Linux I/O path | — | — |
+| `LNX-C-0067` | Linux network stack internals | — | — |
+| `LNX-C-0068` | Netlink interfaces | — | — |
+| `LNX-C-0069` | eBPF model | — | — |
+| `LNX-C-0070` | Advanced cgroups | — | — |
+| `LNX-C-0071` | Advanced namespaces | — | — |
+| `LNX-C-0072` | Linux security architecture | — | — |
+| `LNX-C-0073` | Kernel modules | — | — |
+| `LNX-C-0074` | Kernel build workflow | — | — |
+| `LNX-C-0075` | Kernel tracing | — | — |
+| `LNX-C-0076` | Advanced Linux performance analysis | — | — |
+| `LNX-C-0077` | eBPF observability | — | — |
+| `LNX-C-0078` | Linux crash debugging | — | — |
+| `LNX-C-0079` | Kernel diagnostic interfaces | — | — |
+| `LNX-C-0080` | Linux virtualization | — | — |
+| `LNX-C-0081` | Linux NUMA and locality | — | — |
+| `LNX-C-0082` | Systems performance experiment | — | — |
+| `LNX-C-0083` | Linux network laboratory | — | — |
+| `LNX-C-0084` | Container runtime internals | — | — |
+| `LNX-C-0085` | Kernel source navigation | — | — |
+| `LNX-C-0086` | Kernel concurrency primitives | — | — |
+| `LNX-C-0087` | RCU | — | — |
+| `LNX-C-0088` | Linux scheduler internals | — | — |
+| `LNX-C-0089` | Advanced Linux memory management | — | — |
+| `LNX-C-0090` | Filesystem implementation | — | — |
+| `LNX-C-0091` | Advanced Linux storage I/O | — | — |
+| `LNX-C-0092` | Advanced Linux networking | — | — |
+| `LNX-C-0093` | Linux device drivers | — | — |
+| `LNX-C-0094` | Advanced eBPF and XDP | — | — |
+| `LNX-C-0095` | io_uring | — | — |
+| `LNX-C-0096` | Kernel hardening | — | — |
+| `LNX-C-0097` | Real-time Linux | — | — |
+| `LNX-C-0098` | Kernel testing methodology | — | — |
+| `LNX-C-0099` | Linux performance engineering | — | — |
+| `LNX-C-0100` | Kernel subsystem specialization | — | — |
+| `LNX-C-0101` | Kernel history analysis | — | — |
+| `LNX-C-0102` | Kernel contribution process | — | — |
+| `LNX-C-0103` | Linux regression investigation | — | — |
+| `LNX-C-0104` | Linux experimental methodology | — | — |
+| `LNX-C-0105` | Systems research reading | — | — |
+| `LNX-C-0106` | Research reproduction | — | — |
+| `LNX-C-0107` | Technical review | — | — |
+| `LNX-C-0108` | Linux research ethics | — | — |
+| `LNX-C-0109` | Linux research frontier mapping | — | — |
+| `LNX-C-0110` | Linux research question formulation | — | — |
+| `LNX-C-0111` | Linux research prototyping | — | — |
+| `LNX-C-0112` | Linux research communication | — | — |

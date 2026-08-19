@@ -3,10 +3,410 @@
   "schema_version": 1,
   "track": "german-language",
   "baseline": {
-    "status": "not-audited",
-    "last_audited": null,
-    "sources": []
+    "status": "audited",
+    "last_audited": "2026-08-19",
+    "sources": [
+      "GER-REF-001",
+      "GER-REF-002",
+      "GER-REF-003",
+      "GER-REF-004",
+      "GER-REF-005",
+      "GER-REF-006",
+      "GER-REF-007",
+      "GER-REF-008",
+      "GER-REF-009"
+    ]
   },
-  "items": [],
+  "items": [
+    {
+      "id": "GER-COV-001",
+      "title": "Pronunciation, orthography, and first communicative acts",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-004",
+        "GER-REF-007"
+      ],
+      "mapped_nodes": [
+        "GER-N-0001",
+        "GER-N-0002",
+        "GER-N-0003"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-002",
+      "title": "Nouns, articles, plurality, and basic reference",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0004",
+        "GER-N-0005",
+        "GER-N-0006"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-003",
+      "title": "Present-tense verbs, questions, and negation",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-004",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0007",
+        "GER-N-0008",
+        "GER-N-0009",
+        "GER-N-0010"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-004",
+      "title": "Cases, modals, and basic everyday communication",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-004"
+      ],
+      "mapped_nodes": [
+        "GER-N-0011",
+        "GER-N-0012",
+        "GER-N-0013",
+        "GER-N-0014",
+        "GER-N-0015",
+        "GER-N-0016",
+        "GER-N-0017",
+        "GER-N-0018"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-005",
+      "title": "Dative, prepositions, separable/reflexive verbs",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-004",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0019",
+        "GER-N-0020",
+        "GER-N-0021",
+        "GER-N-0022"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-006",
+      "title": "Past-time narration and adjective foundations",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-004",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0023",
+        "GER-N-0024",
+        "GER-N-0025",
+        "GER-N-0026"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-007",
+      "title": "Subordination, word order, relatives, and pronouns",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-004",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0027",
+        "GER-N-0028",
+        "GER-N-0029",
+        "GER-N-0030",
+        "GER-N-0031"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-008",
+      "title": "A2 communicative domains and productive integration",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-005"
+      ],
+      "mapped_nodes": [
+        "GER-N-0032",
+        "GER-N-0033",
+        "GER-N-0034",
+        "GER-N-0035",
+        "GER-N-0036"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-009",
+      "title": "Integrated case/adjective/syntax system at B1",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-006"
+      ],
+      "mapped_nodes": [
+        "GER-N-0037",
+        "GER-N-0038",
+        "GER-N-0039",
+        "GER-N-0040",
+        "GER-N-0041",
+        "GER-N-0042",
+        "GER-N-0043",
+        "GER-N-0044",
+        "GER-N-0045"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-010",
+      "title": "Discourse connectors and information structure",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-006",
+        "GER-REF-008"
+      ],
+      "mapped_nodes": [
+        "GER-N-0046",
+        "GER-N-0047",
+        "GER-N-0048",
+        "GER-N-0049"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-011",
+      "title": "B1 receptive and productive performance",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-005"
+      ],
+      "mapped_nodes": [
+        "GER-N-0050",
+        "GER-N-0051",
+        "GER-N-0052",
+        "GER-N-0053",
+        "GER-N-0054",
+        "GER-N-0055",
+        "GER-N-0056"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-012",
+      "title": "Advanced B2 syntax and reported speech",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-006",
+        "GER-REF-003"
+      ],
+      "mapped_nodes": [
+        "GER-N-0057",
+        "GER-N-0058",
+        "GER-N-0059",
+        "GER-N-0060",
+        "GER-N-0061"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-013",
+      "title": "Modal particles, phraseology, and argumentation",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-006",
+        "GER-REF-008"
+      ],
+      "mapped_nodes": [
+        "GER-N-0062",
+        "GER-N-0063",
+        "GER-N-0064",
+        "GER-N-0065"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-014",
+      "title": "Academic/professional receptive and productive B2 skills",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-005"
+      ],
+      "mapped_nodes": [
+        "GER-N-0066",
+        "GER-N-0067",
+        "GER-N-0068",
+        "GER-N-0069",
+        "GER-N-0070"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-015",
+      "title": "Variation, literature entry, and B2 integration",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-006",
+        "GER-REF-009"
+      ],
+      "mapped_nodes": [
+        "GER-N-0071",
+        "GER-N-0072",
+        "GER-N-0073",
+        "GER-N-0074"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-016",
+      "title": "C1/C2 precision, style, lexicon, and advanced grammar",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-006",
+        "GER-REF-008"
+      ],
+      "mapped_nodes": [
+        "GER-N-0075",
+        "GER-N-0076",
+        "GER-N-0077",
+        "GER-N-0078",
+        "GER-N-0079"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-017",
+      "title": "Academic/professional/rhetorical German",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-005"
+      ],
+      "mapped_nodes": [
+        "GER-N-0080",
+        "GER-N-0081",
+        "GER-N-0082"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-018",
+      "title": "Advanced listening and literary reading",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-003",
+        "GER-REF-009"
+      ],
+      "mapped_nodes": [
+        "GER-N-0083",
+        "GER-N-0084",
+        "GER-N-0085",
+        "GER-N-0086",
+        "GER-N-0087"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-019",
+      "title": "Mediation, language history, orthography, C2 judgment",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-007",
+        "GER-REF-009"
+      ],
+      "mapped_nodes": [
+        "GER-N-0088",
+        "GER-N-0089",
+        "GER-N-0090"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-020",
+      "title": "Post-C2 German linguistics",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-006",
+        "GER-REF-008",
+        "GER-REF-009"
+      ],
+      "mapped_nodes": [
+        "GER-N-0091",
+        "GER-N-0092",
+        "GER-N-0093",
+        "GER-N-0094"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-021",
+      "title": "Post-C2 literature and scholarship",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-001",
+        "GER-REF-009",
+        "GER-REF-008"
+      ],
+      "mapped_nodes": [
+        "GER-N-0095",
+        "GER-N-0096",
+        "GER-N-0097",
+        "GER-N-0098"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    },
+    {
+      "id": "GER-COV-022",
+      "title": "Open German linguistics/literature research frontier",
+      "status": "planned",
+      "source_refs": [
+        "GER-REF-006",
+        "GER-REF-008",
+        "GER-REF-009"
+      ],
+      "mapped_nodes": [
+        "GER-N-0099",
+        "GER-N-0100",
+        "GER-N-0101",
+        "GER-N-0102"
+      ],
+      "rationale": "Mapped against CEFR can-do progression, Goethe performance tasks, research grammar/corpus resources, official orthography, and post-C2 German-studies breadth."
+    }
+  ],
   "unresolved_questions": []
 }

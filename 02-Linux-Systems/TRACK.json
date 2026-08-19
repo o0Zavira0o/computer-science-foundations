@@ -6,12 +6,26 @@
   "title": "Linux Systems",
   "folder": "02-Linux-Systems",
   "order": 2,
-  "status": "scaffolded",
+  "status": "active",
   "entry_model": "zero-subject-specific-knowledge",
   "scope": {
-    "focus": "Linux as an operating environment and system: user space, kernel-facing behavior, administration, observability, and internals; exact curriculum scope is deferred to reconnaissance.",
-    "includes": [],
-    "delegates": []
+    "focus": "Linux as a complete operating environment and researchable system: user space, portable interfaces, administration, observability, kernel-facing behavior, subsystem internals, performance, security, kernel development, and Linux-oriented systems research.",
+    "includes": [
+      "System mental models and safe experimentation",
+      "Shell, utilities, text and automation",
+      "Filesystems, storage, identity, processes and services",
+      "Networking and system administration",
+      "System calls and userspace/kernel boundaries",
+      "Observability, tracing and performance",
+      "Linux security, namespaces, cgroups and virtualization",
+      "Kernel build, internals, subsystems and contribution workflow",
+      "Research literacy and open Linux systems questions"
+    ],
+    "delegates": [
+      "Full hardware/microarchitecture treatment belongs to Computer Architecture.",
+      "General operating-system theory can be deepened in Computer Systems rather than duplicated.",
+      "Full C++ and parallel-programming treatments belong to their canonical tracks."
+    ]
   },
   "entry_prerequisites": [],
   "neighbor_tracks": [

@@ -2,36 +2,145 @@
 
 # German Language Roadmap
 
-- **Audit status:** not-audited
-- **Last coverage audit:** not yet performed
-- **Nodes:** 0
+- **Audit status:** audited
+- **Last coverage audit:** 2026-08-19
+- **Nodes:** 102
 
 This is a human-readable view of the dependency graph. `CURRICULUM.json` is canonical.
 
 ## L0
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0001` | Sounds, spelling, and your first German utterances | published | — | GER-0001 |
+| `GER-N-0002` | Introduce yourself: ich, du, Sie, heißen, sein | ready | GER-N-0001 | — |
+| `GER-N-0003` | The German sentence skeleton: verb-second in main clauses | planned | GER-N-0002 | — |
+| `GER-N-0004` | Noun gender and the definite/indefinite articles | planned | GER-N-0003 | — |
+| `GER-N-0005` | Plural patterns and learning nouns as lexical packages | planned | GER-N-0004 | — |
+| `GER-N-0006` | Numbers, prices, dates, and clock time | planned | GER-N-0005 | — |
+| `GER-N-0007` | Present-tense regular verbs | planned | GER-N-0006 | — |
+| `GER-N-0008` | High-frequency irregular verbs and vowel changes | planned | GER-N-0007 | — |
+| `GER-N-0009` | Questions: yes/no, W-words, and information gaps | planned | GER-N-0008 | — |
+| `GER-N-0010` | Negation with nicht and kein | planned | GER-N-0009 | — |
+| `GER-N-0011` | The accusative case as a role system | planned | GER-N-0010 | — |
+| `GER-N-0012` | Modal verbs and infinitives at the end | planned | GER-N-0011 | — |
+| `GER-N-0013` | Possessives and basic personal-reference forms | planned | GER-N-0012 | — |
+| `GER-N-0014` | Everyday location and direction phrases | planned | GER-N-0013 | — |
+| `GER-N-0015` | Food, shopping, family, study, and routine vocabulary systems | planned | GER-N-0014 | — |
+| `GER-N-0016` | Hear word boundaries and stressed syllables in slow German | planned | GER-N-0015 | — |
+| `GER-N-0017` | Read signs, forms, short messages, and micro-dialogues | planned | GER-N-0016 | — |
+| `GER-N-0018` | Write and perform an A1 survival interaction | planned | GER-N-0017 | — |
 
 ## L1
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0019` | The dative case and common recipient/location patterns | planned | GER-N-0018 | — |
+| `GER-N-0020` | Two-way prepositions: location versus direction | planned | GER-N-0019 | — |
+| `GER-N-0021` | Separable-prefix verbs in real sentences | planned | GER-N-0020 | — |
+| `GER-N-0022` | Reflexive verbs and daily routines | planned | GER-N-0021 | — |
+| `GER-N-0023` | The perfect tense with haben and sein | planned | GER-N-0022 | — |
+| `GER-N-0024` | Präteritum of sein, haben, and modal verbs | planned | GER-N-0023 | — |
+| `GER-N-0025` | Adjective use before and after nouns: first system | planned | GER-N-0024 | — |
+| `GER-N-0026` | Comparatives and superlatives | planned | GER-N-0025 | — |
+| `GER-N-0027` | Subordinate clauses with weil, dass, and wenn | planned | GER-N-0026 | — |
+| `GER-N-0028` | Time-cause-manner-place and flexible German word order | planned | GER-N-0027 | — |
+| `GER-N-0029` | Relative clauses: first contact | planned | GER-N-0028 | — |
+| `GER-N-0030` | Personal and demonstrative pronoun choices | planned | GER-N-0029 | — |
+| `GER-N-0031` | Imperatives, requests, and politeness | planned | GER-N-0030 | — |
+| `GER-N-0032` | Word formation with common prefixes and suffixes | planned | GER-N-0031 | — |
+| `GER-N-0033` | Travel, housing, health, work, and services | planned | GER-N-0032 | — |
+| `GER-N-0034` | Build connected speech beyond isolated sentences | planned | GER-N-0033 | — |
+| `GER-N-0035` | Write practical emails, invitations, and short narratives | planned | GER-N-0034 | — |
+| `GER-N-0036` | A2 integrated performance checkpoint | planned | GER-N-0035 | — |
 
 ## L2
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0037` | Integrate nominative, accusative, dative, and genitive roles | planned | GER-N-0036 | — |
+| `GER-N-0038` | Master adjective endings as information marking | planned | GER-N-0037 | — |
+| `GER-N-0039` | Subordinate-clause families and clause punctuation | planned | GER-N-0038 | — |
+| `GER-N-0040` | Passive voice with werden | planned | GER-N-0039 | — |
+| `GER-N-0041` | Konjunktiv II for hypotheticals, wishes, and politeness | planned | GER-N-0040 | — |
+| `GER-N-0042` | Future reference with werden and present-tense alternatives | planned | GER-N-0041 | — |
+| `GER-N-0043` | Narrative Präteritum beyond the high-frequency core | planned | GER-N-0042 | — |
+| `GER-N-0044` | Relative clauses with case and prepositions | planned | GER-N-0043 | — |
+| `GER-N-0045` | Infinitive clauses with zu | planned | GER-N-0044 | — |
+| `GER-N-0046` | Participles as modifiers | planned | GER-N-0045 | — |
+| `GER-N-0047` | Nominalization and the noun-heavy written register | planned | GER-N-0046 | — |
+| `GER-N-0048` | Connectors for cause, contrast, consequence, and concession | planned | GER-N-0047 | — |
+| `GER-N-0049` | Information structure: topic, focus, and constituent order | planned | GER-N-0048 | — |
+| `GER-N-0050` | Understand standard-speed everyday audio | planned | GER-N-0049 | — |
+| `GER-N-0051` | Read news and expository prose strategically | planned | GER-N-0050 | — |
+| `GER-N-0052` | Write a structured opinion text | planned | GER-N-0051 | — |
+| `GER-N-0053` | Tell stories and explain experiences with temporal control | planned | GER-N-0052 | — |
+| `GER-N-0054` | Collocations, idioms, and verb-noun combinations | planned | GER-N-0053 | — |
+| `GER-N-0055` | Register, du/Sie, regional variation, and pragmatic appropriateness | planned | GER-N-0054 | — |
+| `GER-N-0056` | B1 integrated performance checkpoint | planned | GER-N-0055 | — |
 
 ## L3
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0057` | Advanced word order: Mittelfeld, Nachfeld, and marked placement | planned | GER-N-0056 | — |
+| `GER-N-0058` | Clause chaining and syntactic compression | planned | GER-N-0057 | — |
+| `GER-N-0059` | Konjunktiv I and reported speech | planned | GER-N-0058 | — |
+| `GER-N-0060` | Passive alternatives and impersonal constructions | planned | GER-N-0059 | — |
+| `GER-N-0061` | Participial constructions and dense written syntax | planned | GER-N-0060 | — |
+| `GER-N-0062` | Nominal style versus verbal style | planned | GER-N-0061 | — |
+| `GER-N-0063` | Modal particles: doch, ja, eben, halt, wohl, mal | planned | GER-N-0062 | — |
+| `GER-N-0064` | Collocational precision and phraseological competence | planned | GER-N-0063 | — |
+| `GER-N-0065` | Build sustained argumentation and counterargument | planned | GER-N-0064 | — |
+| `GER-N-0066` | Read academic and technical prose | planned | GER-N-0065 | — |
+| `GER-N-0067` | Present, debate, negotiate, and repair misunderstandings | planned | GER-N-0066 | — |
+| `GER-N-0068` | Understand faster speech and selected regional accents | planned | GER-N-0067 | — |
+| `GER-N-0069` | Write reports, analyses, and formal correspondence | planned | GER-N-0068 | — |
+| `GER-N-0070` | Diagnose and correct recurring grammatical errors | planned | GER-N-0069 | — |
+| `GER-N-0071` | Use corpora, dictionaries, and grammar references responsibly | planned | GER-N-0070 | — |
+| `GER-N-0072` | Variation: standard German, regional standards, dialect, sociolect | planned | GER-N-0071 | — |
+| `GER-N-0073` | Read literary prose as language, not only plot | planned | GER-N-0072 | — |
+| `GER-N-0074` | B2 integrated performance checkpoint | planned | GER-N-0073 | — |
 
 ## L4
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0075` | Precision, idiomaticity, and stylistic choice at C1/C2 | planned | GER-N-0074 | — |
+| `GER-N-0076` | Information structure, rhythm, emphasis, and rhetorical effect | planned | GER-N-0075 | — |
+| `GER-N-0077` | Lexical nuance, connotation, register, and near-synonyms | planned | GER-N-0076 | — |
+| `GER-N-0078` | Advanced phraseology, metaphor, and conventional imagery | planned | GER-N-0077 | — |
+| `GER-N-0079` | Grammar at the margins: variation, preference, and acceptability | planned | GER-N-0078 | — |
+| `GER-N-0080` | Academic writing: synthesis, citation, stance, and cohesion | planned | GER-N-0079 | — |
+| `GER-N-0081` | Professional German: meetings, reports, proposals, and negotiation | planned | GER-N-0080 | — |
+| `GER-N-0082` | Rhetorical analysis of public and argumentative discourse | planned | GER-N-0081 | — |
+| `GER-N-0083` | Understand dense lectures, interviews, and implicit stance | planned | GER-N-0082 | — |
+| `GER-N-0084` | Read literary prose with narratological attention | planned | GER-N-0083 | — |
+| `GER-N-0085` | Read poetry through sound, syntax, image, and form | planned | GER-N-0084 | — |
+| `GER-N-0086` | Read drama through voice, pragmatics, and performance | planned | GER-N-0085 | — |
+| `GER-N-0087` | Mediation and translation as meaning reconstruction | planned | GER-N-0086 | — |
+| `GER-N-0088` | Historical change and why modern German looks the way it does | planned | GER-N-0087 | — |
+| `GER-N-0089` | Official orthography and evidence-based usage decisions | planned | GER-N-0088 | — |
+| `GER-N-0090` | C1/C2 integrated performance and independent language judgment | planned | GER-N-0089 | — |
 
 ## L5
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0091` | Descriptive German grammar beyond learner rules | planned | GER-N-0090 | — |
+| `GER-N-0092` | Corpus linguistics and evidence from authentic usage | planned | GER-N-0091 | — |
+| `GER-N-0093` | Sociolinguistics, variation, identity, and language attitudes | planned | GER-N-0092 | — |
+| `GER-N-0094` | Stylistics and discourse analysis | planned | GER-N-0093 | — |
+| `GER-N-0095` | Literary theory as a toolkit for German texts | planned | GER-N-0094 | — |
+| `GER-N-0096` | Literary history and contextual reading without reducing texts to history | planned | GER-N-0095 | — |
+| `GER-N-0097` | Read and critique German-language scholarship | planned | GER-N-0096 | — |
+| `GER-N-0098` | Write a research-grade linguistic or literary analysis | planned | GER-N-0097 | — |
 
 ## L6
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `GER-N-0099` | Design a corpus-based research question in German | planned | GER-N-0098 | — |
+| `GER-N-0100` | Design a literature or discourse research project | planned | GER-N-0099 | — |
+| `GER-N-0101` | Investigate a live problem in German variation or language change | planned | GER-N-0100 | — |
+| `GER-N-0102` | Produce a publishable or portfolio-grade research artifact in German studies | planned | GER-N-0101 | — |

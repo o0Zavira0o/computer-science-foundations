@@ -7,23 +7,23 @@
 - **Track:** German Language
 - **ID:** `german-language`
 - **Code:** `GER`
-- **Track status:** scaffolded
+- **Track status:** active
 - **Entry model:** zero-subject-specific-knowledge
-- **Focus:** German from absolute beginner level through advanced general, academic, literary, and professional competence, with explicit progression in pronunciation, grammar, vocabulary, listening, speaking, reading, and writing.
+- **Focus:** German from absolute zero through A1–C2 performance, post-C2 precision, academic/professional language, literature, linguistics, corpus-informed usage, and open research.
 
 ## Curriculum state
 
-- **Audit status:** not-audited
-- **Nodes:** 0
-- **Coverage baseline:** not-audited
-- **Coverage items:** 0
-- **Published lessons:** 0
+- **Audit status:** audited
+- **Nodes:** 102
+- **Coverage baseline:** audited
+- **Coverage items:** 22
+- **Published lessons:** 1
 
 ## Registry sizes
 
-- **Concepts:** 0
-- **Examples:** 0
-- **References:** 0
+- **Concepts:** 106
+- **Examples:** 3
+- **References:** 9
 
 ## Learner state
 
@@ -33,15 +33,16 @@
 
 ## Authoring candidates
 
-- BLOCKED — curriculum/coverage reconnaissance is not audited yet.
+- `GER-N-0002` — Introduce yourself: ich, du, Sie, heißen, sein (L0, ready)
 
 ## Learner next actions
 
-- None yet.
+**New lessons with practiced/demonstrated prerequisites**
+- GER-0001 — Sounds, spelling, and your first German utterances [L0]
 
 ## Recent lessons
 
-- None.
+- `GER-0001` — Sounds, spelling, and your first German utterances (L0, complete)
 
 ## Normal-session retrieval rule
 

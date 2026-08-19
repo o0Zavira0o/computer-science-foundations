@@ -2,5 +2,226 @@
   "$schema": "../../schemas/reference-registry.schema.json",
   "schema_version": 1,
   "track": "linux-systems",
-  "references": []
+  "references": [
+    {
+      "id": "LNX-REF-001",
+      "title": "The Open Group Base Specifications Issue 8 / POSIX.1-2024",
+      "type": "standard-specification",
+      "authority": "IEEE / The Open Group",
+      "locator": "https://pubs.opengroup.org/onlinepubs/9799919799/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "IEEE Std 1003.1-2024",
+      "notes": "Portable operating-system interfaces, shell language, utilities, terminology, and rationale."
+    },
+    {
+      "id": "LNX-REF-002",
+      "title": "The Linux Kernel Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Canonical Linux kernel administration, userspace API, subsystem, development, tracing, security, and testing documentation."
+    },
+    {
+      "id": "LNX-REF-003",
+      "title": "Linux man-pages project",
+      "type": "official-documentation",
+      "authority": "Linux man-pages project",
+      "locator": "https://man7.org/linux/man-pages/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Linux system calls, libc-facing interfaces, formats, protocols, and conventions."
+    },
+    {
+      "id": "LNX-REF-004",
+      "title": "GNU Coreutils 9.11 Manual",
+      "type": "official-documentation",
+      "authority": "GNU Project / Free Software Foundation",
+      "locator": "https://www.gnu.org/software/coreutils/manual/coreutils.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Canonical GNU file, text, shell-adjacent, identity, and system utility behavior."
+    },
+    {
+      "id": "LNX-REF-005",
+      "title": "Bash Reference Manual",
+      "type": "official-documentation",
+      "authority": "GNU Project / Free Software Foundation",
+      "locator": "https://www.gnu.org/software/bash/manual/bash.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Bash syntax, expansions, redirections, job control, shell programming, and execution semantics."
+    },
+    {
+      "id": "LNX-REF-006",
+      "title": "systemd Manual Pages",
+      "type": "official-documentation",
+      "authority": "systemd project",
+      "locator": "https://www.freedesktop.org/software/systemd/man/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "systemd units, service supervision, dependencies, activation, logging integration, and system management."
+    },
+    {
+      "id": "LNX-REF-007",
+      "title": "Introduction to Linux (LFS101)",
+      "type": "official-documentation",
+      "authority": "The Linux Foundation",
+      "locator": "https://training.linuxfoundation.org/training/introduction-to-linux/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Beginner operational coverage and major-distribution orientation."
+    },
+    {
+      "id": "LNX-REF-008",
+      "title": "Linux Foundation Certified System Administrator (LFCS) Domains",
+      "type": "official-documentation",
+      "authority": "The Linux Foundation",
+      "locator": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Performance-based administration coverage across operations/deployment, storage, networking, users/groups, and essential commands."
+    },
+    {
+      "id": "LNX-REF-009",
+      "title": "Linux From Scratch 13.0 — systemd edition",
+      "type": "official-documentation",
+      "authority": "Linux From Scratch project",
+      "locator": "https://www.linuxfromscratch.org/lfs/view/13.0-systemd/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2026-09-19",
+      "version": "13.0-systemd",
+      "notes": "Integrative understanding of how a Linux userspace and toolchain are assembled into a bootable system."
+    },
+    {
+      "id": "LNX-REF-010",
+      "title": "Beyond Linux From Scratch — systemd edition",
+      "type": "official-documentation",
+      "authority": "Linux From Scratch project",
+      "locator": "https://www.linuxfromscratch.org/blfs/view/systemd/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Post-LFS networking, graphical, device, service, and application-system integration coverage."
+    },
+    {
+      "id": "LNX-REF-011",
+      "title": "MIT 6.1810 Operating System Engineering",
+      "type": "university-course",
+      "authority": "MIT PDOS / EECS",
+      "locator": "https://pdos.csail.mit.edu/6.1810/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-01-15",
+      "version": null,
+      "notes": "Undergraduate OS implementation and systems programming benchmark: system calls, VM, filesystems, threads, synchronization, IPC, and hardware/software interaction."
+    },
+    {
+      "id": "LNX-REF-012",
+      "title": "UC Berkeley CS 162 Operating Systems and System Programming",
+      "type": "university-course",
+      "authority": "UC Berkeley EECS",
+      "locator": "https://cs162.org/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-01-15",
+      "version": null,
+      "notes": "Operating-system design, systems programming, synchronization, scheduling, virtual memory, storage, networking, and project depth benchmark."
+    },
+    {
+      "id": "LNX-REF-013",
+      "title": "Linux Kernel Development Process Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/process/index.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Kernel source workflow, coding style, maintainers, patch submission, testing, research guidelines, and community process."
+    },
+    {
+      "id": "LNX-REF-014",
+      "title": "Linux Kernel ftrace Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/trace/ftrace.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Kernel tracing framework, tracefs, event tracing, latency analysis, and debugging."
+    },
+    {
+      "id": "LNX-REF-015",
+      "title": "Linux Kernel Networking Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/networking/index.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Linux networking subsystem, Netlink, packet filtering/BPF, device and protocol internals."
+    },
+    {
+      "id": "LNX-REF-016",
+      "title": "Linux /proc Filesystem Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/filesystems/proc.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Kernel/user observability and control surface exposed through procfs."
+    },
+    {
+      "id": "LNX-REF-017",
+      "title": "libbpf Overview and BPF Documentation",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/bpf/libbpf/libbpf_overview.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "eBPF program loading, verification-facing workflows, maps/hooks, and kernel observability extension."
+    },
+    {
+      "id": "LNX-REF-018",
+      "title": "Red Hat Enterprise Linux 10 Documentation",
+      "type": "official-documentation",
+      "authority": "Red Hat",
+      "locator": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Modern enterprise Linux administration, security, networking, storage, automation, and operational practice."
+    },
+    {
+      "id": "LNX-REF-019",
+      "title": "Fedora Linux Project",
+      "type": "official-documentation",
+      "authority": "Fedora Project",
+      "locator": "https://fedoraproject.org/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Current Fedora environment used for concrete labs where distribution-specific behavior matters."
+    },
+    {
+      "id": "LNX-REF-020",
+      "title": "Linux Kernel Researcher Guidelines",
+      "type": "official-documentation",
+      "authority": "Linux kernel development community",
+      "locator": "https://docs.kernel.org/process/researcher-guidelines.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Research engagement, responsible contribution, bug reporting, fixes, and interaction with kernel developers."
+    }
+  ]
 }

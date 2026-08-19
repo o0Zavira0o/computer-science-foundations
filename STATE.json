@@ -2,10 +2,10 @@
   "$schema": "schemas/state.schema.json",
   "schema_version": 2,
   "last_updated": "2026-08-19",
-  "repository_phase": "architecture-stable-pre-content",
+  "repository_phase": "active-multi-track-learning",
   "active_track": null,
   "last_completed_lesson": null,
-  "next_planned_item": "Commit and push the unified V3.1 architecture with the new track scaffolds, then perform evidence-backed curriculum reconnaissance for the selected subject before lesson 0001.",
+  "next_planned_item": "Begin learner study of the first published lessons in Linux Systems, German Language, and Large Language Models; author subsequent lessons only through each audited curriculum graph.",
   "legacy_linux_policy": "Do not silently reuse removed legacy lessons; salvage only after explicit review.",
   "persistent_decisions": [
     "Repository filenames, structural documentation, and educational content are written in English.",
@@ -14,6 +14,7 @@
     "Normal AI sessions use targeted retrieval; recursive full-track reading is reserved for explicit audit modes.",
     "Audited coverage is a real publication gate: it requires registered evidence sources, mapped coverage items, and no unresolved gaps.",
     "Authoring readiness and learner study readiness are separate workflows.",
-    "Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json."
+    "Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json.",
+    "Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery."
   ]
 }

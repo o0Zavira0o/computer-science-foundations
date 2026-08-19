@@ -2,5 +2,748 @@
   "$schema": "../../../schemas/concept-registry.schema.json",
   "schema_version": 1,
   "track": "german-language",
-  "concepts": []
+  "concepts": [
+    {
+      "id": "GER-C-0001",
+      "name": "Sounds, spelling, and your first German utterances",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Primary durable concept/skill for GER-N-0001."
+    },
+    {
+      "id": "GER-C-0002",
+      "name": "Introduce yourself: ich, du, Sie, heißen, sein",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0002."
+    },
+    {
+      "id": "GER-C-0003",
+      "name": "The German sentence skeleton: verb-second in main clauses",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0003."
+    },
+    {
+      "id": "GER-C-0004",
+      "name": "Noun gender and the definite/indefinite articles",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0004."
+    },
+    {
+      "id": "GER-C-0005",
+      "name": "Plural patterns and learning nouns as lexical packages",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0005."
+    },
+    {
+      "id": "GER-C-0006",
+      "name": "Numbers, prices, dates, and clock time",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0006."
+    },
+    {
+      "id": "GER-C-0007",
+      "name": "Present-tense regular verbs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0007."
+    },
+    {
+      "id": "GER-C-0008",
+      "name": "High-frequency irregular verbs and vowel changes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0008."
+    },
+    {
+      "id": "GER-C-0009",
+      "name": "Questions: yes/no, W-words, and information gaps",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0009."
+    },
+    {
+      "id": "GER-C-0010",
+      "name": "Negation with nicht and kein",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0010."
+    },
+    {
+      "id": "GER-C-0011",
+      "name": "The accusative case as a role system",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0011."
+    },
+    {
+      "id": "GER-C-0012",
+      "name": "Modal verbs and infinitives at the end",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0012."
+    },
+    {
+      "id": "GER-C-0013",
+      "name": "Possessives and basic personal-reference forms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0013."
+    },
+    {
+      "id": "GER-C-0014",
+      "name": "Everyday location and direction phrases",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0014."
+    },
+    {
+      "id": "GER-C-0015",
+      "name": "Food, shopping, family, study, and routine vocabulary systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0015."
+    },
+    {
+      "id": "GER-C-0016",
+      "name": "Hear word boundaries and stressed syllables in slow German",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0016."
+    },
+    {
+      "id": "GER-C-0017",
+      "name": "Read signs, forms, short messages, and micro-dialogues",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0017."
+    },
+    {
+      "id": "GER-C-0018",
+      "name": "Write and perform an A1 survival interaction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0018."
+    },
+    {
+      "id": "GER-C-0019",
+      "name": "The dative case and common recipient/location patterns",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0019."
+    },
+    {
+      "id": "GER-C-0020",
+      "name": "Two-way prepositions: location versus direction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0020."
+    },
+    {
+      "id": "GER-C-0021",
+      "name": "Separable-prefix verbs in real sentences",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0021."
+    },
+    {
+      "id": "GER-C-0022",
+      "name": "Reflexive verbs and daily routines",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0022."
+    },
+    {
+      "id": "GER-C-0023",
+      "name": "The perfect tense with haben and sein",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0023."
+    },
+    {
+      "id": "GER-C-0024",
+      "name": "Präteritum of sein, haben, and modal verbs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0024."
+    },
+    {
+      "id": "GER-C-0025",
+      "name": "Adjective use before and after nouns: first system",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0025."
+    },
+    {
+      "id": "GER-C-0026",
+      "name": "Comparatives and superlatives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0026."
+    },
+    {
+      "id": "GER-C-0027",
+      "name": "Subordinate clauses with weil, dass, and wenn",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0027."
+    },
+    {
+      "id": "GER-C-0028",
+      "name": "Time-cause-manner-place and flexible German word order",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0028."
+    },
+    {
+      "id": "GER-C-0029",
+      "name": "Relative clauses: first contact",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0029."
+    },
+    {
+      "id": "GER-C-0030",
+      "name": "Personal and demonstrative pronoun choices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0030."
+    },
+    {
+      "id": "GER-C-0031",
+      "name": "Imperatives, requests, and politeness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0031."
+    },
+    {
+      "id": "GER-C-0032",
+      "name": "Word formation with common prefixes and suffixes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0032."
+    },
+    {
+      "id": "GER-C-0033",
+      "name": "Travel, housing, health, work, and services",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0033."
+    },
+    {
+      "id": "GER-C-0034",
+      "name": "Build connected speech beyond isolated sentences",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0034."
+    },
+    {
+      "id": "GER-C-0035",
+      "name": "Write practical emails, invitations, and short narratives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0035."
+    },
+    {
+      "id": "GER-C-0036",
+      "name": "A2 integrated performance checkpoint",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0036."
+    },
+    {
+      "id": "GER-C-0037",
+      "name": "Integrate nominative, accusative, dative, and genitive roles",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0037."
+    },
+    {
+      "id": "GER-C-0038",
+      "name": "Master adjective endings as information marking",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0038."
+    },
+    {
+      "id": "GER-C-0039",
+      "name": "Subordinate-clause families and clause punctuation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0039."
+    },
+    {
+      "id": "GER-C-0040",
+      "name": "Passive voice with werden",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0040."
+    },
+    {
+      "id": "GER-C-0041",
+      "name": "Konjunktiv II for hypotheticals, wishes, and politeness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0041."
+    },
+    {
+      "id": "GER-C-0042",
+      "name": "Future reference with werden and present-tense alternatives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0042."
+    },
+    {
+      "id": "GER-C-0043",
+      "name": "Narrative Präteritum beyond the high-frequency core",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0043."
+    },
+    {
+      "id": "GER-C-0044",
+      "name": "Relative clauses with case and prepositions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0044."
+    },
+    {
+      "id": "GER-C-0045",
+      "name": "Infinitive clauses with zu",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0045."
+    },
+    {
+      "id": "GER-C-0046",
+      "name": "Participles as modifiers",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0046."
+    },
+    {
+      "id": "GER-C-0047",
+      "name": "Nominalization and the noun-heavy written register",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0047."
+    },
+    {
+      "id": "GER-C-0048",
+      "name": "Connectors for cause, contrast, consequence, and concession",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0048."
+    },
+    {
+      "id": "GER-C-0049",
+      "name": "Information structure: topic, focus, and constituent order",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0049."
+    },
+    {
+      "id": "GER-C-0050",
+      "name": "Understand standard-speed everyday audio",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0050."
+    },
+    {
+      "id": "GER-C-0051",
+      "name": "Read news and expository prose strategically",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0051."
+    },
+    {
+      "id": "GER-C-0052",
+      "name": "Write a structured opinion text",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0052."
+    },
+    {
+      "id": "GER-C-0053",
+      "name": "Tell stories and explain experiences with temporal control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0053."
+    },
+    {
+      "id": "GER-C-0054",
+      "name": "Collocations, idioms, and verb-noun combinations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0054."
+    },
+    {
+      "id": "GER-C-0055",
+      "name": "Register, du/Sie, regional variation, and pragmatic appropriateness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0055."
+    },
+    {
+      "id": "GER-C-0056",
+      "name": "B1 integrated performance checkpoint",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0056."
+    },
+    {
+      "id": "GER-C-0057",
+      "name": "Advanced word order: Mittelfeld, Nachfeld, and marked placement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0057."
+    },
+    {
+      "id": "GER-C-0058",
+      "name": "Clause chaining and syntactic compression",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0058."
+    },
+    {
+      "id": "GER-C-0059",
+      "name": "Konjunktiv I and reported speech",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0059."
+    },
+    {
+      "id": "GER-C-0060",
+      "name": "Passive alternatives and impersonal constructions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0060."
+    },
+    {
+      "id": "GER-C-0061",
+      "name": "Participial constructions and dense written syntax",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0061."
+    },
+    {
+      "id": "GER-C-0062",
+      "name": "Nominal style versus verbal style",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0062."
+    },
+    {
+      "id": "GER-C-0063",
+      "name": "Modal particles: doch, ja, eben, halt, wohl, mal",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0063."
+    },
+    {
+      "id": "GER-C-0064",
+      "name": "Collocational precision and phraseological competence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0064."
+    },
+    {
+      "id": "GER-C-0065",
+      "name": "Build sustained argumentation and counterargument",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0065."
+    },
+    {
+      "id": "GER-C-0066",
+      "name": "Read academic and technical prose",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0066."
+    },
+    {
+      "id": "GER-C-0067",
+      "name": "Present, debate, negotiate, and repair misunderstandings",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0067."
+    },
+    {
+      "id": "GER-C-0068",
+      "name": "Understand faster speech and selected regional accents",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0068."
+    },
+    {
+      "id": "GER-C-0069",
+      "name": "Write reports, analyses, and formal correspondence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0069."
+    },
+    {
+      "id": "GER-C-0070",
+      "name": "Diagnose and correct recurring grammatical errors",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0070."
+    },
+    {
+      "id": "GER-C-0071",
+      "name": "Use corpora, dictionaries, and grammar references responsibly",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0071."
+    },
+    {
+      "id": "GER-C-0072",
+      "name": "Variation: standard German, regional standards, dialect, sociolect",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0072."
+    },
+    {
+      "id": "GER-C-0073",
+      "name": "Read literary prose as language, not only plot",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0073."
+    },
+    {
+      "id": "GER-C-0074",
+      "name": "B2 integrated performance checkpoint",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0074."
+    },
+    {
+      "id": "GER-C-0075",
+      "name": "Precision, idiomaticity, and stylistic choice at C1/C2",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0075."
+    },
+    {
+      "id": "GER-C-0076",
+      "name": "Information structure, rhythm, emphasis, and rhetorical effect",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0076."
+    },
+    {
+      "id": "GER-C-0077",
+      "name": "Lexical nuance, connotation, register, and near-synonyms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0077."
+    },
+    {
+      "id": "GER-C-0078",
+      "name": "Advanced phraseology, metaphor, and conventional imagery",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0078."
+    },
+    {
+      "id": "GER-C-0079",
+      "name": "Grammar at the margins: variation, preference, and acceptability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0079."
+    },
+    {
+      "id": "GER-C-0080",
+      "name": "Academic writing: synthesis, citation, stance, and cohesion",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0080."
+    },
+    {
+      "id": "GER-C-0081",
+      "name": "Professional German: meetings, reports, proposals, and negotiation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0081."
+    },
+    {
+      "id": "GER-C-0082",
+      "name": "Rhetorical analysis of public and argumentative discourse",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0082."
+    },
+    {
+      "id": "GER-C-0083",
+      "name": "Understand dense lectures, interviews, and implicit stance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0083."
+    },
+    {
+      "id": "GER-C-0084",
+      "name": "Read literary prose with narratological attention",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0084."
+    },
+    {
+      "id": "GER-C-0085",
+      "name": "Read poetry through sound, syntax, image, and form",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0085."
+    },
+    {
+      "id": "GER-C-0086",
+      "name": "Read drama through voice, pragmatics, and performance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0086."
+    },
+    {
+      "id": "GER-C-0087",
+      "name": "Mediation and translation as meaning reconstruction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0087."
+    },
+    {
+      "id": "GER-C-0088",
+      "name": "Historical change and why modern German looks the way it does",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0088."
+    },
+    {
+      "id": "GER-C-0089",
+      "name": "Official orthography and evidence-based usage decisions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0089."
+    },
+    {
+      "id": "GER-C-0090",
+      "name": "C1/C2 integrated performance and independent language judgment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0090."
+    },
+    {
+      "id": "GER-C-0091",
+      "name": "Descriptive German grammar beyond learner rules",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0091."
+    },
+    {
+      "id": "GER-C-0092",
+      "name": "Corpus linguistics and evidence from authentic usage",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0092."
+    },
+    {
+      "id": "GER-C-0093",
+      "name": "Sociolinguistics, variation, identity, and language attitudes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0093."
+    },
+    {
+      "id": "GER-C-0094",
+      "name": "Stylistics and discourse analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0094."
+    },
+    {
+      "id": "GER-C-0095",
+      "name": "Literary theory as a toolkit for German texts",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0095."
+    },
+    {
+      "id": "GER-C-0096",
+      "name": "Literary history and contextual reading without reducing texts to history",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0096."
+    },
+    {
+      "id": "GER-C-0097",
+      "name": "Read and critique German-language scholarship",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0097."
+    },
+    {
+      "id": "GER-C-0098",
+      "name": "Write a research-grade linguistic or literary analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0098."
+    },
+    {
+      "id": "GER-C-0099",
+      "name": "Design a corpus-based research question in German",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0099."
+    },
+    {
+      "id": "GER-C-0100",
+      "name": "Design a literature or discourse research project",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0100."
+    },
+    {
+      "id": "GER-C-0101",
+      "name": "Investigate a live problem in German variation or language change",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0101."
+    },
+    {
+      "id": "GER-C-0102",
+      "name": "Produce a publishable or portfolio-grade research artifact in German studies",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept/skill for GER-N-0102."
+    },
+    {
+      "id": "GER-C-0201",
+      "name": "German grapheme–sound mapping",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in GER-0001."
+    },
+    {
+      "id": "GER-C-0202",
+      "name": "Lexical stress",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in GER-0001."
+    },
+    {
+      "id": "GER-C-0203",
+      "name": "German special letters: ä ö ü ß",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in GER-0001."
+    },
+    {
+      "id": "GER-C-0204",
+      "name": "Formulaic communicative chunk",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in GER-0001."
+    }
+  ]
 }

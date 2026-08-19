@@ -2,7 +2,2458 @@
   "$schema": "../schemas/curriculum.schema.json",
   "schema_version": 1,
   "track": "large-language-models",
-  "audit_status": "not-audited",
-  "last_coverage_audit": null,
-  "nodes": []
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-19",
+  "nodes": [
+    {
+      "id": "LLM-N-0001",
+      "title": "What a language model is",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Explain what a language model is in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0001",
+          "target_depth": "D1"
+        },
+        {
+          "id": "LLM-C-0201",
+          "target_depth": "D1"
+        },
+        {
+          "id": "LLM-C-0202",
+          "target_depth": "D1"
+        },
+        {
+          "id": "LLM-C-0203",
+          "target_depth": "D1"
+        },
+        {
+          "id": "LLM-C-0204",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": "LLM-0001"
+    },
+    {
+      "id": "LLM-N-0002",
+      "title": "Text, symbols, tokens, and vocabularies",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "LLM-N-0001"
+      ],
+      "outcomes": [
+        "Explain text, symbols, tokens, and vocabularies in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0002",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0003",
+      "title": "Probability from counts: uncertainty without mystery",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0002"
+      ],
+      "outcomes": [
+        "Explain probability from counts: uncertainty without mystery in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0004",
+      "title": "Logits, softmax, and categorical prediction",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0003"
+      ],
+      "outcomes": [
+        "Explain logits, softmax, and categorical prediction in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0005",
+      "title": "Vectors and dot products as similarity and scoring",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0004"
+      ],
+      "outcomes": [
+        "Explain vectors and dot products as similarity and scoring in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0006",
+      "title": "Matrices as organized linear transformations",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0005"
+      ],
+      "outcomes": [
+        "Explain matrices as organized linear transformations in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0007",
+      "title": "Derivatives, gradients, and computational graphs",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0006"
+      ],
+      "outcomes": [
+        "Explain derivatives, gradients, and computational graphs in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0008",
+      "title": "Loss functions and gradient descent",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0007"
+      ],
+      "outcomes": [
+        "Explain loss functions and gradient descent in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0009",
+      "title": "Neural-network layers and nonlinearities",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0008"
+      ],
+      "outcomes": [
+        "Explain neural-network layers and nonlinearities in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0010",
+      "title": "PyTorch tensors, shapes, and autograd",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0009"
+      ],
+      "outcomes": [
+        "Explain pytorch tensors, shapes, and autograd in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0011",
+      "title": "Build a tiny character-level language model",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0010"
+      ],
+      "outcomes": [
+        "Explain build a tiny character-level language model in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0012",
+      "title": "Embeddings: turning discrete tokens into learned vectors",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0011"
+      ],
+      "outcomes": [
+        "Explain embeddings: turning discrete tokens into learned vectors in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0013",
+      "title": "Sequence context and the autoregressive factorization",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0012"
+      ],
+      "outcomes": [
+        "Explain sequence context and the autoregressive factorization in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0014",
+      "title": "Training, validation, test sets, and data leakage",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0013"
+      ],
+      "outcomes": [
+        "Explain training, validation, test sets, and data leakage in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0015",
+      "title": "Cross-entropy, perplexity, and what a training curve means",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0014"
+      ],
+      "outcomes": [
+        "Explain cross-entropy, perplexity, and what a training curve means in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0016",
+      "title": "Data pipelines, batches, padding, and sequence packing",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0015"
+      ],
+      "outcomes": [
+        "Explain data pipelines, batches, padding, and sequence packing in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0016",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0017",
+      "title": "Compute, memory, reproducibility, and experiment hygiene",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0016"
+      ],
+      "outcomes": [
+        "Explain compute, memory, reproducibility, and experiment hygiene in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0017",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0018",
+      "title": "From tiny models to Transformers: the dependency map",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0017"
+      ],
+      "outcomes": [
+        "Explain from tiny models to transformers: the dependency map in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0018",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0019",
+      "title": "Why attention was introduced",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0018"
+      ],
+      "outcomes": [
+        "Explain why attention was introduced in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0019",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0020",
+      "title": "Queries, keys, values, and scaled dot-product attention",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0019"
+      ],
+      "outcomes": [
+        "Explain queries, keys, values, and scaled dot-product attention in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0020",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0021",
+      "title": "Self-attention by hand on a toy sequence",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0020"
+      ],
+      "outcomes": [
+        "Explain self-attention by hand on a toy sequence in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0021",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0022",
+      "title": "Causal masking and autoregressive attention",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0021"
+      ],
+      "outcomes": [
+        "Explain causal masking and autoregressive attention in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0022",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0023",
+      "title": "Multi-head attention as parallel learned subspaces",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0022"
+      ],
+      "outcomes": [
+        "Explain multi-head attention as parallel learned subspaces in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0023",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0024",
+      "title": "Positional information: absolute, rotary, and relative ideas",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0023"
+      ],
+      "outcomes": [
+        "Explain positional information: absolute, rotary, and relative ideas in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0024",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0025",
+      "title": "Residual streams and skip connections",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0024"
+      ],
+      "outcomes": [
+        "Explain residual streams and skip connections in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0025",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0026",
+      "title": "Layer normalization and normalization placement",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0025"
+      ],
+      "outcomes": [
+        "Explain layer normalization and normalization placement in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0026",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0027",
+      "title": "Feed-forward blocks and gated MLPs",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0026"
+      ],
+      "outcomes": [
+        "Explain feed-forward blocks and gated mlps in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0027",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0028",
+      "title": "Assemble a decoder-only Transformer block",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0027"
+      ],
+      "outcomes": [
+        "Explain assemble a decoder-only transformer block in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0028",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0029",
+      "title": "Parameter initialization and stable signal propagation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0028"
+      ],
+      "outcomes": [
+        "Explain parameter initialization and stable signal propagation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0029",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0030",
+      "title": "Token embeddings and output projections",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0029"
+      ],
+      "outcomes": [
+        "Explain token embeddings and output projections in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0030",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0031",
+      "title": "The next-token objective at Transformer scale",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0030"
+      ],
+      "outcomes": [
+        "Explain the next-token objective at transformer scale in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0031",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0032",
+      "title": "Teacher forcing, sequence loss, and masking padded tokens",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0031"
+      ],
+      "outcomes": [
+        "Explain teacher forcing, sequence loss, and masking padded tokens in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0032",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0033",
+      "title": "Optimizers: SGD, momentum, Adam, and AdamW",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0032"
+      ],
+      "outcomes": [
+        "Explain optimizers: sgd, momentum, adam, and adamw in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0033",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0034",
+      "title": "Learning-rate schedules, warmup, clipping, and weight decay",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0033"
+      ],
+      "outcomes": [
+        "Explain learning-rate schedules, warmup, clipping, and weight decay in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0034",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0035",
+      "title": "Dropout, regularization, and overfitting in language models",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0034"
+      ],
+      "outcomes": [
+        "Explain dropout, regularization, and overfitting in language models in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0035",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0036",
+      "title": "Checkpointing, resuming, and reproducible training state",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0035"
+      ],
+      "outcomes": [
+        "Explain checkpointing, resuming, and reproducible training state in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0036",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0037",
+      "title": "Decoding: greedy, sampling, top-k, top-p, and temperature",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0036"
+      ],
+      "outcomes": [
+        "Explain decoding: greedy, sampling, top-k, top-p, and temperature in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0037",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0038",
+      "title": "Beam search and why open-ended generation is different",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0037"
+      ],
+      "outcomes": [
+        "Explain beam search and why open-ended generation is different in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0038",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0039",
+      "title": "Train and debug a small Transformer from scratch",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0038"
+      ],
+      "outcomes": [
+        "Explain train and debug a small transformer from scratch in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0039",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0040",
+      "title": "Read a modern decoder architecture specification",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0039"
+      ],
+      "outcomes": [
+        "Explain read a modern decoder architecture specification in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0040",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0041",
+      "title": "Tokenizer design: BPE, unigram models, and SentencePiece",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0040"
+      ],
+      "outcomes": [
+        "Explain tokenizer design: bpe, unigram models, and sentencepiece in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0041",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0042",
+      "title": "Vocabulary size, fertility, multilinguality, and tokenization bias",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0041"
+      ],
+      "outcomes": [
+        "Explain vocabulary size, fertility, multilinguality, and tokenization bias in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0042",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0043",
+      "title": "Dataset collection, licensing, provenance, and governance",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0042"
+      ],
+      "outcomes": [
+        "Explain dataset collection, licensing, provenance, and governance in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0043",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0044",
+      "title": "Cleaning, filtering, deduplication, and quality mixtures",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0043"
+      ],
+      "outcomes": [
+        "Explain cleaning, filtering, deduplication, and quality mixtures in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0044",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0045",
+      "title": "Data contamination and benchmark leakage",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0044"
+      ],
+      "outcomes": [
+        "Explain data contamination and benchmark leakage in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0045",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0046",
+      "title": "Scaling laws: parameters, data, compute, and loss",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0045"
+      ],
+      "outcomes": [
+        "Explain scaling laws: parameters, data, compute, and loss in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0046",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0047",
+      "title": "Compute-optimal training and the Chinchilla result",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0046"
+      ],
+      "outcomes": [
+        "Explain compute-optimal training and the chinchilla result in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0047",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0048",
+      "title": "Hardware-aware batch size and gradient accumulation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0047"
+      ],
+      "outcomes": [
+        "Explain hardware-aware batch size and gradient accumulation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0048",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0049",
+      "title": "Mixed precision and numerical stability",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0048"
+      ],
+      "outcomes": [
+        "Explain mixed precision and numerical stability in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0049",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0050",
+      "title": "Data parallel training and collective communication",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0049"
+      ],
+      "outcomes": [
+        "Explain data parallel training and collective communication in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0050",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0051",
+      "title": "Fully sharded data parallelism",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0050"
+      ],
+      "outcomes": [
+        "Explain fully sharded data parallelism in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0051",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0052",
+      "title": "Tensor and sequence parallelism",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0051"
+      ],
+      "outcomes": [
+        "Explain tensor and sequence parallelism in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0052",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0053",
+      "title": "Pipeline parallelism and hybrid parallel strategies",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0052"
+      ],
+      "outcomes": [
+        "Explain pipeline parallelism and hybrid parallel strategies in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0053",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0054",
+      "title": "Activation checkpointing and memory-compute tradeoffs",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0053"
+      ],
+      "outcomes": [
+        "Explain activation checkpointing and memory-compute tradeoffs in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0054",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0055",
+      "title": "Distributed checkpoints, fault tolerance, and restart design",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0054"
+      ],
+      "outcomes": [
+        "Explain distributed checkpoints, fault tolerance, and restart design in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0055",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0056",
+      "title": "Supervised fine-tuning for instructions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0055"
+      ],
+      "outcomes": [
+        "Explain supervised fine-tuning for instructions in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0056",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0057",
+      "title": "Preference data and reward modeling",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0056"
+      ],
+      "outcomes": [
+        "Explain preference data and reward modeling in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0057",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0058",
+      "title": "RLHF: policy optimization around a learned reward",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0057"
+      ],
+      "outcomes": [
+        "Explain rlhf: policy optimization around a learned reward in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0058",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0059",
+      "title": "Direct Preference Optimization and reference policies",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0058"
+      ],
+      "outcomes": [
+        "Explain direct preference optimization and reference policies in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0059",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0060",
+      "title": "Reasoning post-training and verifiable rewards",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0059"
+      ],
+      "outcomes": [
+        "Explain reasoning post-training and verifiable rewards in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0060",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0061",
+      "title": "Evaluation design: capabilities, robustness, and failure modes",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0060"
+      ],
+      "outcomes": [
+        "Explain evaluation design: capabilities, robustness, and failure modes in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0061",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0062",
+      "title": "Calibration, uncertainty, hallucination, and abstention",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0061"
+      ],
+      "outcomes": [
+        "Explain calibration, uncertainty, hallucination, and abstention in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0062",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0063",
+      "title": "Retrieval-augmented generation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0062"
+      ],
+      "outcomes": [
+        "Explain retrieval-augmented generation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0063",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0064",
+      "title": "Tool use, function calling, and grounded action",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0063"
+      ],
+      "outcomes": [
+        "Explain tool use, function calling, and grounded action in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0064",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0065",
+      "title": "Long-context behavior and context-window evaluation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0064"
+      ],
+      "outcomes": [
+        "Explain long-context behavior and context-window evaluation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0065",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0066",
+      "title": "KV caches and the cost structure of autoregressive decoding",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0065"
+      ],
+      "outcomes": [
+        "Explain kv caches and the cost structure of autoregressive decoding in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0066",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0067",
+      "title": "PagedAttention and memory-aware serving",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0066"
+      ],
+      "outcomes": [
+        "Explain pagedattention and memory-aware serving in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0067",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0068",
+      "title": "Continuous batching and serving schedulers",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0067"
+      ],
+      "outcomes": [
+        "Explain continuous batching and serving schedulers in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0068",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0069",
+      "title": "FlashAttention and IO-aware exact attention",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0068"
+      ],
+      "outcomes": [
+        "Explain flashattention and io-aware exact attention in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0069",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0070",
+      "title": "Quantization for training and inference",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0069"
+      ],
+      "outcomes": [
+        "Explain quantization for training and inference in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0070",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0071",
+      "title": "Speculative decoding and draft models",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0070"
+      ],
+      "outcomes": [
+        "Explain speculative decoding and draft models in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0071",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0072",
+      "title": "Throughput, latency, time-to-first-token, and service-level tradeoffs",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0071"
+      ],
+      "outcomes": [
+        "Explain throughput, latency, time-to-first-token, and service-level tradeoffs in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0072",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0073",
+      "title": "Mixture-of-Experts architectures and routing",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0072"
+      ],
+      "outcomes": [
+        "Explain mixture-of-experts architectures and routing in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0073",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0074",
+      "title": "Parameter-efficient fine-tuning and adapters",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0073"
+      ],
+      "outcomes": [
+        "Explain parameter-efficient fine-tuning and adapters in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0074",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0075",
+      "title": "Distillation and small-model transfer",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0074"
+      ],
+      "outcomes": [
+        "Explain distillation and small-model transfer in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0075",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0076",
+      "title": "Synthetic data: generation, filtering, and collapse risks",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0075"
+      ],
+      "outcomes": [
+        "Explain synthetic data: generation, filtering, and collapse risks in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0076",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0077",
+      "title": "Multilingual language models and cross-lingual transfer",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0076"
+      ],
+      "outcomes": [
+        "Explain multilingual language models and cross-lingual transfer in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0077",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0078",
+      "title": "Code language models and execution-aware evaluation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0077"
+      ],
+      "outcomes": [
+        "Explain code language models and execution-aware evaluation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0078",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0079",
+      "title": "Agents, ReAct-style loops, memory, and environment feedback",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0078"
+      ],
+      "outcomes": [
+        "Explain agents, react-style loops, memory, and environment feedback in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0079",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0080",
+      "title": "Mechanistic interpretability: activations, circuits, and causal interventions",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0079"
+      ],
+      "outcomes": [
+        "Explain mechanistic interpretability: activations, circuits, and causal interventions in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0080",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0081",
+      "title": "Representation analysis and probing without overclaiming",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0080"
+      ],
+      "outcomes": [
+        "Explain representation analysis and probing without overclaiming in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0081",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0082",
+      "title": "Safety evaluations, red teaming, and jailbreak methodology",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0081"
+      ],
+      "outcomes": [
+        "Explain safety evaluations, red teaming, and jailbreak methodology in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0082",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0083",
+      "title": "Alignment behavior, harmlessness, and refusal tradeoffs",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0082"
+      ],
+      "outcomes": [
+        "Explain alignment behavior, harmlessness, and refusal tradeoffs in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0083",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0084",
+      "title": "Privacy, memorization, extraction, and data protection",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0083"
+      ],
+      "outcomes": [
+        "Explain privacy, memorization, extraction, and data protection in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0084",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0085",
+      "title": "Reproducible LLM experimentation and experiment tracking",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0084"
+      ],
+      "outcomes": [
+        "Explain reproducible llm experimentation and experiment tracking in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0085",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0086",
+      "title": "Build an end-to-end train-evaluate-serve pipeline",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0085"
+      ],
+      "outcomes": [
+        "Explain build an end-to-end train-evaluate-serve pipeline in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0086",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0087",
+      "title": "Optimization dynamics in large-scale pretraining",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0086"
+      ],
+      "outcomes": [
+        "Explain optimization dynamics in large-scale pretraining in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0087",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0088",
+      "title": "Modern scaling-law estimation and uncertainty",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0087"
+      ],
+      "outcomes": [
+        "Explain modern scaling-law estimation and uncertainty in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0088",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0089",
+      "title": "Data mixture optimization and curriculum effects",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0088"
+      ],
+      "outcomes": [
+        "Explain data mixture optimization and curriculum effects in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0089",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0090",
+      "title": "Architecture tradeoffs beyond the standard Transformer",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0089"
+      ],
+      "outcomes": [
+        "Explain architecture tradeoffs beyond the standard transformer in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0090",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0091",
+      "title": "Efficient attention and state-space alternatives",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0090"
+      ],
+      "outcomes": [
+        "Explain efficient attention and state-space alternatives in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0091",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0092",
+      "title": "Test-time compute and reasoning-time scaling",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0091"
+      ],
+      "outcomes": [
+        "Explain test-time compute and reasoning-time scaling in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0092",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0093",
+      "title": "Reinforcement learning for reasoning and process supervision",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0092"
+      ],
+      "outcomes": [
+        "Explain reinforcement learning for reasoning and process supervision in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0093",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0094",
+      "title": "Evaluation science: validity, reliability, saturation, and gaming",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0093"
+      ],
+      "outcomes": [
+        "Explain evaluation science: validity, reliability, saturation, and gaming in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0094",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0095",
+      "title": "Benchmark construction and contamination-resistant testing",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0094"
+      ],
+      "outcomes": [
+        "Explain benchmark construction and contamination-resistant testing in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0095",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0096",
+      "title": "Mechanistic interpretability at model scale",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0095"
+      ],
+      "outcomes": [
+        "Explain mechanistic interpretability at model scale in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0096",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0097",
+      "title": "Causal representation analysis",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0096"
+      ],
+      "outcomes": [
+        "Explain causal representation analysis in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0097",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0098",
+      "title": "Robustness under distribution shift and adversarial prompting",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0097"
+      ],
+      "outcomes": [
+        "Explain robustness under distribution shift and adversarial prompting in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0098",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0099",
+      "title": "Scalable oversight and weak-to-strong supervision",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0098"
+      ],
+      "outcomes": [
+        "Explain scalable oversight and weak-to-strong supervision in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0099",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0100",
+      "title": "Model editing, unlearning, and behavior localization",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0099"
+      ],
+      "outcomes": [
+        "Explain model editing, unlearning, and behavior localization in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0100",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0101",
+      "title": "Inference-system co-design for large models",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0100"
+      ],
+      "outcomes": [
+        "Explain inference-system co-design for large models in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0101",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0102",
+      "title": "Research replication: reproduce a nontrivial LLM result",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0101"
+      ],
+      "outcomes": [
+        "Explain research replication: reproduce a nontrivial llm result in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0102",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0103",
+      "title": "Read an LLM paper as an argument, not a leaderboard",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0102"
+      ],
+      "outcomes": [
+        "Explain read an llm paper as an argument, not a leaderboard in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0103",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0104",
+      "title": "Design ablations that isolate a mechanism",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0103"
+      ],
+      "outcomes": [
+        "Explain design ablations that isolate a mechanism in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0104",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0105",
+      "title": "Statistical uncertainty and multiple comparisons in evaluation",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0104"
+      ],
+      "outcomes": [
+        "Explain statistical uncertainty and multiple comparisons in evaluation in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0105",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0106",
+      "title": "Measure systems claims with defensible benchmarks",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0105"
+      ],
+      "outcomes": [
+        "Explain measure systems claims with defensible benchmarks in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0106",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0107",
+      "title": "Audit an open model: data, architecture, training, and license evidence",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0106"
+      ],
+      "outcomes": [
+        "Explain audit an open model: data, architecture, training, and license evidence in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0107",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0108",
+      "title": "Reproduce a published language-model experiment",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0107"
+      ],
+      "outcomes": [
+        "Explain reproduce a published language-model experiment in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0108",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0109",
+      "title": "Write a critical technical review of an LLM claim",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0108"
+      ],
+      "outcomes": [
+        "Explain write a critical technical review of an llm claim in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0109",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0110",
+      "title": "Research ethics, disclosure, dual use, and responsible release",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0109"
+      ],
+      "outcomes": [
+        "Explain research ethics, disclosure, dual use, and responsible release in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0110",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0111",
+      "title": "Map a current LLM research frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0110"
+      ],
+      "outcomes": [
+        "Explain map a current llm research frontier in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0111",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0112",
+      "title": "Turn a vague curiosity into a falsifiable research question",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0111"
+      ],
+      "outcomes": [
+        "Explain turn a vague curiosity into a falsifiable research question in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0112",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0113",
+      "title": "Build the smallest decisive prototype",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0112"
+      ],
+      "outcomes": [
+        "Explain build the smallest decisive prototype in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0113",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0114",
+      "title": "Design an evaluation suite that could disprove your claim",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0113"
+      ],
+      "outcomes": [
+        "Explain design an evaluation suite that could disprove your claim in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0114",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0115",
+      "title": "Run, analyze, and stress-test a frontier experiment",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0114"
+      ],
+      "outcomes": [
+        "Explain run, analyze, and stress-test a frontier experiment in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0115",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LLM-N-0116",
+      "title": "Produce a reproducible contribution-grade research artifact",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LLM-N-0115"
+      ],
+      "outcomes": [
+        "Explain produce a reproducible contribution-grade research artifact in a mechanistic way rather than as a slogan.",
+        "Use the idea in a worked analysis, implementation, evaluation, or design decision appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "LLM-C-0116",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    }
+  ]
 }

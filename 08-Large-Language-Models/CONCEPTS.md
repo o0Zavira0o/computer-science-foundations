@@ -4,4 +4,123 @@
 
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
-| — | — | — | No concepts registered yet |
+| `LLM-C-0001` | What a language model is | D1 | — |
+| `LLM-C-0002` | Text, symbols, tokens, and vocabularies | — | — |
+| `LLM-C-0003` | Probability from counts — uncertainty without mystery | — | — |
+| `LLM-C-0004` | Logits, softmax, and categorical prediction | — | — |
+| `LLM-C-0005` | Vectors and dot products as similarity and scoring | — | — |
+| `LLM-C-0006` | Matrices as organized linear transformations | — | — |
+| `LLM-C-0007` | Derivatives, gradients, and computational graphs | — | — |
+| `LLM-C-0008` | Loss functions and gradient descent | — | — |
+| `LLM-C-0009` | Neural-network layers and nonlinearities | — | — |
+| `LLM-C-0010` | PyTorch tensors, shapes, and autograd | — | — |
+| `LLM-C-0011` | Build a tiny character-level language model | — | — |
+| `LLM-C-0012` | Embeddings — turning discrete tokens into learned vectors | — | — |
+| `LLM-C-0013` | Sequence context and the autoregressive factorization | — | — |
+| `LLM-C-0014` | Training, validation, test sets, and data leakage | — | — |
+| `LLM-C-0015` | Cross-entropy, perplexity, and what a training curve means | — | — |
+| `LLM-C-0016` | Data pipelines, batches, padding, and sequence packing | — | — |
+| `LLM-C-0017` | Compute, memory, reproducibility, and experiment hygiene | — | — |
+| `LLM-C-0018` | From tiny models to Transformers — the dependency map | — | — |
+| `LLM-C-0019` | Why attention was introduced | — | — |
+| `LLM-C-0020` | Queries, keys, values, and scaled dot-product attention | — | — |
+| `LLM-C-0021` | Self-attention by hand on a toy sequence | — | — |
+| `LLM-C-0022` | Causal masking and autoregressive attention | — | — |
+| `LLM-C-0023` | Multi-head attention as parallel learned subspaces | — | — |
+| `LLM-C-0024` | Positional information — absolute, rotary, and relative ideas | — | — |
+| `LLM-C-0025` | Residual streams and skip connections | — | — |
+| `LLM-C-0026` | Layer normalization and normalization placement | — | — |
+| `LLM-C-0027` | Feed-forward blocks and gated MLPs | — | — |
+| `LLM-C-0028` | Assemble a decoder-only Transformer block | — | — |
+| `LLM-C-0029` | Parameter initialization and stable signal propagation | — | — |
+| `LLM-C-0030` | Token embeddings and output projections | — | — |
+| `LLM-C-0031` | The next-token objective at Transformer scale | — | — |
+| `LLM-C-0032` | Teacher forcing, sequence loss, and masking padded tokens | — | — |
+| `LLM-C-0033` | Optimizers — SGD, momentum, Adam, and AdamW | — | — |
+| `LLM-C-0034` | Learning-rate schedules, warmup, clipping, and weight decay | — | — |
+| `LLM-C-0035` | Dropout, regularization, and overfitting in language models | — | — |
+| `LLM-C-0036` | Checkpointing, resuming, and reproducible training state | — | — |
+| `LLM-C-0037` | Decoding — greedy, sampling, top-k, top-p, and temperature | — | — |
+| `LLM-C-0038` | Beam search and why open-ended generation is different | — | — |
+| `LLM-C-0039` | Train and debug a small Transformer from scratch | — | — |
+| `LLM-C-0040` | Read a modern decoder architecture specification | — | — |
+| `LLM-C-0041` | Tokenizer design — BPE, unigram models, and SentencePiece | — | — |
+| `LLM-C-0042` | Vocabulary size, fertility, multilinguality, and tokenization bias | — | — |
+| `LLM-C-0043` | Dataset collection, licensing, provenance, and governance | — | — |
+| `LLM-C-0044` | Cleaning, filtering, deduplication, and quality mixtures | — | — |
+| `LLM-C-0045` | Data contamination and benchmark leakage | — | — |
+| `LLM-C-0046` | Scaling laws — parameters, data, compute, and loss | — | — |
+| `LLM-C-0047` | Compute-optimal training and the Chinchilla result | — | — |
+| `LLM-C-0048` | Hardware-aware batch size and gradient accumulation | — | — |
+| `LLM-C-0049` | Mixed precision and numerical stability | — | — |
+| `LLM-C-0050` | Data parallel training and collective communication | — | — |
+| `LLM-C-0051` | Fully sharded data parallelism | — | — |
+| `LLM-C-0052` | Tensor and sequence parallelism | — | — |
+| `LLM-C-0053` | Pipeline parallelism and hybrid parallel strategies | — | — |
+| `LLM-C-0054` | Activation checkpointing and memory-compute tradeoffs | — | — |
+| `LLM-C-0055` | Distributed checkpoints, fault tolerance, and restart design | — | — |
+| `LLM-C-0056` | Supervised fine-tuning for instructions | — | — |
+| `LLM-C-0057` | Preference data and reward modeling | — | — |
+| `LLM-C-0058` | RLHF — policy optimization around a learned reward | — | — |
+| `LLM-C-0059` | Direct Preference Optimization and reference policies | — | — |
+| `LLM-C-0060` | Reasoning post-training and verifiable rewards | — | — |
+| `LLM-C-0061` | Evaluation design — capabilities, robustness, and failure modes | — | — |
+| `LLM-C-0062` | Calibration, uncertainty, hallucination, and abstention | — | — |
+| `LLM-C-0063` | Retrieval-augmented generation | — | — |
+| `LLM-C-0064` | Tool use, function calling, and grounded action | — | — |
+| `LLM-C-0065` | Long-context behavior and context-window evaluation | — | — |
+| `LLM-C-0066` | KV caches and the cost structure of autoregressive decoding | — | — |
+| `LLM-C-0067` | PagedAttention and memory-aware serving | — | — |
+| `LLM-C-0068` | Continuous batching and serving schedulers | — | — |
+| `LLM-C-0069` | FlashAttention and IO-aware exact attention | — | — |
+| `LLM-C-0070` | Quantization for training and inference | — | — |
+| `LLM-C-0071` | Speculative decoding and draft models | — | — |
+| `LLM-C-0072` | Throughput, latency, time-to-first-token, and service-level tradeoffs | — | — |
+| `LLM-C-0073` | Mixture-of-Experts architectures and routing | — | — |
+| `LLM-C-0074` | Parameter-efficient fine-tuning and adapters | — | — |
+| `LLM-C-0075` | Distillation and small-model transfer | — | — |
+| `LLM-C-0076` | Synthetic data — generation, filtering, and collapse risks | — | — |
+| `LLM-C-0077` | Multilingual language models and cross-lingual transfer | — | — |
+| `LLM-C-0078` | Code language models and execution-aware evaluation | — | — |
+| `LLM-C-0079` | Agents, ReAct-style loops, memory, and environment feedback | — | — |
+| `LLM-C-0080` | Mechanistic interpretability — activations, circuits, and causal interventions | — | — |
+| `LLM-C-0081` | Representation analysis and probing without overclaiming | — | — |
+| `LLM-C-0082` | Safety evaluations, red teaming, and jailbreak methodology | — | — |
+| `LLM-C-0083` | Alignment behavior, harmlessness, and refusal tradeoffs | — | — |
+| `LLM-C-0084` | Privacy, memorization, extraction, and data protection | — | — |
+| `LLM-C-0085` | Reproducible LLM experimentation and experiment tracking | — | — |
+| `LLM-C-0086` | Build an end-to-end train-evaluate-serve pipeline | — | — |
+| `LLM-C-0087` | Optimization dynamics in large-scale pretraining | — | — |
+| `LLM-C-0088` | Modern scaling-law estimation and uncertainty | — | — |
+| `LLM-C-0089` | Data mixture optimization and curriculum effects | — | — |
+| `LLM-C-0090` | Architecture tradeoffs beyond the standard Transformer | — | — |
+| `LLM-C-0091` | Efficient attention and state-space alternatives | — | — |
+| `LLM-C-0092` | Test-time compute and reasoning-time scaling | — | — |
+| `LLM-C-0093` | Reinforcement learning for reasoning and process supervision | — | — |
+| `LLM-C-0094` | Evaluation science — validity, reliability, saturation, and gaming | — | — |
+| `LLM-C-0095` | Benchmark construction and contamination-resistant testing | — | — |
+| `LLM-C-0096` | Mechanistic interpretability at model scale | — | — |
+| `LLM-C-0097` | Causal representation analysis | — | — |
+| `LLM-C-0098` | Robustness under distribution shift and adversarial prompting | — | — |
+| `LLM-C-0099` | Scalable oversight and weak-to-strong supervision | — | — |
+| `LLM-C-0100` | Model editing, unlearning, and behavior localization | — | — |
+| `LLM-C-0101` | Inference-system co-design for large models | — | — |
+| `LLM-C-0102` | Research replication — reproduce a nontrivial LLM result | — | — |
+| `LLM-C-0103` | Read an LLM paper as an argument, not a leaderboard | — | — |
+| `LLM-C-0104` | Design ablations that isolate a mechanism | — | — |
+| `LLM-C-0105` | Statistical uncertainty and multiple comparisons in evaluation | — | — |
+| `LLM-C-0106` | Measure systems claims with defensible benchmarks | — | — |
+| `LLM-C-0107` | Audit an open model — data, architecture, training, and license evidence | — | — |
+| `LLM-C-0108` | Reproduce a published language-model experiment | — | — |
+| `LLM-C-0109` | Write a critical technical review of an LLM claim | — | — |
+| `LLM-C-0110` | Research ethics, disclosure, dual use, and responsible release | — | — |
+| `LLM-C-0111` | Map a current LLM research frontier | — | — |
+| `LLM-C-0112` | Turn a vague curiosity into a falsifiable research question | — | — |
+| `LLM-C-0113` | Build the smallest decisive prototype | — | — |
+| `LLM-C-0114` | Design an evaluation suite that could disprove your claim | — | — |
+| `LLM-C-0115` | Run, analyze, and stress-test a frontier experiment | — | — |
+| `LLM-C-0116` | Produce a reproducible contribution-grade research artifact | — | — |
+| `LLM-C-0201` | Language-model probability distribution | D1 | — |
+| `LLM-C-0202` | Autoregressive next-token prediction | D1 | — |
+| `LLM-C-0203` | Context | D1 | — |
+| `LLM-C-0204` | Token sequence | D1 | — |

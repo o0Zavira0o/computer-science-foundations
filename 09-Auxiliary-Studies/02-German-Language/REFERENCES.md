@@ -4,4 +4,12 @@
 
 | Reference ID | Title | Type | Authority | Reviewed | Review after |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No references registered yet |
+| `GER-REF-001` | Common European Framework of Reference for Languages: Companion Volume (2020) | standard-specification | Council of Europe | 2026-08-19 | — |
+| `GER-REF-002` | CEFR Level Descriptions | official-documentation | Council of Europe | 2026-08-19 | 2027-02-19 |
+| `GER-REF-003` | German examinations A1–C2 | official-documentation | Goethe-Institut | 2026-08-19 | 2027-02-19 |
+| `GER-REF-004` | Deutsch für dich — free German exercises A1–C2 | official-documentation | Goethe-Institut | 2026-08-19 | 2027-02-19 |
+| `GER-REF-005` | Goethe-Institut Exam Training A1–C2 | official-documentation | Goethe-Institut | 2026-08-19 | 2027-02-19 |
+| `GER-REF-006` | grammis — Grammatisches Informationssystem | official-documentation | Leibniz-Institut für Deutsche Sprache (IDS) | 2026-08-19 | 2027-02-19 |
+| `GER-REF-007` | Amtliches Regelwerk der deutschen Rechtschreibung 2024 | standard-specification | Rat für deutsche Rechtschreibung | 2026-08-19 | 2027-02-19 |
+| `GER-REF-008` | Deutsches Referenzkorpus (DeReKo) | dataset | Leibniz-Institut für Deutsche Sprache (IDS) | 2026-08-19 | 2027-02-19 |
+| `GER-REF-009` | German Studies BA curriculum (language system and literature benchmark) | university-course | Leipzig University | 2026-08-19 | 2027-02-19 |

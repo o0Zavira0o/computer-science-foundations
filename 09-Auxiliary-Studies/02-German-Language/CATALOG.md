@@ -4,4 +4,4 @@
 
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No lessons published yet |
+| [`GER-0001`](lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md) | Sounds, spelling, and your first German utterances | L0 | complete | `GER-N-0001` | 2026-08-19 |

@@ -3,10 +3,509 @@
   "schema_version": 1,
   "track": "large-language-models",
   "baseline": {
-    "status": "not-audited",
-    "last_audited": null,
-    "sources": []
+    "status": "audited",
+    "last_audited": "2026-08-19",
+    "sources": [
+      "LLM-REF-001",
+      "LLM-REF-002",
+      "LLM-REF-003",
+      "LLM-REF-004",
+      "LLM-REF-005",
+      "LLM-REF-006",
+      "LLM-REF-007",
+      "LLM-REF-008",
+      "LLM-REF-009",
+      "LLM-REF-010",
+      "LLM-REF-011",
+      "LLM-REF-012",
+      "LLM-REF-013",
+      "LLM-REF-014",
+      "LLM-REF-015",
+      "LLM-REF-016",
+      "LLM-REF-017",
+      "LLM-REF-018"
+    ]
   },
-  "items": [],
+  "items": [
+    {
+      "id": "LLM-COV-001",
+      "title": "Foundational language-model mental model",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-002",
+        "LLM-REF-012"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0001",
+        "LLM-N-0002",
+        "LLM-N-0003",
+        "LLM-N-0004",
+        "LLM-N-0005"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-002",
+      "title": "Mathematical bridge: vectors, gradients, optimization",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-009",
+        "LLM-REF-002"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0006",
+        "LLM-N-0007",
+        "LLM-N-0008",
+        "LLM-N-0009",
+        "LLM-N-0010"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-003",
+      "title": "Tiny neural language models and data splits",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-009",
+        "LLM-REF-012"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0011",
+        "LLM-N-0012",
+        "LLM-N-0013",
+        "LLM-N-0014",
+        "LLM-N-0015",
+        "LLM-N-0016",
+        "LLM-N-0017",
+        "LLM-N-0018"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-004",
+      "title": "Attention and Transformer mechanics",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-002"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0019",
+        "LLM-N-0020",
+        "LLM-N-0021",
+        "LLM-N-0022",
+        "LLM-N-0023",
+        "LLM-N-0024",
+        "LLM-N-0025",
+        "LLM-N-0026",
+        "LLM-N-0027",
+        "LLM-N-0028",
+        "LLM-N-0029",
+        "LLM-N-0030"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-005",
+      "title": "Training objectives and optimization practice",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-002",
+        "LLM-REF-009"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0031",
+        "LLM-N-0032",
+        "LLM-N-0033",
+        "LLM-N-0034",
+        "LLM-N-0035",
+        "LLM-N-0036",
+        "LLM-N-0037",
+        "LLM-N-0038",
+        "LLM-N-0039",
+        "LLM-N-0040"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-006",
+      "title": "Tokenization and data engineering",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-011",
+        "LLM-REF-003"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0041",
+        "LLM-N-0042",
+        "LLM-N-0043",
+        "LLM-N-0044",
+        "LLM-N-0045"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-007",
+      "title": "Scaling laws and compute/data allocation",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-003",
+        "LLM-REF-004",
+        "LLM-REF-001"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0046",
+        "LLM-N-0047"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-008",
+      "title": "Distributed training and numerical systems",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-009",
+        "LLM-REF-010"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0048",
+        "LLM-N-0049",
+        "LLM-N-0050",
+        "LLM-N-0051",
+        "LLM-N-0052",
+        "LLM-N-0053",
+        "LLM-N-0054",
+        "LLM-N-0055"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-009",
+      "title": "Instruction tuning and preference learning",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-005",
+        "LLM-REF-006",
+        "LLM-REF-001"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0056",
+        "LLM-N-0057",
+        "LLM-N-0058",
+        "LLM-N-0059"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-010",
+      "title": "Reasoning post-training",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-017",
+        "LLM-REF-001",
+        "LLM-REF-005"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0060"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-011",
+      "title": "Evaluation, uncertainty, and hallucination",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-013",
+        "LLM-REF-001",
+        "LLM-REF-012"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0061",
+        "LLM-N-0062"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-012",
+      "title": "Retrieval and tool use",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-014",
+        "LLM-REF-015",
+        "LLM-REF-001"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0063",
+        "LLM-N-0064"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-013",
+      "title": "Long context and KV-cache fundamentals",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-007",
+        "LLM-REF-008",
+        "LLM-REF-018"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0065",
+        "LLM-N-0066"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-014",
+      "title": "Serving, memory management, and IO-efficient inference",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-007",
+        "LLM-REF-008",
+        "LLM-REF-018"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0067",
+        "LLM-N-0068",
+        "LLM-N-0069",
+        "LLM-N-0070",
+        "LLM-N-0071",
+        "LLM-N-0072"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-015",
+      "title": "Mixture architectures, adaptation, and distillation",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-018",
+        "LLM-REF-009"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0073",
+        "LLM-N-0074",
+        "LLM-N-0075"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-016",
+      "title": "Synthetic data, multilinguality, and code",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-012",
+        "LLM-REF-017"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0076",
+        "LLM-N-0077",
+        "LLM-N-0078"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-017",
+      "title": "Agents and environment interaction",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-015",
+        "LLM-REF-001",
+        "LLM-REF-013"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0079"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-018",
+      "title": "Interpretability and representation analysis",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-013",
+        "LLM-REF-002"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0080",
+        "LLM-N-0081"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-019",
+      "title": "Safety, alignment, and privacy",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-016",
+        "LLM-REF-013",
+        "LLM-REF-005"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0082",
+        "LLM-N-0083",
+        "LLM-N-0084"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-020",
+      "title": "End-to-end reproducible LLM systems",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-009",
+        "LLM-REF-018"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0085",
+        "LLM-N-0086"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-021",
+      "title": "Graduate optimization, scaling, data, and architectures",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-003",
+        "LLM-REF-007"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0087",
+        "LLM-N-0088",
+        "LLM-N-0089",
+        "LLM-N-0090",
+        "LLM-N-0091"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-022",
+      "title": "Reasoning-time scaling and post-training research",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-017",
+        "LLM-REF-005",
+        "LLM-REF-006"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0092",
+        "LLM-N-0093"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-023",
+      "title": "Evaluation science and benchmark validity",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-013",
+        "LLM-REF-001",
+        "LLM-REF-012"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0094",
+        "LLM-N-0095"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-024",
+      "title": "Mechanistic and causal interpretability",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-002",
+        "LLM-REF-013"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0096",
+        "LLM-N-0097"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-025",
+      "title": "Robustness, oversight, editing, and inference co-design",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-016",
+        "LLM-REF-008",
+        "LLM-REF-018"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0098",
+        "LLM-N-0099",
+        "LLM-N-0100",
+        "LLM-N-0101"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-026",
+      "title": "Graduate replication capstone",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-013",
+        "LLM-REF-003"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0102"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-027",
+      "title": "Research literacy and critical methods",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-013",
+        "LLM-REF-003"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0103",
+        "LLM-N-0104",
+        "LLM-N-0105",
+        "LLM-N-0106",
+        "LLM-N-0107",
+        "LLM-N-0108",
+        "LLM-N-0109",
+        "LLM-N-0110"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    },
+    {
+      "id": "LLM-COV-028",
+      "title": "Open research frontier",
+      "status": "planned",
+      "source_refs": [
+        "LLM-REF-001",
+        "LLM-REF-013",
+        "LLM-REF-017"
+      ],
+      "mapped_nodes": [
+        "LLM-N-0111",
+        "LLM-N-0112",
+        "LLM-N-0113",
+        "LLM-N-0114",
+        "LLM-N-0115",
+        "LLM-N-0116"
+      ],
+      "rationale": "Included by cross-checking implementation-centered university training, primary research papers, and current official systems documentation."
+    }
+  ],
   "unresolved_questions": []
 }

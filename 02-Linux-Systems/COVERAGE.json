@@ -3,10 +3,477 @@
   "schema_version": 1,
   "track": "linux-systems",
   "baseline": {
-    "status": "not-audited",
-    "last_audited": null,
-    "sources": []
+    "status": "audited",
+    "last_audited": "2026-08-19",
+    "sources": [
+      "LNX-REF-001",
+      "LNX-REF-002",
+      "LNX-REF-003",
+      "LNX-REF-004",
+      "LNX-REF-005",
+      "LNX-REF-006",
+      "LNX-REF-007",
+      "LNX-REF-008",
+      "LNX-REF-009",
+      "LNX-REF-010",
+      "LNX-REF-011",
+      "LNX-REF-012",
+      "LNX-REF-013",
+      "LNX-REF-014",
+      "LNX-REF-015",
+      "LNX-REF-016",
+      "LNX-REF-017",
+      "LNX-REF-018",
+      "LNX-REF-019",
+      "LNX-REF-020"
+    ]
   },
-  "items": [],
+  "items": [
+    {
+      "id": "LNX-COV-001",
+      "title": "Orientation, safe experimentation, and documentation literacy",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-007",
+        "LNX-REF-003"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0001",
+        "LNX-N-0002",
+        "LNX-N-0003",
+        "LNX-N-0004"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-002",
+      "title": "Command line, filesystem navigation, text, streams, and Unix composition",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-001",
+        "LNX-REF-004",
+        "LNX-REF-005"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0005",
+        "LNX-N-0006",
+        "LNX-N-0007",
+        "LNX-N-0008",
+        "LNX-N-0009",
+        "LNX-N-0010",
+        "LNX-N-0011"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-003",
+      "title": "Identity, permissions, accounts, and privilege",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-001",
+        "LNX-REF-008",
+        "LNX-REF-018",
+        "LNX-REF-002"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0012",
+        "LNX-N-0022",
+        "LNX-N-0023",
+        "LNX-N-0053",
+        "LNX-N-0072",
+        "LNX-N-0096"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-004",
+      "title": "Processes, jobs, signals, creation, IPC, threads, and scheduling",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-003",
+        "LNX-REF-011",
+        "LNX-REF-012",
+        "LNX-REF-002"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0013",
+        "LNX-N-0024",
+        "LNX-N-0038",
+        "LNX-N-0039",
+        "LNX-N-0040",
+        "LNX-N-0061",
+        "LNX-N-0086",
+        "LNX-N-0087",
+        "LNX-N-0088",
+        "LNX-N-0097"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-005",
+      "title": "Software packaging, distributions, repositories, and portability",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-007",
+        "LNX-REF-018",
+        "LNX-REF-019",
+        "LNX-REF-001"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0014",
+        "LNX-N-0031"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-006",
+      "title": "Networking and secure remote operation",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-008",
+        "LNX-REF-015",
+        "LNX-REF-018"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0015",
+        "LNX-N-0029",
+        "LNX-N-0030",
+        "LNX-N-0049",
+        "LNX-N-0050",
+        "LNX-N-0067",
+        "LNX-N-0068",
+        "LNX-N-0083",
+        "LNX-N-0092",
+        "LNX-N-0094"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-007",
+      "title": "Runtime system surfaces: /etc, /var, /proc, /sys, /dev and devices",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-016",
+        "LNX-REF-018"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0016",
+        "LNX-N-0033",
+        "LNX-N-0041",
+        "LNX-N-0048",
+        "LNX-N-0093"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-008",
+      "title": "Shell execution model and shell programming",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-005",
+        "LNX-REF-001"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0017",
+        "LNX-N-0018",
+        "LNX-N-0019",
+        "LNX-N-0034",
+        "LNX-N-0036"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-009",
+      "title": "Archives, compression, integrity, and data handling",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-004",
+        "LNX-REF-008"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0020"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-010",
+      "title": "Filesystem identity, metadata, VFS, and filesystem internals",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-003",
+        "LNX-REF-002",
+        "LNX-REF-011"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0021",
+        "LNX-N-0043",
+        "LNX-N-0045",
+        "LNX-N-0064",
+        "LNX-N-0065",
+        "LNX-N-0090"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-011",
+      "title": "Services, logging, time, scheduling, and systemd",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-006",
+        "LNX-REF-018"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0025",
+        "LNX-N-0026",
+        "LNX-N-0027",
+        "LNX-N-0047"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-012",
+      "title": "Storage, block I/O, filesystems, LVM/RAID/encryption, and recovery",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-008",
+        "LNX-REF-018",
+        "LNX-REF-002"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0028",
+        "LNX-N-0044",
+        "LNX-N-0045",
+        "LNX-N-0057",
+        "LNX-N-0066",
+        "LNX-N-0091",
+        "LNX-N-0095"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-013",
+      "title": "Boot, firmware/UEFI, bootloader, initramfs, kernel and PID 1",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-006",
+        "LNX-REF-009"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0032",
+        "LNX-N-0046"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-014",
+      "title": "Troubleshooting, failure analysis, and recovery",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-003",
+        "LNX-REF-018",
+        "LNX-REF-002"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0035",
+        "LNX-N-0055",
+        "LNX-N-0057",
+        "LNX-N-0078",
+        "LNX-N-0079",
+        "LNX-N-0103"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-015",
+      "title": "Userspace ABI, system calls, file descriptors, and libc boundary",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-001",
+        "LNX-REF-003",
+        "LNX-REF-002"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0037",
+        "LNX-N-0038",
+        "LNX-N-0060"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-016",
+      "title": "Virtual memory, allocation, reclaim, OOM, NUMA, and locality",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-011",
+        "LNX-REF-012"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0042",
+        "LNX-N-0062",
+        "LNX-N-0063",
+        "LNX-N-0081",
+        "LNX-N-0089"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-017",
+      "title": "Isolation and containers: namespaces, cgroups, mounts, and runtime plumbing",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-006",
+        "LNX-REF-018"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0051",
+        "LNX-N-0052",
+        "LNX-N-0054",
+        "LNX-N-0070",
+        "LNX-N-0071",
+        "LNX-N-0084"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-018",
+      "title": "Linux security architecture and host/kernel hardening",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-018",
+        "LNX-REF-020"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0022",
+        "LNX-N-0023",
+        "LNX-N-0053",
+        "LNX-N-0072",
+        "LNX-N-0096",
+        "LNX-N-0108"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-019",
+      "title": "Observability, tracing, debugging, and performance engineering",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-014",
+        "LNX-REF-002",
+        "LNX-REF-003"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0055",
+        "LNX-N-0056",
+        "LNX-N-0075",
+        "LNX-N-0076",
+        "LNX-N-0077",
+        "LNX-N-0078",
+        "LNX-N-0079",
+        "LNX-N-0081",
+        "LNX-N-0082",
+        "LNX-N-0099"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-020",
+      "title": "Kernel configuration, modules, source, drivers, testing, and contribution",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-013"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0073",
+        "LNX-N-0074",
+        "LNX-N-0085",
+        "LNX-N-0086",
+        "LNX-N-0087",
+        "LNX-N-0088",
+        "LNX-N-0089",
+        "LNX-N-0090",
+        "LNX-N-0091",
+        "LNX-N-0092",
+        "LNX-N-0093",
+        "LNX-N-0098",
+        "LNX-N-0100",
+        "LNX-N-0101",
+        "LNX-N-0102",
+        "LNX-N-0107"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-021",
+      "title": "Virtualization from the Linux host perspective",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-018"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0080"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-022",
+      "title": "Whole-system integration and Linux-from-source composition",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-009",
+        "LNX-REF-010"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0058",
+        "LNX-N-0059"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-023",
+      "title": "Research literacy, regression reproduction, benchmarking, and paper/code review",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-013",
+        "LNX-REF-020",
+        "LNX-REF-011",
+        "LNX-REF-012"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0101",
+        "LNX-N-0102",
+        "LNX-N-0103",
+        "LNX-N-0104",
+        "LNX-N-0105",
+        "LNX-N-0106",
+        "LNX-N-0107",
+        "LNX-N-0108"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    },
+    {
+      "id": "LNX-COV-024",
+      "title": "Open-ended research frontier and independent investigation",
+      "status": "planned",
+      "source_refs": [
+        "LNX-REF-002",
+        "LNX-REF-013",
+        "LNX-REF-020"
+      ],
+      "mapped_nodes": [
+        "LNX-N-0109",
+        "LNX-N-0110",
+        "LNX-N-0111",
+        "LNX-N-0112"
+      ],
+      "rationale": "Included after cross-checking operational, standards/interface, university OS, Linux system-construction, and kernel-development reference classes."
+    }
+  ],
   "unresolved_questions": []
 }

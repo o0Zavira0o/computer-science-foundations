@@ -4,4 +4,23 @@
 
 | Reference ID | Title | Type | Authority | Reviewed | Review after |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No references registered yet |
+| `LNX-REF-001` | The Open Group Base Specifications Issue 8 / POSIX.1-2024 | standard-specification | IEEE / The Open Group | 2026-08-19 | — |
+| `LNX-REF-002` | The Linux Kernel Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-003` | Linux man-pages project | official-documentation | Linux man-pages project | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-004` | GNU Coreutils 9.11 Manual | official-documentation | GNU Project / Free Software Foundation | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-005` | Bash Reference Manual | official-documentation | GNU Project / Free Software Foundation | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-006` | systemd Manual Pages | official-documentation | systemd project | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-007` | Introduction to Linux (LFS101) | official-documentation | The Linux Foundation | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-008` | Linux Foundation Certified System Administrator (LFCS) Domains | official-documentation | The Linux Foundation | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-009` | Linux From Scratch 13.0 — systemd edition | official-documentation | Linux From Scratch project | 2026-08-19 | 2026-09-19 |
+| `LNX-REF-010` | Beyond Linux From Scratch — systemd edition | official-documentation | Linux From Scratch project | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-011` | MIT 6.1810 Operating System Engineering | university-course | MIT PDOS / EECS | 2026-08-19 | 2027-01-15 |
+| `LNX-REF-012` | UC Berkeley CS 162 Operating Systems and System Programming | university-course | UC Berkeley EECS | 2026-08-19 | 2027-01-15 |
+| `LNX-REF-013` | Linux Kernel Development Process Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-014` | Linux Kernel ftrace Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-015` | Linux Kernel Networking Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-016` | Linux /proc Filesystem Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-017` | libbpf Overview and BPF Documentation | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-018` | Red Hat Enterprise Linux 10 Documentation | official-documentation | Red Hat | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-019` | Fedora Linux Project | official-documentation | Fedora Project | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-020` | Linux Kernel Researcher Guidelines | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |

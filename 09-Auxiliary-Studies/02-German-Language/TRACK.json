@@ -6,18 +6,19 @@
   "title": "German Language",
   "folder": "02-German-Language",
   "order": 10,
-  "status": "scaffolded",
+  "status": "active",
   "entry_model": "zero-subject-specific-knowledge",
   "scope": {
-    "focus": "German from absolute beginner level through advanced general, academic, literary, and professional competence, with explicit progression in pronunciation, grammar, vocabulary, listening, speaking, reading, and writing.",
+    "focus": "German from absolute zero through A1–C2 performance, post-C2 precision, academic/professional language, literature, linguistics, corpus-informed usage, and open research.",
     "includes": [
-      "Pronunciation and phonology",
-      "Grammar and syntax",
-      "Vocabulary and phraseology",
-      "Listening and speaking",
-      "Reading and writing",
-      "Culture and literature where pedagogically useful",
-      "Advanced academic and professional German"
+      "Pronunciation, phonology, listening, and orthography from lesson one",
+      "Grammar and syntax as an integrated meaning system",
+      "Vocabulary, collocation, phraseology, and word formation",
+      "Speaking, interaction, pragmatics, and sociolinguistic register",
+      "Reading and writing from survival texts to academic/literary prose",
+      "CEFR-aligned A1–C2 performance checkpoints",
+      "Culture, literature, historical change, and mediation",
+      "Post-C2 corpus linguistics, German linguistics, literary analysis, and research"
     ],
     "delegates": []
   },

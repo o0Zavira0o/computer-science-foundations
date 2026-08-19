@@ -4,4 +4,21 @@
 
 | Reference ID | Title | Type | Authority | Reviewed | Review after |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No references registered yet |
+| `LLM-REF-001` | Stanford CS336: Language Modeling from Scratch (Spring 2026) | university-course | Stanford University | 2026-08-19 | 2027-02-19 |
+| `LLM-REF-002` | Attention Is All You Need | primary-paper | Vaswani et al. | 2026-08-19 | — |
+| `LLM-REF-003` | Training Compute-Optimal Large Language Models | primary-paper | Hoffmann et al. / DeepMind | 2026-08-19 | — |
+| `LLM-REF-004` | Scaling Laws for Neural Language Models | primary-paper | Kaplan et al. | 2026-08-19 | — |
+| `LLM-REF-005` | Learning to summarize from human feedback / InstructGPT lineage: Training language models to follow instructions with human feedback | primary-paper | Ouyang et al. | 2026-08-19 | — |
+| `LLM-REF-006` | Direct Preference Optimization: Your Language Model is Secretly a Reward Model | primary-paper | Rafailov et al. | 2026-08-19 | — |
+| `LLM-REF-007` | FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness | primary-paper | Dao et al. | 2026-08-19 | — |
+| `LLM-REF-008` | Efficient Memory Management for Large Language Model Serving with PagedAttention | primary-paper | Kwon et al. | 2026-08-19 | — |
+| `LLM-REF-009` | PyTorch Autograd Documentation | official-documentation | PyTorch Project | 2026-08-19 | 2027-02-19 |
+| `LLM-REF-010` | PyTorch Fully Sharded Data Parallel Documentation | official-documentation | PyTorch Project | 2026-08-19 | 2027-02-19 |
+| `LLM-REF-011` | SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing | primary-paper | Kudo and Richardson | 2026-08-19 | — |
+| `LLM-REF-012` | Language Models are Few-Shot Learners | primary-paper | Brown et al. | 2026-08-19 | — |
+| `LLM-REF-013` | Holistic Evaluation of Language Models (HELM) | primary-paper | Liang et al. | 2026-08-19 | — |
+| `LLM-REF-014` | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks | primary-paper | Lewis et al. | 2026-08-19 | — |
+| `LLM-REF-015` | ReAct: Synergizing Reasoning and Acting in Language Models | primary-paper | Yao et al. | 2026-08-19 | — |
+| `LLM-REF-016` | Constitutional AI: Harmlessness from AI Feedback | primary-paper | Bai et al. | 2026-08-19 | — |
+| `LLM-REF-017` | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | technical-report | DeepSeek-AI | 2026-08-19 | — |
+| `LLM-REF-018` | vLLM Documentation | official-documentation | vLLM Project | 2026-08-19 | 2027-02-19 |

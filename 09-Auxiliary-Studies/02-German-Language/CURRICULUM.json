@@ -2,7 +2,2164 @@
   "$schema": "../../schemas/curriculum.schema.json",
   "schema_version": 1,
   "track": "german-language",
-  "audit_status": "not-audited",
-  "last_coverage_audit": null,
-  "nodes": []
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-19",
+  "nodes": [
+    {
+      "id": "GER-N-0001",
+      "title": "Sounds, spelling, and your first German utterances",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Understand and use sounds, spelling, and your first german utterances in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0001",
+          "target_depth": "D1"
+        },
+        {
+          "id": "GER-C-0201",
+          "target_depth": "D1"
+        },
+        {
+          "id": "GER-C-0202",
+          "target_depth": "D1"
+        },
+        {
+          "id": "GER-C-0203",
+          "target_depth": "D1"
+        },
+        {
+          "id": "GER-C-0204",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": "GER-0001"
+    },
+    {
+      "id": "GER-N-0002",
+      "title": "Introduce yourself: ich, du, Sie, heißen, sein",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "GER-N-0001"
+      ],
+      "outcomes": [
+        "Understand and use introduce yourself: ich, du, sie, heißen, sein in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0002",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0003",
+      "title": "The German sentence skeleton: verb-second in main clauses",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0002"
+      ],
+      "outcomes": [
+        "Understand and use the german sentence skeleton: verb-second in main clauses in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0004",
+      "title": "Noun gender and the definite/indefinite articles",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0003"
+      ],
+      "outcomes": [
+        "Understand and use noun gender and the definite/indefinite articles in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0005",
+      "title": "Plural patterns and learning nouns as lexical packages",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0004"
+      ],
+      "outcomes": [
+        "Understand and use plural patterns and learning nouns as lexical packages in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0006",
+      "title": "Numbers, prices, dates, and clock time",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0005"
+      ],
+      "outcomes": [
+        "Understand and use numbers, prices, dates, and clock time in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0007",
+      "title": "Present-tense regular verbs",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0006"
+      ],
+      "outcomes": [
+        "Understand and use present-tense regular verbs in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0008",
+      "title": "High-frequency irregular verbs and vowel changes",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0007"
+      ],
+      "outcomes": [
+        "Understand and use high-frequency irregular verbs and vowel changes in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0009",
+      "title": "Questions: yes/no, W-words, and information gaps",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0008"
+      ],
+      "outcomes": [
+        "Understand and use questions: yes/no, w-words, and information gaps in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0010",
+      "title": "Negation with nicht and kein",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0009"
+      ],
+      "outcomes": [
+        "Understand and use negation with nicht and kein in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0011",
+      "title": "The accusative case as a role system",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0010"
+      ],
+      "outcomes": [
+        "Understand and use the accusative case as a role system in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0012",
+      "title": "Modal verbs and infinitives at the end",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0011"
+      ],
+      "outcomes": [
+        "Understand and use modal verbs and infinitives at the end in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0013",
+      "title": "Possessives and basic personal-reference forms",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0012"
+      ],
+      "outcomes": [
+        "Understand and use possessives and basic personal-reference forms in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0014",
+      "title": "Everyday location and direction phrases",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0013"
+      ],
+      "outcomes": [
+        "Understand and use everyday location and direction phrases in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0015",
+      "title": "Food, shopping, family, study, and routine vocabulary systems",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0014"
+      ],
+      "outcomes": [
+        "Understand and use food, shopping, family, study, and routine vocabulary systems in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0016",
+      "title": "Hear word boundaries and stressed syllables in slow German",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0015"
+      ],
+      "outcomes": [
+        "Understand and use hear word boundaries and stressed syllables in slow german in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0016",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0017",
+      "title": "Read signs, forms, short messages, and micro-dialogues",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0016"
+      ],
+      "outcomes": [
+        "Understand and use read signs, forms, short messages, and micro-dialogues in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0017",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0018",
+      "title": "Write and perform an A1 survival interaction",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0017"
+      ],
+      "outcomes": [
+        "Understand and use write and perform an a1 survival interaction in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L0."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0018",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0019",
+      "title": "The dative case and common recipient/location patterns",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0018"
+      ],
+      "outcomes": [
+        "Understand and use the dative case and common recipient/location patterns in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0019",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0020",
+      "title": "Two-way prepositions: location versus direction",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0019"
+      ],
+      "outcomes": [
+        "Understand and use two-way prepositions: location versus direction in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0020",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0021",
+      "title": "Separable-prefix verbs in real sentences",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0020"
+      ],
+      "outcomes": [
+        "Understand and use separable-prefix verbs in real sentences in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0021",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0022",
+      "title": "Reflexive verbs and daily routines",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0021"
+      ],
+      "outcomes": [
+        "Understand and use reflexive verbs and daily routines in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0022",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0023",
+      "title": "The perfect tense with haben and sein",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0022"
+      ],
+      "outcomes": [
+        "Understand and use the perfect tense with haben and sein in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0023",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0024",
+      "title": "Präteritum of sein, haben, and modal verbs",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0023"
+      ],
+      "outcomes": [
+        "Understand and use präteritum of sein, haben, and modal verbs in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0024",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0025",
+      "title": "Adjective use before and after nouns: first system",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0024"
+      ],
+      "outcomes": [
+        "Understand and use adjective use before and after nouns: first system in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0025",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0026",
+      "title": "Comparatives and superlatives",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0025"
+      ],
+      "outcomes": [
+        "Understand and use comparatives and superlatives in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0026",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0027",
+      "title": "Subordinate clauses with weil, dass, and wenn",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0026"
+      ],
+      "outcomes": [
+        "Understand and use subordinate clauses with weil, dass, and wenn in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0027",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0028",
+      "title": "Time-cause-manner-place and flexible German word order",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0027"
+      ],
+      "outcomes": [
+        "Understand and use time-cause-manner-place and flexible german word order in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0028",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0029",
+      "title": "Relative clauses: first contact",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0028"
+      ],
+      "outcomes": [
+        "Understand and use relative clauses: first contact in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0029",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0030",
+      "title": "Personal and demonstrative pronoun choices",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0029"
+      ],
+      "outcomes": [
+        "Understand and use personal and demonstrative pronoun choices in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0030",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0031",
+      "title": "Imperatives, requests, and politeness",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0030"
+      ],
+      "outcomes": [
+        "Understand and use imperatives, requests, and politeness in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0031",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0032",
+      "title": "Word formation with common prefixes and suffixes",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0031"
+      ],
+      "outcomes": [
+        "Understand and use word formation with common prefixes and suffixes in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0032",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0033",
+      "title": "Travel, housing, health, work, and services",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0032"
+      ],
+      "outcomes": [
+        "Understand and use travel, housing, health, work, and services in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0033",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0034",
+      "title": "Build connected speech beyond isolated sentences",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0033"
+      ],
+      "outcomes": [
+        "Understand and use build connected speech beyond isolated sentences in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0034",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0035",
+      "title": "Write practical emails, invitations, and short narratives",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0034"
+      ],
+      "outcomes": [
+        "Understand and use write practical emails, invitations, and short narratives in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0035",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0036",
+      "title": "A2 integrated performance checkpoint",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0035"
+      ],
+      "outcomes": [
+        "Understand and use a2 integrated performance checkpoint in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L1."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0036",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0037",
+      "title": "Integrate nominative, accusative, dative, and genitive roles",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0036"
+      ],
+      "outcomes": [
+        "Understand and use integrate nominative, accusative, dative, and genitive roles in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0037",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0038",
+      "title": "Master adjective endings as information marking",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0037"
+      ],
+      "outcomes": [
+        "Understand and use master adjective endings as information marking in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0038",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0039",
+      "title": "Subordinate-clause families and clause punctuation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0038"
+      ],
+      "outcomes": [
+        "Understand and use subordinate-clause families and clause punctuation in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0039",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0040",
+      "title": "Passive voice with werden",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0039"
+      ],
+      "outcomes": [
+        "Understand and use passive voice with werden in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0040",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0041",
+      "title": "Konjunktiv II for hypotheticals, wishes, and politeness",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0040"
+      ],
+      "outcomes": [
+        "Understand and use konjunktiv ii for hypotheticals, wishes, and politeness in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0041",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0042",
+      "title": "Future reference with werden and present-tense alternatives",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0041"
+      ],
+      "outcomes": [
+        "Understand and use future reference with werden and present-tense alternatives in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0042",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0043",
+      "title": "Narrative Präteritum beyond the high-frequency core",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0042"
+      ],
+      "outcomes": [
+        "Understand and use narrative präteritum beyond the high-frequency core in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0043",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0044",
+      "title": "Relative clauses with case and prepositions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0043"
+      ],
+      "outcomes": [
+        "Understand and use relative clauses with case and prepositions in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0044",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0045",
+      "title": "Infinitive clauses with zu",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0044"
+      ],
+      "outcomes": [
+        "Understand and use infinitive clauses with zu in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0045",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0046",
+      "title": "Participles as modifiers",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0045"
+      ],
+      "outcomes": [
+        "Understand and use participles as modifiers in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0046",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0047",
+      "title": "Nominalization and the noun-heavy written register",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0046"
+      ],
+      "outcomes": [
+        "Understand and use nominalization and the noun-heavy written register in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0047",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0048",
+      "title": "Connectors for cause, contrast, consequence, and concession",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0047"
+      ],
+      "outcomes": [
+        "Understand and use connectors for cause, contrast, consequence, and concession in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0048",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0049",
+      "title": "Information structure: topic, focus, and constituent order",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0048"
+      ],
+      "outcomes": [
+        "Understand and use information structure: topic, focus, and constituent order in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0049",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0050",
+      "title": "Understand standard-speed everyday audio",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0049"
+      ],
+      "outcomes": [
+        "Understand and use understand standard-speed everyday audio in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0050",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0051",
+      "title": "Read news and expository prose strategically",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0050"
+      ],
+      "outcomes": [
+        "Understand and use read news and expository prose strategically in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0051",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0052",
+      "title": "Write a structured opinion text",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0051"
+      ],
+      "outcomes": [
+        "Understand and use write a structured opinion text in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0052",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0053",
+      "title": "Tell stories and explain experiences with temporal control",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0052"
+      ],
+      "outcomes": [
+        "Understand and use tell stories and explain experiences with temporal control in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0053",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0054",
+      "title": "Collocations, idioms, and verb-noun combinations",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0053"
+      ],
+      "outcomes": [
+        "Understand and use collocations, idioms, and verb-noun combinations in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0054",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0055",
+      "title": "Register, du/Sie, regional variation, and pragmatic appropriateness",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0054"
+      ],
+      "outcomes": [
+        "Understand and use register, du/sie, regional variation, and pragmatic appropriateness in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0055",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0056",
+      "title": "B1 integrated performance checkpoint",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0055"
+      ],
+      "outcomes": [
+        "Understand and use b1 integrated performance checkpoint in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L2."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0056",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0057",
+      "title": "Advanced word order: Mittelfeld, Nachfeld, and marked placement",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0056"
+      ],
+      "outcomes": [
+        "Understand and use advanced word order: mittelfeld, nachfeld, and marked placement in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0057",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0058",
+      "title": "Clause chaining and syntactic compression",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0057"
+      ],
+      "outcomes": [
+        "Understand and use clause chaining and syntactic compression in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0058",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0059",
+      "title": "Konjunktiv I and reported speech",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0058"
+      ],
+      "outcomes": [
+        "Understand and use konjunktiv i and reported speech in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0059",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0060",
+      "title": "Passive alternatives and impersonal constructions",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0059"
+      ],
+      "outcomes": [
+        "Understand and use passive alternatives and impersonal constructions in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0060",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0061",
+      "title": "Participial constructions and dense written syntax",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0060"
+      ],
+      "outcomes": [
+        "Understand and use participial constructions and dense written syntax in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0061",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0062",
+      "title": "Nominal style versus verbal style",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0061"
+      ],
+      "outcomes": [
+        "Understand and use nominal style versus verbal style in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0062",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0063",
+      "title": "Modal particles: doch, ja, eben, halt, wohl, mal",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0062"
+      ],
+      "outcomes": [
+        "Understand and use modal particles: doch, ja, eben, halt, wohl, mal in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0063",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0064",
+      "title": "Collocational precision and phraseological competence",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0063"
+      ],
+      "outcomes": [
+        "Understand and use collocational precision and phraseological competence in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0064",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0065",
+      "title": "Build sustained argumentation and counterargument",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0064"
+      ],
+      "outcomes": [
+        "Understand and use build sustained argumentation and counterargument in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0065",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0066",
+      "title": "Read academic and technical prose",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0065"
+      ],
+      "outcomes": [
+        "Understand and use read academic and technical prose in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0066",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0067",
+      "title": "Present, debate, negotiate, and repair misunderstandings",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0066"
+      ],
+      "outcomes": [
+        "Understand and use present, debate, negotiate, and repair misunderstandings in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0067",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0068",
+      "title": "Understand faster speech and selected regional accents",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0067"
+      ],
+      "outcomes": [
+        "Understand and use understand faster speech and selected regional accents in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0068",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0069",
+      "title": "Write reports, analyses, and formal correspondence",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0068"
+      ],
+      "outcomes": [
+        "Understand and use write reports, analyses, and formal correspondence in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0069",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0070",
+      "title": "Diagnose and correct recurring grammatical errors",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0069"
+      ],
+      "outcomes": [
+        "Understand and use diagnose and correct recurring grammatical errors in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0070",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0071",
+      "title": "Use corpora, dictionaries, and grammar references responsibly",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0070"
+      ],
+      "outcomes": [
+        "Understand and use use corpora, dictionaries, and grammar references responsibly in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0071",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0072",
+      "title": "Variation: standard German, regional standards, dialect, sociolect",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0071"
+      ],
+      "outcomes": [
+        "Understand and use variation: standard german, regional standards, dialect, sociolect in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0072",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0073",
+      "title": "Read literary prose as language, not only plot",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0072"
+      ],
+      "outcomes": [
+        "Understand and use read literary prose as language, not only plot in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0073",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0074",
+      "title": "B2 integrated performance checkpoint",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0073"
+      ],
+      "outcomes": [
+        "Understand and use b2 integrated performance checkpoint in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L3."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0074",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0075",
+      "title": "Precision, idiomaticity, and stylistic choice at C1/C2",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0074"
+      ],
+      "outcomes": [
+        "Understand and use precision, idiomaticity, and stylistic choice at c1/c2 in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0075",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0076",
+      "title": "Information structure, rhythm, emphasis, and rhetorical effect",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0075"
+      ],
+      "outcomes": [
+        "Understand and use information structure, rhythm, emphasis, and rhetorical effect in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0076",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0077",
+      "title": "Lexical nuance, connotation, register, and near-synonyms",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0076"
+      ],
+      "outcomes": [
+        "Understand and use lexical nuance, connotation, register, and near-synonyms in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0077",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0078",
+      "title": "Advanced phraseology, metaphor, and conventional imagery",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0077"
+      ],
+      "outcomes": [
+        "Understand and use advanced phraseology, metaphor, and conventional imagery in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0078",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0079",
+      "title": "Grammar at the margins: variation, preference, and acceptability",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0078"
+      ],
+      "outcomes": [
+        "Understand and use grammar at the margins: variation, preference, and acceptability in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0079",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0080",
+      "title": "Academic writing: synthesis, citation, stance, and cohesion",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0079"
+      ],
+      "outcomes": [
+        "Understand and use academic writing: synthesis, citation, stance, and cohesion in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0080",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0081",
+      "title": "Professional German: meetings, reports, proposals, and negotiation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0080"
+      ],
+      "outcomes": [
+        "Understand and use professional german: meetings, reports, proposals, and negotiation in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0081",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0082",
+      "title": "Rhetorical analysis of public and argumentative discourse",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0081"
+      ],
+      "outcomes": [
+        "Understand and use rhetorical analysis of public and argumentative discourse in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0082",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0083",
+      "title": "Understand dense lectures, interviews, and implicit stance",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0082"
+      ],
+      "outcomes": [
+        "Understand and use understand dense lectures, interviews, and implicit stance in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0083",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0084",
+      "title": "Read literary prose with narratological attention",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0083"
+      ],
+      "outcomes": [
+        "Understand and use read literary prose with narratological attention in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0084",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0085",
+      "title": "Read poetry through sound, syntax, image, and form",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0084"
+      ],
+      "outcomes": [
+        "Understand and use read poetry through sound, syntax, image, and form in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0085",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0086",
+      "title": "Read drama through voice, pragmatics, and performance",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0085"
+      ],
+      "outcomes": [
+        "Understand and use read drama through voice, pragmatics, and performance in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0086",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0087",
+      "title": "Mediation and translation as meaning reconstruction",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0086"
+      ],
+      "outcomes": [
+        "Understand and use mediation and translation as meaning reconstruction in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0087",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0088",
+      "title": "Historical change and why modern German looks the way it does",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0087"
+      ],
+      "outcomes": [
+        "Understand and use historical change and why modern german looks the way it does in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0088",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0089",
+      "title": "Official orthography and evidence-based usage decisions",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0088"
+      ],
+      "outcomes": [
+        "Understand and use official orthography and evidence-based usage decisions in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0089",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0090",
+      "title": "C1/C2 integrated performance and independent language judgment",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0089"
+      ],
+      "outcomes": [
+        "Understand and use c1/c2 integrated performance and independent language judgment in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L4."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0090",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0091",
+      "title": "Descriptive German grammar beyond learner rules",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0090"
+      ],
+      "outcomes": [
+        "Understand and use descriptive german grammar beyond learner rules in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0091",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0092",
+      "title": "Corpus linguistics and evidence from authentic usage",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0091"
+      ],
+      "outcomes": [
+        "Understand and use corpus linguistics and evidence from authentic usage in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0092",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0093",
+      "title": "Sociolinguistics, variation, identity, and language attitudes",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0092"
+      ],
+      "outcomes": [
+        "Understand and use sociolinguistics, variation, identity, and language attitudes in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0093",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0094",
+      "title": "Stylistics and discourse analysis",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0093"
+      ],
+      "outcomes": [
+        "Understand and use stylistics and discourse analysis in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0094",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0095",
+      "title": "Literary theory as a toolkit for German texts",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0094"
+      ],
+      "outcomes": [
+        "Understand and use literary theory as a toolkit for german texts in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0095",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0096",
+      "title": "Literary history and contextual reading without reducing texts to history",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0095"
+      ],
+      "outcomes": [
+        "Understand and use literary history and contextual reading without reducing texts to history in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0096",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0097",
+      "title": "Read and critique German-language scholarship",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0096"
+      ],
+      "outcomes": [
+        "Understand and use read and critique german-language scholarship in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0097",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0098",
+      "title": "Write a research-grade linguistic or literary analysis",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0097"
+      ],
+      "outcomes": [
+        "Understand and use write a research-grade linguistic or literary analysis in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L5."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0098",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "language-core",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0099",
+      "title": "Design a corpus-based research question in German",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0098"
+      ],
+      "outcomes": [
+        "Understand and use design a corpus-based research question in german in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0099",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0100",
+      "title": "Design a literature or discourse research project",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0099"
+      ],
+      "outcomes": [
+        "Understand and use design a literature or discourse research project in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0100",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0101",
+      "title": "Investigate a live problem in German variation or language change",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0100"
+      ],
+      "outcomes": [
+        "Understand and use investigate a live problem in german variation or language change in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0101",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "GER-N-0102",
+      "title": "Produce a publishable or portfolio-grade research artifact in German studies",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "GER-N-0101"
+      ],
+      "outcomes": [
+        "Understand and use produce a publishable or portfolio-grade research artifact in german studies in receptive and productive German.",
+        "Demonstrate the skill through listening, speaking, reading, writing, analysis, or research appropriate to L6."
+      ],
+      "target_concepts": [
+        {
+          "id": "GER-C-0102",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    }
+  ]
 }

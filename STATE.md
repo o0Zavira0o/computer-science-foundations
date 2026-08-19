@@ -4,10 +4,10 @@
 
 - **Schema:** 2
 - **Last updated:** 2026-08-19
-- **Repository phase:** architecture-stable-pre-content
+- **Repository phase:** active-multi-track-learning
 - **Active track:** none
 - **Last completed lesson:** none
-- **Next planned item:** Commit and push the unified V3.1 architecture with the new track scaffolds, then perform evidence-backed curriculum reconnaissance for the selected subject before lesson 0001.
+- **Next planned item:** Begin learner study of the first published lessons in Linux Systems, German Language, and Large Language Models; author subsequent lessons only through each audited curriculum graph.
 - **Legacy Linux policy:** Do not silently reuse removed legacy lessons; salvage only after explicit review.
 
 ## Persistent decisions
@@ -19,3 +19,4 @@
 - Audited coverage is a real publication gate: it requires registered evidence sources, mapped coverage items, and no unresolved gaps.
 - Authoring readiness and learner study readiness are separate workflows.
 - Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json.
+- Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery.

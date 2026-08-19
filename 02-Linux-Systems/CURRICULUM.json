@@ -2,7 +2,2407 @@
   "$schema": "../schemas/curriculum.schema.json",
   "schema_version": 1,
   "track": "linux-systems",
-  "audit_status": "not-audited",
-  "last_coverage_audit": null,
-  "nodes": []
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-19",
+  "nodes": [
+    {
+      "id": "LNX-N-0001",
+      "title": "What a Linux system actually is",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Distinguish hardware, firmware, kernel, userspace, distribution, shell, terminal, and application.",
+        "Trace a simple command from user intent to userspace program to kernel-mediated effects."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0001",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": "LNX-0001"
+    },
+    {
+      "id": "LNX-N-0002",
+      "title": "Build a safe Linux learning laboratory",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "LNX-N-0001"
+      ],
+      "outcomes": [
+        "Choose between host, VM, container, namespace, and disk-image experiments.",
+        "Recognize which commands can alter or destroy system state and how to make experiments reversible."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0002",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0003",
+      "title": "The command line as a language interface",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0002"
+      ],
+      "outcomes": [
+        "Identify prompt, command, arguments, options, operands, exit status, stdout, and stderr.",
+        "Run and inspect commands without treating command strings as magic incantations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0004",
+      "title": "Learn to ask Linux for help",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Use man sections, --help, help, info, and official documentation deliberately.",
+        "Identify whether a question concerns a shell builtin, utility, syscall, file format, or administrator command."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0005",
+      "title": "Paths, names, and the single filesystem tree",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Reason about absolute/relative paths, root, current directory, parent directory, hidden names, and path resolution."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0006",
+      "title": "Navigate and inspect directories",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0005"
+      ],
+      "outcomes": [
+        "Use pwd, cd, ls and related inspection tools while predicting path effects before running them."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0007",
+      "title": "Create, copy, move, and remove files safely",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0006"
+      ],
+      "outcomes": [
+        "Manipulate files/directories and distinguish replacement, recursive behavior, and destructive operations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0008",
+      "title": "Read and edit text without losing context",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0007"
+      ],
+      "outcomes": [
+        "Inspect text with cat/less/head/tail and edit configuration or source text with a terminal editor.",
+        "Choose tools based on file size and task rather than habit."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0009",
+      "title": "Quoting, globbing, and expansion",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Predict when the shell transforms text before a program receives arguments.",
+        "Use quotes, wildcards, variables, and command substitution without accidental expansion."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0010",
+      "title": "Standard streams, redirection, and pipelines",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0009"
+      ],
+      "outcomes": [
+        "Connect programs with stdin/stdout/stderr and explain which process opens each redirected file.",
+        "Build simple pipelines and inspect their failure modes."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0011",
+      "title": "Search, filter, count, sort, and transform text",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0010"
+      ],
+      "outcomes": [
+        "Compose grep, sort, uniq, cut, tr, wc, head, and tail into transparent data-processing pipelines."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0012",
+      "title": "Identity, ownership, and permission intuition",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0007"
+      ],
+      "outcomes": [
+        "Explain user/group identity, file ownership, rwx permissions, and why privileged operations differ."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0013",
+      "title": "Processes, jobs, and signals: first mental model",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Distinguish program from process, PID from command name, foreground from background, and graceful termination from forced termination."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0014",
+      "title": "Software packages, repositories, and updates",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Explain why distributions package software, how repositories and metadata fit together, and how updates change system state."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0015",
+      "title": "Networks from a Linux user’s point of view",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0003"
+      ],
+      "outcomes": [
+        "Distinguish local host, interface, address, route, DNS name, port, client/server, and remote shell.",
+        "Perform a minimal evidence-based connectivity check."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0016",
+      "title": "Tour the living system: /etc, /var, /proc, /sys, /dev",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0005",
+        "LNX-N-0013"
+      ],
+      "outcomes": [
+        "Explain the different roles of persistent configuration, mutable state/logs, process/kernel views, device model, and device nodes."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0016",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0017",
+      "title": "Shell environment, PATH, startup files, and exit status",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0009",
+        "LNX-N-0010"
+      ],
+      "outcomes": [
+        "Trace variable/export/PATH behavior from shell startup to command execution.",
+        "Use exit status as data rather than merely noticing error text."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0017",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0018",
+      "title": "Find files and build safe command selections",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0011",
+        "LNX-N-0017"
+      ],
+      "outcomes": [
+        "Use find predicates/actions and xargs safely, including whitespace/NUL-delimited cases."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0018",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0019",
+      "title": "Regular expressions and stream transformation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0011"
+      ],
+      "outcomes": [
+        "Use basic/extended regular expressions deliberately and apply grep/sed/awk to structured text problems."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0019",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0020",
+      "title": "Archives, compression, checksums, and integrity",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0007",
+        "LNX-N-0008"
+      ],
+      "outcomes": [
+        "Distinguish archiving from compression and use checksums to verify content transfer/integrity."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0020",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0021",
+      "title": "Metadata, inodes, hard links, and symbolic links",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0005",
+        "LNX-N-0007"
+      ],
+      "outcomes": [
+        "Separate filenames, directory entries, inode-like metadata, hard-link identity, and symbolic-link path references."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0021",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0022",
+      "title": "Permissions beyond rwx: umask, special bits, and ACLs",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0012",
+        "LNX-N-0021"
+      ],
+      "outcomes": [
+        "Predict effective access under owner/group/other, umask, set-ID/sticky semantics, and ACL extensions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0022",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0023",
+      "title": "Users, groups, sudo, and account lifecycle",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0012",
+        "LNX-N-0022"
+      ],
+      "outcomes": [
+        "Create and reason about accounts/groups, password/shadow state, privilege delegation, and least-privilege sudo policy."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0023",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0024",
+      "title": "Process trees, sessions, jobs, signals, and resource views",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0013",
+        "LNX-N-0016"
+      ],
+      "outcomes": [
+        "Inspect parent/child relationships, sessions/process groups, job control, signals, and basic resource consumption."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0024",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0025",
+      "title": "systemd services and units without memorizing systemctl",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0013",
+        "LNX-N-0016"
+      ],
+      "outcomes": [
+        "Explain unit state, service supervision, enablement versus activation, and common systemctl operations from the unit model."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0025",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0026",
+      "title": "Logs as evidence: journald and traditional log files",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0025",
+        "LNX-N-0016"
+      ],
+      "outcomes": [
+        "Query and correlate journal events, boot boundaries, service logs, kernel messages, and persistent log files."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0026",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0027",
+      "title": "Time, clocks, time zones, synchronization, and scheduled work",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0025"
+      ],
+      "outcomes": [
+        "Distinguish wall clock/monotonic time/RTC, understand time zones/NTP, and choose cron versus systemd timers for scheduled work."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0027",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0028",
+      "title": "Storage devices, partitions, filesystems, mounts, and swap",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0016",
+        "LNX-N-0021"
+      ],
+      "outcomes": [
+        "Trace a path from block device through partition/filesystem/mount point and distinguish persistent mount configuration from runtime state."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0028",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0029",
+      "title": "Addresses, routes, DNS, ports, and sockets",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0015"
+      ],
+      "outcomes": [
+        "Read interface/address/route/socket state with modern tools and use the evidence to localize connectivity failures."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0029",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0030",
+      "title": "SSH trust, keys, host identity, and secure transfer",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0015",
+        "LNX-N-0023"
+      ],
+      "outcomes": [
+        "Explain user authentication versus host authentication and use key-based remote access and file transfer safely."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0030",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0031",
+      "title": "Distribution families, repositories, package formats, and portability boundaries",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0014"
+      ],
+      "outcomes": [
+        "Separate Linux/POSIX semantics from distribution policy and compare package/service/configuration differences without duplicating whole lessons per distro."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0031",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0032",
+      "title": "From power-on to userspace: the boot story",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0016",
+        "LNX-N-0025",
+        "LNX-N-0028"
+      ],
+      "outcomes": [
+        "Explain firmware, bootloader, kernel, initramfs, root filesystem, PID 1, and userspace activation as one causal chain."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0032",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0033",
+      "title": "Devices, device nodes, sysfs, and udev",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0016"
+      ],
+      "outcomes": [
+        "Relate hardware discovery, kernel devices, sysfs, uevents, /dev nodes, and userspace device management."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0033",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0034",
+      "title": "Shell scripting foundations",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0017",
+        "LNX-N-0019"
+      ],
+      "outcomes": [
+        "Write small Bash programs with variables, conditions, loops, functions, input validation, and meaningful exit statuses."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0034",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0035",
+      "title": "A disciplined Linux troubleshooting method",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0004",
+        "LNX-N-0024",
+        "LNX-N-0026",
+        "LNX-N-0029"
+      ],
+      "outcomes": [
+        "Form hypotheses, collect minimally invasive evidence, isolate layers, reproduce failures, and avoid random command trial-and-error."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0035",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0036",
+      "title": "Robust shell programs: errors, traps, arrays, and interfaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0034",
+        "LNX-N-0035"
+      ],
+      "outcomes": [
+        "Design shell programs that handle errors/cleanup, preserve argument boundaries, expose useful interfaces, and avoid common set -e/word-splitting traps."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0036",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0037",
+      "title": "File descriptors and the system-call boundary",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0010",
+        "LNX-N-0021",
+        "LNX-N-0024"
+      ],
+      "outcomes": [
+        "Connect shell redirection to process file-descriptor tables and introduce open/read/write/close/dup as kernel interfaces."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0037",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0038",
+      "title": "fork, exec, wait, environment, and descriptor inheritance",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0024",
+        "LNX-N-0037"
+      ],
+      "outcomes": [
+        "Explain Unix process creation/overlay and predict what state is inherited or replaced across fork/exec."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0038",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0039",
+      "title": "Signals in detail: delivery, masks, handlers, and races",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0024",
+        "LNX-N-0038"
+      ],
+      "outcomes": [
+        "Reason about asynchronous signal delivery, masks, handlers, default actions, and race-prone patterns."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0039",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0040",
+      "title": "IPC: pipes, FIFOs, Unix sockets, shared memory, and queues",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0037",
+        "LNX-N-0038"
+      ],
+      "outcomes": [
+        "Choose IPC mechanisms based on lifetime, addressing, buffering, synchronization, and data-sharing requirements."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0040",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0041",
+      "title": "/proc as a process and kernel observability interface",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0024",
+        "LNX-N-0037"
+      ],
+      "outcomes": [
+        "Interpret process/kernel state in procfs while distinguishing snapshots, counters, tunables, and per-process namespaces."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0041",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0042",
+      "title": "Virtual memory from userspace: mappings, faults, and residency",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0037",
+        "LNX-N-0038"
+      ],
+      "outcomes": [
+        "Explain address spaces, mmap, page faults, anonymous/file-backed memory, copy-on-write, and why RSS/VSZ are imperfect summaries."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0042",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0043",
+      "title": "VFS, inodes, dentries, page cache, and open files",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0021",
+        "LNX-N-0037",
+        "LNX-N-0042"
+      ],
+      "outcomes": [
+        "Relate path lookup, VFS objects, open-file state, page cache, and filesystem implementations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0043",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0044",
+      "title": "The Linux storage stack: block devices, device mapper, LVM, RAID, encryption",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0028",
+        "LNX-N-0043"
+      ],
+      "outcomes": [
+        "Trace I/O through block-device layers and design safe partition/LVM/RAID/dm-crypt layouts in disposable labs."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0044",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0045",
+      "title": "Filesystem consistency, journaling, snapshots, and recovery",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0043",
+        "LNX-N-0044"
+      ],
+      "outcomes": [
+        "Explain crash-consistency goals, journaling/checking, snapshots, and recovery tradeoffs without treating fsck as a universal repair command."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0045",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0046",
+      "title": "Boot internals: UEFI, bootloaders, initramfs, kernel command line, and rescue",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0032",
+        "LNX-N-0044"
+      ],
+      "outcomes": [
+        "Diagnose boot stages and modify boot/initramfs/kernel-command-line behavior safely in a recoverable environment."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0046",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0047",
+      "title": "systemd dependency graphs and activation mechanisms",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0025",
+        "LNX-N-0026",
+        "LNX-N-0027"
+      ],
+      "outcomes": [
+        "Reason about ordering versus requirement dependencies, targets, templates, environment, socket/path/timer activation, and failure propagation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0047",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0048",
+      "title": "Kernel device events and udev rules",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0033",
+        "LNX-N-0035"
+      ],
+      "outcomes": [
+        "Trace device events from kernel to userspace and write/test narrowly scoped udev rules without unstable device-name assumptions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0048",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0049",
+      "title": "Linux networking in practice: routing, neighbors, DNS, TCP/UDP, packet capture",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0029",
+        "LNX-N-0035"
+      ],
+      "outcomes": [
+        "Interpret route/neighbor/socket/capture evidence and trace packets across host networking layers."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0049",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0050",
+      "title": "Netfilter, nftables, connection tracking, and NAT",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0049"
+      ],
+      "outcomes": [
+        "Explain hook points, stateful filtering, connection tracking, NAT, and build auditable nftables policies."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0050",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0051",
+      "title": "Namespaces: isolated views of Linux resources",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0038",
+        "LNX-N-0049",
+        "LNX-N-0028"
+      ],
+      "outcomes": [
+        "Explain PID, mount, network, UTS, IPC, user, and cgroup namespaces and construct small isolation labs."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0051",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0052",
+      "title": "cgroups v2: hierarchical resource accounting and control",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0024",
+        "LNX-N-0042",
+        "LNX-N-0051"
+      ],
+      "outcomes": [
+        "Relate cgroup hierarchy/controllers to CPU, memory, I/O, process placement, and service/container resource control."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0052",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0053",
+      "title": "Linux security primitives: capabilities, ACLs, seccomp, and SELinux/LSM",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0022",
+        "LNX-N-0023",
+        "LNX-N-0038"
+      ],
+      "outcomes": [
+        "Layer discretionary access, capabilities, syscall filtering, and mandatory access control instead of reducing security to root versus non-root."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0053",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0054",
+      "title": "Containers without magic: namespaces, cgroups, mounts, and images",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0051",
+        "LNX-N-0052",
+        "LNX-N-0053",
+        "LNX-N-0043"
+      ],
+      "outcomes": [
+        "Explain what a container runtime assembles from Linux primitives and identify what containers do not virtualize."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0054",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0055",
+      "title": "Observability toolkit: strace, lsof, ss, procfs, journal, vmstat, iostat",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0035",
+        "LNX-N-0037",
+        "LNX-N-0041",
+        "LNX-N-0049"
+      ],
+      "outcomes": [
+        "Select tools by question, correlate multiple evidence sources, and distinguish observation from interpretation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0055",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0056",
+      "title": "Performance measurement with perf and system counters",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0055",
+        "LNX-N-0042"
+      ],
+      "outcomes": [
+        "Measure CPU/time/event behavior, build baselines, and avoid common benchmark and sampling misinterpretations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0056",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0057",
+      "title": "Failure recovery: rescue environments, cores, boot failure, and storage damage",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0035",
+        "LNX-N-0045",
+        "LNX-N-0046",
+        "LNX-N-0055"
+      ],
+      "outcomes": [
+        "Recover from representative service, boot, process, and filesystem failures using reversible diagnostic steps and backups."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0057",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0058",
+      "title": "Reproducible administration and configuration automation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0036",
+        "LNX-N-0047",
+        "LNX-N-0057"
+      ],
+      "outcomes": [
+        "Turn one-off commands into documented, idempotent, reviewable system changes and distinguish imperative from declarative automation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0058",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0059",
+      "title": "Build a Linux system from source as an integration capstone",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0036",
+        "LNX-N-0044",
+        "LNX-N-0046",
+        "LNX-N-0047"
+      ],
+      "outcomes": [
+        "Use Linux From Scratch as an integration exercise to connect toolchain, libraries, filesystem hierarchy, boot, services, packages, and kernel/userspace boundaries."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0059",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0060",
+      "title": "Linux ABI, libc wrappers, and the syscall path",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0037",
+        "LNX-N-0038",
+        "LNX-N-0059"
+      ],
+      "outcomes": [
+        "Distinguish API from ABI, libc wrapper from syscall, architecture calling convention from kernel semantics, and compatibility promises from implementation details."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0060",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0061",
+      "title": "Threads, scheduling, futexes, affinity, and CPU topology",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0038",
+        "LNX-N-0040",
+        "LNX-N-0056"
+      ],
+      "outcomes": [
+        "Relate pthread-like threads to kernel tasks, futex-based synchronization, scheduling policy, CPU affinity, and observed latency."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0061",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0062",
+      "title": "Virtual-memory internals: page tables, reclaim, swap, OOM, and memory pressure",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0042",
+        "LNX-N-0055",
+        "LNX-N-0056"
+      ],
+      "outcomes": [
+        "Trace faults and reclaim at a mechanistic level and diagnose pressure using page-cache, swap, OOM, and PSI evidence."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0062",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0063",
+      "title": "Kernel memory allocation: buddy, slab/SLUB, and object lifetimes",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0062"
+      ],
+      "outcomes": [
+        "Explain the distinct roles of page and object allocators and connect allocator behavior to fragmentation, caches, and debugging."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0063",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0064",
+      "title": "Pathname lookup and VFS internals",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0043",
+        "LNX-N-0060"
+      ],
+      "outcomes": [
+        "Trace a pathname through dentries/inodes/mounts/open-file state and reason about caching, lookup races, and filesystem abstraction."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0064",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0065",
+      "title": "Writeback, journaling, and filesystem implementation tradeoffs",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0045",
+        "LNX-N-0064",
+        "LNX-N-0062"
+      ],
+      "outcomes": [
+        "Relate dirty pages, writeback, ordering, journaling/checkpointing, and crash semantics to real filesystem behavior."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0065",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0066",
+      "title": "Block I/O, queues, direct I/O, asynchronous I/O, and io_uring foundations",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0044",
+        "LNX-N-0056",
+        "LNX-N-0065"
+      ],
+      "outcomes": [
+        "Trace storage requests through cache/direct paths and introduce modern asynchronous I/O and queueing tradeoffs."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0066",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0067",
+      "title": "Linux networking internals: socket to packet to device",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0049",
+        "LNX-N-0060",
+        "LNX-N-0056"
+      ],
+      "outcomes": [
+        "Trace send/receive paths through sockets, protocol layers, routing, packet buffers, qdisc, and driver boundaries."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0067",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0068",
+      "title": "Netlink and rtnetlink as kernel/userspace control planes",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0049",
+        "LNX-N-0060",
+        "LNX-N-0067"
+      ],
+      "outcomes": [
+        "Understand message-based kernel/userspace networking configuration and observe how modern iproute2-like tools communicate state."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0068",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0069",
+      "title": "eBPF architecture: programs, verifier, maps, hooks, and safety",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0060",
+        "LNX-N-0067",
+        "LNX-N-0053"
+      ],
+      "outcomes": [
+        "Explain eBPF execution/verification, maps, helper interfaces, attachment points, and why the model differs from ordinary userspace code."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0069",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0070",
+      "title": "cgroups v2 internals, pressure, and service/container integration",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0052",
+        "LNX-N-0062",
+        "LNX-N-0061"
+      ],
+      "outcomes": [
+        "Analyze hierarchical resource control, pressure signals, delegation, and interaction with systemd/container workloads."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0070",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0071",
+      "title": "Namespaces, user namespaces, mount propagation, and isolation edge cases",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0051",
+        "LNX-N-0053",
+        "LNX-N-0054"
+      ],
+      "outcomes": [
+        "Reason about namespace composition, privilege translation, mount propagation, and the limits/security implications of isolation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0071",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0072",
+      "title": "Linux security architecture: LSM, SELinux, seccomp, capabilities, and attack surface",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0053",
+        "LNX-N-0060",
+        "LNX-N-0071"
+      ],
+      "outcomes": [
+        "Analyze layered policy enforcement and use denials/audit evidence to reason about security rather than disabling controls."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0072",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0073",
+      "title": "Kernel modules, symbols, taint, and module lifecycle",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0060",
+        "LNX-N-0048"
+      ],
+      "outcomes": [
+        "Build/load/unload a minimal module in a safe VM and explain symbols, dependencies, taint, and why modules execute with kernel privilege."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0073",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0074",
+      "title": "Configure, build, boot, and compare Linux kernels",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0046",
+        "LNX-N-0059",
+        "LNX-N-0073"
+      ],
+      "outcomes": [
+        "Build a kernel reproducibly, manage configuration, install to a disposable VM, preserve rollback, and compare behavior across configurations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0074",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0075",
+      "title": "ftrace, tracepoints, kprobes, and dynamic kernel tracing",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0055",
+        "LNX-N-0074"
+      ],
+      "outcomes": [
+        "Use tracefs/ftrace/events/kprobes to test precise hypotheses about kernel execution and latency."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0075",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0076",
+      "title": "perf, PMU events, profiles, and causal performance analysis",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0056",
+        "LNX-N-0061",
+        "LNX-N-0075"
+      ],
+      "outcomes": [
+        "Design profiling experiments, interpret sampling and hardware counters cautiously, and connect hot paths to code and workload behavior."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0076",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0077",
+      "title": "eBPF tracing with bpftrace/libbpf-style workflows",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0069",
+        "LNX-N-0075",
+        "LNX-N-0076"
+      ],
+      "outcomes": [
+        "Build tracing experiments using BPF maps/events while understanding verifier, overhead, and kernel-version constraints."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0077",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0078",
+      "title": "Userspace and kernel crash debugging",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0055",
+        "LNX-N-0060",
+        "LNX-N-0074"
+      ],
+      "outcomes": [
+        "Analyze core dumps, stack traces, symbols, oops/panic evidence, and distinguish symptom from root cause."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0078",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0079",
+      "title": "Kernel diagnostics: dynamic debug, SysRq, pstore, crash evidence",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0074",
+        "LNX-N-0078"
+      ],
+      "outcomes": [
+        "Use kernel diagnostic facilities in controlled environments and preserve evidence across failure/reboot boundaries."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0079",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0080",
+      "title": "KVM/QEMU and Linux as a virtualization host",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0054",
+        "LNX-N-0061",
+        "LNX-N-0062"
+      ],
+      "outcomes": [
+        "Explain hardware-assisted virtualization from the Linux host perspective and build an observable VM lab without confusing VMs with containers."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0080",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0081",
+      "title": "NUMA, huge pages, affinity, topology, and locality",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0061",
+        "LNX-N-0062",
+        "LNX-N-0076"
+      ],
+      "outcomes": [
+        "Measure topology/locality effects and reason about CPU/memory placement without assuming more locality is always better."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0081",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0082",
+      "title": "Design a filesystem and syscall performance experiment",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0060",
+        "LNX-N-0064",
+        "LNX-N-0065",
+        "LNX-N-0066",
+        "LNX-N-0076"
+      ],
+      "outcomes": [
+        "Form a falsifiable hypothesis, define workload/metrics/confounders, run repeated measurements, and interpret variance."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0082",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0083",
+      "title": "Build an isolated multi-host network laboratory with namespaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0050",
+        "LNX-N-0068",
+        "LNX-N-0071",
+        "LNX-N-0077"
+      ],
+      "outcomes": [
+        "Construct routers/hosts/links with namespaces and virtual interfaces, observe packet paths, inject failures, and explain each layer."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0083",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0084",
+      "title": "Container runtime anatomy: rootfs, overlay, pivot_root, namespaces, cgroups",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0054",
+        "LNX-N-0070",
+        "LNX-N-0071",
+        "LNX-N-0072"
+      ],
+      "outcomes": [
+        "Assemble a minimal container-like environment from Linux primitives and identify security/operational gaps a production runtime fills."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0084",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0085",
+      "title": "Navigate the kernel source tree, history, and subsystem ownership",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0074",
+        "LNX-N-0075"
+      ],
+      "outcomes": [
+        "Map source directories to subsystems, use git history/MAINTAINERS, and follow a userspace-visible behavior into implementation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0085",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0086",
+      "title": "Kernel concurrency: atomics, locks, memory ordering, and context constraints",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0061",
+        "LNX-N-0085"
+      ],
+      "outcomes": [
+        "Reason about race freedom, sleepability, interrupt/process contexts, atomics/locks, and ordering rather than copying locking patterns."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0086",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0087",
+      "title": "Read-copy-update (RCU) as a concurrency design",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Explain grace periods, readers/updaters, lifetime rules, and identify when RCU changes the design space."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0087",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0088",
+      "title": "Scheduler internals and latency tradeoffs",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0061",
+        "LNX-N-0076",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Trace runnable tasks through scheduling decisions and analyze fairness, latency, affinity, priority, and topology tradeoffs."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0088",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0089",
+      "title": "Memory-management internals and reclaim algorithms",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0062",
+        "LNX-N-0063",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Study allocator/reclaim/page-table code paths and explain performance/failure behavior from implementation evidence."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0089",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0090",
+      "title": "Implement and reason about VFS/filesystem paths",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0064",
+        "LNX-N-0065",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Read and modify a constrained filesystem/VFS path in a test kernel while preserving consistency and lifetime invariants."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0090",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0091",
+      "title": "Block/storage internals and modern I/O interfaces",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0066",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Analyze block queues, completion, direct/async I/O, device-mapper layers, and workload-dependent latency/throughput tradeoffs."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0091",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0092",
+      "title": "Networking subsystem internals and packet-processing fast paths",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0067",
+        "LNX-N-0068",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Read packet-processing paths, synchronization/data structures, and compare conventional stack paths with BPF/XDP fast paths."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0092",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0093",
+      "title": "Linux driver model and a minimal device driver",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0048",
+        "LNX-N-0073",
+        "LNX-N-0085",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Relate buses/devices/drivers/resources/lifetimes and implement a minimal safe driver or pseudo-device in a VM."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0093",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0094",
+      "title": "Advanced eBPF/XDP program lifecycle and performance",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0077",
+        "LNX-N-0083",
+        "LNX-N-0092"
+      ],
+      "outcomes": [
+        "Analyze verifier constraints, CO-RE/libbpf-style portability, map/concurrency choices, XDP paths, and measurement overhead."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0094",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0095",
+      "title": "io_uring and asynchronous I/O design tradeoffs",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0066",
+        "LNX-N-0091"
+      ],
+      "outcomes": [
+        "Study shared rings, submission/completion, polling/registration choices, security history, and workload-dependent benefits."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0095",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0096",
+      "title": "Kernel self-protection, exploit surface, and hardening mechanisms",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0072",
+        "LNX-N-0086",
+        "LNX-N-0089"
+      ],
+      "outcomes": [
+        "Connect memory/concurrency/ABI attack surfaces to hardening, mitigations, LSMs, sanitizers, and threat models."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0096",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0097",
+      "title": "Real-time Linux, preemption, and latency engineering",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0088",
+        "LNX-N-0076",
+        "LNX-N-0086"
+      ],
+      "outcomes": [
+        "Analyze preemption/interrupt/scheduling sources of latency and design measurements for real-time constraints."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0097",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0098",
+      "title": "Kernel testing: selftests, KUnit, sanitizers, fuzzing, and regression discipline",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0074",
+        "LNX-N-0078",
+        "LNX-N-0085"
+      ],
+      "outcomes": [
+        "Choose test layers, use kernel test/debug tooling, reproduce regressions, and design changes that remain bisectable."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0098",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0099",
+      "title": "Performance engineering across CPU, memory, I/O, and network bottlenecks",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0081",
+        "LNX-N-0088",
+        "LNX-N-0089",
+        "LNX-N-0091",
+        "LNX-N-0092",
+        "LNX-N-0094"
+      ],
+      "outcomes": [
+        "Build a whole-system performance model and distinguish saturation, contention, latency, throughput, locality, and measurement overhead."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0099",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0100",
+      "title": "Subsystem specialization capstone",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0085",
+        "LNX-N-0098",
+        "LNX-N-0099"
+      ],
+      "outcomes": [
+        "Select one kernel subsystem, map architecture/interfaces/tests/maintainers, reproduce a nontrivial behavior, and produce a technical dossier."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0100",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0101",
+      "title": "Source and commit archaeology: reconstruct why Linux behaves this way",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0085",
+        "LNX-N-0100"
+      ],
+      "outcomes": [
+        "Use source, git history, release/patch context, and ABI documentation to reconstruct a behavior and its design evolution."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0101",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0102",
+      "title": "Kernel development community, maintainers, patches, and review",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0085",
+        "LNX-N-0098"
+      ],
+      "outcomes": [
+        "Identify subsystem ownership, prepare bisectable changes, select recipients, respond to review, and distinguish technical from process requirements."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0102",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0103",
+      "title": "Reproduce a bug or regression and use git bisect scientifically",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0078",
+        "LNX-N-0098",
+        "LNX-N-0101"
+      ],
+      "outcomes": [
+        "Create a minimal reproducer, control environment/version variables, bisect cause, and preserve evidence suitable for maintainers."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0103",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0104",
+      "title": "Benchmarking and experimental design for Linux systems",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0082",
+        "LNX-N-0099"
+      ],
+      "outcomes": [
+        "Define hypotheses, baselines, controls, repetition/statistics, confounders, and measurement validity for systems experiments."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0104",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0105",
+      "title": "Read systems research papers as an engineer and reviewer",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0100",
+        "LNX-N-0104"
+      ],
+      "outcomes": [
+        "Extract question, model, assumptions, baselines, methodology, evidence, limitations, and transferability from a systems paper."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0105",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0106",
+      "title": "Reproduce or challenge a published Linux/systems result",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0103",
+        "LNX-N-0104",
+        "LNX-N-0105"
+      ],
+      "outcomes": [
+        "Reproduce a result or failure claim, document deviations, quantify uncertainty, and separate non-reproduction from refutation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0106",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0107",
+      "title": "Review code, patches, and performance claims",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0102",
+        "LNX-N-0104",
+        "LNX-N-0106"
+      ],
+      "outcomes": [
+        "Review correctness, concurrency, ABI, security, test coverage, performance evidence, and maintainability with explicit reasoning."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0107",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0108",
+      "title": "Research ethics, responsible disclosure, reproducibility, and community impact",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0102",
+        "LNX-N-0103",
+        "LNX-N-0106"
+      ],
+      "outcomes": [
+        "Handle vulnerabilities/bugs responsibly, preserve reproducibility, communicate limitations, and interact productively with maintainers/users."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0108",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0109",
+      "title": "Build a dated Linux research-frontier map",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0105",
+        "LNX-N-0108"
+      ],
+      "outcomes": [
+        "Survey recent primary work and kernel development activity, identify active subareas/disagreements/open problems, and stamp the map with a refresh date."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0109",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0110",
+      "title": "Formulate a research question that survives contact with the system",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0109",
+        "LNX-N-0104"
+      ],
+      "outcomes": [
+        "Turn an observed limitation or unexplained behavior into a falsifiable research question with measurable outcomes and credible baselines."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0110",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0111",
+      "title": "Build and evaluate a research prototype or kernel experiment",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0110",
+        "LNX-N-0098",
+        "LNX-N-0100"
+      ],
+      "outcomes": [
+        "Implement the smallest artifact that tests the hypothesis, evaluate across relevant workloads/configurations, and document threats to validity."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0111",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LNX-N-0112",
+      "title": "Produce a contribution-grade research report and refresh the frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LNX-N-0111",
+        "LNX-N-0107",
+        "LNX-N-0108"
+      ],
+      "outcomes": [
+        "Write a reproducible technical report or contribution, respond to critique, and feed new evidence/questions back into the frontier map."
+      ],
+      "target_concepts": [
+        {
+          "id": "LNX-C-0112",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    }
+  ]
 }

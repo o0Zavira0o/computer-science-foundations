@@ -2,36 +2,159 @@
 
 # Large Language Models (LLMs) Roadmap
 
-- **Audit status:** not-audited
-- **Last coverage audit:** not yet performed
-- **Nodes:** 0
+- **Audit status:** audited
+- **Last coverage audit:** 2026-08-19
+- **Nodes:** 116
 
 This is a human-readable view of the dependency graph. `CURRICULUM.json` is canonical.
 
 ## L0
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0001` | What a language model is | published | — | LLM-0001 |
+| `LLM-N-0002` | Text, symbols, tokens, and vocabularies | ready | LLM-N-0001 | — |
+| `LLM-N-0003` | Probability from counts: uncertainty without mystery | planned | LLM-N-0002 | — |
+| `LLM-N-0004` | Logits, softmax, and categorical prediction | planned | LLM-N-0003 | — |
+| `LLM-N-0005` | Vectors and dot products as similarity and scoring | planned | LLM-N-0004 | — |
+| `LLM-N-0006` | Matrices as organized linear transformations | planned | LLM-N-0005 | — |
+| `LLM-N-0007` | Derivatives, gradients, and computational graphs | planned | LLM-N-0006 | — |
+| `LLM-N-0008` | Loss functions and gradient descent | planned | LLM-N-0007 | — |
+| `LLM-N-0009` | Neural-network layers and nonlinearities | planned | LLM-N-0008 | — |
+| `LLM-N-0010` | PyTorch tensors, shapes, and autograd | planned | LLM-N-0009 | — |
+| `LLM-N-0011` | Build a tiny character-level language model | planned | LLM-N-0010 | — |
+| `LLM-N-0012` | Embeddings: turning discrete tokens into learned vectors | planned | LLM-N-0011 | — |
+| `LLM-N-0013` | Sequence context and the autoregressive factorization | planned | LLM-N-0012 | — |
+| `LLM-N-0014` | Training, validation, test sets, and data leakage | planned | LLM-N-0013 | — |
+| `LLM-N-0015` | Cross-entropy, perplexity, and what a training curve means | planned | LLM-N-0014 | — |
+| `LLM-N-0016` | Data pipelines, batches, padding, and sequence packing | planned | LLM-N-0015 | — |
+| `LLM-N-0017` | Compute, memory, reproducibility, and experiment hygiene | planned | LLM-N-0016 | — |
+| `LLM-N-0018` | From tiny models to Transformers: the dependency map | planned | LLM-N-0017 | — |
 
 ## L1
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0019` | Why attention was introduced | planned | LLM-N-0018 | — |
+| `LLM-N-0020` | Queries, keys, values, and scaled dot-product attention | planned | LLM-N-0019 | — |
+| `LLM-N-0021` | Self-attention by hand on a toy sequence | planned | LLM-N-0020 | — |
+| `LLM-N-0022` | Causal masking and autoregressive attention | planned | LLM-N-0021 | — |
+| `LLM-N-0023` | Multi-head attention as parallel learned subspaces | planned | LLM-N-0022 | — |
+| `LLM-N-0024` | Positional information: absolute, rotary, and relative ideas | planned | LLM-N-0023 | — |
+| `LLM-N-0025` | Residual streams and skip connections | planned | LLM-N-0024 | — |
+| `LLM-N-0026` | Layer normalization and normalization placement | planned | LLM-N-0025 | — |
+| `LLM-N-0027` | Feed-forward blocks and gated MLPs | planned | LLM-N-0026 | — |
+| `LLM-N-0028` | Assemble a decoder-only Transformer block | planned | LLM-N-0027 | — |
+| `LLM-N-0029` | Parameter initialization and stable signal propagation | planned | LLM-N-0028 | — |
+| `LLM-N-0030` | Token embeddings and output projections | planned | LLM-N-0029 | — |
+| `LLM-N-0031` | The next-token objective at Transformer scale | planned | LLM-N-0030 | — |
+| `LLM-N-0032` | Teacher forcing, sequence loss, and masking padded tokens | planned | LLM-N-0031 | — |
+| `LLM-N-0033` | Optimizers: SGD, momentum, Adam, and AdamW | planned | LLM-N-0032 | — |
+| `LLM-N-0034` | Learning-rate schedules, warmup, clipping, and weight decay | planned | LLM-N-0033 | — |
+| `LLM-N-0035` | Dropout, regularization, and overfitting in language models | planned | LLM-N-0034 | — |
+| `LLM-N-0036` | Checkpointing, resuming, and reproducible training state | planned | LLM-N-0035 | — |
+| `LLM-N-0037` | Decoding: greedy, sampling, top-k, top-p, and temperature | planned | LLM-N-0036 | — |
+| `LLM-N-0038` | Beam search and why open-ended generation is different | planned | LLM-N-0037 | — |
+| `LLM-N-0039` | Train and debug a small Transformer from scratch | planned | LLM-N-0038 | — |
+| `LLM-N-0040` | Read a modern decoder architecture specification | planned | LLM-N-0039 | — |
 
 ## L2
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0041` | Tokenizer design: BPE, unigram models, and SentencePiece | planned | LLM-N-0040 | — |
+| `LLM-N-0042` | Vocabulary size, fertility, multilinguality, and tokenization bias | planned | LLM-N-0041 | — |
+| `LLM-N-0043` | Dataset collection, licensing, provenance, and governance | planned | LLM-N-0042 | — |
+| `LLM-N-0044` | Cleaning, filtering, deduplication, and quality mixtures | planned | LLM-N-0043 | — |
+| `LLM-N-0045` | Data contamination and benchmark leakage | planned | LLM-N-0044 | — |
+| `LLM-N-0046` | Scaling laws: parameters, data, compute, and loss | planned | LLM-N-0045 | — |
+| `LLM-N-0047` | Compute-optimal training and the Chinchilla result | planned | LLM-N-0046 | — |
+| `LLM-N-0048` | Hardware-aware batch size and gradient accumulation | planned | LLM-N-0047 | — |
+| `LLM-N-0049` | Mixed precision and numerical stability | planned | LLM-N-0048 | — |
+| `LLM-N-0050` | Data parallel training and collective communication | planned | LLM-N-0049 | — |
+| `LLM-N-0051` | Fully sharded data parallelism | planned | LLM-N-0050 | — |
+| `LLM-N-0052` | Tensor and sequence parallelism | planned | LLM-N-0051 | — |
+| `LLM-N-0053` | Pipeline parallelism and hybrid parallel strategies | planned | LLM-N-0052 | — |
+| `LLM-N-0054` | Activation checkpointing and memory-compute tradeoffs | planned | LLM-N-0053 | — |
+| `LLM-N-0055` | Distributed checkpoints, fault tolerance, and restart design | planned | LLM-N-0054 | — |
+| `LLM-N-0056` | Supervised fine-tuning for instructions | planned | LLM-N-0055 | — |
+| `LLM-N-0057` | Preference data and reward modeling | planned | LLM-N-0056 | — |
+| `LLM-N-0058` | RLHF: policy optimization around a learned reward | planned | LLM-N-0057 | — |
+| `LLM-N-0059` | Direct Preference Optimization and reference policies | planned | LLM-N-0058 | — |
+| `LLM-N-0060` | Reasoning post-training and verifiable rewards | planned | LLM-N-0059 | — |
+| `LLM-N-0061` | Evaluation design: capabilities, robustness, and failure modes | planned | LLM-N-0060 | — |
+| `LLM-N-0062` | Calibration, uncertainty, hallucination, and abstention | planned | LLM-N-0061 | — |
+| `LLM-N-0063` | Retrieval-augmented generation | planned | LLM-N-0062 | — |
+| `LLM-N-0064` | Tool use, function calling, and grounded action | planned | LLM-N-0063 | — |
 
 ## L3
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0065` | Long-context behavior and context-window evaluation | planned | LLM-N-0064 | — |
+| `LLM-N-0066` | KV caches and the cost structure of autoregressive decoding | planned | LLM-N-0065 | — |
+| `LLM-N-0067` | PagedAttention and memory-aware serving | planned | LLM-N-0066 | — |
+| `LLM-N-0068` | Continuous batching and serving schedulers | planned | LLM-N-0067 | — |
+| `LLM-N-0069` | FlashAttention and IO-aware exact attention | planned | LLM-N-0068 | — |
+| `LLM-N-0070` | Quantization for training and inference | planned | LLM-N-0069 | — |
+| `LLM-N-0071` | Speculative decoding and draft models | planned | LLM-N-0070 | — |
+| `LLM-N-0072` | Throughput, latency, time-to-first-token, and service-level tradeoffs | planned | LLM-N-0071 | — |
+| `LLM-N-0073` | Mixture-of-Experts architectures and routing | planned | LLM-N-0072 | — |
+| `LLM-N-0074` | Parameter-efficient fine-tuning and adapters | planned | LLM-N-0073 | — |
+| `LLM-N-0075` | Distillation and small-model transfer | planned | LLM-N-0074 | — |
+| `LLM-N-0076` | Synthetic data: generation, filtering, and collapse risks | planned | LLM-N-0075 | — |
+| `LLM-N-0077` | Multilingual language models and cross-lingual transfer | planned | LLM-N-0076 | — |
+| `LLM-N-0078` | Code language models and execution-aware evaluation | planned | LLM-N-0077 | — |
+| `LLM-N-0079` | Agents, ReAct-style loops, memory, and environment feedback | planned | LLM-N-0078 | — |
+| `LLM-N-0080` | Mechanistic interpretability: activations, circuits, and causal interventions | planned | LLM-N-0079 | — |
+| `LLM-N-0081` | Representation analysis and probing without overclaiming | planned | LLM-N-0080 | — |
+| `LLM-N-0082` | Safety evaluations, red teaming, and jailbreak methodology | planned | LLM-N-0081 | — |
+| `LLM-N-0083` | Alignment behavior, harmlessness, and refusal tradeoffs | planned | LLM-N-0082 | — |
+| `LLM-N-0084` | Privacy, memorization, extraction, and data protection | planned | LLM-N-0083 | — |
+| `LLM-N-0085` | Reproducible LLM experimentation and experiment tracking | planned | LLM-N-0084 | — |
+| `LLM-N-0086` | Build an end-to-end train-evaluate-serve pipeline | planned | LLM-N-0085 | — |
 
 ## L4
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0087` | Optimization dynamics in large-scale pretraining | planned | LLM-N-0086 | — |
+| `LLM-N-0088` | Modern scaling-law estimation and uncertainty | planned | LLM-N-0087 | — |
+| `LLM-N-0089` | Data mixture optimization and curriculum effects | planned | LLM-N-0088 | — |
+| `LLM-N-0090` | Architecture tradeoffs beyond the standard Transformer | planned | LLM-N-0089 | — |
+| `LLM-N-0091` | Efficient attention and state-space alternatives | planned | LLM-N-0090 | — |
+| `LLM-N-0092` | Test-time compute and reasoning-time scaling | planned | LLM-N-0091 | — |
+| `LLM-N-0093` | Reinforcement learning for reasoning and process supervision | planned | LLM-N-0092 | — |
+| `LLM-N-0094` | Evaluation science: validity, reliability, saturation, and gaming | planned | LLM-N-0093 | — |
+| `LLM-N-0095` | Benchmark construction and contamination-resistant testing | planned | LLM-N-0094 | — |
+| `LLM-N-0096` | Mechanistic interpretability at model scale | planned | LLM-N-0095 | — |
+| `LLM-N-0097` | Causal representation analysis | planned | LLM-N-0096 | — |
+| `LLM-N-0098` | Robustness under distribution shift and adversarial prompting | planned | LLM-N-0097 | — |
+| `LLM-N-0099` | Scalable oversight and weak-to-strong supervision | planned | LLM-N-0098 | — |
+| `LLM-N-0100` | Model editing, unlearning, and behavior localization | planned | LLM-N-0099 | — |
+| `LLM-N-0101` | Inference-system co-design for large models | planned | LLM-N-0100 | — |
+| `LLM-N-0102` | Research replication: reproduce a nontrivial LLM result | planned | LLM-N-0101 | — |
 
 ## L5
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0103` | Read an LLM paper as an argument, not a leaderboard | planned | LLM-N-0102 | — |
+| `LLM-N-0104` | Design ablations that isolate a mechanism | planned | LLM-N-0103 | — |
+| `LLM-N-0105` | Statistical uncertainty and multiple comparisons in evaluation | planned | LLM-N-0104 | — |
+| `LLM-N-0106` | Measure systems claims with defensible benchmarks | planned | LLM-N-0105 | — |
+| `LLM-N-0107` | Audit an open model: data, architecture, training, and license evidence | planned | LLM-N-0106 | — |
+| `LLM-N-0108` | Reproduce a published language-model experiment | planned | LLM-N-0107 | — |
+| `LLM-N-0109` | Write a critical technical review of an LLM claim | planned | LLM-N-0108 | — |
+| `LLM-N-0110` | Research ethics, disclosure, dual use, and responsible release | planned | LLM-N-0109 | — |
 
 ## L6
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LLM-N-0111` | Map a current LLM research frontier | planned | LLM-N-0110 | — |
+| `LLM-N-0112` | Turn a vague curiosity into a falsifiable research question | planned | LLM-N-0111 | — |
+| `LLM-N-0113` | Build the smallest decisive prototype | planned | LLM-N-0112 | — |
+| `LLM-N-0114` | Design an evaluation suite that could disprove your claim | planned | LLM-N-0113 | — |
+| `LLM-N-0115` | Run, analyze, and stress-test a frontier experiment | planned | LLM-N-0114 | — |
+| `LLM-N-0116` | Produce a reproducible contribution-grade research artifact | planned | LLM-N-0115 | — |

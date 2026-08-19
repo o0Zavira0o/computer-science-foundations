@@ -5,13 +5,13 @@
 | # | Track | Group | ID | Status | Entry point |
 |---|---|---|---|---|---|
 | 1 | Linear Algebra | Core | `linear-algebra` | scaffolded | [`01-Linear-Algebra/README.md`](../01-Linear-Algebra/README.md) |
-| 2 | Linux Systems | Core | `linux-systems` | scaffolded | [`02-Linux-Systems/README.md`](../02-Linux-Systems/README.md) |
+| 2 | Linux Systems | Core | `linux-systems` | active | [`02-Linux-Systems/README.md`](../02-Linux-Systems/README.md) |
 | 3 | C++ | Core | `cpp` | scaffolded | [`03-CPP/README.md`](../03-CPP/README.md) |
 | 4 | Computer Architecture | Core | `computer-architecture` | scaffolded | [`04-Computer-Architecture/README.md`](../04-Computer-Architecture/README.md) |
 | 5 | Programming Parallel Processors | Core | `programming-parallel-processors` | scaffolded | [`05-Programming-Parallel-Processors/README.md`](../05-Programming-Parallel-Processors/README.md) |
 | 6 | Complex Analysis | Core | `complex-analysis` | scaffolded | [`06-Complex-Analysis/README.md`](../06-Complex-Analysis/README.md) |
 | 7 | Computer Systems | Core | `computer-systems` | scaffolded | [`07-Computer-Systems/README.md`](../07-Computer-Systems/README.md) |
-| 8 | Large Language Models (LLMs) | Core | `large-language-models` | scaffolded | [`08-Large-Language-Models/README.md`](../08-Large-Language-Models/README.md) |
+| 8 | Large Language Models (LLMs) | Core | `large-language-models` | active | [`08-Large-Language-Models/README.md`](../08-Large-Language-Models/README.md) |
 | 9 | Advanced English | Auxiliary Studies | `advanced-english` | scaffolded | [`09-Auxiliary-Studies/01-Advanced-English/README.md`](../09-Auxiliary-Studies/01-Advanced-English/README.md) |
-| 10 | German Language | Auxiliary Studies | `german-language` | scaffolded | [`09-Auxiliary-Studies/02-German-Language/README.md`](../09-Auxiliary-Studies/02-German-Language/README.md) |
+| 10 | German Language | Auxiliary Studies | `german-language` | active | [`09-Auxiliary-Studies/02-German-Language/README.md`](../09-Auxiliary-Studies/02-German-Language/README.md) |
 | 11 | Philosophy and Logic | Auxiliary Studies | `philosophy-and-logic` | scaffolded | [`09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md`](../09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md) |

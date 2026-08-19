@@ -2,5 +2,105 @@
   "$schema": "../../../schemas/reference-registry.schema.json",
   "schema_version": 1,
   "track": "german-language",
-  "references": []
+  "references": [
+    {
+      "id": "GER-REF-001",
+      "title": "Common European Framework of Reference for Languages: Companion Volume (2020)",
+      "type": "standard-specification",
+      "authority": "Council of Europe",
+      "locator": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2020",
+      "notes": "Competence descriptors and action-oriented progression from A1 to C2."
+    },
+    {
+      "id": "GER-REF-002",
+      "title": "CEFR Level Descriptions",
+      "type": "official-documentation",
+      "authority": "Council of Europe",
+      "locator": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Official six-level proficiency framing and can-do orientation."
+    },
+    {
+      "id": "GER-REF-003",
+      "title": "German examinations A1–C2",
+      "type": "official-documentation",
+      "authority": "Goethe-Institut",
+      "locator": "https://www.goethe.de/en/spr/prf.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Externally benchmarked receptive/productive performance expectations."
+    },
+    {
+      "id": "GER-REF-004",
+      "title": "Deutsch für dich — free German exercises A1–C2",
+      "type": "official-documentation",
+      "authority": "Goethe-Institut",
+      "locator": "https://www.goethe.de/prj/dfd/en/home.cfm",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Practice corpus across grammar, vocabulary, reading, and listening."
+    },
+    {
+      "id": "GER-REF-005",
+      "title": "Goethe-Institut Exam Training A1–C2",
+      "type": "official-documentation",
+      "authority": "Goethe-Institut",
+      "locator": "https://www.goethe.de/en/spr/prf/ueb.html",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Official skill-specific sample tasks."
+    },
+    {
+      "id": "GER-REF-006",
+      "title": "grammis — Grammatisches Informationssystem",
+      "type": "official-documentation",
+      "authority": "Leibniz-Institut für Deutsche Sprache (IDS)",
+      "locator": "https://grammis.ids-mannheim.de/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Research-informed German syntax, morphology, semantics, terminology, and corpus examples."
+    },
+    {
+      "id": "GER-REF-007",
+      "title": "Amtliches Regelwerk der deutschen Rechtschreibung 2024",
+      "type": "standard-specification",
+      "authority": "Rat für deutsche Rechtschreibung",
+      "locator": "https://www.rechtschreibrat.com/regeln-und-woerterverzeichnis/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "2024",
+      "notes": "Official orthographic rules and word list; binding for school/administration from July 2024."
+    },
+    {
+      "id": "GER-REF-008",
+      "title": "Deutsches Referenzkorpus (DeReKo)",
+      "type": "dataset",
+      "authority": "Leibniz-Institut für Deutsche Sprache (IDS)",
+      "locator": "https://www.ids-mannheim.de/digspra/kl/projekte/korpora/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Large corpus resource for advanced usage, variation, and research."
+    },
+    {
+      "id": "GER-REF-009",
+      "title": "German Studies BA curriculum (language system and literature benchmark)",
+      "type": "university-course",
+      "authority": "Leipzig University",
+      "locator": "https://www.philol.uni-leipzig.de/institut-fuer-germanistik/studium/studiengaenge/bachelor-deutsch",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Post-proficiency benchmark for linguistics/literature breadth."
+    }
+  ]
 }

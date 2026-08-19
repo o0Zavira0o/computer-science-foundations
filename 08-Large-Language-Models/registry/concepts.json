@@ -2,5 +2,846 @@
   "$schema": "../../schemas/concept-registry.schema.json",
   "schema_version": 1,
   "track": "large-language-models",
-  "concepts": []
+  "concepts": [
+    {
+      "id": "LLM-C-0001",
+      "name": "What a language model is",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Primary durable concept for LLM-N-0001."
+    },
+    {
+      "id": "LLM-C-0002",
+      "name": "Text, symbols, tokens, and vocabularies",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0002."
+    },
+    {
+      "id": "LLM-C-0003",
+      "name": "Probability from counts — uncertainty without mystery",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0003."
+    },
+    {
+      "id": "LLM-C-0004",
+      "name": "Logits, softmax, and categorical prediction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0004."
+    },
+    {
+      "id": "LLM-C-0005",
+      "name": "Vectors and dot products as similarity and scoring",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0005."
+    },
+    {
+      "id": "LLM-C-0006",
+      "name": "Matrices as organized linear transformations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0006."
+    },
+    {
+      "id": "LLM-C-0007",
+      "name": "Derivatives, gradients, and computational graphs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0007."
+    },
+    {
+      "id": "LLM-C-0008",
+      "name": "Loss functions and gradient descent",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0008."
+    },
+    {
+      "id": "LLM-C-0009",
+      "name": "Neural-network layers and nonlinearities",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0009."
+    },
+    {
+      "id": "LLM-C-0010",
+      "name": "PyTorch tensors, shapes, and autograd",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0010."
+    },
+    {
+      "id": "LLM-C-0011",
+      "name": "Build a tiny character-level language model",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0011."
+    },
+    {
+      "id": "LLM-C-0012",
+      "name": "Embeddings — turning discrete tokens into learned vectors",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0012."
+    },
+    {
+      "id": "LLM-C-0013",
+      "name": "Sequence context and the autoregressive factorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0013."
+    },
+    {
+      "id": "LLM-C-0014",
+      "name": "Training, validation, test sets, and data leakage",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0014."
+    },
+    {
+      "id": "LLM-C-0015",
+      "name": "Cross-entropy, perplexity, and what a training curve means",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0015."
+    },
+    {
+      "id": "LLM-C-0016",
+      "name": "Data pipelines, batches, padding, and sequence packing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0016."
+    },
+    {
+      "id": "LLM-C-0017",
+      "name": "Compute, memory, reproducibility, and experiment hygiene",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0017."
+    },
+    {
+      "id": "LLM-C-0018",
+      "name": "From tiny models to Transformers — the dependency map",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0018."
+    },
+    {
+      "id": "LLM-C-0019",
+      "name": "Why attention was introduced",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0019."
+    },
+    {
+      "id": "LLM-C-0020",
+      "name": "Queries, keys, values, and scaled dot-product attention",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0020."
+    },
+    {
+      "id": "LLM-C-0021",
+      "name": "Self-attention by hand on a toy sequence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0021."
+    },
+    {
+      "id": "LLM-C-0022",
+      "name": "Causal masking and autoregressive attention",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0022."
+    },
+    {
+      "id": "LLM-C-0023",
+      "name": "Multi-head attention as parallel learned subspaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0023."
+    },
+    {
+      "id": "LLM-C-0024",
+      "name": "Positional information — absolute, rotary, and relative ideas",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0024."
+    },
+    {
+      "id": "LLM-C-0025",
+      "name": "Residual streams and skip connections",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0025."
+    },
+    {
+      "id": "LLM-C-0026",
+      "name": "Layer normalization and normalization placement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0026."
+    },
+    {
+      "id": "LLM-C-0027",
+      "name": "Feed-forward blocks and gated MLPs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0027."
+    },
+    {
+      "id": "LLM-C-0028",
+      "name": "Assemble a decoder-only Transformer block",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0028."
+    },
+    {
+      "id": "LLM-C-0029",
+      "name": "Parameter initialization and stable signal propagation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0029."
+    },
+    {
+      "id": "LLM-C-0030",
+      "name": "Token embeddings and output projections",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0030."
+    },
+    {
+      "id": "LLM-C-0031",
+      "name": "The next-token objective at Transformer scale",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0031."
+    },
+    {
+      "id": "LLM-C-0032",
+      "name": "Teacher forcing, sequence loss, and masking padded tokens",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0032."
+    },
+    {
+      "id": "LLM-C-0033",
+      "name": "Optimizers — SGD, momentum, Adam, and AdamW",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0033."
+    },
+    {
+      "id": "LLM-C-0034",
+      "name": "Learning-rate schedules, warmup, clipping, and weight decay",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0034."
+    },
+    {
+      "id": "LLM-C-0035",
+      "name": "Dropout, regularization, and overfitting in language models",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0035."
+    },
+    {
+      "id": "LLM-C-0036",
+      "name": "Checkpointing, resuming, and reproducible training state",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0036."
+    },
+    {
+      "id": "LLM-C-0037",
+      "name": "Decoding — greedy, sampling, top-k, top-p, and temperature",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0037."
+    },
+    {
+      "id": "LLM-C-0038",
+      "name": "Beam search and why open-ended generation is different",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0038."
+    },
+    {
+      "id": "LLM-C-0039",
+      "name": "Train and debug a small Transformer from scratch",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0039."
+    },
+    {
+      "id": "LLM-C-0040",
+      "name": "Read a modern decoder architecture specification",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0040."
+    },
+    {
+      "id": "LLM-C-0041",
+      "name": "Tokenizer design — BPE, unigram models, and SentencePiece",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0041."
+    },
+    {
+      "id": "LLM-C-0042",
+      "name": "Vocabulary size, fertility, multilinguality, and tokenization bias",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0042."
+    },
+    {
+      "id": "LLM-C-0043",
+      "name": "Dataset collection, licensing, provenance, and governance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0043."
+    },
+    {
+      "id": "LLM-C-0044",
+      "name": "Cleaning, filtering, deduplication, and quality mixtures",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0044."
+    },
+    {
+      "id": "LLM-C-0045",
+      "name": "Data contamination and benchmark leakage",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0045."
+    },
+    {
+      "id": "LLM-C-0046",
+      "name": "Scaling laws — parameters, data, compute, and loss",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0046."
+    },
+    {
+      "id": "LLM-C-0047",
+      "name": "Compute-optimal training and the Chinchilla result",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0047."
+    },
+    {
+      "id": "LLM-C-0048",
+      "name": "Hardware-aware batch size and gradient accumulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0048."
+    },
+    {
+      "id": "LLM-C-0049",
+      "name": "Mixed precision and numerical stability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0049."
+    },
+    {
+      "id": "LLM-C-0050",
+      "name": "Data parallel training and collective communication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0050."
+    },
+    {
+      "id": "LLM-C-0051",
+      "name": "Fully sharded data parallelism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0051."
+    },
+    {
+      "id": "LLM-C-0052",
+      "name": "Tensor and sequence parallelism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0052."
+    },
+    {
+      "id": "LLM-C-0053",
+      "name": "Pipeline parallelism and hybrid parallel strategies",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0053."
+    },
+    {
+      "id": "LLM-C-0054",
+      "name": "Activation checkpointing and memory-compute tradeoffs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0054."
+    },
+    {
+      "id": "LLM-C-0055",
+      "name": "Distributed checkpoints, fault tolerance, and restart design",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0055."
+    },
+    {
+      "id": "LLM-C-0056",
+      "name": "Supervised fine-tuning for instructions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0056."
+    },
+    {
+      "id": "LLM-C-0057",
+      "name": "Preference data and reward modeling",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0057."
+    },
+    {
+      "id": "LLM-C-0058",
+      "name": "RLHF — policy optimization around a learned reward",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0058."
+    },
+    {
+      "id": "LLM-C-0059",
+      "name": "Direct Preference Optimization and reference policies",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0059."
+    },
+    {
+      "id": "LLM-C-0060",
+      "name": "Reasoning post-training and verifiable rewards",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0060."
+    },
+    {
+      "id": "LLM-C-0061",
+      "name": "Evaluation design — capabilities, robustness, and failure modes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0061."
+    },
+    {
+      "id": "LLM-C-0062",
+      "name": "Calibration, uncertainty, hallucination, and abstention",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0062."
+    },
+    {
+      "id": "LLM-C-0063",
+      "name": "Retrieval-augmented generation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0063."
+    },
+    {
+      "id": "LLM-C-0064",
+      "name": "Tool use, function calling, and grounded action",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0064."
+    },
+    {
+      "id": "LLM-C-0065",
+      "name": "Long-context behavior and context-window evaluation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0065."
+    },
+    {
+      "id": "LLM-C-0066",
+      "name": "KV caches and the cost structure of autoregressive decoding",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0066."
+    },
+    {
+      "id": "LLM-C-0067",
+      "name": "PagedAttention and memory-aware serving",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0067."
+    },
+    {
+      "id": "LLM-C-0068",
+      "name": "Continuous batching and serving schedulers",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0068."
+    },
+    {
+      "id": "LLM-C-0069",
+      "name": "FlashAttention and IO-aware exact attention",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0069."
+    },
+    {
+      "id": "LLM-C-0070",
+      "name": "Quantization for training and inference",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0070."
+    },
+    {
+      "id": "LLM-C-0071",
+      "name": "Speculative decoding and draft models",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0071."
+    },
+    {
+      "id": "LLM-C-0072",
+      "name": "Throughput, latency, time-to-first-token, and service-level tradeoffs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0072."
+    },
+    {
+      "id": "LLM-C-0073",
+      "name": "Mixture-of-Experts architectures and routing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0073."
+    },
+    {
+      "id": "LLM-C-0074",
+      "name": "Parameter-efficient fine-tuning and adapters",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0074."
+    },
+    {
+      "id": "LLM-C-0075",
+      "name": "Distillation and small-model transfer",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0075."
+    },
+    {
+      "id": "LLM-C-0076",
+      "name": "Synthetic data — generation, filtering, and collapse risks",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0076."
+    },
+    {
+      "id": "LLM-C-0077",
+      "name": "Multilingual language models and cross-lingual transfer",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0077."
+    },
+    {
+      "id": "LLM-C-0078",
+      "name": "Code language models and execution-aware evaluation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0078."
+    },
+    {
+      "id": "LLM-C-0079",
+      "name": "Agents, ReAct-style loops, memory, and environment feedback",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0079."
+    },
+    {
+      "id": "LLM-C-0080",
+      "name": "Mechanistic interpretability — activations, circuits, and causal interventions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0080."
+    },
+    {
+      "id": "LLM-C-0081",
+      "name": "Representation analysis and probing without overclaiming",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0081."
+    },
+    {
+      "id": "LLM-C-0082",
+      "name": "Safety evaluations, red teaming, and jailbreak methodology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0082."
+    },
+    {
+      "id": "LLM-C-0083",
+      "name": "Alignment behavior, harmlessness, and refusal tradeoffs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0083."
+    },
+    {
+      "id": "LLM-C-0084",
+      "name": "Privacy, memorization, extraction, and data protection",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0084."
+    },
+    {
+      "id": "LLM-C-0085",
+      "name": "Reproducible LLM experimentation and experiment tracking",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0085."
+    },
+    {
+      "id": "LLM-C-0086",
+      "name": "Build an end-to-end train-evaluate-serve pipeline",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0086."
+    },
+    {
+      "id": "LLM-C-0087",
+      "name": "Optimization dynamics in large-scale pretraining",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0087."
+    },
+    {
+      "id": "LLM-C-0088",
+      "name": "Modern scaling-law estimation and uncertainty",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0088."
+    },
+    {
+      "id": "LLM-C-0089",
+      "name": "Data mixture optimization and curriculum effects",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0089."
+    },
+    {
+      "id": "LLM-C-0090",
+      "name": "Architecture tradeoffs beyond the standard Transformer",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0090."
+    },
+    {
+      "id": "LLM-C-0091",
+      "name": "Efficient attention and state-space alternatives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0091."
+    },
+    {
+      "id": "LLM-C-0092",
+      "name": "Test-time compute and reasoning-time scaling",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0092."
+    },
+    {
+      "id": "LLM-C-0093",
+      "name": "Reinforcement learning for reasoning and process supervision",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0093."
+    },
+    {
+      "id": "LLM-C-0094",
+      "name": "Evaluation science — validity, reliability, saturation, and gaming",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0094."
+    },
+    {
+      "id": "LLM-C-0095",
+      "name": "Benchmark construction and contamination-resistant testing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0095."
+    },
+    {
+      "id": "LLM-C-0096",
+      "name": "Mechanistic interpretability at model scale",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0096."
+    },
+    {
+      "id": "LLM-C-0097",
+      "name": "Causal representation analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0097."
+    },
+    {
+      "id": "LLM-C-0098",
+      "name": "Robustness under distribution shift and adversarial prompting",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0098."
+    },
+    {
+      "id": "LLM-C-0099",
+      "name": "Scalable oversight and weak-to-strong supervision",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0099."
+    },
+    {
+      "id": "LLM-C-0100",
+      "name": "Model editing, unlearning, and behavior localization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0100."
+    },
+    {
+      "id": "LLM-C-0101",
+      "name": "Inference-system co-design for large models",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0101."
+    },
+    {
+      "id": "LLM-C-0102",
+      "name": "Research replication — reproduce a nontrivial LLM result",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0102."
+    },
+    {
+      "id": "LLM-C-0103",
+      "name": "Read an LLM paper as an argument, not a leaderboard",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0103."
+    },
+    {
+      "id": "LLM-C-0104",
+      "name": "Design ablations that isolate a mechanism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0104."
+    },
+    {
+      "id": "LLM-C-0105",
+      "name": "Statistical uncertainty and multiple comparisons in evaluation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0105."
+    },
+    {
+      "id": "LLM-C-0106",
+      "name": "Measure systems claims with defensible benchmarks",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0106."
+    },
+    {
+      "id": "LLM-C-0107",
+      "name": "Audit an open model — data, architecture, training, and license evidence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0107."
+    },
+    {
+      "id": "LLM-C-0108",
+      "name": "Reproduce a published language-model experiment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0108."
+    },
+    {
+      "id": "LLM-C-0109",
+      "name": "Write a critical technical review of an LLM claim",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0109."
+    },
+    {
+      "id": "LLM-C-0110",
+      "name": "Research ethics, disclosure, dual use, and responsible release",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0110."
+    },
+    {
+      "id": "LLM-C-0111",
+      "name": "Map a current LLM research frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0111."
+    },
+    {
+      "id": "LLM-C-0112",
+      "name": "Turn a vague curiosity into a falsifiable research question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0112."
+    },
+    {
+      "id": "LLM-C-0113",
+      "name": "Build the smallest decisive prototype",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0113."
+    },
+    {
+      "id": "LLM-C-0114",
+      "name": "Design an evaluation suite that could disprove your claim",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0114."
+    },
+    {
+      "id": "LLM-C-0115",
+      "name": "Run, analyze, and stress-test a frontier experiment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0115."
+    },
+    {
+      "id": "LLM-C-0116",
+      "name": "Produce a reproducible contribution-grade research artifact",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Primary durable concept for LLM-N-0116."
+    },
+    {
+      "id": "LLM-C-0201",
+      "name": "Language-model probability distribution",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in LLM-0001."
+    },
+    {
+      "id": "LLM-C-0202",
+      "name": "Autoregressive next-token prediction",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in LLM-0001."
+    },
+    {
+      "id": "LLM-C-0203",
+      "name": "Context",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in LLM-0001."
+    },
+    {
+      "id": "LLM-C-0204",
+      "name": "Token sequence",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "Foundational concept introduced in LLM-0001."
+    }
+  ]
 }

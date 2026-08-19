@@ -4,4 +4,6 @@
 
 | Example ID | Signature | Domain | First lesson | Reuse purpose |
 |---|---|---|---|---|
-| — | — | — | — | No examples registered yet |
+| `GER-EX-001` | Contrast `Guten Tag`, `Hallo`, and `Guten Morgen` by situation rather than translating all three as one English greeting | first communicative chunks | GER-0001 | — |
+| `GER-EX-002` | Pronounce and visually distinguish `schön`, `schon`, `Mutter`, `Mütter`, and `Straße` to connect spelling changes with sound and meaning | grapheme-sound mapping | GER-0001 | — |
+| `GER-EX-003` | Build the two-turn exchange `Hallo! Ich heiße … — Wie heißt du?` while marking the stressed syllable and final consonants | first spoken interaction | GER-0001 | — |

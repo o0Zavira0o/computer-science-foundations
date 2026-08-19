@@ -4,8 +4,8 @@
 
 This repository is designed as a durable learning system rather than a pile of notes or a fixed-length course. Each subject starts with zero assumed subject-specific knowledge, makes outside prerequisites explicit, develops through undergraduate and graduate depth, and stays open at the research frontier.
 
-> **System version:** V3.1 pre-content hardening
-> **Lesson content:** intentionally reset; no new curriculum lessons have been published yet.
+> **System version:** V3.1 — architecture frozen for normal content work
+> **Active starts:** Linux Systems, German Language, and Large Language Models now have audited curriculum spines and their first published lessons. Learner mastery remains unclaimed until study evidence is recorded.
 
 ## Tracks
 
@@ -14,6 +14,14 @@ The track list is generated from machine-readable manifests:
 **[`docs/TRACKS.md`](docs/TRACKS.md)**
 
 Current tracks include Linear Algebra, Linux Systems, C++, Computer Architecture, Programming Parallel Processors, Complex Analysis, Computer Systems, and Large Language Models (LLMs). The `09-Auxiliary-Studies/` container groups independent tracks for Advanced English, German Language, and Philosophy and Logic. New top-level or nested tracks can be added without editing the audit script.
+
+## First published learning paths
+
+- **Linux Systems:** [`LNX-0001 — What a Linux system actually is`](02-Linux-Systems/lessons/LNX-0001-what-a-linux-system-actually-is.md)
+- **German Language:** [`GER-0001 — Sounds, spelling, and your first German utterances`](09-Auxiliary-Studies/02-German-Language/lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md)
+- **Large Language Models:** [`LLM-0001 — What a language model is`](08-Large-Language-Models/lessons/LLM-0001-what-a-language-model-is.md)
+
+Each active track has an evidence-backed `RECONNAISSANCE.md`, an audited `COVERAGE.json`, and a dependency-ordered `CURRICULUM.json`. These spines are not fixed endpoints; they are the current auditable map.
 
 ## What makes this repository different
 

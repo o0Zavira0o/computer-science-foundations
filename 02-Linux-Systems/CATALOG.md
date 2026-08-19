@@ -4,4 +4,4 @@
 
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No lessons published yet |
+| [`LNX-0001`](lessons/LNX-0001-what-a-linux-system-actually-is.md) | What a Linux system actually is | L0 | complete | `LNX-N-0001` | 2026-08-19 |

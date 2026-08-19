@@ -2,36 +2,155 @@
 
 # Linux Systems Roadmap
 
-- **Audit status:** not-audited
-- **Last coverage audit:** not yet performed
-- **Nodes:** 0
+- **Audit status:** audited
+- **Last coverage audit:** 2026-08-19
+- **Nodes:** 112
 
 This is a human-readable view of the dependency graph. `CURRICULUM.json` is canonical.
 
 ## L0
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0001` | What a Linux system actually is | published | — | LNX-0001 |
+| `LNX-N-0002` | Build a safe Linux learning laboratory | ready | LNX-N-0001 | — |
+| `LNX-N-0003` | The command line as a language interface | planned | LNX-N-0002 | — |
+| `LNX-N-0004` | Learn to ask Linux for help | planned | LNX-N-0003 | — |
+| `LNX-N-0005` | Paths, names, and the single filesystem tree | planned | LNX-N-0003 | — |
+| `LNX-N-0006` | Navigate and inspect directories | planned | LNX-N-0005 | — |
+| `LNX-N-0007` | Create, copy, move, and remove files safely | planned | LNX-N-0006 | — |
+| `LNX-N-0008` | Read and edit text without losing context | planned | LNX-N-0007 | — |
+| `LNX-N-0009` | Quoting, globbing, and expansion | planned | LNX-N-0003 | — |
+| `LNX-N-0010` | Standard streams, redirection, and pipelines | planned | LNX-N-0009 | — |
+| `LNX-N-0011` | Search, filter, count, sort, and transform text | planned | LNX-N-0010 | — |
+| `LNX-N-0012` | Identity, ownership, and permission intuition | planned | LNX-N-0007 | — |
+| `LNX-N-0013` | Processes, jobs, and signals: first mental model | planned | LNX-N-0003 | — |
+| `LNX-N-0014` | Software packages, repositories, and updates | planned | LNX-N-0003 | — |
+| `LNX-N-0015` | Networks from a Linux user’s point of view | planned | LNX-N-0003 | — |
+| `LNX-N-0016` | Tour the living system: /etc, /var, /proc, /sys, /dev | planned | LNX-N-0005, LNX-N-0013 | — |
 
 ## L1
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0017` | Shell environment, PATH, startup files, and exit status | planned | LNX-N-0009, LNX-N-0010 | — |
+| `LNX-N-0018` | Find files and build safe command selections | planned | LNX-N-0011, LNX-N-0017 | — |
+| `LNX-N-0019` | Regular expressions and stream transformation | planned | LNX-N-0011 | — |
+| `LNX-N-0020` | Archives, compression, checksums, and integrity | planned | LNX-N-0007, LNX-N-0008 | — |
+| `LNX-N-0021` | Metadata, inodes, hard links, and symbolic links | planned | LNX-N-0005, LNX-N-0007 | — |
+| `LNX-N-0022` | Permissions beyond rwx: umask, special bits, and ACLs | planned | LNX-N-0012, LNX-N-0021 | — |
+| `LNX-N-0023` | Users, groups, sudo, and account lifecycle | planned | LNX-N-0012, LNX-N-0022 | — |
+| `LNX-N-0024` | Process trees, sessions, jobs, signals, and resource views | planned | LNX-N-0013, LNX-N-0016 | — |
+| `LNX-N-0025` | systemd services and units without memorizing systemctl | planned | LNX-N-0013, LNX-N-0016 | — |
+| `LNX-N-0026` | Logs as evidence: journald and traditional log files | planned | LNX-N-0025, LNX-N-0016 | — |
+| `LNX-N-0027` | Time, clocks, time zones, synchronization, and scheduled work | planned | LNX-N-0025 | — |
+| `LNX-N-0028` | Storage devices, partitions, filesystems, mounts, and swap | planned | LNX-N-0016, LNX-N-0021 | — |
+| `LNX-N-0029` | Addresses, routes, DNS, ports, and sockets | planned | LNX-N-0015 | — |
+| `LNX-N-0030` | SSH trust, keys, host identity, and secure transfer | planned | LNX-N-0015, LNX-N-0023 | — |
+| `LNX-N-0031` | Distribution families, repositories, package formats, and portability boundaries | planned | LNX-N-0014 | — |
+| `LNX-N-0032` | From power-on to userspace: the boot story | planned | LNX-N-0016, LNX-N-0025, LNX-N-0028 | — |
+| `LNX-N-0033` | Devices, device nodes, sysfs, and udev | planned | LNX-N-0016 | — |
+| `LNX-N-0034` | Shell scripting foundations | planned | LNX-N-0017, LNX-N-0019 | — |
+| `LNX-N-0035` | A disciplined Linux troubleshooting method | planned | LNX-N-0004, LNX-N-0024, LNX-N-0026, LNX-N-0029 | — |
 
 ## L2
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0036` | Robust shell programs: errors, traps, arrays, and interfaces | planned | LNX-N-0034, LNX-N-0035 | — |
+| `LNX-N-0037` | File descriptors and the system-call boundary | planned | LNX-N-0010, LNX-N-0021, LNX-N-0024 | — |
+| `LNX-N-0038` | fork, exec, wait, environment, and descriptor inheritance | planned | LNX-N-0024, LNX-N-0037 | — |
+| `LNX-N-0039` | Signals in detail: delivery, masks, handlers, and races | planned | LNX-N-0024, LNX-N-0038 | — |
+| `LNX-N-0040` | IPC: pipes, FIFOs, Unix sockets, shared memory, and queues | planned | LNX-N-0037, LNX-N-0038 | — |
+| `LNX-N-0041` | /proc as a process and kernel observability interface | planned | LNX-N-0024, LNX-N-0037 | — |
+| `LNX-N-0042` | Virtual memory from userspace: mappings, faults, and residency | planned | LNX-N-0037, LNX-N-0038 | — |
+| `LNX-N-0043` | VFS, inodes, dentries, page cache, and open files | planned | LNX-N-0021, LNX-N-0037, LNX-N-0042 | — |
+| `LNX-N-0044` | The Linux storage stack: block devices, device mapper, LVM, RAID, encryption | planned | LNX-N-0028, LNX-N-0043 | — |
+| `LNX-N-0045` | Filesystem consistency, journaling, snapshots, and recovery | planned | LNX-N-0043, LNX-N-0044 | — |
+| `LNX-N-0046` | Boot internals: UEFI, bootloaders, initramfs, kernel command line, and rescue | planned | LNX-N-0032, LNX-N-0044 | — |
+| `LNX-N-0047` | systemd dependency graphs and activation mechanisms | planned | LNX-N-0025, LNX-N-0026, LNX-N-0027 | — |
+| `LNX-N-0048` | Kernel device events and udev rules | planned | LNX-N-0033, LNX-N-0035 | — |
+| `LNX-N-0049` | Linux networking in practice: routing, neighbors, DNS, TCP/UDP, packet capture | planned | LNX-N-0029, LNX-N-0035 | — |
+| `LNX-N-0050` | Netfilter, nftables, connection tracking, and NAT | planned | LNX-N-0049 | — |
+| `LNX-N-0051` | Namespaces: isolated views of Linux resources | planned | LNX-N-0038, LNX-N-0049, LNX-N-0028 | — |
+| `LNX-N-0052` | cgroups v2: hierarchical resource accounting and control | planned | LNX-N-0024, LNX-N-0042, LNX-N-0051 | — |
+| `LNX-N-0053` | Linux security primitives: capabilities, ACLs, seccomp, and SELinux/LSM | planned | LNX-N-0022, LNX-N-0023, LNX-N-0038 | — |
+| `LNX-N-0054` | Containers without magic: namespaces, cgroups, mounts, and images | planned | LNX-N-0051, LNX-N-0052, LNX-N-0053, LNX-N-0043 | — |
+| `LNX-N-0055` | Observability toolkit: strace, lsof, ss, procfs, journal, vmstat, iostat | planned | LNX-N-0035, LNX-N-0037, LNX-N-0041, LNX-N-0049 | — |
+| `LNX-N-0056` | Performance measurement with perf and system counters | planned | LNX-N-0055, LNX-N-0042 | — |
+| `LNX-N-0057` | Failure recovery: rescue environments, cores, boot failure, and storage damage | planned | LNX-N-0035, LNX-N-0045, LNX-N-0046, LNX-N-0055 | — |
+| `LNX-N-0058` | Reproducible administration and configuration automation | planned | LNX-N-0036, LNX-N-0047, LNX-N-0057 | — |
+| `LNX-N-0059` | Build a Linux system from source as an integration capstone | planned | LNX-N-0036, LNX-N-0044, LNX-N-0046, LNX-N-0047 | — |
 
 ## L3
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0060` | Linux ABI, libc wrappers, and the syscall path | planned | LNX-N-0037, LNX-N-0038, LNX-N-0059 | — |
+| `LNX-N-0061` | Threads, scheduling, futexes, affinity, and CPU topology | planned | LNX-N-0038, LNX-N-0040, LNX-N-0056 | — |
+| `LNX-N-0062` | Virtual-memory internals: page tables, reclaim, swap, OOM, and memory pressure | planned | LNX-N-0042, LNX-N-0055, LNX-N-0056 | — |
+| `LNX-N-0063` | Kernel memory allocation: buddy, slab/SLUB, and object lifetimes | planned | LNX-N-0062 | — |
+| `LNX-N-0064` | Pathname lookup and VFS internals | planned | LNX-N-0043, LNX-N-0060 | — |
+| `LNX-N-0065` | Writeback, journaling, and filesystem implementation tradeoffs | planned | LNX-N-0045, LNX-N-0064, LNX-N-0062 | — |
+| `LNX-N-0066` | Block I/O, queues, direct I/O, asynchronous I/O, and io_uring foundations | planned | LNX-N-0044, LNX-N-0056, LNX-N-0065 | — |
+| `LNX-N-0067` | Linux networking internals: socket to packet to device | planned | LNX-N-0049, LNX-N-0060, LNX-N-0056 | — |
+| `LNX-N-0068` | Netlink and rtnetlink as kernel/userspace control planes | planned | LNX-N-0049, LNX-N-0060, LNX-N-0067 | — |
+| `LNX-N-0069` | eBPF architecture: programs, verifier, maps, hooks, and safety | planned | LNX-N-0060, LNX-N-0067, LNX-N-0053 | — |
+| `LNX-N-0070` | cgroups v2 internals, pressure, and service/container integration | planned | LNX-N-0052, LNX-N-0062, LNX-N-0061 | — |
+| `LNX-N-0071` | Namespaces, user namespaces, mount propagation, and isolation edge cases | planned | LNX-N-0051, LNX-N-0053, LNX-N-0054 | — |
+| `LNX-N-0072` | Linux security architecture: LSM, SELinux, seccomp, capabilities, and attack surface | planned | LNX-N-0053, LNX-N-0060, LNX-N-0071 | — |
+| `LNX-N-0073` | Kernel modules, symbols, taint, and module lifecycle | planned | LNX-N-0060, LNX-N-0048 | — |
+| `LNX-N-0074` | Configure, build, boot, and compare Linux kernels | planned | LNX-N-0046, LNX-N-0059, LNX-N-0073 | — |
+| `LNX-N-0075` | ftrace, tracepoints, kprobes, and dynamic kernel tracing | planned | LNX-N-0055, LNX-N-0074 | — |
+| `LNX-N-0076` | perf, PMU events, profiles, and causal performance analysis | planned | LNX-N-0056, LNX-N-0061, LNX-N-0075 | — |
+| `LNX-N-0077` | eBPF tracing with bpftrace/libbpf-style workflows | planned | LNX-N-0069, LNX-N-0075, LNX-N-0076 | — |
+| `LNX-N-0078` | Userspace and kernel crash debugging | planned | LNX-N-0055, LNX-N-0060, LNX-N-0074 | — |
+| `LNX-N-0079` | Kernel diagnostics: dynamic debug, SysRq, pstore, crash evidence | planned | LNX-N-0074, LNX-N-0078 | — |
+| `LNX-N-0080` | KVM/QEMU and Linux as a virtualization host | planned | LNX-N-0054, LNX-N-0061, LNX-N-0062 | — |
+| `LNX-N-0081` | NUMA, huge pages, affinity, topology, and locality | planned | LNX-N-0061, LNX-N-0062, LNX-N-0076 | — |
+| `LNX-N-0082` | Design a filesystem and syscall performance experiment | planned | LNX-N-0060, LNX-N-0064, LNX-N-0065, LNX-N-0066, LNX-N-0076 | — |
+| `LNX-N-0083` | Build an isolated multi-host network laboratory with namespaces | planned | LNX-N-0050, LNX-N-0068, LNX-N-0071, LNX-N-0077 | — |
+| `LNX-N-0084` | Container runtime anatomy: rootfs, overlay, pivot_root, namespaces, cgroups | planned | LNX-N-0054, LNX-N-0070, LNX-N-0071, LNX-N-0072 | — |
 
 ## L4
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0085` | Navigate the kernel source tree, history, and subsystem ownership | planned | LNX-N-0074, LNX-N-0075 | — |
+| `LNX-N-0086` | Kernel concurrency: atomics, locks, memory ordering, and context constraints | planned | LNX-N-0061, LNX-N-0085 | — |
+| `LNX-N-0087` | Read-copy-update (RCU) as a concurrency design | planned | LNX-N-0086 | — |
+| `LNX-N-0088` | Scheduler internals and latency tradeoffs | planned | LNX-N-0061, LNX-N-0076, LNX-N-0086 | — |
+| `LNX-N-0089` | Memory-management internals and reclaim algorithms | planned | LNX-N-0062, LNX-N-0063, LNX-N-0086 | — |
+| `LNX-N-0090` | Implement and reason about VFS/filesystem paths | planned | LNX-N-0064, LNX-N-0065, LNX-N-0086 | — |
+| `LNX-N-0091` | Block/storage internals and modern I/O interfaces | planned | LNX-N-0066, LNX-N-0086 | — |
+| `LNX-N-0092` | Networking subsystem internals and packet-processing fast paths | planned | LNX-N-0067, LNX-N-0068, LNX-N-0086 | — |
+| `LNX-N-0093` | Linux driver model and a minimal device driver | planned | LNX-N-0048, LNX-N-0073, LNX-N-0085, LNX-N-0086 | — |
+| `LNX-N-0094` | Advanced eBPF/XDP program lifecycle and performance | planned | LNX-N-0077, LNX-N-0083, LNX-N-0092 | — |
+| `LNX-N-0095` | io_uring and asynchronous I/O design tradeoffs | planned | LNX-N-0066, LNX-N-0091 | — |
+| `LNX-N-0096` | Kernel self-protection, exploit surface, and hardening mechanisms | planned | LNX-N-0072, LNX-N-0086, LNX-N-0089 | — |
+| `LNX-N-0097` | Real-time Linux, preemption, and latency engineering | planned | LNX-N-0088, LNX-N-0076, LNX-N-0086 | — |
+| `LNX-N-0098` | Kernel testing: selftests, KUnit, sanitizers, fuzzing, and regression discipline | planned | LNX-N-0074, LNX-N-0078, LNX-N-0085 | — |
+| `LNX-N-0099` | Performance engineering across CPU, memory, I/O, and network bottlenecks | planned | LNX-N-0081, LNX-N-0088, LNX-N-0089, LNX-N-0091, LNX-N-0092, LNX-N-0094 | — |
+| `LNX-N-0100` | Subsystem specialization capstone | planned | LNX-N-0085, LNX-N-0098, LNX-N-0099 | — |
 
 ## L5
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0101` | Source and commit archaeology: reconstruct why Linux behaves this way | planned | LNX-N-0085, LNX-N-0100 | — |
+| `LNX-N-0102` | Kernel development community, maintainers, patches, and review | planned | LNX-N-0085, LNX-N-0098 | — |
+| `LNX-N-0103` | Reproduce a bug or regression and use git bisect scientifically | planned | LNX-N-0078, LNX-N-0098, LNX-N-0101 | — |
+| `LNX-N-0104` | Benchmarking and experimental design for Linux systems | planned | LNX-N-0082, LNX-N-0099 | — |
+| `LNX-N-0105` | Read systems research papers as an engineer and reviewer | planned | LNX-N-0100, LNX-N-0104 | — |
+| `LNX-N-0106` | Reproduce or challenge a published Linux/systems result | planned | LNX-N-0103, LNX-N-0104, LNX-N-0105 | — |
+| `LNX-N-0107` | Review code, patches, and performance claims | planned | LNX-N-0102, LNX-N-0104, LNX-N-0106 | — |
+| `LNX-N-0108` | Research ethics, responsible disclosure, reproducibility, and community impact | planned | LNX-N-0102, LNX-N-0103, LNX-N-0106 | — |
 
 ## L6
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LNX-N-0109` | Build a dated Linux research-frontier map | planned | LNX-N-0105, LNX-N-0108 | — |
+| `LNX-N-0110` | Formulate a research question that survives contact with the system | planned | LNX-N-0109, LNX-N-0104 | — |
+| `LNX-N-0111` | Build and evaluate a research prototype or kernel experiment | planned | LNX-N-0110, LNX-N-0098, LNX-N-0100 | — |
+| `LNX-N-0112` | Produce a contribution-grade research report and refresh the frontier | planned | LNX-N-0111, LNX-N-0107, LNX-N-0108 | — |

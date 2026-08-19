@@ -7,23 +7,23 @@
 - **Track:** Large Language Models (LLMs)
 - **ID:** `large-language-models`
 - **Code:** `LLM`
-- **Track status:** scaffolded
+- **Track status:** active
 - **Entry model:** zero-subject-specific-knowledge
-- **Focus:** Large language models from first principles through modern architectures, training, alignment, evaluation, systems, applications, interpretability, safety, and research frontiers; exact curriculum scope is deferred to reconnaissance.
+- **Focus:** Language models from first principles through tokenization, probability, optimization, Transformers, pretraining, post-training, evaluation, distributed training, inference systems, retrieval/tools, interpretability, safety, and open research frontiers.
 
 ## Curriculum state
 
-- **Audit status:** not-audited
-- **Nodes:** 0
-- **Coverage baseline:** not-audited
-- **Coverage items:** 0
-- **Published lessons:** 0
+- **Audit status:** audited
+- **Nodes:** 116
+- **Coverage baseline:** audited
+- **Coverage items:** 28
+- **Published lessons:** 1
 
 ## Registry sizes
 
-- **Concepts:** 0
-- **Examples:** 0
-- **References:** 0
+- **Concepts:** 120
+- **Examples:** 3
+- **References:** 18
 
 ## Learner state
 
@@ -33,15 +33,16 @@
 
 ## Authoring candidates
 
-- BLOCKED — curriculum/coverage reconnaissance is not audited yet.
+- `LLM-N-0002` — Text, symbols, tokens, and vocabularies (L0, ready)
 
 ## Learner next actions
 
-- None yet.
+**New lessons with practiced/demonstrated prerequisites**
+- LLM-0001 — What a language model is [L0]
 
 ## Recent lessons
 
-- None.
+- `LLM-0001` — What a language model is (L0, complete)
 
 ## Normal-session retrieval rule
 
