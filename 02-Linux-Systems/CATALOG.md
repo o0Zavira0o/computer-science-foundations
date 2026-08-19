@@ -9,3 +9,4 @@
 | [`LNX-0003`](lessons/LNX-0003-the-command-line-as-a-language-interface.md) | The command line as a language interface | L0 | complete | `LNX-N-0003` | 2026-08-19 |
 | [`LNX-0004`](lessons/LNX-0004-learn-to-ask-linux-for-help.md) | Learn to ask Linux for help | L0 | complete | `LNX-N-0004` | 2026-08-19 |
 | [`LNX-0005`](lessons/LNX-0005-paths-names-and-the-single-filesystem-tree.md) | Paths, names, and the single filesystem tree | L0 | complete | `LNX-N-0005` | 2026-08-19 |
+| [`LNX-0006`](lessons/LNX-0006-navigate-and-inspect-directories.md) | Navigate and inspect directories | L0 | complete | `LNX-N-0006` | 2026-08-19 |

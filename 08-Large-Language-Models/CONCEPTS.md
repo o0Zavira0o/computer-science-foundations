@@ -5,7 +5,7 @@
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
 | `LLM-C-0001` | What a language model is | D1 | — |
-| `LLM-C-0002` | Text, symbols, tokens, and vocabularies | — | — |
+| `LLM-C-0002` | Text, symbols, tokens, and vocabularies | D1 | — |
 | `LLM-C-0003` | Probability from counts — uncertainty without mystery | — | — |
 | `LLM-C-0004` | Logits, softmax, and categorical prediction | — | — |
 | `LLM-C-0005` | Vectors and dot products as similarity and scoring | — | — |

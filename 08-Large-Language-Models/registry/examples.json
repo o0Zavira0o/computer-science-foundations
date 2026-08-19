@@ -23,6 +23,27 @@
       "domain": "sampling and generation",
       "first_lesson": "LLM-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-004",
+      "signature": "Encode `unbelievable` with hypothetical whole-word, subword, and character tokenizers to compare discrete vocabulary choices and sequence lengths",
+      "domain": "tokenization granularity",
+      "first_lesson": "LLM-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-005",
+      "signature": "Use a toy vocabulary mapping text pieces to integer IDs, then show that changing ID assignments without permuting model parameters breaks the tokenizer–model interface",
+      "domain": "vocabulary ID contract",
+      "first_lesson": "LLM-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-006",
+      "signature": "Compare visible words, Unicode/byte representation, whitespace-sensitive pieces, special tokens, and token IDs to prevent collapsing distinct text representation layers",
+      "domain": "text representation layers",
+      "first_lesson": "LLM-0002",
+      "reuse_purpose": null
     }
   ]
 }

@@ -111,7 +111,7 @@
       "id": "LNX-N-0006",
       "title": "Navigate and inspect directories",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0005"
       ],
@@ -125,7 +125,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0006"
     },
     {
       "id": "LNX-N-0007",

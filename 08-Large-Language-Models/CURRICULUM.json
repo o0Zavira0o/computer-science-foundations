@@ -44,7 +44,7 @@
       "id": "LLM-N-0002",
       "title": "Text, symbols, tokens, and vocabularies",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "LLM-N-0001"
       ],
@@ -59,7 +59,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LLM-0002"
     },
     {
       "id": "LLM-N-0003",

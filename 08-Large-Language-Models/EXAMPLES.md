@@ -7,3 +7,6 @@
 | `LLM-EX-001` | Use the contexts `The capital of France is` and `The capital of France was` to separate context from a probability distribution over next tokens | probabilistic next-token prediction | LLM-0001 | — |
 | `LLM-EX-002` | Construct a four-token toy vocabulary and compare two candidate next-token distributions rather than treating model output as one deterministic word | probability distributions | LLM-0001 | — |
 | `LLM-EX-003` | Sample repeatedly from the same toy next-token distribution to show why one model state can produce multiple continuations | sampling and generation | LLM-0001 | — |
+| `LLM-EX-004` | Encode `unbelievable` with hypothetical whole-word, subword, and character tokenizers to compare discrete vocabulary choices and sequence lengths | tokenization granularity | LLM-0002 | — |
+| `LLM-EX-005` | Use a toy vocabulary mapping text pieces to integer IDs, then show that changing ID assignments without permuting model parameters breaks the tokenizer–model interface | vocabulary ID contract | LLM-0002 | — |
+| `LLM-EX-006` | Compare visible words, Unicode/byte representation, whitespace-sensitive pieces, special tokens, and token IDs to prevent collapsing distinct text representation layers | text representation layers | LLM-0002 | — |

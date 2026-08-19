@@ -14,7 +14,7 @@
       "id": "LLM-C-0002",
       "name": "Text, symbols, tokens, and vocabularies",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Primary durable concept for LLM-N-0002."
     },
     {

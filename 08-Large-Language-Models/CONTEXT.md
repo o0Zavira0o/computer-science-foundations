@@ -17,12 +17,12 @@
 - **Nodes:** 116
 - **Coverage baseline:** audited
 - **Coverage items:** 28
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 120
-- **Examples:** 3
+- **Examples:** 6
 - **References:** 18
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LLM-N-0002` — Text, symbols, tokens, and vocabularies (L0, ready)
+- `LLM-N-0003` — Probability from counts: uncertainty without mystery (L0, planned)
 
 ## Learner next actions
 
@@ -43,6 +43,7 @@
 ## Recent lessons
 
 - `LLM-0001` — What a language model is (L0, complete)
+- `LLM-0002` — Text, symbols, tokens, and vocabularies (L0, complete)
 
 ## Normal-session retrieval rule
 

@@ -107,6 +107,27 @@
       "domain": "pathname misconceptions",
       "first_lesson": "LNX-0005",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-016",
+      "signature": "Build a disposable directory tree and use a predict–cd–pwd–ls loop to distinguish navigation state changes from directory inspection",
+      "domain": "directory navigation state",
+      "first_lesson": "LNX-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-017",
+      "signature": "Compare `ls`, `ls -A`, `ls -d directory`, and `ls -ld directory` to separate omitted dot entries, directory contents, and the directory entry itself",
+      "domain": "directory inspection semantics",
+      "first_lesson": "LNX-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-018",
+      "signature": "Diagnose a missing relative path by checking `pwd` and the intended inspection target instead of searching or changing directories by guesswork",
+      "domain": "navigation debugging",
+      "first_lesson": "LNX-0006",
+      "reuse_purpose": null
     }
   ]
 }

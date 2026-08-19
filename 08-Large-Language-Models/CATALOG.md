@@ -5,3 +5,4 @@
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
 | [`LLM-0001`](lessons/LLM-0001-what-a-language-model-is.md) | What a language model is | L0 | complete | `LLM-N-0001` | 2026-08-19 |
+| [`LLM-0002`](lessons/LLM-0002-text-symbols-tokens-and-vocabularies.md) | Text, symbols, tokens, and vocabularies | L0 | complete | `LLM-N-0002` | 2026-08-19 |

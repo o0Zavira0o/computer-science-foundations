@@ -19,3 +19,6 @@
 | `LNX-EX-013` | Resolve `/home/ada/lab/report.txt`, `lab/report.txt`, `./report.txt`, and `../shared/report.txt` from explicitly drawn working directories instead of guessing from the spelling alone | pathname resolution | LNX-0005 | — |
 | `LNX-EX-014` | Build a disposable directory tree under a user-owned lab directory, navigate it with `cd`, inspect it with `pwd` and `ls -la`, and predict each resulting working directory before running the command | filesystem namespace navigation | LNX-0005 | — |
 | `LNX-EX-015` | Compare `.config`, `.` and `..`, `/root`, the filesystem root `/`, and shell-expanded `~` to separate hidden names, special pathname components, the root account home, and shell syntax | pathname misconceptions | LNX-0005 | — |
+| `LNX-EX-016` | Build a disposable directory tree and use a predict–cd–pwd–ls loop to distinguish navigation state changes from directory inspection | directory navigation state | LNX-0006 | — |
+| `LNX-EX-017` | Compare `ls`, `ls -A`, `ls -d directory`, and `ls -ld directory` to separate omitted dot entries, directory contents, and the directory entry itself | directory inspection semantics | LNX-0006 | — |
+| `LNX-EX-018` | Diagnose a missing relative path by checking `pwd` and the intended inspection target instead of searching or changing directories by guesswork | navigation debugging | LNX-0006 | — |
