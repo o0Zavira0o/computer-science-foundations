@@ -13,3 +13,6 @@
 | `LNX-EX-007` | Dissect `ls -l /etc` and `mkdir -p demo/subdir` into command name, ordered arguments, options, and operands before interpreting behavior | command invocation anatomy | LNX-0003 | — |
 | `LNX-EX-008` | Use `true`, `false`, and the shell's most-recent-status parameter to separate exit status from visible command output | exit status semantics | LNX-0003 | — |
 | `LNX-EX-009` | Compare normal `printf` output with a failed `ls` diagnostic to show that stdout and stderr can share one terminal display while remaining distinct streams | standard streams mental model | LNX-0003 | — |
+| `LNX-EX-010` | Classify `cd`, `printf`, `ls`, `open`, `/etc/passwd`, and `signal` before choosing `help`, `--help`, or a numbered manual section | documentation-layer selection | LNX-0004 | — |
+| `LNX-EX-011` | Use `type -a`, `help`, local `man`, and `--version` together to resolve the intentionally confusing case where a name can be both a shell builtin and an external utility | command identity and local documentation | LNX-0004 | — |
+| `LNX-EX-012` | Navigate `man 1`, `man 2`, `man 3`, `man 5`, and `man 7` examples to distinguish user commands, system calls, library functions, file formats, and overview topics | manual-section literacy | LNX-0004 | — |

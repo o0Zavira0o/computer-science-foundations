@@ -7,7 +7,7 @@
 - **Repository phase:** active-multi-track-learning
 - **Active track:** none
 - **Last completed lesson:** none
-- **Next planned item:** Continue authoring through audited curriculum graphs; current published starts include Linear Algebra, Linux Systems, German Language, and Large Language Models. Public lesson quality is independent of the repository owner's personal learner state.
+- **Next planned item:** Continue public-first authoring through audited curriculum graphs; published starts now include Linear Algebra, Linux Systems, German Language, Large Language Models, and Philosophy and Logic.
 - **Legacy Linux policy:** Do not silently reuse removed legacy lessons; salvage only after explicit review.
 
 ## Persistent decisions
@@ -22,3 +22,4 @@
 - Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery.
 - Public lesson authoring prioritizes educational quality and prerequisite integrity; it does not wait for repository-owner learner progress.
 - Educational content is CC BY-SA 4.0; repository software is GPL-3.0-or-later, with explicit attribution and provenance guidance.
+- Philosophy and Logic is activated only after evidence-backed curriculum reconnaissance; public lesson quality does not depend on repository-owner learner state.

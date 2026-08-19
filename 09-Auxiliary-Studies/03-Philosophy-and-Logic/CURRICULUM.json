@@ -2,7 +2,2659 @@
   "$schema": "../../schemas/curriculum.schema.json",
   "schema_version": 1,
   "track": "philosophy-and-logic",
-  "audit_status": "not-audited",
-  "last_coverage_audit": null,
-  "nodes": []
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-19",
+  "nodes": [
+    {
+      "id": "PHL-N-0001",
+      "title": "What philosophy and logic are actually doing",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Distinguish philosophical inquiry from mere opinion-reporting and explain how claims, reasons, objections, and logical evaluation interact."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0001",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": "PHL-0001"
+    },
+    {
+      "id": "PHL-N-0002",
+      "title": "Questions, claims, reasons, and arguments",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0001"
+      ],
+      "outcomes": [
+        "Turn an open question into a candidate claim supported by explicit reasons."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0002",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0003",
+      "title": "Premises, conclusions, and argument indicators",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0002"
+      ],
+      "outcomes": [
+        "Identify premises and conclusions without mistaking indicator words for infallible rules."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0004",
+      "title": "Truth, validity, and soundness",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0003"
+      ],
+      "outcomes": [
+        "Separate whether premises are true from whether a conclusion follows and whether a deductive argument is sound."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0005",
+      "title": "Deduction, induction, and abduction",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0004"
+      ],
+      "outcomes": [
+        "Distinguish deductive support from ampliative inductive and abductive reasoning."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0006",
+      "title": "Counterexamples and testing universal claims",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0004"
+      ],
+      "outcomes": [
+        "Use a counterexample to refute a universal claim or an invalid inference pattern."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0007",
+      "title": "Ambiguity, vagueness, and conceptual distinctions",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0002"
+      ],
+      "outcomes": [
+        "Diagnose ambiguity and vagueness and introduce distinctions that improve a philosophical question."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0008",
+      "title": "Definitions and conceptual analysis",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0007"
+      ],
+      "outcomes": [
+        "Compare stipulative, lexical, and analytic uses of definitions without assuming every concept has a simple essence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0009",
+      "title": "Principle of charity and steelmanning",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0003"
+      ],
+      "outcomes": [
+        "Reconstruct a position in a defensible form before criticizing it."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0010",
+      "title": "Informal fallacies as failed reasoning patterns",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0005",
+        "PHL-N-0009"
+      ],
+      "outcomes": [
+        "Diagnose recurrent reasoning failures by explaining what goes wrong rather than matching labels mechanically."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0011",
+      "title": "Reading philosophy: thesis, argument, objection, reply",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0003",
+        "PHL-N-0009"
+      ],
+      "outcomes": [
+        "Annotate a short philosophical passage into thesis, support, objection, and response."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0012",
+      "title": "Writing philosophy: claim, reason, objection, response",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0011"
+      ],
+      "outcomes": [
+        "Write a compact philosophical paragraph that states a claim, supports it, faces an objection, and responds."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0013",
+      "title": "What formalization gains and loses",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0004",
+        "PHL-N-0007"
+      ],
+      "outcomes": [
+        "Explain why formalization can expose structure while also abstracting away context and meaning."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0014",
+      "title": "Propositions and truth-functional structure",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0013"
+      ],
+      "outcomes": [
+        "Recognize propositions as truth-evaluable contents and identify simple truth-functional structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0015",
+      "title": "Negation, conjunction, disjunction, and conditional",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0014"
+      ],
+      "outcomes": [
+        "Read the core propositional connectives in ordinary language and symbolic form."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0016",
+      "title": "Truth tables and semantic evaluation",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0015"
+      ],
+      "outcomes": [
+        "Evaluate simple truth-functional expressions with truth tables."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0016",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0017",
+      "title": "Predicates and quantifiers: first intuition",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0014"
+      ],
+      "outcomes": [
+        "Distinguish names, predicates, and quantifier-like expressions before formal predicate logic."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0017",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0018",
+      "title": "A map of philosophy: knowledge, reality, value, mind, language, science, and society",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0002"
+      ],
+      "outcomes": [
+        "Place a philosophical question into major fields while recognizing that real problems cross field boundaries."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0018",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0019",
+      "title": "Propositional-logic syntax and well-formed formulas",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0015"
+      ],
+      "outcomes": [
+        "Parse and construct well-formed propositional formulas."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0019",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0020",
+      "title": "Propositional semantics and valuations",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0016",
+        "PHL-N-0019"
+      ],
+      "outcomes": [
+        "Evaluate formulas under valuations and distinguish syntax from semantics."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0020",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0021",
+      "title": "Testing propositional validity with truth tables",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0020"
+      ],
+      "outcomes": [
+        "Test propositional arguments for semantic validity."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0021",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0022",
+      "title": "Natural deduction: introduction and elimination rules",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0021"
+      ],
+      "outcomes": [
+        "Construct elementary natural-deduction proofs."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0022",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0023",
+      "title": "Proof strategy, subproofs, and contradiction",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0022"
+      ],
+      "outcomes": [
+        "Choose proof strategies and manage assumptions and subproofs."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0023",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0024",
+      "title": "The language of first-order logic",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0017",
+        "PHL-N-0019"
+      ],
+      "outcomes": [
+        "Translate simple quantified claims into first-order form."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0024",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0025",
+      "title": "Quantifiers, scope, and bound variables",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0024"
+      ],
+      "outcomes": [
+        "Reason correctly about quantifier scope and variable binding."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0025",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0026",
+      "title": "Identity and definite description problems",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0025"
+      ],
+      "outcomes": [
+        "Use identity in formal arguments and recognize limits of naive translation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0026",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0027",
+      "title": "First-order semantics: domains and interpretations",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0025"
+      ],
+      "outcomes": [
+        "Evaluate first-order sentences relative to domains and interpretations."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0027",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0028",
+      "title": "Argument reconstruction and hidden premises",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0003",
+        "PHL-N-0009",
+        "PHL-N-0011"
+      ],
+      "outcomes": [
+        "Reconstruct enthymematic real-world arguments while marking supplied assumptions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0028",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0029",
+      "title": "Causal, statistical, and explanatory reasoning",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0005",
+        "PHL-N-0028"
+      ],
+      "outcomes": [
+        "Distinguish correlation, causal claims, explanation, and evidential support."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0029",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0030",
+      "title": "Epistemology: knowledge, belief, truth, and justification",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0004",
+        "PHL-N-0018"
+      ],
+      "outcomes": [
+        "Frame core questions about knowledge and justified belief."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0030",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0031",
+      "title": "Skepticism and responses to skeptical arguments",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030"
+      ],
+      "outcomes": [
+        "Reconstruct a skeptical argument and compare major response strategies."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0031",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0032",
+      "title": "Perception, memory, testimony, and other epistemic sources",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030"
+      ],
+      "outcomes": [
+        "Evaluate multiple proposed sources of knowledge and their vulnerabilities."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0032",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0033",
+      "title": "Metaphysics: what exists and what categories reality has",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018"
+      ],
+      "outcomes": [
+        "Formulate ontological questions and distinguish existence questions from verbal disputes."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0033",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0034",
+      "title": "Identity and persistence through change",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0007",
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Compare criteria of identity and persistence across time."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0034",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0035",
+      "title": "Causation, necessity, possibility, and free will",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Distinguish several metaphysical dependence and modality questions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0035",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0036",
+      "title": "Normative ethics: consequences, duties, and virtues",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018"
+      ],
+      "outcomes": [
+        "Compare consequentialist, deontological, and virtue-ethical reasoning."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0036",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0037",
+      "title": "Metaethics: what moral claims mean and whether they can be true",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Distinguish normative ethics from metaethical questions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0037",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0038",
+      "title": "Political philosophy: justice, liberty, equality, and legitimacy",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Analyze conflicts among justice, liberty, equality, rights, and political legitimacy."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0038",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0039",
+      "title": "Philosophy of mind: mind, body, consciousness, and computation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Compare major mind-body positions and frame the problem of consciousness."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0039",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0040",
+      "title": "Philosophy of language: meaning, reference, and communication",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0007",
+        "PHL-N-0018"
+      ],
+      "outcomes": [
+        "Distinguish meaning, reference, truth conditions, and communicative use."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0040",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0041",
+      "title": "Philosophy of science: explanation, evidence, laws, and realism",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0029"
+      ],
+      "outcomes": [
+        "Frame philosophical questions about scientific explanation, evidence, and realism."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0041",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0042",
+      "title": "Ancient Greek philosophy: argument from the Presocratics through Aristotle",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0011",
+        "PHL-N-0018"
+      ],
+      "outcomes": [
+        "Read ancient Greek positions as arguments rather than as lists of historical doctrines."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0042",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0043",
+      "title": "Classical Indian philosophy: knowledge sources, self, reality, and debate",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0030"
+      ],
+      "outcomes": [
+        "Recognize major Indian philosophical questions and methods without reducing them to Western categories."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0043",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0044",
+      "title": "Classical Chinese philosophy: ethics, order, language, and cultivation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Compare argument and practical reasoning across major classical Chinese traditions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0044",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0045",
+      "title": "Islamic philosophy: reason, revelation, metaphysics, and knowledge",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0030",
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Locate major Islamic philosophical problems in their own intellectual contexts and later cross-tradition influence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0045",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0046",
+      "title": "Early modern philosophy: rationalism, empiricism, mind, and world",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030",
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Compare early modern strategies for grounding knowledge and explaining mind-world relations."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0046",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0047",
+      "title": "Kant and the post-Kantian turn",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030",
+        "PHL-N-0033",
+        "PHL-N-0046"
+      ],
+      "outcomes": [
+        "Explain why Kant reframes questions about knowledge, experience, and metaphysics."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0047",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0048",
+      "title": "Sets, relations, and functions for logic",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0027"
+      ],
+      "outcomes": [
+        "Use elementary set, relation, and function language needed by metalogic."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0048",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0049",
+      "title": "First-order natural deduction",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0023",
+        "PHL-N-0027"
+      ],
+      "outcomes": [
+        "Construct and diagnose quantified natural-deduction proofs."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0049",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0050",
+      "title": "Soundness and completeness: what the theorems say",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0027"
+      ],
+      "outcomes": [
+        "Distinguish proof-theoretic derivability from semantic consequence and state the role of soundness and completeness."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0050",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0051",
+      "title": "Models and elementary model-theoretic reasoning",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0050"
+      ],
+      "outcomes": [
+        "Reason about satisfiability, models, countermodels, and elementary model-theoretic ideas."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0051",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0052",
+      "title": "Computability and effective procedure: philosophical foundations",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0049"
+      ],
+      "outcomes": [
+        "Explain the problem an effective-procedure notion solves and connect it to computability."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0052",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0053",
+      "title": "Gödel incompleteness: statement, scope, and common misreadings",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051"
+      ],
+      "outcomes": [
+        "State incompleteness at an appropriate level and reject common overextensions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0053",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0054",
+      "title": "Modal logic: necessity, possibility, and possible-world semantics",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0035",
+        "PHL-N-0052"
+      ],
+      "outcomes": [
+        "Evaluate basic modal formulas and relate modality to philosophical use."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0054",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0055",
+      "title": "Probability and Bayesian reasoning for philosophers",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0029"
+      ],
+      "outcomes": [
+        "Use conditional probability and Bayes-style updating conceptually in evidential reasoning."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0055",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0056",
+      "title": "Argumentation, dialogue, burden of proof, and disagreement",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0010",
+        "PHL-N-0028"
+      ],
+      "outcomes": [
+        "Analyze reasoning as an exchange with burdens, challenges, and responses."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0056",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "informal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0057",
+      "title": "Theories of epistemic justification",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030",
+        "PHL-N-0031",
+        "PHL-N-0032"
+      ],
+      "outcomes": [
+        "Compare internalist, externalist, reliabilist, and virtue-epistemic strategies."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0057",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0058",
+      "title": "Gettier problems and the analysis of knowledge",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030"
+      ],
+      "outcomes": [
+        "Explain why justified true belief faces Gettier-style counterexamples and compare repair strategies."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0058",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0059",
+      "title": "Social epistemology, testimony, expertise, and institutions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0032",
+        "PHL-N-0057"
+      ],
+      "outcomes": [
+        "Evaluate epistemic dependence on other people, experts, groups, and institutions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0059",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0060",
+      "title": "Formal epistemology: credence, coherence, and updating",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0055",
+        "PHL-N-0058"
+      ],
+      "outcomes": [
+        "Connect formal models of credence to philosophical questions about rational belief."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0060",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0061",
+      "title": "Universals, particulars, properties, and kinds",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Compare realist and nominalist approaches to properties and kinds."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0061",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0062",
+      "title": "Modality and possible worlds in metaphysics",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0035",
+        "PHL-N-0055"
+      ],
+      "outcomes": [
+        "Use possible-world language while distinguishing semantics from metaphysical commitment."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0062",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0063",
+      "title": "Time, persistence, and temporal parts",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0034",
+        "PHL-N-0035"
+      ],
+      "outcomes": [
+        "Compare major accounts of persistence and temporal ontology."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0063",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0064",
+      "title": "Grounding, dependence, essence, and explanation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0033",
+        "PHL-N-0062"
+      ],
+      "outcomes": [
+        "Distinguish causal explanation from proposed metaphysical dependence relations."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0064",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0065",
+      "title": "Philosophy of religion: arguments, evidence, evil, and faith",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030",
+        "PHL-N-0033",
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Reconstruct central arguments in philosophy of religion without presupposing a religious conclusion."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0065",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "religion",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0066",
+      "title": "Comparing consequentialism, deontology, virtue ethics, and contractualism",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Compare normative frameworks on shared cases and expose differences in justificatory structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0066",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ethics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0067",
+      "title": "Applied ethics: moving from principles to cases",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036",
+        "PHL-N-0037"
+      ],
+      "outcomes": [
+        "Analyze a concrete ethical problem while making factual and normative assumptions explicit."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0067",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ethics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0068",
+      "title": "Aesthetics and philosophy of art",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0036"
+      ],
+      "outcomes": [
+        "Frame questions about aesthetic value, interpretation, authorship, and art status."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0068",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "value",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0069",
+      "title": "Philosophy of law: rules, authority, interpretation, and responsibility",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036",
+        "PHL-N-0038"
+      ],
+      "outcomes": [
+        "Distinguish legal validity, moral evaluation, interpretation, and responsibility."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0069",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "law",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0070",
+      "title": "Functionalism, computation, and mental representation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0039",
+        "PHL-N-0053"
+      ],
+      "outcomes": [
+        "Evaluate computational and functional accounts of mind."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0070",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mind",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0071",
+      "title": "Perception, intentionality, and mental content",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0032",
+        "PHL-N-0039"
+      ],
+      "outcomes": [
+        "Compare theories of perception and mental content."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0071",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mind",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0072",
+      "title": "Personal identity and the self",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0034",
+        "PHL-N-0039"
+      ],
+      "outcomes": [
+        "Compare bodily, psychological, and other continuity criteria for personal identity."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0072",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mind",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0073",
+      "title": "Theories of meaning and reference",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0026",
+        "PHL-N-0040"
+      ],
+      "outcomes": [
+        "Compare descriptivist, causal, use-based, and truth-conditional approaches."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0073",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0074",
+      "title": "Speech acts, implicature, and pragmatics",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0040",
+        "PHL-N-0072"
+      ],
+      "outcomes": [
+        "Distinguish sentence meaning from speaker meaning and pragmatic inference."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0074",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0075",
+      "title": "Scientific realism and anti-realism",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0030",
+        "PHL-N-0041"
+      ],
+      "outcomes": [
+        "Compare realism and anti-realism about theories, entities, and observable evidence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0075",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "science",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0076",
+      "title": "Scientific explanation, causation, models, and mechanisms",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0029",
+        "PHL-N-0041"
+      ],
+      "outcomes": [
+        "Compare major models of scientific explanation and the role of causation and mechanisms."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0076",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "science",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0077",
+      "title": "Philosophy of mathematics: truth, objects, proof, and applicability",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0033",
+        "PHL-N-0049"
+      ],
+      "outcomes": [
+        "Frame foundational positions about mathematical objects, truth, proof, and application."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0077",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mathematics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0078",
+      "title": "Analytic philosophy: language, logic, analysis, and their critics",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0040",
+        "PHL-N-0049"
+      ],
+      "outcomes": [
+        "Trace major analytic projects while separating historical influence from endorsement."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0078",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "history",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0079",
+      "title": "Continental traditions: phenomenology, existentialism, hermeneutics, and critique",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0039",
+        "PHL-N-0047"
+      ],
+      "outcomes": [
+        "Orient major continental approaches around their questions and methods rather than slogans."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0079",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "history",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0080",
+      "title": "African and Africana philosophy: personhood, knowledge, liberation, and method",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0018",
+        "PHL-N-0038"
+      ],
+      "outcomes": [
+        "Engage African and Africana philosophical debates without treating the category as monolithic."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0080",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "global",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0081",
+      "title": "Feminist philosophy: knowledge, power, embodiment, and social categories",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0033",
+        "PHL-N-0038",
+        "PHL-N-0057"
+      ],
+      "outcomes": [
+        "Analyze how feminist philosophy reshapes epistemic, ethical, and metaphysical questions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0081",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "global",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0082",
+      "title": "Modal proof systems and Kripke semantics",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051",
+        "PHL-N-0055"
+      ],
+      "outcomes": [
+        "Relate modal proof systems to Kripke frames and validity."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0082",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0083",
+      "title": "Intuitionistic logic and constructive reasoning",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051"
+      ],
+      "outcomes": [
+        "Explain how intuitionistic consequence differs from classical consequence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0083",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0084",
+      "title": "Many-valued and fuzzy logics",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051"
+      ],
+      "outcomes": [
+        "Distinguish many-valued and fuzzy approaches from ordinary binary classical semantics."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0084",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0085",
+      "title": "Paraconsistent and relevance logics",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051"
+      ],
+      "outcomes": [
+        "Explain motivations for logics that revise explosion or relevance conditions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0085",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0086",
+      "title": "Temporal, deontic, and epistemic modal logics",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0083"
+      ],
+      "outcomes": [
+        "Model time, obligation, and knowledge with modal extensions while tracking interpretation assumptions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0086",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0087",
+      "title": "Model theory beyond the basics",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051",
+        "PHL-N-0052"
+      ],
+      "outcomes": [
+        "Work with elementary equivalence, definability, and core model-theoretic perspectives."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0087",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0088",
+      "title": "Proof theory and normalization perspectives",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0050",
+        "PHL-N-0051"
+      ],
+      "outcomes": [
+        "Compare proof systems and explain why normalization/cut-elimination style results matter."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0088",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0089",
+      "title": "Computability, undecidability, and reductions",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0053"
+      ],
+      "outcomes": [
+        "Use reductions conceptually and distinguish undecidability from practical difficulty."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0089",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0090",
+      "title": "Philosophy of logic: consequence, constants, pluralism, and normativity",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0051",
+        "PHL-N-0084",
+        "PHL-N-0085",
+        "PHL-N-0086"
+      ],
+      "outcomes": [
+        "Compare views about what makes a logic correct or appropriate."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0090",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "philosophy-of-logic",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0091",
+      "title": "Epistemic disagreement, peer disagreement, polarization, and trust",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0059",
+        "PHL-N-0060"
+      ],
+      "outcomes": [
+        "Evaluate rational responses to disagreement and socially mediated evidence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0091",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0092",
+      "title": "Bayesian confirmation and alternatives",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0041",
+        "PHL-N-0056",
+        "PHL-N-0061"
+      ],
+      "outcomes": [
+        "Use Bayesian confirmation concepts while identifying philosophical assumptions and alternatives."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0092",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "formal-epistemology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0093",
+      "title": "Essence, grounding, fundamentality, and metaphysical explanation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0064",
+        "PHL-N-0065"
+      ],
+      "outcomes": [
+        "Compare contemporary accounts of essence, grounding, and fundamentality."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0093",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0094",
+      "title": "Metaontology and ontological commitment",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0026",
+        "PHL-N-0033"
+      ],
+      "outcomes": [
+        "Analyze disputes over what exists and how ontological commitment is incurred."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0094",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "metaphysics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0095",
+      "title": "Moral realism, anti-realism, constructivism, and expressivism",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0037"
+      ],
+      "outcomes": [
+        "Compare major metaethical positions on truth, objectivity, and moral language."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0095",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ethics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0096",
+      "title": "Decision theory, rational choice, and preference",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0036",
+        "PHL-N-0056"
+      ],
+      "outcomes": [
+        "Analyze choice under uncertainty and the normative assumptions of decision models."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0096",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "decision",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0097",
+      "title": "Consciousness, representation, and the explanatory gap",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0039",
+        "PHL-N-0071",
+        "PHL-N-0072"
+      ],
+      "outcomes": [
+        "Compare advanced theories of consciousness and representation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0097",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mind",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0098",
+      "title": "Semantics-pragmatics boundaries and context sensitivity",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0074",
+        "PHL-N-0075"
+      ],
+      "outcomes": [
+        "Analyze how context, semantics, and pragmatic inference interact."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0098",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "language",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0099",
+      "title": "Models, measurement, idealization, and evidence in science",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0076",
+        "PHL-N-0077"
+      ],
+      "outcomes": [
+        "Evaluate the epistemic roles of models, measurement, idealization, and data."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0099",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "science",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0100",
+      "title": "Philosophy of technology and artificial intelligence",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0041",
+        "PHL-N-0071",
+        "PHL-N-0078"
+      ],
+      "outcomes": [
+        "Frame philosophical questions about agency, explanation, automation, and technological mediation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0100",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "technology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0101",
+      "title": "Philosophy and cognitive science: levels, mechanisms, and explanation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0071",
+        "PHL-N-0072",
+        "PHL-N-0077"
+      ],
+      "outcomes": [
+        "Integrate philosophical and cognitive-scientific explanations without collapsing their levels."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0101",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mind",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0102",
+      "title": "Comparative philosophy without false equivalence",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0043",
+        "PHL-N-0044",
+        "PHL-N-0045",
+        "PHL-N-0080",
+        "PHL-N-0081"
+      ],
+      "outcomes": [
+        "Compare traditions responsibly while preserving historical and conceptual differences."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0102",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "global",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0103",
+      "title": "Historical interpretation, context, and the principle of charity",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0024",
+        "PHL-N-0046",
+        "PHL-N-0047"
+      ],
+      "outcomes": [
+        "Balance charitable reconstruction with historical context and textual evidence."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0103",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "history",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0104",
+      "title": "Power, ideology, recognition, race, gender, and social identity",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0038",
+        "PHL-N-0082"
+      ],
+      "outcomes": [
+        "Analyze social and political concepts without reducing normative, empirical, and metaphysical questions to one another."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0104",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "social-political",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0105",
+      "title": "Formal methods as philosophical research tools",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0083",
+        "PHL-N-0087",
+        "PHL-N-0088"
+      ],
+      "outcomes": [
+        "Use formal systems as tools for precise philosophical modeling and argument."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0105",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0106",
+      "title": "Argument mapping and computational support for reasoning",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0028",
+        "PHL-N-0057"
+      ],
+      "outcomes": [
+        "Build explicit argument graphs and evaluate what computational tools preserve or distort."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0106",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0107",
+      "title": "Corpus, text, and digital methods for philosophy",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0091",
+        "PHL-N-0104"
+      ],
+      "outcomes": [
+        "Use text/corpus methods cautiously for historical or conceptual questions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0107",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0108",
+      "title": "Experimental philosophy: design, inference, and limits",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0029",
+        "PHL-N-0092"
+      ],
+      "outcomes": [
+        "Evaluate experimental-philosophy studies and separate empirical findings from normative conclusions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0108",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0109",
+      "title": "Machine minds, agency, and artificial consciousness",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0098",
+        "PHL-N-0101"
+      ],
+      "outcomes": [
+        "Assess arguments about machine mentality, agency, and consciousness."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0109",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ai-philosophy",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0110",
+      "title": "AI ethics, responsibility, fairness, and sociotechnical power",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0099",
+        "PHL-N-0102"
+      ],
+      "outcomes": [
+        "Analyze AI ethics at individual, institutional, and sociotechnical levels."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0110",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ai-ethics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0111",
+      "title": "Philosophy of information and computation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0053",
+        "PHL-N-0071",
+        "PHL-N-0101"
+      ],
+      "outcomes": [
+        "Frame information and computation as philosophical concepts rather than mere engineering terms."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0111",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "technology",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0112",
+      "title": "Advanced philosophy of mathematics and logic",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0078",
+        "PHL-N-0091"
+      ],
+      "outcomes": [
+        "Connect foundational mathematics with advanced philosophy of logic and proof."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0112",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "mathematics",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0113",
+      "title": "Philosophy of physics: space, time, quantum theory, and explanation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0063",
+        "PHL-N-0077"
+      ],
+      "outcomes": [
+        "Analyze philosophical issues arising from physical theory without replacing physics with armchair speculation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0113",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "science",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0114",
+      "title": "Philosophy of biology: function, species, evolution, and explanation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0062",
+        "PHL-N-0077"
+      ],
+      "outcomes": [
+        "Evaluate concepts of function, species, fitness, and biological explanation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0114",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "science",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0115",
+      "title": "Social ontology, institutions, law, and collective agency",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0070",
+        "PHL-N-0082",
+        "PHL-N-0105"
+      ],
+      "outcomes": [
+        "Analyze groups, institutions, norms, and collective agency as ontological and normative problems."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0115",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "social-political",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0116",
+      "title": "Specialization capstone: one problem across methods and traditions",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0091",
+        "PHL-N-0103",
+        "PHL-N-0104"
+      ],
+      "outcomes": [
+        "Integrate formal, historical, analytic, and comparative methods on one philosophical problem."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0116",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "capstone",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0117",
+      "title": "Research literature search, encyclopedias, bibliographies, and citation chains",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0116"
+      ],
+      "outcomes": [
+        "Build a defensible research corpus from reference works, primary texts, papers, and citation chains."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0117",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0118",
+      "title": "Close reading of primary philosophical texts",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0104"
+      ],
+      "outcomes": [
+        "Produce a textually grounded reconstruction that separates quotation, paraphrase, and interpretation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0118",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0119",
+      "title": "Reconstructing an argument at publication-level charity",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0009"
+      ],
+      "outcomes": [
+        "Reconstruct a difficult argument strongly enough that criticism targets its best defensible form."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0119",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0120",
+      "title": "From puzzle to research question and prospectus",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0119"
+      ],
+      "outcomes": [
+        "Narrow a philosophical puzzle into a researchable question with stakes, literature, and method."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0120",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0121",
+      "title": "Formal proof, model, or countermodel as philosophical evidence",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0106"
+      ],
+      "outcomes": [
+        "Use a proof, formal model, or countermodel while explaining its philosophical significance and assumptions."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0121",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0122",
+      "title": "Comparative and cross-tradition research without conceptual flattening",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0103",
+        "PHL-N-0121"
+      ],
+      "outcomes": [
+        "Design comparative work that respects linguistic, historical, and conceptual asymmetries."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0122",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0123",
+      "title": "Peer criticism, objections, revisions, and referee-style response",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0121"
+      ],
+      "outcomes": [
+        "Write and respond to serious objections in a revision-oriented scholarly workflow."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0123",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0124",
+      "title": "Citation ethics, transparency, reproducibility, and responsible use of sources",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0118"
+      ],
+      "outcomes": [
+        "Maintain transparent provenance and distinguish textual evidence, formal result, empirical evidence, and interpretation."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0124",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "research",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0125",
+      "title": "Build a dated philosophy-and-logic research-frontier map",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0118"
+      ],
+      "outcomes": [
+        "Map active debates and formal frontiers with dated primary and high-quality secondary sources rather than presenting a timeless list."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0125",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0126",
+      "title": "Formulate an original frontier-level philosophical or logical question",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0125"
+      ],
+      "outcomes": [
+        "Formulate a novel, scoped question with explicit contribution type, literature gap, and evaluation criteria."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0126",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0127",
+      "title": "Execute an original philosophical paper, formal project, or mixed-method study",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0126"
+      ],
+      "outcomes": [
+        "Carry out an original project with defensible argumentation, evidence, formal work, or empirical method as appropriate."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0127",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "PHL-N-0128",
+      "title": "Produce a contribution-grade portfolio and refresh the frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "PHL-N-0127"
+      ],
+      "outcomes": [
+        "Produce a submission-grade artifact, document limitations, and refresh the dated frontier map for future learners."
+      ],
+      "target_concepts": [
+        {
+          "id": "PHL-C-0128",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "frontier",
+      "lesson_id": null
+    }
+  ]
 }

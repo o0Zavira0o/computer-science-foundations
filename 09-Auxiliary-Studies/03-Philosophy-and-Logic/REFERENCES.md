@@ -4,4 +4,23 @@
 
 | Reference ID | Title | Type | Authority | Reviewed | Review after |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No references registered yet |
+| `PHL-REF-001` | Introduction to Philosophy | textbook | OpenStax | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-002` | Problems of Philosophy | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-003` | Logic I | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-004` | The Open Logic Project | textbook | Open Logic Project | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-005` | Stanford Encyclopedia of Philosophy | other | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-006` | Informal Logic | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-007` | Classical Logic | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-008` | Propositional Logic | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-009` | Theory of Knowledge | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-010` | Epistemology | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-011` | Metaphysics | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-012` | Ethics | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-013` | Introduction to Philosophy of Language | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-014` | Philosophical Issues in Brain Science | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-015` | Paradox and Infinity | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `PHL-REF-016` | Ancient Logic | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-017` | Epistemology in Classical Indian Philosophy | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-018` | Ibn Sina's Metaphysics | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-019` | Formal Epistemology | survey-review | Stanford Encyclopedia of Philosophy | 2026-08-19 | 2027-08-19 |
+| `PHL-REF-020` | Ethics of Technology | university-course | MIT OpenCourseWare | 2026-08-19 | — |

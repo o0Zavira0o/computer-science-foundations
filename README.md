@@ -5,7 +5,7 @@
 This repository is designed as a durable learning system rather than a pile of notes or a fixed-length course. Each subject starts with zero assumed subject-specific knowledge, makes outside prerequisites explicit, develops through undergraduate and graduate depth, and stays open at the research frontier.
 
 > **System version:** V3.1 — architecture frozen for normal content work
-> **Active starts:** Linux Systems, German Language, and Large Language Models now have audited curriculum spines and their first published lessons. Learner mastery remains unclaimed until study evidence is recorded.
+> **Active starts:** Linear Algebra, Linux Systems, German Language, Large Language Models, and Philosophy and Logic have audited curriculum spines and published starting lessons. Learner mastery remains separate from publication state.
 
 ## Tracks
 
@@ -21,6 +21,7 @@ Current tracks include Linear Algebra, Linux Systems, C++, Computer Architecture
 - **Linux Systems:** [`LNX-0001 — What a Linux system actually is`](02-Linux-Systems/lessons/LNX-0001-what-a-linux-system-actually-is.md)
 - **German Language:** [`GER-0001 — Sounds, spelling, and your first German utterances`](09-Auxiliary-Studies/02-German-Language/lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md)
 - **Large Language Models:** [`LLM-0001 — What a language model is`](08-Large-Language-Models/lessons/LLM-0001-what-a-language-model-is.md)
+- **Philosophy and Logic:** [`PHL-0001 — What philosophy and logic are actually doing`](09-Auxiliary-Studies/03-Philosophy-and-Logic/lessons/PHL-0001-what-philosophy-and-logic-are-actually-doing.md)
 
 Each active track has an evidence-backed `RECONNAISSANCE.md`, an audited `COVERAGE.json`, and a dependency-ordered `CURRICULUM.json`. These spines are not fixed endpoints; they are the current auditable map.
 

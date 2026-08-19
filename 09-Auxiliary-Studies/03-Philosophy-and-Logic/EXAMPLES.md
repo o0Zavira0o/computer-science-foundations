@@ -4,4 +4,6 @@
 
 | Example ID | Signature | Domain | First lesson | Reuse purpose |
 |---|---|---|---|---|
-| — | — | — | — | No examples registered yet |
+| `PHL-EX-001` | Turn the Ship of Theseus puzzle from a surprising story into explicit rival identity principles, reasons, and a counterexample pressure test | metaphilosophy and argument construction | PHL-0001 | — |
+| `PHL-EX-002` | Separate the empirical fact of a broken promise from the normative question of whether keeping promises is required, then build an argument rather than assert a preference | normative reasoning | PHL-0001 | — |
+| `PHL-EX-003` | Use the question of whether an artificial system could be conscious to distinguish conceptual, empirical, metaphysical, and logical subquestions without pretending one method answers all of them | cross-field philosophical decomposition | PHL-0001 | — |

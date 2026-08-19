@@ -1,21 +1,47 @@
 # Large Language Models (LLMs)
 
-**Track ID:** `large-language-models`  
-**Code:** `LLM`  
-**Status:** scaffolded
+**Track ID:** `large-language-models`
+**Code:** `LLM`
+**Status:** active
 
-Large language models from first principles through modern architectures, training, alignment, evaluation, systems, applications, interpretability, safety, and research frontiers; exact curriculum scope is deferred to reconnaissance.
+This track has an evidence-backed reconnaissance baseline, an audited dependency graph, and published learning content. The curriculum spine is extensible rather than a fixed endpoint.
 
-## Start here
+## Start reading
 
-This track has no published lessons yet. Before lesson 0001, perform curriculum reconnaissance, establish an evidence-backed coverage baseline, and build the dependency graph according to the repository learning system.
+- **First published lesson:** [LLM-0001 — What a language model is](lessons/LLM-0001-what-a-language-model-is.md)
+- [`CONTEXT.md`](CONTEXT.md) — compact AI/reader handoff
+- [`ROADMAP.md`](ROADMAP.md) — dependency-ordered curriculum roadmap
+- [`PROGRESS.md`](PROGRESS.md) — publication state
+- [`CATALOG.md`](CATALOG.md) — published lesson catalog
+- [`CONCEPTS.md`](CONCEPTS.md) — concept registry view
+- [`EXAMPLES.md`](EXAMPLES.md) — example registry view
+- [`REFERENCES.md`](REFERENCES.md) — evidence/reference registry view
+- [`RECONNAISSANCE.md`](RECONNAISSANCE.md) — curriculum-baseline rationale
 
-## Track structure
+## Public reading model
 
-- `lessons/` — canonical teaching units
-- `exercises/` — practice and assessment artifacts
-- `projects/` — multi-concept applications
-- `research/` — research-literacy and frontier material
-- `registry/` — canonical concept, example, and reference registries
+Readers may enter through any lesson, not only from lesson 0001. Each lesson therefore states genuine prerequisites and provides enough local orientation for direct entry without re-teaching earlier material at the same depth.
 
-The track is open-ended through L6 research-frontier work.
+## Canonical machine state
+
+- `TRACK.json`
+- `CURRICULUM.json`
+- `COVERAGE.json`
+- `LEARNER_STATE.json`
+- `registry/concepts.json`
+- `registry/examples.json`
+- `registry/references.json`
+
+## Content directories
+
+- `lessons/`
+- `exercises/`
+- `projects/`
+- `research/`
+
+From the repository root:
+
+```bash
+python scripts/csf.py context large-language-models
+python scripts/csf.py next large-language-models
+```

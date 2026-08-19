@@ -4,4 +4,131 @@
 
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
-| — | — | — | No concepts registered yet |
+| `PHL-C-0001` | What philosophy and logic are actually doing | D1 | — |
+| `PHL-C-0002` | Questions, claims, reasons, and arguments | — | — |
+| `PHL-C-0003` | Premises, conclusions, and argument indicators | — | — |
+| `PHL-C-0004` | Truth, validity, and soundness | — | — |
+| `PHL-C-0005` | Deduction, induction, and abduction | — | — |
+| `PHL-C-0006` | Counterexamples and testing universal claims | — | — |
+| `PHL-C-0007` | Ambiguity, vagueness, and conceptual distinctions | — | — |
+| `PHL-C-0008` | Definitions and conceptual analysis | — | — |
+| `PHL-C-0009` | Principle of charity and steelmanning | — | — |
+| `PHL-C-0010` | Informal fallacies as failed reasoning patterns | — | — |
+| `PHL-C-0011` | Reading philosophy: thesis, argument, objection, reply | — | — |
+| `PHL-C-0012` | Writing philosophy: claim, reason, objection, response | — | — |
+| `PHL-C-0013` | What formalization gains and loses | — | — |
+| `PHL-C-0014` | Propositions and truth-functional structure | — | — |
+| `PHL-C-0015` | Negation, conjunction, disjunction, and conditional | — | — |
+| `PHL-C-0016` | Truth tables and semantic evaluation | — | — |
+| `PHL-C-0017` | Predicates and quantifiers: first intuition | — | — |
+| `PHL-C-0018` | A map of philosophy: knowledge, reality, value, mind, language, science, and society | — | — |
+| `PHL-C-0019` | Propositional-logic syntax and well-formed formulas | — | — |
+| `PHL-C-0020` | Propositional semantics and valuations | — | — |
+| `PHL-C-0021` | Testing propositional validity with truth tables | — | — |
+| `PHL-C-0022` | Natural deduction: introduction and elimination rules | — | — |
+| `PHL-C-0023` | Proof strategy, subproofs, and contradiction | — | — |
+| `PHL-C-0024` | The language of first-order logic | — | — |
+| `PHL-C-0025` | Quantifiers, scope, and bound variables | — | — |
+| `PHL-C-0026` | Identity and definite description problems | — | — |
+| `PHL-C-0027` | First-order semantics: domains and interpretations | — | — |
+| `PHL-C-0028` | Argument reconstruction and hidden premises | — | — |
+| `PHL-C-0029` | Causal, statistical, and explanatory reasoning | — | — |
+| `PHL-C-0030` | Epistemology: knowledge, belief, truth, and justification | — | — |
+| `PHL-C-0031` | Skepticism and responses to skeptical arguments | — | — |
+| `PHL-C-0032` | Perception, memory, testimony, and other epistemic sources | — | — |
+| `PHL-C-0033` | Metaphysics: what exists and what categories reality has | — | — |
+| `PHL-C-0034` | Identity and persistence through change | — | — |
+| `PHL-C-0035` | Causation, necessity, possibility, and free will | — | — |
+| `PHL-C-0036` | Normative ethics: consequences, duties, and virtues | — | — |
+| `PHL-C-0037` | Metaethics: what moral claims mean and whether they can be true | — | — |
+| `PHL-C-0038` | Political philosophy: justice, liberty, equality, and legitimacy | — | — |
+| `PHL-C-0039` | Philosophy of mind: mind, body, consciousness, and computation | — | — |
+| `PHL-C-0040` | Philosophy of language: meaning, reference, and communication | — | — |
+| `PHL-C-0041` | Philosophy of science: explanation, evidence, laws, and realism | — | — |
+| `PHL-C-0042` | Ancient Greek philosophy: argument from the Presocratics through Aristotle | — | — |
+| `PHL-C-0043` | Classical Indian philosophy: knowledge sources, self, reality, and debate | — | — |
+| `PHL-C-0044` | Classical Chinese philosophy: ethics, order, language, and cultivation | — | — |
+| `PHL-C-0045` | Islamic philosophy: reason, revelation, metaphysics, and knowledge | — | — |
+| `PHL-C-0046` | Early modern philosophy: rationalism, empiricism, mind, and world | — | — |
+| `PHL-C-0047` | Kant and the post-Kantian turn | — | — |
+| `PHL-C-0048` | Sets, relations, and functions for logic | — | — |
+| `PHL-C-0049` | First-order natural deduction | — | — |
+| `PHL-C-0050` | Soundness and completeness: what the theorems say | — | — |
+| `PHL-C-0051` | Models and elementary model-theoretic reasoning | — | — |
+| `PHL-C-0052` | Computability and effective procedure: philosophical foundations | — | — |
+| `PHL-C-0053` | Gödel incompleteness: statement, scope, and common misreadings | — | — |
+| `PHL-C-0054` | Modal logic: necessity, possibility, and possible-world semantics | — | — |
+| `PHL-C-0055` | Probability and Bayesian reasoning for philosophers | — | — |
+| `PHL-C-0056` | Argumentation, dialogue, burden of proof, and disagreement | — | — |
+| `PHL-C-0057` | Theories of epistemic justification | — | — |
+| `PHL-C-0058` | Gettier problems and the analysis of knowledge | — | — |
+| `PHL-C-0059` | Social epistemology, testimony, expertise, and institutions | — | — |
+| `PHL-C-0060` | Formal epistemology: credence, coherence, and updating | — | — |
+| `PHL-C-0061` | Universals, particulars, properties, and kinds | — | — |
+| `PHL-C-0062` | Modality and possible worlds in metaphysics | — | — |
+| `PHL-C-0063` | Time, persistence, and temporal parts | — | — |
+| `PHL-C-0064` | Grounding, dependence, essence, and explanation | — | — |
+| `PHL-C-0065` | Philosophy of religion: arguments, evidence, evil, and faith | — | — |
+| `PHL-C-0066` | Comparing consequentialism, deontology, virtue ethics, and contractualism | — | — |
+| `PHL-C-0067` | Applied ethics: moving from principles to cases | — | — |
+| `PHL-C-0068` | Aesthetics and philosophy of art | — | — |
+| `PHL-C-0069` | Philosophy of law: rules, authority, interpretation, and responsibility | — | — |
+| `PHL-C-0070` | Functionalism, computation, and mental representation | — | — |
+| `PHL-C-0071` | Perception, intentionality, and mental content | — | — |
+| `PHL-C-0072` | Personal identity and the self | — | — |
+| `PHL-C-0073` | Theories of meaning and reference | — | — |
+| `PHL-C-0074` | Speech acts, implicature, and pragmatics | — | — |
+| `PHL-C-0075` | Scientific realism and anti-realism | — | — |
+| `PHL-C-0076` | Scientific explanation, causation, models, and mechanisms | — | — |
+| `PHL-C-0077` | Philosophy of mathematics: truth, objects, proof, and applicability | — | — |
+| `PHL-C-0078` | Analytic philosophy: language, logic, analysis, and their critics | — | — |
+| `PHL-C-0079` | Continental traditions: phenomenology, existentialism, hermeneutics, and critique | — | — |
+| `PHL-C-0080` | African and Africana philosophy: personhood, knowledge, liberation, and method | — | — |
+| `PHL-C-0081` | Feminist philosophy: knowledge, power, embodiment, and social categories | — | — |
+| `PHL-C-0082` | Modal proof systems and Kripke semantics | — | — |
+| `PHL-C-0083` | Intuitionistic logic and constructive reasoning | — | — |
+| `PHL-C-0084` | Many-valued and fuzzy logics | — | — |
+| `PHL-C-0085` | Paraconsistent and relevance logics | — | — |
+| `PHL-C-0086` | Temporal, deontic, and epistemic modal logics | — | — |
+| `PHL-C-0087` | Model theory beyond the basics | — | — |
+| `PHL-C-0088` | Proof theory and normalization perspectives | — | — |
+| `PHL-C-0089` | Computability, undecidability, and reductions | — | — |
+| `PHL-C-0090` | Philosophy of logic: consequence, constants, pluralism, and normativity | — | — |
+| `PHL-C-0091` | Epistemic disagreement, peer disagreement, polarization, and trust | — | — |
+| `PHL-C-0092` | Bayesian confirmation and alternatives | — | — |
+| `PHL-C-0093` | Essence, grounding, fundamentality, and metaphysical explanation | — | — |
+| `PHL-C-0094` | Metaontology and ontological commitment | — | — |
+| `PHL-C-0095` | Moral realism, anti-realism, constructivism, and expressivism | — | — |
+| `PHL-C-0096` | Decision theory, rational choice, and preference | — | — |
+| `PHL-C-0097` | Consciousness, representation, and the explanatory gap | — | — |
+| `PHL-C-0098` | Semantics-pragmatics boundaries and context sensitivity | — | — |
+| `PHL-C-0099` | Models, measurement, idealization, and evidence in science | — | — |
+| `PHL-C-0100` | Philosophy of technology and artificial intelligence | — | — |
+| `PHL-C-0101` | Philosophy and cognitive science: levels, mechanisms, and explanation | — | — |
+| `PHL-C-0102` | Comparative philosophy without false equivalence | — | — |
+| `PHL-C-0103` | Historical interpretation, context, and the principle of charity | — | — |
+| `PHL-C-0104` | Power, ideology, recognition, race, gender, and social identity | — | — |
+| `PHL-C-0105` | Formal methods as philosophical research tools | — | — |
+| `PHL-C-0106` | Argument mapping and computational support for reasoning | — | — |
+| `PHL-C-0107` | Corpus, text, and digital methods for philosophy | — | — |
+| `PHL-C-0108` | Experimental philosophy: design, inference, and limits | — | — |
+| `PHL-C-0109` | Machine minds, agency, and artificial consciousness | — | — |
+| `PHL-C-0110` | AI ethics, responsibility, fairness, and sociotechnical power | — | — |
+| `PHL-C-0111` | Philosophy of information and computation | — | — |
+| `PHL-C-0112` | Advanced philosophy of mathematics and logic | — | — |
+| `PHL-C-0113` | Philosophy of physics: space, time, quantum theory, and explanation | — | — |
+| `PHL-C-0114` | Philosophy of biology: function, species, evolution, and explanation | — | — |
+| `PHL-C-0115` | Social ontology, institutions, law, and collective agency | — | — |
+| `PHL-C-0116` | Specialization capstone: one problem across methods and traditions | — | — |
+| `PHL-C-0117` | Research literature search, encyclopedias, bibliographies, and citation chains | — | — |
+| `PHL-C-0118` | Close reading of primary philosophical texts | — | — |
+| `PHL-C-0119` | Reconstructing an argument at publication-level charity | — | — |
+| `PHL-C-0120` | From puzzle to research question and prospectus | — | — |
+| `PHL-C-0121` | Formal proof, model, or countermodel as philosophical evidence | — | — |
+| `PHL-C-0122` | Comparative and cross-tradition research without conceptual flattening | — | — |
+| `PHL-C-0123` | Peer criticism, objections, revisions, and referee-style response | — | — |
+| `PHL-C-0124` | Citation ethics, transparency, reproducibility, and responsible use of sources | — | — |
+| `PHL-C-0125` | Build a dated philosophy-and-logic research-frontier map | — | — |
+| `PHL-C-0126` | Formulate an original frontier-level philosophical or logical question | — | — |
+| `PHL-C-0127` | Execute an original philosophical paper, formal project, or mixed-method study | — | — |
+| `PHL-C-0128` | Produce a contribution-grade portfolio and refresh the frontier | — | — |

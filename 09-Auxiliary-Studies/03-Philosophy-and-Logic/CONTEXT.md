@@ -7,23 +7,23 @@
 - **Track:** Philosophy and Logic
 - **ID:** `philosophy-and-logic`
 - **Code:** `PHL`
-- **Track status:** scaffolded
+- **Track status:** active
 - **Entry model:** zero-subject-specific-knowledge
-- **Focus:** Philosophy and logic from first principles through major philosophical traditions, argument analysis, informal logic, formal logic, epistemology, metaphysics, ethics, philosophy of science/mind/language, and research-level reading and writing.
+- **Focus:** Philosophy and logic from absolute first principles through argument analysis, global philosophical traditions, formal and informal logic, core philosophical fields, advanced specialization, and research-grade reading, reasoning, and writing.
 
 ## Curriculum state
 
-- **Audit status:** not-audited
-- **Nodes:** 0
-- **Coverage baseline:** not-audited
-- **Coverage items:** 0
-- **Published lessons:** 0
+- **Audit status:** audited
+- **Nodes:** 128
+- **Coverage baseline:** audited
+- **Coverage items:** 24
+- **Published lessons:** 1
 
 ## Registry sizes
 
-- **Concepts:** 0
-- **Examples:** 0
-- **References:** 0
+- **Concepts:** 128
+- **Examples:** 3
+- **References:** 20
 
 ## Learner state
 
@@ -33,15 +33,16 @@
 
 ## Authoring candidates
 
-- BLOCKED — curriculum/coverage reconnaissance is not audited yet.
+- `PHL-N-0002` — Questions, claims, reasons, and arguments (L0, planned)
 
 ## Learner next actions
 
-- None yet.
+**New lessons with practiced/demonstrated prerequisites**
+- PHL-0001 — What philosophy and logic are actually doing [L0]
 
 ## Recent lessons
 
-- None.
+- `PHL-0001` — What philosophy and logic are actually doing (L0, complete)
 
 ## Normal-session retrieval rule
 

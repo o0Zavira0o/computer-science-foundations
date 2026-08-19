@@ -1,21 +1,26 @@
 # Linear Algebra
 
-**Track ID:** `linear-algebra`  
-**Code:** `LA`  
-**Status:** scaffolded
+**Track ID:** `linear-algebra`
+**Code:** `LA`
+**Status:** active
 
-This track contains no V3 lesson content yet. Its scope and detailed curriculum must be established by evidence-backed reconnaissance before lesson 0001.
+This track has an evidence-backed reconnaissance baseline, an audited dependency graph, and published learning content. The curriculum spine is extensible rather than a fixed endpoint.
 
-## Human navigation
+## Start reading
 
-- [`CONTEXT.md`](CONTEXT.md) — fastest handoff for an AI or returning reader
-- [`ROADMAP.md`](ROADMAP.md) — generated dependency roadmap
-- [`PROGRESS.md`](PROGRESS.md) — generated curriculum publication progress
-- [`LEARNER.md`](LEARNER.md) — generated learner progress
-- [`CATALOG.md`](CATALOG.md) — generated lesson catalog
-- [`CONCEPTS.md`](CONCEPTS.md) — generated concept ledger
-- [`EXAMPLES.md`](EXAMPLES.md) — generated example ledger
-- [`REFERENCES.md`](REFERENCES.md) — generated reference ledger
+- **First published lesson:** [LA-0001 — What linear algebra is actually studying](lessons/LA-0001-what-linear-algebra-is-actually-studying.md)
+- [`CONTEXT.md`](CONTEXT.md) — compact AI/reader handoff
+- [`ROADMAP.md`](ROADMAP.md) — dependency-ordered curriculum roadmap
+- [`PROGRESS.md`](PROGRESS.md) — publication state
+- [`CATALOG.md`](CATALOG.md) — published lesson catalog
+- [`CONCEPTS.md`](CONCEPTS.md) — concept registry view
+- [`EXAMPLES.md`](EXAMPLES.md) — example registry view
+- [`REFERENCES.md`](REFERENCES.md) — evidence/reference registry view
+- [`RECONNAISSANCE.md`](RECONNAISSANCE.md) — curriculum-baseline rationale
+
+## Public reading model
+
+Readers may enter through any lesson, not only from lesson 0001. Each lesson therefore states genuine prerequisites and provides enough local orientation for direct entry without re-teaching earlier material at the same depth.
 
 ## Canonical machine state
 
@@ -34,15 +39,9 @@ This track contains no V3 lesson content yet. Its scope and detailed curriculum 
 - `projects/`
 - `research/`
 
-## Before the first lesson
-
-The track must first undergo curriculum reconnaissance and a coverage audit. The roadmap must not be filled from a single textbook/course or from model memory alone.
-
-Run:
+From the repository root:
 
 ```bash
 python scripts/csf.py context linear-algebra
 python scripts/csf.py next linear-algebra
 ```
-
-from the repository root.

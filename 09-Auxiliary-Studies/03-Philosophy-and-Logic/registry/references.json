@@ -2,5 +2,226 @@
   "$schema": "../../../schemas/reference-registry.schema.json",
   "schema_version": 1,
   "track": "philosophy-and-logic",
-  "references": []
+  "references": [
+    {
+      "id": "PHL-REF-001",
+      "title": "Introduction to Philosophy",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/details/books/introduction-philosophy",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Open, peer-reviewed survey organized across logic, epistemology, metaphysics, value theory, history, and global perspectives."
+    },
+    {
+      "id": "PHL-REF-002",
+      "title": "Problems of Philosophy",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-00-problems-of-philosophy-fall-2019/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Systematic introduction to philosophical problems in ethics, metaphysics, knowledge, logic, language, and science."
+    },
+    {
+      "id": "PHL-REF-003",
+      "title": "Logic I",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-241-logic-i-fall-2009/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Introductory formal logic covering validity, soundness, truth-functions, derivations, predicate logic, soundness, and completeness."
+    },
+    {
+      "id": "PHL-REF-004",
+      "title": "The Open Logic Project",
+      "type": "textbook",
+      "authority": "Open Logic Project",
+      "locator": "https://openlogicproject.org/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Open, modular, rigorous formal logic and metalogic materials aimed in part at philosophy students."
+    },
+    {
+      "id": "PHL-REF-005",
+      "title": "Stanford Encyclopedia of Philosophy",
+      "type": "other",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Continuously maintained scholarly reference work used for field orientation, terminology, bibliographies, and current debates."
+    },
+    {
+      "id": "PHL-REF-006",
+      "title": "Informal Logic",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/logic-informal/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Scholarly overview of reasoning and argument in real-world discourse."
+    },
+    {
+      "id": "PHL-REF-007",
+      "title": "Classical Logic",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/logic-classical/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Scholarly overview of classical logical systems, deductive systems, and semantics."
+    },
+    {
+      "id": "PHL-REF-008",
+      "title": "Propositional Logic",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/logic-propositional/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Reference overview of propositional connectives, semantics, and inferential relationships."
+    },
+    {
+      "id": "PHL-REF-009",
+      "title": "Theory of Knowledge",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-211-theory-of-knowledge-spring-2014/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Undergraduate epistemology course centered on skepticism and responses."
+    },
+    {
+      "id": "PHL-REF-010",
+      "title": "Epistemology",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/epistemology/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Scholarly reference on knowledge, justification, sources, structure, and limits."
+    },
+    {
+      "id": "PHL-REF-011",
+      "title": "Metaphysics",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/metaphysics/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Scholarly orientation to contemporary and historical metaphysical questions."
+    },
+    {
+      "id": "PHL-REF-012",
+      "title": "Ethics",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-231-ethics-fall-2009/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Classic and contemporary work across metaethics and normative ethics."
+    },
+    {
+      "id": "PHL-REF-013",
+      "title": "Introduction to Philosophy of Language",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-251-introduction-to-philosophy-of-language-fall-2011/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Meaning, truth, reference, and language in communication; no logic/linguistics prerequisite assumed."
+    },
+    {
+      "id": "PHL-REF-014",
+      "title": "Philosophical Issues in Brain Science",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-08j-philosophical-issues-in-brain-science-spring-2009/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Philosophy of mind linked to psychology and neuroscience, including perception and consciousness."
+    },
+    {
+      "id": "PHL-REF-015",
+      "title": "Paradox and Infinity",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-118-paradox-and-infinity-spring-2019/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Technical-philosophy course connecting paradox, infinity, and Gödelian themes to philosophical implications."
+    },
+    {
+      "id": "PHL-REF-016",
+      "title": "Ancient Logic",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/logic-ancient/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Historical scholarly reference on ancient logical traditions and development."
+    },
+    {
+      "id": "PHL-REF-017",
+      "title": "Epistemology in Classical Indian Philosophy",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/epistemology-india/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Reference on classical Indian theories of knowledge sources such as perception, inference, and testimony."
+    },
+    {
+      "id": "PHL-REF-018",
+      "title": "Ibn Sina's Metaphysics",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Scholarly entry on Avicennian metaphysics and being qua being."
+    },
+    {
+      "id": "PHL-REF-019",
+      "title": "Formal Epistemology",
+      "type": "survey-review",
+      "authority": "Stanford Encyclopedia of Philosophy",
+      "locator": "https://plato.stanford.edu/entries/formal-epistemology/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-08-19",
+      "version": null,
+      "notes": "Overview of mathematical and logical tools applied to epistemic questions."
+    },
+    {
+      "id": "PHL-REF-020",
+      "title": "Ethics of Technology",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/24-131-ethics-of-technology-spring-2023/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Contemporary philosophical ethics applied to privacy, algorithmic bias, AI, automation, and democratic impacts."
+    }
+  ]
 }

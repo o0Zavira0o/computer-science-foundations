@@ -2,5 +2,27 @@
   "$schema": "../../../schemas/example-registry.schema.json",
   "schema_version": 1,
   "track": "philosophy-and-logic",
-  "examples": []
+  "examples": [
+    {
+      "id": "PHL-EX-001",
+      "signature": "Turn the Ship of Theseus puzzle from a surprising story into explicit rival identity principles, reasons, and a counterexample pressure test",
+      "domain": "metaphilosophy and argument construction",
+      "first_lesson": "PHL-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-002",
+      "signature": "Separate the empirical fact of a broken promise from the normative question of whether keeping promises is required, then build an argument rather than assert a preference",
+      "domain": "normative reasoning",
+      "first_lesson": "PHL-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-003",
+      "signature": "Use the question of whether an artificial system could be conscious to distinguish conceptual, empirical, metaphysical, and logical subquestions without pretending one method answers all of them",
+      "domain": "cross-field philosophical decomposition",
+      "first_lesson": "PHL-0001",
+      "reuse_purpose": null
+    }
+  ]
 }

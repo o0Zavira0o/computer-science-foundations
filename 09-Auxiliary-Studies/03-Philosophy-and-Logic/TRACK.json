@@ -6,20 +6,16 @@
   "title": "Philosophy and Logic",
   "folder": "03-Philosophy-and-Logic",
   "order": 11,
-  "status": "scaffolded",
+  "status": "active",
   "entry_model": "zero-subject-specific-knowledge",
   "scope": {
-    "focus": "Philosophy and logic from first principles through major philosophical traditions, argument analysis, informal logic, formal logic, epistemology, metaphysics, ethics, philosophy of science/mind/language, and research-level reading and writing.",
+    "focus": "Philosophy and logic from absolute first principles through argument analysis, global philosophical traditions, formal and informal logic, core philosophical fields, advanced specialization, and research-grade reading, reasoning, and writing.",
     "includes": [
-      "Argument analysis",
-      "Informal logic",
-      "Formal logic",
-      "History of philosophy",
-      "Epistemology",
-      "Metaphysics",
-      "Ethics",
-      "Philosophy of science, mind, and language",
-      "Research-oriented philosophical reading and writing"
+      "Philosophical questioning, argument reconstruction, objections, and charitable interpretation",
+      "Informal logic, formal propositional and predicate logic, metalogic, and selected non-classical logics",
+      "Epistemology, metaphysics, ethics, political philosophy, aesthetics, philosophy of religion, mind, language, science, mathematics, and technology",
+      "Ancient Greek, Indian, Chinese, Islamic, African/Africana, early modern, analytic, continental, feminist, and other globally relevant philosophical traditions",
+      "Research-oriented close reading, formalization, literature review, philosophical writing, peer criticism, and open frontier work"
     ],
     "delegates": []
   },

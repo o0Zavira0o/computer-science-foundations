@@ -65,6 +65,27 @@
       "domain": "standard streams mental model",
       "first_lesson": "LNX-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-010",
+      "signature": "Classify `cd`, `printf`, `ls`, `open`, `/etc/passwd`, and `signal` before choosing `help`, `--help`, or a numbered manual section",
+      "domain": "documentation-layer selection",
+      "first_lesson": "LNX-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-011",
+      "signature": "Use `type -a`, `help`, local `man`, and `--version` together to resolve the intentionally confusing case where a name can be both a shell builtin and an external utility",
+      "domain": "command identity and local documentation",
+      "first_lesson": "LNX-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-012",
+      "signature": "Navigate `man 1`, `man 2`, `man 3`, `man 5`, and `man 7` examples to distinguish user commands, system calls, library functions, file formats, and overview topics",
+      "domain": "manual-section literacy",
+      "first_lesson": "LNX-0004",
+      "reuse_purpose": null
     }
   ]
 }

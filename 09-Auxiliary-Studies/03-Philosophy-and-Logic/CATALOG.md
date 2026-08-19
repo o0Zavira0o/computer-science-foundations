@@ -4,4 +4,4 @@
 
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No lessons published yet |
+| [`PHL-0001`](lessons/PHL-0001-what-philosophy-and-logic-are-actually-doing.md) | What philosophy and logic are actually doing | L0 | complete | `PHL-N-0001` | 2026-08-19 |

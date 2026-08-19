@@ -70,7 +70,7 @@
       "id": "LNX-N-0004",
       "title": "Learn to ask Linux for help",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0003"
       ],
@@ -85,7 +85,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0004"
     },
     {
       "id": "LNX-N-0005",

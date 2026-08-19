@@ -2,36 +2,171 @@
 
 # Philosophy and Logic Roadmap
 
-- **Audit status:** not-audited
-- **Last coverage audit:** not yet performed
-- **Nodes:** 0
+- **Audit status:** audited
+- **Last coverage audit:** 2026-08-19
+- **Nodes:** 128
 
 This is a human-readable view of the dependency graph. `CURRICULUM.json` is canonical.
 
 ## L0
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0001` | What philosophy and logic are actually doing | published | — | PHL-0001 |
+| `PHL-N-0002` | Questions, claims, reasons, and arguments | planned | PHL-N-0001 | — |
+| `PHL-N-0003` | Premises, conclusions, and argument indicators | planned | PHL-N-0002 | — |
+| `PHL-N-0004` | Truth, validity, and soundness | planned | PHL-N-0003 | — |
+| `PHL-N-0005` | Deduction, induction, and abduction | planned | PHL-N-0004 | — |
+| `PHL-N-0006` | Counterexamples and testing universal claims | planned | PHL-N-0004 | — |
+| `PHL-N-0007` | Ambiguity, vagueness, and conceptual distinctions | planned | PHL-N-0002 | — |
+| `PHL-N-0008` | Definitions and conceptual analysis | planned | PHL-N-0007 | — |
+| `PHL-N-0009` | Principle of charity and steelmanning | planned | PHL-N-0003 | — |
+| `PHL-N-0010` | Informal fallacies as failed reasoning patterns | planned | PHL-N-0005, PHL-N-0009 | — |
+| `PHL-N-0011` | Reading philosophy: thesis, argument, objection, reply | planned | PHL-N-0003, PHL-N-0009 | — |
+| `PHL-N-0012` | Writing philosophy: claim, reason, objection, response | planned | PHL-N-0011 | — |
+| `PHL-N-0013` | What formalization gains and loses | planned | PHL-N-0004, PHL-N-0007 | — |
+| `PHL-N-0014` | Propositions and truth-functional structure | planned | PHL-N-0013 | — |
+| `PHL-N-0015` | Negation, conjunction, disjunction, and conditional | planned | PHL-N-0014 | — |
+| `PHL-N-0016` | Truth tables and semantic evaluation | planned | PHL-N-0015 | — |
+| `PHL-N-0017` | Predicates and quantifiers: first intuition | planned | PHL-N-0014 | — |
+| `PHL-N-0018` | A map of philosophy: knowledge, reality, value, mind, language, science, and society | planned | PHL-N-0002 | — |
 
 ## L1
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0019` | Propositional-logic syntax and well-formed formulas | planned | PHL-N-0015 | — |
+| `PHL-N-0020` | Propositional semantics and valuations | planned | PHL-N-0016, PHL-N-0019 | — |
+| `PHL-N-0021` | Testing propositional validity with truth tables | planned | PHL-N-0020 | — |
+| `PHL-N-0022` | Natural deduction: introduction and elimination rules | planned | PHL-N-0021 | — |
+| `PHL-N-0023` | Proof strategy, subproofs, and contradiction | planned | PHL-N-0022 | — |
+| `PHL-N-0024` | The language of first-order logic | planned | PHL-N-0017, PHL-N-0019 | — |
+| `PHL-N-0025` | Quantifiers, scope, and bound variables | planned | PHL-N-0024 | — |
+| `PHL-N-0026` | Identity and definite description problems | planned | PHL-N-0025 | — |
+| `PHL-N-0027` | First-order semantics: domains and interpretations | planned | PHL-N-0025 | — |
+| `PHL-N-0028` | Argument reconstruction and hidden premises | planned | PHL-N-0003, PHL-N-0009, PHL-N-0011 | — |
+| `PHL-N-0029` | Causal, statistical, and explanatory reasoning | planned | PHL-N-0005, PHL-N-0028 | — |
+| `PHL-N-0030` | Epistemology: knowledge, belief, truth, and justification | planned | PHL-N-0004, PHL-N-0018 | — |
+| `PHL-N-0031` | Skepticism and responses to skeptical arguments | planned | PHL-N-0030 | — |
+| `PHL-N-0032` | Perception, memory, testimony, and other epistemic sources | planned | PHL-N-0030 | — |
+| `PHL-N-0033` | Metaphysics: what exists and what categories reality has | planned | PHL-N-0018 | — |
+| `PHL-N-0034` | Identity and persistence through change | planned | PHL-N-0007, PHL-N-0033 | — |
+| `PHL-N-0035` | Causation, necessity, possibility, and free will | planned | PHL-N-0033 | — |
+| `PHL-N-0036` | Normative ethics: consequences, duties, and virtues | planned | PHL-N-0018 | — |
+| `PHL-N-0037` | Metaethics: what moral claims mean and whether they can be true | planned | PHL-N-0036 | — |
+| `PHL-N-0038` | Political philosophy: justice, liberty, equality, and legitimacy | planned | PHL-N-0036 | — |
+| `PHL-N-0039` | Philosophy of mind: mind, body, consciousness, and computation | planned | PHL-N-0018, PHL-N-0033 | — |
+| `PHL-N-0040` | Philosophy of language: meaning, reference, and communication | planned | PHL-N-0007, PHL-N-0018 | — |
+| `PHL-N-0041` | Philosophy of science: explanation, evidence, laws, and realism | planned | PHL-N-0018, PHL-N-0029 | — |
+| `PHL-N-0042` | Ancient Greek philosophy: argument from the Presocratics through Aristotle | planned | PHL-N-0011, PHL-N-0018 | — |
+| `PHL-N-0043` | Classical Indian philosophy: knowledge sources, self, reality, and debate | planned | PHL-N-0018, PHL-N-0030 | — |
+| `PHL-N-0044` | Classical Chinese philosophy: ethics, order, language, and cultivation | planned | PHL-N-0018, PHL-N-0036 | — |
+| `PHL-N-0045` | Islamic philosophy: reason, revelation, metaphysics, and knowledge | planned | PHL-N-0018, PHL-N-0030, PHL-N-0033 | — |
+| `PHL-N-0046` | Early modern philosophy: rationalism, empiricism, mind, and world | planned | PHL-N-0030, PHL-N-0033 | — |
+| `PHL-N-0047` | Kant and the post-Kantian turn | planned | PHL-N-0030, PHL-N-0033, PHL-N-0046 | — |
 
 ## L2
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0048` | Sets, relations, and functions for logic | planned | PHL-N-0027 | — |
+| `PHL-N-0049` | First-order natural deduction | planned | PHL-N-0023, PHL-N-0027 | — |
+| `PHL-N-0050` | Soundness and completeness: what the theorems say | planned | PHL-N-0027 | — |
+| `PHL-N-0051` | Models and elementary model-theoretic reasoning | planned | PHL-N-0050 | — |
+| `PHL-N-0052` | Computability and effective procedure: philosophical foundations | planned | PHL-N-0049 | — |
+| `PHL-N-0053` | Gödel incompleteness: statement, scope, and common misreadings | planned | PHL-N-0051 | — |
+| `PHL-N-0054` | Modal logic: necessity, possibility, and possible-world semantics | planned | PHL-N-0035, PHL-N-0052 | — |
+| `PHL-N-0055` | Probability and Bayesian reasoning for philosophers | planned | PHL-N-0029 | — |
+| `PHL-N-0056` | Argumentation, dialogue, burden of proof, and disagreement | planned | PHL-N-0010, PHL-N-0028 | — |
+| `PHL-N-0057` | Theories of epistemic justification | planned | PHL-N-0030, PHL-N-0031, PHL-N-0032 | — |
+| `PHL-N-0058` | Gettier problems and the analysis of knowledge | planned | PHL-N-0030 | — |
+| `PHL-N-0059` | Social epistemology, testimony, expertise, and institutions | planned | PHL-N-0032, PHL-N-0057 | — |
+| `PHL-N-0060` | Formal epistemology: credence, coherence, and updating | planned | PHL-N-0055, PHL-N-0058 | — |
+| `PHL-N-0061` | Universals, particulars, properties, and kinds | planned | PHL-N-0033 | — |
+| `PHL-N-0062` | Modality and possible worlds in metaphysics | planned | PHL-N-0035, PHL-N-0055 | — |
+| `PHL-N-0063` | Time, persistence, and temporal parts | planned | PHL-N-0034, PHL-N-0035 | — |
+| `PHL-N-0064` | Grounding, dependence, essence, and explanation | planned | PHL-N-0033, PHL-N-0062 | — |
+| `PHL-N-0065` | Philosophy of religion: arguments, evidence, evil, and faith | planned | PHL-N-0030, PHL-N-0033, PHL-N-0036 | — |
+| `PHL-N-0066` | Comparing consequentialism, deontology, virtue ethics, and contractualism | planned | PHL-N-0036 | — |
+| `PHL-N-0067` | Applied ethics: moving from principles to cases | planned | PHL-N-0036, PHL-N-0037 | — |
+| `PHL-N-0068` | Aesthetics and philosophy of art | planned | PHL-N-0018, PHL-N-0036 | — |
+| `PHL-N-0069` | Philosophy of law: rules, authority, interpretation, and responsibility | planned | PHL-N-0036, PHL-N-0038 | — |
+| `PHL-N-0070` | Functionalism, computation, and mental representation | planned | PHL-N-0039, PHL-N-0053 | — |
+| `PHL-N-0071` | Perception, intentionality, and mental content | planned | PHL-N-0032, PHL-N-0039 | — |
+| `PHL-N-0072` | Personal identity and the self | planned | PHL-N-0034, PHL-N-0039 | — |
+| `PHL-N-0073` | Theories of meaning and reference | planned | PHL-N-0026, PHL-N-0040 | — |
+| `PHL-N-0074` | Speech acts, implicature, and pragmatics | planned | PHL-N-0040, PHL-N-0072 | — |
+| `PHL-N-0075` | Scientific realism and anti-realism | planned | PHL-N-0030, PHL-N-0041 | — |
+| `PHL-N-0076` | Scientific explanation, causation, models, and mechanisms | planned | PHL-N-0029, PHL-N-0041 | — |
+| `PHL-N-0077` | Philosophy of mathematics: truth, objects, proof, and applicability | planned | PHL-N-0033, PHL-N-0049 | — |
+| `PHL-N-0078` | Analytic philosophy: language, logic, analysis, and their critics | planned | PHL-N-0040, PHL-N-0049 | — |
+| `PHL-N-0079` | Continental traditions: phenomenology, existentialism, hermeneutics, and critique | planned | PHL-N-0039, PHL-N-0047 | — |
+| `PHL-N-0080` | African and Africana philosophy: personhood, knowledge, liberation, and method | planned | PHL-N-0018, PHL-N-0038 | — |
+| `PHL-N-0081` | Feminist philosophy: knowledge, power, embodiment, and social categories | planned | PHL-N-0033, PHL-N-0038, PHL-N-0057 | — |
 
 ## L3
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0082` | Modal proof systems and Kripke semantics | planned | PHL-N-0051, PHL-N-0055 | — |
+| `PHL-N-0083` | Intuitionistic logic and constructive reasoning | planned | PHL-N-0051 | — |
+| `PHL-N-0084` | Many-valued and fuzzy logics | planned | PHL-N-0051 | — |
+| `PHL-N-0085` | Paraconsistent and relevance logics | planned | PHL-N-0051 | — |
+| `PHL-N-0086` | Temporal, deontic, and epistemic modal logics | planned | PHL-N-0083 | — |
+| `PHL-N-0087` | Model theory beyond the basics | planned | PHL-N-0051, PHL-N-0052 | — |
+| `PHL-N-0088` | Proof theory and normalization perspectives | planned | PHL-N-0050, PHL-N-0051 | — |
+| `PHL-N-0089` | Computability, undecidability, and reductions | planned | PHL-N-0053 | — |
+| `PHL-N-0090` | Philosophy of logic: consequence, constants, pluralism, and normativity | planned | PHL-N-0051, PHL-N-0084, PHL-N-0085, PHL-N-0086 | — |
+| `PHL-N-0091` | Epistemic disagreement, peer disagreement, polarization, and trust | planned | PHL-N-0059, PHL-N-0060 | — |
+| `PHL-N-0092` | Bayesian confirmation and alternatives | planned | PHL-N-0041, PHL-N-0056, PHL-N-0061 | — |
+| `PHL-N-0093` | Essence, grounding, fundamentality, and metaphysical explanation | planned | PHL-N-0064, PHL-N-0065 | — |
+| `PHL-N-0094` | Metaontology and ontological commitment | planned | PHL-N-0026, PHL-N-0033 | — |
+| `PHL-N-0095` | Moral realism, anti-realism, constructivism, and expressivism | planned | PHL-N-0037 | — |
+| `PHL-N-0096` | Decision theory, rational choice, and preference | planned | PHL-N-0036, PHL-N-0056 | — |
+| `PHL-N-0097` | Consciousness, representation, and the explanatory gap | planned | PHL-N-0039, PHL-N-0071, PHL-N-0072 | — |
+| `PHL-N-0098` | Semantics-pragmatics boundaries and context sensitivity | planned | PHL-N-0074, PHL-N-0075 | — |
+| `PHL-N-0099` | Models, measurement, idealization, and evidence in science | planned | PHL-N-0076, PHL-N-0077 | — |
+| `PHL-N-0100` | Philosophy of technology and artificial intelligence | planned | PHL-N-0041, PHL-N-0071, PHL-N-0078 | — |
+| `PHL-N-0101` | Philosophy and cognitive science: levels, mechanisms, and explanation | planned | PHL-N-0071, PHL-N-0072, PHL-N-0077 | — |
+| `PHL-N-0102` | Comparative philosophy without false equivalence | planned | PHL-N-0043, PHL-N-0044, PHL-N-0045, PHL-N-0080, PHL-N-0081 | — |
+| `PHL-N-0103` | Historical interpretation, context, and the principle of charity | planned | PHL-N-0024, PHL-N-0046, PHL-N-0047 | — |
+| `PHL-N-0104` | Power, ideology, recognition, race, gender, and social identity | planned | PHL-N-0038, PHL-N-0082 | — |
 
 ## L4
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0105` | Formal methods as philosophical research tools | planned | PHL-N-0083, PHL-N-0087, PHL-N-0088 | — |
+| `PHL-N-0106` | Argument mapping and computational support for reasoning | planned | PHL-N-0028, PHL-N-0057 | — |
+| `PHL-N-0107` | Corpus, text, and digital methods for philosophy | planned | PHL-N-0091, PHL-N-0104 | — |
+| `PHL-N-0108` | Experimental philosophy: design, inference, and limits | planned | PHL-N-0029, PHL-N-0092 | — |
+| `PHL-N-0109` | Machine minds, agency, and artificial consciousness | planned | PHL-N-0098, PHL-N-0101 | — |
+| `PHL-N-0110` | AI ethics, responsibility, fairness, and sociotechnical power | planned | PHL-N-0099, PHL-N-0102 | — |
+| `PHL-N-0111` | Philosophy of information and computation | planned | PHL-N-0053, PHL-N-0071, PHL-N-0101 | — |
+| `PHL-N-0112` | Advanced philosophy of mathematics and logic | planned | PHL-N-0078, PHL-N-0091 | — |
+| `PHL-N-0113` | Philosophy of physics: space, time, quantum theory, and explanation | planned | PHL-N-0063, PHL-N-0077 | — |
+| `PHL-N-0114` | Philosophy of biology: function, species, evolution, and explanation | planned | PHL-N-0062, PHL-N-0077 | — |
+| `PHL-N-0115` | Social ontology, institutions, law, and collective agency | planned | PHL-N-0070, PHL-N-0082, PHL-N-0105 | — |
+| `PHL-N-0116` | Specialization capstone: one problem across methods and traditions | planned | PHL-N-0091, PHL-N-0103, PHL-N-0104 | — |
 
 ## L5
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0117` | Research literature search, encyclopedias, bibliographies, and citation chains | planned | PHL-N-0116 | — |
+| `PHL-N-0118` | Close reading of primary philosophical texts | planned | PHL-N-0104 | — |
+| `PHL-N-0119` | Reconstructing an argument at publication-level charity | planned | PHL-N-0009 | — |
+| `PHL-N-0120` | From puzzle to research question and prospectus | planned | PHL-N-0119 | — |
+| `PHL-N-0121` | Formal proof, model, or countermodel as philosophical evidence | planned | PHL-N-0106 | — |
+| `PHL-N-0122` | Comparative and cross-tradition research without conceptual flattening | planned | PHL-N-0103, PHL-N-0121 | — |
+| `PHL-N-0123` | Peer criticism, objections, revisions, and referee-style response | planned | PHL-N-0121 | — |
+| `PHL-N-0124` | Citation ethics, transparency, reproducibility, and responsible use of sources | planned | PHL-N-0118 | — |
 
 ## L6
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `PHL-N-0125` | Build a dated philosophy-and-logic research-frontier map | planned | PHL-N-0118 | — |
+| `PHL-N-0126` | Formulate an original frontier-level philosophical or logical question | planned | PHL-N-0125 | — |
+| `PHL-N-0127` | Execute an original philosophical paper, formal project, or mixed-method study | planned | PHL-N-0126 | — |
+| `PHL-N-0128` | Produce a contribution-grade portfolio and refresh the frontier | planned | PHL-N-0127 | — |

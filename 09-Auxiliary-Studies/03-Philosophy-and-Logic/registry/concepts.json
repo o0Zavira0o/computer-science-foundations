@@ -2,5 +2,902 @@
   "$schema": "../../../schemas/concept-registry.schema.json",
   "schema_version": 1,
   "track": "philosophy-and-logic",
-  "concepts": []
+  "concepts": [
+    {
+      "id": "PHL-C-0001",
+      "name": "What philosophy and logic are actually doing",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "first curriculum target is PHL-N-0001."
+    },
+    {
+      "id": "PHL-C-0002",
+      "name": "Questions, claims, reasons, and arguments",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0002."
+    },
+    {
+      "id": "PHL-C-0003",
+      "name": "Premises, conclusions, and argument indicators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0003."
+    },
+    {
+      "id": "PHL-C-0004",
+      "name": "Truth, validity, and soundness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0004."
+    },
+    {
+      "id": "PHL-C-0005",
+      "name": "Deduction, induction, and abduction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0005."
+    },
+    {
+      "id": "PHL-C-0006",
+      "name": "Counterexamples and testing universal claims",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0006."
+    },
+    {
+      "id": "PHL-C-0007",
+      "name": "Ambiguity, vagueness, and conceptual distinctions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0007."
+    },
+    {
+      "id": "PHL-C-0008",
+      "name": "Definitions and conceptual analysis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0008."
+    },
+    {
+      "id": "PHL-C-0009",
+      "name": "Principle of charity and steelmanning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0009."
+    },
+    {
+      "id": "PHL-C-0010",
+      "name": "Informal fallacies as failed reasoning patterns",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0010."
+    },
+    {
+      "id": "PHL-C-0011",
+      "name": "Reading philosophy: thesis, argument, objection, reply",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0011."
+    },
+    {
+      "id": "PHL-C-0012",
+      "name": "Writing philosophy: claim, reason, objection, response",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0012."
+    },
+    {
+      "id": "PHL-C-0013",
+      "name": "What formalization gains and loses",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0013."
+    },
+    {
+      "id": "PHL-C-0014",
+      "name": "Propositions and truth-functional structure",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0014."
+    },
+    {
+      "id": "PHL-C-0015",
+      "name": "Negation, conjunction, disjunction, and conditional",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0015."
+    },
+    {
+      "id": "PHL-C-0016",
+      "name": "Truth tables and semantic evaluation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0016."
+    },
+    {
+      "id": "PHL-C-0017",
+      "name": "Predicates and quantifiers: first intuition",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0017."
+    },
+    {
+      "id": "PHL-C-0018",
+      "name": "A map of philosophy: knowledge, reality, value, mind, language, science, and society",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0018."
+    },
+    {
+      "id": "PHL-C-0019",
+      "name": "Propositional-logic syntax and well-formed formulas",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0019."
+    },
+    {
+      "id": "PHL-C-0020",
+      "name": "Propositional semantics and valuations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0020."
+    },
+    {
+      "id": "PHL-C-0021",
+      "name": "Testing propositional validity with truth tables",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0021."
+    },
+    {
+      "id": "PHL-C-0022",
+      "name": "Natural deduction: introduction and elimination rules",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0022."
+    },
+    {
+      "id": "PHL-C-0023",
+      "name": "Proof strategy, subproofs, and contradiction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0023."
+    },
+    {
+      "id": "PHL-C-0024",
+      "name": "The language of first-order logic",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0024."
+    },
+    {
+      "id": "PHL-C-0025",
+      "name": "Quantifiers, scope, and bound variables",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0025."
+    },
+    {
+      "id": "PHL-C-0026",
+      "name": "Identity and definite description problems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0026."
+    },
+    {
+      "id": "PHL-C-0027",
+      "name": "First-order semantics: domains and interpretations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0027."
+    },
+    {
+      "id": "PHL-C-0028",
+      "name": "Argument reconstruction and hidden premises",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0028."
+    },
+    {
+      "id": "PHL-C-0029",
+      "name": "Causal, statistical, and explanatory reasoning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0029."
+    },
+    {
+      "id": "PHL-C-0030",
+      "name": "Epistemology: knowledge, belief, truth, and justification",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0030."
+    },
+    {
+      "id": "PHL-C-0031",
+      "name": "Skepticism and responses to skeptical arguments",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0031."
+    },
+    {
+      "id": "PHL-C-0032",
+      "name": "Perception, memory, testimony, and other epistemic sources",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0032."
+    },
+    {
+      "id": "PHL-C-0033",
+      "name": "Metaphysics: what exists and what categories reality has",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0033."
+    },
+    {
+      "id": "PHL-C-0034",
+      "name": "Identity and persistence through change",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0034."
+    },
+    {
+      "id": "PHL-C-0035",
+      "name": "Causation, necessity, possibility, and free will",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0035."
+    },
+    {
+      "id": "PHL-C-0036",
+      "name": "Normative ethics: consequences, duties, and virtues",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0036."
+    },
+    {
+      "id": "PHL-C-0037",
+      "name": "Metaethics: what moral claims mean and whether they can be true",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0037."
+    },
+    {
+      "id": "PHL-C-0038",
+      "name": "Political philosophy: justice, liberty, equality, and legitimacy",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0038."
+    },
+    {
+      "id": "PHL-C-0039",
+      "name": "Philosophy of mind: mind, body, consciousness, and computation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0039."
+    },
+    {
+      "id": "PHL-C-0040",
+      "name": "Philosophy of language: meaning, reference, and communication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0040."
+    },
+    {
+      "id": "PHL-C-0041",
+      "name": "Philosophy of science: explanation, evidence, laws, and realism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0041."
+    },
+    {
+      "id": "PHL-C-0042",
+      "name": "Ancient Greek philosophy: argument from the Presocratics through Aristotle",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0042."
+    },
+    {
+      "id": "PHL-C-0043",
+      "name": "Classical Indian philosophy: knowledge sources, self, reality, and debate",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0043."
+    },
+    {
+      "id": "PHL-C-0044",
+      "name": "Classical Chinese philosophy: ethics, order, language, and cultivation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0044."
+    },
+    {
+      "id": "PHL-C-0045",
+      "name": "Islamic philosophy: reason, revelation, metaphysics, and knowledge",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0045."
+    },
+    {
+      "id": "PHL-C-0046",
+      "name": "Early modern philosophy: rationalism, empiricism, mind, and world",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0046."
+    },
+    {
+      "id": "PHL-C-0047",
+      "name": "Kant and the post-Kantian turn",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0047."
+    },
+    {
+      "id": "PHL-C-0048",
+      "name": "Sets, relations, and functions for logic",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0048."
+    },
+    {
+      "id": "PHL-C-0049",
+      "name": "First-order natural deduction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0049."
+    },
+    {
+      "id": "PHL-C-0050",
+      "name": "Soundness and completeness: what the theorems say",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0050."
+    },
+    {
+      "id": "PHL-C-0051",
+      "name": "Models and elementary model-theoretic reasoning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0051."
+    },
+    {
+      "id": "PHL-C-0052",
+      "name": "Computability and effective procedure: philosophical foundations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0052."
+    },
+    {
+      "id": "PHL-C-0053",
+      "name": "Gödel incompleteness: statement, scope, and common misreadings",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0053."
+    },
+    {
+      "id": "PHL-C-0054",
+      "name": "Modal logic: necessity, possibility, and possible-world semantics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0054."
+    },
+    {
+      "id": "PHL-C-0055",
+      "name": "Probability and Bayesian reasoning for philosophers",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0055."
+    },
+    {
+      "id": "PHL-C-0056",
+      "name": "Argumentation, dialogue, burden of proof, and disagreement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0056."
+    },
+    {
+      "id": "PHL-C-0057",
+      "name": "Theories of epistemic justification",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0057."
+    },
+    {
+      "id": "PHL-C-0058",
+      "name": "Gettier problems and the analysis of knowledge",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0058."
+    },
+    {
+      "id": "PHL-C-0059",
+      "name": "Social epistemology, testimony, expertise, and institutions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0059."
+    },
+    {
+      "id": "PHL-C-0060",
+      "name": "Formal epistemology: credence, coherence, and updating",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0060."
+    },
+    {
+      "id": "PHL-C-0061",
+      "name": "Universals, particulars, properties, and kinds",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0061."
+    },
+    {
+      "id": "PHL-C-0062",
+      "name": "Modality and possible worlds in metaphysics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0062."
+    },
+    {
+      "id": "PHL-C-0063",
+      "name": "Time, persistence, and temporal parts",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0063."
+    },
+    {
+      "id": "PHL-C-0064",
+      "name": "Grounding, dependence, essence, and explanation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0064."
+    },
+    {
+      "id": "PHL-C-0065",
+      "name": "Philosophy of religion: arguments, evidence, evil, and faith",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0065."
+    },
+    {
+      "id": "PHL-C-0066",
+      "name": "Comparing consequentialism, deontology, virtue ethics, and contractualism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0066."
+    },
+    {
+      "id": "PHL-C-0067",
+      "name": "Applied ethics: moving from principles to cases",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0067."
+    },
+    {
+      "id": "PHL-C-0068",
+      "name": "Aesthetics and philosophy of art",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0068."
+    },
+    {
+      "id": "PHL-C-0069",
+      "name": "Philosophy of law: rules, authority, interpretation, and responsibility",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0069."
+    },
+    {
+      "id": "PHL-C-0070",
+      "name": "Functionalism, computation, and mental representation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0070."
+    },
+    {
+      "id": "PHL-C-0071",
+      "name": "Perception, intentionality, and mental content",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0071."
+    },
+    {
+      "id": "PHL-C-0072",
+      "name": "Personal identity and the self",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0072."
+    },
+    {
+      "id": "PHL-C-0073",
+      "name": "Theories of meaning and reference",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0073."
+    },
+    {
+      "id": "PHL-C-0074",
+      "name": "Speech acts, implicature, and pragmatics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0074."
+    },
+    {
+      "id": "PHL-C-0075",
+      "name": "Scientific realism and anti-realism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0075."
+    },
+    {
+      "id": "PHL-C-0076",
+      "name": "Scientific explanation, causation, models, and mechanisms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0076."
+    },
+    {
+      "id": "PHL-C-0077",
+      "name": "Philosophy of mathematics: truth, objects, proof, and applicability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0077."
+    },
+    {
+      "id": "PHL-C-0078",
+      "name": "Analytic philosophy: language, logic, analysis, and their critics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0078."
+    },
+    {
+      "id": "PHL-C-0079",
+      "name": "Continental traditions: phenomenology, existentialism, hermeneutics, and critique",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0079."
+    },
+    {
+      "id": "PHL-C-0080",
+      "name": "African and Africana philosophy: personhood, knowledge, liberation, and method",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0080."
+    },
+    {
+      "id": "PHL-C-0081",
+      "name": "Feminist philosophy: knowledge, power, embodiment, and social categories",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0081."
+    },
+    {
+      "id": "PHL-C-0082",
+      "name": "Modal proof systems and Kripke semantics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0082."
+    },
+    {
+      "id": "PHL-C-0083",
+      "name": "Intuitionistic logic and constructive reasoning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0083."
+    },
+    {
+      "id": "PHL-C-0084",
+      "name": "Many-valued and fuzzy logics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0084."
+    },
+    {
+      "id": "PHL-C-0085",
+      "name": "Paraconsistent and relevance logics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0085."
+    },
+    {
+      "id": "PHL-C-0086",
+      "name": "Temporal, deontic, and epistemic modal logics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0086."
+    },
+    {
+      "id": "PHL-C-0087",
+      "name": "Model theory beyond the basics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0087."
+    },
+    {
+      "id": "PHL-C-0088",
+      "name": "Proof theory and normalization perspectives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0088."
+    },
+    {
+      "id": "PHL-C-0089",
+      "name": "Computability, undecidability, and reductions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0089."
+    },
+    {
+      "id": "PHL-C-0090",
+      "name": "Philosophy of logic: consequence, constants, pluralism, and normativity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0090."
+    },
+    {
+      "id": "PHL-C-0091",
+      "name": "Epistemic disagreement, peer disagreement, polarization, and trust",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0091."
+    },
+    {
+      "id": "PHL-C-0092",
+      "name": "Bayesian confirmation and alternatives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0092."
+    },
+    {
+      "id": "PHL-C-0093",
+      "name": "Essence, grounding, fundamentality, and metaphysical explanation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0093."
+    },
+    {
+      "id": "PHL-C-0094",
+      "name": "Metaontology and ontological commitment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0094."
+    },
+    {
+      "id": "PHL-C-0095",
+      "name": "Moral realism, anti-realism, constructivism, and expressivism",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0095."
+    },
+    {
+      "id": "PHL-C-0096",
+      "name": "Decision theory, rational choice, and preference",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0096."
+    },
+    {
+      "id": "PHL-C-0097",
+      "name": "Consciousness, representation, and the explanatory gap",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0097."
+    },
+    {
+      "id": "PHL-C-0098",
+      "name": "Semantics-pragmatics boundaries and context sensitivity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0098."
+    },
+    {
+      "id": "PHL-C-0099",
+      "name": "Models, measurement, idealization, and evidence in science",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0099."
+    },
+    {
+      "id": "PHL-C-0100",
+      "name": "Philosophy of technology and artificial intelligence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0100."
+    },
+    {
+      "id": "PHL-C-0101",
+      "name": "Philosophy and cognitive science: levels, mechanisms, and explanation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0101."
+    },
+    {
+      "id": "PHL-C-0102",
+      "name": "Comparative philosophy without false equivalence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0102."
+    },
+    {
+      "id": "PHL-C-0103",
+      "name": "Historical interpretation, context, and the principle of charity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0103."
+    },
+    {
+      "id": "PHL-C-0104",
+      "name": "Power, ideology, recognition, race, gender, and social identity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0104."
+    },
+    {
+      "id": "PHL-C-0105",
+      "name": "Formal methods as philosophical research tools",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0105."
+    },
+    {
+      "id": "PHL-C-0106",
+      "name": "Argument mapping and computational support for reasoning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0106."
+    },
+    {
+      "id": "PHL-C-0107",
+      "name": "Corpus, text, and digital methods for philosophy",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0107."
+    },
+    {
+      "id": "PHL-C-0108",
+      "name": "Experimental philosophy: design, inference, and limits",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0108."
+    },
+    {
+      "id": "PHL-C-0109",
+      "name": "Machine minds, agency, and artificial consciousness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0109."
+    },
+    {
+      "id": "PHL-C-0110",
+      "name": "AI ethics, responsibility, fairness, and sociotechnical power",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0110."
+    },
+    {
+      "id": "PHL-C-0111",
+      "name": "Philosophy of information and computation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0111."
+    },
+    {
+      "id": "PHL-C-0112",
+      "name": "Advanced philosophy of mathematics and logic",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0112."
+    },
+    {
+      "id": "PHL-C-0113",
+      "name": "Philosophy of physics: space, time, quantum theory, and explanation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0113."
+    },
+    {
+      "id": "PHL-C-0114",
+      "name": "Philosophy of biology: function, species, evolution, and explanation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0114."
+    },
+    {
+      "id": "PHL-C-0115",
+      "name": "Social ontology, institutions, law, and collective agency",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0115."
+    },
+    {
+      "id": "PHL-C-0116",
+      "name": "Specialization capstone: one problem across methods and traditions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0116."
+    },
+    {
+      "id": "PHL-C-0117",
+      "name": "Research literature search, encyclopedias, bibliographies, and citation chains",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0117."
+    },
+    {
+      "id": "PHL-C-0118",
+      "name": "Close reading of primary philosophical texts",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0118."
+    },
+    {
+      "id": "PHL-C-0119",
+      "name": "Reconstructing an argument at publication-level charity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0119."
+    },
+    {
+      "id": "PHL-C-0120",
+      "name": "From puzzle to research question and prospectus",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0120."
+    },
+    {
+      "id": "PHL-C-0121",
+      "name": "Formal proof, model, or countermodel as philosophical evidence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0121."
+    },
+    {
+      "id": "PHL-C-0122",
+      "name": "Comparative and cross-tradition research without conceptual flattening",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0122."
+    },
+    {
+      "id": "PHL-C-0123",
+      "name": "Peer criticism, objections, revisions, and referee-style response",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0123."
+    },
+    {
+      "id": "PHL-C-0124",
+      "name": "Citation ethics, transparency, reproducibility, and responsible use of sources",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0124."
+    },
+    {
+      "id": "PHL-C-0125",
+      "name": "Build a dated philosophy-and-logic research-frontier map",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0125."
+    },
+    {
+      "id": "PHL-C-0126",
+      "name": "Formulate an original frontier-level philosophical or logical question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0126."
+    },
+    {
+      "id": "PHL-C-0127",
+      "name": "Execute an original philosophical paper, formal project, or mixed-method study",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0127."
+    },
+    {
+      "id": "PHL-C-0128",
+      "name": "Produce a contribution-grade portfolio and refresh the frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is PHL-N-0128."
+    }
+  ]
 }

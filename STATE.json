@@ -5,7 +5,7 @@
   "repository_phase": "active-multi-track-learning",
   "active_track": null,
   "last_completed_lesson": null,
-  "next_planned_item": "Continue authoring through audited curriculum graphs; current published starts include Linear Algebra, Linux Systems, German Language, and Large Language Models. Public lesson quality is independent of the repository owner's personal learner state.",
+  "next_planned_item": "Continue public-first authoring through audited curriculum graphs; published starts now include Linear Algebra, Linux Systems, German Language, Large Language Models, and Philosophy and Logic.",
   "legacy_linux_policy": "Do not silently reuse removed legacy lessons; salvage only after explicit review.",
   "persistent_decisions": [
     "Repository filenames, structural documentation, and educational content are written in English.",
@@ -17,6 +17,7 @@
     "Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json.",
     "Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery.",
     "Public lesson authoring prioritizes educational quality and prerequisite integrity; it does not wait for repository-owner learner progress.",
-    "Educational content is CC BY-SA 4.0; repository software is GPL-3.0-or-later, with explicit attribution and provenance guidance."
+    "Educational content is CC BY-SA 4.0; repository software is GPL-3.0-or-later, with explicit attribution and provenance guidance.",
+    "Philosophy and Logic is activated only after evidence-backed curriculum reconnaissance; public lesson quality does not depend on repository-owner learner state."
   ]
 }

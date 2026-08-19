@@ -3,10 +3,459 @@
   "schema_version": 1,
   "track": "philosophy-and-logic",
   "baseline": {
-    "status": "not-audited",
-    "last_audited": null,
-    "sources": []
+    "status": "audited",
+    "last_audited": "2026-08-19",
+    "sources": [
+      "PHL-REF-001",
+      "PHL-REF-002",
+      "PHL-REF-003",
+      "PHL-REF-004",
+      "PHL-REF-005",
+      "PHL-REF-006",
+      "PHL-REF-007",
+      "PHL-REF-008",
+      "PHL-REF-009",
+      "PHL-REF-010",
+      "PHL-REF-011",
+      "PHL-REF-012",
+      "PHL-REF-013",
+      "PHL-REF-014",
+      "PHL-REF-015",
+      "PHL-REF-016",
+      "PHL-REF-017",
+      "PHL-REF-018",
+      "PHL-REF-019",
+      "PHL-REF-020"
+    ]
   },
-  "items": [],
+  "items": [
+    {
+      "id": "PHL-COV-001",
+      "title": "Orientation, philosophical practice, argument, and public reasoning",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-001",
+        "PHL-REF-002",
+        "PHL-REF-006"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0001",
+        "PHL-N-0002",
+        "PHL-N-0003",
+        "PHL-N-0004",
+        "PHL-N-0005",
+        "PHL-N-0006",
+        "PHL-N-0007",
+        "PHL-N-0008",
+        "PHL-N-0009",
+        "PHL-N-0010",
+        "PHL-N-0011",
+        "PHL-N-0012",
+        "PHL-N-0013"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-002",
+      "title": "Introductory propositional and predicate logic",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-003",
+        "PHL-REF-007",
+        "PHL-REF-008"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0014",
+        "PHL-N-0015",
+        "PHL-N-0016",
+        "PHL-N-0017",
+        "PHL-N-0018",
+        "PHL-N-0019",
+        "PHL-N-0020",
+        "PHL-N-0021",
+        "PHL-N-0022",
+        "PHL-N-0023",
+        "PHL-N-0024",
+        "PHL-N-0025",
+        "PHL-N-0026",
+        "PHL-N-0027"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-003",
+      "title": "Argument reconstruction, causal reasoning, and informal logic",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-006",
+        "PHL-REF-001"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0028",
+        "PHL-N-0029"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-004",
+      "title": "Epistemology and skepticism",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-009",
+        "PHL-REF-010"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0030",
+        "PHL-N-0031",
+        "PHL-N-0032"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-005",
+      "title": "Metaphysics, identity, causation, modality, and free will",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-011",
+        "PHL-REF-002"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0033",
+        "PHL-N-0034",
+        "PHL-N-0035"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-006",
+      "title": "Normative ethics, metaethics, and political philosophy",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-012",
+        "PHL-REF-001"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0036",
+        "PHL-N-0037",
+        "PHL-N-0038"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-007",
+      "title": "Mind, language, and science",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-013",
+        "PHL-REF-014",
+        "PHL-REF-002"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0039",
+        "PHL-N-0040",
+        "PHL-N-0041"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-008",
+      "title": "Ancient Greek and early historical foundations",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-016",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0042"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-009",
+      "title": "Indian, Chinese, and Islamic philosophical traditions",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-017",
+        "PHL-REF-018",
+        "PHL-REF-001"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0043",
+        "PHL-N-0044",
+        "PHL-N-0045"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-010",
+      "title": "Early modern, Kantian, and post-Kantian transitions",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-001",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0046",
+        "PHL-N-0047"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-011",
+      "title": "Metalogic: sets, first-order proof, soundness, completeness, and models",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-004",
+        "PHL-REF-003"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0048",
+        "PHL-N-0049",
+        "PHL-N-0050",
+        "PHL-N-0051",
+        "PHL-N-0052"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-012",
+      "title": "Computability, incompleteness, and modal logic",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-004",
+        "PHL-REF-015"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0053",
+        "PHL-N-0054",
+        "PHL-N-0055"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-013",
+      "title": "Probability, formal epistemology, and argumentation",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-019",
+        "PHL-REF-006",
+        "PHL-REF-010"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0056",
+        "PHL-N-0057",
+        "PHL-N-0058",
+        "PHL-N-0059",
+        "PHL-N-0060",
+        "PHL-N-0061"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-014",
+      "title": "Advanced metaphysics and philosophy of religion",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-011",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0062",
+        "PHL-N-0063",
+        "PHL-N-0064",
+        "PHL-N-0065",
+        "PHL-N-0066"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-015",
+      "title": "Ethics, applied value, aesthetics, and law",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-012",
+        "PHL-REF-001"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0067",
+        "PHL-N-0068",
+        "PHL-N-0069",
+        "PHL-N-0070"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-016",
+      "title": "Advanced mind and personal identity",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-014",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0071",
+        "PHL-N-0072",
+        "PHL-N-0073"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-017",
+      "title": "Advanced language and pragmatics",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-013",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0074",
+        "PHL-N-0075"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-018",
+      "title": "Philosophy of science and mathematics",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-002",
+        "PHL-REF-015",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0076",
+        "PHL-N-0077",
+        "PHL-N-0078"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-019",
+      "title": "Analytic, continental, African/Africana, and feminist traditions",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-001",
+        "PHL-REF-005"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0079",
+        "PHL-N-0080",
+        "PHL-N-0081",
+        "PHL-N-0082"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-020",
+      "title": "Non-classical logic, advanced logic, and philosophy of logic",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-004",
+        "PHL-REF-007"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0083",
+        "PHL-N-0084",
+        "PHL-N-0085",
+        "PHL-N-0086",
+        "PHL-N-0087",
+        "PHL-N-0088",
+        "PHL-N-0089",
+        "PHL-N-0090",
+        "PHL-N-0091"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-021",
+      "title": "Advanced epistemology, metaphysics, ethics, mind, language, and science",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-010",
+        "PHL-REF-011",
+        "PHL-REF-012",
+        "PHL-REF-014"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0092",
+        "PHL-N-0093",
+        "PHL-N-0094",
+        "PHL-N-0095",
+        "PHL-N-0096",
+        "PHL-N-0097",
+        "PHL-N-0098",
+        "PHL-N-0099",
+        "PHL-N-0100"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-022",
+      "title": "Technology, AI, comparative method, history, and social philosophy",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-020",
+        "PHL-REF-005",
+        "PHL-REF-001"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0101",
+        "PHL-N-0102",
+        "PHL-N-0103",
+        "PHL-N-0104",
+        "PHL-N-0105"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-023",
+      "title": "Graduate specialization and interdisciplinary research methods",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-005",
+        "PHL-REF-019",
+        "PHL-REF-020"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0106",
+        "PHL-N-0107",
+        "PHL-N-0108",
+        "PHL-N-0109",
+        "PHL-N-0110",
+        "PHL-N-0111",
+        "PHL-N-0112",
+        "PHL-N-0113",
+        "PHL-N-0114",
+        "PHL-N-0115",
+        "PHL-N-0116",
+        "PHL-N-0117"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    },
+    {
+      "id": "PHL-COV-024",
+      "title": "Research literacy, scholarly writing, formal projects, and frontier work",
+      "status": "planned",
+      "source_refs": [
+        "PHL-REF-005",
+        "PHL-REF-004",
+        "PHL-REF-002"
+      ],
+      "mapped_nodes": [
+        "PHL-N-0118",
+        "PHL-N-0119",
+        "PHL-N-0120",
+        "PHL-N-0121",
+        "PHL-N-0122",
+        "PHL-N-0123",
+        "PHL-N-0124",
+        "PHL-N-0125",
+        "PHL-N-0126",
+        "PHL-N-0127",
+        "PHL-N-0128"
+      ],
+      "rationale": "Included after cross-checking introductory survey, university-course, open formal-logic, scholarly encyclopedia, historical/global, and contemporary applied-philosophy source classes."
+    }
+  ],
   "unresolved_questions": []
 }

@@ -14,4 +14,4 @@
 | 8 | Large Language Models (LLMs) | Core | `large-language-models` | active | [`08-Large-Language-Models/README.md`](../08-Large-Language-Models/README.md) |
 | 9 | Advanced English | Auxiliary Studies | `advanced-english` | scaffolded | [`09-Auxiliary-Studies/01-Advanced-English/README.md`](../09-Auxiliary-Studies/01-Advanced-English/README.md) |
 | 10 | German Language | Auxiliary Studies | `german-language` | active | [`09-Auxiliary-Studies/02-German-Language/README.md`](../09-Auxiliary-Studies/02-German-Language/README.md) |
-| 11 | Philosophy and Logic | Auxiliary Studies | `philosophy-and-logic` | scaffolded | [`09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md`](../09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md) |
+| 11 | Philosophy and Logic | Auxiliary Studies | `philosophy-and-logic` | active | [`09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md`](../09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md) |
