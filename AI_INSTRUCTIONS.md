@@ -71,6 +71,7 @@ If any of these are unknown, resolve them before drafting.
 - Verify research-frontier claims against current primary literature.
 - Write like a careful human technical author, not a chatbot transcript.
 - Prefer interactive prediction, reveal/check blocks, small experiments, diagrams, and visual models when they materially improve understanding; do not add visual clutter merely to decorate a page.
+- Render mathematics using the GitHub-safe house style in `docs/MATH_RENDERING.md`: `$...$` for inline math, `$$...$$` for ordinary display math, and fenced `math` blocks for long/multiline expressions. Never use backslash-parenthesis or backslash-bracket math delimiters in repository Markdown.
 - All repository filenames, structural documentation, and educational prose are written in English. Target-language examples (for example German sentences) remain in the target language, with English explanation where needed.
 
 ## 5. After changing content or canonical state

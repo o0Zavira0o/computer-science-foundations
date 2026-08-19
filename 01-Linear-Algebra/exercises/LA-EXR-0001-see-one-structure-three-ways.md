@@ -25,9 +25,9 @@ Produce four things:
 
 Finally, define one rule that maps your vectors to new vectors. Decide whether you think the rule is linear and justify your answer using at least one of:
 
-\[
+$$
 T(u+v)=T(u)+T(v), \qquad T(cu)=cT(u), \qquad T(0)=0.
-\]
+$$
 
 ## Evidence of success
 

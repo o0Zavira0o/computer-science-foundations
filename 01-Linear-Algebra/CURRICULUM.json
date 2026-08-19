@@ -28,7 +28,7 @@
       "id": "LA-N-0002",
       "title": "Scalars, coordinates, tuples, and notation",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "LA-N-0001"
       ],
@@ -43,7 +43,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0002"
     },
     {
       "id": "LA-N-0003",

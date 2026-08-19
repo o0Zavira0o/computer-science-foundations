@@ -17,12 +17,12 @@
 - **Nodes:** 112
 - **Coverage baseline:** audited
 - **Coverage items:** 24
-- **Published lessons:** 2
+- **Published lessons:** 3
 
 ## Registry sizes
 
 - **Concepts:** 112
-- **Examples:** 6
+- **Examples:** 9
 - **References:** 20
 
 ## Learner state
@@ -33,7 +33,12 @@
 
 ## Authoring candidates
 
-- `LNX-N-0003` — The command line as a language interface (L0, ready)
+- `LNX-N-0004` — Learn to ask Linux for help (L0, planned)
+- `LNX-N-0005` — Paths, names, and the single filesystem tree (L0, planned)
+- `LNX-N-0009` — Quoting, globbing, and expansion (L0, planned)
+- `LNX-N-0013` — Processes, jobs, and signals: first mental model (L0, planned)
+- `LNX-N-0014` — Software packages, repositories, and updates (L0, planned)
+- `LNX-N-0015` — Networks from a Linux user’s point of view (L0, planned)
 
 ## Learner next actions
 
@@ -44,6 +49,7 @@
 
 - `LNX-0001` — What a Linux system actually is (L0, complete)
 - `LNX-0002` — Build a safe Linux learning laboratory (L0, complete)
+- `LNX-0003` — The command line as a language interface (L0, complete)
 
 ## Normal-session retrieval rule
 

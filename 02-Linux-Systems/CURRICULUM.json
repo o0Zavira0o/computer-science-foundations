@@ -49,7 +49,7 @@
       "id": "LNX-N-0003",
       "title": "The command line as a language interface",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0002"
       ],
@@ -64,7 +64,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0003"
     },
     {
       "id": "LNX-N-0004",

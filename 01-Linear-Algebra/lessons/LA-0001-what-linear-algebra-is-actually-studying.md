@@ -19,7 +19,7 @@ review_after: null
 
 ## If you landed here directly
 
-You do not need prior linear algebra for this lesson. Basic arithmetic is enough. If symbols such as \((2,3)\) or \(2x+3y\) are unfamiliar, do not treat that as failure; this lesson introduces the role those objects will play before later lessons formalize the notation.
+You do not need prior linear algebra for this lesson. Basic arithmetic is enough. If symbols such as $(2,3)$ or $2x+3y$ are unfamiliar, do not treat that as failure; this lesson introduces the role those objects will play before later lessons formalize the notation.
 
 ## The problem worth understanding
 
@@ -58,7 +58,7 @@ The doors are not separate subjects. They are different views of the same struct
 A vector may be:
 
 - an arrow in a plane;
-- an ordered list such as \((3,2)\);
+- an ordered list such as $(3,2)$;
 - a bundle of measurements;
 - the input or output of a transformation.
 
@@ -75,9 +75,9 @@ The early goal is not to memorize which definition is “the real one.” The go
 
 Consider the pair
 
-\[
+$$
 (3,2).
-\]
+$$
 
 ### As data
 
@@ -110,15 +110,15 @@ You do not yet need the formal vector-space definition. Two operations are enoug
 
 If
 
-\[
+$$
 u=(3,2), \qquad v=(1,4),
-\]
+$$
 
 then
 
-\[
+$$
 u+v=(4,6).
-\]
+$$
 
 Geometrically, arrows can be placed head-to-tail. As data, corresponding quantities are added. As state, two contributions accumulate.
 
@@ -126,23 +126,23 @@ Geometrically, arrows can be placed head-to-tail. As data, corresponding quantit
 
 If
 
-\[
+$$
 u=(3,2),
-\]
+$$
 
 then
 
-\[
+$$
 2u=(6,4).
-\]
+$$
 
 The whole object is scaled by one number. That number is called a **scalar**.
 
 Now combine the two ideas:
 
-\[
+$$
 2u-\frac12 v.
-\]
+$$
 
 This is a **linear combination**. Much of linear algebra asks what can be reached, represented, solved, approximated, or transformed by combinations of this form.
 
@@ -150,30 +150,30 @@ This is a **linear combination**. Much of linear algebra asks what can be reache
 
 Let
 
-\[
+$$
 r_1=(500,300,10)
-\]
+$$
 
 mean 500 g flour, 300 g water, and 10 g salt for one recipe, and
 
-\[
+$$
 r_2=(200,120,4)
-\]
+$$
 
 mean the same quantities for a smaller recipe.
 
 If a kitchen needs two batches of the first and three batches of the second, the total is
 
-\[
+$$
 2r_1+3r_2.
-\]
+$$
 
 Compute component by component:
 
-\[
+$$
 2(500,300,10)+3(200,120,4)
 =(1600,960,32).
-\]
+$$
 
 This example is deliberately mundane. The same pattern appears when combining forces, portfolio positions, basis functions, image components, chemical mixtures, neural-network features, or signals.
 
@@ -183,31 +183,31 @@ The reusable idea is not “recipes.” It is **structured combination**.
 
 Suppose an input vector
 
-\[
+$$
 x=(x_1,x_2)
-\]
+$$
 
 is transformed into
 
-\[
+$$
 (2x_1+x_2,\; x_1-3x_2).
-\]
+$$
 
 Later we will write this compactly as
 
-\[
+$$
 Ax,
-\]
+$$
 
 where
 
-\[
+$$
 A=
 \begin{bmatrix}
 2 & 1\\
 1 & -3
 \end{bmatrix}.
-\]
+$$
 
 Do not worry about matrix multiplication yet. For now, read the matrix as a compact rule that tells us how input coordinates contribute to output coordinates.
 
@@ -215,25 +215,25 @@ That is the first glimpse of a **linear transformation**.
 
 ## What makes a transformation linear?
 
-A transformation \(T\) is linear when it respects the two combination operations:
+A transformation $T$ is linear when it respects the two combination operations:
 
-\[
+$$
 T(u+v)=T(u)+T(v)
-\]
+$$
 
 and
 
-\[
+$$
 T(cu)=cT(u).
-\]
+$$
 
 These two conditions mean that the transformation does not destroy the addition-and-scaling structure.
 
 They imply a powerful combined rule:
 
-\[
+$$
 T(au+bv)=aT(u)+bT(v).
-\]
+$$
 
 Later this single property will explain why matrices, systems of equations, bases, eigenvectors, Fourier-like decompositions, least squares, and many numerical algorithms fit together.
 
@@ -243,29 +243,29 @@ Consider two rules on planar vectors.
 
 Rule A doubles every coordinate:
 
-\[
+$$
 T(x,y)=(2x,2y).
-\]
+$$
 
 Rule B moves every point one unit to the right:
 
-\[
+$$
 S(x,y)=(x+1,y).
-\]
+$$
 
 Rule A is linear. Rule B is not.
 
 A quick reason is what happens to the zero vector:
 
-\[
+$$
 T(0,0)=(0,0),
-\]
+$$
 
 but
 
-\[
+$$
 S(0,0)=(1,0).
-\]
+$$
 
 Every linear transformation must send zero to zero. A translation is geometrically simple, but it is not a linear transformation.
 
@@ -320,7 +320,7 @@ Linear algebra handles spaces with two, three, a thousand, or millions of coordi
 
 ### “If a formula contains x, it is linear”
 
-Expressions such as \(x^2\), \(|x|\), or adding a fixed offset can break linearity. We will learn systematic tests rather than relying on appearance.
+Expressions such as $x^2$, $|x|$, or adding a fixed offset can break linearity. We will learn systematic tests rather than relying on appearance.
 
 ## Active work
 
@@ -330,11 +330,11 @@ Without searching for a formula, create your own two-component vector for each i
 2. a pair of measurements;
 3. a system state.
 
-Then choose two vectors \(u\) and \(v\), and predict what
+Then choose two vectors $u$ and $v$, and predict what
 
-\[
+$$
 3u-2v
-\]
+$$
 
 means in each interpretation.
 

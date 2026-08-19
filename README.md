@@ -87,6 +87,7 @@ L6 is deliberately open-ended. A track is never permanently declared complete be
 - [`docs/LEARNING_SYSTEM.md`](docs/LEARNING_SYSTEM.md) — canonical teaching and architecture standard.
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — source-of-truth map and data flow.
 - [`docs/LEARNING_SCIENCE.md`](docs/LEARNING_SCIENCE.md) — rationale for retrieval, spacing, worked examples, self-explanation, and interleaving.
+- [`docs/MATH_RENDERING.md`](docs/MATH_RENDERING.md) — GitHub-safe mathematical notation and equation rendering standard.
 - [`STATE.md`](STATE.md) — generated repository handoff view.
 - [`docs/TRACKS.md`](docs/TRACKS.md) — generated track index.
 - [`docs/CROSS_TRACK_INDEX.md`](docs/CROSS_TRACK_INDEX.md) — generated cross-track relationship index.

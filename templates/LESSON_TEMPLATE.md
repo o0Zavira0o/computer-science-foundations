@@ -31,7 +31,7 @@ Build a coherent model before piling on terminology.
 
 ## Precise concepts
 
-Introduce formal vocabulary and notation when they become useful.
+Introduce formal vocabulary and notation when they become useful. Render mathematics with the repository standard in `docs/MATH_RENDERING.md`: `$...$` inline, `$$...$$` for ordinary display equations, and fenced `math` blocks for long or multiline expressions.
 
 ## How it actually works
 

@@ -97,3 +97,9 @@ This file records high-impact repository design choices. Keep entries concise; G
 **Decision:** educational/documentation material is released under CC BY-SA 4.0; repository software under `scripts/`, `tests/`, `.github/workflows/`, and `schemas/` is GPL-3.0-or-later. Attribution guidance and AI-assistance boundaries are recorded at repository root.
 
 **Why:** the project should remain broadly reusable while requiring attribution and share-alike behavior for educational adaptations, and software should use a software-specific copyleft license rather than a Creative Commons license.
+
+## 2026-08-19 — GitHub-native mathematical rendering
+
+**Decision:** mathematical expressions in repository Markdown use GitHub-supported MathJax delimiters: `$...$` inline, `$$...$$` for ordinary display equations, and fenced `math` blocks when multiline structure improves readability. Backslash-parenthesis and backslash-bracket delimiters are not used.
+
+**Why:** formulas are part of the educational interface. A mathematically correct expression that appears as raw LaTeX on GitHub is still a publishing defect. A single repository-wide house style keeps lessons readable, portable across GitHub pages, and easier for future AI authors to verify.

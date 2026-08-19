@@ -5,7 +5,7 @@
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
 | `LA-C-0001` | What linear algebra is actually studying | D1 | — |
-| `LA-C-0002` | Scalars, coordinates, tuples, and notation | — | — |
+| `LA-C-0002` | Scalars, coordinates, tuples, and notation | D1 | — |
 | `LA-C-0003` | Vectors as displacement, data, and state | — | — |
 | `LA-C-0004` | Vector addition and scalar multiplication | — | — |
 | `LA-C-0005` | Linear combinations and weighted mixtures | — | — |

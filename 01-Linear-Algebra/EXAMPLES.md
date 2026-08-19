@@ -7,3 +7,6 @@
 | `LA-EX-001` | Represent the same two-component quantity as an arrow, an ordered pair, and a point in a simple data table | multiple representations | LA-0001 | — |
 | `LA-EX-002` | Combine two simple ingredient vectors to show how linear combination changes several quantities at once | linear combination intuition | LA-0001 | — |
 | `LA-EX-003` | Compare a rotation-like rule with a translation rule to test the intuition behind linear transformations | linearity boundary | LA-0001 | — |
+| `LA-EX-004` | Represent a three-measurement sensor state as an ordered tuple and identify each scalar coordinate by index, meaning, and unit | coordinates and semantic ordering | LA-0002 | — |
+| `LA-EX-005` | Decode `B in R^(4x6)` and indexed entries such as `b_3,5` before seeing any numerical matrix values | matrix shape and indexed notation | LA-0002 | — |
+| `LA-EX-006` | Separate an underlying vector from its coordinate representation using the idea that a later basis change can alter coordinates without changing the represented object | object versus representation | LA-0002 | — |

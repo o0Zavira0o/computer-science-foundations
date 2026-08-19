@@ -6,7 +6,7 @@
 |---|---|---|---|
 | `LNX-C-0001` | Linux system model | D1 | — |
 | `LNX-C-0002` | Linux learning sandbox | D1 | — |
-| `LNX-C-0003` | Command invocation | — | — |
+| `LNX-C-0003` | Command invocation | D1 | — |
 | `LNX-C-0004` | Linux documentation system | — | — |
 | `LNX-C-0005` | Filesystem namespace | — | — |
 | `LNX-C-0006` | Directory navigation | — | — |

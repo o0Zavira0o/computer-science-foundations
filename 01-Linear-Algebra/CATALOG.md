@@ -5,3 +5,4 @@
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
 | [`LA-0001`](lessons/LA-0001-what-linear-algebra-is-actually-studying.md) | What linear algebra is actually studying | L0 | complete | `LA-N-0001` | 2026-08-19 |
+| [`LA-0002`](lessons/LA-0002-scalars-coordinates-tuples-and-notation.md) | Scalars, coordinates, tuples, and notation | L0 | complete | `LA-N-0002` | 2026-08-19 |

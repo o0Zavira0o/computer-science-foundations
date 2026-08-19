@@ -44,6 +44,27 @@
       "domain": "safe read-only reconnaissance",
       "first_lesson": "LNX-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-007",
+      "signature": "Dissect `ls -l /etc` and `mkdir -p demo/subdir` into command name, ordered arguments, options, and operands before interpreting behavior",
+      "domain": "command invocation anatomy",
+      "first_lesson": "LNX-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-008",
+      "signature": "Use `true`, `false`, and the shell's most-recent-status parameter to separate exit status from visible command output",
+      "domain": "exit status semantics",
+      "first_lesson": "LNX-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-009",
+      "signature": "Compare normal `printf` output with a failed `ls` diagnostic to show that stdout and stderr can share one terminal display while remaining distinct streams",
+      "domain": "standard streams mental model",
+      "first_lesson": "LNX-0003",
+      "reuse_purpose": null
     }
   ]
 }

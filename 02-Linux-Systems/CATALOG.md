@@ -6,3 +6,4 @@
 |---|---|---|---|---|---|
 | [`LNX-0001`](lessons/LNX-0001-what-a-linux-system-actually-is.md) | What a Linux system actually is | L0 | complete | `LNX-N-0001` | 2026-08-19 |
 | [`LNX-0002`](lessons/LNX-0002-build-a-safe-linux-learning-laboratory.md) | Build a safe Linux learning laboratory | L0 | complete | `LNX-N-0002` | 2026-08-19 |
+| [`LNX-0003`](lessons/LNX-0003-the-command-line-as-a-language-interface.md) | The command line as a language interface | L0 | complete | `LNX-N-0003` | 2026-08-19 |

@@ -1,6 +1,6 @@
 # Learning System Specification
 
-**Status:** canonical  
+**Status:** canonical
 **Architecture:** V3.1
 **Purpose:** define how this repository is taught, extended, audited, and handed between independent AI sessions.
 
@@ -465,6 +465,20 @@ Use visuals because they compress structure, not because every page needs artwor
 Interactive Markdown patterns such as `<details>` may reveal hints, checks, counterexamples, or optional derivations after the reader has had a chance to predict. Core prerequisites and essential explanations must remain visible without interaction.
 
 A page can be excellent with no diagram. A page with five decorative diagrams can be worse than one precise figure.
+
+### Mathematical notation and GitHub rendering
+
+Mathematical notation is part of the teaching interface, not merely source text. Repository Markdown must use GitHub-supported math delimiters so formulas render rather than leak LaTeX syntax into the page.
+
+House style:
+
+- inline mathematics: `$...$`;
+- ordinary standalone equations: `$$...$$`, with blank lines around the block;
+- long, multiline, alignment-heavy, or source-sensitive expressions: fenced `math` blocks;
+- backslash-parenthesis and backslash-bracket math delimiters are not used in repository Markdown;
+- ordinary code fences are reserved for literal code/commands, not mathematical display.
+
+New notation must still be explained in prose. Rendering an expression beautifully does not make it pedagogically self-explanatory. For examples, edge cases, tables, and detailed compatibility guidance, see [`MATH_RENDERING.md`](MATH_RENDERING.md).
 
 ## 13. Anatomy of a strong lesson
 

@@ -23,6 +23,27 @@
       "domain": "linearity boundary",
       "first_lesson": "LA-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-004",
+      "signature": "Represent a three-measurement sensor state as an ordered tuple and identify each scalar coordinate by index, meaning, and unit",
+      "domain": "coordinates and semantic ordering",
+      "first_lesson": "LA-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-005",
+      "signature": "Decode `B in R^(4x6)` and indexed entries such as `b_3,5` before seeing any numerical matrix values",
+      "domain": "matrix shape and indexed notation",
+      "first_lesson": "LA-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-006",
+      "signature": "Separate an underlying vector from its coordinate representation using the idea that a later basis change can alter coordinates without changing the represented object",
+      "domain": "object versus representation",
+      "first_lesson": "LA-0002",
+      "reuse_purpose": null
     }
   ]
 }
