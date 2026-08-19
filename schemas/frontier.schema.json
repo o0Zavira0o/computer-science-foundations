@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Research Frontier Snapshot",
+  "type": "object",
+  "required": ["schema_version", "track", "status", "snapshot_date", "review_due", "areas", "open_questions", "notes"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "track": {"type": "string"},
+    "status": {"enum": ["inactive", "active", "needs-refresh"]},
+    "snapshot_date": {"type": ["string", "null"], "format": "date"},
+    "review_due": {"type": ["string", "null"], "format": "date"},
+    "areas": {"type": "array"},
+    "open_questions": {"type": "array"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

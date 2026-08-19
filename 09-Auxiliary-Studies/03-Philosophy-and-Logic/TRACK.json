@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "philosophy-and-logic",
+  "code": "PHL",
+  "title": "Philosophy and Logic",
+  "folder": "03-Philosophy-and-Logic",
+  "order": 11,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Philosophy and logic from first principles through major philosophical traditions, argument analysis, informal logic, formal logic, epistemology, metaphysics, ethics, philosophy of science/mind/language, and research-level reading and writing.",
+    "includes": [
+      "Argument analysis",
+      "Informal logic",
+      "Formal logic",
+      "History of philosophy",
+      "Epistemology",
+      "Metaphysics",
+      "Ethics",
+      "Philosophy of science, mind, and language",
+      "Research-oriented philosophical reading and writing"
+    ],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "advanced-english"
+  ]
+}

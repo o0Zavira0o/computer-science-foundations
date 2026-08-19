@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/frontier.schema.json",
+  "schema_version": 1,
+  "track": "computer-architecture",
+  "status": "inactive",
+  "snapshot_date": null,
+  "review_due": null,
+  "areas": [],
+  "open_questions": [],
+  "notes": "Activate only when the track reaches research-frontier work."
+}

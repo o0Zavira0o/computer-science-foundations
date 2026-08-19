@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF System Manifest",
+  "type": "object",
+  "required": ["schema_version", "system_version", "repository_kind", "canonical_policy", "track_discovery", "normal_session_mode", "generated_views_policy", "generated_root_views"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "system_version": {"type": "string"},
+    "repository_kind": {"const": "ai-assisted-learning-system"},
+    "canonical_policy": {"type": "string"},
+    "track_discovery": {"type": "string"},
+    "normal_session_mode": {"const": "targeted"},
+    "generated_views_policy": {"type": "string"},
+    "generated_root_views": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

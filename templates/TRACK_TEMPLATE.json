@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "replace-me",
+  "code": "XXX",
+  "title": "Replace Me",
+  "folder": "NN-Replace-Me",
+  "order": 0,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": []
+}

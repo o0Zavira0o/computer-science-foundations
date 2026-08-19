@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "programming-parallel-processors",
+  "code": "PPP",
+  "title": "Programming Parallel Processors",
+  "folder": "05-Programming-Parallel-Processors",
+  "order": 5,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Programming and reasoning about parallel processors and parallel execution models; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "computer-architecture",
+    "computer-systems",
+    "cpp"
+  ]
+}

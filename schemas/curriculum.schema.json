@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Curriculum Graph",
+  "type": "object",
+  "required": ["schema_version", "track", "audit_status", "last_coverage_audit", "nodes"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "track": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "audit_status": {"enum": ["not-audited", "audited", "needs-audit"]},
+    "last_coverage_audit": {"type": ["string", "null"], "format": "date"},
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "level", "status", "prerequisites", "outcomes", "target_concepts"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string", "minLength": 1},
+          "level": {"enum": ["L0", "L1", "L2", "L3", "L4", "L5", "L6"]},
+          "status": {"enum": ["planned", "ready", "drafting", "published", "deprecated"]},
+          "prerequisites": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "outcomes": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "target_concepts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "target_depth"],
+              "properties": {
+                "id": {"type": "string"},
+                "target_depth": {"enum": ["D0", "D1", "D2", "D3", "D4", "D5"]}
+              },
+              "additionalProperties": false
+            }
+          },
+          "branch": {"type": ["string", "null"]},
+          "lesson_id": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

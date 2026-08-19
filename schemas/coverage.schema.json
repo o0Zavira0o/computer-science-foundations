@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Coverage Baseline",
+  "type": "object",
+  "required": ["schema_version", "track", "baseline", "items", "unresolved_questions"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "track": {"type": "string"},
+    "baseline": {
+      "type": "object",
+      "required": ["status", "last_audited", "sources"],
+      "properties": {
+        "status": {"enum": ["not-audited", "audited", "needs-audit"]},
+        "last_audited": {"type": ["string", "null"], "format": "date"},
+        "sources": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status", "source_refs", "mapped_nodes"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string", "minLength": 1},
+          "status": {"enum": ["planned", "covered", "gap", "deferred"]},
+          "source_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "mapped_nodes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "rationale": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "unresolved_questions": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

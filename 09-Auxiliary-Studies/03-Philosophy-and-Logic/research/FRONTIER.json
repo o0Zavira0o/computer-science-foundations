@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../schemas/frontier.schema.json",
+  "schema_version": 1,
+  "track": "philosophy-and-logic",
+  "status": "inactive",
+  "snapshot_date": null,
+  "review_due": null,
+  "areas": [],
+  "open_questions": [],
+  "notes": ""
+}

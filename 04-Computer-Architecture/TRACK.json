@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "computer-architecture",
+  "code": "CA",
+  "title": "Computer Architecture",
+  "folder": "04-Computer-Architecture",
+  "order": 4,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Hardware-visible computation from instruction-set interfaces through microarchitectural organization and performance; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "computer-systems",
+    "programming-parallel-processors",
+    "cpp"
+  ]
+}

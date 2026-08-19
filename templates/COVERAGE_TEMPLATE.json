@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/coverage.schema.json",
+  "schema_version": 1,
+  "track": "replace-me",
+  "baseline": {
+    "status": "not-audited",
+    "last_audited": null,
+    "sources": []
+  },
+  "items": [],
+  "unresolved_questions": []
+}

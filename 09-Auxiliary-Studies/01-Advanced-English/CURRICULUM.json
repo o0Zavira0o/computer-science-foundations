@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/curriculum.schema.json",
+  "schema_version": 1,
+  "track": "advanced-english",
+  "audit_status": "not-audited",
+  "last_coverage_audit": null,
+  "nodes": []
+}

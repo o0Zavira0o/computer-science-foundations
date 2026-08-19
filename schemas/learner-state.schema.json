@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Learner State",
+  "type": "object",
+  "required": ["schema_version", "track", "profile_id", "last_updated", "lessons", "concepts", "review_queue"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "track": {"type": "string"},
+    "profile_id": {"type": "string", "minLength": 1},
+    "last_updated": {"type": ["string", "null"], "format": "date"},
+    "lessons": {"type": "object"},
+    "concepts": {"type": "object"},
+    "review_queue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target_type", "target_id", "due", "reason"],
+        "properties": {
+          "target_type": {"enum": ["lesson", "concept"]},
+          "target_id": {"type": "string"},
+          "due": {"type": "string", "format": "date"},
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

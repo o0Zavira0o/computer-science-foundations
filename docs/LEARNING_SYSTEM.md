@@ -1,6 +1,7 @@
 # Learning System Specification
 
 **Status:** canonical  
+**Architecture:** V3.1
 **Purpose:** define how this repository is taught, extended, audited, and handed between independent AI sessions.
 
 ---
@@ -9,132 +10,127 @@
 
 This repository is a long-lived curriculum, not a transcript and not a finite tutorial series.
 
-Its goal is to let a learner enter any subject with **zero assumed domain knowledge** and progress, without an artificial ceiling, toward:
+Its goal is to let a learner enter a subject with zero assumed subject-specific knowledge, make all outside prerequisites visible, and progress without an artificial ceiling toward:
 
 - operational competence;
 - formal understanding;
 - implementation or problem-solving fluency;
 - advanced undergraduate depth;
-- graduate-level specialization;
+- graduate specialization;
 - research literacy;
 - current research questions and open problems.
 
-An AI tutor is therefore not merely a question-answering assistant. While working in this repository, it has four simultaneous roles:
+An AI tutor has four roles at once:
 
-1. **Teacher** — explains and challenges.
-2. **Curriculum designer** — decides sequencing and prerequisite structure.
-3. **Editor** — protects clarity, voice, consistency, and readability.
-4. **Librarian** — maintains evidence of what has already been covered.
+1. **Teacher** — explain, challenge, diagnose, and adapt.
+2. **Curriculum designer** — sequence dependencies and keep gaps visible.
+3. **Editor** — protect accuracy, coherence, readability, and human voice.
+4. **Librarian** — preserve structured evidence of what exists and what the learner has actually done.
 
-The fourth role is what makes unrelated future chat sessions able to continue correctly.
-
----
-
-## 2. The central design principle
-
-### Repository state outranks chat memory
-
-A lesson is not "known to have been taught" because an earlier AI remembers it. It is known to have been taught because the repository records it.
-
-The durable state is stored in:
-
-- root `STATE.md`;
-- each track's `ROADMAP.md`;
-- each track's `PROGRESS.md`;
-- each track's `CONCEPTS.md`;
-- each track's `EXAMPLES.md`;
-- the lesson files themselves;
-- `docs/CROSS_TRACK_INDEX.md`.
-
-Any AI session that skips these files is operating without reliable continuity.
+The repository, not chat memory, is the durable continuity layer.
 
 ---
 
-## 3. Mandatory preflight for every new AI session
+## 2. One source of truth
 
-Before teaching or writing new educational material, the AI must perform the following sequence.
+V3 separates canonical structured state from human-readable views.
 
-### Step A — read the policy
+Canonical JSON:
+
+- `SYSTEM.json`
+- `STATE.json`
+- each `TRACK.json`
+- each `CURRICULUM.json`
+- each `COVERAGE.json`
+- each `LEARNER_STATE.json`
+- each `registry/concepts.json`
+- each `registry/examples.json`
+- each `registry/references.json`
+
+Educational prose remains Markdown.
+
+Generated Markdown views include:
+
+- `STATE.md`
+- `docs/TRACKS.md`
+- `docs/CROSS_TRACK_INDEX.md`
+- each `ROADMAP.md`
+- each `PROGRESS.md`
+- each `LEARNER.md`
+- each `CONCEPTS.md`
+- each `EXAMPLES.md`
+- each `REFERENCES.md`
+- each `CATALOG.md`
+- each `CONTEXT.md`
+
+When a view and canonical JSON disagree, the JSON wins and the view must be regenerated.
+
+Run:
+
+```bash
+python scripts/csf.py sync
+python scripts/csf.py audit
+```
+
+---
+
+## 3. Session modes
+
+### 3.1 Normal continuation mode
+
+The default is targeted retrieval.
 
 Read:
 
 1. `AI_INSTRUCTIONS.md`
-2. this file
-3. `STATE.md`
+2. `SYSTEM.json`
+3. this specification
+4. `STATE.json` or `STATE.md`
+5. target `CONTEXT.md`
+6. target canonical graph/state/registries
+7. only relevant lesson files
 
-### Step B — inventory the target track
+Relevant lessons normally include:
 
-Recursively inspect the target subject directory.
+- direct prerequisite units;
+- recently studied units;
+- lessons that own a concept the proposed unit will deepen or use;
+- lessons that contain a similar registered example;
+- cross-track canonical explanations.
 
-At minimum inspect:
+Do not recursively reread the whole track merely because it exists.
 
-- `README.md`
-- `ROADMAP.md`
-- `PROGRESS.md`
-- `CONCEPTS.md`
-- `EXAMPLES.md`
-- `REFERENCES.md`
-- `lessons/`
-- `exercises/`
-- `projects/`
-- `research/`
+### 3.2 Audit mode
 
-The AI must not infer repository contents from filenames alone when the contents matter.
+Recursive inspection is appropriate for:
 
-### Step C — build a working coverage model
+- first curriculum reconnaissance;
+- major coverage audits;
+- suspected semantic duplication;
+- migration;
+- research-frontier refresh;
+- long-paused tracks;
+- repository-wide quality reviews.
 
-Before writing, determine:
+### 3.3 Research-refresh mode
 
-- completed lessons;
-- concepts introduced;
-- concepts deepened;
-- prerequisite relationships;
-- examples already used;
-- unresolved gaps;
-- planned next milestones;
-- references already relied on;
-- overlaps with other tracks.
-
-### Step D — run the duplicate check
-
-A proposed lesson is blocked until the AI checks:
-
-- whether the main concept already exists in `CONCEPTS.md`;
-- whether the same depth has already been reached;
-- whether the same example or lab pattern is already in `EXAMPLES.md`;
-- whether another track owns the canonical explanation.
-
-### Step E — justify the next unit
-
-The next unit must have a reason stronger than "it comes next numerically."
-
-Valid reasons include:
-
-- prerequisite dependency;
-- conceptual closure;
-- a necessary bridge to a later topic;
-- a gap discovered in a coverage audit;
-- learner-requested specialization;
-- reinforcement at a deliberately higher depth;
-- preparation for a project, proof, benchmark, paper, or research question.
+Research-frontier work additionally requires current web/literature verification and dated freshness state.
 
 ---
 
-## 4. Curriculum depth ladder
-
-Every track uses the same conceptual depth ladder. The amount of time spent at each level depends on the subject.
+## 4. Depth ladder
 
 ### L0 — Absolute beginner / orientation
 
-Assume the learner does not know the vocabulary, tools, notation, ecosystem, or why the subject matters.
+Assume no subject-specific vocabulary, notation, tools, or mental model.
 
 Goals:
 
-- create a map of the field;
-- establish basic language;
+- map the field;
+- establish language;
 - build first mental models;
-- make the learner operational enough to explore safely;
-- avoid overwhelming detail while never lying through oversimplification.
+- become safely operational where tools are involved;
+- expose prerequisites rather than hiding them.
 
 L0 is an entry ramp, not the destination.
 
@@ -142,21 +138,21 @@ L0 is an entry ramp, not the destination.
 
 Goals:
 
-- core objects, operations, conventions, and mechanisms;
+- core objects, mechanisms, conventions;
 - reliable basic problem solving;
 - first nontrivial examples;
-- first debugging/error-analysis habits;
-- vocabulary precise enough to read introductory references.
+- debugging/error-analysis habits;
+- enough vocabulary to read introductory references.
 
 ### L2 — Core undergraduate
 
 Goals:
 
 - canonical theories and tools;
-- derivations or mechanisms where appropriate;
+- derivations/mechanisms where appropriate;
 - broader problem classes;
-- multiple representations of the same idea;
-- integration between previously isolated concepts;
+- multiple representations;
+- integration among earlier concepts;
 - meaningful exercises and small projects.
 
 ### L3 — Advanced undergraduate / systems integration
@@ -167,31 +163,32 @@ Goals:
 - performance and complexity;
 - internals;
 - design tradeoffs;
-- larger proofs, implementations, experiments, or system studies;
-- comparison of alternative methods;
-- failure modes and debugging at depth.
+- larger proofs, implementations, experiments, or systems studies;
+- alternative methods;
+- deeper failure analysis.
 
 ### L4 — Graduate / specialization
 
 Goals:
 
-- formalism and abstraction appropriate to the field;
-- specialist subareas;
-- advanced literature or standards;
+- specialist formalism;
+- advanced subareas;
+- advanced standards/literature;
 - reproduction of established results where feasible;
 - research-grade methodology;
-- connections to neighboring disciplines.
+- neighboring-discipline connections.
 
 ### L5 — Research literacy
 
 Goals:
 
-- how to read papers critically;
-- how claims are supported;
-- experimental and theoretical methodology;
-- seminal work versus modern practice;
-- conflicting results and unresolved issues;
-- replication, benchmarking, and limitations.
+- read papers critically;
+- reconstruct assumptions;
+- identify baselines and contributions;
+- evaluate evidence;
+- distinguish demonstrated results from speculation;
+- reproduce or benchmark when feasible;
+- understand limitations and conflicting work.
 
 ### L6 — Research frontier
 
@@ -202,182 +199,283 @@ Goals:
 - recent techniques;
 - open problems;
 - reproducible exploration;
-- research questions the learner can investigate.
+- original research questions.
 
-**L6 has no permanent completion state.** It is revisited as the field changes.
-
----
-
-## 5. Roadmaps are knowledge graphs, not numbered playlists
-
-A track roadmap may display a sequence for convenience, but internally it should behave like a dependency graph.
-
-Each milestone should record:
-
-- prerequisites;
-- target depth;
-- concepts or capabilities unlocked;
-- evidence of mastery;
-- possible branches/specializations;
-- cross-track dependencies.
-
-Do not create "200 lessons" merely to make a curriculum appear comprehensive.
-
-Do not stop at "200 lessons" because the number sounds large.
-
-Lesson count is an implementation detail. Coverage and mastery are what matter.
+**L6 is open-ended and must be refreshed over time.**
 
 ---
 
-## 6. How to construct or audit a subject roadmap
+## 5. Prerequisite closure
 
-When a track is first activated, or when its roadmap is suspected to be incomplete, perform curriculum reconnaissance.
+"Starts from zero" does not mean pretending neighboring knowledge is unnecessary.
 
-### 6.1 Use multiple reference classes
+It means no prerequisite may remain hidden.
 
-The roadmap should be cross-checked against several kinds of authoritative material appropriate to the field, for example:
+An outside prerequisite must be resolved as one of:
 
-- respected university course sequences;
+- **bridge** — taught inside the track before it is needed;
+- **canonical cross-track dependency** — linked to an existing curriculum node elsewhere;
+- **declared external prerequisite** — stated explicitly with rationale.
+
+A reader must never discover halfway through a lesson that an unstated course in calculus, C++, shell usage, probability, or architecture was assumed.
+
+Prerequisite closure is checked during roadmap reconnaissance and coverage audit.
+
+---
+
+## 6. Curriculum graph
+
+`CURRICULUM.json` is canonical.
+
+A curriculum node represents a teachable dependency unit. It may later correspond to one lesson or, if justified, a tightly connected learning unit.
+
+Each node records:
+
+- `id`
+- `title`
+- `level`
+- `status`
+- `prerequisites`
+- `outcomes`
+- `target_concepts`
+- optional `branch`
+- optional `lesson_id`
+
+Allowed node statuses:
+
+- `planned`
+- `ready`
+- `drafting`
+- `published`
+- `deprecated`
+
+The audit:
+
+- rejects duplicate node IDs;
+- resolves cross-track prerequisites;
+- rejects self-dependencies;
+- rejects dependency cycles;
+- verifies published node ↔ lesson consistency.
+
+Do not store `unlocks`; derive them from reverse prerequisite edges.
+
+Lesson count is an implementation detail. Do not create filler to hit a round number, and do not stop because a round number was reached.
+
+---
+
+## 7. Curriculum reconnaissance and completeness
+
+No finite roadmap proves that an evolving discipline is complete.
+
+`COVERAGE.json` therefore stores a coverage baseline.
+
+### 7.1 Baseline construction
+
+Before the first published lesson of an activated track, compare the proposed roadmap against multiple relevant classes such as:
+
+- respected university sequences;
 - canonical textbooks;
 - official documentation;
-- language or hardware specifications;
-- standards;
+- standards/specifications;
+- language/hardware specifications;
 - seminal papers;
-- recent surveys or review papers;
-- current primary research.
+- strong surveys/reviews;
+- current primary research where frontier coverage matters.
 
-No single textbook or course defines an entire field.
+No single textbook, certification, or university course defines an entire field.
 
-### 6.2 Build a coverage matrix
+### 7.2 Coverage items
 
-Compare candidate curriculum areas against the depth ladder.
+Each important external expectation becomes a coverage item mapped to curriculum nodes.
 
-A roadmap is suspicious if it:
+Allowed states:
 
-- has foundations but no advanced continuation;
-- jumps to tools without mechanisms;
-- teaches theory with no application where application matters;
-- teaches commands/APIs without system models;
-- teaches implementation without measurement or debugging;
-- reaches "advanced" material without research literacy;
-- has no explicit bridge to current research.
+- `planned`
+- `covered`
+- `gap`
+- `deferred`
 
-### 6.3 Record uncertainty
+A `deferred` item requires rationale.
 
-If the AI is unsure whether an area belongs in the track, record it as a roadmap question rather than silently excluding it.
+### 7.3 Audit questions
 
-### 6.4 Version-sensitive tracks
+Ask:
 
-For fast-moving topics, stamp roadmap audits with a date and verify current sources.
+1. Which canonical areas are absent?
+2. Which concepts exist only at shallow depth?
+3. Which prerequisites are hidden or unresolved?
+4. Which capabilities have theory but no practice?
+5. Which tools are taught without mechanisms?
+6. Which mechanisms lack measurement/evidence?
+7. Which advanced topics lack research bridges?
+8. Which references are stale?
+9. Which concepts are duplicated?
+10. Which examples are overused?
+11. Which cross-track ownership decisions are unclear?
+12. Which claims lack adequate support?
+13. Which branches of the field were silently ignored?
+
+Record gaps instead of hiding them.
 
 ---
 
-## 7. Concept ledger: the anti-repetition mechanism
+## 8. Concept registry
 
-Every track has a `CONCEPTS.md`.
+Canonical file: `registry/concepts.json`.
 
-A concept is given a stable ID.
+Each concept should have a stable ID, human name, aliases where useful, current curriculum depth, and ownership information. `current_depth` is derived from published curriculum-node targets and must agree with that derivation; it is `null` before the concept has published coverage.
 
-Recommended pattern:
+Recommended ID style:
 
 `<TRACK>-<AREA>-<NUMBER>`
 
-Examples of format only:
+Coverage depth:
 
-- `LNX-XXX-001`
-- `CA-XXX-001`
-- `CX-XXX-001`
+- **D0 — Named**
+- **D1 — Intuitive**
+- **D2 — Operational**
+- **D3 — Mechanistic/Formal**
+- **D4 — Advanced**
+- **D5 — Research**
 
-The code identifies continuity; it is not a taxonomy that must be perfect.
+If a concept already exists at D2, restating D2 under a different title is duplication. Advancing it to D3 may be necessary.
 
-### 7.1 Depth is attached to coverage
-
-A concept can legitimately appear more than once if the treatment changes.
-
-Use the following coverage depth:
-
-- **D0 — Named:** learner has seen the term.
-- **D1 — Intuitive:** learner has a usable mental model.
-- **D2 — Operational:** learner can apply it reliably.
-- **D3 — Mechanistic/Formal:** learner can explain why it works.
-- **D4 — Advanced:** learner can analyze tradeoffs, edge cases, or abstractions.
-- **D5 — Research:** learner can connect it to literature/open questions.
-
-If a concept already exists at D2, a new lesson that merely restates D2 is duplication. A lesson that deliberately advances it to D3 may be necessary.
-
-### 7.2 Canonical ownership
-
-When concepts overlap tracks, one track may own the full canonical treatment while another links to it and supplies only context-specific consequences.
-
-Record this in `docs/CROSS_TRACK_INDEX.md`.
-
-This is especially important for neighboring subjects such as Linux Systems, Computer Systems, Computer Architecture, C++, and parallel programming.
+The audit can detect exact ID/title/alias collisions. Semantic near-duplicates still require AI/human judgment during audits.
 
 ---
 
-## 8. Example ledger: varied examples by design
+## 9. Example registry
 
-Every meaningful worked example, experiment, proof example, or lab pattern receives an entry in `EXAMPLES.md`.
+Canonical file: `registry/examples.json`.
 
-The goal is not bureaucratic bookkeeping. It prevents an AI from repeatedly teaching every idea with the same toy scenario.
+Register substantial worked examples, labs, proof examples, debugging scenarios, and recurring toy domains.
 
-Before introducing a new example, ask:
+Before adding one, ask:
 
-- Has this exact example already appeared?
-- Has this *shape* of example already appeared too often?
-- Can a different domain reveal another side of the concept?
-- Is reusing the example valuable for controlled comparison?
-
-Deliberate reuse is allowed when the pedagogical reason is explicit.
+- has the exact example appeared?
+- has this shape/domain been overused?
+- would a different example expose another aspect?
+- is deliberate reuse valuable for comparison or retrieval?
 
 Prefer diversity across:
 
-- small and large cases;
+- minimal and realistic;
 - normal and failure cases;
-- synthetic and realistic scenarios;
+- synthetic and real-world;
 - forward and reverse reasoning;
-- hand-worked and tool-assisted examples;
-- performance, correctness, and debugging perspectives;
-- proofs/counterexamples where appropriate.
+- hand-worked and tool-assisted;
+- correctness, performance, and debugging;
+- proofs and counterexamples where relevant.
+
+Intentional reuse must declare a pedagogical purpose.
 
 ---
 
-## 9. The anatomy of a strong lesson
+## 10. Reference registry and freshness
 
-Not every lesson must use identical headings, but every substantial lesson should accomplish the following arc.
+Canonical file: `registry/references.json`.
 
-### 9.1 Motivation before machinery
+Lesson front matter uses stable reference IDs.
 
-Open with a real question, problem, phenomenon, contradiction, or use case.
+Prefer:
 
-The learner should know why the topic deserves attention before receiving a wall of terminology.
+- canonical textbooks for established foundations;
+- official documentation and standards for technical behavior;
+- primary/original papers for research claims;
+- high-quality surveys for synthesis.
+
+Never fabricate bibliographic details.
+
+### Version-sensitive material
+
+If behavior depends on a current version, record the version/review date and set an explicit `review_after` when appropriate.
+
+A source becoming old does not automatically make it invalid. Freshness warnings apply only to entries that declare themselves time-sensitive.
+
+---
+
+## 11. Learner state is not curriculum state
+
+Canonical file: `LEARNER_STATE.json`.
+
+A published lesson means the repository contains the material. It says nothing by itself about whether the learner knows it.
+
+Recommended learner states:
+
+- `unseen`
+- `read`
+- `practiced`
+- `demonstrated`
+
+A review can also be due after prior demonstration.
+
+Learner state may record:
+
+- last engagement date;
+- confidence;
+- evidence IDs;
+- review due date;
+- demonstrated concept depth.
+
+Evidence IDs resolve to real lessons, exercises, projects, or research notes. Review-queue targets and dates are validated. Because learner state is committed to a public repository in the default owner profile, it must contain learning metadata only—never private notes, credentials, health data, or other sensitive personal information. A fork may replace the owner profile with its own.
+
+Do not mark `demonstrated` merely because the learner says "I think I understand" or because the lesson exists.
+
+Evidence should fit the subject: explanation, derivation, proof, prediction, debugging, implementation, benchmark, design justification, project, or research critique.
+
+---
+
+## 12. Learning-science defaults
+
+Operational rationale is documented in `docs/LEARNING_SCIENCE.md`.
+
+Default practices:
+
+- retrieval rather than rereading alone;
+- spaced review rather than massed repetition;
+- worked examples for early unfamiliar skills, then fading;
+- self-explanation prompts;
+- selective interleaving after multiple methods are known;
+- evidence-based mastery rather than familiarity.
+
+Do not apply these mechanically when the discipline or learner state makes another approach more appropriate.
+
+---
+
+## 13. Anatomy of a strong lesson
+
+Not every lesson needs identical headings, but a substantial lesson should accomplish this arc.
+
+### 13.1 Motivation before machinery
+
+Open with a real problem, phenomenon, contradiction, use case, or question.
 
 Avoid empty hooks such as "X is very important in today's world."
 
-### 9.2 Establish the mental model
+### 13.2 Mental model
 
-Give the learner something coherent to think *with*.
+Give the learner something coherent to reason with before a wall of terminology.
 
-A mental model may be:
+Possible forms:
 
-- a physical analogy, clearly marked where it breaks;
-- a diagram;
-- an invariant;
-- a data flow;
-- a dependency structure;
-- a geometric interpretation;
-- a state machine;
-- a small formal model.
+- invariant;
+- data flow;
+- state machine;
+- geometric model;
+- dependency structure;
+- physical analogy with boundaries;
+- diagram;
+- small formal model.
 
-### 9.3 Introduce precise language
+### 13.3 Precise language
 
-Define terminology at the point where it becomes useful.
+Introduce real terminology when it becomes useful.
 
-Do not front-load a glossary of twenty terms that have no context yet.
+Do not replace technical vocabulary with childish substitutes that must later be unlearned.
 
-### 9.4 Explain the mechanism
+### 13.4 Mechanism
 
-A high-quality lesson answers not only:
+Answer not only:
 
 - What?
 - How?
@@ -385,312 +483,176 @@ A high-quality lesson answers not only:
 but also:
 
 - Why?
-- What is the system actually doing?
-- What assumptions make this true?
-- What changes when the assumptions break?
+- What is actually happening?
+- What assumptions make it true?
+- What changes when assumptions break?
 
-### 9.5 Work through multiple examples
+### 13.5 Multiple perspectives
 
-Use examples that increase in difficulty or change perspective.
+Use examples that increase difficulty or alter perspective. A useful pattern is:
 
-A strong sequence often looks like:
+1. minimal;
+2. realistic;
+3. edge/failure;
+4. transfer.
 
-1. minimal example;
-2. realistic example;
-3. edge/failure example;
-4. transfer example in a different context.
+This is a pattern, not a quota.
 
-This is a pattern, not a mandatory quota.
+### 13.6 Failure modes
 
-### 9.6 Expose failure modes and misconceptions
+Include relevant misconceptions, counterexamples, unsafe behavior, numerical pitfalls, ambiguous tool output, or limits of analogy.
 
-Do not protect the learner from the places where experts get careful.
+### 13.7 Active work
 
-Include, when relevant:
-
-- common mistakes;
-- misleading intuitions;
-- undefined or unsafe behavior;
-- numerical/measurement pitfalls;
-- tool output that can be misread;
-- counterexamples;
-- limits of an analogy.
-
-### 9.7 Make the learner do something
+The learner should predict, derive, debug, prove, implement, estimate, reconstruct, compare, or explain.
 
 Passive recognition is not mastery.
 
-Use appropriate combinations of:
+### 13.8 Integration
 
-- predict-before-reveal questions;
-- short derivations;
-- coding tasks;
-- shell experiments;
-- proofs;
-- debugging;
-- estimation;
-- diagram reconstruction;
-- comparison tasks;
-- explain-in-your-own-words prompts.
+End by showing:
 
-### 9.8 Close by integrating, not merely summarizing
+- what changed in the learner's model;
+- which earlier concepts now connect;
+- what new capability is unlocked;
+- why the next dependency exists.
 
-A good ending answers:
-
-- What changed in the learner's model?
-- Which earlier concepts now connect?
-- What new questions become possible?
-- What is the natural next dependency?
-
-Avoid generic "In conclusion, we learned..." paragraphs unless they add genuine structure.
+Avoid generic summary filler.
 
 ---
 
-## 10. Writing style: make it readable without making it shallow
+## 14. Progressive disclosure: zero-entry, expert-exit
 
-The repository should not sound like an AI chat log.
+A beginner should be able to follow the core path without preventing an experienced reader from finding depth.
 
-### 10.1 Desired voice
+Useful layers:
 
-Write like a careful technical author who enjoys explaining difficult things.
+1. core path;
+2. mechanism;
+3. deep dive;
+4. expert/design notes;
+5. research bridge.
 
-The prose should be:
+Do not dump research details into the opening. Do not postpone every difficult mechanism forever.
+
+GitHub-rendered `<details>` blocks may be used for optional derivations, solutions, historical notes, or deep implementation details. Never hide a prerequisite or core explanation solely to make the page look shorter.
+
+Text-native Mermaid diagrams are encouraged when they genuinely clarify structure, flow, or dependencies.
+
+---
+
+## 15. Writing style
+
+Write like a careful technical author who enjoys explaining hard things.
+
+Desired prose:
 
 - direct;
 - concrete;
-- calm;
 - precise;
+- calm;
 - curious;
-- occasionally conversational when it improves comprehension;
-- willing to slow down for a hard mechanism;
-- willing to move quickly through obvious glue text.
+- causally explicit;
+- varied in sentence and paragraph rhythm.
 
-### 10.2 Avoid common AI-writing fingerprints
-
-Avoid habitual use of:
+Avoid habitual AI fingerprints:
 
 - "Let's dive in";
 - "In today's fast-paced world";
 - "This powerful concept";
-- "It's important to note that" when nothing important follows;
+- empty "It's important to note";
 - excessive "Imagine..." analogies;
 - fake quotations;
 - constant rhetorical questions;
-- identical three-part lists;
-- repetitive summaries;
+- repetitive three-item patterns;
+- generic conclusions;
 - excessive boldface;
 - decorative emoji in serious technical prose;
-- praise for the reader;
-- inflated claims like "master" after one lesson.
+- inflated claims of mastery;
+- praise used as filler.
 
-### 10.3 Sentence and paragraph rhythm
+Analogy is scaffolding, not evidence. State its limits when those limits matter.
 
-Do not make every paragraph the same size.
-
-Use short paragraphs for transitions and warnings. Use longer paragraphs when an argument needs continuity.
-
-Technical readability is not achieved by chopping every sentence onto a new line.
-
-### 10.4 Jargon policy
-
-Use the real term. Explain it before relying on it.
-
-Do not replace domain vocabulary with childish substitutes that later have to be unlearned.
-
-### 10.5 Analogy policy
-
-An analogy must state its boundary when the boundary matters.
-
-Analogy is scaffolding, not evidence.
-
-### 10.6 Prefer causal language
-
-Weak:
-
-> The command displays information.
-
-Stronger:
-
-> The command asks the kernel for X, then formats the returned Y, which is why Z appears differently under condition Q.
-
-Use the stronger style when the mechanism is known and relevant.
+Prefer causal explanations over shallow interface descriptions.
 
 ---
 
-## 11. Progressive disclosure: zero-entry, expert exit
+## 16. Exercises and assessment
 
-A lesson can be friendly to a beginner without boring an experienced reader.
+A mature exercise set may test:
 
-Use layers:
+- recall;
+- interpretation;
+- application;
+- transfer;
+- debugging;
+- counterexample;
+- design;
+- synthesis;
+- research reading.
 
-1. **Core path** — what every learner needs.
-2. **Mechanism** — what explains the behavior.
-3. **Deep dive** — internals, formalism, edge cases.
-4. **Expert notes** — design tradeoffs, historical reasons, standards, implementation details.
-5. **Research bridge** — when the topic connects to active literature.
+Do not make every exercise a copy of the preceding example.
 
-Do not hide all advanced material forever behind "later." Also do not dump research-level details into the first paragraph.
+As expertise grows, fade scaffolding and require more independent solution construction.
 
----
-
-## 12. Exercises and assessment
-
-Exercises are not decoration at the bottom of a lesson.
-
-They should diagnose different kinds of understanding.
-
-A mature exercise set may include:
-
-- **Recall:** terminology or exact relationships.
-- **Interpretation:** explain output, notation, diagrams, or evidence.
-- **Application:** solve a normal case.
-- **Transfer:** use the idea in a different context.
-- **Debugging:** identify and fix a failure.
-- **Counterexample:** show where a naive statement breaks.
-- **Design:** choose among alternatives and justify.
-- **Synthesis:** combine multiple lessons.
-- **Research reading:** critique a claim, method, or experiment.
-
-Do not include an exercise whose answer is trivially copied from the immediately preceding sentence unless it serves intentional retrieval practice.
-
-Solutions may be kept separate when that improves learning.
+Use delayed retrieval and mixed practice where appropriate.
 
 ---
 
-## 13. Projects and labs
+## 17. Projects and labs
 
-Projects should appear when several concepts can interact meaningfully.
+Projects appear when multiple concepts can interact meaningfully.
 
-A project is not simply a longer exercise.
+A good project has:
 
-Good projects have:
-
-- a clear capability target;
+- a capability target;
 - constraints;
 - observable success criteria;
-- room for design decisions;
+- meaningful design choices;
 - failure/debugging opportunities;
-- a reflection or analysis component;
-- links back to the concept ledger.
+- reflection or analysis;
+- links to concepts and curriculum nodes.
 
-For technical systems work, prefer safe sandboxes, virtual machines, containers, emulators, simulators, temporary filesystems, or test environments when destructive actions are possible.
+For destructive technical tasks, prefer sandboxes, VMs, containers, emulators, simulators, or disposable environments.
 
-Safety warnings must be specific, not theatrical.
-
----
-
-## 14. Sources and evidence
-
-### 14.1 Foundational material
-
-Use suitable canonical references such as:
-
-- established textbooks;
-- official documentation;
-- standards/specifications;
-- respected course materials.
-
-### 14.2 Version-sensitive technical material
-
-Check current official sources.
-
-Record versions when behavior depends on them.
-
-Never teach an old command, API, compiler rule, kernel behavior, language rule, or tool flag as current merely because it existed in an older source.
-
-### 14.3 Research material
-
-Prefer:
-
-1. original papers;
-2. official project/repository documentation;
-3. standards or technical reports;
-4. high-quality surveys for synthesis.
-
-Distinguish:
-
-- what a paper actually demonstrates;
-- what its authors speculate;
-- what later work established;
-- what the AI is inferring.
-
-### 14.4 Citation integrity
-
-Never fabricate bibliographic details.
-
-If a source cannot be verified, mark it for verification rather than inventing a citation.
+Warnings should be specific rather than theatrical.
 
 ---
 
-## 15. Research progression is part of the curriculum
+## 18. Research progression
 
-A track does not become research-level by adding a folder called `research/`.
+A `research/` folder alone does not make a track research-level.
 
-The transition should teach the learner how to:
+The learner should learn to:
 
 - locate primary literature;
-- identify a paper's actual question;
+- identify the real research question;
 - reconstruct assumptions;
 - understand methodology;
-- distinguish baseline from contribution;
+- separate baseline from contribution;
 - evaluate evidence;
-- reproduce results when possible;
-- notice limitations and threats to validity;
-- compare conflicting results;
+- reproduce results when feasible;
+- identify limitations/threats;
+- compare conflicting work;
 - derive follow-up questions.
 
-At L6, maintain a dated frontier map containing:
+At L6 maintain a dated `research/FRONTIER.json` snapshot containing active areas, representative current primary work, open questions, disagreements, and reproducibility opportunities.
 
-- active subareas;
-- representative recent primary papers;
-- open questions;
-- unresolved disagreements;
-- reproducibility opportunities.
-
-The frontier map must be periodically refreshed.
+A frontier snapshot has `review_due`. When overdue, audit warns that it is no longer safe to call the map current without refreshing it.
 
 ---
 
-## 16. Completeness audits
+## 18.1 Exercises, projects, and research notes as evidence artifacts
 
-No finite document can prove that an entire evolving discipline contains no omissions.
-
-Therefore this repository uses explicit audits.
-
-Run a coverage audit when:
-
-- a roadmap is first created;
-- a major level is completed;
-- the learner asks "have we covered X?";
-- the track appears to have reached an endpoint;
-- a new specialization is added;
-- a long time has passed in a fast-moving field.
-
-### Audit questions
-
-1. Which canonical areas are absent?
-2. Which concepts exist only at shallow depth?
-3. Which prerequisites were assumed but never taught?
-4. Which capabilities have theory but no practice?
-5. Which tools were taught without mechanisms?
-6. Which mechanisms were taught without measurement or evidence?
-7. Which advanced topics lack research bridges?
-8. Which references are stale?
-9. Which concepts are duplicated unnecessarily?
-10. Which cross-track concepts lack clear ownership?
-11. Which examples are overused?
-12. Which claims are not adequately sourced?
-13. Which field branches were silently ignored?
-
-Record discovered gaps in the roadmap rather than hiding them.
+Exercises, projects, and research notes are first-class learning artifacts rather than unvalidated files. They use stable IDs and machine-friendly front matter, link to curriculum nodes/concepts/references, and can be cited as learner evidence. Canonical templates live in `templates/EXERCISE_TEMPLATE.md`, `templates/PROJECT_TEMPLATE.md`, and `templates/RESEARCH_NOTE_TEMPLATE.md`.
 
 ---
 
-## 17. Lesson metadata
+## 19. Lesson metadata profile
 
-Each lesson should start with YAML front matter.
+Lesson Markdown uses a strict, machine-friendly YAML-like front matter profile. List fields must be inline JSON arrays so the standard-library audit can parse them without external dependencies.
 
-Minimum recommended form:
+Example:
 
 ```yaml
 ---
@@ -699,22 +661,27 @@ title: Example Title
 track: linux-systems
 level: L0
 status: complete
-prerequisites: []
-concepts_introduced: []
+curriculum_node: LNX-N-0001
+concepts_introduced: ["LNX-XXX-001"]
 concepts_deepened: []
-examples_added: []
-last_reviewed: YYYY-MM-DD
+concepts_used: []
+examples_added: ["LNX-EX-001"]
+references_used: ["LNX-REF-001"]
+last_reviewed: 2026-08-19
+version_sensitive: false
+review_after: null
 ---
 ```
 
 Rules:
 
 - `id` is stable once published.
-- `status` should be `draft`, `complete`, `needs-review`, or `deprecated`.
-- `prerequisites` should use lesson IDs or explicit external prerequisites.
-- concept IDs must exist in `CONCEPTS.md` after the lesson is finalized.
-- example IDs must exist in `EXAMPLES.md` after the lesson is finalized.
-- `last_reviewed` matters for version-sensitive material.
+- `curriculum_node` must resolve globally.
+- concept/example/reference IDs must exist in canonical registries.
+- `status` is one of `draft`, `complete`, `needs-review`, `deprecated`.
+- published curriculum nodes and complete lesson files must agree.
+- `last_reviewed` is required.
+- version-sensitive lessons must use current verified references and declare `review_after`; overdue lesson reviews produce audit warnings.
 
 Optional fields may include:
 
@@ -728,196 +695,135 @@ Do not turn metadata into a second essay.
 
 ---
 
-## 18. Naming rules
+## 20. Naming
 
-### Track folders
+Track folders:
 
 `NN-Human-Readable-Track-Name`
 
-### Lesson files
+Tracks may be top-level or nested inside a purely organizational container. A directory is a track only when it contains `TRACK.json`; containers intentionally have no `TRACK.json`. Nested tracks remain independent learning tracks with their own canonical state.
+
+Lesson files:
 
 `<lesson-id>-short-kebab-title.md`
 
-Example format:
+Exercises:
 
-`LNX-0001-first-topic.md`
+`<lesson-id>-exercises.md` or milestone-based sets.
 
-### Exercise files
-
-`<lesson-id>-exercises.md`
-
-or a milestone-based set if several lessons share one assessment.
-
-### Research notes
-
-Use date and stable topic slug when recency matters:
+Research notes when date matters:
 
 `YYYY-MM-DD-topic-slug.md`
 
----
-
-## 19. Track README responsibilities
-
-Each track `README.md` should remain concise.
-
-It should tell a visitor:
-
-- what the track studies;
-- current curriculum status;
-- current depth reached;
-- how to start;
-- where the roadmap and progress live;
-- whether the research frontier has been activated.
-
-Do not duplicate the whole roadmap into the README.
+Track discovery does not depend on hard-coded folder names; it recursively discovers `TRACK.json` manifests while ignoring tooling/cache directories. This allows future top-level tracks and grouped nested tracks without changing the audit code.
 
 ---
 
-## 20. Progress ledger responsibilities
+## 21. Cross-track ownership
 
-`PROGRESS.md` is the human-readable session continuity log.
+Overlap is expected; unmanaged duplication is not.
 
-It should record:
+When a concept has a canonical owner:
 
-- latest completed unit;
-- current milestone;
-- next intended dependency;
-- unresolved questions;
-- audits performed;
-- significant curriculum changes.
+1. reference that concept ID from neighboring tracks;
+2. link to the canonical explanation;
+3. explain only the context-specific consequences locally;
+4. deepen elsewhere only when the new discipline genuinely requires a different treatment.
 
-Do not use it as a diary of every sentence written.
+Cross-track prerequisite edges are machine-validated.
 
----
-
-## 21. Cross-track deduplication
-
-Overlaps are inevitable and useful.
-
-Unmanaged duplication is not.
-
-When a concept belongs to multiple tracks:
-
-1. choose a canonical owner if a full explanation already exists;
-2. link from the neighboring track;
-3. teach only the context-specific consequences there;
-4. deepen locally only when that subject genuinely demands a different treatment;
-5. record the decision in `docs/CROSS_TRACK_INDEX.md`.
-
-Examples of likely overlap categories include:
-
-- operating systems ↔ computer systems;
-- memory hierarchy ↔ computer architecture;
-- concurrency ↔ parallel programming;
-- compilation/runtime behavior ↔ C++;
-- numerical representation ↔ mathematics/computer architecture.
-
-The specific ownership decisions should be made when roadmaps are built, not guessed in advance.
+The generated `docs/CROSS_TRACK_INDEX.md` summarizes declared neighboring tracks and actual graph edges.
 
 ---
 
-## 22. End-of-session writeback protocol
+## 22. End-of-session transaction
 
-Before finishing a session that changes learning content, the AI must update durable state.
+A session that changes educational content should leave the repository internally consistent.
 
-### Required writeback
+Typical sequence:
 
-1. Lesson/research/project file.
-2. `PROGRESS.md`.
-3. `CONCEPTS.md`.
-4. `EXAMPLES.md` where applicable.
-5. `REFERENCES.md` where applicable.
-6. `ROADMAP.md` if sequencing changed.
-7. `docs/CROSS_TRACK_INDEX.md` if ownership/overlap changed.
-8. root `STATE.md`.
-9. root `README.md` if high-level status changed.
+1. write/update lesson or project/research material;
+2. update canonical curriculum/registries;
+3. update learner state only for real learner activity;
+4. update coverage when scope changed;
+5. update root handoff if needed;
+6. run `python scripts/csf.py sync`;
+7. run `python scripts/csf.py audit`;
+8. review the Git diff.
 
-### Final consistency check
+Generated views should not be edited as the primary source.
 
-The AI should verify:
+---
 
-- filenames;
-- links;
-- IDs;
-- roadmap status;
-- no same-depth concept duplication;
-- no accidentally reused example IDs;
-- no stale "next lesson" entry;
-- no citation added without a real source.
+## 23. Automated integrity
 
-Run:
+Local command:
 
 ```bash
-python scripts/repo_audit.py
+python scripts/csf.py audit
 ```
 
-when execution is available.
+The audit checks, among other things:
+
+- required root architecture;
+- dynamic track discovery;
+- unique track IDs/codes/orders;
+- JSON syntax/schema versions;
+- required canonical files;
+- unique curriculum node IDs;
+- prerequisite resolution;
+- graph cycles;
+- lesson front matter;
+- node ↔ lesson consistency;
+- concept/example/reference existence;
+- learner-state references;
+- coverage mappings;
+- declared freshness dates;
+- generated-view drift;
+- internal Markdown links;
+- obvious placeholder leakage into published lessons;
+- exact title/alias collisions in registries.
+
+It does not pretend to solve semantic pedagogy automatically. Human/AI judgment remains necessary for factual depth, near-duplicate meaning, argument quality, and completeness against the outside field.
+
+GitHub Actions runs the same audit on pushes and pull requests.
 
 ---
 
-## 23. What an AI tutor must never do
+## 24. Definition of lesson complete
 
-Do not:
+A lesson may be `complete` when:
 
-- start writing before inspecting repository state;
-- assume a beginner knows domain-specific prerequisites;
-- keep the learner permanently at beginner depth;
-- create filler lessons to satisfy an arbitrary count;
-- declare a track finished because a prewritten list ended;
-- repeat the same concept at the same depth under a new title;
-- repeatedly use the same toy examples;
-- confuse verbosity with completeness;
-- include unexplained commands or formulas;
-- hide assumptions;
-- present analogy as mechanism;
-- fabricate output from commands that were not actually run;
-- fabricate papers or citations;
-- teach current software behavior from memory when verification is needed;
-- overwrite prior content silently when a correction should be documented;
-- use research buzzwords as a substitute for reading research;
-- write generic motivational filler;
-- write as though the reader is chatting with a bot.
-
----
-
-## 24. Definition of "lesson complete"
-
-A lesson may be marked `complete` when:
-
-- its objective is clear;
-- prerequisites are satisfied or linked;
-- new concepts are registered;
+- its curriculum node is valid and published;
+- prerequisites are satisfied or explicitly linked;
+- target concepts are registered;
 - same-depth duplication has been checked;
-- explanations include mechanisms at the intended depth;
-- examples are adequate and varied for the concept;
-- important edge cases/misconceptions are addressed;
-- the learner has an opportunity to actively reason or practice;
-- factual claims are sourced appropriately;
-- cross-links exist where needed;
-- the progress state has been updated.
+- mechanisms reach the intended depth;
+- examples are sufficient and varied;
+- relevant edge cases/misconceptions are addressed;
+- active reasoning/practice exists;
+- factual claims are appropriately sourced;
+- cross-track ownership is respected;
+- metadata and registries are synchronized;
+- audit passes.
 
-"Complete" means complete for its declared scope and depth, not complete for all future levels.
+"Complete" is relative to declared scope/depth, not all future treatment.
 
 ---
 
-## 25. Definition of "track complete"
+## 25. Definition of track complete
 
-There is intentionally **no permanent track-complete state**.
+There is no permanent track-complete state.
 
-Allowed high-level statuses include:
+A track may finish:
 
-- `scaffolded`
-- `active-L0`
-- `active-L1`
-- `active-L2`
-- `active-L3`
-- `active-L4`
-- `active-L5`
-- `frontier-active`
-- `paused`
-- `needs-audit`
+- a node;
+- a milestone;
+- a level;
+- a specialization;
+- a coverage audit.
 
-A track may complete a milestone or a depth level. The field itself remains extensible.
+The field remains extensible, and L6 remains refreshable.
 
 ---
 
@@ -925,41 +831,67 @@ A track may complete a milestone or a depth level. The field itself remains exte
 
 Before finalizing a substantial lesson, ask:
 
-- Does the opening create a real reason to continue?
-- Is there a coherent question or narrative thread?
+- Does the opening give a real reason to continue?
+- Is there a coherent narrative/question thread?
 - Is each section earning its place?
-- Does the learner repeatedly encounter concrete evidence/examples?
-- Are difficult transitions explained?
-- Is the prose varied enough to feel authored rather than templated?
-- Could an experienced reader still find mechanisms, caveats, or depth worth reading?
-- Could a beginner follow the core path without prior domain vocabulary?
-- Does the lesson create at least one new connection to earlier knowledge?
-- Is there a clear reason for the next lesson to exist?
+- Are there concrete examples/evidence?
+- Are hard transitions explained?
+- Does the prose feel authored rather than templated?
+- Can a beginner follow the core path?
+- Can an experienced reader still find mechanisms, caveats, or depth?
+- Does the lesson connect to earlier knowledge?
+- Does the learner have to think rather than only read?
+- Is there a reason the next node should exist?
 
-If the answer to several is "no", revise before publishing.
-
----
-
-## 27. Minimal bootstrap prompt for a fresh chat
-
-When an AI has repository access, the user should only need something like:
-
-> Read `AI_INSTRUCTIONS.md` and follow it exactly. Inspect the repository and the target track before teaching. Continue **[TRACK NAME]** from the correct next point. Do not repeat same-depth concepts or prior examples. Keep the curriculum open through graduate and research-frontier depth, and update repository state when the work is done.
-
-If the AI lacks repository access, repository continuity cannot be guaranteed until the files are provided or connected.
+If several answers are no, revise.
 
 ---
 
-## 28. Changing this system
+## 27. What the AI must never do
 
-This specification is intentionally strict, but it is not sacred.
+Do not:
 
-If experience shows that a rule creates busywork rather than learning value:
+- rely on chat history instead of repository state;
+- recursively reread the entire track in every normal session;
+- assume hidden prerequisites;
+- keep the learner permanently at beginner depth;
+- create filler lessons for an arbitrary count;
+- stop because a prewritten list ended;
+- repeat same-depth concepts under new names;
+- repeatedly recycle the same toy example;
+- confuse verbosity with completeness;
+- confuse publication with mastery;
+- include unexplained commands/formulas;
+- present analogy as mechanism;
+- fabricate command output;
+- fabricate citations;
+- teach current software behavior from unverified memory when freshness matters;
+- call an overdue frontier snapshot "current";
+- silently overwrite corrections without traceable state change;
+- write like a generic chatbot.
 
-1. propose the change;
-2. explain what failure it fixes;
-3. update this document;
-4. update affected templates;
-5. record the decision in root `STATE.md`.
+---
 
-The learning system itself should improve as the curriculum grows.
+## 28. Fresh-chat bootstrap
+
+With repository access:
+
+> Read `AI_INSTRUCTIONS.md`. Use the V3 targeted-retrieval protocol. Inspect the target track's generated context and canonical state, then continue from the justified next curriculum node without same-depth duplication. Keep the path open through research frontier and synchronize/audit repository state after changes.
+
+If repository access is unavailable, continuity-sensitive work cannot be trusted until the relevant canonical files and lesson material are supplied.
+
+---
+
+## 29. Evolving the system
+
+This protocol is strict where integrity matters and deliberately adaptable where pedagogy needs judgment.
+
+If a rule creates more bureaucracy than value:
+
+1. identify the failure;
+2. propose a simpler invariant;
+3. update this specification;
+4. update schemas/templates/audit logic;
+5. migrate canonical state;
+6. record the decision in `docs/DECISIONS.md`;
+7. stress-test before producing large amounts of content.

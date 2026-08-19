@@ -1,0 +1,6 @@
+{
+  "$schema": "../schemas/example-registry.schema.json",
+  "schema_version": 1,
+  "track": "replace-me",
+  "examples": []
+}

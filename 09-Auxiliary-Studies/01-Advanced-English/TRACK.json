@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "advanced-english",
+  "code": "AEN",
+  "title": "Advanced English",
+  "folder": "01-Advanced-English",
+  "order": 9,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Post-C2 English for learners who already command general English at CEFR C2: precision, register, rhetoric, stylistics, advanced writing, literature, literary criticism, linguistics where useful, and high-level academic/professional expression.",
+    "includes": [
+      "Advanced prose and style",
+      "Rhetoric and argumentation",
+      "Literature and literary analysis",
+      "Advanced vocabulary and collocation",
+      "Register, nuance, and idiomatic precision",
+      "Academic and professional writing beyond general C2"
+    ],
+    "delegates": [
+      "General English below C2 is outside this track except for targeted remediation when a genuine prerequisite gap is discovered."
+    ]
+  },
+  "entry_prerequisites": [
+    "General English proficiency at approximately CEFR C2 level"
+  ],
+  "neighbor_tracks": [
+    "philosophy-and-logic"
+  ]
+}

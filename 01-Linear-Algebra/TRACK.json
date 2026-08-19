@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "linear-algebra",
+  "code": "LA",
+  "title": "Linear Algebra",
+  "folder": "01-Linear-Algebra",
+  "order": 1,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Mathematical structure of vectors, linear maps, and related theory; curriculum scope is intentionally deferred to evidence-backed reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "complex-analysis",
+    "computer-architecture"
+  ]
+}

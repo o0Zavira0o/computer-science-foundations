@@ -1,69 +1,101 @@
 # AI Tutor Instructions — Read This First
 
-This file is the mandatory entry point for any AI that teaches, edits, audits, or extends this repository.
+This is the mandatory entry point for any AI that teaches, edits, audits, or extends this repository.
 
-## Rule 0: never rely on chat history as the source of truth
+## 1. Source of truth
 
-The repository is the persistent memory. Chat history is optional context.
+The repository is persistent memory. Chat history is optional context.
 
-Before creating educational content, you MUST:
+Canonical machine-readable state is stored in JSON. Markdown files such as `ROADMAP.md`, `CONCEPTS.md`, `EXAMPLES.md`, `REFERENCES.md`, `PROGRESS.md`, `LEARNER.md`, `CATALOG.md`, and `CONTEXT.md` are human-readable views generated from canonical state and lesson metadata.
 
-1. Read `docs/LEARNING_SYSTEM.md`.
-2. Read `STATE.md`.
-3. Read the target track's `README.md`, `ROADMAP.md`, `PROGRESS.md`, `CONCEPTS.md`, `EXAMPLES.md`, and `REFERENCES.md`.
-4. Recursively inspect the target track's existing lessons, exercises, projects, and research notes.
-5. Read `docs/CROSS_TRACK_INDEX.md` when the proposed material may overlap another track.
-6. Identify what has already been taught, at what depth, with which examples, and what the roadmap says should come next.
-7. Only then propose or create new material.
+Never silently treat a generated Markdown view as newer than its canonical JSON source.
 
-If you do not have filesystem/repository access, do **not** pretend that you inspected it. Tell the user that repository access or the relevant files are required before continuity-sensitive work can be trusted.
+## 2. Normal-session preflight: targeted, not recursive
 
-## Non-negotiable constraints
+Before teaching or creating content:
 
-- Every track begins at absolute zero assumed domain knowledge.
-- No track has a fixed lesson count or artificial stopping point.
-- Every track must remain extendable through graduate study and current research.
-- Do not repeat a concept at the same depth just to fill a lesson.
-- Do not reuse an example when a different example can test the same idea, unless deliberate comparison is pedagogically necessary.
-- Repetition for **deeper treatment**, **retrieval practice**, **contrast**, or **cross-domain transfer** is allowed, but it must be labeled as such.
-- Never call a track "complete" simply because its current roadmap is exhausted. Run a coverage audit first.
-- Never invent citations, commands, APIs, standards, paper results, or historical claims.
-- For version-sensitive software and research-frontier material, verify current primary sources before writing.
-- Prefer primary/official sources for technical facts and original papers for research claims.
-- Educational prose must sound like a careful human author, not a generic chatbot transcript.
+1. Read `SYSTEM.json`.
+2. Read `docs/LEARNING_SYSTEM.md`.
+3. Read `STATE.json` or generated `STATE.md`.
+4. Identify the target track from its `TRACK.json`.
+5. Read the target track's `CONTEXT.md`.
+6. Read the target track's canonical `CURRICULUM.json`, `COVERAGE.json`, `LEARNER_STATE.json`, and relevant registries under `registry/`.
+7. Inspect only the lesson files that are relevant to the proposed next unit: direct prerequisites, recently completed units, linked cross-track material, and any lessons found by concept/example/reference IDs.
 
-## Before writing a lesson
+Do **not** recursively reread hundreds of lessons during an ordinary continuation session. Full recursive inspection is reserved for curriculum audits, migrations, duplicate investigations, or explicit repository-wide reviews.
 
-You must be able to answer, from repository evidence:
+If execution is available, the fastest bootstrap is:
 
-- What is the learner assumed to know?
-- What exact concepts are already covered?
-- What is the intended new depth?
-- Why is this the next useful lesson?
-- Which concept IDs will be introduced or deepened?
-- Which examples have already been used?
-- What prerequisites and cross-track links exist?
-- What authoritative references support the material?
+```bash
+python scripts/csf.py context <track-slug>
+python scripts/csf.py next <track-slug>
+# explicit views when needed:
+python scripts/csf.py next-authoring <track-slug>
+python scripts/csf.py next-study <track-slug>
+```
 
-If any answer is unknown, resolve it before drafting.
+## 3. Before a new lesson can be written
 
-## After writing a lesson
+You must establish from repository evidence:
 
-Update, at minimum:
+- the curriculum node to which the lesson belongs;
+- why that node is ready now;
+- all prerequisite nodes and whether they are satisfied;
+- the learner's actual state separately from curriculum publication state;
+- concept IDs already covered and their current depths;
+- example signatures already used;
+- authoritative references that support the lesson;
+- whether any claim is version-sensitive;
+- whether another track owns the canonical treatment;
+- whether the target track has undergone the required evidence-backed coverage audit and has no unresolved coverage gaps.
 
-- the track `PROGRESS.md`;
-- the track `CONCEPTS.md`;
-- the track `EXAMPLES.md` if examples were added;
-- the track `REFERENCES.md` if sources were added;
-- the track `ROADMAP.md` if sequencing or scope changed;
-- root `STATE.md`;
-- root `README.md` only when its high-level status/progress information changes.
+If any of these are unknown, resolve them before drafting.
 
-Run `python scripts/repo_audit.py` if execution is available.
+## 4. Non-negotiable teaching constraints
 
-## Canonical standard
+- Begin with zero assumed **subject-specific** knowledge and make all outside prerequisites explicit.
+- Never hide a prerequisite. Resolve it with a bridge, a canonical cross-track node, or a clearly declared prerequisite.
+- Do not keep a track permanently at foundation level.
+- Do not impose a fixed lesson count or artificial endpoint.
+- Do not repeat a concept at the same depth under a new title.
+- Do not reuse examples accidentally.
+- Deliberate retrieval, contrast, transfer, or deeper treatment is allowed when labeled by purpose.
+- Do not mark the learner as having demonstrated knowledge merely because a lesson exists.
+- Do not confuse `next-authoring` (curriculum construction) with `next-study` (learner progression).
+- Learner evidence must resolve to real lessons, exercises, projects, or research notes.
+- Keep committed learner state non-sensitive because the repository is public.
+- Do not invent citations, commands, APIs, standards, paper results, benchmark results, or historical claims.
+- Verify version-sensitive technical material against current primary/official sources.
+- Verify research-frontier claims against current primary literature.
+- Write like a careful human technical author, not a chatbot transcript.
+- All repository filenames, structural documentation, and educational prose are written in English. Target-language examples (for example German sentences) remain in the target language, with English explanation where needed.
 
-Everything else — curriculum depth, lesson structure, writing style, exercises, research progression, gap audits, metadata, naming, and handoff rules — is defined in:
+## 5. After changing content or canonical state
+
+Update the canonical JSON first, then synchronize generated views:
+
+```bash
+python scripts/csf.py sync
+python scripts/csf.py audit
+python scripts/csf.py audit --strict  # before merge/push when warnings should block
+```
+
+For a normal lesson session this commonly means updating:
+
+- the lesson file;
+- `CURRICULUM.json`;
+- `registry/concepts.json`;
+- `registry/examples.json` when needed;
+- `registry/references.json` when needed;
+- `COVERAGE.json` if coverage mapping changed;
+- `LEARNER_STATE.json` **only** when the learner actually studied/practiced/demonstrated something;
+- root `STATE.json` if repository-wide handoff state changed.
+
+If execution is unavailable, do not pretend generated views are synchronized. Modify canonical files carefully and tell the user that `python scripts/csf.py sync && python scripts/csf.py audit` must be run.
+
+## 6. Canonical standard
+
+The complete architecture, pedagogy, retrieval protocol, completeness policy, quality standard, research policy, and writeback contract are defined in:
 
 **`docs/LEARNING_SYSTEM.md`**
 

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Track Manifest",
+  "type": "object",
+  "required": ["schema_version", "id", "code", "title", "folder", "order", "status", "entry_model", "scope", "entry_prerequisites", "neighbor_tracks"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "code": {"type": "string", "pattern": "^[A-Z][A-Z0-9]{1,7}$"},
+    "title": {"type": "string", "minLength": 1},
+    "folder": {"type": "string", "minLength": 1},
+    "order": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["scaffolded", "active", "paused", "needs-audit"]},
+    "entry_model": {"const": "zero-subject-specific-knowledge"},
+    "scope": {
+      "type": "object",
+      "required": ["focus", "includes", "delegates"],
+      "properties": {
+        "focus": {"type": "string"},
+        "includes": {"type": "array"},
+        "delegates": {"type": "array"}
+      },
+      "additionalProperties": false
+    },
+    "entry_prerequisites": {"type": "array"},
+    "neighbor_tracks": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "additionalProperties": false
+}

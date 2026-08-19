@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "complex-analysis",
+  "code": "CX",
+  "title": "Complex Analysis",
+  "folder": "06-Complex-Analysis",
+  "order": 6,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Analysis of functions of a complex variable from first subject-specific principles through advanced theory and research connections; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "linear-algebra"
+  ]
+}

@@ -1,28 +1,48 @@
 # Computer Architecture
 
-**Track ID:** `CA`  
-**Status:** scaffolded  
-**Current level:** not started
+**Track ID:** `computer-architecture`  
+**Code:** `CA`  
+**Status:** scaffolded
 
-This track has been intentionally scaffolded without lesson content. Before the first lesson, an AI tutor must perform curriculum reconnaissance and build/audit `ROADMAP.md` according to the repository learning standard.
+This track contains no V3 lesson content yet. Its scope and detailed curriculum must be established by evidence-backed reconnaissance before lesson 0001.
 
-## Start here
+## Human navigation
 
-1. Read the root [`AI_INSTRUCTIONS.md`](../AI_INSTRUCTIONS.md).
-2. Read [`ROADMAP.md`](ROADMAP.md).
-3. Read [`PROGRESS.md`](PROGRESS.md).
-4. Check [`CONCEPTS.md`](CONCEPTS.md) and [`EXAMPLES.md`](EXAMPLES.md).
-5. Review [`REFERENCES.md`](REFERENCES.md).
-6. Inspect the content directories recursively.
-7. Build the roadmap before publishing lesson 0001.
+- [`CONTEXT.md`](CONTEXT.md) — fastest handoff for an AI or returning reader
+- [`ROADMAP.md`](ROADMAP.md) — generated dependency roadmap
+- [`PROGRESS.md`](PROGRESS.md) — generated curriculum publication progress
+- [`LEARNER.md`](LEARNER.md) — generated learner progress
+- [`CATALOG.md`](CATALOG.md) — generated lesson catalog
+- [`CONCEPTS.md`](CONCEPTS.md) — generated concept ledger
+- [`EXAMPLES.md`](EXAMPLES.md) — generated example ledger
+- [`REFERENCES.md`](REFERENCES.md) — generated reference ledger
 
-## Track directories
+## Canonical machine state
 
-- `lessons/` — canonical teaching units
-- `exercises/` — assessments and problem sets
-- `projects/` — multi-concept applications
-- `research/` — research-literacy and frontier notes
+- `TRACK.json`
+- `CURRICULUM.json`
+- `COVERAGE.json`
+- `LEARNER_STATE.json`
+- `registry/concepts.json`
+- `registry/examples.json`
+- `registry/references.json`
 
-## Depth policy
+## Content directories
 
-This track begins with zero assumed subject knowledge and remains extendable through L6 research-frontier work. It has no fixed lesson count.
+- `lessons/`
+- `exercises/`
+- `projects/`
+- `research/`
+
+## Before the first lesson
+
+The track must first undergo curriculum reconnaissance and a coverage audit. The roadmap must not be filled from a single textbook/course or from model memory alone.
+
+Run:
+
+```bash
+python scripts/csf.py context computer-architecture
+python scripts/csf.py next computer-architecture
+```
+
+from the repository root.

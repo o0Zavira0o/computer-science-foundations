@@ -1,0 +1,23 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "linux-systems",
+  "code": "LNX",
+  "title": "Linux Systems",
+  "folder": "02-Linux-Systems",
+  "order": 2,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Linux as an operating environment and system: user space, kernel-facing behavior, administration, observability, and internals; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "computer-systems",
+    "computer-architecture",
+    "cpp",
+    "programming-parallel-processors"
+  ]
+}

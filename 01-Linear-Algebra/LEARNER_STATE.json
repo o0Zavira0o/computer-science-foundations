@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/learner-state.schema.json",
+  "schema_version": 1,
+  "track": "linear-algebra",
+  "profile_id": "owner",
+  "last_updated": null,
+  "lessons": {},
+  "concepts": {},
+  "review_queue": []
+}

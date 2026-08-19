@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Repository State",
+  "type": "object",
+  "required": ["schema_version", "last_updated", "repository_phase", "active_track", "last_completed_lesson", "next_planned_item", "legacy_linux_policy", "persistent_decisions"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 2},
+    "last_updated": {"type": "string", "format": "date"},
+    "repository_phase": {"type": "string", "minLength": 1},
+    "active_track": {"type": ["string", "null"]},
+    "last_completed_lesson": {"type": ["string", "null"]},
+    "next_planned_item": {"type": "string", "minLength": 1},
+    "legacy_linux_policy": {"type": "string"},
+    "persistent_decisions": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

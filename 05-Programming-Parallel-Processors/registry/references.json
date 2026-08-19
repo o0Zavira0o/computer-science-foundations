@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schemas/reference-registry.schema.json",
+  "schema_version": 1,
+  "track": "programming-parallel-processors",
+  "references": []
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schemas/concept-registry.schema.json",
+  "schema_version": 1,
+  "track": "linear-algebra",
+  "concepts": []
+}

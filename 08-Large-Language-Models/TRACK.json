@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "large-language-models",
+  "code": "LLM",
+  "title": "Large Language Models (LLMs)",
+  "folder": "08-Large-Language-Models",
+  "order": 8,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Large language models from first principles through modern architectures, training, alignment, evaluation, systems, applications, interpretability, safety, and research frontiers; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": [
+      "Linear algebra, systems, architecture, and parallel-computing material should be linked to canonical tracks when those tracks own the full treatment."
+    ]
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "linear-algebra",
+    "cpp",
+    "computer-architecture",
+    "programming-parallel-processors",
+    "computer-systems"
+  ]
+}

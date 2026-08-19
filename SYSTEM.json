@@ -1,0 +1,15 @@
+{
+  "$schema": "schemas/system.schema.json",
+  "schema_version": 1,
+  "system_version": "3.1",
+  "repository_kind": "ai-assisted-learning-system",
+  "canonical_policy": "docs/LEARNING_SYSTEM.md",
+  "track_discovery": "recursive TRACK.json manifests; organizational containers allowed",
+  "normal_session_mode": "targeted",
+  "generated_views_policy": "canonical JSON -> generated Markdown",
+  "generated_root_views": [
+    "STATE.md",
+    "docs/TRACKS.md",
+    "docs/CROSS_TRACK_INDEX.md"
+  ]
+}

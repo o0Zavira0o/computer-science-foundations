@@ -1,0 +1,23 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "computer-systems",
+  "code": "CSYS",
+  "title": "Computer Systems",
+  "folder": "07-Computer-Systems",
+  "order": 7,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "General principles connecting programs, operating systems, memory, storage, networking, concurrency, and hardware; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "computer-architecture",
+    "linux-systems",
+    "cpp",
+    "programming-parallel-processors"
+  ]
+}

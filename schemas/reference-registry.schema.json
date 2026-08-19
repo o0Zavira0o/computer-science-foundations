@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSF Reference Registry",
+  "type": "object",
+  "required": ["schema_version", "track", "references"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "track": {"type": "string"},
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "type", "authority", "locator", "reviewed_at", "review_after"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string", "minLength": 1},
+          "type": {"enum": ["textbook", "official-documentation", "standard-specification", "university-course", "primary-paper", "survey-review", "technical-report", "dataset", "other"]},
+          "authority": {"type": "string", "minLength": 1},
+          "locator": {"type": "string", "minLength": 1},
+          "reviewed_at": {"type": "string", "format": "date"},
+          "review_after": {"type": ["string", "null"], "format": "date"},
+          "version": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/coverage.schema.json",
+  "schema_version": 1,
+  "track": "programming-parallel-processors",
+  "baseline": {
+    "status": "not-audited",
+    "last_audited": null,
+    "sources": []
+  },
+  "items": [],
+  "unresolved_questions": []
+}

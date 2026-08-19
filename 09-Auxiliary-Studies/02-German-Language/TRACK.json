@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "german-language",
+  "code": "GER",
+  "title": "German Language",
+  "folder": "02-German-Language",
+  "order": 10,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "German from absolute beginner level through advanced general, academic, literary, and professional competence, with explicit progression in pronunciation, grammar, vocabulary, listening, speaking, reading, and writing.",
+    "includes": [
+      "Pronunciation and phonology",
+      "Grammar and syntax",
+      "Vocabulary and phraseology",
+      "Listening and speaking",
+      "Reading and writing",
+      "Culture and literature where pedagogically useful",
+      "Advanced academic and professional German"
+    ],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": []
+}

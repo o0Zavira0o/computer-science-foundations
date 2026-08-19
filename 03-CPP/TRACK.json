@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "cpp",
+  "code": "CPP",
+  "title": "C++",
+  "folder": "03-CPP",
+  "order": 3,
+  "status": "scaffolded",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "The C++ language, programming model, toolchain, runtime behavior, performance, and advanced practice; exact curriculum scope is deferred to reconnaissance.",
+    "includes": [],
+    "delegates": []
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "computer-systems",
+    "computer-architecture",
+    "programming-parallel-processors"
+  ]
+}
