@@ -6,16 +6,29 @@
   "title": "Linear Algebra",
   "folder": "01-Linear-Algebra",
   "order": 1,
-  "status": "scaffolded",
+  "status": "active",
   "entry_model": "zero-subject-specific-knowledge",
   "scope": {
-    "focus": "Mathematical structure of vectors, linear maps, and related theory; curriculum scope is intentionally deferred to evidence-backed reconnaissance.",
-    "includes": [],
-    "delegates": []
+    "focus": "Linear algebra from first representations of vectors and equations through abstract finite-dimensional theory, numerical linear algebra, matrix analysis, modern large-scale methods, and research literacy.",
+    "includes": [
+      "Vectors, matrices, systems, linear maps, spaces, bases, dimension, rank, determinants, eigenstructure and inner products",
+      "Orthogonality, least squares, spectral theory, SVD, canonical forms, duality, multilinear and tensor structure",
+      "Conditioning, floating-point error, numerical stability and matrix factorizations",
+      "Sparse and iterative methods, Krylov subspaces, eigenvalue algorithms, graph/spectral methods and matrix functions",
+      "Randomized, streaming, mixed-precision, communication-aware and matrix-free linear algebra",
+      "Matrix analysis, tensor decompositions, reproducible numerical experiments and research frontiers"
+    ],
+    "delegates": [
+      "General calculus and real/complex analysis are not silently assumed; when needed they must be bridged or linked to an appropriate mathematics track.",
+      "Programming-language mechanics belong to their language tracks; Linear Algebra may use pseudocode or minimal code only to expose mathematics.",
+      "Machine-learning-specific modeling belongs to the LLM/ML-related tracks; Linear Algebra owns the mathematical structures those tracks reuse."
+    ]
   },
   "entry_prerequisites": [],
   "neighbor_tracks": [
     "complex-analysis",
+    "large-language-models",
+    "programming-parallel-processors",
     "computer-architecture"
   ]
 }

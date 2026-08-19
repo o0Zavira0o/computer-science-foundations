@@ -2,5 +2,27 @@
   "$schema": "../../schemas/example-registry.schema.json",
   "schema_version": 1,
   "track": "linear-algebra",
-  "examples": []
+  "examples": [
+    {
+      "id": "LA-EX-001",
+      "signature": "Represent the same two-component quantity as an arrow, an ordered pair, and a point in a simple data table",
+      "domain": "multiple representations",
+      "first_lesson": "LA-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-002",
+      "signature": "Combine two simple ingredient vectors to show how linear combination changes several quantities at once",
+      "domain": "linear combination intuition",
+      "first_lesson": "LA-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-003",
+      "signature": "Compare a rotation-like rule with a translation rule to test the intuition behind linear transformations",
+      "domain": "linearity boundary",
+      "first_lesson": "LA-0001",
+      "reuse_purpose": null
+    }
+  ]
 }

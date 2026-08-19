@@ -7,23 +7,23 @@
 - **Track:** Linear Algebra
 - **ID:** `linear-algebra`
 - **Code:** `LA`
-- **Track status:** scaffolded
+- **Track status:** active
 - **Entry model:** zero-subject-specific-knowledge
-- **Focus:** Mathematical structure of vectors, linear maps, and related theory; curriculum scope is intentionally deferred to evidence-backed reconnaissance.
+- **Focus:** Linear algebra from first representations of vectors and equations through abstract finite-dimensional theory, numerical linear algebra, matrix analysis, modern large-scale methods, and research literacy.
 
 ## Curriculum state
 
-- **Audit status:** not-audited
-- **Nodes:** 0
-- **Coverage baseline:** not-audited
-- **Coverage items:** 0
-- **Published lessons:** 0
+- **Audit status:** audited
+- **Nodes:** 128
+- **Coverage baseline:** audited
+- **Coverage items:** 20
+- **Published lessons:** 1
 
 ## Registry sizes
 
-- **Concepts:** 0
-- **Examples:** 0
-- **References:** 0
+- **Concepts:** 128
+- **Examples:** 3
+- **References:** 14
 
 ## Learner state
 
@@ -33,15 +33,16 @@
 
 ## Authoring candidates
 
-- BLOCKED — curriculum/coverage reconnaissance is not audited yet.
+- `LA-N-0002` — Scalars, coordinates, tuples, and notation (L0, ready)
 
 ## Learner next actions
 
-- None yet.
+**New lessons with practiced/demonstrated prerequisites**
+- LA-0001 — What linear algebra is actually studying [L0]
 
 ## Recent lessons
 
-- None.
+- `LA-0001` — What linear algebra is actually studying (L0, complete)
 
 ## Normal-session retrieval rule
 

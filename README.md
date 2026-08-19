@@ -17,6 +17,7 @@ Current tracks include Linear Algebra, Linux Systems, C++, Computer Architecture
 
 ## First published learning paths
 
+- **Linear Algebra:** [`LA-0001 — What linear algebra is actually studying`](01-Linear-Algebra/lessons/LA-0001-what-linear-algebra-is-actually-studying.md)
 - **Linux Systems:** [`LNX-0001 — What a Linux system actually is`](02-Linux-Systems/lessons/LNX-0001-what-a-linux-system-actually-is.md)
 - **German Language:** [`GER-0001 — Sounds, spelling, and your first German utterances`](09-Auxiliary-Studies/02-German-Language/lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md)
 - **Large Language Models:** [`LLM-0001 — What a language model is`](08-Large-Language-Models/lessons/LLM-0001-what-a-language-model-is.md)
@@ -33,6 +34,11 @@ The repository separates four things that are often accidentally mixed together:
 4. **Generated navigation** — roadmaps, catalogs, context packs, concept/example/reference ledgers, and progress views.
 
 Canonical structured state is JSON; educational prose stays in clean Markdown.
+
+
+## Public reading model
+
+The repository is designed for non-linear public reading as well as sequential study. A visitor may arrive at any lesson from search or a direct link; lessons therefore expose genuine prerequisites, give concise local orientation, and avoid depending on the repository owner's personal learner state. Visuals and interactive checks are used selectively when they improve understanding.
 
 ## Starting a new AI session
 
@@ -104,3 +110,9 @@ L6 is deliberately open-ended. A track is never permanently declared complete be
 ## Learner-state privacy
 
 The default `LEARNER_STATE.json` files describe the repository owner's learning progression and are committed for cross-session continuity. Because this repository is public, they must contain only non-sensitive learning metadata. People following the curriculum should fork the repository or maintain their own learner profile/state rather than treating the owner's progress as their own.
+
+## License and attribution
+
+Educational material and documentation are licensed under **CC BY-SA 4.0**. Repository software under `scripts/`, `tests/`, `.github/workflows/`, and `schemas/` is licensed under **GPL-3.0-or-later**. See [`LICENSE`](LICENSE), [`ATTRIBUTION.md`](ATTRIBUTION.md), and [`NOTICE.md`](NOTICE.md).
+
+The requested project credit is **Computer Science Foundations — o0Zavira0o**, with a link back to this repository and an indication of changes when material is adapted.

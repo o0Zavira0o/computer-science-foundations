@@ -7,7 +7,7 @@
 - **Repository phase:** active-multi-track-learning
 - **Active track:** none
 - **Last completed lesson:** none
-- **Next planned item:** Begin learner study of the first published lessons in Linux Systems, German Language, and Large Language Models; author subsequent lessons only through each audited curriculum graph.
+- **Next planned item:** Continue authoring through audited curriculum graphs; current published starts include Linear Algebra, Linux Systems, German Language, and Large Language Models. Public lesson quality is independent of the repository owner's personal learner state.
 - **Legacy Linux policy:** Do not silently reuse removed legacy lessons; salvage only after explicit review.
 
 ## Persistent decisions
@@ -20,3 +20,5 @@
 - Authoring readiness and learner study readiness are separate workflows.
 - Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json.
 - Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery.
+- Public lesson authoring prioritizes educational quality and prerequisite integrity; it does not wait for repository-owner learner progress.
+- Educational content is CC BY-SA 4.0; repository software is GPL-3.0-or-later, with explicit attribution and provenance guidance.

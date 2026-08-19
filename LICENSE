@@ -1,0 +1,40 @@
+Computer Science Foundations — Licensing Notice
+===============================================
+
+This repository uses two licenses because educational material and software have different reuse needs.
+
+1. Educational and documentation material — CC BY-SA 4.0
+---------------------------------------------------------
+Unless a file says otherwise, the following are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0):
+
+- lessons, exercises, projects, and research notes;
+- curriculum, coverage, concept, example, reference, and track metadata;
+- README files and documentation under docs/;
+- Markdown templates intended to produce educational content;
+- diagrams and other original educational media committed to this repository.
+
+The full license text is in `LICENSES/CC-BY-SA-4.0.txt`.
+
+When sharing or adapting this material, you must provide appropriate attribution, indicate changes, and distribute adaptations under CC BY-SA 4.0 or a compatible license, subject to the license's terms.
+
+2. Repository software — GPL-3.0-or-later
+-----------------------------------------
+Unless a file says otherwise, software used to operate, validate, or automate the repository is licensed under the GNU General Public License version 3 or (at your option) any later version. This includes:
+
+- `scripts/`;
+- `tests/`;
+- `.github/workflows/`;
+- `schemas/`.
+
+The full GPLv3 text is in `LICENSES/GPL-3.0-or-later.txt`.
+
+Attribution and provenance
+--------------------------
+The requested attribution identity for this project is:
+
+    Computer Science Foundations — o0Zavira0o
+    https://github.com/o0Zavira0o/computer-science-foundations
+
+See `ATTRIBUTION.md` and `NOTICE.md` for practical attribution guidance, provenance, AI-assistance disclosure, and third-party-material boundaries.
+
+No license in this repository transfers ownership of the project name, falsely implies endorsement, or permits a reuser to remove attribution obligations that apply under the relevant license.

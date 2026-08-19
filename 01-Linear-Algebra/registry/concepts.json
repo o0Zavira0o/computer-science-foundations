@@ -2,5 +2,902 @@
   "$schema": "../../schemas/concept-registry.schema.json",
   "schema_version": 1,
   "track": "linear-algebra",
-  "concepts": []
+  "concepts": [
+    {
+      "id": "LA-C-0001",
+      "name": "What linear algebra is actually studying",
+      "aliases": [],
+      "current_depth": "D1",
+      "notes": "first curriculum target is LA-N-0001."
+    },
+    {
+      "id": "LA-C-0002",
+      "name": "Scalars, coordinates, tuples, and notation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0002."
+    },
+    {
+      "id": "LA-C-0003",
+      "name": "Vectors as displacement, data, and state",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0003."
+    },
+    {
+      "id": "LA-C-0004",
+      "name": "Vector addition and scalar multiplication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0004."
+    },
+    {
+      "id": "LA-C-0005",
+      "name": "Linear combinations and weighted mixtures",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0005."
+    },
+    {
+      "id": "LA-C-0006",
+      "name": "Span: what combinations can reach",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0006."
+    },
+    {
+      "id": "LA-C-0007",
+      "name": "Linear equations as constraints",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0007."
+    },
+    {
+      "id": "LA-C-0008",
+      "name": "Systems of linear equations and solution sets",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0008."
+    },
+    {
+      "id": "LA-C-0009",
+      "name": "Matrices as organized coefficients and operators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0009."
+    },
+    {
+      "id": "LA-C-0010",
+      "name": "Matrix-vector multiplication as a column combination",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0010."
+    },
+    {
+      "id": "LA-C-0011",
+      "name": "Elimination: changing equations without changing solutions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0011."
+    },
+    {
+      "id": "LA-C-0012",
+      "name": "Pivots, free variables, and the geometry of solutions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0012."
+    },
+    {
+      "id": "LA-C-0013",
+      "name": "Linear transformations in the plane",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0013."
+    },
+    {
+      "id": "LA-C-0014",
+      "name": "Composition and matrix multiplication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0014."
+    },
+    {
+      "id": "LA-C-0015",
+      "name": "Invertibility as reversible linear action",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0015."
+    },
+    {
+      "id": "LA-C-0016",
+      "name": "L0 synthesis: solve, transform, and explain one problem three ways",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0016."
+    },
+    {
+      "id": "LA-C-0017",
+      "name": "Vector spaces: the abstraction behind vectors",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0017."
+    },
+    {
+      "id": "LA-C-0018",
+      "name": "Subspaces and closure",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0018."
+    },
+    {
+      "id": "LA-C-0019",
+      "name": "Linear independence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0019."
+    },
+    {
+      "id": "LA-C-0020",
+      "name": "Bases: minimal coordinates for a space",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0020."
+    },
+    {
+      "id": "LA-C-0021",
+      "name": "Coordinates relative to a basis",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0021."
+    },
+    {
+      "id": "LA-C-0022",
+      "name": "Dimension",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0022."
+    },
+    {
+      "id": "LA-C-0023",
+      "name": "Column space",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0023."
+    },
+    {
+      "id": "LA-C-0024",
+      "name": "Null space",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0024."
+    },
+    {
+      "id": "LA-C-0025",
+      "name": "Row space",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0025."
+    },
+    {
+      "id": "LA-C-0026",
+      "name": "Rank and rank-nullity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0026."
+    },
+    {
+      "id": "LA-C-0027",
+      "name": "Linear maps",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0027."
+    },
+    {
+      "id": "LA-C-0028",
+      "name": "Kernel and image",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0028."
+    },
+    {
+      "id": "LA-C-0029",
+      "name": "Matrix representation of a linear map",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0029."
+    },
+    {
+      "id": "LA-C-0030",
+      "name": "Change of basis and similarity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0030."
+    },
+    {
+      "id": "LA-C-0031",
+      "name": "Isomorphisms and structural sameness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0031."
+    },
+    {
+      "id": "LA-C-0032",
+      "name": "Determinants as signed volume scaling",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0032."
+    },
+    {
+      "id": "LA-C-0033",
+      "name": "Determinant properties and computation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0033."
+    },
+    {
+      "id": "LA-C-0034",
+      "name": "Eigenvalues and eigenvectors",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0034."
+    },
+    {
+      "id": "LA-C-0035",
+      "name": "Characteristic polynomial",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0035."
+    },
+    {
+      "id": "LA-C-0036",
+      "name": "Diagonalization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0036."
+    },
+    {
+      "id": "LA-C-0037",
+      "name": "Inner products, length, and angle",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0037."
+    },
+    {
+      "id": "LA-C-0038",
+      "name": "Orthogonality and orthogonal complements",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0038."
+    },
+    {
+      "id": "LA-C-0039",
+      "name": "Orthogonal projection",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0039."
+    },
+    {
+      "id": "LA-C-0040",
+      "name": "Gram-Schmidt and QR factorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0040."
+    },
+    {
+      "id": "LA-C-0041",
+      "name": "Least squares",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0041."
+    },
+    {
+      "id": "LA-C-0042",
+      "name": "L1 synthesis: the four-subspace and least-squares picture",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0042."
+    },
+    {
+      "id": "LA-C-0043",
+      "name": "Complex vector spaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0043."
+    },
+    {
+      "id": "LA-C-0044",
+      "name": "Linear functionals and dual spaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0044."
+    },
+    {
+      "id": "LA-C-0045",
+      "name": "Transpose, adjoint, and annihilators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0045."
+    },
+    {
+      "id": "LA-C-0046",
+      "name": "Invariant subspaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0046."
+    },
+    {
+      "id": "LA-C-0047",
+      "name": "Triangularization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0047."
+    },
+    {
+      "id": "LA-C-0048",
+      "name": "Minimal polynomials",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0048."
+    },
+    {
+      "id": "LA-C-0049",
+      "name": "Generalized eigenvectors and Jordan form",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0049."
+    },
+    {
+      "id": "LA-C-0050",
+      "name": "Normal, self-adjoint, unitary, and orthogonal operators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0050."
+    },
+    {
+      "id": "LA-C-0051",
+      "name": "Spectral theorem for real symmetric operators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0051."
+    },
+    {
+      "id": "LA-C-0052",
+      "name": "Spectral theorem for complex normal operators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0052."
+    },
+    {
+      "id": "LA-C-0053",
+      "name": "Positive definite and semidefinite matrices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0053."
+    },
+    {
+      "id": "LA-C-0054",
+      "name": "Quadratic forms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0054."
+    },
+    {
+      "id": "LA-C-0055",
+      "name": "Singular values",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0055."
+    },
+    {
+      "id": "LA-C-0056",
+      "name": "Singular value decomposition",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0056."
+    },
+    {
+      "id": "LA-C-0057",
+      "name": "Moore-Penrose pseudoinverse",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0057."
+    },
+    {
+      "id": "LA-C-0058",
+      "name": "Low-rank approximation and Eckart-Young",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0058."
+    },
+    {
+      "id": "LA-C-0059",
+      "name": "Rank factorizations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0059."
+    },
+    {
+      "id": "LA-C-0060",
+      "name": "Direct sums and block matrices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0060."
+    },
+    {
+      "id": "LA-C-0061",
+      "name": "Affine spaces and hyperplanes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0061."
+    },
+    {
+      "id": "LA-C-0062",
+      "name": "Bilinear and sesquilinear forms",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0062."
+    },
+    {
+      "id": "LA-C-0063",
+      "name": "Generalized inner products and metric matrices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0063."
+    },
+    {
+      "id": "LA-C-0064",
+      "name": "Tensor products: building multilinear state spaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0064."
+    },
+    {
+      "id": "LA-C-0065",
+      "name": "Exterior algebra and determinant structure",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0065."
+    },
+    {
+      "id": "LA-C-0066",
+      "name": "Quotient spaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0066."
+    },
+    {
+      "id": "LA-C-0067",
+      "name": "Canonical forms and classification viewpoint",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0067."
+    },
+    {
+      "id": "LA-C-0068",
+      "name": "L2 proof studio: prove a structural theorem two ways",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0068."
+    },
+    {
+      "id": "LA-C-0069",
+      "name": "Floating-point arithmetic as a model, not real numbers",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0069."
+    },
+    {
+      "id": "LA-C-0070",
+      "name": "Vector and matrix norms for error measurement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0070."
+    },
+    {
+      "id": "LA-C-0071",
+      "name": "Condition numbers: sensitivity of problems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0071."
+    },
+    {
+      "id": "LA-C-0072",
+      "name": "Forward error, backward error, and stability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0072."
+    },
+    {
+      "id": "LA-C-0073",
+      "name": "Gaussian elimination with pivoting",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0073."
+    },
+    {
+      "id": "LA-C-0074",
+      "name": "LU factorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0074."
+    },
+    {
+      "id": "LA-C-0075",
+      "name": "Cholesky factorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0075."
+    },
+    {
+      "id": "LA-C-0076",
+      "name": "Householder reflections and Givens rotations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0076."
+    },
+    {
+      "id": "LA-C-0077",
+      "name": "QR algorithms for least squares",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0077."
+    },
+    {
+      "id": "LA-C-0078",
+      "name": "Computing the SVD",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0078."
+    },
+    {
+      "id": "LA-C-0079",
+      "name": "Symmetric eigenvalue computation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0079."
+    },
+    {
+      "id": "LA-C-0080",
+      "name": "Schur form and the nonsymmetric eigenproblem",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0080."
+    },
+    {
+      "id": "LA-C-0081",
+      "name": "Power and inverse iteration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0081."
+    },
+    {
+      "id": "LA-C-0082",
+      "name": "QR iteration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0082."
+    },
+    {
+      "id": "LA-C-0083",
+      "name": "Krylov subspaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0083."
+    },
+    {
+      "id": "LA-C-0084",
+      "name": "Arnoldi and Lanczos methods",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0084."
+    },
+    {
+      "id": "LA-C-0085",
+      "name": "Iterative methods for linear systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0085."
+    },
+    {
+      "id": "LA-C-0086",
+      "name": "Conjugate gradients",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0086."
+    },
+    {
+      "id": "LA-C-0087",
+      "name": "GMRES",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0087."
+    },
+    {
+      "id": "LA-C-0088",
+      "name": "Preconditioning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0088."
+    },
+    {
+      "id": "LA-C-0089",
+      "name": "Sparse matrices and storage",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0089."
+    },
+    {
+      "id": "LA-C-0090",
+      "name": "Structured matrices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0090."
+    },
+    {
+      "id": "LA-C-0091",
+      "name": "Matrix functions and the exponential",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0091."
+    },
+    {
+      "id": "LA-C-0092",
+      "name": "Generalized eigenvalue problems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0092."
+    },
+    {
+      "id": "LA-C-0093",
+      "name": "PCA through covariance eigenvectors and SVD",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0093."
+    },
+    {
+      "id": "LA-C-0094",
+      "name": "Graph Laplacians and spectral graph methods",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0094."
+    },
+    {
+      "id": "LA-C-0095",
+      "name": "Markov chains and PageRank-style eigenvectors",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0095."
+    },
+    {
+      "id": "LA-C-0096",
+      "name": "L3 numerical laboratory: accuracy, residual, and runtime",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0096."
+    },
+    {
+      "id": "LA-C-0097",
+      "name": "Matrix perturbation theory",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0097."
+    },
+    {
+      "id": "LA-C-0098",
+      "name": "Subspace perturbation and eigenvector sensitivity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0098."
+    },
+    {
+      "id": "LA-C-0099",
+      "name": "Pseudospectra and nonnormal matrices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0099."
+    },
+    {
+      "id": "LA-C-0100",
+      "name": "Matrix inequalities and singular-value majorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0100."
+    },
+    {
+      "id": "LA-C-0101",
+      "name": "The positive semidefinite cone",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0101."
+    },
+    {
+      "id": "LA-C-0102",
+      "name": "Kronecker products and vectorization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0102."
+    },
+    {
+      "id": "LA-C-0103",
+      "name": "Tensor decompositions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0103."
+    },
+    {
+      "id": "LA-C-0104",
+      "name": "Random projections and sketching",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0104."
+    },
+    {
+      "id": "LA-C-0105",
+      "name": "Randomized low-rank approximation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0105."
+    },
+    {
+      "id": "LA-C-0106",
+      "name": "CUR and interpolative decompositions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0106."
+    },
+    {
+      "id": "LA-C-0107",
+      "name": "Streaming and out-of-core linear algebra",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0107."
+    },
+    {
+      "id": "LA-C-0108",
+      "name": "Mixed precision and iterative refinement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0108."
+    },
+    {
+      "id": "LA-C-0109",
+      "name": "Communication-avoiding and parallel linear algebra",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0109."
+    },
+    {
+      "id": "LA-C-0110",
+      "name": "Matrix-free methods",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0110."
+    },
+    {
+      "id": "LA-C-0111",
+      "name": "Differentiating through linear algebra operations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0111."
+    },
+    {
+      "id": "LA-C-0112",
+      "name": "Linear algebra inside large-scale optimization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0112."
+    },
+    {
+      "id": "LA-C-0113",
+      "name": "High-dimensional geometry and random embeddings",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0113."
+    },
+    {
+      "id": "LA-C-0114",
+      "name": "L4 specialist project: choose a matrix problem and defend the algorithm",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0114."
+    },
+    {
+      "id": "LA-C-0115",
+      "name": "Read a proof-heavy linear algebra paper",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0115."
+    },
+    {
+      "id": "LA-C-0116",
+      "name": "Read a numerical linear algebra paper",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0116."
+    },
+    {
+      "id": "LA-C-0117",
+      "name": "Reproduce a matrix-factorization benchmark",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0117."
+    },
+    {
+      "id": "LA-C-0118",
+      "name": "Design a conditioning and stability experiment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0118."
+    },
+    {
+      "id": "LA-C-0119",
+      "name": "Inspect BLAS/LAPACK-level implementation boundaries",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0119."
+    },
+    {
+      "id": "LA-C-0120",
+      "name": "Reproducible numerical methodology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0120."
+    },
+    {
+      "id": "LA-C-0121",
+      "name": "Research ethics for mathematical software and benchmarks",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0121."
+    },
+    {
+      "id": "LA-C-0122",
+      "name": "Build a literature map and isolate an open linear algebra question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0122."
+    },
+    {
+      "id": "LA-C-0123",
+      "name": "Randomized numerical linear algebra frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0123."
+    },
+    {
+      "id": "LA-C-0124",
+      "name": "Tensor and multilinear algebra frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0124."
+    },
+    {
+      "id": "LA-C-0125",
+      "name": "Large-scale spectral and graph linear algebra frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0125."
+    },
+    {
+      "id": "LA-C-0126",
+      "name": "Mixed-precision and hardware-aware linear algebra frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0126."
+    },
+    {
+      "id": "LA-C-0127",
+      "name": "Trustworthy and reproducible numerical linear algebra frontier",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0127."
+    },
+    {
+      "id": "LA-C-0128",
+      "name": "Original linear algebra research project",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "first curriculum target is LA-N-0128."
+    }
+  ]
 }

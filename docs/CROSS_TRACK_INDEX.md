@@ -5,6 +5,8 @@
 | Track | Related track | Relationship |
 |---|---|---|
 | Linear Algebra | Complex Analysis | declared neighbor |
+| Linear Algebra | Large Language Models (LLMs) | declared neighbor |
+| Linear Algebra | Programming Parallel Processors | declared neighbor |
 | Linear Algebra | Computer Architecture | declared neighbor |
 | Linux Systems | Computer Systems | declared neighbor |
 | Linux Systems | Computer Architecture | declared neighbor |

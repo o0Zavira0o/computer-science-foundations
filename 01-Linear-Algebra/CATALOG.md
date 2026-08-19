@@ -4,4 +4,4 @@
 
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No lessons published yet |
+| [`LA-0001`](lessons/LA-0001-what-linear-algebra-is-actually-studying.md) | What linear algebra is actually studying | L0 | complete | `LA-N-0001` | 2026-08-19 |

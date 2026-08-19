@@ -17,6 +17,10 @@ review_after: null
 
 # Lesson Title
 
+## If you landed here directly
+
+Name genuine prerequisites and give a short orientation for public readers who arrive out of sequence. Link instead of re-teaching prerequisite material at the same depth.
+
 ## The problem worth understanding
 
 Open with a concrete problem, observation, contradiction, or use case.

@@ -4,4 +4,131 @@
 
 | Concept ID | Name | Current depth | Aliases |
 |---|---|---|---|
-| — | — | — | No concepts registered yet |
+| `LA-C-0001` | What linear algebra is actually studying | D1 | — |
+| `LA-C-0002` | Scalars, coordinates, tuples, and notation | — | — |
+| `LA-C-0003` | Vectors as displacement, data, and state | — | — |
+| `LA-C-0004` | Vector addition and scalar multiplication | — | — |
+| `LA-C-0005` | Linear combinations and weighted mixtures | — | — |
+| `LA-C-0006` | Span: what combinations can reach | — | — |
+| `LA-C-0007` | Linear equations as constraints | — | — |
+| `LA-C-0008` | Systems of linear equations and solution sets | — | — |
+| `LA-C-0009` | Matrices as organized coefficients and operators | — | — |
+| `LA-C-0010` | Matrix-vector multiplication as a column combination | — | — |
+| `LA-C-0011` | Elimination: changing equations without changing solutions | — | — |
+| `LA-C-0012` | Pivots, free variables, and the geometry of solutions | — | — |
+| `LA-C-0013` | Linear transformations in the plane | — | — |
+| `LA-C-0014` | Composition and matrix multiplication | — | — |
+| `LA-C-0015` | Invertibility as reversible linear action | — | — |
+| `LA-C-0016` | L0 synthesis: solve, transform, and explain one problem three ways | — | — |
+| `LA-C-0017` | Vector spaces: the abstraction behind vectors | — | — |
+| `LA-C-0018` | Subspaces and closure | — | — |
+| `LA-C-0019` | Linear independence | — | — |
+| `LA-C-0020` | Bases: minimal coordinates for a space | — | — |
+| `LA-C-0021` | Coordinates relative to a basis | — | — |
+| `LA-C-0022` | Dimension | — | — |
+| `LA-C-0023` | Column space | — | — |
+| `LA-C-0024` | Null space | — | — |
+| `LA-C-0025` | Row space | — | — |
+| `LA-C-0026` | Rank and rank-nullity | — | — |
+| `LA-C-0027` | Linear maps | — | — |
+| `LA-C-0028` | Kernel and image | — | — |
+| `LA-C-0029` | Matrix representation of a linear map | — | — |
+| `LA-C-0030` | Change of basis and similarity | — | — |
+| `LA-C-0031` | Isomorphisms and structural sameness | — | — |
+| `LA-C-0032` | Determinants as signed volume scaling | — | — |
+| `LA-C-0033` | Determinant properties and computation | — | — |
+| `LA-C-0034` | Eigenvalues and eigenvectors | — | — |
+| `LA-C-0035` | Characteristic polynomial | — | — |
+| `LA-C-0036` | Diagonalization | — | — |
+| `LA-C-0037` | Inner products, length, and angle | — | — |
+| `LA-C-0038` | Orthogonality and orthogonal complements | — | — |
+| `LA-C-0039` | Orthogonal projection | — | — |
+| `LA-C-0040` | Gram-Schmidt and QR factorization | — | — |
+| `LA-C-0041` | Least squares | — | — |
+| `LA-C-0042` | L1 synthesis: the four-subspace and least-squares picture | — | — |
+| `LA-C-0043` | Complex vector spaces | — | — |
+| `LA-C-0044` | Linear functionals and dual spaces | — | — |
+| `LA-C-0045` | Transpose, adjoint, and annihilators | — | — |
+| `LA-C-0046` | Invariant subspaces | — | — |
+| `LA-C-0047` | Triangularization | — | — |
+| `LA-C-0048` | Minimal polynomials | — | — |
+| `LA-C-0049` | Generalized eigenvectors and Jordan form | — | — |
+| `LA-C-0050` | Normal, self-adjoint, unitary, and orthogonal operators | — | — |
+| `LA-C-0051` | Spectral theorem for real symmetric operators | — | — |
+| `LA-C-0052` | Spectral theorem for complex normal operators | — | — |
+| `LA-C-0053` | Positive definite and semidefinite matrices | — | — |
+| `LA-C-0054` | Quadratic forms | — | — |
+| `LA-C-0055` | Singular values | — | — |
+| `LA-C-0056` | Singular value decomposition | — | — |
+| `LA-C-0057` | Moore-Penrose pseudoinverse | — | — |
+| `LA-C-0058` | Low-rank approximation and Eckart-Young | — | — |
+| `LA-C-0059` | Rank factorizations | — | — |
+| `LA-C-0060` | Direct sums and block matrices | — | — |
+| `LA-C-0061` | Affine spaces and hyperplanes | — | — |
+| `LA-C-0062` | Bilinear and sesquilinear forms | — | — |
+| `LA-C-0063` | Generalized inner products and metric matrices | — | — |
+| `LA-C-0064` | Tensor products: building multilinear state spaces | — | — |
+| `LA-C-0065` | Exterior algebra and determinant structure | — | — |
+| `LA-C-0066` | Quotient spaces | — | — |
+| `LA-C-0067` | Canonical forms and classification viewpoint | — | — |
+| `LA-C-0068` | L2 proof studio: prove a structural theorem two ways | — | — |
+| `LA-C-0069` | Floating-point arithmetic as a model, not real numbers | — | — |
+| `LA-C-0070` | Vector and matrix norms for error measurement | — | — |
+| `LA-C-0071` | Condition numbers: sensitivity of problems | — | — |
+| `LA-C-0072` | Forward error, backward error, and stability | — | — |
+| `LA-C-0073` | Gaussian elimination with pivoting | — | — |
+| `LA-C-0074` | LU factorization | — | — |
+| `LA-C-0075` | Cholesky factorization | — | — |
+| `LA-C-0076` | Householder reflections and Givens rotations | — | — |
+| `LA-C-0077` | QR algorithms for least squares | — | — |
+| `LA-C-0078` | Computing the SVD | — | — |
+| `LA-C-0079` | Symmetric eigenvalue computation | — | — |
+| `LA-C-0080` | Schur form and the nonsymmetric eigenproblem | — | — |
+| `LA-C-0081` | Power and inverse iteration | — | — |
+| `LA-C-0082` | QR iteration | — | — |
+| `LA-C-0083` | Krylov subspaces | — | — |
+| `LA-C-0084` | Arnoldi and Lanczos methods | — | — |
+| `LA-C-0085` | Iterative methods for linear systems | — | — |
+| `LA-C-0086` | Conjugate gradients | — | — |
+| `LA-C-0087` | GMRES | — | — |
+| `LA-C-0088` | Preconditioning | — | — |
+| `LA-C-0089` | Sparse matrices and storage | — | — |
+| `LA-C-0090` | Structured matrices | — | — |
+| `LA-C-0091` | Matrix functions and the exponential | — | — |
+| `LA-C-0092` | Generalized eigenvalue problems | — | — |
+| `LA-C-0093` | PCA through covariance eigenvectors and SVD | — | — |
+| `LA-C-0094` | Graph Laplacians and spectral graph methods | — | — |
+| `LA-C-0095` | Markov chains and PageRank-style eigenvectors | — | — |
+| `LA-C-0096` | L3 numerical laboratory: accuracy, residual, and runtime | — | — |
+| `LA-C-0097` | Matrix perturbation theory | — | — |
+| `LA-C-0098` | Subspace perturbation and eigenvector sensitivity | — | — |
+| `LA-C-0099` | Pseudospectra and nonnormal matrices | — | — |
+| `LA-C-0100` | Matrix inequalities and singular-value majorization | — | — |
+| `LA-C-0101` | The positive semidefinite cone | — | — |
+| `LA-C-0102` | Kronecker products and vectorization | — | — |
+| `LA-C-0103` | Tensor decompositions | — | — |
+| `LA-C-0104` | Random projections and sketching | — | — |
+| `LA-C-0105` | Randomized low-rank approximation | — | — |
+| `LA-C-0106` | CUR and interpolative decompositions | — | — |
+| `LA-C-0107` | Streaming and out-of-core linear algebra | — | — |
+| `LA-C-0108` | Mixed precision and iterative refinement | — | — |
+| `LA-C-0109` | Communication-avoiding and parallel linear algebra | — | — |
+| `LA-C-0110` | Matrix-free methods | — | — |
+| `LA-C-0111` | Differentiating through linear algebra operations | — | — |
+| `LA-C-0112` | Linear algebra inside large-scale optimization | — | — |
+| `LA-C-0113` | High-dimensional geometry and random embeddings | — | — |
+| `LA-C-0114` | L4 specialist project: choose a matrix problem and defend the algorithm | — | — |
+| `LA-C-0115` | Read a proof-heavy linear algebra paper | — | — |
+| `LA-C-0116` | Read a numerical linear algebra paper | — | — |
+| `LA-C-0117` | Reproduce a matrix-factorization benchmark | — | — |
+| `LA-C-0118` | Design a conditioning and stability experiment | — | — |
+| `LA-C-0119` | Inspect BLAS/LAPACK-level implementation boundaries | — | — |
+| `LA-C-0120` | Reproducible numerical methodology | — | — |
+| `LA-C-0121` | Research ethics for mathematical software and benchmarks | — | — |
+| `LA-C-0122` | Build a literature map and isolate an open linear algebra question | — | — |
+| `LA-C-0123` | Randomized numerical linear algebra frontier | — | — |
+| `LA-C-0124` | Tensor and multilinear algebra frontier | — | — |
+| `LA-C-0125` | Large-scale spectral and graph linear algebra frontier | — | — |
+| `LA-C-0126` | Mixed-precision and hardware-aware linear algebra frontier | — | — |
+| `LA-C-0127` | Trustworthy and reproducible numerical linear algebra frontier | — | — |
+| `LA-C-0128` | Original linear algebra research project | — | — |

@@ -41,7 +41,7 @@ You must establish from repository evidence:
 - the curriculum node to which the lesson belongs;
 - why that node is ready now;
 - all prerequisite nodes and whether they are satisfied;
-- the learner's actual state separately from curriculum publication state;
+- learner state when it is relevant, while keeping it separate from curriculum publication state;
 - concept IDs already covered and their current depths;
 - example signatures already used;
 - authoritative references that support the lesson;
@@ -60,7 +60,9 @@ If any of these are unknown, resolve them before drafting.
 - Do not repeat a concept at the same depth under a new title.
 - Do not reuse examples accidentally.
 - Deliberate retrieval, contrast, transfer, or deeper treatment is allowed when labeled by purpose.
-- Do not mark the learner as having demonstrated knowledge merely because a lesson exists.
+- Treat the repository as a public learning resource first: authoring quality and prerequisite integrity must not depend on whether the repository owner personally read earlier lessons.
+- A reader may enter through any lesson. Give concise orientation and explicit prerequisite links when direct entry would otherwise be confusing.
+- Do not mark any learner as having demonstrated knowledge merely because a lesson exists.
 - Do not confuse `next-authoring` (curriculum construction) with `next-study` (learner progression).
 - Learner evidence must resolve to real lessons, exercises, projects, or research notes.
 - Keep committed learner state non-sensitive because the repository is public.
@@ -68,6 +70,7 @@ If any of these are unknown, resolve them before drafting.
 - Verify version-sensitive technical material against current primary/official sources.
 - Verify research-frontier claims against current primary literature.
 - Write like a careful human technical author, not a chatbot transcript.
+- Prefer interactive prediction, reveal/check blocks, small experiments, diagrams, and visual models when they materially improve understanding; do not add visual clutter merely to decorate a page.
 - All repository filenames, structural documentation, and educational prose are written in English. Target-language examples (for example German sentences) remain in the target language, with English explanation where needed.
 
 ## 5. After changing content or canonical state

@@ -2,36 +2,171 @@
 
 # Linear Algebra Roadmap
 
-- **Audit status:** not-audited
-- **Last coverage audit:** not yet performed
-- **Nodes:** 0
+- **Audit status:** audited
+- **Last coverage audit:** 2026-08-19
+- **Nodes:** 128
 
 This is a human-readable view of the dependency graph. `CURRICULUM.json` is canonical.
 
 ## L0
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0001` | What linear algebra is actually studying | published | — | LA-0001 |
+| `LA-N-0002` | Scalars, coordinates, tuples, and notation | ready | LA-N-0001 | — |
+| `LA-N-0003` | Vectors as displacement, data, and state | planned | LA-N-0002 | — |
+| `LA-N-0004` | Vector addition and scalar multiplication | planned | LA-N-0003 | — |
+| `LA-N-0005` | Linear combinations and weighted mixtures | planned | LA-N-0004 | — |
+| `LA-N-0006` | Span: what combinations can reach | planned | LA-N-0005 | — |
+| `LA-N-0007` | Linear equations as constraints | planned | LA-N-0002 | — |
+| `LA-N-0008` | Systems of linear equations and solution sets | planned | LA-N-0007 | — |
+| `LA-N-0009` | Matrices as organized coefficients and operators | planned | LA-N-0008 | — |
+| `LA-N-0010` | Matrix-vector multiplication as a column combination | planned | LA-N-0005, LA-N-0009 | — |
+| `LA-N-0011` | Elimination: changing equations without changing solutions | planned | LA-N-0008, LA-N-0009 | — |
+| `LA-N-0012` | Pivots, free variables, and the geometry of solutions | planned | LA-N-0011 | — |
+| `LA-N-0013` | Linear transformations in the plane | planned | LA-N-0004, LA-N-0009 | — |
+| `LA-N-0014` | Composition and matrix multiplication | planned | LA-N-0010, LA-N-0013 | — |
+| `LA-N-0015` | Invertibility as reversible linear action | planned | LA-N-0011, LA-N-0014 | — |
+| `LA-N-0016` | L0 synthesis: solve, transform, and explain one problem three ways | planned | LA-N-0012, LA-N-0015 | — |
 
 ## L1
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0017` | Vector spaces: the abstraction behind vectors | planned | LA-N-0016 | — |
+| `LA-N-0018` | Subspaces and closure | planned | LA-N-0017 | — |
+| `LA-N-0019` | Linear independence | planned | LA-N-0006, LA-N-0018 | — |
+| `LA-N-0020` | Bases: minimal coordinates for a space | planned | LA-N-0019 | — |
+| `LA-N-0021` | Coordinates relative to a basis | planned | LA-N-0020 | — |
+| `LA-N-0022` | Dimension | planned | LA-N-0020 | — |
+| `LA-N-0023` | Column space | planned | LA-N-0010, LA-N-0018 | — |
+| `LA-N-0024` | Null space | planned | LA-N-0012, LA-N-0018 | — |
+| `LA-N-0025` | Row space | planned | LA-N-0011, LA-N-0018 | — |
+| `LA-N-0026` | Rank and rank-nullity | planned | LA-N-0022, LA-N-0023, LA-N-0024 | — |
+| `LA-N-0027` | Linear maps | planned | LA-N-0017, LA-N-0013 | — |
+| `LA-N-0028` | Kernel and image | planned | LA-N-0027, LA-N-0024, LA-N-0023 | — |
+| `LA-N-0029` | Matrix representation of a linear map | planned | LA-N-0021, LA-N-0027 | — |
+| `LA-N-0030` | Change of basis and similarity | planned | LA-N-0021, LA-N-0029 | — |
+| `LA-N-0031` | Isomorphisms and structural sameness | planned | LA-N-0026, LA-N-0027 | — |
+| `LA-N-0032` | Determinants as signed volume scaling | planned | LA-N-0015, LA-N-0022 | — |
+| `LA-N-0033` | Determinant properties and computation | planned | LA-N-0032, LA-N-0011 | — |
+| `LA-N-0034` | Eigenvalues and eigenvectors | planned | LA-N-0013, LA-N-0027 | — |
+| `LA-N-0035` | Characteristic polynomial | planned | LA-N-0032, LA-N-0034 | — |
+| `LA-N-0036` | Diagonalization | planned | LA-N-0020, LA-N-0034 | — |
+| `LA-N-0037` | Inner products, length, and angle | planned | LA-N-0017 | — |
+| `LA-N-0038` | Orthogonality and orthogonal complements | planned | LA-N-0018, LA-N-0037 | — |
+| `LA-N-0039` | Orthogonal projection | planned | LA-N-0038 | — |
+| `LA-N-0040` | Gram-Schmidt and QR factorization | planned | LA-N-0020, LA-N-0038 | — |
+| `LA-N-0041` | Least squares | planned | LA-N-0023, LA-N-0039, LA-N-0040 | — |
+| `LA-N-0042` | L1 synthesis: the four-subspace and least-squares picture | planned | LA-N-0026, LA-N-0041 | — |
 
 ## L2
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0043` | Complex vector spaces | planned | LA-N-0017, LA-N-0037 | — |
+| `LA-N-0044` | Linear functionals and dual spaces | planned | LA-N-0027, LA-N-0022 | — |
+| `LA-N-0045` | Transpose, adjoint, and annihilators | planned | LA-N-0038, LA-N-0044 | — |
+| `LA-N-0046` | Invariant subspaces | planned | LA-N-0027, LA-N-0034 | — |
+| `LA-N-0047` | Triangularization | planned | LA-N-0043, LA-N-0046 | — |
+| `LA-N-0048` | Minimal polynomials | planned | LA-N-0035, LA-N-0046 | — |
+| `LA-N-0049` | Generalized eigenvectors and Jordan form | planned | LA-N-0047, LA-N-0048 | — |
+| `LA-N-0050` | Normal, self-adjoint, unitary, and orthogonal operators | planned | LA-N-0043, LA-N-0045 | — |
+| `LA-N-0051` | Spectral theorem for real symmetric operators | planned | LA-N-0036, LA-N-0037, LA-N-0050 | — |
+| `LA-N-0052` | Spectral theorem for complex normal operators | planned | LA-N-0043, LA-N-0050 | — |
+| `LA-N-0053` | Positive definite and semidefinite matrices | planned | LA-N-0051, LA-N-0037 | — |
+| `LA-N-0054` | Quadratic forms | planned | LA-N-0052 | — |
+| `LA-N-0055` | Singular values | planned | LA-N-0045, LA-N-0037 | — |
+| `LA-N-0056` | Singular value decomposition | planned | LA-N-0054, LA-N-0040 | — |
+| `LA-N-0057` | Moore-Penrose pseudoinverse | planned | LA-N-0055, LA-N-0041 | — |
+| `LA-N-0058` | Low-rank approximation and Eckart-Young | planned | LA-N-0055 | — |
+| `LA-N-0059` | Rank factorizations | planned | LA-N-0026, LA-N-0055 | — |
+| `LA-N-0060` | Direct sums and block matrices | planned | LA-N-0018, LA-N-0022 | — |
+| `LA-N-0061` | Affine spaces and hyperplanes | planned | LA-N-0018, LA-N-0044 | — |
+| `LA-N-0062` | Bilinear and sesquilinear forms | planned | LA-N-0043, LA-N-0044 | — |
+| `LA-N-0063` | Generalized inner products and metric matrices | planned | LA-N-0052, LA-N-0060 | — |
+| `LA-N-0064` | Tensor products: building multilinear state spaces | planned | LA-N-0017, LA-N-0029 | — |
+| `LA-N-0065` | Exterior algebra and determinant structure | planned | LA-N-0032, LA-N-0062 | — |
+| `LA-N-0066` | Quotient spaces | planned | LA-N-0018, LA-N-0044 | — |
+| `LA-N-0067` | Canonical forms and classification viewpoint | planned | LA-N-0049, LA-N-0058, LA-N-0064 | — |
+| `LA-N-0068` | L2 proof studio: prove a structural theorem two ways | planned | LA-N-0051, LA-N-0055, LA-N-0065 | — |
 
 ## L3
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0069` | Floating-point arithmetic as a model, not real numbers | planned | LA-N-0042 | — |
+| `LA-N-0070` | Vector and matrix norms for error measurement | planned | LA-N-0037, LA-N-0067 | — |
+| `LA-N-0071` | Condition numbers: sensitivity of problems | planned | LA-N-0068 | — |
+| `LA-N-0072` | Forward error, backward error, and stability | planned | LA-N-0069 | — |
+| `LA-N-0073` | Gaussian elimination with pivoting | planned | LA-N-0011, LA-N-0070 | — |
+| `LA-N-0074` | LU factorization | planned | LA-N-0071 | — |
+| `LA-N-0075` | Cholesky factorization | planned | LA-N-0052, LA-N-0072 | — |
+| `LA-N-0076` | Householder reflections and Givens rotations | planned | LA-N-0040, LA-N-0068 | — |
+| `LA-N-0077` | QR algorithms for least squares | planned | LA-N-0041, LA-N-0074 | — |
+| `LA-N-0078` | Computing the SVD | planned | LA-N-0055, LA-N-0070 | — |
+| `LA-N-0079` | Symmetric eigenvalue computation | planned | LA-N-0051, LA-N-0070 | — |
+| `LA-N-0080` | Schur form and the nonsymmetric eigenproblem | planned | LA-N-0047, LA-N-0070 | — |
+| `LA-N-0081` | Power and inverse iteration | planned | LA-N-0034, LA-N-0069 | — |
+| `LA-N-0082` | QR iteration | planned | LA-N-0077, LA-N-0078 | — |
+| `LA-N-0083` | Krylov subspaces | planned | LA-N-0046, LA-N-0068 | — |
+| `LA-N-0084` | Arnoldi and Lanczos methods | planned | LA-N-0081, LA-N-0074 | — |
+| `LA-N-0085` | Iterative methods for linear systems | planned | LA-N-0069, LA-N-0081 | — |
+| `LA-N-0086` | Conjugate gradients | planned | LA-N-0052, LA-N-0083 | — |
+| `LA-N-0087` | GMRES | planned | LA-N-0082, LA-N-0083 | — |
+| `LA-N-0088` | Preconditioning | planned | LA-N-0069, LA-N-0083 | — |
+| `LA-N-0089` | Sparse matrices and storage | planned | LA-N-0009, LA-N-0083 | — |
+| `LA-N-0090` | Structured matrices | planned | LA-N-0021, LA-N-0058 | — |
+| `LA-N-0091` | Matrix functions and the exponential | planned | LA-N-0047, LA-N-0051 | — |
+| `LA-N-0092` | Generalized eigenvalue problems | planned | LA-N-0034, LA-N-0052 | — |
+| `LA-N-0093` | PCA through covariance eigenvectors and SVD | planned | LA-N-0055, LA-N-0056 | — |
+| `LA-N-0094` | Graph Laplacians and spectral graph methods | planned | LA-N-0051, LA-N-0085 | — |
+| `LA-N-0095` | Markov chains and PageRank-style eigenvectors | planned | LA-N-0034, LA-N-0087 | — |
+| `LA-N-0096` | L3 numerical laboratory: accuracy, residual, and runtime | planned | LA-N-0070, LA-N-0075, LA-N-0080 | — |
 
 ## L4
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0097` | Matrix perturbation theory | planned | LA-N-0069, LA-N-0079 | — |
+| `LA-N-0098` | Subspace perturbation and eigenvector sensitivity | planned | LA-N-0090, LA-N-0051 | — |
+| `LA-N-0099` | Pseudospectra and nonnormal matrices | planned | LA-N-0079, LA-N-0090 | — |
+| `LA-N-0100` | Matrix inequalities and singular-value majorization | planned | LA-N-0055, LA-N-0068 | — |
+| `LA-N-0101` | The positive semidefinite cone | planned | LA-N-0052, LA-N-0093 | — |
+| `LA-N-0102` | Kronecker products and vectorization | planned | LA-N-0062, LA-N-0085 | — |
+| `LA-N-0103` | Tensor decompositions | planned | LA-N-0062, LA-N-0096 | — |
+| `LA-N-0104` | Random projections and sketching | planned | LA-N-0068, LA-N-0056 | — |
+| `LA-N-0105` | Randomized low-rank approximation | planned | LA-N-0056, LA-N-0098 | — |
+| `LA-N-0106` | CUR and interpolative decompositions | planned | LA-N-0099 | — |
+| `LA-N-0107` | Streaming and out-of-core linear algebra | planned | LA-N-0089, LA-N-0098 | — |
+| `LA-N-0108` | Mixed precision and iterative refinement | planned | LA-N-0067, LA-N-0073 | — |
+| `LA-N-0109` | Communication-avoiding and parallel linear algebra | planned | LA-N-0072, LA-N-0074, LA-N-0089 | — |
+| `LA-N-0110` | Matrix-free methods | planned | LA-N-0081, LA-N-0083 | — |
+| `LA-N-0111` | Differentiating through linear algebra operations | planned | LA-N-0055, LA-N-0073 | — |
+| `LA-N-0112` | Linear algebra inside large-scale optimization | planned | LA-N-0075, LA-N-0084, LA-N-0086 | — |
+| `LA-N-0113` | High-dimensional geometry and random embeddings | planned | LA-N-0098, LA-N-0068 | — |
+| `LA-N-0114` | L4 specialist project: choose a matrix problem and defend the algorithm | planned | LA-N-0090, LA-N-0099, LA-N-0103 | — |
 
 ## L5
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0115` | Read a proof-heavy linear algebra paper | planned | LA-N-0092, LA-N-0094 | — |
+| `LA-N-0116` | Read a numerical linear algebra paper | planned | LA-N-0090, LA-N-0103 | — |
+| `LA-N-0117` | Reproduce a matrix-factorization benchmark | planned | LA-N-0088, LA-N-0106 | — |
+| `LA-N-0118` | Design a conditioning and stability experiment | planned | LA-N-0069, LA-N-0070, LA-N-0108 | — |
+| `LA-N-0119` | Inspect BLAS/LAPACK-level implementation boundaries | planned | LA-N-0072, LA-N-0074, LA-N-0103 | — |
+| `LA-N-0120` | Reproducible numerical methodology | planned | LA-N-0108, LA-N-0103 | — |
+| `LA-N-0121` | Research ethics for mathematical software and benchmarks | planned | LA-N-0109 | — |
+| `LA-N-0122` | Build a literature map and isolate an open linear algebra question | planned | LA-N-0105, LA-N-0106, LA-N-0110 | — |
 
 ## L6
 
-_No nodes registered yet._
+| Node | Title | Status | Prerequisites | Lesson |
+|---|---|---|---|---|
+| `LA-N-0123` | Randomized numerical linear algebra frontier | planned | LA-N-0099, LA-N-0112 | — |
+| `LA-N-0124` | Tensor and multilinear algebra frontier | planned | LA-N-0097, LA-N-0112 | — |
+| `LA-N-0125` | Large-scale spectral and graph linear algebra frontier | planned | LA-N-0082, LA-N-0087, LA-N-0112 | — |
+| `LA-N-0126` | Mixed-precision and hardware-aware linear algebra frontier | planned | LA-N-0102, LA-N-0103, LA-N-0112 | — |
+| `LA-N-0127` | Trustworthy and reproducible numerical linear algebra frontier | planned | LA-N-0109, LA-N-0111 | — |
+| `LA-N-0128` | Original linear algebra research project | planned | LA-N-0112, LA-N-0113, LA-N-0114, LA-N-0115, LA-N-0116 | — |

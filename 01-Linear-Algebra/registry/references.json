@@ -2,5 +2,160 @@
   "$schema": "../../schemas/reference-registry.schema.json",
   "schema_version": 1,
   "track": "linear-algebra",
-  "references": []
+  "references": [
+    {
+      "id": "LA-REF-001",
+      "title": "MIT 18.06 Linear Algebra",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Core undergraduate matrix theory and linear algebra: systems, vector spaces, determinants, eigenvalues, similarity, positive definite matrices, and applications."
+    },
+    {
+      "id": "LA-REF-002",
+      "title": "MIT 18.06SC Linear Algebra",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Independent-study presentation with lectures, problem sets, exams, and the Ax=b/four-subspaces sequence."
+    },
+    {
+      "id": "LA-REF-003",
+      "title": "Linear Algebra Done Right, 4th ed.",
+      "type": "textbook",
+      "authority": "Sheldon Axler",
+      "locator": "https://linear.axler.net/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "4th edition",
+      "notes": "Proof-oriented treatment emphasizing vector spaces, linear maps, invariant subspaces, eigenstructure, inner-product spaces, operators, and advanced finite-dimensional theory."
+    },
+    {
+      "id": "LA-REF-004",
+      "title": "Introduction to Applied Linear Algebra — Vectors, Matrices, and Least Squares",
+      "type": "textbook",
+      "authority": "Stephen Boyd and Lieven Vandenberghe",
+      "locator": "https://web.stanford.edu/~boyd/vmls/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Application-oriented vectors, matrices, least squares, modeling, and computational examples."
+    },
+    {
+      "id": "LA-REF-005",
+      "title": "Stanford EE263 — Applied Linear Algebra / Linear Dynamical Systems materials",
+      "type": "university-course",
+      "authority": "Stanford University",
+      "locator": "https://ee263.stanford.edu/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": null,
+      "notes": "Advanced applied linear algebra centered on y=Ax, least squares, SVD, eigenstructure, dynamical systems, and engineering applications."
+    },
+    {
+      "id": "LA-REF-006",
+      "title": "MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": null,
+      "notes": "Matrix methods connecting orthogonality, eigenvalues, positive semidefinite matrices, SVD, optimization, data analysis, signal processing, and machine learning."
+    },
+    {
+      "id": "LA-REF-007",
+      "title": "Numerical Linear Algebra, Twenty-fifth Anniversary Edition",
+      "type": "textbook",
+      "authority": "Lloyd N. Trefethen and David Bau III / SIAM",
+      "locator": "https://epubs.siam.org/doi/book/10.1137/1.9781611977165",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "25th anniversary edition (2022)",
+      "notes": "Canonical numerical linear algebra treatment of orthogonalization, conditioning, stability, linear systems, eigenproblems, Krylov methods, and numerical algorithms."
+    },
+    {
+      "id": "LA-REF-008",
+      "title": "Accuracy and Stability of Numerical Algorithms, 2nd ed.",
+      "type": "textbook",
+      "authority": "Nicholas J. Higham / SIAM",
+      "locator": "https://nhigham.com/accuracy-and-stability-of-numerical-algorithms/",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2nd edition",
+      "notes": "Detailed reference for floating-point error, conditioning, backward error, and numerical stability."
+    },
+    {
+      "id": "LA-REF-009",
+      "title": "LAPACK Documentation and Users' Guide",
+      "type": "official-documentation",
+      "authority": "Netlib / LAPACK project",
+      "locator": "https://www.netlib.org/lapack/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "LAPACK 3.12.x documentation family",
+      "notes": "Reference implementation/documentation for dense linear systems, least squares, eigenvalue problems, SVD, and standard factorizations."
+    },
+    {
+      "id": "LA-REF-010",
+      "title": "Matrix Computations, 4th ed.",
+      "type": "textbook",
+      "authority": "Gene H. Golub and Charles F. Van Loan / Johns Hopkins University Press",
+      "locator": "https://www.press.jhu.edu/books/title/10678/matrix-computations",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "4th edition",
+      "notes": "Comprehensive matrix algorithm reference spanning factorizations, least squares, eigenproblems, sparse/iterative techniques, and implementation concerns."
+    },
+    {
+      "id": "LA-REF-011",
+      "title": "Matrix Analysis, 2nd ed.",
+      "type": "textbook",
+      "authority": "Roger A. Horn and Charles R. Johnson / Cambridge University Press",
+      "locator": "https://www.cambridge.org/highereducation/books/matrix-analysis/FDA3627DC2B9F5C3DF2FD8C3CC136B48",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "2nd edition",
+      "notes": "Second-course and graduate matrix analysis reference with canonical forms, spectral theory, matrix inequalities, and advanced structure."
+    },
+    {
+      "id": "LA-REF-012",
+      "title": "Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions",
+      "type": "survey-review",
+      "authority": "N. Halko, P.-G. Martinsson, J. A. Tropp / SIAM Review",
+      "locator": "https://epubs.siam.org/doi/10.1137/090771806",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "SIAM Review 53(2), 2011",
+      "notes": "Foundational survey/framework for randomized low-rank matrix approximation and randomized numerical linear algebra."
+    },
+    {
+      "id": "LA-REF-013",
+      "title": "Tensor Decompositions and Applications",
+      "type": "survey-review",
+      "authority": "Tamara G. Kolda and Brett W. Bader / SIAM Review",
+      "locator": "https://epubs.siam.org/doi/10.1137/07070111X",
+      "reviewed_at": "2026-08-19",
+      "review_after": null,
+      "version": "SIAM Review 51(3), 2009",
+      "notes": "Canonical survey of higher-order tensor decompositions, algorithms, applications, and software."
+    },
+    {
+      "id": "LA-REF-014",
+      "title": "Randomized Linear Algebra in Scientific Computing",
+      "type": "survey-review",
+      "authority": "Arvind K. Saibaba / SIAM News",
+      "locator": "https://www.siam.org/publications/siam-news/articles/randomized-linear-algebra-in-scientific-computing/",
+      "reviewed_at": "2026-08-19",
+      "review_after": "2027-02-19",
+      "version": "2025 overview",
+      "notes": "Recent overview of randomized/sketched linear algebra directions in scientific computing; used only for frontier orientation, not as a substitute for primary literature."
+    }
+  ]
 }

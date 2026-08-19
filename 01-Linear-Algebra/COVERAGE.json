@@ -3,10 +3,402 @@
   "schema_version": 1,
   "track": "linear-algebra",
   "baseline": {
-    "status": "not-audited",
-    "last_audited": null,
-    "sources": []
+    "status": "audited",
+    "last_audited": "2026-08-19",
+    "sources": [
+      "LA-REF-001",
+      "LA-REF-002",
+      "LA-REF-003",
+      "LA-REF-004",
+      "LA-REF-005",
+      "LA-REF-006",
+      "LA-REF-007",
+      "LA-REF-008",
+      "LA-REF-009",
+      "LA-REF-010",
+      "LA-REF-011",
+      "LA-REF-012",
+      "LA-REF-013",
+      "LA-REF-014"
+    ]
   },
-  "items": [],
+  "items": [
+    {
+      "id": "LA-COV-001",
+      "title": "Orientation and multiple representations",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-001",
+        "LA-REF-004"
+      ],
+      "mapped_nodes": [
+        "LA-N-0001",
+        "LA-N-0002",
+        "LA-N-0003",
+        "LA-N-0004",
+        "LA-N-0005",
+        "LA-N-0006"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-002",
+      "title": "Linear equations, systems, elimination, and matrices",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-001",
+        "LA-REF-002"
+      ],
+      "mapped_nodes": [
+        "LA-N-0007",
+        "LA-N-0008",
+        "LA-N-0009",
+        "LA-N-0010",
+        "LA-N-0011",
+        "LA-N-0012",
+        "LA-N-0013",
+        "LA-N-0014",
+        "LA-N-0015",
+        "LA-N-0016"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-003",
+      "title": "Vector spaces, subspaces, independence, basis, and dimension",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-003",
+        "LA-REF-002"
+      ],
+      "mapped_nodes": [
+        "LA-N-0017",
+        "LA-N-0018",
+        "LA-N-0019",
+        "LA-N-0020",
+        "LA-N-0021",
+        "LA-N-0022"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-004",
+      "title": "Fundamental subspaces, rank, and linear maps",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-001",
+        "LA-REF-003"
+      ],
+      "mapped_nodes": [
+        "LA-N-0023",
+        "LA-N-0024",
+        "LA-N-0025",
+        "LA-N-0026",
+        "LA-N-0027",
+        "LA-N-0028",
+        "LA-N-0029",
+        "LA-N-0030",
+        "LA-N-0031"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-005",
+      "title": "Determinants and eigenstructure",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-001",
+        "LA-REF-003"
+      ],
+      "mapped_nodes": [
+        "LA-N-0032",
+        "LA-N-0033",
+        "LA-N-0034",
+        "LA-N-0035",
+        "LA-N-0036"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-006",
+      "title": "Inner products, orthogonality, QR, and least squares",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-004",
+        "LA-REF-001"
+      ],
+      "mapped_nodes": [
+        "LA-N-0037",
+        "LA-N-0038",
+        "LA-N-0039",
+        "LA-N-0040",
+        "LA-N-0041",
+        "LA-N-0042"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-007",
+      "title": "Complex spaces, duality, adjoints, invariant subspaces, and canonical forms",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-003",
+        "LA-REF-011"
+      ],
+      "mapped_nodes": [
+        "LA-N-0043",
+        "LA-N-0044",
+        "LA-N-0045",
+        "LA-N-0046",
+        "LA-N-0047",
+        "LA-N-0048",
+        "LA-N-0049"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-008",
+      "title": "Spectral theorems, positivity, quadratic forms, and SVD",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-003",
+        "LA-REF-006",
+        "LA-REF-005"
+      ],
+      "mapped_nodes": [
+        "LA-N-0050",
+        "LA-N-0051",
+        "LA-N-0052",
+        "LA-N-0053",
+        "LA-N-0054",
+        "LA-N-0055",
+        "LA-N-0056",
+        "LA-N-0057"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-009",
+      "title": "Direct sums, affine/quotient spaces, multilinear and exterior structure",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-003",
+        "LA-REF-011"
+      ],
+      "mapped_nodes": [
+        "LA-N-0058",
+        "LA-N-0059",
+        "LA-N-0060",
+        "LA-N-0061",
+        "LA-N-0062",
+        "LA-N-0063",
+        "LA-N-0064",
+        "LA-N-0065",
+        "LA-N-0066"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-010",
+      "title": "Floating-point error, conditioning, and stability",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-007",
+        "LA-REF-008"
+      ],
+      "mapped_nodes": [
+        "LA-N-0067",
+        "LA-N-0068",
+        "LA-N-0069",
+        "LA-N-0070"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-011",
+      "title": "Direct numerical factorizations and least squares",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-007",
+        "LA-REF-009",
+        "LA-REF-010"
+      ],
+      "mapped_nodes": [
+        "LA-N-0071",
+        "LA-N-0072",
+        "LA-N-0073",
+        "LA-N-0074",
+        "LA-N-0075",
+        "LA-N-0076"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-012",
+      "title": "Numerical eigenvalue and singular-value algorithms",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-007",
+        "LA-REF-009",
+        "LA-REF-010"
+      ],
+      "mapped_nodes": [
+        "LA-N-0077",
+        "LA-N-0078",
+        "LA-N-0079",
+        "LA-N-0080",
+        "LA-N-0081",
+        "LA-N-0082"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-013",
+      "title": "Krylov, iterative solvers, preconditioning, sparsity, and structure",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-007",
+        "LA-REF-010"
+      ],
+      "mapped_nodes": [
+        "LA-N-0083",
+        "LA-N-0084",
+        "LA-N-0085",
+        "LA-N-0086",
+        "LA-N-0087",
+        "LA-N-0088",
+        "LA-N-0089"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-014",
+      "title": "Matrix functions, generalized eigenproblems, and applied spectral methods",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-005",
+        "LA-REF-006",
+        "LA-REF-011"
+      ],
+      "mapped_nodes": [
+        "LA-N-0090",
+        "LA-N-0091",
+        "LA-N-0092",
+        "LA-N-0093",
+        "LA-N-0094",
+        "LA-N-0095",
+        "LA-N-0096"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-015",
+      "title": "Perturbation theory, pseudospectra, matrix inequalities, and PSD geometry",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-008",
+        "LA-REF-011"
+      ],
+      "mapped_nodes": [
+        "LA-N-0097",
+        "LA-N-0098",
+        "LA-N-0099",
+        "LA-N-0100",
+        "LA-N-0101"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-016",
+      "title": "Kronecker/tensor methods and higher-order decompositions",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-013",
+        "LA-REF-011"
+      ],
+      "mapped_nodes": [
+        "LA-N-0102",
+        "LA-N-0103"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-017",
+      "title": "Randomized, streaming, and low-rank matrix algorithms",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-012",
+        "LA-REF-014"
+      ],
+      "mapped_nodes": [
+        "LA-N-0104",
+        "LA-N-0105",
+        "LA-N-0106",
+        "LA-N-0107"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-018",
+      "title": "Mixed precision, communication, matrix-free methods, differentiation, and optimization",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-008",
+        "LA-REF-010",
+        "LA-REF-014"
+      ],
+      "mapped_nodes": [
+        "LA-N-0108",
+        "LA-N-0109",
+        "LA-N-0110",
+        "LA-N-0111",
+        "LA-N-0112",
+        "LA-N-0113",
+        "LA-N-0114"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-019",
+      "title": "Research literacy, reproducibility, implementation, and ethics",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-007",
+        "LA-REF-008",
+        "LA-REF-009",
+        "LA-REF-010"
+      ],
+      "mapped_nodes": [
+        "LA-N-0115",
+        "LA-N-0116",
+        "LA-N-0117",
+        "LA-N-0118",
+        "LA-N-0119",
+        "LA-N-0120",
+        "LA-N-0121",
+        "LA-N-0122"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    },
+    {
+      "id": "LA-COV-020",
+      "title": "Open research frontiers",
+      "status": "planned",
+      "source_refs": [
+        "LA-REF-012",
+        "LA-REF-013",
+        "LA-REF-014"
+      ],
+      "mapped_nodes": [
+        "LA-N-0123",
+        "LA-N-0124",
+        "LA-N-0125",
+        "LA-N-0126",
+        "LA-N-0127",
+        "LA-N-0128"
+      ],
+      "rationale": "Included after cross-checking introductory, proof-oriented, applied, numerical, software, and research reference classes."
+    }
+  ],
   "unresolved_questions": []
 }

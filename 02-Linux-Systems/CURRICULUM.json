@@ -28,7 +28,7 @@
       "id": "LNX-N-0002",
       "title": "Build a safe Linux learning laboratory",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0001"
       ],
@@ -43,13 +43,13 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0002"
     },
     {
       "id": "LNX-N-0003",
       "title": "The command line as a language interface",
       "level": "L0",
-      "status": "planned",
+      "status": "ready",
       "prerequisites": [
         "LNX-N-0002"
       ],

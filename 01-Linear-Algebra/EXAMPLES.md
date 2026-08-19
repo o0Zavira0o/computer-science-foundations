@@ -4,4 +4,6 @@
 
 | Example ID | Signature | Domain | First lesson | Reuse purpose |
 |---|---|---|---|---|
-| — | — | — | — | No examples registered yet |
+| `LA-EX-001` | Represent the same two-component quantity as an arrow, an ordered pair, and a point in a simple data table | multiple representations | LA-0001 | — |
+| `LA-EX-002` | Combine two simple ingredient vectors to show how linear combination changes several quantities at once | linear combination intuition | LA-0001 | — |
+| `LA-EX-003` | Compare a rotation-like rule with a translation rule to test the intuition behind linear transformations | linearity boundary | LA-0001 | — |

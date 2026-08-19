@@ -4,7 +4,7 @@
 
 | # | Track | Group | ID | Status | Entry point |
 |---|---|---|---|---|---|
-| 1 | Linear Algebra | Core | `linear-algebra` | scaffolded | [`01-Linear-Algebra/README.md`](../01-Linear-Algebra/README.md) |
+| 1 | Linear Algebra | Core | `linear-algebra` | active | [`01-Linear-Algebra/README.md`](../01-Linear-Algebra/README.md) |
 | 2 | Linux Systems | Core | `linux-systems` | active | [`02-Linux-Systems/README.md`](../02-Linux-Systems/README.md) |
 | 3 | C++ | Core | `cpp` | scaffolded | [`03-CPP/README.md`](../03-CPP/README.md) |
 | 4 | Computer Architecture | Core | `computer-architecture` | scaffolded | [`04-Computer-Architecture/README.md`](../04-Computer-Architecture/README.md) |

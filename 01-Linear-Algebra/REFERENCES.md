@@ -4,4 +4,17 @@
 
 | Reference ID | Title | Type | Authority | Reviewed | Review after |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No references registered yet |
+| `LA-REF-001` | MIT 18.06 Linear Algebra | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `LA-REF-002` | MIT 18.06SC Linear Algebra | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `LA-REF-003` | Linear Algebra Done Right, 4th ed. | textbook | Sheldon Axler | 2026-08-19 | — |
+| `LA-REF-004` | Introduction to Applied Linear Algebra — Vectors, Matrices, and Least Squares | textbook | Stephen Boyd and Lieven Vandenberghe | 2026-08-19 | — |
+| `LA-REF-005` | Stanford EE263 — Applied Linear Algebra / Linear Dynamical Systems materials | university-course | Stanford University | 2026-08-19 | 2027-02-19 |
+| `LA-REF-006` | MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning | university-course | MIT OpenCourseWare | 2026-08-19 | — |
+| `LA-REF-007` | Numerical Linear Algebra, Twenty-fifth Anniversary Edition | textbook | Lloyd N. Trefethen and David Bau III / SIAM | 2026-08-19 | — |
+| `LA-REF-008` | Accuracy and Stability of Numerical Algorithms, 2nd ed. | textbook | Nicholas J. Higham / SIAM | 2026-08-19 | — |
+| `LA-REF-009` | LAPACK Documentation and Users' Guide | official-documentation | Netlib / LAPACK project | 2026-08-19 | 2027-02-19 |
+| `LA-REF-010` | Matrix Computations, 4th ed. | textbook | Gene H. Golub and Charles F. Van Loan / Johns Hopkins University Press | 2026-08-19 | — |
+| `LA-REF-011` | Matrix Analysis, 2nd ed. | textbook | Roger A. Horn and Charles R. Johnson / Cambridge University Press | 2026-08-19 | — |
+| `LA-REF-012` | Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions | survey-review | N. Halko, P.-G. Martinsson, J. A. Tropp / SIAM Review | 2026-08-19 | — |
+| `LA-REF-013` | Tensor Decompositions and Applications | survey-review | Tamara G. Kolda and Brett W. Bader / SIAM Review | 2026-08-19 | — |
+| `LA-REF-014` | Randomized Linear Algebra in Scientific Computing | survey-review | Arvind K. Saibaba / SIAM News | 2026-08-19 | 2027-02-19 |

@@ -17,12 +17,12 @@
 - **Nodes:** 112
 - **Coverage baseline:** audited
 - **Coverage items:** 24
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 112
-- **Examples:** 3
+- **Examples:** 6
 - **References:** 20
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LNX-N-0002` — Build a safe Linux learning laboratory (L0, ready)
+- `LNX-N-0003` — The command line as a language interface (L0, ready)
 
 ## Learner next actions
 
@@ -43,6 +43,7 @@
 ## Recent lessons
 
 - `LNX-0001` — What a Linux system actually is (L0, complete)
+- `LNX-0002` — Build a safe Linux learning laboratory (L0, complete)
 
 ## Normal-session retrieval rule
 

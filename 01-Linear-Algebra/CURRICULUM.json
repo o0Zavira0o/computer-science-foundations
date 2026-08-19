@@ -2,7 +2,2689 @@
   "$schema": "../schemas/curriculum.schema.json",
   "schema_version": 1,
   "track": "linear-algebra",
-  "audit_status": "not-audited",
-  "last_coverage_audit": null,
-  "nodes": []
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-19",
+  "nodes": [
+    {
+      "id": "LA-N-0001",
+      "title": "What linear algebra is actually studying",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Recognize vectors, linear combinations, and linear transformations as the recurring objects of the subject.",
+        "Switch between geometric, algebraic, and data views of the same simple vector problem."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0001",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": "LA-0001"
+    },
+    {
+      "id": "LA-N-0002",
+      "title": "Scalars, coordinates, tuples, and notation",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "LA-N-0001"
+      ],
+      "outcomes": [
+        "Read vector and matrix notation without treating symbols as unexplained decoration.",
+        "Distinguish a scalar from an ordered list of coordinates."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0002",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0003",
+      "title": "Vectors as displacement, data, and state",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0002"
+      ],
+      "outcomes": [
+        "Interpret the same vector as geometry, data, or system state depending on context."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0004",
+      "title": "Vector addition and scalar multiplication",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0003"
+      ],
+      "outcomes": [
+        "Compute and explain the two operations that define linear combination."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0005",
+      "title": "Linear combinations and weighted mixtures",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0004"
+      ],
+      "outcomes": [
+        "Build new vectors from weighted combinations and predict their geometric/data meaning."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0006",
+      "title": "Span: what combinations can reach",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0005"
+      ],
+      "outcomes": [
+        "Decide whether a target vector is reachable from given generators in simple cases."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0007",
+      "title": "Linear equations as constraints",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0002"
+      ],
+      "outcomes": [
+        "Interpret a linear equation geometrically and algebraically."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0008",
+      "title": "Systems of linear equations and solution sets",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0007"
+      ],
+      "outcomes": [
+        "Represent several simultaneous linear constraints and reason about zero, one, or many solutions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0009",
+      "title": "Matrices as organized coefficients and operators",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0008"
+      ],
+      "outcomes": [
+        "Read rows, columns, entries, and dimensions and distinguish matrix-as-data from matrix-as-map."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0010",
+      "title": "Matrix-vector multiplication as a column combination",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0005",
+        "LA-N-0009"
+      ],
+      "outcomes": [
+        "Explain Ax as a linear combination of the columns of A rather than a memorized multiplication recipe."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0011",
+      "title": "Elimination: changing equations without changing solutions",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0008",
+        "LA-N-0009"
+      ],
+      "outcomes": [
+        "Use elementary row operations while preserving the solution set."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0012",
+      "title": "Pivots, free variables, and the geometry of solutions",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0011"
+      ],
+      "outcomes": [
+        "Connect pivots and free variables to uniqueness and families of solutions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0013",
+      "title": "Linear transformations in the plane",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0004",
+        "LA-N-0009"
+      ],
+      "outcomes": [
+        "Recognize scaling, reflection, projection, rotation, and shear as transformations and test linearity informally."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0014",
+      "title": "Composition and matrix multiplication",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0010",
+        "LA-N-0013"
+      ],
+      "outcomes": [
+        "Explain matrix multiplication as composition of linear transformations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0015",
+      "title": "Invertibility as reversible linear action",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0011",
+        "LA-N-0014"
+      ],
+      "outcomes": [
+        "Relate invertibility to unique solvability and reversible transformations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0016",
+      "title": "L0 synthesis: solve, transform, and explain one problem three ways",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0012",
+        "LA-N-0015"
+      ],
+      "outcomes": [
+        "Integrate equation, vector, and transformation viewpoints in one worked task."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0016",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "synthesis",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0017",
+      "title": "Vector spaces: the abstraction behind vectors",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0016"
+      ],
+      "outcomes": [
+        "State the vector-space axioms and recognize common finite-dimensional examples."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0017",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0018",
+      "title": "Subspaces and closure",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0017"
+      ],
+      "outcomes": [
+        "Test whether a subset is a subspace and explain closure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0018",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0019",
+      "title": "Linear independence",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0006",
+        "LA-N-0018"
+      ],
+      "outcomes": [
+        "Determine whether generators contain redundancy and connect dependence to nontrivial combinations yielding zero."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0019",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0020",
+      "title": "Bases: minimal coordinates for a space",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0019"
+      ],
+      "outcomes": [
+        "Explain why a basis both spans and is independent."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0020",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0021",
+      "title": "Coordinates relative to a basis",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0020"
+      ],
+      "outcomes": [
+        "Convert vectors between abstract form and basis coordinates."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0021",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0022",
+      "title": "Dimension",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0020"
+      ],
+      "outcomes": [
+        "Explain dimension as basis size and use it as an invariant."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0022",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0023",
+      "title": "Column space",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0010",
+        "LA-N-0018"
+      ],
+      "outcomes": [
+        "Interpret the column space as all outputs Ax."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0023",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0024",
+      "title": "Null space",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0012",
+        "LA-N-0018"
+      ],
+      "outcomes": [
+        "Interpret the null space as inputs erased by a matrix."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0024",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0025",
+      "title": "Row space",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0011",
+        "LA-N-0018"
+      ],
+      "outcomes": [
+        "Relate row space to constraints and elimination."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0025",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0026",
+      "title": "Rank and rank-nullity",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0022",
+        "LA-N-0023",
+        "LA-N-0024"
+      ],
+      "outcomes": [
+        "Compute rank conceptually and use rank-nullity to connect inputs, outputs, and information loss."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0026",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0027",
+      "title": "Linear maps",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0017",
+        "LA-N-0013"
+      ],
+      "outcomes": [
+        "Define linearity precisely and reason about maps independently of coordinates."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0027",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0028",
+      "title": "Kernel and image",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0027",
+        "LA-N-0024",
+        "LA-N-0023"
+      ],
+      "outcomes": [
+        "Generalize null space and column space to arbitrary linear maps."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0028",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0029",
+      "title": "Matrix representation of a linear map",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0021",
+        "LA-N-0027"
+      ],
+      "outcomes": [
+        "Construct a matrix representation once domain and codomain bases are chosen."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0029",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0030",
+      "title": "Change of basis and similarity",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0021",
+        "LA-N-0029"
+      ],
+      "outcomes": [
+        "Explain why one linear map can have different matrices in different bases."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0030",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0031",
+      "title": "Isomorphisms and structural sameness",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0026",
+        "LA-N-0027"
+      ],
+      "outcomes": [
+        "Recognize when two finite-dimensional vector spaces are structurally equivalent."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0031",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0032",
+      "title": "Determinants as signed volume scaling",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0015",
+        "LA-N-0022"
+      ],
+      "outcomes": [
+        "Interpret determinant geometrically before using formulas."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0032",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0033",
+      "title": "Determinant properties and computation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0032",
+        "LA-N-0011"
+      ],
+      "outcomes": [
+        "Use multiplicativity, row operations, and triangular structure to reason about determinants."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0033",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0034",
+      "title": "Eigenvalues and eigenvectors",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0013",
+        "LA-N-0027"
+      ],
+      "outcomes": [
+        "Identify directions preserved by a linear transformation up to scaling."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0034",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0035",
+      "title": "Characteristic polynomial",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0032",
+        "LA-N-0034"
+      ],
+      "outcomes": [
+        "Connect eigenvalues to roots of det(A-λI)."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0035",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0036",
+      "title": "Diagonalization",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0020",
+        "LA-N-0034"
+      ],
+      "outcomes": [
+        "Explain when an eigenbasis turns a map into independent scalar actions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0036",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0037",
+      "title": "Inner products, length, and angle",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0017"
+      ],
+      "outcomes": [
+        "Define inner products and recover norms, angles, and orthogonality."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0037",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0038",
+      "title": "Orthogonality and orthogonal complements",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0018",
+        "LA-N-0037"
+      ],
+      "outcomes": [
+        "Reason about perpendicular subspaces and decompositions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0038",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0039",
+      "title": "Orthogonal projection",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0038"
+      ],
+      "outcomes": [
+        "Derive projection onto a line/subspace and connect it to closest-point approximation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0039",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0040",
+      "title": "Gram-Schmidt and QR factorization",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0020",
+        "LA-N-0038"
+      ],
+      "outcomes": [
+        "Build an orthonormal basis and connect the process to QR."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0040",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0041",
+      "title": "Least squares",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0023",
+        "LA-N-0039",
+        "LA-N-0040"
+      ],
+      "outcomes": [
+        "Solve inconsistent systems by projection and interpret residual orthogonality."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0041",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0042",
+      "title": "L1 synthesis: the four-subspace and least-squares picture",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0026",
+        "LA-N-0041"
+      ],
+      "outcomes": [
+        "Integrate rank, nullity, orthogonality, and least squares in one structural model."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0042",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "synthesis",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0043",
+      "title": "Complex vector spaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0017",
+        "LA-N-0037"
+      ],
+      "outcomes": [
+        "Extend finite-dimensional linear algebra from real to complex scalars."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0043",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0044",
+      "title": "Linear functionals and dual spaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0027",
+        "LA-N-0022"
+      ],
+      "outcomes": [
+        "Treat linear measurements as vectors in the dual space."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0044",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0045",
+      "title": "Transpose, adjoint, and annihilators",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0038",
+        "LA-N-0044"
+      ],
+      "outcomes": [
+        "Relate adjoints to inner products and annihilators to dual constraints."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0045",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0046",
+      "title": "Invariant subspaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0027",
+        "LA-N-0034"
+      ],
+      "outcomes": [
+        "Recognize subspaces preserved by an operator."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0046",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0047",
+      "title": "Triangularization",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0043",
+        "LA-N-0046"
+      ],
+      "outcomes": [
+        "Explain why invariant flags can expose operator structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0047",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0048",
+      "title": "Minimal polynomials",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0035",
+        "LA-N-0046"
+      ],
+      "outcomes": [
+        "Use annihilating polynomials to characterize operator structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0048",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0049",
+      "title": "Generalized eigenvectors and Jordan form",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0047",
+        "LA-N-0048"
+      ],
+      "outcomes": [
+        "Explain what diagonalization failure looks like and how Jordan chains repair the basis."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0049",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0050",
+      "title": "Normal, self-adjoint, unitary, and orthogonal operators",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0043",
+        "LA-N-0045"
+      ],
+      "outcomes": [
+        "Classify important operator families by adjoint relations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0050",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0051",
+      "title": "Spectral theorem for real symmetric operators",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0036",
+        "LA-N-0037",
+        "LA-N-0050"
+      ],
+      "outcomes": [
+        "State and use orthogonal diagonalization for real symmetric matrices."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0051",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0052",
+      "title": "Spectral theorem for complex normal operators",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0043",
+        "LA-N-0050"
+      ],
+      "outcomes": [
+        "State and use unitary diagonalization for complex normal operators."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0052",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0053",
+      "title": "Positive definite and semidefinite matrices",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0051",
+        "LA-N-0037"
+      ],
+      "outcomes": [
+        "Connect positivity, eigenvalues, quadratic energy, and geometry."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0053",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0054",
+      "title": "Quadratic forms",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0052"
+      ],
+      "outcomes": [
+        "Classify and transform quadratic forms using symmetric matrices."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0054",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0055",
+      "title": "Singular values",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0045",
+        "LA-N-0037"
+      ],
+      "outcomes": [
+        "Interpret singular values as principal input-output stretch factors."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0055",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0056",
+      "title": "Singular value decomposition",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0054",
+        "LA-N-0040"
+      ],
+      "outcomes": [
+        "Factor a linear map into orthogonal directions and nonnegative stretches."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0056",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0057",
+      "title": "Moore-Penrose pseudoinverse",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055",
+        "LA-N-0041"
+      ],
+      "outcomes": [
+        "Use the pseudoinverse for least-squares and minimum-norm solutions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0057",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0058",
+      "title": "Low-rank approximation and Eckart-Young",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055"
+      ],
+      "outcomes": [
+        "Explain why truncated SVD is optimal for standard low-rank approximation norms."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0058",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0059",
+      "title": "Rank factorizations",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0026",
+        "LA-N-0055"
+      ],
+      "outcomes": [
+        "Construct compact factorizations exposing row/column space structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0059",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0060",
+      "title": "Direct sums and block matrices",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0018",
+        "LA-N-0022"
+      ],
+      "outcomes": [
+        "Decompose spaces and operators into interacting blocks."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0060",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0061",
+      "title": "Affine spaces and hyperplanes",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0018",
+        "LA-N-0044"
+      ],
+      "outcomes": [
+        "Separate linear subspaces from translated affine sets and interpret hyperplanes via functionals."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0061",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0062",
+      "title": "Bilinear and sesquilinear forms",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0043",
+        "LA-N-0044"
+      ],
+      "outcomes": [
+        "Generalize dot products and reason about form matrices."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0062",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0063",
+      "title": "Generalized inner products and metric matrices",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0052",
+        "LA-N-0060"
+      ],
+      "outcomes": [
+        "Work with weighted inner products and understand metric dependence."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0063",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0064",
+      "title": "Tensor products: building multilinear state spaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0017",
+        "LA-N-0029"
+      ],
+      "outcomes": [
+        "Understand the universal idea and basic coordinate construction of tensor products."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0064",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0065",
+      "title": "Exterior algebra and determinant structure",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0032",
+        "LA-N-0062"
+      ],
+      "outcomes": [
+        "Connect oriented volume and determinants to alternating multilinear structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0065",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0066",
+      "title": "Quotient spaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0018",
+        "LA-N-0044"
+      ],
+      "outcomes": [
+        "Model vectors modulo a subspace and connect quotient dimension to structure."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0066",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0067",
+      "title": "Canonical forms and classification viewpoint",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0049",
+        "LA-N-0058",
+        "LA-N-0064"
+      ],
+      "outcomes": [
+        "Recognize canonical forms as tools for classifying linear operators up to change of basis."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0067",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0068",
+      "title": "L2 proof studio: prove a structural theorem two ways",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0051",
+        "LA-N-0055",
+        "LA-N-0065"
+      ],
+      "outcomes": [
+        "Compare coordinate and coordinate-free proof strategies."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0068",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "synthesis",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0069",
+      "title": "Floating-point arithmetic as a model, not real numbers",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0042"
+      ],
+      "outcomes": [
+        "Explain rounding, finite precision, and why exact algebraic identities can fail numerically."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0069",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0070",
+      "title": "Vector and matrix norms for error measurement",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0037",
+        "LA-N-0067"
+      ],
+      "outcomes": [
+        "Choose norms to measure vectors, operators, residuals, and perturbations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0070",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0071",
+      "title": "Condition numbers: sensitivity of problems",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0068"
+      ],
+      "outcomes": [
+        "Separate problem sensitivity from algorithm quality."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0071",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0072",
+      "title": "Forward error, backward error, and stability",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0069"
+      ],
+      "outcomes": [
+        "Distinguish the error in an answer from the perturbation needed to explain it."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0072",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0073",
+      "title": "Gaussian elimination with pivoting",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0011",
+        "LA-N-0070"
+      ],
+      "outcomes": [
+        "Explain why pivoting changes numerical reliability even when exact algebra is unchanged."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0073",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0074",
+      "title": "LU factorization",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0071"
+      ],
+      "outcomes": [
+        "Derive LU from elimination and use it for repeated solves."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0074",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0075",
+      "title": "Cholesky factorization",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0052",
+        "LA-N-0072"
+      ],
+      "outcomes": [
+        "Exploit positive definiteness for efficient symmetric solves."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0075",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0076",
+      "title": "Householder reflections and Givens rotations",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0040",
+        "LA-N-0068"
+      ],
+      "outcomes": [
+        "Construct stable orthogonal transformations used by numerical factorizations."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0076",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0077",
+      "title": "QR algorithms for least squares",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0041",
+        "LA-N-0074"
+      ],
+      "outcomes": [
+        "Solve least squares without forming normal equations unnecessarily."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0077",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0078",
+      "title": "Computing the SVD",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055",
+        "LA-N-0070"
+      ],
+      "outcomes": [
+        "Understand the numerical pipeline behind singular-value computation at a conceptual level."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0078",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0079",
+      "title": "Symmetric eigenvalue computation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0051",
+        "LA-N-0070"
+      ],
+      "outcomes": [
+        "Connect reduction and iterative methods to stable symmetric eigenvalue algorithms."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0079",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0080",
+      "title": "Schur form and the nonsymmetric eigenproblem",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0047",
+        "LA-N-0070"
+      ],
+      "outcomes": [
+        "Use Schur form as a numerically stable replacement for fragile eigenvector bases."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0080",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0081",
+      "title": "Power and inverse iteration",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0034",
+        "LA-N-0069"
+      ],
+      "outcomes": [
+        "Analyze simple iterative eigenvalue methods and convergence."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0081",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0082",
+      "title": "QR iteration",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0077",
+        "LA-N-0078"
+      ],
+      "outcomes": [
+        "Explain how repeated QR factorizations reveal eigenvalues."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0082",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0083",
+      "title": "Krylov subspaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0046",
+        "LA-N-0068"
+      ],
+      "outcomes": [
+        "Build approximation spaces from repeated matrix action."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0083",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0084",
+      "title": "Arnoldi and Lanczos methods",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0081",
+        "LA-N-0074"
+      ],
+      "outcomes": [
+        "Approximate large eigenproblems using orthogonal Krylov bases."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0084",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0085",
+      "title": "Iterative methods for linear systems",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0069",
+        "LA-N-0081"
+      ],
+      "outcomes": [
+        "Contrast stationary/direct and Krylov iterative solving strategies."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0085",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0086",
+      "title": "Conjugate gradients",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0052",
+        "LA-N-0083"
+      ],
+      "outcomes": [
+        "Explain why SPD structure enables efficient Krylov minimization."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0086",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0087",
+      "title": "GMRES",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0082",
+        "LA-N-0083"
+      ],
+      "outcomes": [
+        "Understand residual minimization for general nonsymmetric systems."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0087",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0088",
+      "title": "Preconditioning",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0069",
+        "LA-N-0083"
+      ],
+      "outcomes": [
+        "Change a problem representation to accelerate iterative convergence without changing the desired solution."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0088",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0089",
+      "title": "Sparse matrices and storage",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0009",
+        "LA-N-0083"
+      ],
+      "outcomes": [
+        "Reason about sparsity structure, storage, and algorithmic consequences."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0089",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0090",
+      "title": "Structured matrices",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0021",
+        "LA-N-0058"
+      ],
+      "outcomes": [
+        "Recognize Toeplitz, banded, block, and other structure that algorithms can exploit."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0090",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0091",
+      "title": "Matrix functions and the exponential",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0047",
+        "LA-N-0051"
+      ],
+      "outcomes": [
+        "Define functions of matrices and connect exp(A) to dynamics."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0091",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0092",
+      "title": "Generalized eigenvalue problems",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0034",
+        "LA-N-0052"
+      ],
+      "outcomes": [
+        "Recognize and formulate problems of the form Ax=λBx."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0092",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0093",
+      "title": "PCA through covariance eigenvectors and SVD",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055",
+        "LA-N-0056"
+      ],
+      "outcomes": [
+        "Derive PCA as a low-rank/spectral method rather than a black-box statistics recipe."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0093",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0094",
+      "title": "Graph Laplacians and spectral graph methods",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0051",
+        "LA-N-0085"
+      ],
+      "outcomes": [
+        "Translate graph structure into matrices and interpret low-frequency eigenvectors."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0094",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0095",
+      "title": "Markov chains and PageRank-style eigenvectors",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0034",
+        "LA-N-0087"
+      ],
+      "outcomes": [
+        "Connect stochastic evolution to invariant eigenvectors."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0095",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0096",
+      "title": "L3 numerical laboratory: accuracy, residual, and runtime",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0070",
+        "LA-N-0075",
+        "LA-N-0080"
+      ],
+      "outcomes": [
+        "Design a reproducible experiment comparing mathematically equivalent but numerically different methods."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0096",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "synthesis",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0097",
+      "title": "Matrix perturbation theory",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0069",
+        "LA-N-0079"
+      ],
+      "outcomes": [
+        "Quantify how solutions and spectral objects move under perturbation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0097",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0098",
+      "title": "Subspace perturbation and eigenvector sensitivity",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0090",
+        "LA-N-0051"
+      ],
+      "outcomes": [
+        "Reason about eigenspace sensitivity beyond scalar eigenvalue movement."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0098",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0099",
+      "title": "Pseudospectra and nonnormal matrices",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0079",
+        "LA-N-0090"
+      ],
+      "outcomes": [
+        "Explain transient behavior and spectral sensitivity that eigenvalues alone can hide."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0099",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0100",
+      "title": "Matrix inequalities and singular-value majorization",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055",
+        "LA-N-0068"
+      ],
+      "outcomes": [
+        "Use advanced inequalities to compare spectra, singular values, and norms."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0100",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0101",
+      "title": "The positive semidefinite cone",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0052",
+        "LA-N-0093"
+      ],
+      "outcomes": [
+        "Treat PSD matrices geometrically and connect them to convex optimization."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0101",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0102",
+      "title": "Kronecker products and vectorization",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0062",
+        "LA-N-0085"
+      ],
+      "outcomes": [
+        "Manipulate separable matrix structure and vectorized operator identities."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0102",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0103",
+      "title": "Tensor decompositions",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0062",
+        "LA-N-0096"
+      ],
+      "outcomes": [
+        "Compare CP, Tucker, and matrix-SVD analogies while respecting higher-order differences."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0103",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0104",
+      "title": "Random projections and sketching",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0068",
+        "LA-N-0056"
+      ],
+      "outcomes": [
+        "Use random embeddings to reduce dimension while controlling geometric distortion."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0104",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0105",
+      "title": "Randomized low-rank approximation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0056",
+        "LA-N-0098"
+      ],
+      "outcomes": [
+        "Construct randomized range finders and reason about pass complexity and error."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0105",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0106",
+      "title": "CUR and interpolative decompositions",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0099"
+      ],
+      "outcomes": [
+        "Approximate matrices using representative rows/columns and compare interpretability with SVD."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0106",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0107",
+      "title": "Streaming and out-of-core linear algebra",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0089",
+        "LA-N-0098"
+      ],
+      "outcomes": [
+        "Design algorithms when data cannot reside entirely in fast memory."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0107",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0108",
+      "title": "Mixed precision and iterative refinement",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0067",
+        "LA-N-0073"
+      ],
+      "outcomes": [
+        "Reason about using multiple precisions while recovering high-accuracy solutions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0108",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0109",
+      "title": "Communication-avoiding and parallel linear algebra",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0072",
+        "LA-N-0074",
+        "LA-N-0089"
+      ],
+      "outcomes": [
+        "Treat data movement as a first-class cost in modern matrix algorithms."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0109",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0110",
+      "title": "Matrix-free methods",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0081",
+        "LA-N-0083"
+      ],
+      "outcomes": [
+        "Solve large problems using operator actions without explicitly forming A."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0110",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0111",
+      "title": "Differentiating through linear algebra operations",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0055",
+        "LA-N-0073"
+      ],
+      "outcomes": [
+        "Understand derivatives of solves, factorizations, and spectral operations and their failure modes."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0111",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0112",
+      "title": "Linear algebra inside large-scale optimization",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0075",
+        "LA-N-0084",
+        "LA-N-0086"
+      ],
+      "outcomes": [
+        "Identify the repeated linear-algebra kernels that dominate optimization algorithms."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0112",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0113",
+      "title": "High-dimensional geometry and random embeddings",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0098",
+        "LA-N-0068"
+      ],
+      "outcomes": [
+        "Connect concentration and random projections to scalable geometric reasoning."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0113",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "core",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0114",
+      "title": "L4 specialist project: choose a matrix problem and defend the algorithm",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0090",
+        "LA-N-0099",
+        "LA-N-0103"
+      ],
+      "outcomes": [
+        "Select methods from structure, accuracy, memory, and compute constraints and justify the choice."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0114",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "synthesis",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0115",
+      "title": "Read a proof-heavy linear algebra paper",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0092",
+        "LA-N-0094"
+      ],
+      "outcomes": [
+        "Reconstruct definitions, theorem dependencies, proof strategy, and hidden assumptions from a research paper."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0115",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0116",
+      "title": "Read a numerical linear algebra paper",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0090",
+        "LA-N-0103"
+      ],
+      "outcomes": [
+        "Separate mathematical guarantee, implementation choice, benchmark design, and empirical claim."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0116",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0117",
+      "title": "Reproduce a matrix-factorization benchmark",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0088",
+        "LA-N-0106"
+      ],
+      "outcomes": [
+        "Reproduce a published numerical result with controlled environment and metrics."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0117",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0118",
+      "title": "Design a conditioning and stability experiment",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0069",
+        "LA-N-0070",
+        "LA-N-0108"
+      ],
+      "outcomes": [
+        "Construct adversarial and representative inputs that distinguish conditioning from instability."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0118",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0119",
+      "title": "Inspect BLAS/LAPACK-level implementation boundaries",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0072",
+        "LA-N-0074",
+        "LA-N-0103"
+      ],
+      "outcomes": [
+        "Map high-level factorizations to library kernels, layouts, and performance constraints."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0119",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0120",
+      "title": "Reproducible numerical methodology",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0108",
+        "LA-N-0103"
+      ],
+      "outcomes": [
+        "Report precision, hardware, software versions, seeds, residuals, tolerances, and failure criteria."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0120",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0121",
+      "title": "Research ethics for mathematical software and benchmarks",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0109"
+      ],
+      "outcomes": [
+        "Avoid cherry-picked matrices, hidden preprocessing, misleading speedups, and irreproducible claims."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0121",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0122",
+      "title": "Build a literature map and isolate an open linear algebra question",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0105",
+        "LA-N-0106",
+        "LA-N-0110"
+      ],
+      "outcomes": [
+        "Trace a research lineage and distinguish an open question from a vague topic."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0122",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0123",
+      "title": "Randomized numerical linear algebra frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0099",
+        "LA-N-0112"
+      ],
+      "outcomes": [
+        "Compare current randomized/sketched methods and identify unresolved accuracy, communication, or robustness questions."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0123",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0124",
+      "title": "Tensor and multilinear algebra frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0097",
+        "LA-N-0112"
+      ],
+      "outcomes": [
+        "Map active problems in identifiability, scalable decomposition, structured tensors, and applications."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0124",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0125",
+      "title": "Large-scale spectral and graph linear algebra frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0082",
+        "LA-N-0087",
+        "LA-N-0112"
+      ],
+      "outcomes": [
+        "Identify open computational and theoretical issues in massive spectral problems."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0125",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0126",
+      "title": "Mixed-precision and hardware-aware linear algebra frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0102",
+        "LA-N-0103",
+        "LA-N-0112"
+      ],
+      "outcomes": [
+        "Study current tradeoffs among precision, energy, communication, reliability, and accelerator architecture."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0126",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0127",
+      "title": "Trustworthy and reproducible numerical linear algebra frontier",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0109",
+        "LA-N-0111"
+      ],
+      "outcomes": [
+        "Formulate reliability questions spanning algorithms, software, benchmarks, and reproducibility."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0127",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "LA-N-0128",
+      "title": "Original linear algebra research project",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "LA-N-0112",
+        "LA-N-0113",
+        "LA-N-0114",
+        "LA-N-0115",
+        "LA-N-0116"
+      ],
+      "outcomes": [
+        "Formulate, execute, critique, and communicate a contribution-grade theoretical or computational investigation."
+      ],
+      "target_concepts": [
+        {
+          "id": "LA-C-0128",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    }
+  ]
 }

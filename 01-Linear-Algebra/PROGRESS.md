@@ -2,20 +2,20 @@
 
 # Linear Algebra Curriculum Progress
 
-- **Track status:** scaffolded
-- **Curriculum audit:** not-audited
-- **Total nodes:** 0
-- **Planned:** 0
-- **Ready:** 0
+- **Track status:** active
+- **Curriculum audit:** audited
+- **Total nodes:** 128
+- **Planned:** 126
+- **Ready:** 1
 - **Drafting:** 0
-- **Published:** 0
+- **Published:** 1
 - **Deprecated:** 0
 
 ## Published by level
 
 | Level | Count |
 |---|---:|
-| L0 | 0 |
+| L0 | 1 |
 | L1 | 0 |
 | L2 | 0 |
 | L3 | 0 |

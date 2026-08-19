@@ -23,6 +23,27 @@
       "domain": "Linux identity and distributions",
       "first_lesson": "LNX-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-004",
+      "signature": "Classify a harmless shell experiment, package experiment, boot experiment, and filesystem-formatting experiment by the weakest safe isolation level",
+      "domain": "laboratory safety and isolation",
+      "first_lesson": "LNX-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-005",
+      "signature": "Compare host directory, container, virtual machine, and disk image as reversible Linux experiment environments",
+      "domain": "experiment design",
+      "first_lesson": "LNX-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-006",
+      "signature": "Create a user-owned lab directory and verify identity, working directory, kernel release, and distribution without privilege escalation",
+      "domain": "safe read-only reconnaissance",
+      "first_lesson": "LNX-0002",
+      "reuse_purpose": null
     }
   ]
 }

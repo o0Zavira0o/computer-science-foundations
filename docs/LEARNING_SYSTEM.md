@@ -442,6 +442,30 @@ Do not apply these mechanically when the discipline or learner state makes anoth
 
 ---
 
+## 12.5 Public readership and non-linear entry
+
+This repository is a public curriculum, not a private transcript of one learner's journey. Learner state is useful continuity metadata, but it must **not** become the editorial gate for curriculum authoring or lesson quality.
+
+Assume that many readers will arrive from search, a direct link, or a random browse. A strong lesson therefore:
+
+- identifies genuine prerequisites without forcing readers through irrelevant history;
+- gives a short orientation when a direct-entry reader would otherwise be lost;
+- links backward to canonical prerequisites rather than re-teaching them at the same depth;
+- remains useful even when `LEARNER_STATE.json` belongs to somebody else or is empty;
+- uses progressive disclosure so a casual reader can get the core model while a committed learner can continue into mechanism and active work.
+
+### Visual and interactive material
+
+Use visuals because they compress structure, not because every page needs artwork. Prefer, in order:
+
+1. a small equation/table when that is clearest;
+2. a text-native Mermaid diagram for relationships, flows, state transitions, and dependency structure;
+3. a carefully chosen static figure when geometry or spatial intuition genuinely benefits from it.
+
+Interactive Markdown patterns such as `<details>` may reveal hints, checks, counterexamples, or optional derivations after the reader has had a chance to predict. Core prerequisites and essential explanations must remain visible without interaction.
+
+A page can be excellent with no diagram. A page with five decorative diagrams can be worse than one precise figure.
+
 ## 13. Anatomy of a strong lesson
 
 Not every lesson needs identical headings, but a substantial lesson should accomplish this arc.

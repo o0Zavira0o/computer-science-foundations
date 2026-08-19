@@ -79,3 +79,21 @@ This file records high-impact repository design choices. Keep entries concise; G
 **Decision:** `09-Auxiliary-Studies/` is an organizational container, not a curriculum track. Advanced English, German Language, and Philosophy and Logic are nested independent tracks.
 
 **Why:** each subject needs separate prerequisites, learner state, coverage audits, and long-term research progression while remaining visibly grouped.
+
+## 2026-08-19 — Public-first authoring
+
+**Decision:** curriculum authoring optimizes for public educational quality and prerequisite integrity rather than the repository owner's personal reading sequence. Learner state remains optional continuity metadata and is never evidence that every visitor has followed the same path.
+
+**Why:** the repository is intended for many readers, including people who enter through random lessons or direct links.
+
+## 2026-08-19 — Selective visual and interactive teaching
+
+**Decision:** use interactive checks, Mermaid diagrams, and static figures selectively when they improve reasoning or spatial/causal understanding; do not impose a visual quota.
+
+**Why:** interaction and visuals can make difficult structures easier to inspect, but decorative density can reduce clarity.
+
+## 2026-08-19 — Dual licensing
+
+**Decision:** educational/documentation material is released under CC BY-SA 4.0; repository software under `scripts/`, `tests/`, `.github/workflows/`, and `schemas/` is GPL-3.0-or-later. Attribution guidance and AI-assistance boundaries are recorded at repository root.
+
+**Why:** the project should remain broadly reusable while requiring attribution and share-alike behavior for educational adaptations, and software should use a software-specific copyleft license rather than a Creative Commons license.
