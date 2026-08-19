@@ -86,6 +86,27 @@
       "domain": "manual-section literacy",
       "first_lesson": "LNX-0004",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-013",
+      "signature": "Resolve `/home/ada/lab/report.txt`, `lab/report.txt`, `./report.txt`, and `../shared/report.txt` from explicitly drawn working directories instead of guessing from the spelling alone",
+      "domain": "pathname resolution",
+      "first_lesson": "LNX-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-014",
+      "signature": "Build a disposable directory tree under a user-owned lab directory, navigate it with `cd`, inspect it with `pwd` and `ls -la`, and predict each resulting working directory before running the command",
+      "domain": "filesystem namespace navigation",
+      "first_lesson": "LNX-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-015",
+      "signature": "Compare `.config`, `.` and `..`, `/root`, the filesystem root `/`, and shell-expanded `~` to separate hidden names, special pathname components, the root account home, and shell syntax",
+      "domain": "pathname misconceptions",
+      "first_lesson": "LNX-0005",
+      "reuse_purpose": null
     }
   ]
 }

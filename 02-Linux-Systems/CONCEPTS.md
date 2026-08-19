@@ -8,7 +8,7 @@
 | `LNX-C-0002` | Linux learning sandbox | D1 | — |
 | `LNX-C-0003` | Command invocation | D1 | — |
 | `LNX-C-0004` | Linux documentation system | D1 | — |
-| `LNX-C-0005` | Filesystem namespace | — | — |
+| `LNX-C-0005` | Filesystem namespace | D1 | — |
 | `LNX-C-0006` | Directory navigation | — | — |
 | `LNX-C-0007` | Basic file operations | — | — |
 | `LNX-C-0008` | Text inspection and editing | — | — |

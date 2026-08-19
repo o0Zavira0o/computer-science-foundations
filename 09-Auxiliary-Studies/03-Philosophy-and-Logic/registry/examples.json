@@ -23,6 +23,27 @@
       "domain": "cross-field philosophical decomposition",
       "first_lesson": "PHL-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-004",
+      "signature": "Transform the open question of whether universities should use AI proctoring into a qualified normative claim, explicit empirical and normative premises, and a conclusion without hiding disagreement inside vague words",
+      "domain": "question-to-argument transformation",
+      "first_lesson": "PHL-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-005",
+      "signature": "Reconstruct a short paragraph about memory and personal identity by separating the author's conclusion, supporting reason, background assumption, and a premise that would need independent defense",
+      "domain": "argument reconstruction",
+      "first_lesson": "PHL-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-006",
+      "signature": "Compare an argument for carrying an umbrella with an explanation of why the pavement is wet to distinguish support for accepting a claim from an account of why an accepted fact occurred",
+      "domain": "argument versus explanation",
+      "first_lesson": "PHL-0002",
+      "reuse_purpose": null
     }
   ]
 }

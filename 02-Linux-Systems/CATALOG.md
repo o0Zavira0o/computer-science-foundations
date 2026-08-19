@@ -8,3 +8,4 @@
 | [`LNX-0002`](lessons/LNX-0002-build-a-safe-linux-learning-laboratory.md) | Build a safe Linux learning laboratory | L0 | complete | `LNX-N-0002` | 2026-08-19 |
 | [`LNX-0003`](lessons/LNX-0003-the-command-line-as-a-language-interface.md) | The command line as a language interface | L0 | complete | `LNX-N-0003` | 2026-08-19 |
 | [`LNX-0004`](lessons/LNX-0004-learn-to-ask-linux-for-help.md) | Learn to ask Linux for help | L0 | complete | `LNX-N-0004` | 2026-08-19 |
+| [`LNX-0005`](lessons/LNX-0005-paths-names-and-the-single-filesystem-tree.md) | Paths, names, and the single filesystem tree | L0 | complete | `LNX-N-0005` | 2026-08-19 |

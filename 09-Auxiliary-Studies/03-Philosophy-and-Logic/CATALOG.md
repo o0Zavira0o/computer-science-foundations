@@ -5,3 +5,4 @@
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
 | [`PHL-0001`](lessons/PHL-0001-what-philosophy-and-logic-are-actually-doing.md) | What philosophy and logic are actually doing | L0 | complete | `PHL-N-0001` | 2026-08-19 |
+| [`PHL-0002`](lessons/PHL-0002-questions-claims-reasons-and-arguments.md) | Questions, claims, reasons, and arguments | L0 | complete | `PHL-N-0002` | 2026-08-19 |

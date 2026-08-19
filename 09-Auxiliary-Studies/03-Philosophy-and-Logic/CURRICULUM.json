@@ -27,7 +27,7 @@
       "id": "PHL-N-0002",
       "title": "Questions, claims, reasons, and arguments",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "PHL-N-0001"
       ],
@@ -41,7 +41,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "PHL-0002"
     },
     {
       "id": "PHL-N-0003",

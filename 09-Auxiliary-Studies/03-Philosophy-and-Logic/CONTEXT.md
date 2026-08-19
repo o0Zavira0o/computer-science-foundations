@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 24
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 3
+- **Examples:** 6
 - **References:** 20
 
 ## Learner state
@@ -33,7 +33,9 @@
 
 ## Authoring candidates
 
-- `PHL-N-0002` — Questions, claims, reasons, and arguments (L0, planned)
+- `PHL-N-0003` — Premises, conclusions, and argument indicators (L0, planned)
+- `PHL-N-0007` — Ambiguity, vagueness, and conceptual distinctions (L0, planned)
+- `PHL-N-0018` — A map of philosophy: knowledge, reality, value, mind, language, science, and society (L0, planned)
 
 ## Learner next actions
 
@@ -43,6 +45,7 @@
 ## Recent lessons
 
 - `PHL-0001` — What philosophy and logic are actually doing (L0, complete)
+- `PHL-0002` — Questions, claims, reasons, and arguments (L0, complete)
 
 ## Normal-session retrieval rule
 
