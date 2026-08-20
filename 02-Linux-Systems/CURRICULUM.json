@@ -151,7 +151,7 @@
       "id": "LNX-N-0008",
       "title": "Read and edit text without losing context",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0007"
       ],
@@ -166,7 +166,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0008"
     },
     {
       "id": "LNX-N-0009",

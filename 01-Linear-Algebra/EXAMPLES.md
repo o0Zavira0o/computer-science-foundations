@@ -10,3 +10,6 @@
 | `LA-EX-004` | Represent a three-measurement sensor state as an ordered tuple and identify each scalar coordinate by index, meaning, and unit | coordinates and semantic ordering | LA-0002 | — |
 | `LA-EX-005` | Decode `B in R^(4x6)` and indexed entries such as `b_3,5` before seeing any numerical matrix values | matrix shape and indexed notation | LA-0002 | — |
 | `LA-EX-006` | Separate an underlying vector from its coordinate representation using the idea that a later basis change can alter coordinates without changing the represented object | object versus representation | LA-0002 | — |
+| `LA-EX-007` | Use the same coordinate pair as a geometric displacement and as a point location to separate numerical representation from semantic role | vector role and geometric interpretation | LA-0003 | — |
+| `LA-EX-008` | Represent a student or measurement record as an ordered feature vector and expose a silent coordinate-order contract bug that shape checking cannot detect | data-vector semantics | LA-0003 | — |
+| `LA-EX-009` | Design a small room or process state vector, label units and omitted variables, and explain why system state is model-relative | state-vector modeling | LA-0003 | — |

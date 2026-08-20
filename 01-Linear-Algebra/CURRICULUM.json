@@ -49,7 +49,7 @@
       "id": "LA-N-0003",
       "title": "Vectors as displacement, data, and state",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0002"
       ],
@@ -63,7 +63,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0003"
     },
     {
       "id": "LA-N-0004",

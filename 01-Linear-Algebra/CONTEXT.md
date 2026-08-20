@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 2
+- **Published lessons:** 3
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 6
+- **Examples:** 9
 - **References:** 14
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LA-N-0003` — Vectors as displacement, data, and state (L0, planned)
+- `LA-N-0004` — Vector addition and scalar multiplication (L0, planned)
 - `LA-N-0007` — Linear equations as constraints (L0, planned)
 
 ## Learner next actions
@@ -45,6 +45,7 @@
 
 - `LA-0001` — What linear algebra is actually studying (L0, complete)
 - `LA-0002` — Scalars, coordinates, tuples, and notation (L0, complete)
+- `LA-0003` — Vectors as displacement, data, and state (L0, complete)
 
 ## Normal-session retrieval rule
 

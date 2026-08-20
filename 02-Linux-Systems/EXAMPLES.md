@@ -25,3 +25,6 @@
 | `LNX-EX-019` | Use a disposable tree to predict and verify how `cp SOURCE DEST`, `cp SOURCE DIR/`, and `mv` choose destination pathnames and can replace existing files | filesystem mutation destination semantics | LNX-0007 | — |
 | `LNX-EX-020` | Compare `rmdir` with recursive `rm` to show how choosing the narrowest operation constrains deletion scope and turns refusal into useful safety evidence | destructive-operation scope | LNX-0007 | — |
 | `LNX-EX-021` | Create a filename beginning with `-` and distinguish shell quoting from utility option parsing using `--` or an explicit `./` pathname | operand versus option parsing | LNX-0007 | — |
+| `LNX-EX-022` | Choose `cat`, `head`, `tail`, or `less` from the amount and location of text context required instead of using one viewer by habit | text inspection tool selection | LNX-0008 | — |
+| `LNX-EX-023` | Use a disposable configuration copy to separate pathname verification, editor-buffer mutation, explicit write/save, and post-edit verification | safe terminal text editing | LNX-0008 | — |
+| `LNX-EX-024` | Diagnose a successful edit of the wrong relative pathname by reconstructing working-directory context and distinguishing editor success from application correctness | text editing context failure | LNX-0008 | — |

@@ -24,3 +24,5 @@
 | `LNX-REF-018` | Red Hat Enterprise Linux 10 Documentation | official-documentation | Red Hat | 2026-08-19 | 2027-02-19 |
 | `LNX-REF-019` | Fedora Linux Project | official-documentation | Fedora Project | 2026-08-19 | 2027-02-19 |
 | `LNX-REF-020` | Linux Kernel Researcher Guidelines | official-documentation | Linux kernel development community | 2026-08-19 | 2027-02-19 |
+| `LNX-REF-021` | Less Project Documentation | official-documentation | Less project / Mark Nudelman | 2026-08-20 | 2027-02-20 |
+| `LNX-REF-022` | The GNU nano Text Editor Manual | official-documentation | GNU nano project | 2026-08-20 | 2027-02-20 |

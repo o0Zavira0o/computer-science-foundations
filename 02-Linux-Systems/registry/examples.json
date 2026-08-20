@@ -149,6 +149,27 @@
       "domain": "operand versus option parsing",
       "first_lesson": "LNX-0007",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-022",
+      "signature": "Choose `cat`, `head`, `tail`, or `less` from the amount and location of text context required instead of using one viewer by habit",
+      "domain": "text inspection tool selection",
+      "first_lesson": "LNX-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-023",
+      "signature": "Use a disposable configuration copy to separate pathname verification, editor-buffer mutation, explicit write/save, and post-edit verification",
+      "domain": "safe terminal text editing",
+      "first_lesson": "LNX-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-024",
+      "signature": "Diagnose a successful edit of the wrong relative pathname by reconstructing working-directory context and distinguishing editor success from application correctness",
+      "domain": "text editing context failure",
+      "first_lesson": "LNX-0008",
+      "reuse_purpose": null
     }
   ]
 }

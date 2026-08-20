@@ -222,6 +222,28 @@
       "review_after": "2027-02-19",
       "version": null,
       "notes": "Research engagement, responsible contribution, bug reporting, fixes, and interaction with kernel developers."
+    },
+    {
+      "id": "LNX-REF-021",
+      "title": "Less Project Documentation",
+      "type": "official-documentation",
+      "authority": "Less project / Mark Nudelman",
+      "locator": "https://greenwoodsoftware.com/less/",
+      "reviewed_at": "2026-08-20",
+      "review_after": "2027-02-20",
+      "version": "less 704 current release reviewed",
+      "notes": "Official pager project documentation and release information; used for interactive viewing/search behavior and version-awareness."
+    },
+    {
+      "id": "LNX-REF-022",
+      "title": "The GNU nano Text Editor Manual",
+      "type": "official-documentation",
+      "authority": "GNU nano project",
+      "locator": "https://www.nano-editor.org/dist/latest/nano.html",
+      "reviewed_at": "2026-08-20",
+      "review_after": "2027-02-20",
+      "version": "GNU nano 9.2 manual reviewed",
+      "notes": "Official terminal editor manual covering invocation, basic editing, writing files, help, search/replace, and editor behavior."
     }
   ]
 }

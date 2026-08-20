@@ -44,6 +44,27 @@
       "domain": "object versus representation",
       "first_lesson": "LA-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-007",
+      "signature": "Use the same coordinate pair as a geometric displacement and as a point location to separate numerical representation from semantic role",
+      "domain": "vector role and geometric interpretation",
+      "first_lesson": "LA-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-008",
+      "signature": "Represent a student or measurement record as an ordered feature vector and expose a silent coordinate-order contract bug that shape checking cannot detect",
+      "domain": "data-vector semantics",
+      "first_lesson": "LA-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-009",
+      "signature": "Design a small room or process state vector, label units and omitted variables, and explain why system state is model-relative",
+      "domain": "state-vector modeling",
+      "first_lesson": "LA-0003",
+      "reuse_purpose": null
     }
   ]
 }
