@@ -63,7 +63,7 @@
       "id": "LNX-C-0009",
       "name": "Shell expansion basics",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "first curriculum target is LNX-N-0009."
     },
     {

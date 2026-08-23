@@ -12,7 +12,7 @@
 | `LNX-C-0006` | Directory navigation | D1 | — |
 | `LNX-C-0007` | Basic file operations | D1 | — |
 | `LNX-C-0008` | Text inspection and editing | D1 | — |
-| `LNX-C-0009` | Shell expansion basics | — | — |
+| `LNX-C-0009` | Shell expansion basics | D1 | — |
 | `LNX-C-0010` | Unix stream composition | — | — |
 | `LNX-C-0011` | Text-processing toolbox | — | — |
 | `LNX-C-0012` | Unix identity and permission model | — | — |

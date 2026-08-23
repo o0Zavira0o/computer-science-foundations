@@ -65,6 +65,27 @@
       "domain": "state-vector modeling",
       "first_lesson": "LA-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-010",
+      "signature": "Combine two planar displacement vectors geometrically and coordinate-wise, then verify the endpoint agrees with head-to-tail addition.",
+      "domain": "vector addition geometry",
+      "first_lesson": "LA-0004",
+      "reuse_purpose": "Connect coordinate addition to sequential displacement and commutativity."
+    },
+    {
+      "id": "LA-EX-011",
+      "signature": "Scale one system-change vector by positive, zero, and negative scalars to separate resizing, nullification, and reversal.",
+      "domain": "scalar multiplication semantics",
+      "first_lesson": "LA-0004",
+      "reuse_purpose": "Build geometric and state-change intuition for scalar multiplication and additive inverse."
+    },
+    {
+      "id": "LA-EX-012",
+      "signature": "Compare algebraically compatible coordinate vectors whose real-world units or state/change semantics make addition or scaling questionable.",
+      "domain": "modeling contract",
+      "first_lesson": "LA-0004",
+      "reuse_purpose": "Separate algebraic validity from semantic validity in vector models."
     }
   ]
 }

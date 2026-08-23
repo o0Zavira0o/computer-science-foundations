@@ -170,6 +170,27 @@
       "domain": "text editing context failure",
       "first_lesson": "LNX-0008",
       "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-025",
+      "signature": "Use printf to expose argument boundaries while comparing unquoted globs with quoted literal patterns across filenames including spaces.",
+      "domain": "shell pathname expansion",
+      "first_lesson": "LNX-0009",
+      "reuse_purpose": "Make shell-side glob expansion and final argv boundaries observable without changing important files."
+    },
+    {
+      "id": "LNX-EX-026",
+      "signature": "Expand scalar variables containing spaces and glob characters with and without double quotes, then compare the resulting argument fields.",
+      "domain": "shell quoting and word splitting",
+      "first_lesson": "LNX-0009",
+      "reuse_purpose": "Show how quote context controls splitting and pathname expansion after parameter expansion."
+    },
+    {
+      "id": "LNX-EX-027",
+      "signature": "Compare quoted and unquoted command substitution whose captured output contains multiple lines, observing trailing-newline removal and later field splitting.",
+      "domain": "shell command substitution",
+      "first_lesson": "LNX-0009",
+      "reuse_purpose": "Separate command-substitution capture from the later effects of quote context on argument construction."
     }
   ]
 }

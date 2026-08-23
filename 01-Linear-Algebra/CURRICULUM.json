@@ -69,7 +69,7 @@
       "id": "LA-N-0004",
       "title": "Vector addition and scalar multiplication",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0003"
       ],
@@ -83,7 +83,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0004"
     },
     {
       "id": "LA-N-0005",

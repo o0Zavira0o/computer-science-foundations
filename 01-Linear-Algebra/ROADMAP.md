@@ -15,7 +15,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LA-N-0001` | What linear algebra is actually studying | published | — | LA-0001 |
 | `LA-N-0002` | Scalars, coordinates, tuples, and notation | published | LA-N-0001 | LA-0002 |
 | `LA-N-0003` | Vectors as displacement, data, and state | published | LA-N-0002 | LA-0003 |
-| `LA-N-0004` | Vector addition and scalar multiplication | planned | LA-N-0003 | — |
+| `LA-N-0004` | Vector addition and scalar multiplication | published | LA-N-0003 | LA-0004 |
 | `LA-N-0005` | Linear combinations and weighted mixtures | planned | LA-N-0004 | — |
 | `LA-N-0006` | Span: what combinations can reach | planned | LA-N-0005 | — |
 | `LA-N-0007` | Linear equations as constraints | planned | LA-N-0002 | — |

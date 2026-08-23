@@ -12,3 +12,4 @@
 | [`LNX-0006`](lessons/LNX-0006-navigate-and-inspect-directories.md) | Navigate and inspect directories | L0 | complete | `LNX-N-0006` | 2026-08-19 |
 | [`LNX-0007`](lessons/LNX-0007-create-copy-move-and-remove-files-safely.md) | Create, copy, move, and remove files safely | L0 | complete | `LNX-N-0007` | 2026-08-19 |
 | [`LNX-0008`](lessons/LNX-0008-read-and-edit-text-without-losing-context.md) | Read and edit text without losing context | L0 | complete | `LNX-N-0008` | 2026-08-20 |
+| [`LNX-0009`](lessons/LNX-0009-quoting-globbing-and-expansion.md) | Quoting, globbing, and expansion | L0 | complete | `LNX-N-0009` | 2026-08-23 |

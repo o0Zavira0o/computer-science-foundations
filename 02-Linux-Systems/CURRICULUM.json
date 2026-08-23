@@ -172,7 +172,7 @@
       "id": "LNX-N-0009",
       "title": "Quoting, globbing, and expansion",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0003"
       ],
@@ -187,7 +187,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0009"
     },
     {
       "id": "LNX-N-0010",
