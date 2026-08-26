@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/example-registry.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "examples": [
+    {
+      "id": "PWR-EX-001",
+      "signature": "A household load rated 2 kW operating for 3 h: distinguish power from energy",
+      "domain": "power versus energy",
+      "first_lesson": "PWR-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-002",
+      "signature": "Trace one unit of electrical delivery from generator through transmission and distribution to a customer",
+      "domain": "power-system architecture",
+      "first_lesson": "PWR-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-003",
+      "signature": "A grid with enough annual energy but insufficient instantaneous power: explain why adequacy is time-dependent",
+      "domain": "system balancing",
+      "first_lesson": "PWR-0001",
+      "reuse_purpose": null
+    }
+  ]
+}

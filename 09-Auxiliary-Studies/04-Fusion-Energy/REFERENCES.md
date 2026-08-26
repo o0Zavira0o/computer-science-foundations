@@ -11,3 +11,5 @@
 | `FUS-REF-005` | Achieving Fusion Ignition | official-documentation | Lawrence Livermore National Laboratory, National Ignition Facility | 2026-08-26 | 2027-02-26 |
 | `FUS-REF-006` | ITER FAQs: fusion gain, engineering breakeven, and electricity generation | official-documentation | ITER Organization | 2026-08-26 | 2027-02-26 |
 | `FUS-REF-007` | Sectional view of ITER tokamak reactor | other | A. M. Miri, S. Fink, W. H. Fietz / Wikimedia Commons | 2026-08-26 | — |
+| `FUS-REF-008` | Hydrogen Deuterium Tritium Nuclei Schmatic-en.svg | other | Dirk Hünniger; English derivative by Balajijagadesh / Wikimedia Commons | 2026-08-26 | — |
+| `FUS-REF-009` | DOE Explains...Isotopes | official-documentation | U.S. Department of Energy, Office of Science | 2026-08-26 | 2027-08-26 |

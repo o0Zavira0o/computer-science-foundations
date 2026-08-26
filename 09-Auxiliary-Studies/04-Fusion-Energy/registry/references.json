@@ -79,6 +79,28 @@
       "review_after": null,
       "version": null,
       "notes": "CC BY 4.0 sectional ITER visual embedded in FUS-0001 as a physical anchor for tokamak magnetic confinement. Direct media: https://upload.wikimedia.org/wikipedia/commons/a/ab/Sectional-view-of-ITER-tokamak-reactor.jpg"
+    },
+    {
+      "id": "FUS-REF-008",
+      "title": "Hydrogen Deuterium Tritium Nuclei Schmatic-en.svg",
+      "type": "other",
+      "authority": "Dirk Hünniger; English derivative by Balajijagadesh / Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Hydrogen_Deuterium_Tritium_Nuclei_Schmatic-en.svg",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "CC BY-SA 3.0 visual embedded in FUS-0002 to show that hydrogen isotopes keep one proton while neutron count changes. Direct media via Wikimedia Special:Redirect/file."
+    },
+    {
+      "id": "FUS-REF-009",
+      "title": "DOE Explains...Isotopes",
+      "type": "official-documentation",
+      "authority": "U.S. Department of Energy, Office of Science",
+      "locator": "https://www.energy.gov/science/doe-explainsisotopes",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": null,
+      "notes": "Introductory authoritative cross-check for isotope identity, proton number, neutron number, and hydrogen isotope naming."
     }
   ]
 }

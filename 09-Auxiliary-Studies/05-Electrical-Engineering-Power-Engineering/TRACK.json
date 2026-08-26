@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "electrical-engineering-power",
+  "code": "PWR",
+  "title": "Electrical Engineering — Power Engineering",
+  "folder": "05-Electrical-Engineering-Power-Engineering",
+  "order": 13,
+  "status": "active",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Electrical engineering with a power-engineering focus, from absolute electrical foundations through AC systems, machines, transformers, transmission, distribution, power flow, faults, protection, stability, control, power electronics, renewables, markets, planning, and modern-grid research literacy.",
+    "includes": [
+      "Charge, current, voltage, energy, power, DC circuits, sinusoidal steady state, phasors, impedance, three-phase systems, and complex power",
+      "Magnetics, transformers, synchronous and induction machines, per-unit modeling, and single-line representations",
+      "Transmission, distribution, load modeling, power flow, faults, grounding, protection, voltage control, frequency control, and stability",
+      "Power electronics, HVDC, FACTS, renewable generation, battery storage, inverter-based resources, DERs, and microgrids",
+      "State estimation, SCADA/EMS, reliability, resilience, markets, optimization, planning, simulation, interconnection standards, and cybersecurity",
+      "Computational reproduction, systems design, critical paper reading, research-question formation, and frontier refreshes"
+    ],
+    "delegates": [
+      "General mathematical machinery may import explicit prerequisites from Linear Algebra or Complex Analysis when advanced derivations require it rather than silently assuming those skills.",
+      "Low-level programming and large software projects may import explicit prerequisites from C++ or Computer Systems when computational projects require them."
+    ]
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "linear-algebra",
+    "complex-analysis",
+    "cpp",
+    "computer-systems",
+    "fusion-energy"
+  ]
+}

@@ -23,6 +23,27 @@
       "domain": "whole-plant net power",
       "first_lesson": "FUS-0001",
       "reuse_purpose": "Reuse later for efficiency, recirculating-power, availability, and economics calculations."
+    },
+    {
+      "id": "FUS-EX-004",
+      "signature": "Decode lithium-7 nuclide notation into proton, neutron, and nucleon counts",
+      "domain": "nuclear bookkeeping",
+      "first_lesson": "FUS-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-005",
+      "signature": "Compare carbon-12 and carbon-14 to distinguish element identity from isotope identity",
+      "domain": "isotopes",
+      "first_lesson": "FUS-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-006",
+      "signature": "Reject a deliberately malformed D-T reaction by auditing A and Z totals",
+      "domain": "reaction bookkeeping",
+      "first_lesson": "FUS-0002",
+      "reuse_purpose": null
     }
   ]
 }

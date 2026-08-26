@@ -7,7 +7,7 @@
 | `FUS-C-0001` | Controlled fusion as an energy-conversion chain | D1 | fusion energy chain |
 | `FUS-C-0002` | Fusion system boundaries and gain metrics | D1 | fusion gain, Q, breakeven |
 | `FUS-C-0003` | Scientific milestone versus power-plant performance | D1 | scientific breakeven, engineering breakeven |
-| `FUS-C-0004` | Atoms, nuclei, isotopes, and nuclear bookkeeping | — | — |
+| `FUS-C-0004` | Atoms, nuclei, isotopes, and nuclear bookkeeping | D1 | — |
 | `FUS-C-0005` | Binding energy, mass defect, and where fusion energy comes from | — | — |
 | `FUS-C-0006` | Coulomb repulsion, collision energy, and quantum tunneling | — | — |
 | `FUS-C-0007` | Temperature, plasma, and what a hot fusion fuel really is | — | — |

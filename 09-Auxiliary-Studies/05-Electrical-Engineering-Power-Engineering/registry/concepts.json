@@ -1,0 +1,520 @@
+{
+  "$schema": "../../../schemas/concept-registry.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "concepts": [
+    {
+      "id": "PWR-C-0001",
+      "name": "Power system as an interconnected energy-transfer and control system",
+      "aliases": [
+        "electric power system",
+        "grid system boundary"
+      ],
+      "current_depth": "D1",
+      "notes": "Treat generation, conversion, transmission, distribution, control, protection, and loads as one coupled system."
+    },
+    {
+      "id": "PWR-C-0002",
+      "name": "Electrical power versus electrical energy",
+      "aliases": [
+        "power-energy distinction",
+        "kW versus kWh"
+      ],
+      "current_depth": "D1",
+      "notes": "Keep rate of energy transfer separate from accumulated energy."
+    },
+    {
+      "id": "PWR-C-0003",
+      "name": "Power-system layers and operating constraints",
+      "aliases": [
+        "generation transmission distribution",
+        "grid operating constraints"
+      ],
+      "current_depth": "D1",
+      "notes": "Recognize that voltage, frequency, thermal, stability, protection, reliability, and economic constraints coexist."
+    },
+    {
+      "id": "PWR-C-0004",
+      "name": "Charge, current, voltage, energy, and power",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting charge, current, voltage, energy, and power."
+    },
+    {
+      "id": "PWR-C-0005",
+      "name": "DC circuits: sources, loads, resistance, KCL, and KVL",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting dc circuits: sources, loads, resistance, kcl, and kvl."
+    },
+    {
+      "id": "PWR-C-0006",
+      "name": "Reference directions, signs, and passive-versus-active power",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reference directions, signs, and passive-versus-active power."
+    },
+    {
+      "id": "PWR-C-0007",
+      "name": "Sinusoids, frequency, phase, and the AC waveform",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting sinusoids, frequency, phase, and the ac waveform."
+    },
+    {
+      "id": "PWR-C-0008",
+      "name": "RMS values and why AC ratings use them",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting rms values and why ac ratings use them."
+    },
+    {
+      "id": "PWR-C-0009",
+      "name": "Complex numbers and phasors as AC bookkeeping tools",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting complex numbers and phasors as ac bookkeeping tools."
+    },
+    {
+      "id": "PWR-C-0010",
+      "name": "Resistance, inductance, capacitance, and impedance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting resistance, inductance, capacitance, and impedance."
+    },
+    {
+      "id": "PWR-C-0011",
+      "name": "Real, reactive, apparent power, and power factor",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting real, reactive, apparent power, and power factor."
+    },
+    {
+      "id": "PWR-C-0012",
+      "name": "Three-phase systems and balanced operation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting three-phase systems and balanced operation."
+    },
+    {
+      "id": "PWR-C-0013",
+      "name": "Magnetic fields, flux, and electromagnetic induction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting magnetic fields, flux, and electromagnetic induction."
+    },
+    {
+      "id": "PWR-C-0014",
+      "name": "Transformers: turns ratio, isolation, and voltage conversion",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transformers: turns ratio, isolation, and voltage conversion."
+    },
+    {
+      "id": "PWR-C-0015",
+      "name": "Transformer equivalent circuits, losses, and regulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transformer equivalent circuits, losses, and regulation."
+    },
+    {
+      "id": "PWR-C-0016",
+      "name": "Rotating magnetic fields and electromechanical conversion",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting rotating magnetic fields and electromechanical conversion."
+    },
+    {
+      "id": "PWR-C-0017",
+      "name": "Synchronous generators: how mechanical torque becomes AC power",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting synchronous generators: how mechanical torque becomes ac power."
+    },
+    {
+      "id": "PWR-C-0018",
+      "name": "Induction motors and induction generators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting induction motors and induction generators."
+    },
+    {
+      "id": "PWR-C-0019",
+      "name": "Synchronous motors and reactive-power capability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting synchronous motors and reactive-power capability."
+    },
+    {
+      "id": "PWR-C-0020",
+      "name": "Per-unit normalization and why power engineers use it",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting per-unit normalization and why power engineers use it."
+    },
+    {
+      "id": "PWR-C-0021",
+      "name": "Single-line diagrams and three-phase system representation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting single-line diagrams and three-phase system representation."
+    },
+    {
+      "id": "PWR-C-0022",
+      "name": "Generation, transmission, distribution, and load as one interconnected system",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting generation, transmission, distribution, and load as one interconnected system."
+    },
+    {
+      "id": "PWR-C-0023",
+      "name": "Transmission-line resistance, inductance, capacitance, and conductance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transmission-line resistance, inductance, capacitance, and conductance."
+    },
+    {
+      "id": "PWR-C-0024",
+      "name": "Short, medium, and long transmission-line models",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting short, medium, and long transmission-line models."
+    },
+    {
+      "id": "PWR-C-0025",
+      "name": "Voltage drop, losses, efficiency, and voltage regulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting voltage drop, losses, efficiency, and voltage regulation."
+    },
+    {
+      "id": "PWR-C-0026",
+      "name": "Power transfer across predominantly reactive lines",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting power transfer across predominantly reactive lines."
+    },
+    {
+      "id": "PWR-C-0027",
+      "name": "Distribution feeders, transformers, voltage levels, and service delivery",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting distribution feeders, transformers, voltage levels, and service delivery."
+    },
+    {
+      "id": "PWR-C-0028",
+      "name": "Radial, looped, and networked distribution topologies",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting radial, looped, and networked distribution topologies."
+    },
+    {
+      "id": "PWR-C-0029",
+      "name": "Load models, diversity, demand, and load duration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting load models, diversity, demand, and load duration."
+    },
+    {
+      "id": "PWR-C-0030",
+      "name": "Bus admittance matrices and network equations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting bus admittance matrices and network equations."
+    },
+    {
+      "id": "PWR-C-0031",
+      "name": "Slack, PV, and PQ buses",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting slack, pv, and pq buses."
+    },
+    {
+      "id": "PWR-C-0032",
+      "name": "AC power flow and the Newton-Raphson method",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting ac power flow and the newton-raphson method."
+    },
+    {
+      "id": "PWR-C-0033",
+      "name": "DC power flow and its assumptions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting dc power flow and its assumptions."
+    },
+    {
+      "id": "PWR-C-0034",
+      "name": "Generator dispatch and active-power balance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting generator dispatch and active-power balance."
+    },
+    {
+      "id": "PWR-C-0035",
+      "name": "Frequency, inertia, and the instantaneous supply-demand balance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting frequency, inertia, and the instantaneous supply-demand balance."
+    },
+    {
+      "id": "PWR-C-0036",
+      "name": "Primary frequency response and governor action",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting primary frequency response and governor action."
+    },
+    {
+      "id": "PWR-C-0037",
+      "name": "Secondary frequency control and automatic generation control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting secondary frequency control and automatic generation control."
+    },
+    {
+      "id": "PWR-C-0038",
+      "name": "Reactive power, voltage control, and voltage support",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reactive power, voltage control, and voltage support."
+    },
+    {
+      "id": "PWR-C-0039",
+      "name": "Faults, short circuits, and fault current",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting faults, short circuits, and fault current."
+    },
+    {
+      "id": "PWR-C-0040",
+      "name": "Symmetrical components and unbalanced faults",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting symmetrical components and unbalanced faults."
+    },
+    {
+      "id": "PWR-C-0041",
+      "name": "Protective relays, breakers, zones, selectivity, and coordination",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting protective relays, breakers, zones, selectivity, and coordination."
+    },
+    {
+      "id": "PWR-C-0042",
+      "name": "Grounding and earth-fault protection",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting grounding and earth-fault protection."
+    },
+    {
+      "id": "PWR-C-0043",
+      "name": "Synchronous-machine rotor dynamics and the swing equation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting synchronous-machine rotor dynamics and the swing equation."
+    },
+    {
+      "id": "PWR-C-0044",
+      "name": "Transient stability after large disturbances",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transient stability after large disturbances."
+    },
+    {
+      "id": "PWR-C-0045",
+      "name": "Small-signal stability and electromechanical oscillations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting small-signal stability and electromechanical oscillations."
+    },
+    {
+      "id": "PWR-C-0046",
+      "name": "Voltage stability, collapse, and reactive-power limits",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting voltage stability, collapse, and reactive-power limits."
+    },
+    {
+      "id": "PWR-C-0047",
+      "name": "Power quality: harmonics, flicker, sags, swells, and interruptions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting power quality: harmonics, flicker, sags, swells, and interruptions."
+    },
+    {
+      "id": "PWR-C-0048",
+      "name": "Power electronic switches and converter building blocks",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting power electronic switches and converter building blocks."
+    },
+    {
+      "id": "PWR-C-0049",
+      "name": "Rectifiers, inverters, PWM, and converter control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting rectifiers, inverters, pwm, and converter control."
+    },
+    {
+      "id": "PWR-C-0050",
+      "name": "HVDC transmission and FACTS",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting hvdc transmission and facts."
+    },
+    {
+      "id": "PWR-C-0051",
+      "name": "Solar PV and wind generation as grid-connected resources",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting solar pv and wind generation as grid-connected resources."
+    },
+    {
+      "id": "PWR-C-0052",
+      "name": "Battery energy storage and grid services",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting battery energy storage and grid services."
+    },
+    {
+      "id": "PWR-C-0053",
+      "name": "Inverter-based resources: grid-following and grid-forming control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting inverter-based resources: grid-following and grid-forming control."
+    },
+    {
+      "id": "PWR-C-0054",
+      "name": "Distributed energy resources and hosting capacity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting distributed energy resources and hosting capacity."
+    },
+    {
+      "id": "PWR-C-0055",
+      "name": "Microgrids, islanding, and resynchronization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting microgrids, islanding, and resynchronization."
+    },
+    {
+      "id": "PWR-C-0056",
+      "name": "State estimation, observability, and bad-data detection",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting state estimation, observability, and bad-data detection."
+    },
+    {
+      "id": "PWR-C-0057",
+      "name": "SCADA, EMS, communications, and operational situational awareness",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting scada, ems, communications, and operational situational awareness."
+    },
+    {
+      "id": "PWR-C-0058",
+      "name": "Reliability, adequacy, security, resilience, and N-1 thinking",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reliability, adequacy, security, resilience, and n-1 thinking."
+    },
+    {
+      "id": "PWR-C-0059",
+      "name": "Electricity markets, ancillary services, and operational incentives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting electricity markets, ancillary services, and operational incentives."
+    },
+    {
+      "id": "PWR-C-0060",
+      "name": "Unit commitment and economic dispatch with constraints",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting unit commitment and economic dispatch with constraints."
+    },
+    {
+      "id": "PWR-C-0061",
+      "name": "Optimal power flow and security-constrained operation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting optimal power flow and security-constrained operation."
+    },
+    {
+      "id": "PWR-C-0062",
+      "name": "Generation and transmission expansion planning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting generation and transmission expansion planning."
+    },
+    {
+      "id": "PWR-C-0063",
+      "name": "Uncertainty, scenarios, stochastic optimization, and robust planning",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting uncertainty, scenarios, stochastic optimization, and robust planning."
+    },
+    {
+      "id": "PWR-C-0064",
+      "name": "Electromagnetic-transient versus phasor-domain simulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting electromagnetic-transient versus phasor-domain simulation."
+    },
+    {
+      "id": "PWR-C-0065",
+      "name": "Protection and stability with high shares of inverter-based resources",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting protection and stability with high shares of inverter-based resources."
+    },
+    {
+      "id": "PWR-C-0066",
+      "name": "Interconnection requirements, standards, and grid codes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting interconnection requirements, standards, and grid codes."
+    },
+    {
+      "id": "PWR-C-0067",
+      "name": "Cybersecurity of power-system operational technology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting cybersecurity of power-system operational technology."
+    },
+    {
+      "id": "PWR-C-0068",
+      "name": "Read a power-systems research paper critically",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting read a power-systems research paper critically."
+    },
+    {
+      "id": "PWR-C-0069",
+      "name": "Reproduce a power-flow, fault, or stability result computationally",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reproduce a power-flow, fault, or stability result computationally."
+    },
+    {
+      "id": "PWR-C-0070",
+      "name": "Design and defend a conceptual power system under competing constraints",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting design and defend a conceptual power system under competing constraints."
+    },
+    {
+      "id": "PWR-C-0071",
+      "name": "Turn an unresolved grid problem into a researchable question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting turn an unresolved grid problem into a researchable question."
+    },
+    {
+      "id": "PWR-C-0072",
+      "name": "Refresh the power-engineering frontier from standards and primary evidence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting refresh the power-engineering frontier from standards and primary evidence."
+    }
+  ]
+}

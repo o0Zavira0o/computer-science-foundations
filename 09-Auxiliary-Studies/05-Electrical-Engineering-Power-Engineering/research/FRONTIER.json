@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/frontier.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "status": "active",
+  "snapshot_date": "2026-08-26",
+  "review_due": "2027-02-26",
+  "areas": [
+    "grid-forming and grid-following inverter-based resources",
+    "protection and system-strength challenges under converter-dominated operation",
+    "long-duration and distributed energy storage",
+    "large-load integration, data centers, and fast-changing demand",
+    "transmission expansion, HVDC, and interregional transfer capability",
+    "distribution-system hosting capacity and active DER coordination",
+    "power-system cybersecurity, resilience, and operational technology",
+    "probabilistic planning under weather, renewable, load, and outage uncertainty"
+  ],
+  "open_questions": [
+    "How should stability, protection, and reliability methods evolve when synchronous-machine behavior is no longer the dominant source of grid dynamics?",
+    "Which combinations of transmission, storage, flexible demand, and distributed resources minimize total system risk rather than a single component cost?",
+    "Which modeling assumptions remain valid across phasor-domain, electromagnetic-transient, market, and planning timescales?"
+  ],
+  "notes": "Frontier state is time-bounded. Refresh current NERC/NIST/DOE standards, reliability guidance, interconnection requirements, and primary literature before L5 current-status claims."
+}

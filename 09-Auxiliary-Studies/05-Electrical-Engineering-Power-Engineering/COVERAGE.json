@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/coverage.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "baseline": {
+    "status": "audited",
+    "last_audited": "2026-08-26",
+    "sources": [
+      "PWR-REF-001",
+      "PWR-REF-002",
+      "PWR-REF-003",
+      "PWR-REF-004",
+      "PWR-REF-005",
+      "PWR-REF-006"
+    ]
+  },
+  "items": [
+    {
+      "id": "PWR-COV-001",
+      "title": "Electrical and AC foundations",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-001",
+        "PWR-REF-002"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0001",
+        "PWR-N-0002",
+        "PWR-N-0003",
+        "PWR-N-0004",
+        "PWR-N-0005",
+        "PWR-N-0006",
+        "PWR-N-0007",
+        "PWR-N-0008",
+        "PWR-N-0009",
+        "PWR-N-0010"
+      ],
+      "rationale": "Starts below the usual university prerequisite line so the track is genuinely accessible from zero subject-specific knowledge."
+    },
+    {
+      "id": "PWR-COV-002",
+      "title": "Magnetic devices, machines, and system representation",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-001",
+        "PWR-REF-002"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0011",
+        "PWR-N-0012",
+        "PWR-N-0013",
+        "PWR-N-0014",
+        "PWR-N-0015",
+        "PWR-N-0016",
+        "PWR-N-0017",
+        "PWR-N-0018",
+        "PWR-N-0019",
+        "PWR-N-0020"
+      ],
+      "rationale": "Builds electromechanical conversion and practical system representation before network studies."
+    },
+    {
+      "id": "PWR-COV-003",
+      "title": "Transmission, distribution, loads, and power flow",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-001",
+        "PWR-REF-002",
+        "PWR-REF-003"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0021",
+        "PWR-N-0022",
+        "PWR-N-0023",
+        "PWR-N-0024",
+        "PWR-N-0025",
+        "PWR-N-0026",
+        "PWR-N-0027",
+        "PWR-N-0028",
+        "PWR-N-0029",
+        "PWR-N-0030",
+        "PWR-N-0031",
+        "PWR-N-0032"
+      ],
+      "rationale": "Covers the network models and steady-state calculations central to classical power-system analysis."
+    },
+    {
+      "id": "PWR-COV-004",
+      "title": "Frequency, voltage, faults, protection, and stability",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-002",
+        "PWR-REF-005"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0033",
+        "PWR-N-0034",
+        "PWR-N-0035",
+        "PWR-N-0036",
+        "PWR-N-0037",
+        "PWR-N-0038",
+        "PWR-N-0039",
+        "PWR-N-0040",
+        "PWR-N-0041",
+        "PWR-N-0042",
+        "PWR-N-0043",
+        "PWR-N-0044",
+        "PWR-N-0045"
+      ],
+      "rationale": "Maps core operating-security and disturbance-response topics into explicit learning nodes."
+    },
+    {
+      "id": "PWR-COV-005",
+      "title": "Power electronics, renewables, storage, DERs, and modern distribution",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-004",
+        "PWR-REF-005"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0046",
+        "PWR-N-0047",
+        "PWR-N-0048",
+        "PWR-N-0049",
+        "PWR-N-0050",
+        "PWR-N-0051",
+        "PWR-N-0052",
+        "PWR-N-0053"
+      ],
+      "rationale": "Adds converter-dominated resources and distributed architectures rather than treating the grid as permanently synchronous-machine dominated."
+    },
+    {
+      "id": "PWR-COV-006",
+      "title": "Monitoring, reliability, markets, optimization, planning, and advanced simulation",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-004",
+        "PWR-REF-005",
+        "PWR-REF-006"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0054",
+        "PWR-N-0055",
+        "PWR-N-0056",
+        "PWR-N-0057",
+        "PWR-N-0058",
+        "PWR-N-0059",
+        "PWR-N-0060",
+        "PWR-N-0061",
+        "PWR-N-0062",
+        "PWR-N-0063"
+      ],
+      "rationale": "Connects physical network behavior to operations, reliability institutions, economics, optimization, and simulation."
+    },
+    {
+      "id": "PWR-COV-007",
+      "title": "Modern-grid standards, cybersecurity, and research literacy",
+      "status": "covered",
+      "source_refs": [
+        "PWR-REF-004",
+        "PWR-REF-005"
+      ],
+      "mapped_nodes": [
+        "PWR-N-0064",
+        "PWR-N-0065",
+        "PWR-N-0066",
+        "PWR-N-0067",
+        "PWR-N-0068",
+        "PWR-N-0069",
+        "PWR-N-0070"
+      ],
+      "rationale": "Keeps advanced study evidence-aware and explicitly version-sensitive where standards and grid technology evolve."
+    }
+  ],
+  "unresolved_questions": []
+}

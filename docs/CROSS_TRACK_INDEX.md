@@ -37,3 +37,8 @@
 | Fusion Energy | Complex Analysis | declared neighbor |
 | Fusion Energy | C++ | declared neighbor |
 | Fusion Energy | Computer Systems | declared neighbor |
+| Electrical Engineering — Power Engineering | Linear Algebra | declared neighbor |
+| Electrical Engineering — Power Engineering | Complex Analysis | declared neighbor |
+| Electrical Engineering — Power Engineering | C++ | declared neighbor |
+| Electrical Engineering — Power Engineering | Computer Systems | declared neighbor |
+| Electrical Engineering — Power Engineering | Fusion Energy | declared neighbor |

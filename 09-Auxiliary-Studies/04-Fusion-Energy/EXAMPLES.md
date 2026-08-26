@@ -7,3 +7,6 @@
 | `FUS-EX-001` | One headline, three energy boundaries: target gain, plasma Q, and net-electric output | energy accounting and scientific communication | FUS-0001 | Reuse later to deepen whole-plant power balance and compare claims across confinement approaches. |
 | `FUS-EX-002` | ITER Q=10 design goal without electricity generation | magnetic-confinement experiment versus power plant | FUS-0001 | Reuse when tokamak subsystems and engineering breakeven are introduced. |
 | `FUS-EX-003` | A hypothetical 1000 MW gross-electric plant with 300 MW recirculating load | whole-plant net power | FUS-0001 | Reuse later for efficiency, recirculating-power, availability, and economics calculations. |
+| `FUS-EX-004` | Decode lithium-7 nuclide notation into proton, neutron, and nucleon counts | nuclear bookkeeping | FUS-0002 | — |
+| `FUS-EX-005` | Compare carbon-12 and carbon-14 to distinguish element identity from isotope identity | isotopes | FUS-0002 | — |
+| `FUS-EX-006` | Reject a deliberately malformed D-T reaction by auditing A and Z totals | reaction bookkeeping | FUS-0002 | — |

@@ -1,0 +1,1485 @@
+{
+  "$schema": "../../schemas/curriculum.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-26",
+  "nodes": [
+    {
+      "id": "PWR-N-0001",
+      "title": "What electrical power engineering is actually studying",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Explain what electrical power engineering is actually studying using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0001",
+          "target_depth": "D1"
+        },
+        {
+          "id": "PWR-C-0002",
+          "target_depth": "D1"
+        },
+        {
+          "id": "PWR-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "power-system-foundations",
+      "lesson_id": "PWR-0001"
+    },
+    {
+      "id": "PWR-N-0002",
+      "title": "Charge, current, voltage, energy, and power",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "PWR-N-0001"
+      ],
+      "outcomes": [
+        "Explain charge, current, voltage, energy, and power using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "power-system-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0003",
+      "title": "DC circuits: sources, loads, resistance, KCL, and KVL",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0002"
+      ],
+      "outcomes": [
+        "Explain dc circuits: sources, loads, resistance, kcl, and kvl using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "power-system-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0004",
+      "title": "Reference directions, signs, and passive-versus-active power",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0003"
+      ],
+      "outcomes": [
+        "Explain reference directions, signs, and passive-versus-active power using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "power-system-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0005",
+      "title": "Sinusoids, frequency, phase, and the AC waveform",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0004"
+      ],
+      "outcomes": [
+        "Explain sinusoids, frequency, phase, and the ac waveform using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0006",
+      "title": "RMS values and why AC ratings use them",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0005"
+      ],
+      "outcomes": [
+        "Explain rms values and why ac ratings use them using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0007",
+      "title": "Complex numbers and phasors as AC bookkeeping tools",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0006"
+      ],
+      "outcomes": [
+        "Explain complex numbers and phasors as ac bookkeeping tools using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0008",
+      "title": "Resistance, inductance, capacitance, and impedance",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0007"
+      ],
+      "outcomes": [
+        "Explain resistance, inductance, capacitance, and impedance using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0009",
+      "title": "Real, reactive, apparent power, and power factor",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0008"
+      ],
+      "outcomes": [
+        "Explain real, reactive, apparent power, and power factor using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0010",
+      "title": "Three-phase systems and balanced operation",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0009"
+      ],
+      "outcomes": [
+        "Explain three-phase systems and balanced operation using the physical, circuit, or system boundary appropriate to L0.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "ac-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0011",
+      "title": "Magnetic fields, flux, and electromagnetic induction",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0010"
+      ],
+      "outcomes": [
+        "Explain magnetic fields, flux, and electromagnetic induction using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0013",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electromagnetic-conversion",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0012",
+      "title": "Transformers: turns ratio, isolation, and voltage conversion",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0011"
+      ],
+      "outcomes": [
+        "Explain transformers: turns ratio, isolation, and voltage conversion using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0014",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electromagnetic-conversion",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0013",
+      "title": "Transformer equivalent circuits, losses, and regulation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0012"
+      ],
+      "outcomes": [
+        "Explain transformer equivalent circuits, losses, and regulation using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0015",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electromagnetic-conversion",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0014",
+      "title": "Rotating magnetic fields and electromechanical conversion",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0013"
+      ],
+      "outcomes": [
+        "Explain rotating magnetic fields and electromechanical conversion using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0016",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electrical-machines",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0015",
+      "title": "Synchronous generators: how mechanical torque becomes AC power",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0014"
+      ],
+      "outcomes": [
+        "Explain synchronous generators: how mechanical torque becomes ac power using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0017",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electrical-machines",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0016",
+      "title": "Induction motors and induction generators",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0015"
+      ],
+      "outcomes": [
+        "Explain induction motors and induction generators using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0018",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electrical-machines",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0017",
+      "title": "Synchronous motors and reactive-power capability",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0016"
+      ],
+      "outcomes": [
+        "Explain synchronous motors and reactive-power capability using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0019",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "electrical-machines",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0018",
+      "title": "Per-unit normalization and why power engineers use it",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0017"
+      ],
+      "outcomes": [
+        "Explain per-unit normalization and why power engineers use it using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0020",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "system-modeling",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0019",
+      "title": "Single-line diagrams and three-phase system representation",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0018"
+      ],
+      "outcomes": [
+        "Explain single-line diagrams and three-phase system representation using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0021",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "system-modeling",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0020",
+      "title": "Generation, transmission, distribution, and load as one interconnected system",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0019"
+      ],
+      "outcomes": [
+        "Explain generation, transmission, distribution, and load as one interconnected system using the physical, circuit, or system boundary appropriate to L1.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0022",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "grid-architecture",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0021",
+      "title": "Transmission-line resistance, inductance, capacitance, and conductance",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0020"
+      ],
+      "outcomes": [
+        "Explain transmission-line resistance, inductance, capacitance, and conductance using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0023",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "transmission",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0022",
+      "title": "Short, medium, and long transmission-line models",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0021"
+      ],
+      "outcomes": [
+        "Explain short, medium, and long transmission-line models using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0024",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "transmission",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0023",
+      "title": "Voltage drop, losses, efficiency, and voltage regulation",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0022"
+      ],
+      "outcomes": [
+        "Explain voltage drop, losses, efficiency, and voltage regulation using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0025",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "transmission",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0024",
+      "title": "Power transfer across predominantly reactive lines",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0023"
+      ],
+      "outcomes": [
+        "Explain power transfer across predominantly reactive lines using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0026",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "transmission",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0025",
+      "title": "Distribution feeders, transformers, voltage levels, and service delivery",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0024"
+      ],
+      "outcomes": [
+        "Explain distribution feeders, transformers, voltage levels, and service delivery using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0027",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "distribution",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0026",
+      "title": "Radial, looped, and networked distribution topologies",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0025"
+      ],
+      "outcomes": [
+        "Explain radial, looped, and networked distribution topologies using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0028",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "distribution",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0027",
+      "title": "Load models, diversity, demand, and load duration",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0026"
+      ],
+      "outcomes": [
+        "Explain load models, diversity, demand, and load duration using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0029",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "loads",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0028",
+      "title": "Bus admittance matrices and network equations",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0027"
+      ],
+      "outcomes": [
+        "Explain bus admittance matrices and network equations using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0030",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-flow",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0029",
+      "title": "Slack, PV, and PQ buses",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0028"
+      ],
+      "outcomes": [
+        "Explain slack, pv, and pq buses using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0031",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-flow",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0030",
+      "title": "AC power flow and the Newton-Raphson method",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0029"
+      ],
+      "outcomes": [
+        "Explain ac power flow and the newton-raphson method using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0032",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-flow",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0031",
+      "title": "DC power flow and its assumptions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0030"
+      ],
+      "outcomes": [
+        "Explain dc power flow and its assumptions using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0033",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-flow",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0032",
+      "title": "Generator dispatch and active-power balance",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0031"
+      ],
+      "outcomes": [
+        "Explain generator dispatch and active-power balance using the physical, circuit, or system boundary appropriate to L2.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0034",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "operations",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0033",
+      "title": "Frequency, inertia, and the instantaneous supply-demand balance",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0032"
+      ],
+      "outcomes": [
+        "Explain frequency, inertia, and the instantaneous supply-demand balance using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0035",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "dynamics-control",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0034",
+      "title": "Primary frequency response and governor action",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0033"
+      ],
+      "outcomes": [
+        "Explain primary frequency response and governor action using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0036",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "dynamics-control",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0035",
+      "title": "Secondary frequency control and automatic generation control",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0034"
+      ],
+      "outcomes": [
+        "Explain secondary frequency control and automatic generation control using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0037",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "dynamics-control",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0036",
+      "title": "Reactive power, voltage control, and voltage support",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0035"
+      ],
+      "outcomes": [
+        "Explain reactive power, voltage control, and voltage support using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0038",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "voltage-control",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0037",
+      "title": "Faults, short circuits, and fault current",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0036"
+      ],
+      "outcomes": [
+        "Explain faults, short circuits, and fault current using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0039",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "faults-protection",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0038",
+      "title": "Symmetrical components and unbalanced faults",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0037"
+      ],
+      "outcomes": [
+        "Explain symmetrical components and unbalanced faults using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0040",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "faults-protection",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0039",
+      "title": "Protective relays, breakers, zones, selectivity, and coordination",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0038"
+      ],
+      "outcomes": [
+        "Explain protective relays, breakers, zones, selectivity, and coordination using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0041",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "faults-protection",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0040",
+      "title": "Grounding and earth-fault protection",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0039"
+      ],
+      "outcomes": [
+        "Explain grounding and earth-fault protection using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0042",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "faults-protection",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0041",
+      "title": "Synchronous-machine rotor dynamics and the swing equation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0040"
+      ],
+      "outcomes": [
+        "Explain synchronous-machine rotor dynamics and the swing equation using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0043",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "stability",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0042",
+      "title": "Transient stability after large disturbances",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0041"
+      ],
+      "outcomes": [
+        "Explain transient stability after large disturbances using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0044",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "stability",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0043",
+      "title": "Small-signal stability and electromechanical oscillations",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0042"
+      ],
+      "outcomes": [
+        "Explain small-signal stability and electromechanical oscillations using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0045",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "stability",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0044",
+      "title": "Voltage stability, collapse, and reactive-power limits",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0043"
+      ],
+      "outcomes": [
+        "Explain voltage stability, collapse, and reactive-power limits using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0046",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "stability",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0045",
+      "title": "Power quality: harmonics, flicker, sags, swells, and interruptions",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0044"
+      ],
+      "outcomes": [
+        "Explain power quality: harmonics, flicker, sags, swells, and interruptions using the physical, circuit, or system boundary appropriate to L3.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0047",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-quality",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0046",
+      "title": "Power electronic switches and converter building blocks",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0045"
+      ],
+      "outcomes": [
+        "Explain power electronic switches and converter building blocks using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0048",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "power-electronics",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0047",
+      "title": "Rectifiers, inverters, PWM, and converter control",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0046"
+      ],
+      "outcomes": [
+        "Explain rectifiers, inverters, pwm, and converter control using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0049",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "power-electronics",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0048",
+      "title": "HVDC transmission and FACTS",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0047"
+      ],
+      "outcomes": [
+        "Explain hvdc transmission and facts using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0050",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "power-electronics",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0049",
+      "title": "Solar PV and wind generation as grid-connected resources",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0048"
+      ],
+      "outcomes": [
+        "Explain solar pv and wind generation as grid-connected resources using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0051",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "renewables",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0050",
+      "title": "Battery energy storage and grid services",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0049"
+      ],
+      "outcomes": [
+        "Explain battery energy storage and grid services using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0052",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "storage",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0051",
+      "title": "Inverter-based resources: grid-following and grid-forming control",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0050"
+      ],
+      "outcomes": [
+        "Explain inverter-based resources: grid-following and grid-forming control using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0053",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "inverter-based-resources",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0052",
+      "title": "Distributed energy resources and hosting capacity",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0051"
+      ],
+      "outcomes": [
+        "Explain distributed energy resources and hosting capacity using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0054",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "distribution-modernization",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0053",
+      "title": "Microgrids, islanding, and resynchronization",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0052"
+      ],
+      "outcomes": [
+        "Explain microgrids, islanding, and resynchronization using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0055",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "distribution-modernization",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0054",
+      "title": "State estimation, observability, and bad-data detection",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0053"
+      ],
+      "outcomes": [
+        "Explain state estimation, observability, and bad-data detection using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0056",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "monitoring",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0055",
+      "title": "SCADA, EMS, communications, and operational situational awareness",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0054"
+      ],
+      "outcomes": [
+        "Explain scada, ems, communications, and operational situational awareness using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0057",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "monitoring",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0056",
+      "title": "Reliability, adequacy, security, resilience, and N-1 thinking",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0055"
+      ],
+      "outcomes": [
+        "Explain reliability, adequacy, security, resilience, and n-1 thinking using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0058",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "reliability",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0057",
+      "title": "Electricity markets, ancillary services, and operational incentives",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0056"
+      ],
+      "outcomes": [
+        "Explain electricity markets, ancillary services, and operational incentives using the physical, circuit, or system boundary appropriate to L4.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0059",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "markets",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0058",
+      "title": "Unit commitment and economic dispatch with constraints",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0057"
+      ],
+      "outcomes": [
+        "Explain unit commitment and economic dispatch with constraints using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0060",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "optimization",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0059",
+      "title": "Optimal power flow and security-constrained operation",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0058"
+      ],
+      "outcomes": [
+        "Explain optimal power flow and security-constrained operation using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0061",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "optimization",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0060",
+      "title": "Generation and transmission expansion planning",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0059"
+      ],
+      "outcomes": [
+        "Explain generation and transmission expansion planning using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0062",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "planning",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0061",
+      "title": "Uncertainty, scenarios, stochastic optimization, and robust planning",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0060"
+      ],
+      "outcomes": [
+        "Explain uncertainty, scenarios, stochastic optimization, and robust planning using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0063",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "planning",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0062",
+      "title": "Electromagnetic-transient versus phasor-domain simulation",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0061"
+      ],
+      "outcomes": [
+        "Explain electromagnetic-transient versus phasor-domain simulation using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0064",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "simulation",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0063",
+      "title": "Protection and stability with high shares of inverter-based resources",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0062"
+      ],
+      "outcomes": [
+        "Explain protection and stability with high shares of inverter-based resources using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0065",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "modern-grid",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0064",
+      "title": "Interconnection requirements, standards, and grid codes",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0063"
+      ],
+      "outcomes": [
+        "Explain interconnection requirements, standards, and grid codes using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0066",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "modern-grid",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0065",
+      "title": "Cybersecurity of power-system operational technology",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0064"
+      ],
+      "outcomes": [
+        "Explain cybersecurity of power-system operational technology using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0067",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "modern-grid",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0066",
+      "title": "Read a power-systems research paper critically",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0065"
+      ],
+      "outcomes": [
+        "Explain read a power-systems research paper critically using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0068",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0067",
+      "title": "Reproduce a power-flow, fault, or stability result computationally",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0066"
+      ],
+      "outcomes": [
+        "Explain reproduce a power-flow, fault, or stability result computationally using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0069",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0068",
+      "title": "Design and defend a conceptual power system under competing constraints",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0067"
+      ],
+      "outcomes": [
+        "Explain design and defend a conceptual power system under competing constraints using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0070",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "systems-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0069",
+      "title": "Turn an unresolved grid problem into a researchable question",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0068"
+      ],
+      "outcomes": [
+        "Explain turn an unresolved grid problem into a researchable question using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0071",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "PWR-N-0070",
+      "title": "Refresh the power-engineering frontier from standards and primary evidence",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "PWR-N-0069"
+      ],
+      "outcomes": [
+        "Explain refresh the power-engineering frontier from standards and primary evidence using the physical, circuit, or system boundary appropriate to L5.",
+        "Use the concept to analyze an electric-power calculation, device, operating condition, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "PWR-C-0072",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    }
+  ]
+}

@@ -36,7 +36,7 @@
       "id": "FUS-N-0002",
       "title": "Atoms, nuclei, isotopes, and nuclear bookkeeping",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "FUS-N-0001"
       ],
@@ -51,7 +51,7 @@
         }
       ],
       "branch": "fusion-energy-core",
-      "lesson_id": null
+      "lesson_id": "FUS-0002"
     },
     {
       "id": "FUS-N-0003",

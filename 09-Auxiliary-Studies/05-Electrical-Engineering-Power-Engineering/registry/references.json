@@ -1,0 +1,84 @@
+{
+  "$schema": "../../../schemas/reference-registry.schema.json",
+  "schema_version": 1,
+  "track": "electrical-engineering-power",
+  "references": [
+    {
+      "id": "PWR-REF-001",
+      "title": "Introduction to Electric Power Systems (6.061)",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare, Electrical Engineering and Computer Science",
+      "locator": "https://ocw.mit.edu/courses/6-061-introduction-to-electric-power-systems-spring-2011/",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Spring 2011",
+      "notes": "Undergraduate power-systems course used as a baseline for circuits, magnetic devices, machines, and interconnected power-system analysis."
+    },
+    {
+      "id": "PWR-REF-002",
+      "title": "Introduction to Electric Power Systems — Open Textbook",
+      "type": "textbook",
+      "authority": "James L. Kirtley Jr. / MIT OpenCourseWare",
+      "locator": "https://www.ocw.mit.edu/courses/6-061-introduction-to-electric-power-systems-spring-2011/resources/6_061_s11_textbook_pdf/",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "MIT 6.061 Spring 2011",
+      "notes": "Open textbook baseline for electric-power circuits, magnetic energy conversion, and machines."
+    },
+    {
+      "id": "PWR-REF-003",
+      "title": "How It Works: Electric Transmission & Distribution and Protective Measures",
+      "type": "official-documentation",
+      "authority": "U.S. Department of Energy",
+      "locator": "https://www.energy.gov/sites/default/files/2023-11/FINAL_CESER%20Electricity%20Grid%20Backgrounder_508.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": "2023",
+      "notes": "Official grid primer covering generation, high-voltage transmission, lower-voltage distribution, substations, end users, and protective measures."
+    },
+    {
+      "id": "PWR-REF-004",
+      "title": "NIST Framework and Roadmap for Smart Grid Interoperability Standards, Release 4.0",
+      "type": "technical-report",
+      "authority": "National Institute of Standards and Technology",
+      "locator": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1108r4.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": "NIST SP 1108r4",
+      "notes": "Modern-grid architecture and interoperability baseline, including distributed resources, control, communications, and cybersecurity context."
+    },
+    {
+      "id": "PWR-REF-005",
+      "title": "Reliability Standards",
+      "type": "standard-specification",
+      "authority": "North American Electric Reliability Corporation (NERC)",
+      "locator": "https://www.nerc.com/standards/reliability-standards",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Current reliability-standard families used as an authoritative map for balancing, operations, planning, protection, voltage/reactive control, emergency operations, and critical-infrastructure protection."
+    },
+    {
+      "id": "PWR-REF-006",
+      "title": "Electricity Basics",
+      "type": "official-documentation",
+      "authority": "PJM Interconnection Learning Center",
+      "locator": "https://learn.pjm.com/electricity-basics.aspx",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": null,
+      "notes": "System-operator educational overview of generation, transmission, distribution, end use, balancing, and wholesale-grid context."
+    },
+    {
+      "id": "PWR-REF-007",
+      "title": "Electricity Grid Schematic English.svg",
+      "type": "other",
+      "authority": "MBizon / Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Electricity_Grid_Schematic_English.svg",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "CC BY 3.0 schematic embedded in PWR-0001 as a visual anchor for generation, transmission, distribution, and customers. Direct media via Wikimedia Special:Redirect/file."
+    }
+  ]
+}

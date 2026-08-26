@@ -17,13 +17,13 @@
 - **Nodes:** 37
 - **Coverage baseline:** audited
 - **Coverage items:** 8
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 39
-- **Examples:** 3
-- **References:** 7
+- **Examples:** 6
+- **References:** 9
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `FUS-N-0002` — Atoms, nuclei, isotopes, and nuclear bookkeeping (L0, ready)
+- `FUS-N-0003` — Binding energy, mass defect, and where fusion energy comes from (L0, planned)
 
 ## Learner next actions
 
@@ -43,6 +43,7 @@
 ## Recent lessons
 
 - `FUS-0001` — What fusion energy is actually trying to achieve (L0, complete)
+- `FUS-0002` — Atoms, nuclei, isotopes, and nuclear bookkeeping (L0, complete)
 
 ## Normal-session retrieval rule
 
