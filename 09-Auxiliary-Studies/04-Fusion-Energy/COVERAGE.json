@@ -1,0 +1,166 @@
+{
+  "$schema": "../../schemas/coverage.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "baseline": {
+    "status": "audited",
+    "last_audited": "2026-08-26",
+    "sources": [
+      "FUS-REF-001",
+      "FUS-REF-002",
+      "FUS-REF-003",
+      "FUS-REF-004",
+      "FUS-REF-005",
+      "FUS-REF-006"
+    ]
+  },
+  "items": [
+    {
+      "id": "FUS-COV-001",
+      "title": "Nuclear foundations and fusion reaction physics",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-001",
+        "FUS-REF-003"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0001",
+        "FUS-N-0002",
+        "FUS-N-0003",
+        "FUS-N-0004",
+        "FUS-N-0005",
+        "FUS-N-0006"
+      ],
+      "rationale": "The graph starts before plasma physics so a reader with no nuclear-physics background can enter safely."
+    },
+    {
+      "id": "FUS-COV-002",
+      "title": "Confinement criteria, plasma fundamentals, and magnetic confinement",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-002",
+        "FUS-REF-003",
+        "FUS-REF-004"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0007",
+        "FUS-N-0008",
+        "FUS-N-0009",
+        "FUS-N-0010",
+        "FUS-N-0011",
+        "FUS-N-0012"
+      ],
+      "rationale": "Covers the common plasma foundation before device-specific depth."
+    },
+    {
+      "id": "FUS-COV-003",
+      "title": "Inertial confinement and experimental measurement",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-003",
+        "FUS-REF-004",
+        "FUS-REF-005"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0013",
+        "FUS-N-0014",
+        "FUS-N-0029",
+        "FUS-N-0031"
+      ],
+      "rationale": "Keeps inertial confinement in the core curriculum and explicitly trains metric/measurement literacy."
+    },
+    {
+      "id": "FUS-COV-004",
+      "title": "Heating, equilibrium, stability, transport, and exhaust",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-003",
+        "FUS-REF-004"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0015",
+        "FUS-N-0016",
+        "FUS-N-0017",
+        "FUS-N-0018",
+        "FUS-N-0019"
+      ],
+      "rationale": "Maps the central plasma-dynamics problems that control achievable confinement."
+    },
+    {
+      "id": "FUS-COV-005",
+      "title": "Fusion-plant technology: magnets, fuel cycle, neutrons, materials, blankets, and safety",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-001",
+        "FUS-REF-003",
+        "FUS-REF-006"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0020",
+        "FUS-N-0021",
+        "FUS-N-0022",
+        "FUS-N-0023",
+        "FUS-N-0024",
+        "FUS-N-0025"
+      ],
+      "rationale": "Prevents the course from equating successful plasma physics with a complete energy system."
+    },
+    {
+      "id": "FUS-COV-006",
+      "title": "Power balance, systems engineering, economics, and deployment",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-003",
+        "FUS-REF-006"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0023",
+        "FUS-N-0024",
+        "FUS-N-0027",
+        "FUS-N-0030",
+        "FUS-N-0033",
+        "FUS-N-0034"
+      ],
+      "rationale": "Tracks whole-plant performance and coupled engineering decisions separately from fusion gain."
+    },
+    {
+      "id": "FUS-COV-007",
+      "title": "Computational and concept-comparison methods",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-003",
+        "FUS-REF-004"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0026",
+        "FUS-N-0027",
+        "FUS-N-0028",
+        "FUS-N-0029",
+        "FUS-N-0032",
+        "FUS-N-0034"
+      ],
+      "rationale": "Provides a route from physical models to reproducible calculations and fair comparison."
+    },
+    {
+      "id": "FUS-COV-008",
+      "title": "Research literacy and evolving fusion frontier",
+      "status": "covered",
+      "source_refs": [
+        "FUS-REF-003",
+        "FUS-REF-005",
+        "FUS-REF-006"
+      ],
+      "mapped_nodes": [
+        "FUS-N-0031",
+        "FUS-N-0032",
+        "FUS-N-0033",
+        "FUS-N-0034",
+        "FUS-N-0035",
+        "FUS-N-0036",
+        "FUS-N-0037"
+      ],
+      "rationale": "Higher levels require primary/authoritative evidence checks and explicit refresh dates because the field changes quickly."
+    }
+  ],
+  "unresolved_questions": []
+}

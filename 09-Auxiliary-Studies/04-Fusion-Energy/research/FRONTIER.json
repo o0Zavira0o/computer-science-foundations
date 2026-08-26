@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/frontier.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "status": "active",
+  "snapshot_date": "2026-08-26",
+  "review_due": "2027-02-26",
+  "areas": [
+    "burning-plasma physics and control",
+    "tritium breeding and closed fuel cycles",
+    "14 MeV neutron materials and component lifetime",
+    "high-heat-flux exhaust and plasma-facing components",
+    "high-field superconducting magnets and integrated plant engineering",
+    "inertial-fusion target gain, driver efficiency, repetition rate, and target manufacturing",
+    "whole-plant availability, maintainability, recirculating power, and credible net-electric performance"
+  ],
+  "open_questions": [
+    "Which combinations of confinement performance, materials lifetime, tritium breeding margin, exhaust handling, and maintainability can close simultaneously in a practical plant?",
+    "How should gain metrics be normalized across magnetic and inertial approaches so that scientific progress is not confused with facility or grid performance?",
+    "Which frontier claims have crossed from single-shot or subsystem demonstration to repeatable integrated-system evidence?"
+  ],
+  "notes": "Frontier state is intentionally time-bounded. Refresh current device records, project baselines, and primary literature before L6 authoring or any lesson that makes a current-status claim."
+}

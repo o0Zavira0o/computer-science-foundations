@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/example-registry.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "examples": [
+    {
+      "id": "FUS-EX-001",
+      "signature": "One headline, three energy boundaries: target gain, plasma Q, and net-electric output",
+      "domain": "energy accounting and scientific communication",
+      "first_lesson": "FUS-0001",
+      "reuse_purpose": "Reuse later to deepen whole-plant power balance and compare claims across confinement approaches."
+    },
+    {
+      "id": "FUS-EX-002",
+      "signature": "ITER Q=10 design goal without electricity generation",
+      "domain": "magnetic-confinement experiment versus power plant",
+      "first_lesson": "FUS-0001",
+      "reuse_purpose": "Reuse when tokamak subsystems and engineering breakeven are introduced."
+    },
+    {
+      "id": "FUS-EX-003",
+      "signature": "A hypothetical 1000 MW gross-electric plant with 300 MW recirculating load",
+      "domain": "whole-plant net power",
+      "first_lesson": "FUS-0001",
+      "reuse_purpose": "Reuse later for efficiency, recirculating-power, availability, and economics calculations."
+    }
+  ]
+}

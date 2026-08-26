@@ -1,0 +1,289 @@
+{
+  "$schema": "../../../schemas/concept-registry.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "concepts": [
+    {
+      "id": "FUS-C-0001",
+      "name": "Controlled fusion as an energy-conversion chain",
+      "aliases": [
+        "fusion energy chain"
+      ],
+      "current_depth": "D1",
+      "notes": "Distinguish the fusion reaction from the complete machine and power plant."
+    },
+    {
+      "id": "FUS-C-0002",
+      "name": "Fusion system boundaries and gain metrics",
+      "aliases": [
+        "fusion gain",
+        "Q",
+        "breakeven"
+      ],
+      "current_depth": "D1",
+      "notes": "Track exactly which energy or power crosses the boundary used by a claim."
+    },
+    {
+      "id": "FUS-C-0003",
+      "name": "Scientific milestone versus power-plant performance",
+      "aliases": [
+        "scientific breakeven",
+        "engineering breakeven"
+      ],
+      "current_depth": "D1",
+      "notes": "Separate plasma/target milestones from net-electric plant performance."
+    },
+    {
+      "id": "FUS-C-0004",
+      "name": "Atoms, nuclei, isotopes, and nuclear bookkeeping",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting atoms, nuclei, isotopes, and nuclear bookkeeping."
+    },
+    {
+      "id": "FUS-C-0005",
+      "name": "Binding energy, mass defect, and where fusion energy comes from",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting binding energy, mass defect, and where fusion energy comes from."
+    },
+    {
+      "id": "FUS-C-0006",
+      "name": "Coulomb repulsion, collision energy, and quantum tunneling",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting coulomb repulsion, collision energy, and quantum tunneling."
+    },
+    {
+      "id": "FUS-C-0007",
+      "name": "Temperature, plasma, and what a hot fusion fuel really is",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting temperature, plasma, and what a hot fusion fuel really is."
+    },
+    {
+      "id": "FUS-C-0008",
+      "name": "Fusion fuels and the deuterium-tritium reaction",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fusion fuels and the deuterium-tritium reaction."
+    },
+    {
+      "id": "FUS-C-0009",
+      "name": "Temperature, density, and confinement time as a coupled requirement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting temperature, density, and confinement time as a coupled requirement."
+    },
+    {
+      "id": "FUS-C-0010",
+      "name": "Fusion gain, breakeven, and system boundaries",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fusion gain, breakeven, and system boundaries."
+    },
+    {
+      "id": "FUS-C-0011",
+      "name": "Charged particles in electric and magnetic fields",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting charged particles in electric and magnetic fields."
+    },
+    {
+      "id": "FUS-C-0012",
+      "name": "Magnetic confinement and field-line geometry",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting magnetic confinement and field-line geometry."
+    },
+    {
+      "id": "FUS-C-0013",
+      "name": "Tokamak anatomy: plasma current, magnets, vessel, blanket, and divertor",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting tokamak anatomy: plasma current, magnets, vessel, blanket, and divertor."
+    },
+    {
+      "id": "FUS-C-0014",
+      "name": "Stellarators and alternative magnetic-confinement geometries",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting stellarators and alternative magnetic-confinement geometries."
+    },
+    {
+      "id": "FUS-C-0015",
+      "name": "Inertial confinement: compressing fuel faster than it can escape",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting inertial confinement: compressing fuel faster than it can escape."
+    },
+    {
+      "id": "FUS-C-0016",
+      "name": "Diagnostics, measurement, uncertainty, and evidence in fusion experiments",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting diagnostics, measurement, uncertainty, and evidence in fusion experiments."
+    },
+    {
+      "id": "FUS-C-0017",
+      "name": "Plasma heating and current drive",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting plasma heating and current drive."
+    },
+    {
+      "id": "FUS-C-0018",
+      "name": "Pressure, force balance, and plasma equilibrium",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting pressure, force balance, and plasma equilibrium."
+    },
+    {
+      "id": "FUS-C-0019",
+      "name": "Instabilities, disruptions, and active control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting instabilities, disruptions, and active control."
+    },
+    {
+      "id": "FUS-C-0020",
+      "name": "Transport, turbulence, and energy confinement",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transport, turbulence, and energy confinement."
+    },
+    {
+      "id": "FUS-C-0021",
+      "name": "Plasma-wall interaction, exhaust, and the divertor problem",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting plasma-wall interaction, exhaust, and the divertor problem."
+    },
+    {
+      "id": "FUS-C-0022",
+      "name": "Superconducting magnets, cryogenics, vacuum, and supporting systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting superconducting magnets, cryogenics, vacuum, and supporting systems."
+    },
+    {
+      "id": "FUS-C-0023",
+      "name": "Tritium supply, breeding, extraction, and the closed fuel cycle",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting tritium supply, breeding, extraction, and the closed fuel cycle."
+    },
+    {
+      "id": "FUS-C-0024",
+      "name": "Fusion neutrons, activation, shielding, and materials damage",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fusion neutrons, activation, shielding, and materials damage."
+    },
+    {
+      "id": "FUS-C-0025",
+      "name": "Blankets, heat extraction, and conversion from fusion power to electricity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting blankets, heat extraction, and conversion from fusion power to electricity."
+    },
+    {
+      "id": "FUS-C-0026",
+      "name": "Whole-plant power balance, recirculating power, efficiency, and availability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting whole-plant power balance, recirculating power, efficiency, and availability."
+    },
+    {
+      "id": "FUS-C-0027",
+      "name": "Safety cases, radioactive inventories, waste, maintenance, and licensing",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting safety cases, radioactive inventories, waste, maintenance, and licensing."
+    },
+    {
+      "id": "FUS-C-0028",
+      "name": "Computational plasma physics: particles, fluids, MHD, and kinetic models",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting computational plasma physics: particles, fluids, mhd, and kinetic models."
+    },
+    {
+      "id": "FUS-C-0029",
+      "name": "Fusion reactor systems engineering and coupled design tradeoffs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fusion reactor systems engineering and coupled design tradeoffs."
+    },
+    {
+      "id": "FUS-C-0030",
+      "name": "Alternative fuels and alternative confinement concepts",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting alternative fuels and alternative confinement concepts."
+    },
+    {
+      "id": "FUS-C-0031",
+      "name": "Experimental performance metrics and fair comparison across devices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting experimental performance metrics and fair comparison across devices."
+    },
+    {
+      "id": "FUS-C-0032",
+      "name": "Economics, manufacturability, deployment, and grid integration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting economics, manufacturability, deployment, and grid integration."
+    },
+    {
+      "id": "FUS-C-0033",
+      "name": "Read a fusion research paper without being misled by the headline",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting read a fusion research paper without being misled by the headline."
+    },
+    {
+      "id": "FUS-C-0034",
+      "name": "Reproduce order-of-magnitude fusion and power-balance estimates",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reproduce order-of-magnitude fusion and power-balance estimates."
+    },
+    {
+      "id": "FUS-C-0035",
+      "name": "Build and defend a conceptual fusion power-plant design",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting build and defend a conceptual fusion power-plant design."
+    },
+    {
+      "id": "FUS-C-0036",
+      "name": "Compare fusion concepts with explicit multi-objective criteria",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting compare fusion concepts with explicit multi-objective criteria."
+    },
+    {
+      "id": "FUS-C-0037",
+      "name": "Frontier map: burning plasmas, tritium, materials, exhaust, and maintainability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting frontier map: burning plasmas, tritium, materials, exhaust, and maintainability."
+    },
+    {
+      "id": "FUS-C-0038",
+      "name": "Turn an unresolved fusion problem into a researchable question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting turn an unresolved fusion problem into a researchable question."
+    },
+    {
+      "id": "FUS-C-0039",
+      "name": "Refresh the fusion frontier from primary and authoritative evidence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting refresh the fusion frontier from primary and authoritative evidence."
+    }
+  ]
+}

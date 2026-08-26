@@ -15,3 +15,4 @@
 | 9 | Advanced English | Auxiliary Studies | `advanced-english` | scaffolded | [`09-Auxiliary-Studies/01-Advanced-English/README.md`](../09-Auxiliary-Studies/01-Advanced-English/README.md) |
 | 10 | German Language | Auxiliary Studies | `german-language` | active | [`09-Auxiliary-Studies/02-German-Language/README.md`](../09-Auxiliary-Studies/02-German-Language/README.md) |
 | 11 | Philosophy and Logic | Auxiliary Studies | `philosophy-and-logic` | active | [`09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md`](../09-Auxiliary-Studies/03-Philosophy-and-Logic/README.md) |
+| 12 | Fusion Energy | Auxiliary Studies | `fusion-energy` | active | [`09-Auxiliary-Studies/04-Fusion-Energy/README.md`](../09-Auxiliary-Studies/04-Fusion-Energy/README.md) |

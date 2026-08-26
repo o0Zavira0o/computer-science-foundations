@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../schemas/reference-registry.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "references": [
+    {
+      "id": "FUS-REF-001",
+      "title": "What is Fusion?",
+      "type": "official-documentation",
+      "authority": "ITER Organization",
+      "locator": "https://www.iter.org/fusion-energy/what-fusion",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Authoritative introductory description of fusion, D-T fuel, plasma conditions, and the physical basis of energy release."
+    },
+    {
+      "id": "FUS-REF-002",
+      "title": "DOE Explains...Fusion Energy Science",
+      "type": "official-documentation",
+      "authority": "U.S. Department of Energy, Office of Science",
+      "locator": "https://www.energy.gov/science/doe-explainsfusion-energy-science",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Government science overview used to cross-check introductory plasma and controlled-fusion framing."
+    },
+    {
+      "id": "FUS-REF-003",
+      "title": "Fusion Physics",
+      "type": "textbook",
+      "authority": "International Atomic Energy Agency (IAEA)",
+      "locator": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1562_web.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "STI/PUB/1562 (2012)",
+      "notes": "Comprehensive graduate reference spanning fusion motivation, magnetic and inertial confinement, heating, diagnostics, stability, transport, and plasma-wall interaction."
+    },
+    {
+      "id": "FUS-REF-004",
+      "title": "Seminar: Fusion and Plasma Physics (22.012)",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare, Nuclear Science and Engineering",
+      "locator": "https://ocw.mit.edu/courses/22-012-seminar-fusion-and-plasma-physics-spring-2006/",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Spring 2006",
+      "notes": "Undergraduate-level course map used as one independent curriculum-coverage baseline."
+    },
+    {
+      "id": "FUS-REF-005",
+      "title": "Achieving Fusion Ignition",
+      "type": "official-documentation",
+      "authority": "Lawrence Livermore National Laboratory, National Ignition Facility",
+      "locator": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Current authoritative NIF record used only with explicit target/system-boundary language."
+    },
+    {
+      "id": "FUS-REF-006",
+      "title": "ITER FAQs: fusion gain, engineering breakeven, and electricity generation",
+      "type": "official-documentation",
+      "authority": "ITER Organization",
+      "locator": "https://www.iter.org/faqs",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Authoritative distinctions among plasma Q, engineering breakeven, ITER Q goals, and ITER not being an electricity-producing plant."
+    }
+  ]
+}

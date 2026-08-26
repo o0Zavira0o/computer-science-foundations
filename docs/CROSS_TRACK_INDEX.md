@@ -33,3 +33,7 @@
 | Large Language Models (LLMs) | Computer Systems | declared neighbor |
 | Advanced English | Philosophy and Logic | declared neighbor |
 | Philosophy and Logic | Advanced English | declared neighbor |
+| Fusion Energy | Linear Algebra | declared neighbor |
+| Fusion Energy | Complex Analysis | declared neighbor |
+| Fusion Energy | C++ | declared neighbor |
+| Fusion Energy | Computer Systems | declared neighbor |

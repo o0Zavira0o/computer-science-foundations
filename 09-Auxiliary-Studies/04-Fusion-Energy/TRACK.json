@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "fusion-energy",
+  "code": "FUS",
+  "title": "Fusion Energy",
+  "folder": "04-Fusion-Energy",
+  "order": 12,
+  "status": "active",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Fusion energy from absolute first principles through nuclear and plasma physics, confinement, reactor engineering, power-plant energy accounting, experimental evidence, computational methods, systems design, and research-frontier literacy.",
+    "includes": [
+      "Atoms, nuclei, isotopes, binding energy, fusion reactions, and quantitative energy bookkeeping",
+      "Plasma formation, collisions, charged-particle motion, confinement, heating, transport, equilibrium, stability, and diagnostics",
+      "Magnetic-confinement and inertial-confinement approaches, including tokamaks, stellarators, and laser-driven target physics",
+      "Tritium breeding and fuel cycles, neutron effects, materials, blankets, heat extraction, magnets, cryogenics, vacuum, maintenance, and safety",
+      "Scientific gain, engineering breakeven, net-electric power balance, availability, economics, deployment constraints, and evidence-aware comparison",
+      "Computational plasma physics, reactor systems engineering, critical paper reading, reproducible estimates, research design, and frontier refreshes"
+    ],
+    "delegates": [
+      "General mathematical machinery may later import explicit prerequisites from Linear Algebra or Complex Analysis rather than silently re-teaching advanced mathematics.",
+      "General-purpose software-engineering depth may later import explicit prerequisites from C++ or Computer Systems when computational projects require it."
+    ]
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "linear-algebra",
+    "complex-analysis",
+    "cpp",
+    "computer-systems"
+  ]
+}

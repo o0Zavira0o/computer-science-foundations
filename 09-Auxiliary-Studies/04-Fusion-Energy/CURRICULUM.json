@@ -1,0 +1,792 @@
+{
+  "$schema": "../../schemas/curriculum.schema.json",
+  "schema_version": 1,
+  "track": "fusion-energy",
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-26",
+  "nodes": [
+    {
+      "id": "FUS-N-0001",
+      "title": "What fusion energy is actually trying to achieve",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Explain what fusion energy is actually trying to achieve using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0001",
+          "target_depth": "D1"
+        },
+        {
+          "id": "FUS-C-0002",
+          "target_depth": "D1"
+        },
+        {
+          "id": "FUS-C-0003",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": "FUS-0001"
+    },
+    {
+      "id": "FUS-N-0002",
+      "title": "Atoms, nuclei, isotopes, and nuclear bookkeeping",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "FUS-N-0001"
+      ],
+      "outcomes": [
+        "Explain atoms, nuclei, isotopes, and nuclear bookkeeping using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0003",
+      "title": "Binding energy, mass defect, and where fusion energy comes from",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0002"
+      ],
+      "outcomes": [
+        "Explain binding energy, mass defect, and where fusion energy comes from using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0004",
+      "title": "Coulomb repulsion, collision energy, and quantum tunneling",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0003"
+      ],
+      "outcomes": [
+        "Explain coulomb repulsion, collision energy, and quantum tunneling using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0005",
+      "title": "Temperature, plasma, and what a hot fusion fuel really is",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0004"
+      ],
+      "outcomes": [
+        "Explain temperature, plasma, and what a hot fusion fuel really is using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0006",
+      "title": "Fusion fuels and the deuterium-tritium reaction",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0005"
+      ],
+      "outcomes": [
+        "Explain fusion fuels and the deuterium-tritium reaction using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0007",
+      "title": "Temperature, density, and confinement time as a coupled requirement",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0006"
+      ],
+      "outcomes": [
+        "Explain temperature, density, and confinement time as a coupled requirement using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0008",
+      "title": "Fusion gain, breakeven, and system boundaries",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0007"
+      ],
+      "outcomes": [
+        "Explain fusion gain, breakeven, and system boundaries using the physical or engineering system boundary appropriate to L0.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "fusion-energy-core",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0009",
+      "title": "Charged particles in electric and magnetic fields",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0008"
+      ],
+      "outcomes": [
+        "Explain charged particles in electric and magnetic fields using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0011",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "plasma-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0010",
+      "title": "Magnetic confinement and field-line geometry",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0009"
+      ],
+      "outcomes": [
+        "Explain magnetic confinement and field-line geometry using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0012",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "plasma-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0011",
+      "title": "Tokamak anatomy: plasma current, magnets, vessel, blanket, and divertor",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0010"
+      ],
+      "outcomes": [
+        "Explain tokamak anatomy: plasma current, magnets, vessel, blanket, and divertor using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0013",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "confinement-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0012",
+      "title": "Stellarators and alternative magnetic-confinement geometries",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0011"
+      ],
+      "outcomes": [
+        "Explain stellarators and alternative magnetic-confinement geometries using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0014",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "confinement-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0013",
+      "title": "Inertial confinement: compressing fuel faster than it can escape",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0012"
+      ],
+      "outcomes": [
+        "Explain inertial confinement: compressing fuel faster than it can escape using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0015",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "confinement-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0014",
+      "title": "Diagnostics, measurement, uncertainty, and evidence in fusion experiments",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0013"
+      ],
+      "outcomes": [
+        "Explain diagnostics, measurement, uncertainty, and evidence in fusion experiments using the physical or engineering system boundary appropriate to L1.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0016",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "experimental-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0015",
+      "title": "Plasma heating and current drive",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0014"
+      ],
+      "outcomes": [
+        "Explain plasma heating and current drive using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0017",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "plasma-dynamics",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0016",
+      "title": "Pressure, force balance, and plasma equilibrium",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0015"
+      ],
+      "outcomes": [
+        "Explain pressure, force balance, and plasma equilibrium using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0018",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "plasma-dynamics",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0017",
+      "title": "Instabilities, disruptions, and active control",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0016"
+      ],
+      "outcomes": [
+        "Explain instabilities, disruptions, and active control using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0019",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "plasma-dynamics",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0018",
+      "title": "Transport, turbulence, and energy confinement",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0017"
+      ],
+      "outcomes": [
+        "Explain transport, turbulence, and energy confinement using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0020",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "plasma-dynamics",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0019",
+      "title": "Plasma-wall interaction, exhaust, and the divertor problem",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0018"
+      ],
+      "outcomes": [
+        "Explain plasma-wall interaction, exhaust, and the divertor problem using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0021",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "reactor-physics",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0020",
+      "title": "Superconducting magnets, cryogenics, vacuum, and supporting systems",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0019"
+      ],
+      "outcomes": [
+        "Explain superconducting magnets, cryogenics, vacuum, and supporting systems using the physical or engineering system boundary appropriate to L2.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0022",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "reactor-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0021",
+      "title": "Tritium supply, breeding, extraction, and the closed fuel cycle",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0020"
+      ],
+      "outcomes": [
+        "Explain tritium supply, breeding, extraction, and the closed fuel cycle using the physical or engineering system boundary appropriate to L3.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0023",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "fuel-cycle",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0022",
+      "title": "Fusion neutrons, activation, shielding, and materials damage",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0021"
+      ],
+      "outcomes": [
+        "Explain fusion neutrons, activation, shielding, and materials damage using the physical or engineering system boundary appropriate to L3.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0024",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "materials",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0023",
+      "title": "Blankets, heat extraction, and conversion from fusion power to electricity",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0022"
+      ],
+      "outcomes": [
+        "Explain blankets, heat extraction, and conversion from fusion power to electricity using the physical or engineering system boundary appropriate to L3.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0025",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-plant",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0024",
+      "title": "Whole-plant power balance, recirculating power, efficiency, and availability",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0023"
+      ],
+      "outcomes": [
+        "Explain whole-plant power balance, recirculating power, efficiency, and availability using the physical or engineering system boundary appropriate to L3.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0026",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-plant",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0025",
+      "title": "Safety cases, radioactive inventories, waste, maintenance, and licensing",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0024"
+      ],
+      "outcomes": [
+        "Explain safety cases, radioactive inventories, waste, maintenance, and licensing using the physical or engineering system boundary appropriate to L3.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0027",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "power-plant",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0026",
+      "title": "Computational plasma physics: particles, fluids, MHD, and kinetic models",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0025"
+      ],
+      "outcomes": [
+        "Explain computational plasma physics: particles, fluids, mhd, and kinetic models using the physical or engineering system boundary appropriate to L4.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0028",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "computation",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0027",
+      "title": "Fusion reactor systems engineering and coupled design tradeoffs",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0026"
+      ],
+      "outcomes": [
+        "Explain fusion reactor systems engineering and coupled design tradeoffs using the physical or engineering system boundary appropriate to L4.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0029",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "systems-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0028",
+      "title": "Alternative fuels and alternative confinement concepts",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0027"
+      ],
+      "outcomes": [
+        "Explain alternative fuels and alternative confinement concepts using the physical or engineering system boundary appropriate to L4.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0030",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "concept-comparison",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0029",
+      "title": "Experimental performance metrics and fair comparison across devices",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0028"
+      ],
+      "outcomes": [
+        "Explain experimental performance metrics and fair comparison across devices using the physical or engineering system boundary appropriate to L4.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0031",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "experimental-methods",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0030",
+      "title": "Economics, manufacturability, deployment, and grid integration",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0029"
+      ],
+      "outcomes": [
+        "Explain economics, manufacturability, deployment, and grid integration using the physical or engineering system boundary appropriate to L4.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0032",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "deployment",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0031",
+      "title": "Read a fusion research paper without being misled by the headline",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0030"
+      ],
+      "outcomes": [
+        "Explain read a fusion research paper without being misled by the headline using the physical or engineering system boundary appropriate to L5.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0033",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0032",
+      "title": "Reproduce order-of-magnitude fusion and power-balance estimates",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0031"
+      ],
+      "outcomes": [
+        "Explain reproduce order-of-magnitude fusion and power-balance estimates using the physical or engineering system boundary appropriate to L5.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0034",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0033",
+      "title": "Build and defend a conceptual fusion power-plant design",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0032"
+      ],
+      "outcomes": [
+        "Explain build and defend a conceptual fusion power-plant design using the physical or engineering system boundary appropriate to L5.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0035",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "systems-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0034",
+      "title": "Compare fusion concepts with explicit multi-objective criteria",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0033"
+      ],
+      "outcomes": [
+        "Explain compare fusion concepts with explicit multi-objective criteria using the physical or engineering system boundary appropriate to L5.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0036",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "concept-comparison",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0035",
+      "title": "Frontier map: burning plasmas, tritium, materials, exhaust, and maintainability",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0034"
+      ],
+      "outcomes": [
+        "Explain frontier map: burning plasmas, tritium, materials, exhaust, and maintainability using the physical or engineering system boundary appropriate to L6.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L6 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0037",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0036",
+      "title": "Turn an unresolved fusion problem into a researchable question",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0035"
+      ],
+      "outcomes": [
+        "Explain turn an unresolved fusion problem into a researchable question using the physical or engineering system boundary appropriate to L6.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L6 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0038",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    },
+    {
+      "id": "FUS-N-0037",
+      "title": "Refresh the fusion frontier from primary and authoritative evidence",
+      "level": "L6",
+      "status": "planned",
+      "prerequisites": [
+        "FUS-N-0036"
+      ],
+      "outcomes": [
+        "Explain refresh the fusion frontier from primary and authoritative evidence using the physical or engineering system boundary appropriate to L6.",
+        "Use the concept to analyze a fusion-energy claim, calculation, experiment, or design decision at L6 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "FUS-C-0039",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-frontier",
+      "lesson_id": null
+    }
+  ]
+}

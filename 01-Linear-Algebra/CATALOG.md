@@ -7,4 +7,4 @@
 | [`LA-0001`](lessons/LA-0001-what-linear-algebra-is-actually-studying.md) | What linear algebra is actually studying | L0 | complete | `LA-N-0001` | 2026-08-19 |
 | [`LA-0002`](lessons/LA-0002-scalars-coordinates-tuples-and-notation.md) | Scalars, coordinates, tuples, and notation | L0 | complete | `LA-N-0002` | 2026-08-19 |
 | [`LA-0003`](lessons/LA-0003-vectors-as-displacement-data-and-state.md) | Vectors as displacement, data, and state | L0 | complete | `LA-N-0003` | 2026-08-20 |
-| [`LA-0004`](lessons/LA-0004-vector-addition-and-scalar-multiplication.md) | Vector addition and scalar multiplication | L0 | complete | `LA-N-0004` | 2026-08-23 |
+| [`LA-0004`](lessons/LA-0004-vector-addition-and-scalar-multiplication.md) | Vector addition and scalar multiplication | L0 | complete | `LA-N-0004` | 2026-08-26 |
