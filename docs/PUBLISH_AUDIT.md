@@ -337,3 +337,33 @@ The full-repository check catches historical defects; the staged check is a
 pre-commit gate. These checks complement, rather than replace,
 `render_audit.py`, `csf.py audit --strict`, unit tests, and actual GitHub
 Preview inspection.
+
+## GitHub render-compatibility gate
+
+Source-level Markdown can pass generic rendering checks and still fail on
+GitHub-specific renderer restrictions.
+
+Known hazards include:
+
+- unsupported math macros such as `\operatorname{...}`;
+- raw pipe characters inside Mermaid node labels such as
+  `E[distribution P token | context]`.
+
+Required checks:
+
+```bash
+python scripts/github_render_compat_audit.py
+python scripts/github_render_compat_audit.py --staged
+```
+
+These checks complement:
+
+```bash
+python scripts/frontmatter_audit.py
+python scripts/render_audit.py
+python scripts/csf.py audit --strict
+```
+
+Actual pushed GitHub Preview inspection remains the final rendering gate.
+
+Literal hazard examples written inside inline code or ordinary fenced code are documentation and are intentionally excluded from the compatibility scan; real math contexts and Mermaid diagrams remain checked.

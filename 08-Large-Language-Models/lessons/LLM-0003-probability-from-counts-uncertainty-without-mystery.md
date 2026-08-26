@@ -305,13 +305,13 @@ cat
 
 So:
 
-$$ \operatorname{count}(\text{the} \rightarrow \text{cat}) = 3, $$
+$$ \mathrm{count}(\text{the} \rightarrow \text{cat}) = 3, $$
 
-$$ \operatorname{count}(\text{the} \rightarrow \text{dog}) = 1, $$
+$$ \mathrm{count}(\text{the} \rightarrow \text{dog}) = 1, $$
 
 and:
 
-$$ \operatorname{count}(\text{the as context}) = 4. $$
+$$ \mathrm{count}(\text{the as context}) = 4. $$
 
 The empirical conditional estimates are:
 
@@ -326,7 +326,7 @@ flowchart TD
     A[Choose a context c] --> B[Find observations matching c]
     B --> C[Count which next tokens followed]
     C --> D[Normalize within that context]
-    D --> E[Empirical next-token distribution P token | context]
+    D --> E["Empirical next-token distribution P(token given context)"]
 ```
 
 ## Why conditioning changes the denominator
@@ -341,7 +341,7 @@ we care about the subset of observations in which the condition `the` is satisfi
 
 Conceptually:
 
-$$ \hat{P}(t \mid c) = \frac{\operatorname{count}(c \rightarrow t)}{\operatorname{count}(c)}. $$
+$$ \hat{P}(t \mid c) = \frac{\mathrm{count}(c \rightarrow t)}{\mathrm{count}(c)}. $$
 
 The denominator is therefore the number of relevant context occurrences, not every token observation everywhere.
 
@@ -726,7 +726,7 @@ $$ \frac{2}{6}=\frac{1}{3}. $$
 
 Someone computes:
 
-$$ P(\text{cat}\mid\text{the}) = \frac{\operatorname{count}(\text{the followed by cat})}{\operatorname{count}(\text{all tokens in corpus})}. $$
+$$ P(\text{cat}\mid\text{the}) = \frac{\mathrm{count}(\text{the followed by cat})}{\mathrm{count}(\text{all tokens in corpus})}. $$
 
 What is wrong?
 
