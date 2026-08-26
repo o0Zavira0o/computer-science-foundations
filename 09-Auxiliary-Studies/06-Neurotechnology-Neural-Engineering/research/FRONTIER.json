@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../schemas/frontier.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "status": "active",
+  "snapshot_date": "2026-08-26",
+  "review_due": "2027-02-26",
+  "areas": [
+    "high-channel-count and high-density bidirectional neural interfaces",
+    "soft, flexible, conformal, injectable, and minimally invasive neural bioelectronics",
+    "chronic neural-interface stability, tissue response, materials, packaging, and longevity",
+    "adaptive and biomarker-driven closed-loop neuromodulation",
+    "noninvasive and minimally invasive modulation including focused ultrasound and novel field-shaping approaches",
+    "peripheral nerve interfaces for sensory feedback, motor restoration, and bioelectronic medicine",
+    "multimodal neural recording linking electrophysiology, imaging, behavior, and molecular signals",
+    "foundation models and self-supervised learning for large neural datasets",
+    "precision neurotechnology and patient-specific computational models",
+    "neural data privacy, cybersecurity, agency, identity, consent, equity, and governance",
+    "in-vitro neural systems, organoids, biohybrid computing, and neural tissue engineering",
+    "clinical translation, regulatory science, reliability metrics, and patient-centered outcomes"
+  ],
+  "open_questions": [
+    "How can neural interfaces increase information throughput and selectivity while reducing invasiveness, tissue response, power, heat, calibration burden, and long-term failure?",
+    "Which closed-loop biomarkers and control strategies generalize across people and over time without creating unstable, opaque, or clinically brittle systems?",
+    "How should neural-data models be validated when signals drift, datasets are small or heterogeneous, and model outputs can influence the very nervous system being measured?",
+    "Which combinations of biological repair, stimulation, decoding, prosthetic actuation, and rehabilitation produce durable functional benefit rather than short-term laboratory performance?",
+    "How should privacy, agency, consent, accessibility, cybersecurity, and equitable access be built into neurotechnology architecture rather than treated as post-hoc constraints?"
+  ],
+  "notes": "Frontier state is time-bounded. Refresh current NIH BRAIN program areas, FDA neurological-device guidance, relevant standards, clinical-trial evidence, and primary literature before making L5 current-status claims."
+}

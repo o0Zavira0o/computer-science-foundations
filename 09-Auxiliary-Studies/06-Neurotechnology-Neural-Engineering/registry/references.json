@@ -1,0 +1,139 @@
+{
+  "$schema": "../../../schemas/reference-registry.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "references": [
+    {
+      "id": "NNE-REF-001",
+      "title": "NE 100 — Introduction to Neural Engineering",
+      "type": "university-course",
+      "authority": "University of Illinois Urbana-Champaign",
+      "locator": "https://catalog.illinois.edu/courses-of-instruction/ne/",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": "2026-2027 Course Catalog",
+      "notes": "Curriculum baseline spanning neuroanatomy/neurophysiology, monitoring technologies, neural replacement/restoration devices, imaging, and computational approaches."
+    },
+    {
+      "id": "NNE-REF-002",
+      "title": "Neural Engineering, BS",
+      "type": "official-documentation",
+      "authority": "University of Illinois Urbana-Champaign",
+      "locator": "https://catalog.illinois.edu/undergraduate/engineering/neural-engineering-bs/",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-08-26",
+      "version": "2026-2027 Course Catalog",
+      "notes": "Program-level baseline showing the field's integration of neuroscience, electrical and imaging systems, molecular/cellular engineering, biological interfacing, neural data science, design, regulation, and ethics."
+    },
+    {
+      "id": "NNE-REF-003",
+      "title": "About the BRAIN Initiative",
+      "type": "official-documentation",
+      "authority": "National Institutes of Health — BRAIN Initiative",
+      "locator": "https://www.nih.gov/brain/about",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "page reviewed 2026-06-22",
+      "notes": "Authoritative current framing of neurotechnology development as a means to understand dynamic brain activity across cells and circuits and to advance research and clinical capabilities."
+    },
+    {
+      "id": "NNE-REF-004",
+      "title": "Neural Recording and Modulation",
+      "type": "official-documentation",
+      "authority": "National Institutes of Health — BRAIN Initiative",
+      "locator": "https://www.nih.gov/brain/research/neural-recording-modulation",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "page reviewed 2026-06-08",
+      "notes": "Current authoritative map of recording and modulation technology, including electrical, optical, magnetic, acoustic, molecular, genetic, ASIC, adaptive-optics, and signal-processing components."
+    },
+    {
+      "id": "NNE-REF-005",
+      "title": "BRAIN 2025: A Scientific Vision",
+      "type": "technical-report",
+      "authority": "National Institutes of Health — BRAIN Initiative",
+      "locator": "https://www.nih.gov/brain/about/vision/brain-2025-scientific-vision",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "BRAIN 2025",
+      "notes": "Strategic baseline for large-scale monitoring, human neural technology, integrated measurement and perturbation, biocompatibility, chronic reliability, neural interfaces, theory, modeling, statistics, and translational goals."
+    },
+    {
+      "id": "NNE-REF-006",
+      "title": "Anatomy and Physiology 2e — 12.4 The Action Potential",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Anatomy and Physiology 2e",
+      "notes": "Open textbook foundation for membrane potential, ionic gradients, voltage-gated channels, action potentials, threshold, repolarization, and refractory behavior."
+    },
+    {
+      "id": "NNE-REF-007",
+      "title": "Neurological Devices",
+      "type": "official-documentation",
+      "authority": "U.S. Food and Drug Administration",
+      "locator": "https://www.fda.gov/medical-devices/products-and-medical-procedures/neurological-devices",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Current regulatory overview establishing diagnostic, neurointerventional, neurostimulation, sensory-restoration, prosthetic, safety, and market-access context."
+    },
+    {
+      "id": "NNE-REF-008",
+      "title": "Implanted Brain-Computer Interface (BCI) Devices for Patients with Paralysis or Amputation — Non-clinical Testing and Clinical Considerations",
+      "type": "official-documentation",
+      "authority": "U.S. Food and Drug Administration",
+      "locator": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/implanted-brain-computer-interface-bci-devices-patients-paralysis-or-amputation-non-clinical-testing",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "Final Guidance, May 2021",
+      "notes": "Authoritative translational baseline for implanted BCI nonclinical testing, IDE study design, device reliability, biocompatibility, electrical safety, wireless technology, MRI compatibility, and clinical considerations."
+    },
+    {
+      "id": "NNE-REF-009",
+      "title": "BRAIN 2.0 Neuroethics: Enabling and Enhancing Neuroscience Advances for Society",
+      "type": "technical-report",
+      "authority": "National Institutes of Health — BRAIN Initiative",
+      "locator": "https://www.braininitiative.nih.gov/vision/nih-brain-initiative-reports/brain-20-neuroethics-enabling-and-enhancing-neuroscience",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "BRAIN 2.0 Neuroethics",
+      "notes": "Neuroethics baseline for closed-loop monitoring/stimulation and questions involving privacy, agency, identity, autonomy, consent, social context, and responsible innovation."
+    },
+    {
+      "id": "NNE-REF-010",
+      "title": "Brain-computer interfaces: Definitions and principles",
+      "type": "survey-review",
+      "authority": "Jonathan R. Wolpaw, José del R. Millán, Nick F. Ramsey",
+      "locator": "https://www.neurotechcenter.org/publications/2020/brain-computer-interfaces-definitions-and-principles",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Handbook of Clinical Neurology, 2020",
+      "notes": "Foundational BCI definition emphasizing measurement of CNS activity and translation into artificial outputs that replace, restore, enhance, supplement, or improve natural CNS outputs."
+    },
+    {
+      "id": "NNE-REF-011",
+      "title": "Standards and Guidances for Neurological Devices",
+      "type": "official-documentation",
+      "authority": "U.S. Food and Drug Administration",
+      "locator": "https://www.fda.gov/medical-devices/neurological-devices/standards-and-guidances-neurological-devices",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Current FDA entry point for neurological-device standards and guidance, including biocompatibility and other safety/effectiveness considerations."
+    },
+    {
+      "id": "NNE-REF-012",
+      "title": "Therapeutic Human Neuroscience Program",
+      "type": "official-documentation",
+      "authority": "National Institutes of Health — BRAIN Initiative",
+      "locator": "https://www.braininitiative.nih.gov/research/human-neuroscience/therapeutic-human-neuroscience-program",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": null,
+      "notes": "Current translational program baseline for FDA-regulated invasive and noninvasive CNS technologies, including closed-loop sensing and stimulation."
+    }
+  ]
+}

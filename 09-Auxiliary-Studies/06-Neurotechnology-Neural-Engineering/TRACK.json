@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/track.schema.json",
+  "schema_version": 1,
+  "id": "neurotechnology-neural-engineering",
+  "code": "NNE",
+  "title": "Neurotechnology & Neural Engineering",
+  "folder": "06-Neurotechnology-Neural-Engineering",
+  "order": 14,
+  "status": "active",
+  "entry_model": "zero-subject-specific-knowledge",
+  "scope": {
+    "focus": "Neurotechnology and neural engineering from first principles: how nervous-system signals arise, how they are measured and modulated, how neural interfaces and neuroprosthetic systems are engineered, and how biological, computational, device, clinical, regulatory, human-factors, and neuroethical constraints interact.",
+    "includes": [
+      "Neuroanatomy and neurophysiology for engineers, from membranes, ions, action potentials, and synapses to populations, circuits, systems, and behavior",
+      "Neural recording across scales and modalities, including intracellular and extracellular electrophysiology, microelectrode arrays, ECoG/iEEG, EEG, peripheral nerve recordings, MEG, fMRI, and optical approaches",
+      "Electrode-tissue interfaces, bioinstrumentation, sampling, noise, artifacts, signal conditioning, neural data representation, spectral analysis, spike analysis, decoding, encoding, system identification, and machine learning",
+      "Electrical, magnetic, acoustic, optical, and other modulation approaches; deep brain stimulation, spinal and peripheral stimulation, noninvasive stimulation, closed-loop neuromodulation, and stimulation safety principles",
+      "Brain-computer interfaces, peripheral neural interfaces, sensory and motor neuroprostheses, bidirectional interfaces, assistive communication, restoration, rehabilitation, and augmentation as distinct design goals",
+      "Neural implant materials, biocompatibility, foreign-body response, flexible bioelectronics, packaging, power, telemetry, reliability, manufacturing, MRI/EMC considerations, and chronic performance",
+      "Neuroimaging, neural tissue engineering, regenerative interfaces, in-vitro neural platforms, multimodal neurotechnology, and computational models",
+      "Human-centered design, verification and validation, preclinical and clinical evidence, neurological-device regulation, cybersecurity, privacy, accessibility, equity, informed consent, agency, identity, and neuroethics",
+      "Research literacy, reproducibility, benchmark design, systems engineering, critical paper reading, computational reproduction, and frontier refreshes"
+    ],
+    "delegates": [
+      "General linear-algebra machinery may import explicit prerequisites from Linear Algebra when advanced decoding, dimensionality reduction, inverse problems, or state-space methods require it.",
+      "General machine-learning machinery may connect to the Large Language Models track only for shared mathematical or computational techniques; neural data claims remain grounded in neuroengineering evidence.",
+      "Advanced circuit, electromagnetic, and power-electronics derivations may import explicit support from Electrical Engineering — Power Engineering rather than silently assuming those skills.",
+      "Large software systems, embedded implementation, and low-level programming may import explicit support from C++, Computer Systems, or Linux when projects require them.",
+      "Normative analysis of agency, consent, identity, privacy, and responsibility may connect to Philosophy and Logic while keeping neurotechnology-specific empirical claims in this track."
+    ]
+  },
+  "entry_prerequisites": [],
+  "neighbor_tracks": [
+    "linear-algebra",
+    "large-language-models",
+    "electrical-engineering-power",
+    "computer-systems",
+    "cpp",
+    "linux-systems",
+    "philosophy-and-logic"
+  ]
+}

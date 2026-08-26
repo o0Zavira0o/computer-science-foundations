@@ -8,5 +8,5 @@ This directory groups independent non-core tracks that complement the main techn
 - [`02-German-Language`](02-German-Language/README.md) — German from absolute zero toward advanced academic and professional competence.
 - [`03-Philosophy-and-Logic`](03-Philosophy-and-Logic/README.md) — philosophy and formal/informal logic from first principles through advanced and research-oriented study.
 - [`04-Fusion-Energy`](04-Fusion-Energy/README.md) — fusion energy from first principles through plasma/nuclear physics, reactor engineering, whole-plant energy accounting, and research-frontier literacy.
-
 - [`05-Electrical-Engineering-Power-Engineering`](05-Electrical-Engineering-Power-Engineering/README.md) — electrical engineering with a power-engineering focus, from first principles through modern-grid analysis and research.
+- [`06-Neurotechnology-Neural-Engineering`](06-Neurotechnology-Neural-Engineering/README.md) — neurotechnology and neural engineering from nervous-system foundations through neural recording, modulation, interfaces, neuroprosthetics, implants, translation, neuroethics, and research literacy.

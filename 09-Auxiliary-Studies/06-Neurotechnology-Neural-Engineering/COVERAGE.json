@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/coverage.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "baseline": {
+    "status": "audited",
+    "last_audited": "2026-08-26",
+    "sources": [
+      "NNE-REF-001",
+      "NNE-REF-002",
+      "NNE-REF-003",
+      "NNE-REF-004",
+      "NNE-REF-005",
+      "NNE-REF-006",
+      "NNE-REF-007",
+      "NNE-REF-008",
+      "NNE-REF-009",
+      "NNE-REF-010",
+      "NNE-REF-011",
+      "NNE-REF-012"
+    ]
+  },
+  "items": [
+    {
+      "id": "NNE-COV-001",
+      "title": "Field map and nervous-system foundations",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-001",
+        "NNE-REF-002",
+        "NNE-REF-003",
+        "NNE-REF-006"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0001",
+        "NNE-N-0002",
+        "NNE-N-0003",
+        "NNE-N-0004",
+        "NNE-N-0005",
+        "NNE-N-0006",
+        "NNE-N-0007",
+        "NNE-N-0008",
+        "NNE-N-0009",
+        "NNE-N-0010",
+        "NNE-N-0011",
+        "NNE-N-0012"
+      ],
+      "rationale": "Establishes a zero-subject-specific-knowledge entry point before interfaces or algorithms."
+    },
+    {
+      "id": "NNE-COV-002",
+      "title": "Neural recording and measurement modalities",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-001",
+        "NNE-REF-004",
+        "NNE-REF-005"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0013",
+        "NNE-N-0014",
+        "NNE-N-0015",
+        "NNE-N-0016",
+        "NNE-N-0017",
+        "NNE-N-0018",
+        "NNE-N-0019",
+        "NNE-N-0020",
+        "NNE-N-0021",
+        "NNE-N-0022"
+      ],
+      "rationale": "Covers invasive, noninvasive, electrical, magnetic, hemodynamic, and optical observation across spatial and temporal scales."
+    },
+    {
+      "id": "NNE-COV-003",
+      "title": "Instrumentation and signal processing",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-001",
+        "NNE-REF-002",
+        "NNE-REF-004"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0023",
+        "NNE-N-0024",
+        "NNE-N-0025",
+        "NNE-N-0026",
+        "NNE-N-0027",
+        "NNE-N-0028"
+      ],
+      "rationale": "Builds the acquisition chain from sampling and analog front ends through noise, artifacts, filtering, events, and spectra."
+    },
+    {
+      "id": "NNE-COV-004",
+      "title": "Neural coding, decoding, encoding, and data analysis",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-002",
+        "NNE-REF-004",
+        "NNE-REF-010"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0029",
+        "NNE-N-0030",
+        "NNE-N-0031",
+        "NNE-N-0032",
+        "NNE-N-0033",
+        "NNE-N-0034",
+        "NNE-N-0035",
+        "NNE-N-0036",
+        "NNE-N-0037",
+        "NNE-N-0038",
+        "NNE-N-0039",
+        "NNE-N-0040",
+        "NNE-N-0041",
+        "NNE-N-0042",
+        "NNE-N-0043"
+      ],
+      "rationale": "Maps neural data structure, statistical variability, population representations, decoding, encoding, ML, drift, and evaluation."
+    },
+    {
+      "id": "NNE-COV-005",
+      "title": "Neural stimulation and modulation",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-004",
+        "NNE-REF-005",
+        "NNE-REF-012"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0044",
+        "NNE-N-0045",
+        "NNE-N-0046",
+        "NNE-N-0047",
+        "NNE-N-0048",
+        "NNE-N-0049",
+        "NNE-N-0050",
+        "NNE-N-0051",
+        "NNE-N-0052"
+      ],
+      "rationale": "Covers electrical and non-electrical perturbation while separating mechanism, targeting, safety, and therapeutic context."
+    },
+    {
+      "id": "NNE-COV-006",
+      "title": "BCI, neuroprosthetics, and closed-loop systems",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-005",
+        "NNE-REF-008",
+        "NNE-REF-010",
+        "NNE-REF-012"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0053",
+        "NNE-N-0054",
+        "NNE-N-0055",
+        "NNE-N-0056",
+        "NNE-N-0057"
+      ],
+      "rationale": "Covers sensory and motor restoration, invasive and noninvasive BCI, bidirectional interfaces, and adaptive closed loops."
+    },
+    {
+      "id": "NNE-COV-007",
+      "title": "Implants, materials, peripheral interfaces, and neural tissue engineering",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-002",
+        "NNE-REF-005",
+        "NNE-REF-008",
+        "NNE-REF-011"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0058",
+        "NNE-N-0059",
+        "NNE-N-0060",
+        "NNE-N-0061",
+        "NNE-N-0062",
+        "NNE-N-0063",
+        "NNE-N-0064",
+        "NNE-N-0065",
+        "NNE-N-0066",
+        "NNE-N-0067",
+        "NNE-N-0068"
+      ],
+      "rationale": "Adds biological interface response, materials, packaging, electronics, chronic reliability, peripheral interfaces, and regenerative platforms."
+    },
+    {
+      "id": "NNE-COV-008",
+      "title": "Translation, regulation, and human-centered design",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-007",
+        "NNE-REF-008",
+        "NNE-REF-011",
+        "NNE-REF-012"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0069",
+        "NNE-N-0070",
+        "NNE-N-0071",
+        "NNE-N-0072",
+        "NNE-N-0073",
+        "NNE-N-0074",
+        "NNE-N-0075"
+      ],
+      "rationale": "Connects intended use and risk-benefit to verification, preclinical evidence, clinical evaluation, regulation, and usability."
+    },
+    {
+      "id": "NNE-COV-009",
+      "title": "Cybersecurity, neuroethics, equity, and data governance",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-003",
+        "NNE-REF-009"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0076",
+        "NNE-N-0077",
+        "NNE-N-0078",
+        "NNE-N-0079"
+      ],
+      "rationale": "Treats neural technologies as human systems with privacy, agency, consent, identity, security, accessibility, equity, and governance obligations."
+    },
+    {
+      "id": "NNE-COV-010",
+      "title": "Integrated systems, frontier methods, and research literacy",
+      "status": "covered",
+      "source_refs": [
+        "NNE-REF-003",
+        "NNE-REF-004",
+        "NNE-REF-005",
+        "NNE-REF-007",
+        "NNE-REF-009"
+      ],
+      "mapped_nodes": [
+        "NNE-N-0080",
+        "NNE-N-0081",
+        "NNE-N-0082",
+        "NNE-N-0083",
+        "NNE-N-0084",
+        "NNE-N-0085",
+        "NNE-N-0086",
+        "NNE-N-0087",
+        "NNE-N-0088",
+        "NNE-N-0089"
+      ],
+      "rationale": "Prepares the learner to integrate modalities, assess advanced computation, reproduce results, design systems, form questions, and refresh the frontier."
+    }
+  ],
+  "unresolved_questions": []
+}

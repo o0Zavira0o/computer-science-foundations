@@ -1,0 +1,664 @@
+{
+  "$schema": "../../../schemas/concept-registry.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "concepts": [
+    {
+      "id": "NNE-C-0001",
+      "name": "Neurotechnology and neural engineering as an integrated systems field",
+      "aliases": [
+        "neuroengineering",
+        "neural technology",
+        "neural interface engineering"
+      ],
+      "current_depth": "D1",
+      "notes": "Treat biology, sensing, computation, actuation, devices, people, and context as one coupled engineering system."
+    },
+    {
+      "id": "NNE-C-0002",
+      "name": "Neural interface loop: observe, infer, act, and adapt",
+      "aliases": [
+        "record-decode-act loop",
+        "closed-loop neural interface"
+      ],
+      "current_depth": "D1",
+      "notes": "A reusable system boundary connecting nervous-system state, measurement, computation, output or stimulation, feedback, and adaptation."
+    },
+    {
+      "id": "NNE-C-0003",
+      "name": "Recording, modulation, restoration, and augmentation as distinct objectives",
+      "aliases": [
+        "measure versus stimulate",
+        "read versus write neural activity"
+      ],
+      "current_depth": "D1",
+      "notes": "Keep observation, perturbation, replacement/restoration, rehabilitation, and enhancement conceptually separate."
+    },
+    {
+      "id": "NNE-C-0004",
+      "name": "Neurotechnology tradeoff space",
+      "aliases": [
+        "resolution-invasiveness tradeoff",
+        "neural interface design tradeoffs"
+      ],
+      "current_depth": "D1",
+      "notes": "Spatial and temporal resolution, selectivity, bandwidth, invasiveness, stability, safety, latency, usability, and power must be optimized together."
+    },
+    {
+      "id": "NNE-C-0005",
+      "name": "A map of the nervous system: CNS, PNS, cells, circuits, and behavior",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting a map of the nervous system: cns, pns, cells, circuits, and behavior."
+    },
+    {
+      "id": "NNE-C-0006",
+      "name": "Neurons, glia, membranes, and ions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting neurons, glia, membranes, and ions."
+    },
+    {
+      "id": "NNE-C-0007",
+      "name": "Resting membrane potential and electrochemical gradients",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting resting membrane potential and electrochemical gradients."
+    },
+    {
+      "id": "NNE-C-0008",
+      "name": "Action potentials, thresholds, refractory periods, and propagation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting action potentials, thresholds, refractory periods, and propagation."
+    },
+    {
+      "id": "NNE-C-0009",
+      "name": "Synapses, neurotransmitters, excitation, inhibition, and integration",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting synapses, neurotransmitters, excitation, inhibition, and integration."
+    },
+    {
+      "id": "NNE-C-0010",
+      "name": "From single neurons to populations, circuits, systems, and behavior",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting from single neurons to populations, circuits, systems, and behavior."
+    },
+    {
+      "id": "NNE-C-0011",
+      "name": "What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting what counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics."
+    },
+    {
+      "id": "NNE-C-0012",
+      "name": "The neural measurement chain: source, tissue, sensor, electronics, data, and inference",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting the neural measurement chain: source, tissue, sensor, electronics, data, and inference."
+    },
+    {
+      "id": "NNE-C-0013",
+      "name": "The neural modulation chain: stimulus, field or actuator, target, response, and side effects",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting the neural modulation chain: stimulus, field or actuator, target, response, and side effects."
+    },
+    {
+      "id": "NNE-C-0014",
+      "name": "Open-loop and closed-loop neural systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting open-loop and closed-loop neural systems."
+    },
+    {
+      "id": "NNE-C-0015",
+      "name": "Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs."
+    },
+    {
+      "id": "NNE-C-0016",
+      "name": "The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting the electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses."
+    },
+    {
+      "id": "NNE-C-0017",
+      "name": "Intracellular recording and patch clamp as a window into membrane voltage and currents",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting intracellular recording and patch clamp as a window into membrane voltage and currents."
+    },
+    {
+      "id": "NNE-C-0018",
+      "name": "Extracellular spikes, multi-unit activity, and local field potentials",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting extracellular spikes, multi-unit activity, and local field potentials."
+    },
+    {
+      "id": "NNE-C-0019",
+      "name": "Microelectrode arrays and high-channel-count invasive recording",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting microelectrode arrays and high-channel-count invasive recording."
+    },
+    {
+      "id": "NNE-C-0020",
+      "name": "ECoG and intracranial EEG: recording from the cortical surface and depth",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting ecog and intracranial eeg: recording from the cortical surface and depth."
+    },
+    {
+      "id": "NNE-C-0021",
+      "name": "Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting scalp eeg: potentials, montages, volume conduction, and spatial ambiguity."
+    },
+    {
+      "id": "NNE-C-0022",
+      "name": "Peripheral neural and neuromuscular signals: ENG and EMG",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting peripheral neural and neuromuscular signals: eng and emg."
+    },
+    {
+      "id": "NNE-C-0023",
+      "name": "MEG: magnetic fields generated by neural currents",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting meg: magnetic fields generated by neural currents."
+    },
+    {
+      "id": "NNE-C-0024",
+      "name": "fMRI and the BOLD signal: hemodynamic inference rather than direct voltage recording",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fmri and the bold signal: hemodynamic inference rather than direct voltage recording."
+    },
+    {
+      "id": "NNE-C-0025",
+      "name": "Optical neural recording: calcium, voltage, and related indicators",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting optical neural recording: calcium, voltage, and related indicators."
+    },
+    {
+      "id": "NNE-C-0026",
+      "name": "Sampling, digitization, aliasing, dynamic range, and quantization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting sampling, digitization, aliasing, dynamic range, and quantization."
+    },
+    {
+      "id": "NNE-C-0027",
+      "name": "Biopotential front ends: differential amplification, referencing, grounding, and common-mode rejection",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting biopotential front ends: differential amplification, referencing, grounding, and common-mode rejection."
+    },
+    {
+      "id": "NNE-C-0028",
+      "name": "Noise, electrode impedance, movement, mains pickup, and biological artifacts",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting noise, electrode impedance, movement, mains pickup, and biological artifacts."
+    },
+    {
+      "id": "NNE-C-0029",
+      "name": "Filtering neural data without filtering away the phenomenon",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting filtering neural data without filtering away the phenomenon."
+    },
+    {
+      "id": "NNE-C-0030",
+      "name": "Event detection, thresholding, spikes, and the idea of spike sorting",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting event detection, thresholding, spikes, and the idea of spike sorting."
+    },
+    {
+      "id": "NNE-C-0031",
+      "name": "Spectra, rhythms, time-frequency representations, and oscillatory features",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting spectra, rhythms, time-frequency representations, and oscillatory features."
+    },
+    {
+      "id": "NNE-C-0032",
+      "name": "Neural datasets: channels, time, trials, events, metadata, and alignment",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting neural datasets: channels, time, trials, events, metadata, and alignment."
+    },
+    {
+      "id": "NNE-C-0033",
+      "name": "Variability, repeated trials, distributions, and point-process intuition",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting variability, repeated trials, distributions, and point-process intuition."
+    },
+    {
+      "id": "NNE-C-0034",
+      "name": "Firing rates, tuning curves, receptive fields, and response functions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting firing rates, tuning curves, receptive fields, and response functions."
+    },
+    {
+      "id": "NNE-C-0035",
+      "name": "Population activity and low-dimensional structure",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting population activity and low-dimensional structure."
+    },
+    {
+      "id": "NNE-C-0036",
+      "name": "Linear decoding from neural activity to continuous variables",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting linear decoding from neural activity to continuous variables."
+    },
+    {
+      "id": "NNE-C-0037",
+      "name": "Classification and regression for neural interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting classification and regression for neural interfaces."
+    },
+    {
+      "id": "NNE-C-0038",
+      "name": "Train, validation, test, leakage, drift, and honest generalization",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting train, validation, test, leakage, drift, and honest generalization."
+    },
+    {
+      "id": "NNE-C-0039",
+      "name": "Temporal and state-space decoding of evolving neural states",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting temporal and state-space decoding of evolving neural states."
+    },
+    {
+      "id": "NNE-C-0040",
+      "name": "Deep learning for neural signals: what it adds and what it can hide",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting deep learning for neural signals: what it adds and what it can hide."
+    },
+    {
+      "id": "NNE-C-0041",
+      "name": "Encoding models: predicting neural responses from stimuli or actions",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting encoding models: predicting neural responses from stimuli or actions."
+    },
+    {
+      "id": "NNE-C-0042",
+      "name": "System identification for neural input-output relationships",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting system identification for neural input-output relationships."
+    },
+    {
+      "id": "NNE-C-0043",
+      "name": "Information-theoretic views of neural representation and communication",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting information-theoretic views of neural representation and communication."
+    },
+    {
+      "id": "NNE-C-0044",
+      "name": "Nonstationarity, adaptation, plasticity, and why yesterday's decoder can fail today",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting nonstationarity, adaptation, plasticity, and why yesterday's decoder can fail today."
+    },
+    {
+      "id": "NNE-C-0045",
+      "name": "Calibration and human-machine co-adaptation in BCI systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting calibration and human-machine co-adaptation in bci systems."
+    },
+    {
+      "id": "NNE-C-0046",
+      "name": "Performance metrics, uncertainty, latency, and benchmark design",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting performance metrics, uncertainty, latency, and benchmark design."
+    },
+    {
+      "id": "NNE-C-0047",
+      "name": "Electrical neural stimulation: waveform, charge transfer, recruitment, and spatial spread",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting electrical neural stimulation: waveform, charge transfer, recruitment, and spatial spread."
+    },
+    {
+      "id": "NNE-C-0048",
+      "name": "Stimulation safety as a systems problem: tissue, electrode, charge, heat, and unintended activation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting stimulation safety as a systems problem: tissue, electrode, charge, heat, and unintended activation."
+    },
+    {
+      "id": "NNE-C-0049",
+      "name": "Deep brain stimulation: circuit modulation without a simple on-off story",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting deep brain stimulation: circuit modulation without a simple on-off story."
+    },
+    {
+      "id": "NNE-C-0050",
+      "name": "Spinal cord stimulation and spinal neural interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting spinal cord stimulation and spinal neural interfaces."
+    },
+    {
+      "id": "NNE-C-0051",
+      "name": "Peripheral nerve stimulation and functional electrical stimulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting peripheral nerve stimulation and functional electrical stimulation."
+    },
+    {
+      "id": "NNE-C-0052",
+      "name": "Transcranial magnetic stimulation and induced electric fields",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transcranial magnetic stimulation and induced electric fields."
+    },
+    {
+      "id": "NNE-C-0053",
+      "name": "Transcranial electrical stimulation: tDCS, tACS, field strength, and interpretive limits",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting transcranial electrical stimulation: tdcs, tacs, field strength, and interpretive limits."
+    },
+    {
+      "id": "NNE-C-0054",
+      "name": "Focused ultrasound and emerging noninvasive neuromodulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting focused ultrasound and emerging noninvasive neuromodulation."
+    },
+    {
+      "id": "NNE-C-0055",
+      "name": "Optogenetic, chemogenetic, and molecular approaches to neural control",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting optogenetic, chemogenetic, and molecular approaches to neural control."
+    },
+    {
+      "id": "NNE-C-0056",
+      "name": "Sensory neuroprostheses: cochlear, retinal, cortical, and somatosensory interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting sensory neuroprostheses: cochlear, retinal, cortical, and somatosensory interfaces."
+    },
+    {
+      "id": "NNE-C-0057",
+      "name": "Invasive motor brain-computer interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting invasive motor brain-computer interfaces."
+    },
+    {
+      "id": "NNE-C-0058",
+      "name": "Noninvasive brain-computer interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting noninvasive brain-computer interfaces."
+    },
+    {
+      "id": "NNE-C-0059",
+      "name": "Bidirectional BCIs and artificial sensory feedback",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting bidirectional bcis and artificial sensory feedback."
+    },
+    {
+      "id": "NNE-C-0060",
+      "name": "Closed-loop and adaptive neuromodulation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting closed-loop and adaptive neuromodulation."
+    },
+    {
+      "id": "NNE-C-0061",
+      "name": "Biomaterials and biocompatibility for neural interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting biomaterials and biocompatibility for neural interfaces."
+    },
+    {
+      "id": "NNE-C-0062",
+      "name": "Foreign-body response, inflammation, gliosis, and chronic interface degradation",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting foreign-body response, inflammation, gliosis, and chronic interface degradation."
+    },
+    {
+      "id": "NNE-C-0063",
+      "name": "Mechanical mismatch, micromotion, flexible electrodes, and soft bioelectronics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting mechanical mismatch, micromotion, flexible electrodes, and soft bioelectronics."
+    },
+    {
+      "id": "NNE-C-0064",
+      "name": "Packaging, hermeticity, corrosion, insulation, and feedthrough reliability",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting packaging, hermeticity, corrosion, insulation, and feedthrough reliability."
+    },
+    {
+      "id": "NNE-C-0065",
+      "name": "Power, telemetry, wireless links, and energy budgets in implanted neurotechnology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting power, telemetry, wireless links, and energy budgets in implanted neurotechnology."
+    },
+    {
+      "id": "NNE-C-0066",
+      "name": "Low-noise ASICs and integrated neural-interface electronics",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting low-noise asics and integrated neural-interface electronics."
+    },
+    {
+      "id": "NNE-C-0067",
+      "name": "Thermal, electromagnetic, MRI, and unintended-stimulation safety",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting thermal, electromagnetic, mri, and unintended-stimulation safety."
+    },
+    {
+      "id": "NNE-C-0068",
+      "name": "Sterilization, manufacturing, quality, and reliability engineering",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting sterilization, manufacturing, quality, and reliability engineering."
+    },
+    {
+      "id": "NNE-C-0069",
+      "name": "Peripheral nerve interface architectures: cuffs, intrafascicular, and regenerative interfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting peripheral nerve interface architectures: cuffs, intrafascicular, and regenerative interfaces."
+    },
+    {
+      "id": "NNE-C-0070",
+      "name": "Neural tissue engineering, regeneration, and engineered repair",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting neural tissue engineering, regeneration, and engineered repair."
+    },
+    {
+      "id": "NNE-C-0071",
+      "name": "In-vitro neural platforms, microelectrode arrays, organoids, and biohybrid systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting in-vitro neural platforms, microelectrode arrays, organoids, and biohybrid systems."
+    },
+    {
+      "id": "NNE-C-0072",
+      "name": "Clinical need, intended use, and defining the problem before designing the device",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting clinical need, intended use, and defining the problem before designing the device."
+    },
+    {
+      "id": "NNE-C-0073",
+      "name": "Risk-benefit reasoning and design controls for neural devices",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting risk-benefit reasoning and design controls for neural devices."
+    },
+    {
+      "id": "NNE-C-0074",
+      "name": "Verification, validation, bench testing, and failure modes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting verification, validation, bench testing, and failure modes."
+    },
+    {
+      "id": "NNE-C-0075",
+      "name": "Preclinical evidence, chronic reliability, and translational model limitations",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting preclinical evidence, chronic reliability, and translational model limitations."
+    },
+    {
+      "id": "NNE-C-0076",
+      "name": "Clinical studies, endpoints, usability, and patient-centered outcomes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting clinical studies, endpoints, usability, and patient-centered outcomes."
+    },
+    {
+      "id": "NNE-C-0077",
+      "name": "FDA pathways, IDE thinking, and implanted BCI guidance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting fda pathways, ide thinking, and implanted bci guidance."
+    },
+    {
+      "id": "NNE-C-0078",
+      "name": "Human factors and usability in assistive and therapeutic neurotechnology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting human factors and usability in assistive and therapeutic neurotechnology."
+    },
+    {
+      "id": "NNE-C-0079",
+      "name": "Cybersecurity, neural-data privacy, and attack surfaces",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting cybersecurity, neural-data privacy, and attack surfaces."
+    },
+    {
+      "id": "NNE-C-0080",
+      "name": "Neuroethics: consent, autonomy, agency, identity, and responsibility",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting neuroethics: consent, autonomy, agency, identity, and responsibility."
+    },
+    {
+      "id": "NNE-C-0081",
+      "name": "Accessibility, equity, bias, disability perspectives, and who benefits",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting accessibility, equity, bias, disability perspectives, and who benefits."
+    },
+    {
+      "id": "NNE-C-0082",
+      "name": "Data governance, reproducibility, sharing, standards, and provenance",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting data governance, reproducibility, sharing, standards, and provenance."
+    },
+    {
+      "id": "NNE-C-0083",
+      "name": "Multimodal neurotechnology: combining electrical, optical, imaging, and behavioral data",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting multimodal neurotechnology: combining electrical, optical, imaging, and behavioral data."
+    },
+    {
+      "id": "NNE-C-0084",
+      "name": "Closed-loop control, adaptive algorithms, and stability in neuroengineering systems",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting closed-loop control, adaptive algorithms, and stability in neuroengineering systems."
+    },
+    {
+      "id": "NNE-C-0085",
+      "name": "Digital biomarkers and precision neurotechnology",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting digital biomarkers and precision neurotechnology."
+    },
+    {
+      "id": "NNE-C-0086",
+      "name": "Foundation models for neural data: opportunities, validation, bias, and failure modes",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting foundation models for neural data: opportunities, validation, bias, and failure modes."
+    },
+    {
+      "id": "NNE-C-0087",
+      "name": "Augmentation, restoration, rehabilitation, and enhancement as different design objectives",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting augmentation, restoration, rehabilitation, and enhancement as different design objectives."
+    },
+    {
+      "id": "NNE-C-0088",
+      "name": "Read a neurotechnology or neural-engineering paper critically",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting read a neurotechnology or neural-engineering paper critically."
+    },
+    {
+      "id": "NNE-C-0089",
+      "name": "Reproduce a neural recording, decoding, or stimulation result computationally",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting reproduce a neural recording, decoding, or stimulation result computationally."
+    },
+    {
+      "id": "NNE-C-0090",
+      "name": "Design and defend a conceptual neural interface under competing constraints",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting design and defend a conceptual neural interface under competing constraints."
+    },
+    {
+      "id": "NNE-C-0091",
+      "name": "Turn an unmet neural-interface need into a researchable question",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting turn an unmet neural-interface need into a researchable question."
+    },
+    {
+      "id": "NNE-C-0092",
+      "name": "Refresh the neurotechnology frontier from primary, regulatory, and neuroethical evidence",
+      "aliases": [],
+      "current_depth": null,
+      "notes": "Curriculum concept supporting refresh the neurotechnology frontier from primary, regulatory, and neuroethical evidence."
+    }
+  ]
+}

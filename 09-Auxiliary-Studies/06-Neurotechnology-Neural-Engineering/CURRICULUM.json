@@ -1,0 +1,1889 @@
+{
+  "$schema": "../../schemas/curriculum.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "audit_status": "audited",
+  "last_coverage_audit": "2026-08-26",
+  "nodes": [
+    {
+      "id": "NNE-N-0001",
+      "title": "What neurotechnology and neural engineering are actually studying",
+      "level": "L0",
+      "status": "published",
+      "prerequisites": [],
+      "outcomes": [
+        "Explain the difference and overlap between neurotechnology and neural engineering without reducing the field to brain-computer interfaces.",
+        "Trace a neural technology as a system from biological source or target through interface, electronics or transduction, computation, output, feedback, and human context.",
+        "Compare candidate neurotechnologies using resolution, selectivity, invasiveness, bandwidth, stability, safety, latency, and usability rather than a single 'better' scale."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0001",
+          "target_depth": "D1"
+        },
+        {
+          "id": "NNE-C-0002",
+          "target_depth": "D1"
+        },
+        {
+          "id": "NNE-C-0003",
+          "target_depth": "D1"
+        },
+        {
+          "id": "NNE-C-0004",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "systems-map",
+      "lesson_id": "NNE-0001"
+    },
+    {
+      "id": "NNE-N-0002",
+      "title": "A map of the nervous system: CNS, PNS, cells, circuits, and behavior",
+      "level": "L0",
+      "status": "ready",
+      "prerequisites": [
+        "NNE-N-0001"
+      ],
+      "outcomes": [
+        "Explain a map of the nervous system: cns, pns, cells, circuits, and behavior at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0005",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0003",
+      "title": "Neurons, glia, membranes, and ions",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0002"
+      ],
+      "outcomes": [
+        "Explain neurons, glia, membranes, and ions at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0006",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0004",
+      "title": "Resting membrane potential and electrochemical gradients",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0003"
+      ],
+      "outcomes": [
+        "Explain resting membrane potential and electrochemical gradients at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0007",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0005",
+      "title": "Action potentials, thresholds, refractory periods, and propagation",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0004"
+      ],
+      "outcomes": [
+        "Explain action potentials, thresholds, refractory periods, and propagation at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0008",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0006",
+      "title": "Synapses, neurotransmitters, excitation, inhibition, and integration",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0005"
+      ],
+      "outcomes": [
+        "Explain synapses, neurotransmitters, excitation, inhibition, and integration at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0009",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0007",
+      "title": "From single neurons to populations, circuits, systems, and behavior",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0006"
+      ],
+      "outcomes": [
+        "Explain from single neurons to populations, circuits, systems, and behavior at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0010",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "neuroscience-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0008",
+      "title": "What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0007"
+      ],
+      "outcomes": [
+        "Explain what counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0011",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "signals-and-observation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0009",
+      "title": "The neural measurement chain: source, tissue, sensor, electronics, data, and inference",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0008"
+      ],
+      "outcomes": [
+        "Explain the neural measurement chain: source, tissue, sensor, electronics, data, and inference at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0012",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "signals-and-observation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0010",
+      "title": "The neural modulation chain: stimulus, field or actuator, target, response, and side effects",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0009"
+      ],
+      "outcomes": [
+        "Explain the neural modulation chain: stimulus, field or actuator, target, response, and side effects at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0013",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "modulation-foundations",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0011",
+      "title": "Open-loop and closed-loop neural systems",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0010"
+      ],
+      "outcomes": [
+        "Explain open-loop and closed-loop neural systems at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0014",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "systems-map",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0012",
+      "title": "Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs",
+      "level": "L0",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0011"
+      ],
+      "outcomes": [
+        "Explain resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs at L0 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L0 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0015",
+          "target_depth": "D1"
+        }
+      ],
+      "branch": "systems-map",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0013",
+      "title": "The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0012"
+      ],
+      "outcomes": [
+        "Explain the electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0016",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0014",
+      "title": "Intracellular recording and patch clamp as a window into membrane voltage and currents",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0013"
+      ],
+      "outcomes": [
+        "Explain intracellular recording and patch clamp as a window into membrane voltage and currents at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0017",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0015",
+      "title": "Extracellular spikes, multi-unit activity, and local field potentials",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0014"
+      ],
+      "outcomes": [
+        "Explain extracellular spikes, multi-unit activity, and local field potentials at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0018",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0016",
+      "title": "Microelectrode arrays and high-channel-count invasive recording",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0015"
+      ],
+      "outcomes": [
+        "Explain microelectrode arrays and high-channel-count invasive recording at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0019",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0017",
+      "title": "ECoG and intracranial EEG: recording from the cortical surface and depth",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0016"
+      ],
+      "outcomes": [
+        "Explain ecog and intracranial eeg: recording from the cortical surface and depth at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0020",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0018",
+      "title": "Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0017"
+      ],
+      "outcomes": [
+        "Explain scalp eeg: potentials, montages, volume conduction, and spatial ambiguity at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0021",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neural-recording",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0019",
+      "title": "Peripheral neural and neuromuscular signals: ENG and EMG",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0018"
+      ],
+      "outcomes": [
+        "Explain peripheral neural and neuromuscular signals: eng and emg at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0022",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "peripheral-interfaces",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0020",
+      "title": "MEG: magnetic fields generated by neural currents",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0019"
+      ],
+      "outcomes": [
+        "Explain meg: magnetic fields generated by neural currents at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0023",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neuroimaging",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0021",
+      "title": "fMRI and the BOLD signal: hemodynamic inference rather than direct voltage recording",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0020"
+      ],
+      "outcomes": [
+        "Explain fmri and the bold signal: hemodynamic inference rather than direct voltage recording at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0024",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neuroimaging",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0022",
+      "title": "Optical neural recording: calcium, voltage, and related indicators",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0021"
+      ],
+      "outcomes": [
+        "Explain optical neural recording: calcium, voltage, and related indicators at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0025",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "neuroimaging",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0023",
+      "title": "Sampling, digitization, aliasing, dynamic range, and quantization",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0022"
+      ],
+      "outcomes": [
+        "Explain sampling, digitization, aliasing, dynamic range, and quantization at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0026",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "instrumentation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0024",
+      "title": "Biopotential front ends: differential amplification, referencing, grounding, and common-mode rejection",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0023"
+      ],
+      "outcomes": [
+        "Explain biopotential front ends: differential amplification, referencing, grounding, and common-mode rejection at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0027",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "instrumentation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0025",
+      "title": "Noise, electrode impedance, movement, mains pickup, and biological artifacts",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0024"
+      ],
+      "outcomes": [
+        "Explain noise, electrode impedance, movement, mains pickup, and biological artifacts at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0028",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "instrumentation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0026",
+      "title": "Filtering neural data without filtering away the phenomenon",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0025"
+      ],
+      "outcomes": [
+        "Explain filtering neural data without filtering away the phenomenon at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0029",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "signal-processing",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0027",
+      "title": "Event detection, thresholding, spikes, and the idea of spike sorting",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0026"
+      ],
+      "outcomes": [
+        "Explain event detection, thresholding, spikes, and the idea of spike sorting at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0030",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "signal-processing",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0028",
+      "title": "Spectra, rhythms, time-frequency representations, and oscillatory features",
+      "level": "L1",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0027"
+      ],
+      "outcomes": [
+        "Explain spectra, rhythms, time-frequency representations, and oscillatory features at L1 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L1 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0031",
+          "target_depth": "D2"
+        }
+      ],
+      "branch": "signal-processing",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0029",
+      "title": "Neural datasets: channels, time, trials, events, metadata, and alignment",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0028"
+      ],
+      "outcomes": [
+        "Explain neural datasets: channels, time, trials, events, metadata, and alignment at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0032",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-data",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0030",
+      "title": "Variability, repeated trials, distributions, and point-process intuition",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0029"
+      ],
+      "outcomes": [
+        "Explain variability, repeated trials, distributions, and point-process intuition at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0033",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-data",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0031",
+      "title": "Firing rates, tuning curves, receptive fields, and response functions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0030"
+      ],
+      "outcomes": [
+        "Explain firing rates, tuning curves, receptive fields, and response functions at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0034",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-coding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0032",
+      "title": "Population activity and low-dimensional structure",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0031"
+      ],
+      "outcomes": [
+        "Explain population activity and low-dimensional structure at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0035",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-coding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0033",
+      "title": "Linear decoding from neural activity to continuous variables",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0032"
+      ],
+      "outcomes": [
+        "Explain linear decoding from neural activity to continuous variables at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0036",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0034",
+      "title": "Classification and regression for neural interfaces",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0033"
+      ],
+      "outcomes": [
+        "Explain classification and regression for neural interfaces at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0037",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0035",
+      "title": "Train, validation, test, leakage, drift, and honest generalization",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0034"
+      ],
+      "outcomes": [
+        "Explain train, validation, test, leakage, drift, and honest generalization at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0038",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0036",
+      "title": "Temporal and state-space decoding of evolving neural states",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0035"
+      ],
+      "outcomes": [
+        "Explain temporal and state-space decoding of evolving neural states at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0039",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0037",
+      "title": "Deep learning for neural signals: what it adds and what it can hide",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0036"
+      ],
+      "outcomes": [
+        "Explain deep learning for neural signals: what it adds and what it can hide at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0040",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0038",
+      "title": "Encoding models: predicting neural responses from stimuli or actions",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0037"
+      ],
+      "outcomes": [
+        "Explain encoding models: predicting neural responses from stimuli or actions at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0041",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-encoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0039",
+      "title": "System identification for neural input-output relationships",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0038"
+      ],
+      "outcomes": [
+        "Explain system identification for neural input-output relationships at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0042",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-encoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0040",
+      "title": "Information-theoretic views of neural representation and communication",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0039"
+      ],
+      "outcomes": [
+        "Explain information-theoretic views of neural representation and communication at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0043",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-coding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0041",
+      "title": "Nonstationarity, adaptation, plasticity, and why yesterday's decoder can fail today",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0040"
+      ],
+      "outcomes": [
+        "Explain nonstationarity, adaptation, plasticity, and why yesterday's decoder can fail today at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0044",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-decoding",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0042",
+      "title": "Calibration and human-machine co-adaptation in BCI systems",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0041"
+      ],
+      "outcomes": [
+        "Explain calibration and human-machine co-adaptation in bci systems at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0045",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "bci-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0043",
+      "title": "Performance metrics, uncertainty, latency, and benchmark design",
+      "level": "L2",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0042"
+      ],
+      "outcomes": [
+        "Explain performance metrics, uncertainty, latency, and benchmark design at L2 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L2 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0046",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "bci-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0044",
+      "title": "Electrical neural stimulation: waveform, charge transfer, recruitment, and spatial spread",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0043"
+      ],
+      "outcomes": [
+        "Explain electrical neural stimulation: waveform, charge transfer, recruitment, and spatial spread at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0047",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0045",
+      "title": "Stimulation safety as a systems problem: tissue, electrode, charge, heat, and unintended activation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0044"
+      ],
+      "outcomes": [
+        "Explain stimulation safety as a systems problem: tissue, electrode, charge, heat, and unintended activation at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0048",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neural-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0046",
+      "title": "Deep brain stimulation: circuit modulation without a simple on-off story",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0045"
+      ],
+      "outcomes": [
+        "Explain deep brain stimulation: circuit modulation without a simple on-off story at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0049",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "therapeutic-neurotechnology",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0047",
+      "title": "Spinal cord stimulation and spinal neural interfaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0046"
+      ],
+      "outcomes": [
+        "Explain spinal cord stimulation and spinal neural interfaces at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0050",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "therapeutic-neurotechnology",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0048",
+      "title": "Peripheral nerve stimulation and functional electrical stimulation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0047"
+      ],
+      "outcomes": [
+        "Explain peripheral nerve stimulation and functional electrical stimulation at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0051",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "peripheral-interfaces",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0049",
+      "title": "Transcranial magnetic stimulation and induced electric fields",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0048"
+      ],
+      "outcomes": [
+        "Explain transcranial magnetic stimulation and induced electric fields at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0052",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "noninvasive-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0050",
+      "title": "Transcranial electrical stimulation: tDCS, tACS, field strength, and interpretive limits",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0049"
+      ],
+      "outcomes": [
+        "Explain transcranial electrical stimulation: tdcs, tacs, field strength, and interpretive limits at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0053",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "noninvasive-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0051",
+      "title": "Focused ultrasound and emerging noninvasive neuromodulation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0050"
+      ],
+      "outcomes": [
+        "Explain focused ultrasound and emerging noninvasive neuromodulation at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0054",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "noninvasive-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0052",
+      "title": "Optogenetic, chemogenetic, and molecular approaches to neural control",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0051"
+      ],
+      "outcomes": [
+        "Explain optogenetic, chemogenetic, and molecular approaches to neural control at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0055",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "emerging-modulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0053",
+      "title": "Sensory neuroprostheses: cochlear, retinal, cortical, and somatosensory interfaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0052"
+      ],
+      "outcomes": [
+        "Explain sensory neuroprostheses: cochlear, retinal, cortical, and somatosensory interfaces at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0056",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "neuroprosthetics",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0054",
+      "title": "Invasive motor brain-computer interfaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0053"
+      ],
+      "outcomes": [
+        "Explain invasive motor brain-computer interfaces at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0057",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "bci-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0055",
+      "title": "Noninvasive brain-computer interfaces",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0054"
+      ],
+      "outcomes": [
+        "Explain noninvasive brain-computer interfaces at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0058",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "bci-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0056",
+      "title": "Bidirectional BCIs and artificial sensory feedback",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0055"
+      ],
+      "outcomes": [
+        "Explain bidirectional bcis and artificial sensory feedback at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0059",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "bci-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0057",
+      "title": "Closed-loop and adaptive neuromodulation",
+      "level": "L3",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0056"
+      ],
+      "outcomes": [
+        "Explain closed-loop and adaptive neuromodulation at L3 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L3 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0060",
+          "target_depth": "D3"
+        }
+      ],
+      "branch": "closed-loop-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0058",
+      "title": "Biomaterials and biocompatibility for neural interfaces",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0057"
+      ],
+      "outcomes": [
+        "Explain biomaterials and biocompatibility for neural interfaces at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0061",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0059",
+      "title": "Foreign-body response, inflammation, gliosis, and chronic interface degradation",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0058"
+      ],
+      "outcomes": [
+        "Explain foreign-body response, inflammation, gliosis, and chronic interface degradation at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0062",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0060",
+      "title": "Mechanical mismatch, micromotion, flexible electrodes, and soft bioelectronics",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0059"
+      ],
+      "outcomes": [
+        "Explain mechanical mismatch, micromotion, flexible electrodes, and soft bioelectronics at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0063",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0061",
+      "title": "Packaging, hermeticity, corrosion, insulation, and feedthrough reliability",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0060"
+      ],
+      "outcomes": [
+        "Explain packaging, hermeticity, corrosion, insulation, and feedthrough reliability at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0064",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0062",
+      "title": "Power, telemetry, wireless links, and energy budgets in implanted neurotechnology",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0061"
+      ],
+      "outcomes": [
+        "Explain power, telemetry, wireless links, and energy budgets in implanted neurotechnology at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0065",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0063",
+      "title": "Low-noise ASICs and integrated neural-interface electronics",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0062"
+      ],
+      "outcomes": [
+        "Explain low-noise asics and integrated neural-interface electronics at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0066",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0064",
+      "title": "Thermal, electromagnetic, MRI, and unintended-stimulation safety",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0063"
+      ],
+      "outcomes": [
+        "Explain thermal, electromagnetic, mri, and unintended-stimulation safety at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0067",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-safety",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0065",
+      "title": "Sterilization, manufacturing, quality, and reliability engineering",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0064"
+      ],
+      "outcomes": [
+        "Explain sterilization, manufacturing, quality, and reliability engineering at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0068",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "implant-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0066",
+      "title": "Peripheral nerve interface architectures: cuffs, intrafascicular, and regenerative interfaces",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0065"
+      ],
+      "outcomes": [
+        "Explain peripheral nerve interface architectures: cuffs, intrafascicular, and regenerative interfaces at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0069",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "peripheral-interfaces",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0067",
+      "title": "Neural tissue engineering, regeneration, and engineered repair",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0066"
+      ],
+      "outcomes": [
+        "Explain neural tissue engineering, regeneration, and engineered repair at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0070",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "neural-tissue-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0068",
+      "title": "In-vitro neural platforms, microelectrode arrays, organoids, and biohybrid systems",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0067"
+      ],
+      "outcomes": [
+        "Explain in-vitro neural platforms, microelectrode arrays, organoids, and biohybrid systems at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0071",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "neural-tissue-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0069",
+      "title": "Clinical need, intended use, and defining the problem before designing the device",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0068"
+      ],
+      "outcomes": [
+        "Explain clinical need, intended use, and defining the problem before designing the device at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0072",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "translation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0070",
+      "title": "Risk-benefit reasoning and design controls for neural devices",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0069"
+      ],
+      "outcomes": [
+        "Explain risk-benefit reasoning and design controls for neural devices at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0073",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "translation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0071",
+      "title": "Verification, validation, bench testing, and failure modes",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0070"
+      ],
+      "outcomes": [
+        "Explain verification, validation, bench testing, and failure modes at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0074",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "translation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0072",
+      "title": "Preclinical evidence, chronic reliability, and translational model limitations",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0071"
+      ],
+      "outcomes": [
+        "Explain preclinical evidence, chronic reliability, and translational model limitations at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0075",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "translation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0073",
+      "title": "Clinical studies, endpoints, usability, and patient-centered outcomes",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0072"
+      ],
+      "outcomes": [
+        "Explain clinical studies, endpoints, usability, and patient-centered outcomes at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0076",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "translation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0074",
+      "title": "FDA pathways, IDE thinking, and implanted BCI guidance",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0073"
+      ],
+      "outcomes": [
+        "Explain fda pathways, ide thinking, and implanted bci guidance at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0077",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "regulation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0075",
+      "title": "Human factors and usability in assistive and therapeutic neurotechnology",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0074"
+      ],
+      "outcomes": [
+        "Explain human factors and usability in assistive and therapeutic neurotechnology at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0078",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "human-centered-design",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0076",
+      "title": "Cybersecurity, neural-data privacy, and attack surfaces",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0075"
+      ],
+      "outcomes": [
+        "Explain cybersecurity, neural-data privacy, and attack surfaces at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0079",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "neuroethics-and-governance",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0077",
+      "title": "Neuroethics: consent, autonomy, agency, identity, and responsibility",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0076"
+      ],
+      "outcomes": [
+        "Explain neuroethics: consent, autonomy, agency, identity, and responsibility at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0080",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "neuroethics-and-governance",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0078",
+      "title": "Accessibility, equity, bias, disability perspectives, and who benefits",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0077"
+      ],
+      "outcomes": [
+        "Explain accessibility, equity, bias, disability perspectives, and who benefits at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0081",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "neuroethics-and-governance",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0079",
+      "title": "Data governance, reproducibility, sharing, standards, and provenance",
+      "level": "L4",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0078"
+      ],
+      "outcomes": [
+        "Explain data governance, reproducibility, sharing, standards, and provenance at L4 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L4 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0082",
+          "target_depth": "D4"
+        }
+      ],
+      "branch": "research-infrastructure",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0080",
+      "title": "Multimodal neurotechnology: combining electrical, optical, imaging, and behavioral data",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0079"
+      ],
+      "outcomes": [
+        "Explain multimodal neurotechnology: combining electrical, optical, imaging, and behavioral data at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0083",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "advanced-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0081",
+      "title": "Closed-loop control, adaptive algorithms, and stability in neuroengineering systems",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0080"
+      ],
+      "outcomes": [
+        "Explain closed-loop control, adaptive algorithms, and stability in neuroengineering systems at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0084",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "advanced-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0082",
+      "title": "Digital biomarkers and precision neurotechnology",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0081"
+      ],
+      "outcomes": [
+        "Explain digital biomarkers and precision neurotechnology at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0085",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "advanced-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0083",
+      "title": "Foundation models for neural data: opportunities, validation, bias, and failure modes",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0082"
+      ],
+      "outcomes": [
+        "Explain foundation models for neural data: opportunities, validation, bias, and failure modes at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0086",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "advanced-computation",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0084",
+      "title": "Augmentation, restoration, rehabilitation, and enhancement as different design objectives",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0083"
+      ],
+      "outcomes": [
+        "Explain augmentation, restoration, rehabilitation, and enhancement as different design objectives at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0087",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "advanced-systems",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0085",
+      "title": "Read a neurotechnology or neural-engineering paper critically",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0084"
+      ],
+      "outcomes": [
+        "Explain read a neurotechnology or neural-engineering paper critically at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0088",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0086",
+      "title": "Reproduce a neural recording, decoding, or stimulation result computationally",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0085"
+      ],
+      "outcomes": [
+        "Explain reproduce a neural recording, decoding, or stimulation result computationally at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0089",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0087",
+      "title": "Design and defend a conceptual neural interface under competing constraints",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0086"
+      ],
+      "outcomes": [
+        "Explain design and defend a conceptual neural interface under competing constraints at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0090",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "systems-engineering",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0088",
+      "title": "Turn an unmet neural-interface need into a researchable question",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0087"
+      ],
+      "outcomes": [
+        "Explain turn an unmet neural-interface need into a researchable question at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0091",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    },
+    {
+      "id": "NNE-N-0089",
+      "title": "Refresh the neurotechnology frontier from primary, regulatory, and neuroethical evidence",
+      "level": "L5",
+      "status": "planned",
+      "prerequisites": [
+        "NNE-N-0088"
+      ],
+      "outcomes": [
+        "Explain refresh the neurotechnology frontier from primary, regulatory, and neuroethical evidence at L5 depth using an explicit biological, signal, device, computational, or human-system boundary.",
+        "Use the concept to analyze a neural measurement, interface, modulation, data-analysis, clinical, or design decision at L5 depth."
+      ],
+      "target_concepts": [
+        {
+          "id": "NNE-C-0092",
+          "target_depth": "D5"
+        }
+      ],
+      "branch": "research-literacy",
+      "lesson_id": null
+    }
+  ]
+}

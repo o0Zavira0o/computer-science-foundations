@@ -42,3 +42,10 @@
 | Electrical Engineering — Power Engineering | C++ | declared neighbor |
 | Electrical Engineering — Power Engineering | Computer Systems | declared neighbor |
 | Electrical Engineering — Power Engineering | Fusion Energy | declared neighbor |
+| Neurotechnology & Neural Engineering | Linear Algebra | declared neighbor |
+| Neurotechnology & Neural Engineering | Large Language Models (LLMs) | declared neighbor |
+| Neurotechnology & Neural Engineering | Electrical Engineering — Power Engineering | declared neighbor |
+| Neurotechnology & Neural Engineering | Computer Systems | declared neighbor |
+| Neurotechnology & Neural Engineering | C++ | declared neighbor |
+| Neurotechnology & Neural Engineering | Linux Systems | declared neighbor |
+| Neurotechnology & Neural Engineering | Philosophy and Logic | declared neighbor |

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../schemas/example-registry.schema.json",
+  "schema_version": 1,
+  "track": "neurotechnology-neural-engineering",
+  "examples": [
+    {
+      "id": "NNE-EX-001",
+      "signature": "Compare scalp EEG and an intracortical microelectrode array for the same motor-interface goal without declaring one universally superior",
+      "domain": "neural-interface tradeoffs",
+      "first_lesson": "NNE-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-002",
+      "signature": "Trace an assistive motor BCI from neural activity through sensing, acquisition, decoding, device control, feedback, and user adaptation",
+      "domain": "brain-computer interface systems",
+      "first_lesson": "NNE-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-003",
+      "signature": "Classify a cochlear implant as a sensory neuroprosthesis that encodes external sound into patterned stimulation rather than as a device that simply amplifies sound",
+      "domain": "sensory neuroprosthetics",
+      "first_lesson": "NNE-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-004",
+      "signature": "Contrast open-loop stimulation with a closed-loop system that senses a biomarker and adapts therapy while preserving explicit safety constraints",
+      "domain": "closed-loop neuromodulation",
+      "first_lesson": "NNE-0001",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-005",
+      "signature": "Sort representative technologies into recording, modulation, restoration, rehabilitation, or augmentation goals while allowing one platform to serve more than one role",
+      "domain": "neurotechnology system objectives",
+      "first_lesson": "NNE-0001",
+      "reuse_purpose": null
+    }
+  ]
+}
