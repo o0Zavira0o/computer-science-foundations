@@ -258,7 +258,9 @@ $$ P_{\text{recirculating}}=300\ \mathrm{MW}. $$
 
 Then
 
-$$ \begin{aligned} P_{\text{net,electric}} &=P_{\text{gross,electric}}-P_{\text{recirculating}}\\ &=1000\ \mathrm{MW}-300\ \mathrm{MW}\\ &=700\ \mathrm{MW}. \end{aligned} $$
+```math
+\begin{aligned} P_{\text{net,electric}} &=P_{\text{gross,electric}}-P_{\text{recirculating}}\\ &=1000\ \mathrm{MW}-300\ \mathrm{MW}\\ &=700\ \mathrm{MW}. \end{aligned}
+```
 
 The plant exports $700\ \mathrm{MW}$ in this simplified example.
 

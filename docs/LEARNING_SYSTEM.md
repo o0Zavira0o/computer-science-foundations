@@ -477,18 +477,22 @@ Interactive Markdown patterns such as `<details>` may reveal hints, checks, coun
 A page can be excellent with no static image. A page with many decorative images can be worse than one precise, correctly sourced visual anchor.
 ### Mathematical notation and GitHub rendering
 
-Mathematical notation is part of the teaching interface, not merely source text. Repository Markdown must use GitHub-supported math delimiters so formulas render rather than leak LaTeX syntax into the page.
+Mathematical notation is part of the teaching interface, not merely source text. Repository Markdown must use GitHub-supported math syntax so formulas render rather than leak LaTeX into the page.
 
 House style:
+
 - inline mathematics: `$...$`;
-- lesson display mathematics: one physical source line using `$$ ... $$`, with blank lines around it;
-- matrices and aligned derivations keep their LaTeX structure inside that single display line (`bmatrix`, `aligned`, and `\\` remain valid LaTeX);
-- fenced `math` is an exception only when the expression has been manually verified in the actual GitHub Preview;
-- never leave a bare relation/operator such as `=`, `-`, `+`, `\neq`, or `\rightarrow` on its own physical Markdown line inside display math;
+- simple standalone display mathematics: one physical source line using `$$ ... $$`, with blank lines around it;
+- matrices, aligned derivations, `cases`, `array`, and any expression that depends on LaTeX row separators `\\`: fenced `math` blocks;
+- never force row-sensitive LaTeX into one-line dollar display merely to satisfy a source-format preference;
+- never leave a bare relation/operator such as `=`, `-`, `+`, `\neq`, or `\rightarrow` on an ordinary Markdown line outside a math container;
 - backslash-parenthesis and backslash-bracket math delimiters are not used in repository Markdown;
 - ordinary code fences are reserved for literal code/commands, not mathematical display.
 
-A delimiter/source scan is necessary but not sufficient. Before publishing math-heavy content, visually inspect the rendered lesson in GitHub Preview (or the pushed branch before merging) and verify equations, matrices, aligned derivations, subscripts, superscripts, fractions, and symbols. New notation must still be explained in prose. Rendering an expression beautifully does not make it pedagogically self-explanatory. For examples, edge cases, tables, and detailed compatibility guidance, see [`MATH_RENDERING.md`](MATH_RENDERING.md).
+A delimiter/source scan is necessary but not sufficient. Before publishing math-heavy content, push the candidate branch and visually inspect the **actual GitHub Preview**. Verify equations, matrix rows, aligned derivations, subscripts, superscripts, fractions, and symbols. In particular, a raw-source `\\` that collapses in Preview is a rendering failure and must be corrected before merge.
+
+New notation must still be explained in prose. Rendering an expression beautifully does not make it pedagogically self-explanatory. For examples, edge cases, tables, and detailed compatibility guidance, see [`MATH_RENDERING.md`](MATH_RENDERING.md).
+
 ## 13. Anatomy of a strong lesson
 
 Not every lesson needs identical headings, but a substantial lesson should accomplish this arc.
