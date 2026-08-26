@@ -38,9 +38,7 @@ There is no single universal answer.
 
 Consider the same coordinate list:
 
-$$
-(3,2).
-$$
+$$ (3,2). $$
 
 It could mean:
 
@@ -83,13 +81,13 @@ Arrows are an excellent geometric representation of vectors in two or three dime
 
 For example, the vector
 
-$$
+```math
 v=
 \begin{bmatrix}
 3\\
 2
 \end{bmatrix}
-$$
+```
 
 can be drawn as a displacement three units to the right and two units upward.
 
@@ -110,13 +108,13 @@ Imagine a flat map with an east/north coordinate convention.
 
 A displacement vector
 
-$$
+```math
 d=
 \begin{bmatrix}
 3\\
 2
 \end{bmatrix}
-$$
+```
 
 can mean:
 
@@ -131,15 +129,11 @@ The vector describes **how to move**, not necessarily **where you are**.
 
 Suppose a location has coordinates
 
-$$
-p=(3,2).
-$$
+$$ p=(3,2). $$
 
 and a displacement also has coordinates
 
-$$
-d=(3,2).
-$$
+$$ d=(3,2). $$
 
 The symbols contain the same two numbers, but the roles differ:
 
@@ -179,9 +173,7 @@ Now forget geometry.
 
 Suppose one flower is represented by:
 
-$$
-x=(5.1,3.5,1.4,0.2).
-$$
+$$ x=(5.1,3.5,1.4,0.2). $$
 
 A semantic map might be:
 
@@ -202,9 +194,7 @@ Swapping $x_1$ and $x_4$ would not be harmless formatting. It would change which
 
 If
 
-$$
-x\in\mathbb{R}^4,
-$$
+$$ x\in\mathbb{R}^4, $$
 
 then the mathematical statement tells you that $x$ has four real coordinates.
 
@@ -223,14 +213,14 @@ The ambient space constrains structure. Metadata and domain context supply seman
 
 Suppose a small controlled room is modeled by:
 
-$$
+```math
 s=
 \begin{bmatrix}
 21.5\\
 45\\
 0.30
 \end{bmatrix}.
-$$
+```
 
 We define:
 
@@ -277,17 +267,11 @@ Linear algebra manipulates the representation. Science and engineering decide wh
 
 Consider three objects with the same coordinates:
 
-$$
-a=(2,1,-1),
-$$
+$$ a=(2,1,-1), $$
 
-$$
-b=(2,1,-1),
-$$
+$$ b=(2,1,-1), $$
 
-$$
-c=(2,1,-1).
-$$
+$$ c=(2,1,-1). $$
 
 We might declare:
 
@@ -310,9 +294,7 @@ Good technical work therefore names both:
 
 Suppose a state convention is
 
-$$
-s=(T,H,P),
-$$
+$$ s=(T,H,P), $$
 
 where:
 
@@ -322,17 +304,13 @@ where:
 
 Then
 
-$$
-s=(22,50,101.2)
-$$
+$$ s=(22,50,101.2) $$
 
 has a defined meaning.
 
 Writing
 
-$$
-(50,22,101.2)
-$$
+$$ (50,22,101.2) $$
 
 without changing the convention is a different vector.
 
@@ -350,20 +328,18 @@ Both mathematics and software fail when two components silently disagree about t
 
 The same coordinate vector is often displayed as
 
-$$
-x=(3,-2,5)
-$$
+$$ x=(3,-2,5) $$
 
 or as a column:
 
-$$
+```math
 x=
 \begin{bmatrix}
 3\\
 -2\\
 5
 \end{bmatrix}.
-$$
+```
 
 At this stage, treat these as common coordinate-display conventions unless surrounding mathematics assigns a specific row/column role.
 
@@ -375,14 +351,14 @@ Do not invent a distinction too early, but do not assume typography never matter
 
 In $\mathbb{R}^3$, the zero vector is represented by
 
-$$
+```math
 0=
 \begin{bmatrix}
 0\\
 0\\
 0
 \end{bmatrix}.
-$$
+```
 
 Its interpretation depends on context:
 
@@ -401,9 +377,7 @@ That role becomes central when we study vector addition and linear combinations.
 
 Consider the state vector
 
-$$
-s=(21.5,45,0.30),
-$$
+$$ s=(21.5,45,0.30), $$
 
 with units:
 
@@ -434,9 +408,7 @@ The first is linear algebra. The second depends on modeling choices and domain k
 
 A robot command is
 
-$$
-d=(2,-1).
-$$
+$$ d=(2,-1). $$
 
 Interpretation:
 
@@ -449,9 +421,7 @@ The vector describes a displacement.
 
 If another object has coordinates
 
-$$
-p=(2,-1),
-$$
+$$ p=(2,-1), $$
 
 but $p$ represents a point measured relative to an origin, the same coordinates have a different semantic role.
 
@@ -474,9 +444,7 @@ B. Linear algebra often uses coordinate lists for several related kinds of objec
 
 Suppose
 
-$$
-x=(82,91,7).
-$$
+$$ x=(82,91,7). $$
 
 and define:
 
@@ -500,9 +468,7 @@ The ordered structure is part of the meaning.
 
 A simple tank model tracks
 
-$$
-s=(h,T),
-$$
+$$ s=(h,T), $$
 
 where:
 
@@ -511,15 +477,11 @@ where:
 
 At one instant:
 
-$$
-s=(1.8,40).
-$$
+$$ s=(1.8,40). $$
 
 At a later instant:
 
-$$
-s=(1.6,42).
-$$
+$$ s=(1.6,42). $$
 
 The two vectors represent two system states at two times.
 
@@ -557,12 +519,12 @@ Later, the same geometric vector can receive different coordinate lists under di
 
 So when you see
 
-$$
+```math
 \begin{bmatrix}
 3\\
 2
 \end{bmatrix},
-$$
+```
 
 learn to ask:
 
@@ -604,9 +566,7 @@ Dimension is a mathematical property, not a certificate of quality.
 
 A two-coordinate vector
 
-$$
-x=(180,70)
-$$
+$$ x=(180,70) $$
 
 might mean:
 
@@ -629,15 +589,11 @@ Two engineers can model the same physical system with different state vectors.
 
 One model might use
 
-$$
-s_1=(T,P),
-$$
+$$ s_1=(T,P), $$
 
 while another uses
 
-$$
-s_2=(T,P,H,F).
-$$
+$$ s_2=(T,P,H,F). $$
 
 Neither is automatically “the real state.”
 
@@ -670,15 +626,11 @@ The fourth is still a valid coordinate vector in $\mathbb{R}^3$ if its entries a
 
 A model expects
 
-$$
-x=(\text{age},\text{income},\text{years of education}).
-$$
+$$ x=(\text{age},\text{income},\text{years of education}). $$
 
 A data pipeline emits
 
-$$
-(\text{income},\text{age},\text{years of education}).
-$$
+$$ (\text{income},\text{age},\text{years of education}). $$
 
 Both outputs have three real numbers.
 
@@ -704,9 +656,7 @@ Choose a simple system:
 
 Define a vector
 
-$$
-s\in\mathbb{R}^n
-$$
+$$ s\in\mathbb{R}^n $$
 
 that represents a useful state.
 
@@ -727,9 +677,7 @@ The last question is essential. A vector representation is always a choice.
 
 Create three interpretations for
 
-$$
-v=(1,0,2).
-$$
+$$ v=(1,0,2). $$
 
 At least one should be geometric and one should be non-geometric.
 

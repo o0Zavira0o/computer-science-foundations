@@ -20,9 +20,7 @@ Demonstrate that you can separate vector structure from domain interpretation an
 
 Start with
 
-$$
-v=(2,-1,3).
-$$
+$$ v=(2,-1,3). $$
 
 Construct three semantic interpretations:
 
@@ -46,15 +44,11 @@ Then write which facts stay unchanged across all three interpretations.
 
 Suppose
 
-$$
-p=(4,2)
-$$
+$$ p=(4,2) $$
 
 is a point measured from an origin, while
 
-$$
-d=(4,2)
-$$
+$$ d=(4,2) $$
 
 is a displacement instruction.
 
@@ -70,15 +64,11 @@ Draw a small diagram if useful.
 
 A health model expects
 
-$$
-x=(\text{age},\text{resting heart rate},\text{hours of sleep}).
-$$
+$$ x=(\text{age},\text{resting heart rate},\text{hours of sleep}). $$
 
 A data pipeline emits the same three values in this order:
 
-$$
-(\text{hours of sleep},\text{age},\text{resting heart rate}).
-$$
+$$ (\text{hours of sleep},\text{age},\text{resting heart rate}). $$
 
 Explain why both objects can have the correct mathematical shape while the second is still a serious representation error.
 
@@ -86,9 +76,7 @@ Explain why both objects can have the correct mathematical shape while the secon
 
 Choose a system you understand and define
 
-$$
-s\in\mathbb{R}^n.
-$$
+$$ s\in\mathbb{R}^n. $$
 
 Use at least three coordinates.
 
@@ -105,9 +93,7 @@ Then explain what “state” means relative to your chosen model rather than to
 
 Suppose
 
-$$
-x=(180,70)
-$$
+$$ x=(180,70) $$
 
 means height in centimeters and mass in kilograms.
 
@@ -121,9 +107,7 @@ Your answer should mention scale and units.
 
 Interpret
 
-$$
-0=(0,0,0)
-$$
+$$ 0=(0,0,0) $$
 
 as:
 

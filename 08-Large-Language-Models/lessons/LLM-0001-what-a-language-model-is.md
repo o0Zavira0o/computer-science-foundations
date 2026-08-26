@@ -64,9 +64,7 @@ Generation is therefore an iterative process, not a hidden paragraph being revea
 
 A **language model** is a model of probability over sequences. For a sequence of tokens $x_1, x_2, \ldots, x_T$, the chain rule lets an autoregressive model represent the sequence probability as
 
-$$
-P(x_1,\ldots,x_T)=\prod_{t=1}^{T}P(x_t\mid x_1,\ldots,x_{t-1}).
-$$
+$$ P(x_1,\ldots,x_T)=\prod_{t=1}^{T}P(x_t\mid x_1,\ldots,x_{t-1}). $$
 
 You do not need calculus or advanced probability to use this equation yet. Read it as: **the plausibility of a whole sequence can be decomposed into a succession of next-token predictions.**
 

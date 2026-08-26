@@ -58,19 +58,11 @@ bird: 6
 
 Compute:
 
-$$
-\hat{P}(\text{cat}\mid\text{the}),
-\qquad
-\hat{P}(\text{cat}\mid\text{a}),
-$$
+$$ \hat{P}(\text{cat}\mid\text{the}), \qquad \hat{P}(\text{cat}\mid\text{a}), $$
 
 and:
 
-$$
-\hat{P}(\text{dog}\mid\text{the}),
-\qquad
-\hat{P}(\text{dog}\mid\text{a}).
-$$
+$$ \hat{P}(\text{dog}\mid\text{the}), \qquad \hat{P}(\text{dog}\mid\text{a}). $$
 
 Explain why using the grand total across both contexts would answer a different question.
 
@@ -133,15 +125,11 @@ Then repeat for `blue`.
 
 Finally compare:
 
-$$
-\hat{P}(\text{fox}\mid\text{red})
-$$
+$$ \hat{P}(\text{fox}\mid\text{red}) $$
 
 with:
 
-$$
-\hat{P}(\text{fox}\mid\text{blue}).
-$$
+$$ \hat{P}(\text{fox}\mid\text{blue}). $$
 
 ## Part F — implement the estimator
 
@@ -191,11 +179,7 @@ Do not patch the issue immediately. First explain why exact-context counting lac
 
 Read this expression in plain English:
 
-$$
-P(x_1,x_2,x_3)
-=
-P(x_1)P(x_2\mid x_1)P(x_3\mid x_1,x_2).
-$$
+$$ P(x_1,x_2,x_3) = P(x_1)P(x_2\mid x_1)P(x_3\mid x_1,x_2). $$
 
 You do not need a formal proof. Explain why it matches the operational story of generating one token, then conditioning on what has already been generated.
 

@@ -16,21 +16,13 @@ last_reviewed: 2026-08-19
 
 For each statement, translate the notation into plain English before doing any arithmetic:
 
-$$
-x\in\mathbb{R}^5,
-$$
+$$ x\in\mathbb{R}^5, $$
 
-$$
-A\in\mathbb{R}^{3\times4},
-$$
+$$ A\in\mathbb{R}^{3\times4}, $$
 
-$$
-x_4=-2,
-$$
+$$ x_4=-2, $$
 
-$$
-a_{2,3}=7.
-$$
+$$ a_{2,3}=7. $$
 
 Then answer:
 
@@ -42,9 +34,7 @@ Then answer:
 
 Next, invent a real or hypothetical application with four measured quantities. Define
 
-$$
-s\in\mathbb{R}^4
-$$
+$$ s\in\mathbb{R}^4 $$
 
 and give every coordinate a name and unit. Explain why changing the coordinate order would change the representation.
 

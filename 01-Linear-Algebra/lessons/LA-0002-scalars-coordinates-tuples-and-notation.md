@@ -29,10 +29,7 @@ This lesson has a deliberately modest goal: make the symbols readable enough tha
 
 A page of linear algebra can contain expressions such as:
 
-$$
-3,\qquad (2,-1,5),\qquad x\in\mathbb{R}^n,\qquad x_i,\qquad
-A\in\mathbb{R}^{m\times n},\qquad a_{ij}.
-$$
+$$ 3,\qquad (2,-1,5),\qquad x\in\mathbb{R}^n,\qquad x_i,\qquad A\in\mathbb{R}^{m\times n},\qquad a_{ij}. $$
 
 A beginner can understand the underlying idea but still feel blocked because every symbol looks like a new concept.
 
@@ -67,21 +64,15 @@ A **scalar** is a single number used as a coefficient, measurement, scale factor
 
 Examples:
 
-$$
-5,\qquad -2.3,\qquad \frac12,\qquad \pi.
-$$
+$$ 5,\qquad -2.3,\qquad \frac12,\qquad \pi. $$
 
 In our early examples, scalars are usually real numbers, written as elements of
 
-$$
-\mathbb{R}.
-$$
+$$ \mathbb{R}. $$
 
 Read
 
-$$
-a\in\mathbb{R}
-$$
+$$ a\in\mathbb{R} $$
 
 as:
 
@@ -93,23 +84,17 @@ Later, some parts of linear algebra use complex scalars in $\mathbb{C}$. The wor
 
 Compare:
 
-$$
-3
-$$
+$$ 3 $$
 
 with
 
-$$
-(3,2).
-$$
+$$ (3,2). $$
 
 The first is one scalar. The second is an ordered two-component object.
 
 Multiplying the vector by the scalar gives
 
-$$
-3(3,2)=(9,6).
-$$
+$$ 3(3,2)=(9,6). $$
 
 The scalar scales the whole vector.
 
@@ -119,23 +104,17 @@ A **tuple** is an ordered list.
 
 For example,
 
-$$
-(4,7)
-$$
+$$ (4,7) $$
 
 is a 2-tuple, and
 
-$$
-(4,7,-2)
-$$
+$$ (4,7,-2) $$
 
 is a 3-tuple.
 
 Ordered means
 
-$$
-(4,7)\neq(7,4)
-$$
+$$ (4,7)\neq(7,4) $$
 
 unless the two positions happen to carry equal values in a particular example.
 
@@ -143,9 +122,7 @@ This matters because position carries meaning.
 
 If
 
-$$
-x=(72,18)
-$$
+$$ x=(72,18) $$
 
 means
 
@@ -165,9 +142,7 @@ is not merely the same data written differently.
 
 If
 
-$$
-x=(x_1,x_2,\ldots,x_n),
-$$
+$$ x=(x_1,x_2,\ldots,x_n), $$
 
 then $x_1$ is the first coordinate, $x_2$ the second, and $x_i$ means the coordinate in position $i$.
 
@@ -175,15 +150,11 @@ The subscript is an **index**, not multiplication and not an exponent.
 
 Thus
 
-$$
-x_2
-$$
+$$ x_2 $$
 
 means “the second coordinate of $x$,” while
 
-$$
-x^2
-$$
+$$ x^2 $$
 
 usually means “$x$ squared” when $x$ is a scalar.
 
@@ -193,9 +164,7 @@ Typography is doing real work here.
 
 Suppose
 
-$$
-s=(21.6,45,101.2).
-$$
+$$ s=(21.6,45,101.2). $$
 
 We define the coordinate meanings as:
 
@@ -207,9 +176,7 @@ We define the coordinate meanings as:
 
 Then
 
-$$
-s_2=45.
-$$
+$$ s_2=45. $$
 
 The number `45` is a scalar. It is also the second coordinate of the vector $s$.
 
@@ -219,33 +186,23 @@ Those are compatible descriptions at different levels.
 
 The notation
 
-$$
-\mathbb{R}^n
-$$
+$$ \mathbb{R}^n $$
 
 means the set of all ordered lists of length $n$ whose coordinates are real numbers.
 
 An element looks like
 
-$$
-(x_1,\ldots,x_n).
-$$
+$$ (x_1,\ldots,x_n). $$
 
 Examples:
 
-$$
-(2,-1)\in\mathbb{R}^2,
-$$
+$$ (2,-1)\in\mathbb{R}^2, $$
 
-$$
-(2,-1,7)\in\mathbb{R}^3,
-$$
+$$ (2,-1,7)\in\mathbb{R}^3, $$
 
 and
 
-$$
-(2,-1,7,0,4.5)\in\mathbb{R}^5.
-$$
+$$ (2,-1,7,0,4.5)\in\mathbb{R}^5. $$
 
 The superscript in $\mathbb{R}^5$ does **not** mean “raise the real numbers to the fifth power.” It indicates the length of the coordinate lists in this context.
 
@@ -272,20 +229,18 @@ Which statements are meaningful and true?
 
 The same coordinate vector is often displayed in either form:
 
-$$
-x=(2,-1,5)
-$$
+$$ x=(2,-1,5) $$
 
 or
 
-$$
+```math
 x=
 \begin{bmatrix}
 2\\
 -1\\
 5
 \end{bmatrix}.
-$$
+```
 
 At this stage, treat these as two visual layouts for the same ordered coordinates when the author says they represent the same vector.
 
@@ -293,9 +248,9 @@ The column form becomes especially useful when matrices act on vectors.
 
 You may also encounter row vectors such as
 
-$$
+```math
 \begin{bmatrix}2&-1&5\end{bmatrix}.
-$$
+```
 
 Row-versus-column orientation eventually matters for matrix multiplication. We will not build that machinery yet.
 
@@ -312,13 +267,13 @@ Do not confuse “three coordinates” with “three-dimensional physical space.
 
 A matrix is written as a rectangular array such as
 
-$$
+```math
 A=
 \begin{bmatrix}
 2 & 5 & -1\\
 0 & 3 & 7
 \end{bmatrix}.
-$$
+```
 
 This matrix has:
 
@@ -327,21 +282,15 @@ This matrix has:
 
 We say its shape is
 
-$$
-2\times 3.
-$$
+$$ 2\times 3. $$
 
 If all entries are real, we can write
 
-$$
-A\in\mathbb{R}^{2\times3}.
-$$
+$$ A\in\mathbb{R}^{2\times3}. $$
 
 More generally,
 
-$$
-A\in\mathbb{R}^{m\times n}
-$$
+$$ A\in\mathbb{R}^{m\times n} $$
 
 means that $A$ has $m$ rows and $n$ columns, with real entries.
 
@@ -349,27 +298,23 @@ means that $A$ has $m$ rows and $n$ columns, with real entries.
 
 The notation
 
-$$
-a_{ij}
-$$
+$$ a_{ij} $$
 
 usually means the entry of matrix $A$ in row $i$, column $j$.
 
 For
 
-$$
+```math
 A=
 \begin{bmatrix}
 2 & 5 & -1\\
 0 & 3 & 7
 \end{bmatrix},
-$$
+```
 
 we have
 
-$$
-a_{11}=2,\qquad a_{12}=5,\qquad a_{23}=7.
-$$
+$$ a_{11}=2,\qquad a_{12}=5,\qquad a_{23}=7. $$
 
 A useful reading rule is:
 
@@ -381,9 +326,7 @@ a_ij  →  row i, column j
 
 Suppose
 
-$$
-B\in\mathbb{R}^{4\times 6}.
-$$
+$$ B\in\mathbb{R}^{4\times 6}. $$
 
 Before knowing any entries, you already know:
 
@@ -409,20 +352,18 @@ Suppose three machines are measured for temperature and vibration:
 
 One possible matrix representation is
 
-$$
+```math
 M=
 \begin{bmatrix}
 61 & 0.8\\
 59 & 1.1\\
 66 & 0.9
 \end{bmatrix}.
-$$
+```
 
 Then
 
-$$
-M\in\mathbb{R}^{3\times2}.
-$$
+$$ M\in\mathbb{R}^{3\times2}. $$
 
 Rows correspond to machines; columns correspond to measured features.
 
@@ -438,9 +379,7 @@ This distinction is easy to ignore in $\mathbb{R}^2$, but it becomes foundationa
 
 Suppose an arrow is represented by
 
-$$
-(1,0)
-$$
+$$ (1,0) $$
 
 relative to ordinary horizontal/vertical coordinate axes.
 
@@ -466,17 +405,13 @@ In elementary coordinate space, treating them as identical is convenient. In dee
 
 The symbol
 
-$$
-0
-$$
+$$ 0 $$
 
 can denote the scalar zero.
 
 But in a vector equation, the same printed symbol may denote the zero vector:
 
-$$
-0=(0,0,\ldots,0).
-$$
+$$ 0=(0,0,\ldots,0). $$
 
 Similarly, a zero matrix contains zeros in every entry.
 
@@ -496,15 +431,11 @@ That is the beginning of **type-aware mathematical reading**.
 
 Compare:
 
-$$
-x\in\mathbb{R}^3
-$$
+$$ x\in\mathbb{R}^3 $$
 
 and
 
-$$
-y\in\mathbb{R}^5.
-$$
+$$ y\in\mathbb{R}^5. $$
 
 The coordinatewise sum $x+y$ is not defined in the ordinary way because their shapes do not match.
 
@@ -522,9 +453,7 @@ This habit prevents many mechanical errors.
 
 Suppose
 
-$$
-x=(20,3)
-$$
+$$ x=(20,3) $$
 
 where the first coordinate is temperature in °C and the second is distance in km.
 
@@ -532,10 +461,7 @@ Mathematically, this is an element of $\mathbb{R}^2$.
 
 But whether expressions such as
 
-$$
-2x,
-\qquad x+y,
-$$
+$$ 2x, \qquad x+y, $$
 
 make sense scientifically depends on the model and the meaning of coordinates.
 
@@ -562,9 +488,7 @@ Try each before opening the answer.
 
 ### A
 
-$$
-x\in\mathbb{R}^7
-$$
+$$ x\in\mathbb{R}^7 $$
 
 What do you know before seeing $x$?
 
@@ -577,9 +501,7 @@ It is represented by an ordered list of seven real coordinates. You do not yet k
 
 ### B
 
-$$
-A\in\mathbb{R}^{3\times5}
-$$
+$$ A\in\mathbb{R}^{3\times5} $$
 
 How many rows? How many columns? Is $a_{4,2}$ a valid entry?
 
@@ -592,9 +514,7 @@ Three rows, five columns. $a_{4,2}$ is outside the row range and therefore is no
 
 ### C
 
-$$
-v=(8,-2,1),\qquad v_2=?
-$$
+$$ v=(8,-2,1),\qquad v_2=? $$
 
 <details>
 <summary>Reveal</summary>
@@ -607,9 +527,7 @@ $v_2=-2$. The subscript selects the second coordinate.
 
 Are these equal?
 
-$$
-(1,4,9)\quad\text{and}\quad(9,4,1)
-$$
+$$ (1,4,9)\quad\text{and}\quad(9,4,1) $$
 
 <details>
 <summary>Reveal</summary>
@@ -648,21 +566,13 @@ Convenient at first, dangerous later. Coordinates depend on representation choic
 
 Translate these into plain English:
 
-$$
-a\in\mathbb{R},
-$$
+$$ a\in\mathbb{R}, $$
 
-$$
-x\in\mathbb{R}^4,
-$$
+$$ x\in\mathbb{R}^4, $$
 
-$$
-A\in\mathbb{R}^{2\times7},
-$$
+$$ A\in\mathbb{R}^{2\times7}, $$
 
-$$
-a_{2,6}.
-$$
+$$ a_{2,6}. $$
 
 Then reverse the process. Write notation for:
 
@@ -708,9 +618,7 @@ You can now read elementary linear-algebra notation as compressed language rathe
 
 When you see
 
-$$
-A\in\mathbb{R}^{m\times n},\qquad x\in\mathbb{R}^n,
-$$
+$$ A\in\mathbb{R}^{m\times n},\qquad x\in\mathbb{R}^n, $$
 
 you may not yet know what operation comes next, but you already know the **kinds and shapes of the objects involved**.
 

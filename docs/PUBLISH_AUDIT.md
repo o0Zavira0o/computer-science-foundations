@@ -306,3 +306,34 @@ Must still verify:
 - conceptual duplication.
 
 A publish decision requires all applicable layers, not one green command.
+
+## YAML frontmatter integrity gate
+
+GitHub parses lesson frontmatter as YAML before rendering the Markdown body.
+A syntactically valid-looking line can therefore break the entire lesson
+preview. In particular, a plain scalar containing a colon followed by a space
+must be quoted.
+
+Unsafe:
+
+```yaml
+title: DC circuits: sources, loads, resistance, KCL, and KVL
+```
+
+Safe:
+
+```yaml
+title: "DC circuits: sources, loads, resistance, KCL, and KVL"
+```
+
+Required checks:
+
+```bash
+python scripts/frontmatter_audit.py
+python scripts/frontmatter_audit.py --staged
+```
+
+The full-repository check catches historical defects; the staged check is a
+pre-commit gate. These checks complement, rather than replace,
+`render_audit.py`, `csf.py audit --strict`, unit tests, and actual GitHub
+Preview inspection.

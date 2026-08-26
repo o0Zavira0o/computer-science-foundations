@@ -1,6 +1,6 @@
 ---
 id: LLM-0003
-title: Probability from counts: uncertainty without mystery
+title: "Probability from counts: uncertainty without mystery"
 track: large-language-models
 level: L0
 status: complete
@@ -76,25 +76,17 @@ There are five observations total.
 
 So the empirical relative frequencies are:
 
-$$
-P(\text{sat}) = \frac{3}{5} = 0.6,
-$$
+$$ P(\text{sat}) = \frac{3}{5} = 0.6, $$
 
-$$
-P(\text{slept}) = \frac{1}{5} = 0.2,
-$$
+$$ P(\text{slept}) = \frac{1}{5} = 0.2, $$
 
 and
 
-$$
-P(\text{ran}) = \frac{1}{5} = 0.2.
-$$
+$$ P(\text{ran}) = \frac{1}{5} = 0.2. $$
 
 They sum to one:
 
-$$
-0.6 + 0.2 + 0.2 = 1.
-$$
+$$ 0.6 + 0.2 + 0.2 = 1. $$
 
 That collection of nonnegative values summing to one is a **probability distribution** over the possible outcomes we are considering.
 
@@ -139,23 +131,17 @@ possible outcome  ≠  observed count  ≠  probability assigned to outcome
 
 If an event $A$ occurred $n_A$ times in $N$ relevant observations, a simple empirical estimate is:
 
-$$
-\hat{P}(A) = \frac{n_A}{N}.
-$$
+$$ \hat{P}(A) = \frac{n_A}{N}. $$
 
 The hat on $\hat{P}$ is useful notation: it reminds us that we are talking about an estimate derived from finite data, not necessarily an unknowable perfect “true” probability.
 
 For the earlier example:
 
-$$
-n_{\text{sat}} = 3, \qquad N = 5,
-$$
+$$ n_{\text{sat}} = 3, \qquad N = 5, $$
 
 so:
 
-$$
-\hat{P}(\text{sat}) = \frac{3}{5}.
-$$
+$$ \hat{P}(\text{sat}) = \frac{3}{5}. $$
 
 ## Important distinction: frequency is evidence, not certainty
 
@@ -163,9 +149,7 @@ Suppose a coin is tossed only twice and both outcomes are heads.
 
 The empirical frequency is:
 
-$$
-\hat{P}(\text{heads}) = \frac{2}{2} = 1.
-$$
+$$ \hat{P}(\text{heads}) = \frac{2}{2} = 1. $$
 
 Does that prove the physical process can never produce tails?
 
@@ -205,21 +189,11 @@ Before opening the answer, compute the probability estimate for each token.
 
 The total is:
 
-$$
-N = 6+2+1+1 = 10.
-$$
+$$ N = 6+2+1+1 = 10. $$
 
 So:
 
-$$
-\hat{P}(A)=0.6,
-\quad
-\hat{P}(B)=0.2,
-\quad
-\hat{P}(C)=0.1,
-\quad
-\hat{P}(D)=0.1.
-$$
+$$ \hat{P}(A)=0.6, \quad \hat{P}(B)=0.2, \quad \hat{P}(C)=0.1, \quad \hat{P}(D)=0.1. $$
 
 The values sum to one.
 
@@ -231,15 +205,11 @@ If our sample space contains mutually exclusive next-token outcomes and one of t
 
 For outcomes $x_1,\dots,x_k$:
 
-$$
-\sum_{i=1}^{k} P(x_i) = 1.
-$$
+$$ \sum_{i=1}^{k} P(x_i) = 1. $$
 
 and each individual probability obeys:
 
-$$
-0 \le P(x_i) \le 1.
-$$
+$$ 0 \le P(x_i) \le 1. $$
 
 For language models, the sample space at one prediction step will eventually be the model vocabulary.
 
@@ -257,25 +227,15 @@ ran: 2
 
 These numbers may be useful **scores** or counts, but they are not yet a probability distribution because:
 
-$$
-8 + 4 + 2 \ne 1.
-$$
+$$ 8 + 4 + 2 \ne 1. $$
 
 If they are counts, normalize them:
 
-$$
-N = 8+4+2 = 14.
-$$
+$$ N = 8+4+2 = 14. $$
 
 Then:
 
-$$
-\hat{P}(\text{cat}) = \frac{8}{14},
-\qquad
-\hat{P}(\text{sat}) = \frac{4}{14},
-\qquad
-\hat{P}(\text{ran}) = \frac{2}{14}.
-$$
+$$ \hat{P}(\text{cat}) = \frac{8}{14}, \qquad \hat{P}(\text{sat}) = \frac{4}{14}, \qquad \hat{P}(\text{ran}) = \frac{2}{14}. $$
 
 Later, model outputs called **logits** will also be unnormalized scores. The next lesson explains how softmax converts those scores into a categorical probability distribution.
 
@@ -303,15 +263,11 @@ The same token may be plausible in one context and implausible in another.
 
 So language modeling is not mainly interested in an unconditional statement such as:
 
-$$
-P(\text{token} = t).
-$$
+$$ P(\text{token} = t). $$
 
 It needs a context-sensitive statement:
 
-$$
-P(\text{next token}=t \mid \text{context}=c).
-$$
+$$ P(\text{next token}=t \mid \text{context}=c). $$
 
 Read the vertical bar as:
 
@@ -319,9 +275,7 @@ Read the vertical bar as:
 
 So:
 
-$$
-P(t \mid c)
-$$
+$$ P(t \mid c) $$
 
 means:
 
@@ -351,29 +305,19 @@ cat
 
 So:
 
-$$
-\operatorname{count}(\text{the} \rightarrow \text{cat}) = 3,
-$$
+$$ \operatorname{count}(\text{the} \rightarrow \text{cat}) = 3, $$
 
-$$
-\operatorname{count}(\text{the} \rightarrow \text{dog}) = 1,
-$$
+$$ \operatorname{count}(\text{the} \rightarrow \text{dog}) = 1, $$
 
 and:
 
-$$
-\operatorname{count}(\text{the as context}) = 4.
-$$
+$$ \operatorname{count}(\text{the as context}) = 4. $$
 
 The empirical conditional estimates are:
 
-$$
-\hat{P}(\text{cat} \mid \text{the}) = \frac{3}{4},
-$$
+$$ \hat{P}(\text{cat} \mid \text{the}) = \frac{3}{4}, $$
 
-$$
-\hat{P}(\text{dog} \mid \text{the}) = \frac{1}{4}.
-$$
+$$ \hat{P}(\text{dog} \mid \text{the}) = \frac{1}{4}. $$
 
 This is the central language-modeling move in miniature:
 
@@ -391,19 +335,13 @@ A common mistake is to divide by the total number of tokens in the whole corpus.
 
 But for:
 
-$$
-P(\text{cat} \mid \text{the}),
-$$
+$$ P(\text{cat} \mid \text{the}), $$
 
 we care about the subset of observations in which the condition `the` is satisfied.
 
 Conceptually:
 
-$$
-\hat{P}(t \mid c)
-=
-\frac{\operatorname{count}(c \rightarrow t)}{\operatorname{count}(c)}.
-$$
+$$ \hat{P}(t \mid c) = \frac{\operatorname{count}(c \rightarrow t)}{\operatorname{count}(c)}. $$
 
 The denominator is therefore the number of relevant context occurrences, not every token observation everywhere.
 
@@ -423,30 +361,22 @@ dog: 8
 
 Compute:
 
-$$
-\hat{P}(\text{cat}\mid\text{the})
-$$
+$$ \hat{P}(\text{cat}\mid\text{the}) $$
 
 and:
 
-$$
-\hat{P}(\text{cat}\mid\text{a}).
-$$
+$$ \hat{P}(\text{cat}\mid\text{a}). $$
 
 <details>
 <summary>Reveal</summary>
 
 For `the`, there are ten matching observations:
 
-$$
-\hat{P}(\text{cat}\mid\text{the}) = \frac{9}{10}=0.9.
-$$
+$$ \hat{P}(\text{cat}\mid\text{the}) = \frac{9}{10}=0.9. $$
 
 For `a`, there are also ten:
 
-$$
-\hat{P}(\text{cat}\mid\text{a}) = \frac{2}{10}=0.2.
-$$
+$$ \hat{P}(\text{cat}\mid\text{a}) = \frac{2}{10}=0.2. $$
 
 The outcome token is the same. The condition changes the distribution.
 
@@ -458,21 +388,15 @@ Real autoregressive language models condition on a sequence of previous tokens, 
 
 We can write a token sequence as:
 
-$$
-x_1, x_2, \dots, x_t.
-$$
+$$ x_1, x_2, \dots, x_t. $$
 
 The next-token distribution is conceptually:
 
-$$
-P(x_{t+1} \mid x_1, x_2, \dots, x_t).
-$$
+$$ P(x_{t+1} \mid x_1, x_2, \dots, x_t). $$
 
 A compact notation is:
 
-$$
-P(x_{t+1} \mid x_{\le t}).
-$$
+$$ P(x_{t+1} \mid x_{\le t}). $$
 
 You do **not** need to manipulate this notation yet. Read it as:
 
@@ -520,9 +444,7 @@ Suppose token `otter` was never observed after a particular context in a tiny sa
 
 Then the naive empirical estimate is:
 
-$$
-\hat{P}(\text{otter}\mid c)=0.
-$$
+$$ \hat{P}(\text{otter}\mid c)=0. $$
 
 That statement means:
 
@@ -622,19 +544,11 @@ An autoregressive language model predicts one token at a time.
 
 For a short token sequence:
 
-$$
-x_1, x_2, x_3,
-$$
+$$ x_1, x_2, x_3, $$
 
 a probability model can factor the sequence probability as:
 
-$$
-P(x_1,x_2,x_3)
-=
-P(x_1)
-P(x_2\mid x_1)
-P(x_3\mid x_1,x_2).
-$$
+$$ P(x_1,x_2,x_3) = P(x_1) P(x_2\mid x_1) P(x_3\mid x_1,x_2). $$
 
 You do not need to derive this yet.
 
@@ -687,21 +601,15 @@ bird: 1
 
 ### Step 4: normalize
 
-$$
-\hat{P}(\text{fox}\mid\text{red}) = \frac{2}{3},
-$$
+$$ \hat{P}(\text{fox}\mid\text{red}) = \frac{2}{3}, $$
 
-$$
-\hat{P}(\text{bird}\mid\text{red}) = \frac{1}{3}.
-$$
+$$ \hat{P}(\text{bird}\mid\text{red}) = \frac{1}{3}. $$
 
 ### Step 5: ask what the table cannot do
 
 What is:
 
-$$
-\hat{P}(\text{runs}\mid\text{green dragon})?
-$$
+$$ \hat{P}(\text{runs}\mid\text{green dragon})? $$
 
 The exact context never appears. A pure exact-count table has no observations to normalize for that context.
 
@@ -780,13 +688,7 @@ Compute the empirical distribution.
 
 The total is $20$.
 
-$$
-\hat{P}(x)=0.6,
-\qquad
-\hat{P}(y)=0.3,
-\qquad
-\hat{P}(z)=0.1.
-$$
+$$ \hat{P}(x)=0.6, \qquad \hat{P}(y)=0.3, \qquad \hat{P}(z)=0.1. $$
 
 </details>
 
@@ -801,30 +703,22 @@ context "blue": bird, bird, fox, bird, bird, fox
 
 Compute:
 
-$$
-\hat{P}(\text{fox}\mid\text{red})
-$$
+$$ \hat{P}(\text{fox}\mid\text{red}) $$
 
 and:
 
-$$
-\hat{P}(\text{fox}\mid\text{blue}).
-$$
+$$ \hat{P}(\text{fox}\mid\text{blue}). $$
 
 <details>
 <summary>Answer</summary>
 
 For `red`, fox appears $3$ of $4$ times:
 
-$$
-\frac{3}{4}=0.75.
-$$
+$$ \frac{3}{4}=0.75. $$
 
 For `blue`, fox appears $2$ of $6$ times:
 
-$$
-\frac{2}{6}=\frac{1}{3}.
-$$
+$$ \frac{2}{6}=\frac{1}{3}. $$
 
 </details>
 
@@ -832,11 +726,7 @@ $$
 
 Someone computes:
 
-$$
-P(\text{cat}\mid\text{the})
-=
-\frac{\operatorname{count}(\text{the followed by cat})}{\operatorname{count}(\text{all tokens in corpus})}.
-$$
+$$ P(\text{cat}\mid\text{the}) = \frac{\operatorname{count}(\text{the followed by cat})}{\operatorname{count}(\text{all tokens in corpus})}. $$
 
 What is wrong?
 

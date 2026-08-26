@@ -1,6 +1,6 @@
 ---
 id: PWR-0003
-title: DC circuits: sources, loads, resistance, KCL, and KVL
+title: "DC circuits: sources, loads, resistance, KCL, and KVL"
 track: electrical-engineering-power
 level: L0
 status: complete
