@@ -10,3 +10,7 @@
 | `FUS-EX-004` | Decode lithium-7 nuclide notation into proton, neutron, and nucleon counts | nuclear bookkeeping | FUS-0002 | — |
 | `FUS-EX-005` | Compare carbon-12 and carbon-14 to distinguish element identity from isotope identity | isotopes | FUS-0002 | — |
 | `FUS-EX-006` | Reject a deliberately malformed D-T reaction by auditing A and Z totals | reaction bookkeeping | FUS-0002 | — |
+| `FUS-EX-007` | Fictional bound state: convert a 0.002 u mass defect into about 1.86 MeV of binding energy | binding energy and mass defect | FUS-0003 | — |
+| `FUS-EX-008` | Use NIST D, T, He-4 and neutron masses to derive the approximately 17.6 MeV D-T reaction Q-value | fusion reaction energy | FUS-0003 | — |
+| `FUS-EX-009` | Read the binding-energy-per-nucleon curve while separating energetic favorability from reaction rate | binding energy per nucleon | FUS-0003 | — |
+| `FUS-EX-010` | Reject the claim that equal mass number on both sides of a reaction implies equal exact mass and zero Q-value | nuclear bookkeeping failure mode | FUS-0003 | — |

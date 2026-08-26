@@ -23,6 +23,34 @@
       "domain": "system balancing",
       "first_lesson": "PWR-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-004",
+      "signature": "Three coulombs crossing a conductor section in two seconds gives 1.5 A average current",
+      "domain": "charge and current",
+      "first_lesson": "PWR-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-005",
+      "signature": "A 12 V energy-per-charge difference acting on 5 C corresponds to 60 J",
+      "domain": "voltage and energy",
+      "first_lesson": "PWR-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-006",
+      "signature": "A 230 V, 2 A load draws 460 W and uses 0.230 kWh in half an hour",
+      "domain": "electrical power and energy",
+      "first_lesson": "PWR-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-007",
+      "signature": "Compare 5 V at 2 A with 10 V at 1 A to show equal power with different voltage/current pairs",
+      "domain": "voltage-current-power tradeoff",
+      "first_lesson": "PWR-0002",
+      "reuse_purpose": null
     }
   ]
 }

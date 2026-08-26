@@ -7,3 +7,7 @@
 | `PWR-EX-001` | A household load rated 2 kW operating for 3 h: distinguish power from energy | power versus energy | PWR-0001 | — |
 | `PWR-EX-002` | Trace one unit of electrical delivery from generator through transmission and distribution to a customer | power-system architecture | PWR-0001 | — |
 | `PWR-EX-003` | A grid with enough annual energy but insufficient instantaneous power: explain why adequacy is time-dependent | system balancing | PWR-0001 | — |
+| `PWR-EX-004` | Three coulombs crossing a conductor section in two seconds gives 1.5 A average current | charge and current | PWR-0002 | — |
+| `PWR-EX-005` | A 12 V energy-per-charge difference acting on 5 C corresponds to 60 J | voltage and energy | PWR-0002 | — |
+| `PWR-EX-006` | A 230 V, 2 A load draws 460 W and uses 0.230 kWh in half an hour | electrical power and energy | PWR-0002 | — |
+| `PWR-EX-007` | Compare 5 V at 2 A with 10 V at 1 A to show equal power with different voltage/current pairs | voltage-current-power tradeoff | PWR-0002 | — |

@@ -8,9 +8,16 @@ This independent Auxiliary Studies track develops fusion-energy literacy from ze
 
 The track is deliberately broader than “how a tokamak works.” A fusion reaction, a high-gain plasma or target, an integrated reactor, and a net-electric power plant are different system boundaries. The curriculum keeps those boundaries explicit from lesson one.
 
-## Start reading
+## Publication frontier
 
-- First published lesson: [`FUS-0001 — What fusion energy is actually trying to achieve`](lessons/FUS-0001-what-fusion-energy-is-actually-trying-to-achieve.md)
+- Start: [`FUS-0001 — What fusion energy is actually trying to achieve`](lessons/FUS-0001-what-fusion-energy-is-actually-trying-to-achieve.md)
+- Published through: [`FUS-0003 — Binding energy, mass defect, and where fusion energy comes from`](lessons/FUS-0003-binding-energy-mass-defect-and-where-fusion-energy-comes-from.md)
+- Next canonical lesson: `FUS-N-0004 — Coulomb repulsion, collision energy, and quantum tunneling`
+
+Publication state is not learner mastery.
+
+## Navigation
+
 - `CONTEXT.md` — compact AI/reader handoff generated from canonical state
 - `ROADMAP.md` — dependency-ordered curriculum roadmap
 - `PROGRESS.md` — curriculum publication state
@@ -30,8 +37,6 @@ The track is deliberately broader than “how a tokamak works.” A fusion react
 - `registry/examples.json`
 - `registry/references.json`
 - `research/FRONTIER.json`
-
-Published curriculum content is not automatically learner knowledge; `LEARNER_STATE.json` remains independent.
 
 From the repository root:
 

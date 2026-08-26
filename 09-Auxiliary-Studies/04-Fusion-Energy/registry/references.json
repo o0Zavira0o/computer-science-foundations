@@ -101,6 +101,50 @@
       "review_after": "2027-08-26",
       "version": null,
       "notes": "Introductory authoritative cross-check for isotope identity, proton number, neutron number, and hydrogen isotope naming."
+    },
+    {
+      "id": "FUS-REF-010",
+      "title": "Atomic Weights and Isotopic Compositions for All Elements",
+      "type": "dataset",
+      "authority": "NIST Physical Measurement Laboratory",
+      "locator": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "Relative atomic masses used for the D-T reaction mass-defect example, including deuterium, tritium, and helium-4."
+    },
+    {
+      "id": "FUS-REF-011",
+      "title": "CODATA Recommended Values of the Fundamental Physical Constants: 2022",
+      "type": "primary-paper",
+      "authority": "NIST / CODATA",
+      "locator": "https://physics.nist.gov/cuu/pdf/JPCRD2022CODATA.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "2022 CODATA",
+      "notes": "Fundamental constants and particle masses used for neutron mass and atomic-mass-unit energy conversion context."
+    },
+    {
+      "id": "FUS-REF-012",
+      "title": "Binding energy curve of common isotopes.svg",
+      "type": "other",
+      "authority": "ScottMars / Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Binding_energy_curve_of_common_isotopes.svg",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "CC0 1.0 visual embedded in FUS-0003 as a qualitative binding-energy-per-nucleon anchor."
+    },
+    {
+      "id": "FUS-REF-013",
+      "title": "DOE Explains...Fusion Reactions",
+      "type": "official-documentation",
+      "authority": "U.S. Department of Energy, Office of Science",
+      "locator": "https://www.energy.gov/science/doe-explainsfusion-reactions",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "Authoritative introductory cross-check that fusion releases energy because the final bound system has lower mass than the initial nuclei."
     }
   ]
 }

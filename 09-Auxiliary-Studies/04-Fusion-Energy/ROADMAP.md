@@ -14,7 +14,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 |---|---|---|---|---|
 | `FUS-N-0001` | What fusion energy is actually trying to achieve | published | — | FUS-0001 |
 | `FUS-N-0002` | Atoms, nuclei, isotopes, and nuclear bookkeeping | published | FUS-N-0001 | FUS-0002 |
-| `FUS-N-0003` | Binding energy, mass defect, and where fusion energy comes from | planned | FUS-N-0002 | — |
+| `FUS-N-0003` | Binding energy, mass defect, and where fusion energy comes from | published | FUS-N-0002 | FUS-0003 |
 | `FUS-N-0004` | Coulomb repulsion, collision energy, and quantum tunneling | planned | FUS-N-0003 | — |
 | `FUS-N-0005` | Temperature, plasma, and what a hot fusion fuel really is | planned | FUS-N-0004 | — |
 | `FUS-N-0006` | Fusion fuels and the deuterium-tritium reaction | planned | FUS-N-0005 | — |

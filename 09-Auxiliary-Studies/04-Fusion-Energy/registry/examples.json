@@ -44,6 +44,34 @@
       "domain": "reaction bookkeeping",
       "first_lesson": "FUS-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-007",
+      "signature": "Fictional bound state: convert a 0.002 u mass defect into about 1.86 MeV of binding energy",
+      "domain": "binding energy and mass defect",
+      "first_lesson": "FUS-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-008",
+      "signature": "Use NIST D, T, He-4 and neutron masses to derive the approximately 17.6 MeV D-T reaction Q-value",
+      "domain": "fusion reaction energy",
+      "first_lesson": "FUS-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-009",
+      "signature": "Read the binding-energy-per-nucleon curve while separating energetic favorability from reaction rate",
+      "domain": "binding energy per nucleon",
+      "first_lesson": "FUS-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-010",
+      "signature": "Reject the claim that equal mass number on both sides of a reaction implies equal exact mass and zero Q-value",
+      "domain": "nuclear bookkeeping failure mode",
+      "first_lesson": "FUS-0003",
+      "reuse_purpose": null
     }
   ]
 }

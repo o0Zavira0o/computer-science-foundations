@@ -57,7 +57,7 @@
       "id": "FUS-N-0003",
       "title": "Binding energy, mass defect, and where fusion energy comes from",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "FUS-N-0002"
       ],
@@ -72,7 +72,7 @@
         }
       ],
       "branch": "fusion-energy-core",
-      "lesson_id": null
+      "lesson_id": "FUS-0003"
     },
     {
       "id": "FUS-N-0004",

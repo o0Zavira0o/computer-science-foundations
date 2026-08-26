@@ -3,11 +3,11 @@
 # Repository State
 
 - **Schema:** 2
-- **Last updated:** 2026-08-19
+- **Last updated:** 2026-08-26
 - **Repository phase:** active-multi-track-learning
 - **Active track:** none
 - **Last completed lesson:** none
-- **Next planned item:** Continue public-first authoring through audited curriculum graphs; published starts now include Linear Algebra, Linux Systems, German Language, Large Language Models, and Philosophy and Logic.
+- **Next planned item:** Continue public-first authoring through audited curriculum graphs. Current publication frontiers after this transaction: LA-0004, LNX-0010, GER-0001, LLM-0003, PHL-0003, FUS-0003, and PWR-0002. Use per-track graph state for exact next authoring candidates.
 - **Legacy Linux policy:** Do not silently reuse removed legacy lessons; salvage only after explicit review.
 
 ## Persistent decisions
@@ -19,7 +19,8 @@
 - Audited coverage is a real publication gate: it requires registered evidence sources, mapped coverage items, and no unresolved gaps.
 - Authoring readiness and learner study readiness are separate workflows.
 - Tracks may be top-level or nested under organizational containers; a directory is a track only if it contains TRACK.json.
-- Linux Systems, German Language, and Large Language Models are the initial simultaneously active learning tracks; publication state remains separate from learner mastery.
+- Current active public-authoring tracks include Linear Algebra, Linux Systems, German Language, Large Language Models, Philosophy and Logic, Fusion Energy, and Electrical Engineering — Power Engineering; publication state remains separate from learner mastery.
 - Public lesson authoring prioritizes educational quality and prerequisite integrity; it does not wait for repository-owner learner progress.
 - Educational content is CC BY-SA 4.0; repository software is GPL-3.0-or-later, with explicit attribution and provenance guidance.
 - Philosophy and Logic is activated only after evidence-backed curriculum reconnaissance; public lesson quality does not depend on repository-owner learner state.
+- Repository-wide handoff summaries report publication frontiers without claiming learner completion; learner progress remains in per-track learner state.

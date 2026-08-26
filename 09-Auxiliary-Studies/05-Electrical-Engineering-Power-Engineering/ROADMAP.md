@@ -13,7 +13,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | Node | Title | Status | Prerequisites | Lesson |
 |---|---|---|---|---|
 | `PWR-N-0001` | What electrical power engineering is actually studying | published | — | PWR-0001 |
-| `PWR-N-0002` | Charge, current, voltage, energy, and power | ready | PWR-N-0001 | — |
+| `PWR-N-0002` | Charge, current, voltage, energy, and power | published | PWR-N-0001 | PWR-0002 |
 | `PWR-N-0003` | DC circuits: sources, loads, resistance, KCL, and KVL | planned | PWR-N-0002 | — |
 | `PWR-N-0004` | Reference directions, signs, and passive-versus-active power | planned | PWR-N-0003 | — |
 | `PWR-N-0005` | Sinusoids, frequency, phase, and the AC waveform | planned | PWR-N-0004 | — |

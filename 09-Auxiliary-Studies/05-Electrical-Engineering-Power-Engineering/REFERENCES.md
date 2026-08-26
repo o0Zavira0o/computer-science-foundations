@@ -11,3 +11,5 @@
 | `PWR-REF-005` | Reliability Standards | standard-specification | North American Electric Reliability Corporation (NERC) | 2026-08-26 | 2027-02-26 |
 | `PWR-REF-006` | Electricity Basics | official-documentation | PJM Interconnection Learning Center | 2026-08-26 | 2027-08-26 |
 | `PWR-REF-007` | Electricity Grid Schematic English.svg | other | MBizon / Wikimedia Commons | 2026-08-26 | — |
+| `PWR-REF-008` | NIST Guide to the SI, Chapter 4: The Two Classes of SI Units and the SI Prefixes | official-documentation | National Institute of Standards and Technology | 2026-08-26 | — |
+| `PWR-REF-009` | Ampere: Introduction | official-documentation | National Institute of Standards and Technology | 2026-08-26 | — |

@@ -36,7 +36,7 @@
       "id": "PWR-N-0002",
       "title": "Charge, current, voltage, energy, and power",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "PWR-N-0001"
       ],
@@ -51,7 +51,7 @@
         }
       ],
       "branch": "power-system-foundations",
-      "lesson_id": null
+      "lesson_id": "PWR-0002"
     },
     {
       "id": "PWR-N-0003",

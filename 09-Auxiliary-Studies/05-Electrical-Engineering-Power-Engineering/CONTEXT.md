@@ -17,13 +17,13 @@
 - **Nodes:** 70
 - **Coverage baseline:** audited
 - **Coverage items:** 7
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 72
-- **Examples:** 3
-- **References:** 7
+- **Examples:** 7
+- **References:** 9
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `PWR-N-0002` — Charge, current, voltage, energy, and power (L0, ready)
+- `PWR-N-0003` — DC circuits: sources, loads, resistance, KCL, and KVL (L0, planned)
 
 ## Learner next actions
 
@@ -43,6 +43,7 @@
 ## Recent lessons
 
 - `PWR-0001` — What electrical power engineering is actually studying (L0, complete)
+- `PWR-0002` — Charge, current, voltage, energy, and power (L0, complete)
 
 ## Normal-session retrieval rule
 

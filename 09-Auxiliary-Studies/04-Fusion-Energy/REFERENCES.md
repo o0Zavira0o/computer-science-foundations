@@ -13,3 +13,7 @@
 | `FUS-REF-007` | Sectional view of ITER tokamak reactor | other | A. M. Miri, S. Fink, W. H. Fietz / Wikimedia Commons | 2026-08-26 | — |
 | `FUS-REF-008` | Hydrogen Deuterium Tritium Nuclei Schmatic-en.svg | other | Dirk Hünniger; English derivative by Balajijagadesh / Wikimedia Commons | 2026-08-26 | — |
 | `FUS-REF-009` | DOE Explains...Isotopes | official-documentation | U.S. Department of Energy, Office of Science | 2026-08-26 | 2027-08-26 |
+| `FUS-REF-010` | Atomic Weights and Isotopic Compositions for All Elements | dataset | NIST Physical Measurement Laboratory | 2026-08-26 | — |
+| `FUS-REF-011` | CODATA Recommended Values of the Fundamental Physical Constants: 2022 | primary-paper | NIST / CODATA | 2026-08-26 | — |
+| `FUS-REF-012` | Binding energy curve of common isotopes.svg | other | ScottMars / Wikimedia Commons | 2026-08-26 | — |
+| `FUS-REF-013` | DOE Explains...Fusion Reactions | official-documentation | U.S. Department of Energy, Office of Science | 2026-08-26 | — |

@@ -5,3 +5,4 @@
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
 | [`PWR-0001`](lessons/PWR-0001-what-electrical-power-engineering-is-actually-studying.md) | What electrical power engineering is actually studying | L0 | complete | `PWR-N-0001` | 2026-08-26 |
+| [`PWR-0002`](lessons/PWR-0002-charge-current-voltage-energy-and-power.md) | Charge, current, voltage, energy, and power | L0 | complete | `PWR-N-0002` | 2026-08-26 |

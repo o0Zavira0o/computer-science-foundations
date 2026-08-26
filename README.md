@@ -5,7 +5,7 @@
 This repository is designed as a durable learning system rather than a pile of notes or a fixed-length course. Each subject starts with zero assumed subject-specific knowledge, makes outside prerequisites explicit, develops through undergraduate and graduate depth, and stays open at the research frontier.
 
 > **System version:** V3.1 — architecture frozen for normal content work
-> **Active starts:** Linear Algebra, Linux Systems, German Language, Large Language Models, and Philosophy and Logic have audited curriculum spines and published starting lessons. Learner mastery remains separate from publication state.
+> **Active starts:** Linear Algebra, Linux Systems, German Language, Large Language Models, Philosophy and Logic, Fusion Energy, and Electrical Engineering — Power Engineering have audited curriculum spines and published lessons. Learner mastery remains separate from publication state.
 
 ## Tracks
 
@@ -13,17 +13,23 @@ The track list is generated from machine-readable manifests:
 
 **[`docs/TRACKS.md`](docs/TRACKS.md)**
 
-Current tracks include Linear Algebra, Linux Systems, C++, Computer Architecture, Programming Parallel Processors, Complex Analysis, Computer Systems, and Large Language Models (LLMs). The `09-Auxiliary-Studies/` container groups independent tracks for Advanced English, German Language, and Philosophy and Logic. New top-level or nested tracks can be added without editing the audit script.
+The generated index is the authoritative human-readable track inventory. Active published tracks currently include Linear Algebra, Linux Systems, Large Language Models, German Language, Philosophy and Logic, Fusion Energy, and Electrical Engineering — Power Engineering. Scaffolded tracks remain visible in the generated index without being misrepresented as already published.
 
-## First published learning paths
+## Published learning paths and current publication snapshot
 
-- **Linear Algebra:** [`LA-0001 — What linear algebra is actually studying`](01-Linear-Algebra/lessons/LA-0001-what-linear-algebra-is-actually-studying.md)
-- **Linux Systems:** [`LNX-0001 — What a Linux system actually is`](02-Linux-Systems/lessons/LNX-0001-what-a-linux-system-actually-is.md)
-- **German Language:** [`GER-0001 — Sounds, spelling, and your first German utterances`](09-Auxiliary-Studies/02-German-Language/lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md)
-- **Large Language Models:** [`LLM-0001 — What a language model is`](08-Large-Language-Models/lessons/LLM-0001-what-a-language-model-is.md)
-- **Philosophy and Logic:** [`PHL-0001 — What philosophy and logic are actually doing`](09-Auxiliary-Studies/03-Philosophy-and-Logic/lessons/PHL-0001-what-philosophy-and-logic-are-actually-doing.md)
+Publication state is not learner mastery. The table below is a repository handoff snapshot after this content transaction; generated `CATALOG.md` and `PROGRESS.md` files remain the detailed per-track views.
 
-Each active track has an evidence-backed `RECONNAISSANCE.md`, an audited `COVERAGE.json`, and a dependency-ordered `CURRICULUM.json`. These spines are not fixed endpoints; they are the current auditable map.
+| Track | Start here | Published through |
+|---|---|---|
+| Linear Algebra | [`LA-0001`](01-Linear-Algebra/lessons/LA-0001-what-linear-algebra-is-actually-studying.md) | [`LA-0004 — Vector addition and scalar multiplication`](01-Linear-Algebra/lessons/LA-0004-vector-addition-and-scalar-multiplication.md) |
+| Linux Systems | [`LNX-0001`](02-Linux-Systems/lessons/LNX-0001-what-a-linux-system-actually-is.md) | [`LNX-0010 — Standard streams, redirection, and pipelines`](02-Linux-Systems/lessons/LNX-0010-standard-streams-redirection-and-pipelines.md) |
+| German Language | [`GER-0001`](09-Auxiliary-Studies/02-German-Language/lessons/GER-0001-sounds-spelling-and-your-first-german-utterances.md) | `GER-0001` |
+| Large Language Models | [`LLM-0001`](08-Large-Language-Models/lessons/LLM-0001-what-a-language-model-is.md) | [`LLM-0003 — Probability from counts: uncertainty without mystery`](08-Large-Language-Models/lessons/LLM-0003-probability-from-counts-uncertainty-without-mystery.md) |
+| Philosophy and Logic | [`PHL-0001`](09-Auxiliary-Studies/03-Philosophy-and-Logic/lessons/PHL-0001-what-philosophy-and-logic-are-actually-doing.md) | [`PHL-0003 — Premises, conclusions, and argument indicators`](09-Auxiliary-Studies/03-Philosophy-and-Logic/lessons/PHL-0003-premises-conclusions-and-argument-indicators.md) |
+| Fusion Energy | [`FUS-0001`](09-Auxiliary-Studies/04-Fusion-Energy/lessons/FUS-0001-what-fusion-energy-is-actually-trying-to-achieve.md) | [`FUS-0003 — Binding energy, mass defect, and where fusion energy comes from`](09-Auxiliary-Studies/04-Fusion-Energy/lessons/FUS-0003-binding-energy-mass-defect-and-where-fusion-energy-comes-from.md) |
+| Electrical Engineering — Power Engineering | [`PWR-0001`](09-Auxiliary-Studies/05-Electrical-Engineering-Power-Engineering/lessons/PWR-0001-what-electrical-power-engineering-is-actually-studying.md) | [`PWR-0002 — Charge, current, voltage, energy, and power`](09-Auxiliary-Studies/05-Electrical-Engineering-Power-Engineering/lessons/PWR-0002-charge-current-voltage-energy-and-power.md) |
+
+For exact current authoring and learner next actions, run `python scripts/csf.py next <track-slug>`. Each active track has an evidence-backed `RECONNAISSANCE.md`, audited `COVERAGE.json`, dependency-ordered `CURRICULUM.json`, and generated progress/catalog/context views.
 
 ## What makes this repository different
 

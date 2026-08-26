@@ -7,7 +7,7 @@
 | `PWR-C-0001` | Power system as an interconnected energy-transfer and control system | D1 | electric power system, grid system boundary |
 | `PWR-C-0002` | Electrical power versus electrical energy | D1 | power-energy distinction, kW versus kWh |
 | `PWR-C-0003` | Power-system layers and operating constraints | D1 | generation transmission distribution, grid operating constraints |
-| `PWR-C-0004` | Charge, current, voltage, energy, and power | — | — |
+| `PWR-C-0004` | Charge, current, voltage, energy, and power | D1 | — |
 | `PWR-C-0005` | DC circuits: sources, loads, resistance, KCL, and KVL | — | — |
 | `PWR-C-0006` | Reference directions, signs, and passive-versus-active power | — | — |
 | `PWR-C-0007` | Sinusoids, frequency, phase, and the AC waveform | — | — |

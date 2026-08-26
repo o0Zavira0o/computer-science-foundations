@@ -37,7 +37,7 @@
       "id": "PWR-C-0004",
       "name": "Charge, current, voltage, energy, and power",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Curriculum concept supporting charge, current, voltage, energy, and power."
     },
     {
