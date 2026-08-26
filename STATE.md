@@ -7,7 +7,7 @@
 - **Repository phase:** active-multi-track-learning
 - **Active track:** none
 - **Last completed lesson:** none
-- **Next planned item:** Continue public-first authoring through audited curriculum graphs. Current publication frontiers after this transaction: LA-0004, LNX-0010, GER-0001, LLM-0003, PHL-0003, FUS-0003, and PWR-0002. Use per-track graph state for exact next authoring candidates.
+- **Next planned item:** Continue public-first authoring through audited curriculum graphs. Current publication frontiers after this transaction: LA-0004, LNX-0010, GER-0001, LLM-0003, PHL-0003, FUS-0004, and PWR-0003. Use per-track graph state for exact next authoring candidates.
 - **Legacy Linux policy:** Do not silently reuse removed legacy lessons; salvage only after explicit review.
 
 ## Persistent decisions

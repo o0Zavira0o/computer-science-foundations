@@ -44,7 +44,7 @@
       "id": "PWR-C-0005",
       "name": "DC circuits: sources, loads, resistance, KCL, and KVL",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Curriculum concept supporting dc circuits: sources, loads, resistance, kcl, and kvl."
     },
     {

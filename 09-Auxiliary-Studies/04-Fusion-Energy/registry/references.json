@@ -145,6 +145,28 @@
       "review_after": null,
       "version": null,
       "notes": "Authoritative introductory cross-check that fusion releases energy because the final bound system has lower mass than the initial nuclei."
+    },
+    {
+      "id": "FUS-REF-014",
+      "title": "Cyclotron Produced Radionuclides: Principles and Practice",
+      "type": "technical-report",
+      "authority": "International Atomic Energy Agency",
+      "locator": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs468_web.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Technical Reports Series No. 468",
+      "notes": "IAEA reference used for the Coulomb-barrier concept and the fact that charged-particle nuclear reactions can occur below the classical barrier through quantum tunneling."
+    },
+    {
+      "id": "FUS-REF-015",
+      "title": "University Physics Volume 3, 7.6 The Quantum Tunneling of Particles through Potential Barriers",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/university-physics-volume-3/pages/7-6-the-quantum-tunneling-of-particles-through-potential-barriers",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "Open textbook reference for finite potential barriers, transmission probability, and the strong nonlinear dependence of tunneling on barrier width and particle energy."
     }
   ]
 }

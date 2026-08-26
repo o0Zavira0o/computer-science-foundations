@@ -17,13 +17,13 @@
 - **Nodes:** 37
 - **Coverage baseline:** audited
 - **Coverage items:** 8
-- **Published lessons:** 3
+- **Published lessons:** 4
 
 ## Registry sizes
 
 - **Concepts:** 39
-- **Examples:** 10
-- **References:** 13
+- **Examples:** 14
+- **References:** 15
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `FUS-N-0004` — Coulomb repulsion, collision energy, and quantum tunneling (L0, planned)
+- `FUS-N-0005` — Temperature, plasma, and what a hot fusion fuel really is (L0, planned)
 
 ## Learner next actions
 
@@ -45,6 +45,7 @@
 - `FUS-0001` — What fusion energy is actually trying to achieve (L0, complete)
 - `FUS-0002` — Atoms, nuclei, isotopes, and nuclear bookkeeping (L0, complete)
 - `FUS-0003` — Binding energy, mass defect, and where fusion energy comes from (L0, complete)
+- `FUS-0004` — Coulomb repulsion, collision energy, and quantum tunneling (L0, complete)
 
 ## Normal-session retrieval rule
 

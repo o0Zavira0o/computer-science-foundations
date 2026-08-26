@@ -51,6 +51,41 @@
       "domain": "voltage-current-power tradeoff",
       "first_lesson": "PWR-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-008",
+      "signature": "A 12 V ideal source across a 4 ohm resistor gives 3 A and 36 W",
+      "domain": "single-loop DC circuit",
+      "first_lesson": "PWR-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-009",
+      "signature": "A 6 A node current splits into 2 A and 4 A using Kirchhoff's Current Law",
+      "domain": "KCL",
+      "first_lesson": "PWR-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-010",
+      "signature": "A 12 V source with 2 ohm and 4 ohm series resistors gives 2 A and 4 V plus 8 V drops",
+      "domain": "KVL and series resistance",
+      "first_lesson": "PWR-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-011",
+      "signature": "A 12 V source across 6 ohm and 3 ohm parallel branches gives 2 A, 4 A, and 6 A source current",
+      "domain": "parallel resistance and KCL",
+      "first_lesson": "PWR-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-012",
+      "signature": "Check the same parallel network by matching 72 W source power magnitude to 24 W plus 48 W loads",
+      "domain": "DC circuit power consistency",
+      "first_lesson": "PWR-0003",
+      "reuse_purpose": null
     }
   ]
 }

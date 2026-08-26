@@ -17,3 +17,5 @@
 | `FUS-REF-011` | CODATA Recommended Values of the Fundamental Physical Constants: 2022 | primary-paper | NIST / CODATA | 2026-08-26 | — |
 | `FUS-REF-012` | Binding energy curve of common isotopes.svg | other | ScottMars / Wikimedia Commons | 2026-08-26 | — |
 | `FUS-REF-013` | DOE Explains...Fusion Reactions | official-documentation | U.S. Department of Energy, Office of Science | 2026-08-26 | — |
+| `FUS-REF-014` | Cyclotron Produced Radionuclides: Principles and Practice | technical-report | International Atomic Energy Agency | 2026-08-26 | — |
+| `FUS-REF-015` | University Physics Volume 3, 7.6 The Quantum Tunneling of Particles through Potential Barriers | textbook | OpenStax | 2026-08-26 | — |

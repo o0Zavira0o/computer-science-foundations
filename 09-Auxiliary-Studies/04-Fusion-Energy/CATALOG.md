@@ -7,3 +7,4 @@
 | [`FUS-0001`](lessons/FUS-0001-what-fusion-energy-is-actually-trying-to-achieve.md) | What fusion energy is actually trying to achieve | L0 | complete | `FUS-N-0001` | 2026-08-26 |
 | [`FUS-0002`](lessons/FUS-0002-atoms-nuclei-isotopes-and-nuclear-bookkeeping.md) | Atoms, nuclei, isotopes, and nuclear bookkeeping | L0 | complete | `FUS-N-0002` | 2026-08-26 |
 | [`FUS-0003`](lessons/FUS-0003-binding-energy-mass-defect-and-where-fusion-energy-comes-from.md) | Binding energy, mass defect, and where fusion energy comes from | L0 | complete | `FUS-N-0003` | 2026-08-26 |
+| [`FUS-0004`](lessons/FUS-0004-coulomb-repulsion-collision-energy-and-quantum-tunneling.md) | Coulomb repulsion, collision energy, and quantum tunneling | L0 | complete | `FUS-N-0004` | 2026-08-26 |

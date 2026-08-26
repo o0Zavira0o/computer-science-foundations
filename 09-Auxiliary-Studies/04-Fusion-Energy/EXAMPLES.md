@@ -14,3 +14,7 @@
 | `FUS-EX-008` | Use NIST D, T, He-4 and neutron masses to derive the approximately 17.6 MeV D-T reaction Q-value | fusion reaction energy | FUS-0003 | — |
 | `FUS-EX-009` | Read the binding-energy-per-nucleon curve while separating energetic favorability from reaction rate | binding energy per nucleon | FUS-0003 | — |
 | `FUS-EX-010` | Reject the claim that equal mass number on both sides of a reaction implies equal exact mass and zero Q-value | nuclear bookkeeping failure mode | FUS-0003 | — |
+| `FUS-EX-011` | Compare D-T and D-He3 at equal separation to show Coulomb potential scaling with Z1Z2 | Coulomb barrier | FUS-0004 | — |
+| `FUS-EX-012` | Use T proportional to exp(-2 kappa L) in a toy barrier to expose exponential width sensitivity | quantum tunneling | FUS-0004 | — |
+| `FUS-EX-013` | Contrast classical reflection below a barrier with finite quantum tunneling amplitude | classical versus quantum barrier crossing | FUS-0004 | — |
+| `FUS-EX-014` | Repair the misleading claim that D-T fusion turns on only above a sharp Coulomb threshold | fusion reaction probability | FUS-0004 | — |

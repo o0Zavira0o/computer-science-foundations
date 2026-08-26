@@ -13,3 +13,5 @@
 | `PWR-REF-007` | Electricity Grid Schematic English.svg | other | MBizon / Wikimedia Commons | 2026-08-26 | — |
 | `PWR-REF-008` | NIST Guide to the SI, Chapter 4: The Two Classes of SI Units and the SI Prefixes | official-documentation | National Institute of Standards and Technology | 2026-08-26 | — |
 | `PWR-REF-009` | Ampere: Introduction | official-documentation | National Institute of Standards and Technology | 2026-08-26 | — |
+| `PWR-REF-010` | University Physics Volume 2, 10.3 Kirchhoff's Rules | textbook | OpenStax | 2026-08-26 | — |
+| `PWR-REF-011` | Resistive circuit analysis. Kirchhoff's Laws | university-course | MIT OpenCourseWare, 6.071J / 22.071J Introduction to Electronics, Signals, and Measurement | 2026-08-26 | — |

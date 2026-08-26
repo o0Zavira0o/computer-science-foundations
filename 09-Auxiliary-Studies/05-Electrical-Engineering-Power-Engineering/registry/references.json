@@ -101,6 +101,28 @@
       "review_after": null,
       "version": null,
       "notes": "Accessible authoritative explanation of ampere, coulomb, elementary charge, and current as charge flow per unit time."
+    },
+    {
+      "id": "PWR-REF-010",
+      "title": "University Physics Volume 2, 10.3 Kirchhoff's Rules",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "Open textbook reference for KCL/KVL, junctions, loops, and systematic circuit analysis."
+    },
+    {
+      "id": "PWR-REF-011",
+      "title": "Resistive circuit analysis. Kirchhoff's Laws",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare, 6.071J / 22.071J Introduction to Electronics, Signals, and Measurement",
+      "locator": "https://ocw.mit.edu/courses/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/resources/03_kirchhoff1/",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Spring 2006",
+      "notes": "MIT course reference for resistive circuit analysis, Kirchhoff laws, and series/parallel network consequences."
     }
   ]
 }

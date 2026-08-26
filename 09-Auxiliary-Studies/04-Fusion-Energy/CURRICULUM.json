@@ -78,7 +78,7 @@
       "id": "FUS-N-0004",
       "title": "Coulomb repulsion, collision energy, and quantum tunneling",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "FUS-N-0003"
       ],
@@ -93,7 +93,7 @@
         }
       ],
       "branch": "fusion-energy-core",
-      "lesson_id": null
+      "lesson_id": "FUS-0004"
     },
     {
       "id": "FUS-N-0005",

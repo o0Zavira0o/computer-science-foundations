@@ -72,6 +72,34 @@
       "domain": "nuclear bookkeeping failure mode",
       "first_lesson": "FUS-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-011",
+      "signature": "Compare D-T and D-He3 at equal separation to show Coulomb potential scaling with Z1Z2",
+      "domain": "Coulomb barrier",
+      "first_lesson": "FUS-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-012",
+      "signature": "Use T proportional to exp(-2 kappa L) in a toy barrier to expose exponential width sensitivity",
+      "domain": "quantum tunneling",
+      "first_lesson": "FUS-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-013",
+      "signature": "Contrast classical reflection below a barrier with finite quantum tunneling amplitude",
+      "domain": "classical versus quantum barrier crossing",
+      "first_lesson": "FUS-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "FUS-EX-014",
+      "signature": "Repair the misleading claim that D-T fusion turns on only above a sharp Coulomb threshold",
+      "domain": "fusion reaction probability",
+      "first_lesson": "FUS-0004",
+      "reuse_purpose": null
     }
   ]
 }

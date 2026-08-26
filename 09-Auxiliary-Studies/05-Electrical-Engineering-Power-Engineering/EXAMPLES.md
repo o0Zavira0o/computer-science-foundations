@@ -11,3 +11,8 @@
 | `PWR-EX-005` | A 12 V energy-per-charge difference acting on 5 C corresponds to 60 J | voltage and energy | PWR-0002 | — |
 | `PWR-EX-006` | A 230 V, 2 A load draws 460 W and uses 0.230 kWh in half an hour | electrical power and energy | PWR-0002 | — |
 | `PWR-EX-007` | Compare 5 V at 2 A with 10 V at 1 A to show equal power with different voltage/current pairs | voltage-current-power tradeoff | PWR-0002 | — |
+| `PWR-EX-008` | A 12 V ideal source across a 4 ohm resistor gives 3 A and 36 W | single-loop DC circuit | PWR-0003 | — |
+| `PWR-EX-009` | A 6 A node current splits into 2 A and 4 A using Kirchhoff's Current Law | KCL | PWR-0003 | — |
+| `PWR-EX-010` | A 12 V source with 2 ohm and 4 ohm series resistors gives 2 A and 4 V plus 8 V drops | KVL and series resistance | PWR-0003 | — |
+| `PWR-EX-011` | A 12 V source across 6 ohm and 3 ohm parallel branches gives 2 A, 4 A, and 6 A source current | parallel resistance and KCL | PWR-0003 | — |
+| `PWR-EX-012` | Check the same parallel network by matching 72 W source power magnitude to 24 W plus 48 W loads | DC circuit power consistency | PWR-0003 | — |

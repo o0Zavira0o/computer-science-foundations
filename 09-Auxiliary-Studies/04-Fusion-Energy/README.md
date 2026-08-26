@@ -11,8 +11,8 @@ The track is deliberately broader than “how a tokamak works.” A fusion react
 ## Publication frontier
 
 - Start: [`FUS-0001 — What fusion energy is actually trying to achieve`](lessons/FUS-0001-what-fusion-energy-is-actually-trying-to-achieve.md)
-- Published through: [`FUS-0003 — Binding energy, mass defect, and where fusion energy comes from`](lessons/FUS-0003-binding-energy-mass-defect-and-where-fusion-energy-comes-from.md)
-- Next canonical lesson: `FUS-N-0004 — Coulomb repulsion, collision energy, and quantum tunneling`
+- Published through: [`FUS-0004 — Coulomb repulsion, collision energy, and quantum tunneling`](lessons/FUS-0004-coulomb-repulsion-collision-energy-and-quantum-tunneling.md)
+- Next canonical lesson: `FUS-N-0005 — Temperature, plasma, and what a hot fusion fuel really is`
 
 Publication state is not learner mastery.
 
