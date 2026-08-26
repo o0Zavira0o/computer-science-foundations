@@ -193,7 +193,7 @@
       "id": "LNX-N-0010",
       "title": "Standard streams, redirection, and pipelines",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LNX-N-0009"
       ],
@@ -208,7 +208,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LNX-0010"
     },
     {
       "id": "LNX-N-0011",

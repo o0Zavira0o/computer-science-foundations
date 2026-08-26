@@ -72,31 +72,65 @@ If any of these are unknown, resolve them before drafting.
 - Write like a careful human technical author, not a chatbot transcript.
 - Prefer interactive prediction, reveal/check blocks, small experiments, diagrams, and visual models when they materially improve understanding; do not add visual clutter merely to decorate a page.
 - When physical appearance or spatial form is part of understanding (for example hardware, machinery, a laboratory apparatus, a mechanical component, or a geometric construction), consider one verified static visual anchor. Embed it when a stable, correctly licensed source is available; cite the exact source page, author/organization, and license nearby; register lesson-critical figures in the track reference registry. If reliable embedding is impossible, give a precise Visual lookup instruction instead. Never use a merely plausible image without verifying that it depicts the described object.
-- Render mathematics using the GitHub-safe hybrid house style in `docs/MATH_RENDERING.md`: `$...$` for inline math; one-line `$$ ... $$` for simple standalone displays; fenced `math` for matrices, aligned derivations, `cases`, `array`, or any expression that depends on LaTeX row separators `\`. Never force row-sensitive LaTeX into one-line dollar display, never leave a bare relation/operator on an ordinary Markdown line, and verify math in the actual GitHub Preview rather than trusting delimiter scans alone.
+- Render mathematics using the GitHub-safe hybrid house style in `docs/MATH_RENDERING.md`: `$...$` for inline math; one-line `$$ ... $$` for simple standalone displays; fenced `math` for matrices, aligned derivations, `cases`, `array`, and other row-sensitive expressions. Run the repository render audit and inspect the actual pushed GitHub Preview before merging math-heavy changes.
 - All repository filenames, structural documentation, and educational prose are written in English. Target-language examples (for example German sentences) remain in the target language, with English explanation where needed.
 
 ## 5. After changing content or canonical state
 
-Update the canonical JSON first, then synchronize generated views:
+Update canonical JSON before synchronizing generated views.
+
+For any lesson/content publication, the **mandatory publish gate** is defined in [`docs/PUBLISH_AUDIT.md`](docs/PUBLISH_AUDIT.md). A fresh AI session must read and follow that file before declaring a content change ready to merge.
+
+The minimum local sequence is:
 
 ```bash
 python scripts/csf.py sync
-python scripts/csf.py audit
-python scripts/csf.py audit --strict  # before merge/push when warnings should block
+python scripts/csf.py audit --strict
+python -m unittest discover -s tests -v
 ```
 
-For a normal lesson session this commonly means updating:
+For every changed track, also inspect graph movement:
+
+```bash
+python scripts/csf.py next <track-slug>
+```
+
+For changed lesson Markdown, run the repository source-render audit:
+
+```bash
+python scripts/render_audit.py path/to/changed-lesson.md
+```
+
+or, after staging:
+
+```bash
+python scripts/render_audit.py --staged
+```
+
+Then perform Git hygiene checks:
+
+```bash
+git diff --cached --check
+git diff --cached --stat
+git diff --cached --name-status
+```
+
+A local source-render PASS is **not** the final rendering gate. Push the branch and inspect the actual GitHub Preview before merging content that changes mathematics, Mermaid, HTML/details behavior, or embedded images.
+
+For a normal lesson session, canonical writeback commonly means updating:
 
 - the lesson file;
 - `CURRICULUM.json`;
 - `registry/concepts.json`;
 - `registry/examples.json` when needed;
 - `registry/references.json` when needed;
-- `COVERAGE.json` if coverage mapping changed;
-- `LEARNER_STATE.json` **only** when the learner actually studied/practiced/demonstrated something;
-- root `STATE.json` if repository-wide handoff state changed.
+- `COVERAGE.json` only when coverage mapping/scope changed;
+- `LEARNER_STATE.json` **only** when the learner actually studied, practiced, or demonstrated something;
+- root `STATE.json` only when repository-wide handoff state changed.
 
-If execution is unavailable, do not pretend generated views are synchronized. Modify canonical files carefully and tell the user that `python scripts/csf.py sync && python scripts/csf.py audit` must be run.
+Generated Markdown views are outputs of `sync`; do not repair them as the primary source.
+
+If execution is unavailable, do not claim synchronization, strict audit, tests, source-render audit, or GitHub Preview validation succeeded. State exactly which gates remain for the user to run.
 
 ## 6. Canonical standard
 

@@ -47,7 +47,7 @@
       "id": "PHL-N-0003",
       "title": "Premises, conclusions, and argument indicators",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "PHL-N-0002"
       ],
@@ -61,7 +61,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "PHL-0003"
     },
     {
       "id": "PHL-N-0004",

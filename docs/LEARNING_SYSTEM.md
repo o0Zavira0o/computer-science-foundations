@@ -789,32 +789,47 @@ The generated `docs/CROSS_TRACK_INDEX.md` summarizes declared neighboring tracks
 
 ## 22. End-of-session transaction
 
-A session that changes educational content should leave the repository internally consistent.
+A session that changes educational content should leave the repository internally consistent **and publication-checked**.
 
-Typical sequence:
+The canonical transaction order is:
 
-1. write/update lesson or project/research material;
+1. write/update lesson, exercise, project, research, or guide source;
 2. update canonical curriculum/registries;
 3. update learner state only for real learner activity;
-4. update coverage when scope changed;
+4. update coverage only when scope/mapping changed;
 5. update root handoff if needed;
 6. run `python scripts/csf.py sync`;
-7. run `python scripts/csf.py audit`;
-8. review the Git diff.
+7. run `python scripts/csf.py audit --strict`;
+8. run `python -m unittest discover -s tests -v`;
+9. run `python scripts/csf.py next <track-slug>` for every changed track;
+10. run `python scripts/render_audit.py ...` on changed lesson Markdown;
+11. stage and require `git diff --cached --check` to be silent;
+12. review staged stats/name-status and important diffs;
+13. commit and push the content branch;
+14. inspect the **actual GitHub Preview** for math, diagrams, HTML/details, and images when applicable;
+15. only then fast-forward merge to `main`;
+16. rerun sync, strict audit, tests, relevant graph/render checks on `main`;
+17. require a clean tree before pushing `main`.
+
+The full reproducible command/checklist is canonicalized in [`docs/PUBLISH_AUDIT.md`](PUBLISH_AUDIT.md).
 
 Generated views should not be edited as the primary source.
+
+A green structured audit does not imply correct rendering. A green render-source audit does not imply correct mathematics. A correct GitHub Preview does not imply factual or pedagogical correctness. Publication requires all applicable layers.
 
 ---
 
 ## 23. Automated integrity
 
-Local command:
+### Structured repository audit
+
+Merge/push gate:
 
 ```bash
-python scripts/csf.py audit
+python scripts/csf.py audit --strict
 ```
 
-The audit checks, among other things:
+The structured audit checks, among other things:
 
 - required root architecture;
 - dynamic track discovery;
@@ -835,11 +850,55 @@ The audit checks, among other things:
 - obvious placeholder leakage into published lessons;
 - exact title/alias collisions in registries.
 
-It does not pretend to solve semantic pedagogy automatically. Human/AI judgment remains necessary for factual depth, near-duplicate meaning, argument quality, and completeness against the outside field.
+Strict mode makes warnings blocking at publication time.
 
-GitHub Actions runs the same audit on pushes and pull requests.
+### Regression tests
 
----
+Run:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+These tests protect repository tooling and known integrity invariants. They do not replace content review.
+
+### Render-source audit
+
+For changed lesson Markdown:
+
+```bash
+python scripts/render_audit.py path/to/lesson.md
+```
+
+or after staging:
+
+```bash
+python scripts/render_audit.py --staged
+```
+
+This tool catches source patterns that have caused real GitHub rendering failures in this repository, including legacy math delimiters, multiline dollar displays, row-sensitive LaTeX forced into one-line dollar displays, and malformed math fences.
+
+It cannot emulate GitHub's renderer perfectly.
+
+### Actual GitHub Preview
+
+When rendering is relevant, the pushed branch Preview is a separate mandatory gate.
+
+Verify the real rendered lesson, especially:
+
+- matrix row breaks;
+- aligned derivations;
+- fractions, subscripts, superscripts, and symbols;
+- Mermaid/HTML/details behavior;
+- image loading, identity, placement, attribution, and license.
+
+If automated scans pass but GitHub Preview is broken, publication is blocked.
+
+### Scope of automation
+
+Automation does not pretend to solve semantic pedagogy automatically. Human/AI judgment remains necessary for factual accuracy, depth, near-duplicate meaning, argument quality, image correctness, source interpretation, and completeness against the outside field.
+
+GitHub Actions may run structured checks on pushes and pull requests, but a remote CI green check is not a substitute for the manual GitHub-rendering gate described above.
 
 ## 24. Definition of lesson complete
 
@@ -927,7 +986,7 @@ Do not:
 
 With repository access:
 
-> Read `AI_INSTRUCTIONS.md`. Use the V3 targeted-retrieval protocol. Inspect the target track's generated context and canonical state, then continue from the justified next curriculum node without same-depth duplication. Keep the path open through research frontier and synchronize/audit repository state after changes.
+> Read `AI_INSTRUCTIONS.md` and `docs/PUBLISH_AUDIT.md`. Use the V3 targeted-retrieval protocol. Inspect the target track's generated context and canonical state, continue from the justified next curriculum node without same-depth duplication, then execute the documented strict publish/audit gates before declaring changes ready to merge.
 
 If repository access is unavailable, continuity-sensitive work cannot be trusted until the relevant canonical files and lesson material are supplied.
 

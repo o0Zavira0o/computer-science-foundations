@@ -66,15 +66,32 @@ Never leave a bare relation or operator such as `=`, `-`, `+`, `\neq`, or `\righ
 
 ### Renderer-validation rule
 
-A source/delimiter scan is necessary but not sufficient. For math-heavy lessons:
+A source/delimiter scan is necessary but not sufficient.
+
+For changed lesson Markdown, run the repository-local audit:
+
+```bash
+python scripts/render_audit.py path/to/lesson.md
+```
+
+After staging, the same tool audits staged lesson Markdown (not policy/docs containing literal syntax examples):
+
+```bash
+python scripts/render_audit.py --staged
+```
+
+For math-heavy lessons:
 
 1. verify simple display equations are self-contained `$$ ... $$` lines;
-2. verify matrix/alignment-sensitive displays use fenced `math`;
+2. verify matrix/alignment/`cases`/`array` and other row-sensitive displays use fenced `math`;
 3. verify no one-line `$$ ... $$` expression contains a LaTeX row separator `\\`;
-4. push the branch before merging;
-5. inspect the **actual GitHub Preview** and confirm matrices have the intended rows and aligned derivations have the intended line breaks.
+4. verify no forbidden legacy `\(...\)` or `\[...\]` delimiters remain;
+5. push the branch before merging;
+6. inspect the **actual GitHub Preview** and confirm matrices have the intended rows and aligned derivations have the intended line breaks.
 
 If the raw source contains `\\` but the rendered Preview visually collapses rows, treat that as a rendering failure even if every automated delimiter check passes.
+
+The render audit is intentionally a source-level guard, not a GitHub-renderer emulator. The full publication sequence is documented in [`PUBLISH_AUDIT.md`](PUBLISH_AUDIT.md).
 
 ## Delimiters that must not be used
 
@@ -125,6 +142,13 @@ Before publishing a lesson, exercise, project, or research note containing mathe
 
 ## Compatibility target
 
-The canonical rendering target is GitHub Markdown. GitHub documents LaTeX-formatted mathematics in Markdown using MathJax, with `$...$` (or dollar-backtick syntax) for inline expressions and `$$...$$` or fenced `math` blocks for display expressions. This repository deliberately uses a conservative hybrid subset: simple display expressions use one-line `$$ ... $$`; matrices, aligned derivations, and other row-sensitive expressions use fenced `math`; both are followed by visual inspection in the actual GitHub Preview.
+The canonical rendering target is GitHub Markdown. GitHub documents LaTeX-formatted mathematics in Markdown using MathJax, with `$...$` (or dollar-backtick syntax) for inline expressions and `$$...$$` or fenced `math` blocks for display expressions.
+
+This repository deliberately uses a conservative hybrid subset:
+
+- simple display expressions use one-line `$$ ... $$`;
+- matrices, aligned derivations, `cases`, `array`, and other row-sensitive expressions use fenced `math`;
+- source-level rendering hazards are checked with `scripts/render_audit.py`;
+- the actual pushed GitHub Preview is inspected before merge when rendering is relevant.
 
 Official reference: <https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions>

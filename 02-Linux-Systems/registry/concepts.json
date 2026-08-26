@@ -70,7 +70,7 @@
       "id": "LNX-C-0010",
       "name": "Unix stream composition",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "first curriculum target is LNX-N-0010."
     },
     {

@@ -191,6 +191,34 @@
       "domain": "shell command substitution",
       "first_lesson": "LNX-0009",
       "reuse_purpose": "Separate command-substitution capture from the later effects of quote context on argument construction."
+    },
+    {
+      "id": "LNX-EX-028",
+      "signature": "Redirect normal printf output and a failing ls diagnostic into separate files to make stdout and stderr routing independently observable.",
+      "domain": "standard stream separation and redirection",
+      "first_lesson": "LNX-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-029",
+      "signature": "Compare `command > all.txt 2>&1` with `command 2>&1 > out.txt` as two different left-to-right descriptor connection graphs.",
+      "domain": "redirection ordering and descriptor duplication",
+      "first_lesson": "LNX-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-030",
+      "signature": "Pipe a three-line printf stream into `wc -l` and trace producer stdout through the pipe to consumer stdin and final stdout.",
+      "domain": "pipeline topology and stream composition",
+      "first_lesson": "LNX-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LNX-EX-031",
+      "signature": "Use `false | true` with default Bash pipeline status and `pipefail` to show that successful downstream status can hide an upstream failure.",
+      "domain": "pipeline failure visibility",
+      "first_lesson": "LNX-0010",
+      "reuse_purpose": null
     }
   ]
 }

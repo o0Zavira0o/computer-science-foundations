@@ -44,6 +44,27 @@
       "domain": "argument versus explanation",
       "first_lesson": "PHL-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-007",
+      "signature": "Reconstruct a museum-hours argument whose conclusion appears first and contains no conclusion-indicator word, identifying roles from support rather than sentence order.",
+      "domain": "premise and conclusion role identification",
+      "first_lesson": "PHL-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-008",
+      "signature": "Contrast premise-indicator and non-argument uses of `since` and `so` to show that indicator vocabulary is contextual evidence rather than a mechanical parser.",
+      "domain": "argument indicator ambiguity",
+      "first_lesson": "PHL-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-009",
+      "signature": "Use the same backup-retention claim first as a conclusion and then as a premise for a further storage-allocation conclusion.",
+      "domain": "inferential role and intermediate structure",
+      "first_lesson": "PHL-0003",
+      "reuse_purpose": null
     }
   ]
 }
