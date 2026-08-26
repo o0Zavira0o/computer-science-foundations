@@ -9,7 +9,7 @@ concepts_introduced: ["FUS-C-0001", "FUS-C-0002", "FUS-C-0003"]
 concepts_deepened: []
 concepts_used: []
 examples_added: ["FUS-EX-001", "FUS-EX-002", "FUS-EX-003"]
-references_used: ["FUS-REF-001", "FUS-REF-002", "FUS-REF-003", "FUS-REF-005", "FUS-REF-006"]
+references_used: ["FUS-REF-001", "FUS-REF-002", "FUS-REF-003", "FUS-REF-005", "FUS-REF-006", "FUS-REF-007"]
 last_reviewed: 2026-08-26
 version_sensitive: true
 review_after: 2027-02-26
@@ -85,11 +85,7 @@ For near-term controlled-fusion research, the most important fuel pair is deuter
 
 A deuterium-tritium reaction can be written as
 
-$$
-{}^{2}_{1}\mathrm{H}+{}^{3}_{1}\mathrm{H}
-\rightarrow
-{}^{4}_{2}\mathrm{He}+n+17.6\ \mathrm{MeV}.
-$$
+$$ {}^{2}_{1}\mathrm{H}+{}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He}+n+17.6\ \mathrm{MeV}. $$
 
 The approximately $17.6\ \mathrm{MeV}$ is shared mainly between:
 
@@ -113,6 +109,12 @@ Fusion research therefore needs a population of nuclei with enough kinetic energ
 
 For magnetic-confinement D-T fusion, this means an extremely hot **plasma**: matter in which electrons are no longer bound to individual atoms in the ordinary way and the fuel behaves as a collection of charged particles.
 
+A tokamak is one major magnetic-confinement geometry. The sectional view below is a useful physical anchor for the word *confinement*: the plasma occupies the toroidal vacuum-vessel region while large magnetic-coil systems surround it. The picture is not a generic diagram of every fusion approach; it is specifically an ITER tokamak cross-section.
+
+![Sectional view of the ITER tokamak reactor with major magnetic-coil systems labeled](https://upload.wikimedia.org/wikipedia/commons/a/ab/Sectional-view-of-ITER-tokamak-reactor.jpg)
+
+*Visual anchor — sectional view of ITER. Source: [Wikimedia Commons — Sectional-view-of-ITER-tokamak-reactor.jpg](https://commons.wikimedia.org/wiki/File:Sectional-view-of-ITER-tokamak-reactor.jpg), A. M. Miri, S. Fink, and W. H. Fietz; CC BY 4.0. Registry: `FUS-REF-007`.*
+
 But high temperature alone is not enough.
 
 A useful first approximation is that three things must work together:
@@ -134,9 +136,7 @@ Fusion reporting often switches between **energy** and **power**. They are relat
 
 Energy is an amount. Power is a rate of energy transfer:
 
-$$
-P=\frac{\Delta E}{\Delta t}.
-$$
+$$ P=\frac{\Delta E}{\Delta t}. $$
 
 A short experiment can have enormous instantaneous power and still release a modest total amount of energy because the duration is tiny.
 
@@ -149,9 +149,7 @@ When you see a number in megajoules, ask about total energy and duration. When y
 
 Suppose someone defines a gain ratio
 
-$$
-G=\frac{\text{useful output}}{\text{required input}}.
-$$
+$$ G=\frac{\text{useful output}}{\text{required input}}. $$
 
 This equation is meaningless until **output** and **input** are named.
 
@@ -184,11 +182,7 @@ Nothing contradictory has happened. The boundary changed.
 
 For an inertial-confinement target, a useful ratio is
 
-$$
-G_{\text{target}}
-=
-\frac{E_{\text{fusion}}}{E_{\text{driver delivered to target}}}.
-$$
+$$ G_{\text{target}} = \frac{E_{\text{fusion}}}{E_{\text{driver delivered to target}}}. $$
 
 Lawrence Livermore National Laboratory reports that the National Ignition Facility has repeatedly achieved ignition. As of the current reference snapshot, the June 20, 2026 experiment was reported as the eleventh ignition result, with a measured fusion yield of about $7.9\ \mathrm{MJ}$ and a target gain of approximately $3.8$.
 
@@ -200,11 +194,7 @@ It does **not** mean NIF exported net electricity to the grid. The denominator i
 
 In magnetic-confinement discussions, $Q$ commonly means
 
-$$
-Q
-=
-\frac{P_{\text{fusion}}}{P_{\text{external plasma heating}}}.
-$$
+$$ Q = \frac{P_{\text{fusion}}}{P_{\text{external plasma heating}}}. $$
 
 ITER is designed for a programmatic target of $Q\ge 10$: roughly $500\ \mathrm{MW}$ of fusion power from $50\ \mathrm{MW}$ of external heating power delivered to the plasma.
 
@@ -214,21 +204,13 @@ Again, that denominator is not the electricity consumed by the entire site.
 
 For an electricity-producing facility, a different quantity matters:
 
-$$
-P_{\text{net,electric}}
-=
-P_{\text{gross,electric}}
--
-P_{\text{recirculating}}.
-$$
+$$ P_{\text{net,electric}} = P_{\text{gross,electric}} - P_{\text{recirculating}}. $$
 
 Here $P_{\text{recirculating}}$ includes electricity consumed by the plant itself: pumps, cryogenics, magnets or drivers, heating/current-drive systems where applicable, vacuum systems, fuel processing, controls, cooling, and other auxiliaries.
 
 A plant exports net power only if
 
-$$
-P_{\text{net,electric}}>0.
-$$
+$$ P_{\text{net,electric}}>0. $$
 
 These three ratios answer different questions. Comparing them as if they were the same metric is a category error.
 
@@ -239,20 +221,11 @@ ITER is a particularly clean example of why system boundaries matter.
 
 Its stated design mission includes producing a high-gain, self-heated D-T plasma. The familiar design point is
 
-$$
-P_{\text{fusion}}\approx 500\ \mathrm{MW},
-\qquad
-P_{\text{external heating}}\approx 50\ \mathrm{MW},
-$$
+$$ P_{\text{fusion}}\approx 500\ \mathrm{MW}, \qquad P_{\text{external heating}}\approx 50\ \mathrm{MW}, $$
 
 so
 
-$$
-Q
-=
-\frac{500}{50}
-=10.
-$$
+$$ Q = \frac{500}{50} =10. $$
 
 If those numbers are achieved, the result would be a major magnetic-fusion milestone.
 
@@ -277,38 +250,21 @@ Now consider a deliberately simple hypothetical fusion power plant.
 
 Suppose its generators produce
 
-$$
-P_{\text{gross,electric}}=1000\ \mathrm{MW}.
-$$
+$$ P_{\text{gross,electric}}=1000\ \mathrm{MW}. $$
 
 Suppose the plant itself requires
 
-$$
-P_{\text{recirculating}}=300\ \mathrm{MW}.
-$$
+$$ P_{\text{recirculating}}=300\ \mathrm{MW}. $$
 
 Then
 
-```math
-\begin{aligned}
-P_{\text{net,electric}}
-&=P_{\text{gross,electric}}-P_{\text{recirculating}}\\
-&=1000\ \mathrm{MW}-300\ \mathrm{MW}\\
-&=700\ \mathrm{MW}.
-\end{aligned}
-```
+$$ \begin{aligned} P_{\text{net,electric}} &=P_{\text{gross,electric}}-P_{\text{recirculating}}\\ &=1000\ \mathrm{MW}-300\ \mathrm{MW}\\ &=700\ \mathrm{MW}. \end{aligned} $$
 
 The plant exports $700\ \mathrm{MW}$ in this simplified example.
 
 Its recirculating fraction would be
 
-$$
-f_{\text{recirc}}
-=
-\frac{P_{\text{recirculating}}}{P_{\text{gross,electric}}}
-=
-0.30.
-$$
+$$ f_{\text{recirc}} = \frac{P_{\text{recirculating}}}{P_{\text{gross,electric}}} = 0.30. $$
 
 These numbers are hypothetical. They are not a claim about any existing fusion plant.
 

@@ -24,31 +24,25 @@ Use that form only when it solves a real parsing problem; ordinary `$...$` is ea
 
 ### Display mathematics
 
-Use a display block for an equation that deserves its own visual line:
+Use a display block for an equation that deserves its own visual line. The repository's **strict compatibility profile** keeps the opening delimiter, expression, and closing delimiter on one physical source line:
 
 ```markdown
-$$
-T(au+bv)=aT(u)+bT(v).
-$$
+$$ T(au+bv)=aT(u)+bT(v). $$
 ```
 
-Keep a blank line before and after the block. Do not put prose on the delimiter lines.
+Keep a blank line before and after the display line. This form is intentionally stricter than the full range of syntax GitHub documents because it is robust across GitHub preview, alternate Markdown viewers, and text extraction.
 
-### Long, multiline, or alignment-heavy mathematics
+### Matrices, derivations, and aligned mathematics
 
-For long derivations, aligned equations, or source that becomes hard to read inside dollar delimiters, use GitHub's fenced `math` block:
+Keep the outer `$$ ... $$` display on one physical source line even when the LaTeX itself contains matrix row separators or an alignment environment:
 
-````markdown
-```math
-A=
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
+```markdown
+$$ A=\begin{bmatrix}1 & 2 \\ 3 & 4\end{bmatrix}. $$
+
+$$ \begin{aligned} f(x) &= a(x+y) \\ &= ax+ay. \end{aligned} $$
 ```
-````
 
-Both display styles are supported by GitHub. Prefer `$$...$$` for ordinary standalone equations and fenced `math` when multiline structure materially improves source readability.
+GitHub officially supports fenced `math` blocks, but repository lessons use the stricter one-line display profile unless an expression has been manually verified in the actual GitHub Preview and cannot reasonably be expressed this way. Never put a bare relation or operator such as `=`, `-`, `+`, `\neq`, or `\rightarrow` on its own physical Markdown line inside a display expression.
 
 ## Delimiters that must not be used
 
@@ -89,14 +83,15 @@ Avoid dense formulas in Markdown tables when a standalone equation plus explanat
 Before publishing a lesson, exercise, project, or research note containing mathematics:
 
 1. Confirm every inline expression uses GitHub-supported inline math syntax.
-2. Confirm every standalone equation uses `$$...$$` or a fenced `math` block.
+2. Confirm every lesson display equation uses a self-contained one-line `$$ ... $$` source form by default.
 3. Confirm no mathematical expression is accidentally inside an ordinary code block.
 4. Confirm notation is introduced before it is heavily used.
-5. Confirm matrices, fractions, subscripts, superscripts, and symbols are readable in GitHub preview.
-6. Prefer a small diagram or table only when it adds structure that the equation alone does not communicate.
+5. Confirm matrices, fractions, subscripts, superscripts, and symbols are readable in the **actual GitHub Preview**, not only in a delimiter/source scan.
+6. Confirm no display block leaves a bare relation/operator on its own physical Markdown line.
+7. Prefer a small diagram or table only when it adds structure that the equation alone does not communicate.
 
 ## Compatibility target
 
-The canonical rendering target is GitHub Markdown. GitHub documents LaTeX-formatted mathematics in Markdown using MathJax, with `$...$` (or dollar-backtick syntax) for inline expressions and `$$...$$` or fenced `math` blocks for display expressions.
+The canonical rendering target is GitHub Markdown. GitHub documents LaTeX-formatted mathematics in Markdown using MathJax, with `$...$` (or dollar-backtick syntax) for inline expressions and `$$...$$` or fenced `math` blocks for display expressions. This repository deliberately adopts a stricter lesson-authoring subset: one physical source line per `$$ ... $$` display by default, followed by visual inspection in the actual GitHub Preview.
 
 Official reference: <https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions>

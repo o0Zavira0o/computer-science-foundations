@@ -68,6 +68,17 @@
       "review_after": "2027-02-26",
       "version": null,
       "notes": "Authoritative distinctions among plasma Q, engineering breakeven, ITER Q goals, and ITER not being an electricity-producing plant."
+    },
+    {
+      "id": "FUS-REF-007",
+      "title": "Sectional view of ITER tokamak reactor",
+      "type": "other",
+      "authority": "A. M. Miri, S. Fink, W. H. Fietz / Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Sectional-view-of-ITER-tokamak-reactor.jpg",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "CC BY 4.0 sectional ITER visual embedded in FUS-0001 as a physical anchor for tokamak magnetic confinement. Direct media: https://upload.wikimedia.org/wikipedia/commons/a/ab/Sectional-view-of-ITER-tokamak-reactor.jpg"
     }
   ]
 }

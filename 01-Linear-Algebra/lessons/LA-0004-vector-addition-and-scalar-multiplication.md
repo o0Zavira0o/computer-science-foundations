@@ -9,7 +9,7 @@ concepts_introduced: ["LA-C-0004"]
 concepts_deepened: ["LA-C-0003", "LA-C-0002"]
 concepts_used: ["LA-C-0001"]
 examples_added: ["LA-EX-010", "LA-EX-011", "LA-EX-012"]
-references_used: ["LA-REF-001", "LA-REF-003", "LA-REF-004"]
+references_used: ["LA-REF-001", "LA-REF-003", "LA-REF-004", "LA-REF-015"]
 last_reviewed: 2026-08-26
 version_sensitive: false
 review_after: null
@@ -27,13 +27,7 @@ If that idea is not yet comfortable, read **LA-0003 — Vectors as displacement,
 
 You should also be able to read a vector such as
 
-```math
-\mathbf{v}=
-\begin{bmatrix}
-3\\
--2
-\end{bmatrix}
-```
+$$ \mathbf{v}= \begin{bmatrix} 3\\ -2 \end{bmatrix} $$
 
 as an ordered list of coordinates rather than as decorative notation.
 
@@ -56,28 +50,17 @@ How should we describe the total displacement?
 
 Or suppose a measured change in a system is
 
-```math
-\Delta \mathbf{x} =
-\begin{bmatrix}
-4\\
--2\\
-1
-\end{bmatrix}.
-```
+$$ \Delta \mathbf{x} = \begin{bmatrix} 4\\ -2\\ 1 \end{bmatrix}. $$
 
 What does it mean to apply half of that change? What does it mean to reverse it?
 
 Linear algebra answers both questions with two operations that look almost embarrassingly simple:
 
-$$
-\mathbf{u}+\mathbf{v}
-$$
+$$ \mathbf{u}+\mathbf{v} $$
 
 and
 
-$$
-a\mathbf{v},
-$$
+$$ a\mathbf{v}, $$
 
 where $a$ is a scalar.
 
@@ -120,72 +103,21 @@ Two vectors may have the same mathematical shape and therefore be addable in $\m
 
 Let
 
-```math
-\mathbf{u}=
-\begin{bmatrix}
-u_1\\
-u_2\\
-\vdots\\
-u_n
-\end{bmatrix},
-\qquad
-\mathbf{v}=
-\begin{bmatrix}
-v_1\\
-v_2\\
-\vdots\\
-v_n
-\end{bmatrix}.
-```
+$$ \mathbf{u}= \begin{bmatrix} u_1\\ u_2\\ \vdots\\ u_n \end{bmatrix}, \qquad \mathbf{v}= \begin{bmatrix} v_1\\ v_2\\ \vdots\\ v_n \end{bmatrix}. $$
 
 If both vectors have the same number of coordinates, their sum is defined coordinate by coordinate:
 
-```math
-\mathbf{u}+\mathbf{v}
-=
-\begin{bmatrix}
-u_1+v_1\\
-u_2+v_2\\
-\vdots\\
-u_n+v_n
-\end{bmatrix}.
-```
+$$ \mathbf{u}+\mathbf{v} = \begin{bmatrix} u_1+v_1\\ u_2+v_2\\ \vdots\\ u_n+v_n \end{bmatrix}. $$
 
 For example,
 
-```math
-\begin{bmatrix}
-3\\
-1
-\end{bmatrix}
-+
-\begin{bmatrix}
--1\\
-2
-\end{bmatrix}
-=
-\begin{bmatrix}
-2\\
-3
-\end{bmatrix}.
-```
+$$ \begin{bmatrix} 3\\ 1 \end{bmatrix} + \begin{bmatrix} -1\\ 2 \end{bmatrix} = \begin{bmatrix} 2\\ 3 \end{bmatrix}. $$
 
 The result has the same dimension as the inputs.
 
 You cannot add a vector in $\mathbb{R}^2$ to a vector in $\mathbb{R}^3$ using ordinary vector addition:
 
-```math
-\begin{bmatrix}
-1\\
-2
-\end{bmatrix}
-+
-\begin{bmatrix}
-3\\
-4\\
-5
-\end{bmatrix}
-```
+$$ \begin{bmatrix} 1\\ 2 \end{bmatrix} + \begin{bmatrix} 3\\ 4\\ 5 \end{bmatrix} $$
 
 is not defined.
 
@@ -197,54 +129,21 @@ That failure is not a minor notation problem. The coordinate positions no longer
 
 A **scalar** is one number. If $a$ is a scalar and
 
-```math
-\mathbf{v}=
-\begin{bmatrix}
-v_1\\
-v_2\\
-\vdots\\
-v_n
-\end{bmatrix},
-```
+$$ \mathbf{v}= \begin{bmatrix} v_1\\ v_2\\ \vdots\\ v_n \end{bmatrix}, $$
 
 then
 
-```math
-a\mathbf{v}
-=
-\begin{bmatrix}
-av_1\\
-av_2\\
-\vdots\\
-av_n
-\end{bmatrix}.
-```
+$$ a\mathbf{v} = \begin{bmatrix} av_1\\ av_2\\ \vdots\\ av_n \end{bmatrix}. $$
 
 For example,
 
-```math
--2
-\begin{bmatrix}
-3\\
--1
-\end{bmatrix}
-=
-\begin{bmatrix}
--6\\
-2
-\end{bmatrix}.
-```
+$$ -2 \begin{bmatrix} 3\\ -1 \end{bmatrix} = \begin{bmatrix} -6\\ 2 \end{bmatrix}. $$
 
 Every coordinate is multiplied by the **same** scalar.
 
 That "same scalar" condition is important. An operation such as
 
-```math
-\begin{bmatrix}
-2u_1\\
-5u_2
-\end{bmatrix}
-```
+$$ \begin{bmatrix} 2u_1\\ 5u_2 \end{bmatrix} $$
 
 may be a perfectly useful transformation, but it is not scalar multiplication of $\mathbf{u}$ by one scalar.
 
@@ -256,27 +155,19 @@ At this level, our vectors mostly live in $\mathbb{R}^n$.
 
 If
 
-$$
-\mathbf{u},\mathbf{v}\in\mathbb{R}^n
-$$
+$$ \mathbf{u},\mathbf{v}\in\mathbb{R}^n $$
 
 and
 
-$$
-a\in\mathbb{R},
-$$
+$$ a\in\mathbb{R}, $$
 
 then
 
-$$
-\mathbf{u}+\mathbf{v}\in\mathbb{R}^n
-$$
+$$ \mathbf{u}+\mathbf{v}\in\mathbb{R}^n $$
 
 and
 
-$$
-a\mathbf{v}\in\mathbb{R}^n.
-$$
+$$ a\mathbf{v}\in\mathbb{R}^n. $$
 
 This "stays in the same space" property is called **closure**.
 
@@ -292,28 +183,15 @@ For now, the practical intuition is enough:
 
 The **zero vector** in $\mathbb{R}^n$ is
 
-```math
-\mathbf{0}
-=
-\begin{bmatrix}
-0\\
-0\\
-\vdots\\
-0
-\end{bmatrix}.
-```
+$$ \mathbf{0} = \begin{bmatrix} 0\\ 0\\ \vdots\\ 0 \end{bmatrix}. $$
 
 It behaves like an additive "do nothing":
 
-$$
-\mathbf{v}+\mathbf{0}=\mathbf{v}.
-$$
+$$ \mathbf{v}+\mathbf{0}=\mathbf{v}. $$
 
 It also appears when a vector is scaled by zero:
 
-$$
-0\mathbf{v}=\mathbf{0}.
-$$
+$$ 0\mathbf{v}=\mathbf{0}. $$
 
 Do not confuse the scalar $0$ with the vector $\mathbf{0}$.
 
@@ -325,17 +203,11 @@ They are related, but they are different kinds of mathematical objects.
 
 For every vector $\mathbf{v}$,
 
-$$
--\mathbf{v}
-=
-(-1)\mathbf{v}.
-$$
+$$ -\mathbf{v} = (-1)\mathbf{v}. $$
 
 Then
 
-$$
-\mathbf{v}+(-\mathbf{v})=\mathbf{0}.
-$$
+$$ \mathbf{v}+(-\mathbf{v})=\mathbf{0}. $$
 
 Geometrically, $-\mathbf{v}$ has the same length as $\mathbf{v}$ and points in the opposite direction.
 
@@ -351,41 +223,15 @@ In coordinates, the rules are mechanical.
 
 For
 
-```math
-\mathbf{u}=
-\begin{bmatrix}
-u_1\\
-u_2
-\end{bmatrix},
-\qquad
-\mathbf{v}=
-\begin{bmatrix}
-v_1\\
-v_2
-\end{bmatrix},
-```
+$$ \mathbf{u}= \begin{bmatrix} u_1\\ u_2 \end{bmatrix}, \qquad \mathbf{v}= \begin{bmatrix} v_1\\ v_2 \end{bmatrix}, $$
 
 addition is
 
-```math
-\mathbf{u}+\mathbf{v}
-=
-\begin{bmatrix}
-u_1+v_1\\
-u_2+v_2
-\end{bmatrix},
-```
+$$ \mathbf{u}+\mathbf{v} = \begin{bmatrix} u_1+v_1\\ u_2+v_2 \end{bmatrix}, $$
 
 and scalar multiplication is
 
-```math
-a\mathbf{v}
-=
-\begin{bmatrix}
-av_1\\
-av_2
-\end{bmatrix}.
-```
+$$ a\mathbf{v} = \begin{bmatrix} av_1\\ av_2 \end{bmatrix}. $$
 
 Each coordinate position is treated consistently.
 
@@ -416,15 +262,17 @@ flowchart LR
     O -.->|"u + v"| B
 ```
 
+A flow diagram is useful for the sequence, but the geometry is easier to see in an actual vector construction:
+
+![Parallelogram and head-to-tail construction for the sum of vectors a and b](https://upload.wikimedia.org/wikipedia/commons/2/28/Vector_addition.svg)
+
+*Visual anchor — the diagonal represents the same resultant obtained by placing one vector head-to-tail with the other. Source: [Wikimedia Commons — Vector addition.svg](https://commons.wikimedia.org/wiki/File:Vector_addition.svg), Benjamin D. Esham; public-domain figure. Registry: `LA-REF-015`.*
+
 The geometry explains why addition naturally models sequential displacement.
 
 It also explains why the order does not matter for ordinary vectors:
 
-$$
-\mathbf{u}+\mathbf{v}
-=
-\mathbf{v}+\mathbf{u}.
-$$
+$$ \mathbf{u}+\mathbf{v} = \mathbf{v}+\mathbf{u}. $$
 
 The two head-to-tail paths form opposite sides of a parallelogram and reach the same final point.
 
@@ -441,9 +289,7 @@ For a nonzero vector $\mathbf{v}$:
 
 So
 
-$$
--3\mathbf{v}
-$$
+$$ -3\mathbf{v} $$
 
 means three times the magnitude of $\mathbf{v}$ in the opposite direction.
 
@@ -457,47 +303,23 @@ Vector addition and scalar multiplication obey patterns that resemble ordinary n
 
 For compatible vectors $\mathbf{u},\mathbf{v},\mathbf{w}$ and scalars $a,b$:
 
-$$
-\mathbf{u}+\mathbf{v}
-=
-\mathbf{v}+\mathbf{u},
-$$
+$$ \mathbf{u}+\mathbf{v} = \mathbf{v}+\mathbf{u}, $$
 
-$$
-(\mathbf{u}+\mathbf{v})+\mathbf{w}
-=
-\mathbf{u}+(\mathbf{v}+\mathbf{w}),
-$$
+$$ (\mathbf{u}+\mathbf{v})+\mathbf{w} = \mathbf{u}+(\mathbf{v}+\mathbf{w}), $$
 
-$$
-\mathbf{v}+\mathbf{0}=\mathbf{v},
-$$
+$$ \mathbf{v}+\mathbf{0}=\mathbf{v}, $$
 
-$$
-\mathbf{v}+(-\mathbf{v})=\mathbf{0},
-$$
+$$ \mathbf{v}+(-\mathbf{v})=\mathbf{0}, $$
 
-$$
-a(\mathbf{u}+\mathbf{v})
-=
-a\mathbf{u}+a\mathbf{v},
-$$
+$$ a(\mathbf{u}+\mathbf{v}) = a\mathbf{u}+a\mathbf{v}, $$
 
-$$
-(a+b)\mathbf{v}
-=
-a\mathbf{v}+b\mathbf{v},
-$$
+$$ (a+b)\mathbf{v} = a\mathbf{v}+b\mathbf{v}, $$
 
-$$
-a(b\mathbf{v})=(ab)\mathbf{v},
-$$
+$$ a(b\mathbf{v})=(ab)\mathbf{v}, $$
 
 and
 
-$$
-1\mathbf{v}=\mathbf{v}.
-$$
+$$ 1\mathbf{v}=\mathbf{v}. $$
 
 At this stage, do not memorize this as a disconnected list.
 
@@ -505,45 +327,11 @@ Instead, test one law coordinate-wise.
 
 Let
 
-```math
-\mathbf{u}=
-\begin{bmatrix}
-u_1\\
-u_2
-\end{bmatrix},
-\qquad
-\mathbf{v}=
-\begin{bmatrix}
-v_1\\
-v_2
-\end{bmatrix}.
-```
+$$ \mathbf{u}= \begin{bmatrix} u_1\\ u_2 \end{bmatrix}, \qquad \mathbf{v}= \begin{bmatrix} v_1\\ v_2 \end{bmatrix}. $$
 
 Then ordinary distributivity of real numbers can be shown without breaking the derivation across two display blocks:
 
-```math
-\begin{aligned}
-a(\mathbf{u}+\mathbf{v})
-&=
-a
-\begin{bmatrix}
-u_1+v_1\\
-u_2+v_2
-\end{bmatrix}\\
-&=
-\begin{bmatrix}
-a(u_1+v_1)\\
-a(u_2+v_2)
-\end{bmatrix}\\
-&=
-\begin{bmatrix}
-au_1+av_1\\
-au_2+av_2
-\end{bmatrix}\\
-&=
-a\mathbf{u}+a\mathbf{v}.
-\end{aligned}
-```
+$$ \begin{aligned} a(\mathbf{u}+\mathbf{v}) &= a \begin{bmatrix} u_1+v_1\\ u_2+v_2 \end{bmatrix}\\ &= \begin{bmatrix} a(u_1+v_1)\\ a(u_2+v_2) \end{bmatrix}\\ &= \begin{bmatrix} au_1+av_1\\ au_2+av_2 \end{bmatrix}\\ &= a\mathbf{u}+a\mathbf{v}. \end{aligned} $$
 
 The vector law inherits its behavior from the coordinate operations.
 
@@ -559,61 +347,23 @@ A small drone makes two movements on a flat map.
 
 First:
 
-```math
-\mathbf{u}
-=
-\begin{bmatrix}
-3\\
-1
-\end{bmatrix}
-```
+$$ \mathbf{u} = \begin{bmatrix} 3\\ 1 \end{bmatrix} $$
 
 meters, where the first coordinate is east-west and the second is north-south.
 
 Then:
 
-```math
-\mathbf{v}
-=
-\begin{bmatrix}
--1\\
-2
-\end{bmatrix}.
-```
+$$ \mathbf{v} = \begin{bmatrix} -1\\ 2 \end{bmatrix}. $$
 
 The total displacement is
 
-```math
-\mathbf{u}+\mathbf{v}
-=
-\begin{bmatrix}
-3+(-1)\\
-1+2
-\end{bmatrix}
-=
-\begin{bmatrix}
-2\\
-3
-\end{bmatrix}.
-```
+$$ \mathbf{u}+\mathbf{v} = \begin{bmatrix} 3+(-1)\\ 1+2 \end{bmatrix} = \begin{bmatrix} 2\\ 3 \end{bmatrix}. $$
 
 So the drone ends two meters east and three meters north of its starting position.
 
 Now reverse the order:
 
-```math
-\mathbf{v}+\mathbf{u}
-=
-\begin{bmatrix}
--1+3\\
-2+1
-\end{bmatrix}
-=
-\begin{bmatrix}
-2\\
-3
-\end{bmatrix}.
-```
+$$ \mathbf{v}+\mathbf{u} = \begin{bmatrix} -1+3\\ 2+1 \end{bmatrix} = \begin{bmatrix} 2\\ 3 \end{bmatrix}. $$
 
 The intermediate location changes, but the net displacement is the same.
 
@@ -623,35 +373,11 @@ That is the geometric meaning of commutativity here.
 
 Start at
 
-```math
-\mathbf{p}
-=
-\begin{bmatrix}
-10\\
-5
-\end{bmatrix}.
-```
+$$ \mathbf{p} = \begin{bmatrix} 10\\ 5 \end{bmatrix}. $$
 
 After both displacements:
 
-```math
-\mathbf{p}+\mathbf{u}+\mathbf{v}
-=
-\begin{bmatrix}
-10\\
-5
-\end{bmatrix}
-+
-\begin{bmatrix}
-2\\
-3
-\end{bmatrix}
-=
-\begin{bmatrix}
-12\\
-8
-\end{bmatrix}.
-```
+$$ \mathbf{p}+\mathbf{u}+\mathbf{v} = \begin{bmatrix} 10\\ 5 \end{bmatrix} + \begin{bmatrix} 2\\ 3 \end{bmatrix} = \begin{bmatrix} 12\\ 8 \end{bmatrix}. $$
 
 Notice the role separation:
 
@@ -666,53 +392,21 @@ The coordinates happen to use the same mathematical container, but the semantics
 
 Suppose a control action changes three measured quantities by
 
-```math
-\Delta\mathbf{x}
-=
-\begin{bmatrix}
-4\\
--2\\
-1
-\end{bmatrix}.
-```
+$$ \Delta\mathbf{x} = \begin{bmatrix} 4\\ -2\\ 1 \end{bmatrix}. $$
 
 Interpret this as a **change vector**, not an absolute state.
 
 Half-strength action:
 
-```math
-\frac12\Delta\mathbf{x}
-=
-\begin{bmatrix}
-2\\
--1\\
-0.5
-\end{bmatrix}.
-```
+$$ \frac12\Delta\mathbf{x} = \begin{bmatrix} 2\\ -1\\ 0.5 \end{bmatrix}. $$
 
 Zero-strength action:
 
-```math
-0\Delta\mathbf{x}
-=
-\begin{bmatrix}
-0\\
-0\\
-0
-\end{bmatrix}.
-```
+$$ 0\Delta\mathbf{x} = \begin{bmatrix} 0\\ 0\\ 0 \end{bmatrix}. $$
 
 Reverse half-strength action:
 
-```math
--\frac12\Delta\mathbf{x}
-=
-\begin{bmatrix}
--2\\
-1\\
--0.5
-\end{bmatrix}.
-```
+$$ -\frac12\Delta\mathbf{x} = \begin{bmatrix} -2\\ 1\\ -0.5 \end{bmatrix}. $$
 
 The last case is easy to misread.
 
@@ -720,11 +414,7 @@ The negative sign does not mean "the vector is bad" or "all coordinates must bec
 
 Now check cancellation:
 
-$$
-\Delta\mathbf{x}+(-\Delta\mathbf{x})
-=
-\mathbf{0}.
-$$
+$$ \Delta\mathbf{x}+(-\Delta\mathbf{x}) = \mathbf{0}. $$
 
 That is why additive inverse is a useful model for reversing a change.
 
@@ -734,32 +424,11 @@ That is why additive inverse is a useful model for reversing a change.
 
 Consider these two vectors:
 
-```math
-\mathbf{a}
-=
-\begin{bmatrix}
-20\\
-50
-\end{bmatrix},
-\qquad
-\mathbf{b}
-=
-\begin{bmatrix}
-3\\
-4
-\end{bmatrix}.
-```
+$$ \mathbf{a} = \begin{bmatrix} 20\\ 50 \end{bmatrix}, \qquad \mathbf{b} = \begin{bmatrix} 3\\ 4 \end{bmatrix}. $$
 
 As bare elements of $\mathbb{R}^2$,
 
-```math
-\mathbf{a}+\mathbf{b}
-=
-\begin{bmatrix}
-23\\
-54
-\end{bmatrix}
-```
+$$ \mathbf{a}+\mathbf{b} = \begin{bmatrix} 23\\ 54 \end{bmatrix} $$
 
 is valid.
 
@@ -785,46 +454,23 @@ Suppose both vectors use the same coordinate names, but one records **absolute s
 
 For example,
 
-```math
-\mathbf{s}
-=
-\begin{bmatrix}
-20\\
-50
-\end{bmatrix}
-```
+$$ \mathbf{s} = \begin{bmatrix} 20\\ 50 \end{bmatrix} $$
 
 might be an absolute state, while
 
-```math
-\Delta\mathbf{s}
-=
-\begin{bmatrix}
-3\\
--4
-\end{bmatrix}
-```
+$$ \Delta\mathbf{s} = \begin{bmatrix} 3\\ -4 \end{bmatrix} $$
 
 is a change in those same quantities.
 
 Then
 
-```math
-\mathbf{s}+\Delta\mathbf{s}
-=
-\begin{bmatrix}
-23\\
-46
-\end{bmatrix}
-```
+$$ \mathbf{s}+\Delta\mathbf{s} = \begin{bmatrix} 23\\ 46 \end{bmatrix} $$
 
 may be meaningful: apply a change to a state.
 
 But
 
-$$
-2\mathbf{s}
-$$
+$$ 2\mathbf{s} $$
 
 may or may not have a sensible physical interpretation, depending on the coordinates. Doubling an absolute Celsius temperature is not the same physical operation as doubling a displacement.
 
@@ -840,43 +486,15 @@ A common beginner error is to treat vector addition as joining lists.
 
 If
 
-```math
-\mathbf{u}
-=
-\begin{bmatrix}
-1\\
-2
-\end{bmatrix},
-\qquad
-\mathbf{v}
-=
-\begin{bmatrix}
-3\\
-4
-\end{bmatrix},
-```
+$$ \mathbf{u} = \begin{bmatrix} 1\\ 2 \end{bmatrix}, \qquad \mathbf{v} = \begin{bmatrix} 3\\ 4 \end{bmatrix}, $$
 
 then
 
-```math
-\mathbf{u}+\mathbf{v}
-=
-\begin{bmatrix}
-4\\
-6
-\end{bmatrix},
-```
+$$ \mathbf{u}+\mathbf{v} = \begin{bmatrix} 4\\ 6 \end{bmatrix}, $$
 
 not
 
-```math
-\begin{bmatrix}
-1\\
-2\\
-3\\
-4
-\end{bmatrix}.
-```
+$$ \begin{bmatrix} 1\\ 2\\ 3\\ 4 \end{bmatrix}. $$
 
 The second object is a four-coordinate vector formed by concatenation. It is a different operation with a different result space.
 
@@ -888,33 +506,11 @@ This distinction matters in programming and machine learning because arrays are 
 
 Another mistake is to scale only one coordinate:
 
-```math
-2
-\begin{bmatrix}
-3\\
-4
-\end{bmatrix}
-\neq
-\begin{bmatrix}
-6\\
-4
-\end{bmatrix}.
-```
+$$ 2 \begin{bmatrix} 3\\ 4 \end{bmatrix} \neq \begin{bmatrix} 6\\ 4 \end{bmatrix}. $$
 
 Correctly,
 
-```math
-2
-\begin{bmatrix}
-3\\
-4
-\end{bmatrix}
-=
-\begin{bmatrix}
-6\\
-8
-\end{bmatrix}.
-```
+$$ 2 \begin{bmatrix} 3\\ 4 \end{bmatrix} = \begin{bmatrix} 6\\ 8 \end{bmatrix}. $$
 
 Scaling one coordinate but not the other changes direction in general.
 
@@ -922,9 +518,7 @@ Scalar multiplication preserves the line through the origin containing the origi
 
 If $\mathbf{v}\neq\mathbf{0}$, all vectors of the form
 
-$$
-a\mathbf{v}
-$$
+$$ a\mathbf{v} $$
 
 lie on that line.
 
@@ -936,29 +530,21 @@ This simple observation becomes the first geometric glimpse of span.
 
 Suppose
 
-$$
-\mathbf{u}\in\mathbb{R}^n
-$$
+$$ \mathbf{u}\in\mathbb{R}^n $$
 
 and
 
-$$
-\mathbf{v}\in\mathbb{R}^m.
-$$
+$$ \mathbf{v}\in\mathbb{R}^m. $$
 
 For ordinary vector addition, you need
 
-$$
-n=m.
-$$
+$$ n=m. $$
 
 Why?
 
 Because addition pairs coordinates:
 
-$$
-u_i+v_i.
-$$
+$$ u_i+v_i. $$
 
 If one vector has no $i$th coordinate where the other does, the rule has no partner to use.
 
@@ -1000,25 +586,11 @@ No.
 
 If
 
-```math
-\mathbf{v}
-=
-\begin{bmatrix}
--2\\
-5
-\end{bmatrix},
-```
+$$ \mathbf{v} = \begin{bmatrix} -2\\ 5 \end{bmatrix}, $$
 
 then
 
-```math
--3\mathbf{v}
-=
-\begin{bmatrix}
-6\\
--15
-\end{bmatrix}.
-```
+$$ -3\mathbf{v} = \begin{bmatrix} 6\\ -15 \end{bmatrix}. $$
 
 The important invariant is direction reversal and magnitude scaling by $3$, not "negative-looking coordinates."
 
@@ -1028,9 +600,7 @@ The important invariant is direction reversal and magnitude scaling by $3$, not 
 
 The result of scalar multiplication must be a vector:
 
-$$
-0\mathbf{v}=\mathbf{0}.
-$$
+$$ 0\mathbf{v}=\mathbf{0}. $$
 
 Its type is the same vector type as $\mathbf{v}$, even though every coordinate is zero.
 
@@ -1064,9 +634,7 @@ But now the phrase can stop being mysterious.
 
 If $\mathbf{u}$ and $\mathbf{v}$ are vectors and $a,b$ are scalars, then
 
-$$
-a\mathbf{u}+b\mathbf{v}
-$$
+$$ a\mathbf{u}+b\mathbf{v} $$
 
 uses exactly the two operations from this lesson:
 
@@ -1075,24 +643,7 @@ uses exactly the two operations from this lesson:
 
 For example,
 
-```math
-2
-\begin{bmatrix}
-1\\
-0
-\end{bmatrix}
-+
-3
-\begin{bmatrix}
-0\\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
-2\\
-3
-\end{bmatrix}.
-```
+$$ 2 \begin{bmatrix} 1\\ 0 \end{bmatrix} + 3 \begin{bmatrix} 0\\ 1 \end{bmatrix} = \begin{bmatrix} 2\\ 3 \end{bmatrix}. $$
 
 Nothing new has happened operationally.
 
@@ -1110,23 +661,7 @@ Do these without looking back at the worked examples.
 
 Let
 
-```math
-\mathbf{u}
-=
-\begin{bmatrix}
--2\\
-5\\
-1
-\end{bmatrix},
-\qquad
-\mathbf{v}
-=
-\begin{bmatrix}
-4\\
--1\\
-3
-\end{bmatrix}.
-```
+$$ \mathbf{u} = \begin{bmatrix} -2\\ 5\\ 1 \end{bmatrix}, \qquad \mathbf{v} = \begin{bmatrix} 4\\ -1\\ 3 \end{bmatrix}. $$
 
 Compute:
 
@@ -1143,14 +678,7 @@ Then explain each result in words as if the vectors represented changes to a thr
 
 Let
 
-```math
-\mathbf{v}
-=
-\begin{bmatrix}
-3\\
--4
-\end{bmatrix}.
-```
+$$ \mathbf{v} = \begin{bmatrix} 3\\ -4 \end{bmatrix}. $$
 
 Without calculating coordinates first, predict the geometric relationship between $\mathbf{v}$ and:
 
@@ -1167,24 +695,7 @@ Then calculate and check your predictions.
 
 A student writes
 
-```math
-\begin{bmatrix}
-1\\
-2
-\end{bmatrix}
-+
-\begin{bmatrix}
-3\\
-4\\
-5
-\end{bmatrix}
-=
-\begin{bmatrix}
-4\\
-6\\
-5
-\end{bmatrix}.
-```
+$$ \begin{bmatrix} 1\\ 2 \end{bmatrix} + \begin{bmatrix} 3\\ 4\\ 5 \end{bmatrix} = \begin{bmatrix} 4\\ 6\\ 5 \end{bmatrix}. $$
 
 Explain exactly why this is not ordinary vector addition.
 
@@ -1198,15 +709,11 @@ Choose your own nontrivial vectors $\mathbf{u},\mathbf{v}\in\mathbb{R}^2$ and sc
 
 Calculate both sides:
 
-$$
-a(\mathbf{u}+\mathbf{v})
-$$
+$$ a(\mathbf{u}+\mathbf{v}) $$
 
 and
 
-$$
-a\mathbf{u}+a\mathbf{v}.
-$$
+$$ a\mathbf{u}+a\mathbf{v}. $$
 
 Then explain why matching in one numerical example is evidence but not a proof for all vectors.
 
@@ -1230,33 +737,15 @@ Possible categories include units, coordinate order, frames, timestamps, normali
 
 Suppose
 
-```math
-\mathbf{u}
-=
-\begin{bmatrix}
-2\\
--3\\
-5
-\end{bmatrix}
-```
+$$ \mathbf{u} = \begin{bmatrix} 2\\ -3\\ 5 \end{bmatrix} $$
 
 and
 
-```math
-\mathbf{w}
-=
-\begin{bmatrix}
--6\\
-9\\
--15
-\end{bmatrix}.
-```
+$$ \mathbf{w} = \begin{bmatrix} -6\\ 9\\ -15 \end{bmatrix}. $$
 
 Find a scalar $a$ such that
 
-$$
-\mathbf{w}=a\mathbf{u}.
-$$
+$$ \mathbf{w}=a\mathbf{u}. $$
 
 Then explain how you can check that one scalar works for **every** coordinate.
 
@@ -1301,9 +790,7 @@ The arithmetic does not inspect your units or semantics for you.
 
 The next core node, **LA-N-0005 — Linear combinations and weighted mixtures**, takes expressions such as
 
-$$
-a_1\mathbf{v}_1+\cdots+a_k\mathbf{v}_k
-$$
+$$ a_1\mathbf{v}_1+\cdots+a_k\mathbf{v}_k $$
 
 and studies what they can represent.
 
@@ -1333,19 +820,11 @@ If these operations are already structural objects, matrix-vector multiplication
 
 A transformation is linear precisely when it respects these operations:
 
-$$
-T(\mathbf{u}+\mathbf{v})
-=
-T(\mathbf{u})+T(\mathbf{v})
-$$
+$$ T(\mathbf{u}+\mathbf{v}) = T(\mathbf{u})+T(\mathbf{v}) $$
 
 and
 
-$$
-T(a\mathbf{v})
-=
-aT(\mathbf{v}).
-$$
+$$ T(a\mathbf{v}) = aT(\mathbf{v}). $$
 
 So the operations introduced here become the test for linearity later.
 

@@ -156,6 +156,17 @@
       "review_after": "2027-02-19",
       "version": "2025 overview",
       "notes": "Recent overview of randomized/sketched linear algebra directions in scientific computing; used only for frontier orientation, not as a substitute for primary literature."
+    },
+    {
+      "id": "LA-REF-015",
+      "title": "Vector addition.svg",
+      "type": "other",
+      "authority": "Wikimedia Commons / Benjamin D. Esham",
+      "locator": "https://commons.wikimedia.org/wiki/File:Vector_addition.svg",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": null,
+      "notes": "Public-domain visual reference embedded in LA-0004 to show head-to-tail/parallelogram vector addition. Direct media: https://upload.wikimedia.org/wikipedia/commons/2/28/Vector_addition.svg"
     }
   ]
 }

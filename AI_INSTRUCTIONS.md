@@ -71,7 +71,8 @@ If any of these are unknown, resolve them before drafting.
 - Verify research-frontier claims against current primary literature.
 - Write like a careful human technical author, not a chatbot transcript.
 - Prefer interactive prediction, reveal/check blocks, small experiments, diagrams, and visual models when they materially improve understanding; do not add visual clutter merely to decorate a page.
-- Render mathematics using the GitHub-safe house style in `docs/MATH_RENDERING.md`: `$...$` for inline math, `$$...$$` for ordinary display math, and fenced `math` blocks for long/multiline expressions. Never use backslash-parenthesis or backslash-bracket math delimiters in repository Markdown.
+- When physical appearance or spatial form is part of understanding (for example hardware, machinery, a laboratory apparatus, a mechanical component, or a geometric construction), consider one verified static visual anchor. Embed it when a stable, correctly licensed source is available; cite the exact source page, author/organization, and license nearby; register lesson-critical figures in the track reference registry. If reliable embedding is impossible, give a precise Visual lookup instruction instead. Never use a merely plausible image without verifying that it depicts the described object.
+- Render mathematics using the stricter GitHub-safe house style in `docs/MATH_RENDERING.md`: `$...$` for inline math and one physical source line `$$ ... $$` for lesson display math by default. Preserve matrix/alignment LaTeX inside that line, never leave a bare relation/operator on its own Markdown line, and verify math in the actual GitHub Preview rather than trusting delimiter scans alone.
 - All repository filenames, structural documentation, and educational prose are written in English. Target-language examples (for example German sentences) remain in the target language, with English explanation where needed.
 
 ## 5. After changing content or canonical state

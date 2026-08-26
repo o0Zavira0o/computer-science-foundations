@@ -18,3 +18,4 @@
 | `LA-REF-012` | Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions | survey-review | N. Halko, P.-G. Martinsson, J. A. Tropp / SIAM Review | 2026-08-19 | — |
 | `LA-REF-013` | Tensor Decompositions and Applications | survey-review | Tamara G. Kolda and Brett W. Bader / SIAM Review | 2026-08-19 | — |
 | `LA-REF-014` | Randomized Linear Algebra in Scientific Computing | survey-review | Arvind K. Saibaba / SIAM News | 2026-08-19 | 2027-02-19 |
+| `LA-REF-015` | Vector addition.svg | other | Wikimedia Commons / Benjamin D. Esham | 2026-08-26 | — |

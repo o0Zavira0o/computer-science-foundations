@@ -456,30 +456,39 @@ Assume that many readers will arrive from search, a direct link, or a random bro
 
 ### Visual and interactive material
 
-Use visuals because they compress structure, not because every page needs artwork. Prefer, in order:
+Use visuals because they resolve a real explanatory bottleneck, not because every page needs artwork. Match the visual to the job:
 
-1. a small equation/table when that is clearest;
-2. a text-native Mermaid diagram for relationships, flows, state transitions, and dependency structure;
-3. a carefully chosen static figure when geometry or spatial intuition genuinely benefits from it.
+1. use an equation or compact table when symbolic/comparative structure is clearest there;
+2. use Mermaid for relationships, flows, state transitions, dependency structure, and system boundaries;
+3. use a carefully chosen static image when the learner needs to know **what a physical object, component, apparatus, geometry, interface, or spatial construction actually looks like**.
+
+Static images are selective teaching evidence, not decoration. Before embedding one:
+- verify that the pictured object or geometry is actually the thing described in the surrounding prose;
+- prefer an authoritative primary source or a traceable open-license repository such as Wikimedia Commons;
+- use a stable direct-media URL for the embedded image and place the exact source-page URL, author/organization, and license in the nearby caption;
+- register a lesson-critical external figure in the track reference registry and include its reference ID in lesson metadata;
+- do not substitute a generic stock image when a precise technical figure is required;
+- do not add several images where one accurate visual anchor is enough.
+
+If a correct figure is genuinely necessary but cannot be embedded reliably, include an explicit **Visual lookup** instruction with an exact source page or a precise search phrase and tell the learner what feature to inspect. Embedding the verified figure is preferred when licensing and link stability allow it.
 
 Interactive Markdown patterns such as `<details>` may reveal hints, checks, counterexamples, or optional derivations after the reader has had a chance to predict. Core prerequisites and essential explanations must remain visible without interaction.
 
-A page can be excellent with no diagram. A page with five decorative diagrams can be worse than one precise figure.
-
+A page can be excellent with no static image. A page with many decorative images can be worse than one precise, correctly sourced visual anchor.
 ### Mathematical notation and GitHub rendering
 
 Mathematical notation is part of the teaching interface, not merely source text. Repository Markdown must use GitHub-supported math delimiters so formulas render rather than leak LaTeX syntax into the page.
 
 House style:
-
 - inline mathematics: `$...$`;
-- ordinary standalone equations: `$$...$$`, with blank lines around the block;
-- long, multiline, alignment-heavy, or source-sensitive expressions: fenced `math` blocks;
+- lesson display mathematics: one physical source line using `$$ ... $$`, with blank lines around it;
+- matrices and aligned derivations keep their LaTeX structure inside that single display line (`bmatrix`, `aligned`, and `\\` remain valid LaTeX);
+- fenced `math` is an exception only when the expression has been manually verified in the actual GitHub Preview;
+- never leave a bare relation/operator such as `=`, `-`, `+`, `\neq`, or `\rightarrow` on its own physical Markdown line inside display math;
 - backslash-parenthesis and backslash-bracket math delimiters are not used in repository Markdown;
 - ordinary code fences are reserved for literal code/commands, not mathematical display.
 
-New notation must still be explained in prose. Rendering an expression beautifully does not make it pedagogically self-explanatory. For examples, edge cases, tables, and detailed compatibility guidance, see [`MATH_RENDERING.md`](MATH_RENDERING.md).
-
+A delimiter/source scan is necessary but not sufficient. Before publishing math-heavy content, visually inspect the rendered lesson in GitHub Preview (or the pushed branch before merging) and verify equations, matrices, aligned derivations, subscripts, superscripts, fractions, and symbols. New notation must still be explained in prose. Rendering an expression beautifully does not make it pedagogically self-explanatory. For examples, edge cases, tables, and detailed compatibility guidance, see [`MATH_RENDERING.md`](MATH_RENDERING.md).
 ## 13. Anatomy of a strong lesson
 
 Not every lesson needs identical headings, but a substantial lesson should accomplish this arc.
