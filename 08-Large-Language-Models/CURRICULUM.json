@@ -86,7 +86,7 @@
       "id": "LLM-N-0004",
       "title": "Logits, softmax, and categorical prediction",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LLM-N-0003"
       ],
@@ -101,7 +101,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LLM-0004"
     },
     {
       "id": "LLM-N-0005",

@@ -23,3 +23,6 @@
 | `LLM-REF-017` | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | technical-report | DeepSeek-AI | 2026-08-19 | — |
 | `LLM-REF-018` | vLLM Documentation | official-documentation | vLLM Project | 2026-08-19 | 2027-02-19 |
 | `LLM-REF-019` | Probability Theory Review — Stanford CS229 | university-course | Stanford University / CS229 | 2026-08-19 | — |
+| `LLM-REF-020` | Dive into Deep Learning, 4.1 Softmax Regression | textbook | Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola | 2026-08-26 | — |
+| `LLM-REF-021` | torch.nn.Softmax | official-documentation | PyTorch | 2026-08-26 | 2027-02-26 |
+| `LLM-REF-022` | torch.distributions.Categorical | official-documentation | PyTorch | 2026-08-26 | 2027-02-26 |

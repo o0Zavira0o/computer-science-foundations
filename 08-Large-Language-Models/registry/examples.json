@@ -65,6 +65,41 @@
       "domain": "predictive uncertainty interpretation",
       "first_lesson": "LLM-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-010",
+      "signature": "Apply softmax to logits [2, 1, 0] and obtain approximately [0.665, 0.245, 0.090]",
+      "domain": "softmax normalization",
+      "first_lesson": "LLM-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-011",
+      "signature": "Compare logits [2,1,0] and [102,101,100] to demonstrate softmax shift invariance",
+      "domain": "logit invariance",
+      "first_lesson": "LLM-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-012",
+      "signature": "Equal logits [5,5,5] produce a uniform categorical distribution",
+      "domain": "categorical prediction",
+      "first_lesson": "LLM-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-013",
+      "signature": "Use logits [log 3, 0] to reconstruct a 3-to-1 empirical probability ratio from counts",
+      "domain": "counts-to-logits bridge",
+      "first_lesson": "LLM-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-014",
+      "signature": "Contrast argmax with categorical sampling for probabilities [0.70, 0.20, 0.10]",
+      "domain": "prediction versus sampling",
+      "first_lesson": "LLM-0004",
+      "reuse_purpose": null
     }
   ]
 }

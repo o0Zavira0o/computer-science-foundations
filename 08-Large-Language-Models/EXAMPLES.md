@@ -13,3 +13,8 @@
 | `LLM-EX-007` | Convert next-token counts 3/1/1 into a normalized empirical distribution and verify nonnegative mass sums to one | probability normalization from counts | LLM-0003 | — |
 | `LLM-EX-008` | Estimate `P(cat \| the)` and `P(cat \| a)` from separate context-conditioned count tables to show why conditioning changes the denominator | conditional next-token probability | LLM-0003 | — |
 | `LLM-EX-009` | Compare predictive distributions with the same argmax but different concentration and separate next-token probability from whole-answer factual confidence | predictive uncertainty interpretation | LLM-0003 | — |
+| `LLM-EX-010` | Apply softmax to logits [2, 1, 0] and obtain approximately [0.665, 0.245, 0.090] | softmax normalization | LLM-0004 | — |
+| `LLM-EX-011` | Compare logits [2,1,0] and [102,101,100] to demonstrate softmax shift invariance | logit invariance | LLM-0004 | — |
+| `LLM-EX-012` | Equal logits [5,5,5] produce a uniform categorical distribution | categorical prediction | LLM-0004 | — |
+| `LLM-EX-013` | Use logits [log 3, 0] to reconstruct a 3-to-1 empirical probability ratio from counts | counts-to-logits bridge | LLM-0004 | — |
+| `LLM-EX-014` | Contrast argmax with categorical sampling for probabilities [0.70, 0.20, 0.10] | prediction versus sampling | LLM-0004 | — |

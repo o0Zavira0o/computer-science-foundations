@@ -15,3 +15,5 @@
 | `PWR-REF-009` | Ampere: Introduction | official-documentation | National Institute of Standards and Technology | 2026-08-26 | — |
 | `PWR-REF-010` | University Physics Volume 2, 10.3 Kirchhoff's Rules | textbook | OpenStax | 2026-08-26 | — |
 | `PWR-REF-011` | Resistive circuit analysis. Kirchhoff's Laws | university-course | MIT OpenCourseWare, 6.071J / 22.071J Introduction to Electronics, Signals, and Measurement | 2026-08-26 | — |
+| `PWR-REF-012` | Dynamics and Control II, Lecture 16: Passive Sign Convention | university-course | MIT OpenCourseWare | 2026-08-26 | — |
+| `PWR-REF-013` | Introduction to Electric Power Systems, Chapter 2 | university-course | James L. Kirtley Jr. / MIT OpenCourseWare | 2026-08-26 | — |

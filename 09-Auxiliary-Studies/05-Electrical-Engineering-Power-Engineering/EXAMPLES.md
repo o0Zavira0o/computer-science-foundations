@@ -16,3 +16,8 @@
 | `PWR-EX-010` | A 12 V source with 2 ohm and 4 ohm series resistors gives 2 A and 4 V plus 8 V drops | KVL and series resistance | PWR-0003 | — |
 | `PWR-EX-011` | A 12 V source across 6 ohm and 3 ohm parallel branches gives 2 A, 4 A, and 6 A source current | parallel resistance and KCL | PWR-0003 | — |
 | `PWR-EX-012` | Check the same parallel network by matching 72 W source power magnitude to 24 W plus 48 W loads | DC circuit power consistency | PWR-0003 | — |
+| `PWR-EX-013` | A branch current defined in one direction solves to -1.5 A, so the physical current is 1.5 A opposite | reference current direction | PWR-0004 | — |
+| `PWR-EX-014` | Under passive sign convention, 12 V and 3 A entering the positive terminal gives +36 W absorbed | passive sign convention | PWR-0004 | — |
+| `PWR-EX-015` | Under passive sign convention, 12 V with 2 A leaving the positive terminal gives -24 W and 24 W delivered | delivered power | PWR-0004 | — |
+| `PWR-EX-016` | Reverse both voltage polarity and current reference and show that the physical signed power is unchanged | reference transformation | PWR-0004 | — |
+| `PWR-EX-017` | Check -100 W + 60 W + 40 W = 0 to verify network power conservation and sign consistency | power balance | PWR-0004 | — |

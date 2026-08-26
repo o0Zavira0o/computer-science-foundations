@@ -86,6 +86,41 @@
       "domain": "DC circuit power consistency",
       "first_lesson": "PWR-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-013",
+      "signature": "A branch current defined in one direction solves to -1.5 A, so the physical current is 1.5 A opposite",
+      "domain": "reference current direction",
+      "first_lesson": "PWR-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-014",
+      "signature": "Under passive sign convention, 12 V and 3 A entering the positive terminal gives +36 W absorbed",
+      "domain": "passive sign convention",
+      "first_lesson": "PWR-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-015",
+      "signature": "Under passive sign convention, 12 V with 2 A leaving the positive terminal gives -24 W and 24 W delivered",
+      "domain": "delivered power",
+      "first_lesson": "PWR-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-016",
+      "signature": "Reverse both voltage polarity and current reference and show that the physical signed power is unchanged",
+      "domain": "reference transformation",
+      "first_lesson": "PWR-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PWR-EX-017",
+      "signature": "Check -100 W + 60 W + 40 W = 0 to verify network power conservation and sign consistency",
+      "domain": "power balance",
+      "first_lesson": "PWR-0004",
+      "reuse_purpose": null
     }
   ]
 }

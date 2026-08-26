@@ -7,3 +7,4 @@
 | [`PWR-0001`](lessons/PWR-0001-what-electrical-power-engineering-is-actually-studying.md) | What electrical power engineering is actually studying | L0 | complete | `PWR-N-0001` | 2026-08-26 |
 | [`PWR-0002`](lessons/PWR-0002-charge-current-voltage-energy-and-power.md) | Charge, current, voltage, energy, and power | L0 | complete | `PWR-N-0002` | 2026-08-26 |
 | [`PWR-0003`](lessons/PWR-0003-dc-circuits-sources-loads-resistance-kcl-and-kvl.md) | DC circuits: sources, loads, resistance, KCL, and KVL | L0 | complete | `PWR-N-0003` | 2026-08-26 |
+| [`PWR-0004`](lessons/PWR-0004-reference-directions-signs-and-passive-versus-active-power.md) | Reference directions, signs, and passive-versus-active power | L0 | complete | `PWR-N-0004` | 2026-08-26 |

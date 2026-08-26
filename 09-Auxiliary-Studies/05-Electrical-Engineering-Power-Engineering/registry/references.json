@@ -123,6 +123,28 @@
       "review_after": null,
       "version": "Spring 2006",
       "notes": "MIT course reference for resistive circuit analysis, Kirchhoff laws, and series/parallel network consequences."
+    },
+    {
+      "id": "PWR-REF-012",
+      "title": "Dynamics and Control II, Lecture 16: Passive Sign Convention",
+      "type": "university-course",
+      "authority": "MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008/3a9085636e84afa8f9f5010bdb313b5d_lecture_16.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Spring 2008",
+      "notes": "MIT lecture reference for voltage/current reference directions, passive sign convention, and the interpretation of positive and negative element power."
+    },
+    {
+      "id": "PWR-REF-013",
+      "title": "Introduction to Electric Power Systems, Chapter 2",
+      "type": "university-course",
+      "authority": "James L. Kirtley Jr. / MIT OpenCourseWare",
+      "locator": "https://ocw.mit.edu/courses/6-061-introduction-to-electric-power-systems-spring-2011/9cf8de165233601f547b284cee5c2131_MIT6_061S11_ch2.pdf",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "MIT 6.061 Spring 2011",
+      "notes": "Power-systems textbook chapter used for voltage, current, power, energy, and passive-element power bookkeeping."
     }
   ]
 }

@@ -211,6 +211,39 @@
       "review_after": null,
       "version": "course review notes",
       "notes": "Probability foundations reference for events, conditional probability, distributions, and normalization used before neural language-model mechanics."
+    },
+    {
+      "id": "LLM-REF-020",
+      "title": "Dive into Deep Learning, 4.1 Softmax Regression",
+      "type": "textbook",
+      "authority": "Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola",
+      "locator": "https://d2l.ai/chapter_linear-classification/softmax-regression.html",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Dive into Deep Learning 1.0.3",
+      "notes": "Open textbook treatment of multiclass scores, softmax normalization, probability constraints, and the fact that softmax preserves score ordering."
+    },
+    {
+      "id": "LLM-REF-021",
+      "title": "torch.nn.Softmax",
+      "type": "official-documentation",
+      "authority": "PyTorch",
+      "locator": "https://docs.pytorch.org/docs/stable/generated/torch.nn.Softmax.html",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "stable documentation",
+      "notes": "Official implementation reference for softmax as exponentiation plus normalization to values in [0,1] that sum to one along a chosen dimension."
+    },
+    {
+      "id": "LLM-REF-022",
+      "title": "torch.distributions.Categorical",
+      "type": "official-documentation",
+      "authority": "PyTorch",
+      "locator": "https://docs.pytorch.org/docs/stable/distributions.html#categorical",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "stable documentation",
+      "notes": "Official categorical-distribution reference showing parameterization by probabilities or logits and normalization across discrete categories."
     }
   ]
 }

@@ -9,8 +9,8 @@ This Auxiliary Studies track starts from zero subject-specific knowledge and bui
 ## Publication frontier
 
 - Start: [`PWR-0001 — What electrical power engineering is actually studying`](lessons/PWR-0001-what-electrical-power-engineering-is-actually-studying.md)
-- Published through: [`PWR-0003 — DC circuits: sources, loads, resistance, KCL, and KVL`](lessons/PWR-0003-dc-circuits-sources-loads-resistance-kcl-and-kvl.md)
-- Next canonical lesson: `PWR-N-0004 — Reference directions, signs, and passive-versus-active power`
+- Published through: [`PWR-0004 — Reference directions, signs, and passive-versus-active power`](lessons/PWR-0004-reference-directions-signs-and-passive-versus-active-power.md)
+- Next canonical lesson: `PWR-N-0005 — Sinusoids, frequency, phase, and the AC waveform`
 
 Publication state is not learner mastery.
 

@@ -15,7 +15,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `PWR-N-0001` | What electrical power engineering is actually studying | published | — | PWR-0001 |
 | `PWR-N-0002` | Charge, current, voltage, energy, and power | published | PWR-N-0001 | PWR-0002 |
 | `PWR-N-0003` | DC circuits: sources, loads, resistance, KCL, and KVL | published | PWR-N-0002 | PWR-0003 |
-| `PWR-N-0004` | Reference directions, signs, and passive-versus-active power | planned | PWR-N-0003 | — |
+| `PWR-N-0004` | Reference directions, signs, and passive-versus-active power | published | PWR-N-0003 | PWR-0004 |
 | `PWR-N-0005` | Sinusoids, frequency, phase, and the AC waveform | planned | PWR-N-0004 | — |
 | `PWR-N-0006` | RMS values and why AC ratings use them | planned | PWR-N-0005 | — |
 | `PWR-N-0007` | Complex numbers and phasors as AC bookkeeping tools | planned | PWR-N-0006 | — |

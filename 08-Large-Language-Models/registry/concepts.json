@@ -28,7 +28,7 @@
       "id": "LLM-C-0004",
       "name": "Logits, softmax, and categorical prediction",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Primary durable concept for LLM-N-0004."
     },
     {
