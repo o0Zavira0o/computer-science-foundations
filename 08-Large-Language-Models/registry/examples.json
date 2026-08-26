@@ -100,6 +100,41 @@
       "domain": "prediction versus sampling",
       "first_lesson": "LLM-0004",
       "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-015",
+      "signature": "Compute [2,-1,3] dot [4,0,1] = 11 by multiplying corresponding coordinates and summing",
+      "domain": "vector dot product",
+      "first_lesson": "LLM-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-016",
+      "signature": "Use x=[1,2,-1], w=[2,0.5,-3], and b=-1 to obtain a linear score of 5",
+      "domain": "weighted linear scoring",
+      "first_lesson": "LLM-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-017",
+      "signature": "Show [1,1] dot [1,-1] = 0 while separating geometric orthogonality from semantic interpretation",
+      "domain": "vector geometry",
+      "first_lesson": "LLM-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-018",
+      "signature": "Compare dot product and cosine behavior for q=[1,0], a=[2,0], and b=[1,1]",
+      "domain": "similarity measures",
+      "first_lesson": "LLM-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LLM-EX-019",
+      "signature": "Turn context vector h=[2,1] and two candidate vectors plus biases into logits [2,1.5]",
+      "domain": "dot-product logits",
+      "first_lesson": "LLM-0005",
+      "reuse_purpose": null
     }
   ]
 }

@@ -107,7 +107,7 @@
       "id": "LLM-N-0005",
       "title": "Vectors and dot products as similarity and scoring",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LLM-N-0004"
       ],
@@ -122,7 +122,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LLM-0005"
     },
     {
       "id": "LLM-N-0006",

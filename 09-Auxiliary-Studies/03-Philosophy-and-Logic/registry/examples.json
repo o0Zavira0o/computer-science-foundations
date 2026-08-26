@@ -65,6 +65,41 @@
       "domain": "inferential role and intermediate structure",
       "first_lesson": "PHL-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-010",
+      "signature": "Classify the square-rectangle-four-sides argument as true-premised, valid, and therefore sound",
+      "domain": "truth validity and soundness",
+      "first_lesson": "PHL-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-011",
+      "signature": "Use the all-planets-are-glass argument to show that a deductive argument can be valid but unsound",
+      "domain": "validity with false premises",
+      "first_lesson": "PHL-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-012",
+      "signature": "Use unrelated true premises and a true conclusion to show that truth does not guarantee validity",
+      "domain": "truth versus inferential support",
+      "first_lesson": "PHL-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-013",
+      "signature": "Use false premises with a true conclusion in a valid syllogistic pattern to separate validity from soundness",
+      "domain": "valid but unsound argument",
+      "first_lesson": "PHL-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "PHL-EX-014",
+      "signature": "Use 6 being even but not divisible by 4 as a true-premises false-conclusion countercase to demonstrate invalidity",
+      "domain": "countercase to deductive validity",
+      "first_lesson": "PHL-0004",
+      "reuse_purpose": null
     }
   ]
 }

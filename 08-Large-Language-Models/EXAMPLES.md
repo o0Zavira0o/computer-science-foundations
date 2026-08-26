@@ -18,3 +18,8 @@
 | `LLM-EX-012` | Equal logits [5,5,5] produce a uniform categorical distribution | categorical prediction | LLM-0004 | — |
 | `LLM-EX-013` | Use logits [log 3, 0] to reconstruct a 3-to-1 empirical probability ratio from counts | counts-to-logits bridge | LLM-0004 | — |
 | `LLM-EX-014` | Contrast argmax with categorical sampling for probabilities [0.70, 0.20, 0.10] | prediction versus sampling | LLM-0004 | — |
+| `LLM-EX-015` | Compute [2,-1,3] dot [4,0,1] = 11 by multiplying corresponding coordinates and summing | vector dot product | LLM-0005 | — |
+| `LLM-EX-016` | Use x=[1,2,-1], w=[2,0.5,-3], and b=-1 to obtain a linear score of 5 | weighted linear scoring | LLM-0005 | — |
+| `LLM-EX-017` | Show [1,1] dot [1,-1] = 0 while separating geometric orthogonality from semantic interpretation | vector geometry | LLM-0005 | — |
+| `LLM-EX-018` | Compare dot product and cosine behavior for q=[1,0], a=[2,0], and b=[1,1] | similarity measures | LLM-0005 | — |
+| `LLM-EX-019` | Turn context vector h=[2,1] and two candidate vectors plus biases into logits [2,1.5] | dot-product logits | LLM-0005 | — |

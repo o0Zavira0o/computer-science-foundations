@@ -17,13 +17,13 @@
 - **Nodes:** 116
 - **Coverage baseline:** audited
 - **Coverage items:** 28
-- **Published lessons:** 4
+- **Published lessons:** 5
 
 ## Registry sizes
 
 - **Concepts:** 120
-- **Examples:** 14
-- **References:** 22
+- **Examples:** 19
+- **References:** 25
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LLM-N-0005` — Vectors and dot products as similarity and scoring (L0, planned)
+- `LLM-N-0006` — Matrices as organized linear transformations (L0, planned)
 
 ## Learner next actions
 
@@ -46,6 +46,7 @@
 - `LLM-0002` — Text, symbols, tokens, and vocabularies (L0, complete)
 - `LLM-0003` — Probability from counts: uncertainty without mystery (L0, complete)
 - `LLM-0004` — Logits, softmax, and categorical prediction (L0, complete)
+- `LLM-0005` — Vectors and dot products as similarity and scoring (L0, complete)
 
 ## Normal-session retrieval rule
 

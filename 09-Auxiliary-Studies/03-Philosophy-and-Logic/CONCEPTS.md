@@ -7,7 +7,7 @@
 | `PHL-C-0001` | What philosophy and logic are actually doing | D1 | — |
 | `PHL-C-0002` | Questions, claims, reasons, and arguments | D1 | — |
 | `PHL-C-0003` | Premises, conclusions, and argument indicators | D1 | — |
-| `PHL-C-0004` | Truth, validity, and soundness | — | — |
+| `PHL-C-0004` | Truth, validity, and soundness | D1 | — |
 | `PHL-C-0005` | Deduction, induction, and abduction | — | — |
 | `PHL-C-0006` | Counterexamples and testing universal claims | — | — |
 | `PHL-C-0007` | Ambiguity, vagueness, and conceptual distinctions | — | — |

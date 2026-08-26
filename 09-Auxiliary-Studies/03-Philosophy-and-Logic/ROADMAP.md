@@ -15,7 +15,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `PHL-N-0001` | What philosophy and logic are actually doing | published | — | PHL-0001 |
 | `PHL-N-0002` | Questions, claims, reasons, and arguments | published | PHL-N-0001 | PHL-0002 |
 | `PHL-N-0003` | Premises, conclusions, and argument indicators | published | PHL-N-0002 | PHL-0003 |
-| `PHL-N-0004` | Truth, validity, and soundness | planned | PHL-N-0003 | — |
+| `PHL-N-0004` | Truth, validity, and soundness | published | PHL-N-0003 | PHL-0004 |
 | `PHL-N-0005` | Deduction, induction, and abduction | planned | PHL-N-0004 | — |
 | `PHL-N-0006` | Counterexamples and testing universal claims | planned | PHL-N-0004 | — |
 | `PHL-N-0007` | Ambiguity, vagueness, and conceptual distinctions | planned | PHL-N-0002 | — |

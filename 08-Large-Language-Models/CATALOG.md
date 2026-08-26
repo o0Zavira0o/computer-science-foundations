@@ -8,3 +8,4 @@
 | [`LLM-0002`](lessons/LLM-0002-text-symbols-tokens-and-vocabularies.md) | Text, symbols, tokens, and vocabularies | L0 | complete | `LLM-N-0002` | 2026-08-19 |
 | [`LLM-0003`](lessons/LLM-0003-probability-from-counts-uncertainty-without-mystery.md) | Probability from counts: uncertainty without mystery | L0 | complete | `LLM-N-0003` | 2026-08-19 |
 | [`LLM-0004`](lessons/LLM-0004-logits-softmax-and-categorical-prediction.md) | Logits, softmax, and categorical prediction | L0 | complete | `LLM-N-0004` | 2026-08-26 |
+| [`LLM-0005`](lessons/LLM-0005-vectors-and-dot-products-as-similarity-and-scoring.md) | Vectors and dot products as similarity and scoring | L0 | complete | `LLM-N-0005` | 2026-08-26 |

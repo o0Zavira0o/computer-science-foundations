@@ -67,7 +67,7 @@
       "id": "PHL-N-0004",
       "title": "Truth, validity, and soundness",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "PHL-N-0003"
       ],
@@ -81,7 +81,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "PHL-0004"
     },
     {
       "id": "PHL-N-0005",

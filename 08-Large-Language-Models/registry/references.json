@@ -244,6 +244,39 @@
       "review_after": "2027-02-26",
       "version": "stable documentation",
       "notes": "Official categorical-distribution reference showing parameterization by probabilities or logits and normalization across discrete categories."
+    },
+    {
+      "id": "LLM-REF-023",
+      "title": "Dive into Deep Learning, 2.3 Linear Algebra",
+      "type": "textbook",
+      "authority": "Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola",
+      "locator": "https://d2l.ai/chapter_preliminaries/linear-algebra.html",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Dive into Deep Learning 1.0.3",
+      "notes": "Open textbook reference for vectors, dot products, norms, and the relation between dot products and weighted sums."
+    },
+    {
+      "id": "LLM-REF-024",
+      "title": "torch.dot",
+      "type": "official-documentation",
+      "authority": "PyTorch",
+      "locator": "https://docs.pytorch.org/docs/stable/generated/torch.dot.html",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "stable documentation",
+      "notes": "Official implementation reference for the dot product of one-dimensional tensors."
+    },
+    {
+      "id": "LLM-REF-025",
+      "title": "Measuring similarity from embeddings",
+      "type": "official-documentation",
+      "authority": "Google for Developers — Machine Learning",
+      "locator": "https://developers.google.com/machine-learning/clustering/dnn-clustering/supervised-similarity",
+      "reviewed_at": "2026-08-26",
+      "review_after": "2027-02-26",
+      "version": "web documentation",
+      "notes": "Official educational reference comparing Euclidean distance, cosine similarity, and dot-product similarity, including the effect of vector norm."
     }
   ]
 }

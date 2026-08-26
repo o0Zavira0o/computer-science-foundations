@@ -13,3 +13,8 @@
 | `PHL-EX-007` | Reconstruct a museum-hours argument whose conclusion appears first and contains no conclusion-indicator word, identifying roles from support rather than sentence order. | premise and conclusion role identification | PHL-0003 | — |
 | `PHL-EX-008` | Contrast premise-indicator and non-argument uses of `since` and `so` to show that indicator vocabulary is contextual evidence rather than a mechanical parser. | argument indicator ambiguity | PHL-0003 | — |
 | `PHL-EX-009` | Use the same backup-retention claim first as a conclusion and then as a premise for a further storage-allocation conclusion. | inferential role and intermediate structure | PHL-0003 | — |
+| `PHL-EX-010` | Classify the square-rectangle-four-sides argument as true-premised, valid, and therefore sound | truth validity and soundness | PHL-0004 | — |
+| `PHL-EX-011` | Use the all-planets-are-glass argument to show that a deductive argument can be valid but unsound | validity with false premises | PHL-0004 | — |
+| `PHL-EX-012` | Use unrelated true premises and a true conclusion to show that truth does not guarantee validity | truth versus inferential support | PHL-0004 | — |
+| `PHL-EX-013` | Use false premises with a true conclusion in a valid syllogistic pattern to separate validity from soundness | valid but unsound argument | PHL-0004 | — |
+| `PHL-EX-014` | Use 6 being even but not divisible by 4 as a true-premises false-conclusion countercase to demonstrate invalidity | countercase to deductive validity | PHL-0004 | — |

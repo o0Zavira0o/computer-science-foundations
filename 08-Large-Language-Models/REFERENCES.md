@@ -26,3 +26,6 @@
 | `LLM-REF-020` | Dive into Deep Learning, 4.1 Softmax Regression | textbook | Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola | 2026-08-26 | — |
 | `LLM-REF-021` | torch.nn.Softmax | official-documentation | PyTorch | 2026-08-26 | 2027-02-26 |
 | `LLM-REF-022` | torch.distributions.Categorical | official-documentation | PyTorch | 2026-08-26 | 2027-02-26 |
+| `LLM-REF-023` | Dive into Deep Learning, 2.3 Linear Algebra | textbook | Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola | 2026-08-26 | — |
+| `LLM-REF-024` | torch.dot | official-documentation | PyTorch | 2026-08-26 | 2027-02-26 |
+| `LLM-REF-025` | Measuring similarity from embeddings | official-documentation | Google for Developers — Machine Learning | 2026-08-26 | 2027-02-26 |

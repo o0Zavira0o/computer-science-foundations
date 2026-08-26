@@ -8,7 +8,7 @@
 | `LLM-C-0002` | Text, symbols, tokens, and vocabularies | D1 | — |
 | `LLM-C-0003` | Probability from counts — uncertainty without mystery | D1 | — |
 | `LLM-C-0004` | Logits, softmax, and categorical prediction | D1 | — |
-| `LLM-C-0005` | Vectors and dot products as similarity and scoring | — | — |
+| `LLM-C-0005` | Vectors and dot products as similarity and scoring | D1 | — |
 | `LLM-C-0006` | Matrices as organized linear transformations | — | — |
 | `LLM-C-0007` | Derivatives, gradients, and computational graphs | — | — |
 | `LLM-C-0008` | Loss functions and gradient descent | — | — |

@@ -16,7 +16,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LLM-N-0002` | Text, symbols, tokens, and vocabularies | published | LLM-N-0001 | LLM-0002 |
 | `LLM-N-0003` | Probability from counts: uncertainty without mystery | published | LLM-N-0002 | LLM-0003 |
 | `LLM-N-0004` | Logits, softmax, and categorical prediction | published | LLM-N-0003 | LLM-0004 |
-| `LLM-N-0005` | Vectors and dot products as similarity and scoring | planned | LLM-N-0004 | — |
+| `LLM-N-0005` | Vectors and dot products as similarity and scoring | published | LLM-N-0004 | LLM-0005 |
 | `LLM-N-0006` | Matrices as organized linear transformations | planned | LLM-N-0005 | — |
 | `LLM-N-0007` | Derivatives, gradients, and computational graphs | planned | LLM-N-0006 | — |
 | `LLM-N-0008` | Loss functions and gradient descent | planned | LLM-N-0007 | — |

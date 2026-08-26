@@ -35,7 +35,7 @@
       "id": "LLM-C-0005",
       "name": "Vectors and dot products as similarity and scoring",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Primary durable concept for LLM-N-0005."
     },
     {
