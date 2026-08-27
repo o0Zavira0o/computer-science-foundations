@@ -170,6 +170,34 @@
       "domain": "constraint intersection preview",
       "first_lesson": "LA-0007",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-025",
+      "signature": "Classify three two-variable systems as one solution, no solution, or infinitely many solutions by comparing nonparallel, incompatible parallel, and coincident line constraints",
+      "domain": "linear-system solution classification",
+      "first_lesson": "LA-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-026",
+      "signature": "Solve a two-plane three-variable system into a one-parameter line and write the solution as one particular point plus a spanning direction",
+      "domain": "parametric solution set in R3",
+      "first_lesson": "LA-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-027",
+      "signature": "Convert a target-vector span-membership equation into a scalar coefficient system and interpret system consistency as target reachability",
+      "domain": "span membership as system consistency",
+      "first_lesson": "LA-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-028",
+      "signature": "Compare two three-equation two-unknown systems to show that overdetermined equation count can be compatible or contradictory depending on whether all constraints share a common solution",
+      "domain": "overdetermined consistency",
+      "first_lesson": "LA-0008",
+      "reuse_purpose": null
     }
   ]
 }

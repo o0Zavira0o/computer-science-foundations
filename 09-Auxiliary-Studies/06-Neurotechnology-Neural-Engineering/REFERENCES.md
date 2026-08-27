@@ -32,3 +32,7 @@
 | `NNE-REF-026` | Neuroscience — Ion Channels Underlying Action Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-027` | Neuroscience — The Refractory Period | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-028` | Neuroscience — Long-Distance Signaling and Increased Conduction Velocity with Myelination | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-029` | Neuroscience — Chapter 5: Synaptic Transmission | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-030` | Neuroscience — Excitatory and Inhibitory Postsynaptic Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-031` | Neuroscience — Summation of Synaptic Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-032` | Neuroscience — Chapter 6: Neurotransmitters | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |

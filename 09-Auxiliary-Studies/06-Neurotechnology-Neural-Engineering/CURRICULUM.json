@@ -125,7 +125,7 @@
       "id": "NNE-N-0006",
       "title": "Synapses, neurotransmitters, excitation, inhibition, and integration",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0005"
       ],
@@ -140,7 +140,7 @@
         }
       ],
       "branch": "neuroscience-foundations",
-      "lesson_id": null
+      "lesson_id": "NNE-0006"
     },
     {
       "id": "NNE-N-0007",

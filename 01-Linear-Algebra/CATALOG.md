@@ -11,3 +11,4 @@
 | [`LA-0005`](lessons/LA-0005-linear-combinations-and-weighted-mixtures.md) | Linear combinations and weighted mixtures | L0 | complete | `LA-N-0005` | 2026-08-27 |
 | [`LA-0006`](lessons/LA-0006-span-what-combinations-can-reach.md) | Span: what combinations can reach | L0 | complete | `LA-N-0006` | 2026-08-27 |
 | [`LA-0007`](lessons/LA-0007-linear-equations-as-constraints.md) | Linear equations as constraints | L0 | complete | `LA-N-0007` | 2026-08-27 |
+| [`LA-0008`](lessons/LA-0008-systems-of-linear-equations-and-solution-sets.md) | Systems of linear equations and solution sets | L0 | complete | `LA-N-0008` | 2026-08-27 |

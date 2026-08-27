@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 5
+- **Published lessons:** 6
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 25
-- **References:** 28
+- **Examples:** 30
+- **References:** 32
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0006` — Synapses, neurotransmitters, excitation, inhibition, and integration (L0, planned)
+- `NNE-N-0007` — From single neurons to populations, circuits, systems, and behavior (L0, planned)
 
 ## Learner next actions
 
@@ -47,6 +47,7 @@
 - `NNE-0003` — Neurons, glia, membranes, and ions (L0, complete)
 - `NNE-0004` — Resting membrane potential and electrochemical gradients (L0, complete)
 - `NNE-0005` — Action potentials, thresholds, refractory periods, and propagation (L0, complete)
+- `NNE-0006` — Synapses, neurotransmitters, excitation, inhibition, and integration (L0, complete)
 
 ## Normal-session retrieval rule
 

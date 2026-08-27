@@ -177,6 +177,41 @@
       "domain": "action-potential recording geometry",
       "first_lesson": "NNE-0005",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-026",
+      "signature": "Compare two receptor mechanisms for the same transmitter to show that postsynaptic excitation or inhibition depends on receptor, ionic selectivity, reversal potential, and membrane state rather than transmitter name alone",
+      "domain": "receptor-dependent synaptic effect",
+      "first_lesson": "NNE-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-027",
+      "signature": "Trace one chemical synaptic event from presynaptic action-potential arrival through Ca2+ entry, vesicle fusion, transmitter release, receptor activation, conductance change, current, and postsynaptic potential",
+      "domain": "chemical synaptic transmission chain",
+      "first_lesson": "NNE-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-028",
+      "signature": "Compare slow versus rapid presynaptic firing at one excitatory synapse to show how overlapping graded postsynaptic potentials create temporal summation",
+      "domain": "temporal summation",
+      "first_lesson": "NNE-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-029",
+      "signature": "Combine two excitatory synapses with one inhibitory conductance to show spatial integration, conductance interaction, and why inhibition is not fixed arithmetic subtraction",
+      "domain": "spatial integration and inhibition",
+      "first_lesson": "NNE-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-030",
+      "signature": "Model one chemical synapse as a dynamic signal-processing block mapping a presynaptic spike train through release probability, vesicle and receptor state, and postsynaptic membrane state to a synaptic-current or conductance waveform",
+      "domain": "synapse as dynamic stochastic system",
+      "first_lesson": "NNE-0006",
+      "reuse_purpose": null
     }
   ]
 }

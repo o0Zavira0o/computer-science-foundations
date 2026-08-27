@@ -310,6 +310,50 @@
       "review_after": null,
       "version": "Neuroscience, 2nd edition",
       "notes": "Source for passive local current plus active regeneration, conduction velocity, and saltatory propagation; paired with NCBI Bookshelf NBK10921 for myelination details."
+    },
+    {
+      "id": "NNE-REF-029",
+      "title": "Neuroscience — Chapter 5: Synaptic Transmission",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11001/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Primary source for electrical versus chemical synapses, presynaptic Ca2+ entry, vesicular transmitter release, synaptic delay, and the overall physical chain of synaptic transmission."
+    },
+    {
+      "id": "NNE-REF-030",
+      "title": "Neuroscience — Excitatory and Inhibitory Postsynaptic Potentials",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11117/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for EPSP/IPSP definitions and the role of receptor-coupled channels, ionic conditions, reversal potentials, and firing threshold in determining excitation versus inhibition."
+    },
+    {
+      "id": "NNE-REF-031",
+      "title": "Neuroscience — Summation of Synaptic Potentials",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11104/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for spatial and temporal summation of subthreshold postsynaptic potentials and integration of excitation and inhibition across many synaptic inputs."
+    },
+    {
+      "id": "NNE-REF-032",
+      "title": "Neuroscience — Chapter 6: Neurotransmitters",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK10795/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for neurotransmitter synthesis, vesicular packaging, release, receptor action, transmitter diversity, and clearance or degradation."
     }
   ]
 }

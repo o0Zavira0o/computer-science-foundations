@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 7
+- **Published lessons:** 8
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 24
+- **Examples:** 28
 - **References:** 15
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LA-N-0008` — Systems of linear equations and solution sets (L0, planned)
+- `LA-N-0009` — Matrices as organized coefficients and operators (L0, planned)
 
 ## Learner next actions
 
@@ -49,6 +49,7 @@
 - `LA-0005` — Linear combinations and weighted mixtures (L0, complete)
 - `LA-0006` — Span: what combinations can reach (L0, complete)
 - `LA-0007` — Linear equations as constraints (L0, complete)
+- `LA-0008` — Systems of linear equations and solution sets (L0, complete)
 
 ## Normal-session retrieval rule
 

@@ -28,3 +28,7 @@
 | `LA-EX-022` | Interpret one three-variable linear equality as a plane of valid states and show how extra nonnegativity conditions restrict the physically feasible subset | three-variable constraint geometry | LA-0007 | — |
 | `LA-EX-023` | Read the same linear equation as geometric line, budget relation, and fixed sensor measurement to separate algebraic structure from domain semantics | multiple interpretations of one constraint | LA-0007 | — |
 | `LA-EX-024` | Preview a two-equation system as intersection of two line constraints and solve one intersection point to prepare for solution-set classification | constraint intersection preview | LA-0007 | — |
+| `LA-EX-025` | Classify three two-variable systems as one solution, no solution, or infinitely many solutions by comparing nonparallel, incompatible parallel, and coincident line constraints | linear-system solution classification | LA-0008 | — |
+| `LA-EX-026` | Solve a two-plane three-variable system into a one-parameter line and write the solution as one particular point plus a spanning direction | parametric solution set in R3 | LA-0008 | — |
+| `LA-EX-027` | Convert a target-vector span-membership equation into a scalar coefficient system and interpret system consistency as target reachability | span membership as system consistency | LA-0008 | — |
+| `LA-EX-028` | Compare two three-equation two-unknown systems to show that overdetermined equation count can be compatible or contradictory depending on whether all constraints share a common solution | overdetermined consistency | LA-0008 | — |

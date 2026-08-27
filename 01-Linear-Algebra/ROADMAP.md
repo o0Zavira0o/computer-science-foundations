@@ -19,7 +19,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LA-N-0005` | Linear combinations and weighted mixtures | published | LA-N-0004 | LA-0005 |
 | `LA-N-0006` | Span: what combinations can reach | published | LA-N-0005 | LA-0006 |
 | `LA-N-0007` | Linear equations as constraints | published | LA-N-0002 | LA-0007 |
-| `LA-N-0008` | Systems of linear equations and solution sets | planned | LA-N-0007 | — |
+| `LA-N-0008` | Systems of linear equations and solution sets | published | LA-N-0007 | LA-0008 |
 | `LA-N-0009` | Matrices as organized coefficients and operators | planned | LA-N-0008 | — |
 | `LA-N-0010` | Matrix-vector multiplication as a column combination | planned | LA-N-0005, LA-N-0009 | — |
 | `LA-N-0011` | Elimination: changing equations without changing solutions | planned | LA-N-0008, LA-N-0009 | — |
