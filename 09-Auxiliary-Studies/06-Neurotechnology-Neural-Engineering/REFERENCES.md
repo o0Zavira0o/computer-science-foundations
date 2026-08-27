@@ -40,3 +40,7 @@
 | `NNE-REF-034` | Neuroscience — Neural Systems | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-035` | Neuroscience — Chapter 1: The Organization of the Nervous System | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-036` | Introduction to Behavioral Neuroscience — 2.2 Neural Circuits | textbook | OpenStax | 2026-08-27 | — |
+| `NNE-REF-037` | Methods for Neural Ensemble Recordings — Defining Global Brain States Using Multielectrode Field Potential Recordings | textbook | Shih-Chieh Lin and Damien Gervasoni; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-038` | Local Field Potential Measurement | official-documentation | U.S. National Library of Medicine; Medical Subject Headings (MeSH) | 2026-08-27 | — |
+| `NNE-REF-039` | Reference Manual on Scientific Evidence — Reference Guide on Neuroscience | technical-report | Federal Judicial Center / National Academies context; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-040` | Electrochemical Methods for Neuroscience — An Introduction to Electrochemical Methods in Neuroscience | textbook | Adrian C. Michael and Laura M. Borland, eds.; NCBI Bookshelf | 2026-08-27 | — |

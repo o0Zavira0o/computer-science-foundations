@@ -70,7 +70,7 @@
       "id": "LA-C-0010",
       "name": "Matrix-vector multiplication as a column combination",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "first curriculum target is LA-N-0010."
     },
     {

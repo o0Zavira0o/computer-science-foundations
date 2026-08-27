@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 7
+- **Published lessons:** 8
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 35
-- **References:** 36
+- **Examples:** 40
+- **References:** 40
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0008` — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics (L0, planned)
+- `NNE-N-0009` — The neural measurement chain: source, tissue, sensor, electronics, data, and inference (L0, planned)
 
 ## Learner next actions
 
@@ -49,6 +49,7 @@
 - `NNE-0005` — Action potentials, thresholds, refractory periods, and propagation (L0, complete)
 - `NNE-0006` — Synapses, neurotransmitters, excitation, inhibition, and integration (L0, complete)
 - `NNE-0007` — From single neurons to populations, circuits, systems, and behavior (L0, complete)
+- `NNE-0008` — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics (L0, complete)
 
 ## Normal-session retrieval rule
 

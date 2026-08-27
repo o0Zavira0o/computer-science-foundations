@@ -226,6 +226,34 @@
       "domain": "matrix operator in neural decoding",
       "first_lesson": "LA-0009",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-033",
+      "signature": "Compute a 2-by-3 matrix-vector product explicitly as a weighted sum of the matrix columns and verify that the output dimension follows the matrix row count",
+      "domain": "matrix-vector multiplication by columns",
+      "first_lesson": "LA-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-034",
+      "signature": "Rewrite one matrix equation Ax=b as both a column-span reachability problem and the equivalent scalar system of equations",
+      "domain": "matrix equation as span and system",
+      "first_lesson": "LA-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-035",
+      "signature": "Interpret a 2-by-4 neural-decoder matrix by columns, showing how each neural feature contributes a two-output response pattern without equating decoder coefficients to biological synapses",
+      "domain": "matrix-vector multiplication in neural decoding",
+      "first_lesson": "LA-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-036",
+      "signature": "Mix two modeled source amplitudes into three sensor outputs using a 3-by-2 matrix to interpret each column as one source signature across all sensors",
+      "domain": "linear source mixing as column combination",
+      "first_lesson": "LA-0010",
+      "reuse_purpose": null
     }
   ]
 }

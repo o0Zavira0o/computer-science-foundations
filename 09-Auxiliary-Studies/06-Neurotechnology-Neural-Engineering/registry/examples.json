@@ -247,6 +247,41 @@
       "domain": "decoding versus causal inference",
       "first_lesson": "NNE-0007",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-036",
+      "signature": "Represent one neuron's activity as raw extracellular voltage, detected spike times, and a smoothed firing-rate estimate to separate biological event, measured waveform, and derived feature",
+      "domain": "spike signal representations",
+      "first_lesson": "NNE-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-037",
+      "signature": "Compare the same synchronized cortical event as seen by intracortical field recording, ECoG, and scalp EEG to show how source geometry, volume conduction, referencing, and sensor location change the observed electrical signal",
+      "domain": "electrical signal scale and field mixing",
+      "first_lesson": "NNE-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-038",
+      "signature": "Compare a rapid spike-rate change with an extracellular dopamine transient during the same task to distinguish electrical event measurements from neurochemical concentration-related measurements",
+      "domain": "electrical versus chemical neural signals",
+      "first_lesson": "NNE-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-039",
+      "signature": "Compare near-immediate electrophysiological changes with a delayed BOLD response following the same cortical activation to separate neural timing from hemodynamic measurement latency",
+      "domain": "electrophysiology versus hemodynamic proxy",
+      "first_lesson": "NNE-0008",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-040",
+      "signature": "Choose among single-unit electrophysiology, EEG, neurochemical sensing, and fMRI for four different scientific questions to make modality choice follow the target physical variable and required tradeoffs",
+      "domain": "neural signal modality selection",
+      "first_lesson": "NNE-0008",
+      "reuse_purpose": null
     }
   ]
 }

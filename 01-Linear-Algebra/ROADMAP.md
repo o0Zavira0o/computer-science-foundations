@@ -21,7 +21,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LA-N-0007` | Linear equations as constraints | published | LA-N-0002 | LA-0007 |
 | `LA-N-0008` | Systems of linear equations and solution sets | published | LA-N-0007 | LA-0008 |
 | `LA-N-0009` | Matrices as organized coefficients and operators | published | LA-N-0008 | LA-0009 |
-| `LA-N-0010` | Matrix-vector multiplication as a column combination | planned | LA-N-0005, LA-N-0009 | — |
+| `LA-N-0010` | Matrix-vector multiplication as a column combination | published | LA-N-0005, LA-N-0009 | LA-0010 |
 | `LA-N-0011` | Elimination: changing equations without changing solutions | planned | LA-N-0008, LA-N-0009 | — |
 | `LA-N-0012` | Pivots, free variables, and the geometry of solutions | planned | LA-N-0011 | — |
 | `LA-N-0013` | Linear transformations in the plane | planned | LA-N-0004, LA-N-0009 | — |

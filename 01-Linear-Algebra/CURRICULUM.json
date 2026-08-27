@@ -189,7 +189,7 @@
       "id": "LA-N-0010",
       "title": "Matrix-vector multiplication as a column combination",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0005",
         "LA-N-0009"
@@ -204,7 +204,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0010"
     },
     {
       "id": "LA-N-0011",

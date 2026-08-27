@@ -13,7 +13,7 @@
 | `LA-C-0007` | Linear equations as constraints | D1 | — |
 | `LA-C-0008` | Systems of linear equations and solution sets | D1 | — |
 | `LA-C-0009` | Matrices as organized coefficients and operators | D1 | — |
-| `LA-C-0010` | Matrix-vector multiplication as a column combination | — | — |
+| `LA-C-0010` | Matrix-vector multiplication as a column combination | D1 | — |
 | `LA-C-0011` | Elimination: changing equations without changing solutions | — | — |
 | `LA-C-0012` | Pivots, free variables, and the geometry of solutions | — | — |
 | `LA-C-0013` | Linear transformations in the plane | — | — |

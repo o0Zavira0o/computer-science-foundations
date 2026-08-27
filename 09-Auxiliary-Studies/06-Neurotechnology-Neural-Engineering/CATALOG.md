@@ -11,3 +11,4 @@
 | [`NNE-0005`](lessons/NNE-0005-action-potentials-thresholds-refractory-periods-and-propagation.md) | Action potentials, thresholds, refractory periods, and propagation | L0 | complete | `NNE-N-0005` | 2026-08-27 |
 | [`NNE-0006`](lessons/NNE-0006-synapses-neurotransmitters-excitation-inhibition-and-integration.md) | Synapses, neurotransmitters, excitation, inhibition, and integration | L0 | complete | `NNE-N-0006` | 2026-08-27 |
 | [`NNE-0007`](lessons/NNE-0007-from-single-neurons-to-populations-circuits-systems-and-behavior.md) | From single neurons to populations, circuits, systems, and behavior | L0 | complete | `NNE-N-0007` | 2026-08-27 |
+| [`NNE-0008`](lessons/NNE-0008-what-counts-as-a-neural-signal-spikes-field-potentials-rhythms-chemistry-and-hemodynamics.md) | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | L0 | complete | `NNE-N-0008` | 2026-08-27 |

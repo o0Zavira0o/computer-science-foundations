@@ -167,7 +167,7 @@
       "id": "NNE-N-0008",
       "title": "What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0007"
       ],
@@ -182,7 +182,7 @@
         }
       ],
       "branch": "signals-and-observation",
-      "lesson_id": null
+      "lesson_id": "NNE-0008"
     },
     {
       "id": "NNE-N-0009",
