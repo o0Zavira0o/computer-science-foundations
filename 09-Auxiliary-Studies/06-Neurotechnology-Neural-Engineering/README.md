@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0006 — Synapses, neurotransmitters, excitation, inhibition, and integration`](lessons/NNE-0006-synapses-neurotransmitters-excitation-inhibition-and-integration.md)
-- Next canonical lesson: `NNE-N-0007 — From single neurons to populations, circuits, systems, and behavior`
+- Published through: [`NNE-0007 — From single neurons to populations, circuits, systems, and behavior`](lessons/NNE-0007-from-single-neurons-to-populations-circuits-systems-and-behavior.md)
+- Next canonical lesson: `NNE-N-0008 — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics`
 
 Publication state is not learner mastery.
 

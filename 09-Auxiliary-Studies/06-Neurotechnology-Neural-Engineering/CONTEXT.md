@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 6
+- **Published lessons:** 7
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 30
-- **References:** 32
+- **Examples:** 35
+- **References:** 36
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0007` — From single neurons to populations, circuits, systems, and behavior (L0, planned)
+- `NNE-N-0008` — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics (L0, planned)
 
 ## Learner next actions
 
@@ -48,6 +48,7 @@
 - `NNE-0004` — Resting membrane potential and electrochemical gradients (L0, complete)
 - `NNE-0005` — Action potentials, thresholds, refractory periods, and propagation (L0, complete)
 - `NNE-0006` — Synapses, neurotransmitters, excitation, inhibition, and integration (L0, complete)
+- `NNE-0007` — From single neurons to populations, circuits, systems, and behavior (L0, complete)
 
 ## Normal-session retrieval rule
 

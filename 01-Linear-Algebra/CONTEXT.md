@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 8
+- **Published lessons:** 9
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 28
+- **Examples:** 32
 - **References:** 15
 
 ## Learner state
@@ -33,7 +33,9 @@
 
 ## Authoring candidates
 
-- `LA-N-0009` — Matrices as organized coefficients and operators (L0, planned)
+- `LA-N-0010` — Matrix-vector multiplication as a column combination (L0, planned)
+- `LA-N-0011` — Elimination: changing equations without changing solutions (L0, planned)
+- `LA-N-0013` — Linear transformations in the plane (L0, planned)
 
 ## Learner next actions
 
@@ -42,7 +44,6 @@
 
 ## Recent lessons
 
-- `LA-0001` — What linear algebra is actually studying (L0, complete)
 - `LA-0002` — Scalars, coordinates, tuples, and notation (L0, complete)
 - `LA-0003` — Vectors as displacement, data, and state (L0, complete)
 - `LA-0004` — Vector addition and scalar multiplication (L0, complete)
@@ -50,6 +51,7 @@
 - `LA-0006` — Span: what combinations can reach (L0, complete)
 - `LA-0007` — Linear equations as constraints (L0, complete)
 - `LA-0008` — Systems of linear equations and solution sets (L0, complete)
+- `LA-0009` — Matrices as organized coefficients and operators (L0, complete)
 
 ## Normal-session retrieval rule
 

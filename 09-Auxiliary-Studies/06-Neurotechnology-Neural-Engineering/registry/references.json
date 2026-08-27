@@ -354,6 +354,50 @@
       "review_after": null,
       "version": "Neuroscience, 2nd edition",
       "notes": "Source for neurotransmitter synthesis, vesicular packaging, release, receptor action, transmitter diversity, and clearance or degradation."
+    },
+    {
+      "id": "NNE-REF-033",
+      "title": "Neuroscience — Neural Circuits",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11154/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Primary source for the idea that neurons function in interconnected ensembles or circuits, the organization of synaptic connectivity, and circuit-level processing."
+    },
+    {
+      "id": "NNE-REF-034",
+      "title": "Neuroscience — Neural Systems",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11061/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for grouping related circuits into broader neural systems that support sensory, motor, and behavioral functions."
+    },
+    {
+      "id": "NNE-REF-035",
+      "title": "Neuroscience — Chapter 1: The Organization of the Nervous System",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK10915/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for the multi-scale organization of nervous-system cell types, interconnections, circuits, and system-level physiological roles."
+    },
+    {
+      "id": "NNE-REF-036",
+      "title": "Introduction to Behavioral Neuroscience — 2.2 Neural Circuits",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/introduction-behavioral-neuroscience/pages/2-2-neural-circuits",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Introduction to Behavioral Neuroscience",
+      "notes": "Contemporary introductory source for interconnected neural circuits, parallel processing, feedback, excitation-inhibition interactions, circuit models, and circuit-to-behavior examples."
     }
   ]
 }

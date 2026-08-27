@@ -212,6 +212,41 @@
       "domain": "synapse as dynamic stochastic system",
       "first_lesson": "NNE-0006",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-031",
+      "signature": "Compare two behavioral conditions whose first recorded neuron has the same firing rate but whose full multi-neuron population activity vectors differ, showing why population patterns can disambiguate states that one unit cannot",
+      "domain": "single-neuron versus population representation",
+      "first_lesson": "NNE-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-032",
+      "signature": "Compare identical recurrent circuit connectivity under different excitability and adaptation states to show that connectivity plus current state plus input determines circuit response",
+      "domain": "circuit state and recurrence",
+      "first_lesson": "NNE-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-033",
+      "signature": "Trace a reaching movement through visual estimation, movement planning, descending and spinal circuits, muscle activation, movement, and sensory feedback to show behavior as a closed sensorimotor loop",
+      "domain": "neural systems and closed-loop behavior",
+      "first_lesson": "NNE-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-034",
+      "signature": "Compare single-unit, multi-unit, local-field, ECoG, and EEG measurements around the same finger movement to demonstrate that recording modalities sample different physical aggregates and neural scales",
+      "domain": "measurement scale across neural populations",
+      "first_lesson": "NNE-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-035",
+      "signature": "Interpret a high-accuracy movement decoder from fifty recorded neurons as predictive population information without incorrectly claiming those neurons uniquely cause the behavior",
+      "domain": "decoding versus causal inference",
+      "first_lesson": "NNE-0007",
+      "reuse_purpose": null
     }
   ]
 }

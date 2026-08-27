@@ -169,7 +169,7 @@
       "id": "LA-N-0009",
       "title": "Matrices as organized coefficients and operators",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0008"
       ],
@@ -183,7 +183,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0009"
     },
     {
       "id": "LA-N-0010",

@@ -10,3 +10,4 @@
 | [`NNE-0004`](lessons/NNE-0004-resting-membrane-potential-and-electrochemical-gradients.md) | Resting membrane potential and electrochemical gradients | L0 | complete | `NNE-N-0004` | 2026-08-27 |
 | [`NNE-0005`](lessons/NNE-0005-action-potentials-thresholds-refractory-periods-and-propagation.md) | Action potentials, thresholds, refractory periods, and propagation | L0 | complete | `NNE-N-0005` | 2026-08-27 |
 | [`NNE-0006`](lessons/NNE-0006-synapses-neurotransmitters-excitation-inhibition-and-integration.md) | Synapses, neurotransmitters, excitation, inhibition, and integration | L0 | complete | `NNE-N-0006` | 2026-08-27 |
+| [`NNE-0007`](lessons/NNE-0007-from-single-neurons-to-populations-circuits-systems-and-behavior.md) | From single neurons to populations, circuits, systems, and behavior | L0 | complete | `NNE-N-0007` | 2026-08-27 |

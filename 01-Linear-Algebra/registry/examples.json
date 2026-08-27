@@ -198,6 +198,34 @@
       "domain": "overdetermined consistency",
       "first_lesson": "LA-0008",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-029",
+      "signature": "Convert a two-equation two-unknown system into coefficient matrix, unknown vector, right-hand-side vector, and future Ax=b representation",
+      "domain": "system-to-matrix organization",
+      "first_lesson": "LA-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-030",
+      "signature": "Interpret a 2-by-3 matrix as an operator interface that expects three input coordinates and produces two output coordinates, using shape as an input-output contract",
+      "domain": "matrix shape as operator contract",
+      "first_lesson": "LA-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-031",
+      "signature": "Give the same 3-by-2 numeric array two distinct meanings—three observations by two features versus an operator from two-coordinate inputs to three-coordinate outputs—to separate matrix entries from matrix semantics",
+      "domain": "matrix as data versus operator",
+      "first_lesson": "LA-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-032",
+      "signature": "Interpret a 2-by-4 neural-decoder weight matrix as four neural input features mapped to two decoded outputs while explicitly separating engineered linear weights from biological synaptic strengths or causal claims",
+      "domain": "matrix operator in neural decoding",
+      "first_lesson": "LA-0009",
+      "reuse_purpose": null
     }
   ]
 }

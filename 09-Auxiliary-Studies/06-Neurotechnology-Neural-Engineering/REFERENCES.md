@@ -36,3 +36,7 @@
 | `NNE-REF-030` | Neuroscience — Excitatory and Inhibitory Postsynaptic Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-031` | Neuroscience — Summation of Synaptic Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-032` | Neuroscience — Chapter 6: Neurotransmitters | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-033` | Neuroscience — Neural Circuits | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-034` | Neuroscience — Neural Systems | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-035` | Neuroscience — Chapter 1: The Organization of the Nervous System | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-036` | Introduction to Behavioral Neuroscience — 2.2 Neural Circuits | textbook | OpenStax | 2026-08-27 | — |

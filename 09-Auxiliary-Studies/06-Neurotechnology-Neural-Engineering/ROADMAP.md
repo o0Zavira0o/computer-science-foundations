@@ -18,7 +18,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `NNE-N-0004` | Resting membrane potential and electrochemical gradients | published | NNE-N-0003 | NNE-0004 |
 | `NNE-N-0005` | Action potentials, thresholds, refractory periods, and propagation | published | NNE-N-0004 | NNE-0005 |
 | `NNE-N-0006` | Synapses, neurotransmitters, excitation, inhibition, and integration | published | NNE-N-0005 | NNE-0006 |
-| `NNE-N-0007` | From single neurons to populations, circuits, systems, and behavior | planned | NNE-N-0006 | — |
+| `NNE-N-0007` | From single neurons to populations, circuits, systems, and behavior | published | NNE-N-0006 | NNE-0007 |
 | `NNE-N-0008` | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | planned | NNE-N-0007 | — |
 | `NNE-N-0009` | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | planned | NNE-N-0008 | — |
 | `NNE-N-0010` | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | planned | NNE-N-0009 | — |
