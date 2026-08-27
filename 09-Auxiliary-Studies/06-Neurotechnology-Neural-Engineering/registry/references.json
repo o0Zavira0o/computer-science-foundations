@@ -222,6 +222,50 @@
       "review_after": null,
       "version": "Biology 2e",
       "notes": "Independent introductory cross-check on neuron morphology, glial functions, myelination, and the cellular organization of nervous tissue."
+    },
+    {
+      "id": "NNE-REF-021",
+      "title": "Anatomy and Physiology 2e — 12.4 The Action Potential",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Anatomy and Physiology 2e",
+      "notes": "Primary introductory source for membrane-voltage convention, resting membrane potential, ion gradients, leak channels, sodium-potassium pumping, and electrophysiological measurement."
+    },
+    {
+      "id": "NNE-REF-022",
+      "title": "Neuroscience — The Forces that Create Membrane Potentials",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11102/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Foundational source for electrochemical force balance, ion-specific equilibrium potentials, and the Nernst equation."
+    },
+    {
+      "id": "NNE-REF-023",
+      "title": "Neuroscience — The Ionic Basis of the Resting Membrane Potential",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK10931/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for potassium-dominated resting permeability, the relationship of resting voltage to equilibrium potentials, and extracellular-potassium perturbation logic."
+    },
+    {
+      "id": "NNE-REF-024",
+      "title": "Basic Neurochemistry — The Ionic Hypothesis and Rules of Ionic Electricity",
+      "type": "textbook",
+      "authority": "Bertil Hille and William A. Catterall; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK28117/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Basic Neurochemistry, 6th edition",
+      "notes": "Used for the distinction between single-ion equilibrium and the multi-ion steady state of real cells, GHK permeability weighting, small charge movement, and the modest direct electrogenic contribution of the sodium-potassium pump."
     }
   ]
 }

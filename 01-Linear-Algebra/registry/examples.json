@@ -114,6 +114,34 @@
       "domain": "target reachability and span preview",
       "first_lesson": "LA-0005",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-017",
+      "signature": "Test three planar targets against the span of one nonzero generator and separate reachable scalar multiples from off-line targets",
+      "domain": "one-generator span membership",
+      "first_lesson": "LA-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-018",
+      "signature": "Compare two pairs of planar generators—one parallel and one nonparallel—to show how equal generator counts can produce a line versus the whole plane",
+      "domain": "geometric span classification",
+      "first_lesson": "LA-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-019",
+      "signature": "Decide target membership in a two-generator span by solving the coefficient equations and verifying the reconstructed target",
+      "domain": "span membership as solvability",
+      "first_lesson": "LA-0006",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-020",
+      "signature": "Add a third signal-pattern generator equal to the sum of two existing generators to show that redundancy can preserve the span while destroying coefficient uniqueness",
+      "domain": "span redundancy and signal dictionaries",
+      "first_lesson": "LA-0006",
+      "reuse_purpose": null
     }
   ]
 }

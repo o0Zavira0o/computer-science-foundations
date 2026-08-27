@@ -107,6 +107,41 @@
       "domain": "biophysical measurement chain",
       "first_lesson": "NNE-0003",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-016",
+      "signature": "Use a potassium-selective membrane to trace the outward chemical tendency, inward electrical tendency, and their balance at the potassium equilibrium potential",
+      "domain": "electrochemical equilibrium intuition",
+      "first_lesson": "NNE-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-017",
+      "signature": "Estimate illustrative potassium and sodium Nernst equilibrium potentials from intracellular/extracellular concentration ratios at body temperature",
+      "domain": "Nernst equilibrium potentials",
+      "first_lesson": "NNE-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-018",
+      "signature": "Double extracellular potassium in an illustrative neuron and show how the potassium equilibrium potential becomes less negative, shifting a K-dominated resting state",
+      "domain": "extracellular potassium and excitability",
+      "first_lesson": "NNE-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-019",
+      "signature": "Use a simplified conductance-weighted membrane model to show why dominant potassium conductance places resting voltage much closer to E_K than to E_Na",
+      "domain": "multi-ion resting potential",
+      "first_lesson": "NNE-0004",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-020",
+      "signature": "Interpret a negative intracellular voltage reading as a local potential difference relative to an extracellular reference rather than an absolute voltage stored in the neuron",
+      "domain": "membrane-voltage measurement semantics",
+      "first_lesson": "NNE-0004",
+      "reuse_purpose": null
     }
   ]
 }

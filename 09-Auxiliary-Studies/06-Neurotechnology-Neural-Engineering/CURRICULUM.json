@@ -83,7 +83,7 @@
       "id": "NNE-N-0004",
       "title": "Resting membrane potential and electrochemical gradients",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0003"
       ],
@@ -98,7 +98,7 @@
         }
       ],
       "branch": "neuroscience-foundations",
-      "lesson_id": null
+      "lesson_id": "NNE-0004"
     },
     {
       "id": "NNE-N-0005",

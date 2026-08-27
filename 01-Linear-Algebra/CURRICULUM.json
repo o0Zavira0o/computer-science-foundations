@@ -109,7 +109,7 @@
       "id": "LA-N-0006",
       "title": "Span: what combinations can reach",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0005"
       ],
@@ -123,7 +123,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0006"
     },
     {
       "id": "LA-N-0007",

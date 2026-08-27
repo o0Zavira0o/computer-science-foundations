@@ -20,3 +20,7 @@
 | `LA-EX-014` | Form a nonnegative sum-to-one mixture of two sensor signatures and separate algebraic validity from the physical assumption of approximately additive sensor response | weighted data mixtures | LA-0005 | — |
 | `LA-EX-015` | Contrast an average-like nonnegative sum-to-one mixture with a generic signed linear combination to show that linear-combination coefficients need not be probabilities | coefficient constraints | LA-0005 | — |
 | `LA-EX-016` | Solve a target-building coefficient problem, then compare it with parallel generators whose combinations remain on one line as preparation for span | target reachability and span preview | LA-0005 | — |
+| `LA-EX-017` | Test three planar targets against the span of one nonzero generator and separate reachable scalar multiples from off-line targets | one-generator span membership | LA-0006 | — |
+| `LA-EX-018` | Compare two pairs of planar generators—one parallel and one nonparallel—to show how equal generator counts can produce a line versus the whole plane | geometric span classification | LA-0006 | — |
+| `LA-EX-019` | Decide target membership in a two-generator span by solving the coefficient equations and verifying the reconstructed target | span membership as solvability | LA-0006 | — |
+| `LA-EX-020` | Add a third signal-pattern generator equal to the sum of two existing generators to show that redundancy can preserve the span while destroying coefficient uniqueness | span redundancy and signal dictionaries | LA-0006 | — |

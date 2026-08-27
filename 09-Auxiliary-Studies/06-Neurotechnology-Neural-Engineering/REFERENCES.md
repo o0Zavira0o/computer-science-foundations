@@ -24,3 +24,7 @@
 | `NNE-REF-018` | Anatomy and Physiology 2e — 12.4 The Action Potential | textbook | OpenStax | 2026-08-27 | — |
 | `NNE-REF-019` | Neuroscience — Channels and Transporters | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-020` | Biology 2e — 35.1 Neurons and Glial Cells | textbook | OpenStax | 2026-08-27 | — |
+| `NNE-REF-021` | Anatomy and Physiology 2e — 12.4 The Action Potential | textbook | OpenStax | 2026-08-27 | — |
+| `NNE-REF-022` | Neuroscience — The Forces that Create Membrane Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-023` | Neuroscience — The Ionic Basis of the Resting Membrane Potential | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-024` | Basic Neurochemistry — The Ionic Hypothesis and Rules of Ionic Electricity | textbook | Bertil Hille and William A. Catterall; NCBI Bookshelf | 2026-08-27 | — |
