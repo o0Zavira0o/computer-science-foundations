@@ -72,6 +72,41 @@
       "domain": "sensory neuroprosthetic pathways",
       "first_lesson": "NNE-0002",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-011",
+      "signature": "Trace one simplified motor neuron across soma-proximal, axonal, peripheral-nerve, and downstream-muscle observation sites to show that one pathway produces different measured signals at different biological levels",
+      "domain": "cellular observation levels",
+      "first_lesson": "NNE-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-012",
+      "signature": "Use two ionic compartments separated by a potassium-selective membrane to build qualitative intuition for competing concentration and electrical forces",
+      "domain": "membrane electrochemical intuition",
+      "first_lesson": "NNE-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-013",
+      "signature": "Contrast intracellular inside-versus-outside membrane-voltage measurement with extracellular field recording produced by transmembrane ionic currents",
+      "domain": "intracellular versus extracellular recording",
+      "first_lesson": "NNE-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-014",
+      "signature": "Compare similarly sized myelinated and unmyelinated axons to show why glial myelin changes propagation dynamics, recording timing, and stimulation recruitment",
+      "domain": "myelin and conduction",
+      "first_lesson": "NNE-0003",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-015",
+      "signature": "Trace one stored microvolt-scale digital sample backward through amplifier, electrode, electrode-tissue interface, extracellular field, transmembrane current, channel states, and metabolically maintained ion gradients",
+      "domain": "biophysical measurement chain",
+      "first_lesson": "NNE-0003",
+      "reuse_purpose": null
     }
   ]
 }

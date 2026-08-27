@@ -20,3 +20,7 @@
 | `NNE-REF-014` | Anatomy and Physiology 2e — 13.2 The Central Nervous System | textbook | OpenStax | 2026-08-26 | — |
 | `NNE-REF-015` | Anatomy and Physiology 2e — Chapter 13 Review | textbook | OpenStax | 2026-08-26 | — |
 | `NNE-REF-016` | Neuroscience — Neural Systems | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-26 | — |
+| `NNE-REF-017` | Anatomy and Physiology 2e — 12.2 Nervous Tissue | textbook | OpenStax | 2026-08-27 | — |
+| `NNE-REF-018` | Anatomy and Physiology 2e — 12.4 The Action Potential | textbook | OpenStax | 2026-08-27 | — |
+| `NNE-REF-019` | Neuroscience — Channels and Transporters | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-020` | Biology 2e — 35.1 Neurons and Glial Cells | textbook | OpenStax | 2026-08-27 | — |

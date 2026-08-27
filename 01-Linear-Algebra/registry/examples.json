@@ -86,6 +86,34 @@
       "domain": "modeling contract",
       "first_lesson": "LA-0004",
       "reuse_purpose": "Separate algebraic validity from semantic validity in vector models."
+    },
+    {
+      "id": "LA-EX-013",
+      "signature": "Build two different net robot displacements from the same pair of movement primitives using positive and negative scalar coefficients",
+      "domain": "geometric linear combinations",
+      "first_lesson": "LA-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-014",
+      "signature": "Form a nonnegative sum-to-one mixture of two sensor signatures and separate algebraic validity from the physical assumption of approximately additive sensor response",
+      "domain": "weighted data mixtures",
+      "first_lesson": "LA-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-015",
+      "signature": "Contrast an average-like nonnegative sum-to-one mixture with a generic signed linear combination to show that linear-combination coefficients need not be probabilities",
+      "domain": "coefficient constraints",
+      "first_lesson": "LA-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-016",
+      "signature": "Solve a target-building coefficient problem, then compare it with parallel generators whose combinations remain on one line as preparation for span",
+      "domain": "target reachability and span preview",
+      "first_lesson": "LA-0005",
+      "reuse_purpose": null
     }
   ]
 }

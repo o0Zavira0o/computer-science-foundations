@@ -89,7 +89,7 @@
       "id": "LA-N-0005",
       "title": "Linear combinations and weighted mixtures",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0004"
       ],
@@ -103,7 +103,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0005"
     },
     {
       "id": "LA-N-0006",

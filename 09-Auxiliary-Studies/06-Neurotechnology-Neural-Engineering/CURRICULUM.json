@@ -62,7 +62,7 @@
       "id": "NNE-N-0003",
       "title": "Neurons, glia, membranes, and ions",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0002"
       ],
@@ -77,7 +77,7 @@
         }
       ],
       "branch": "neuroscience-foundations",
-      "lesson_id": null
+      "lesson_id": "NNE-0003"
     },
     {
       "id": "NNE-N-0004",

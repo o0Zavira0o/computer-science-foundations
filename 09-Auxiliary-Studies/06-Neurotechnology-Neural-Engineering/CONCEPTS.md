@@ -9,7 +9,7 @@
 | `NNE-C-0003` | Recording, modulation, restoration, and augmentation as distinct objectives | D1 | measure versus stimulate, read versus write neural activity |
 | `NNE-C-0004` | Neurotechnology tradeoff space | D1 | resolution-invasiveness tradeoff, neural interface design tradeoffs |
 | `NNE-C-0005` | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | D1 | — |
-| `NNE-C-0006` | Neurons, glia, membranes, and ions | — | — |
+| `NNE-C-0006` | Neurons, glia, membranes, and ions | D1 | — |
 | `NNE-C-0007` | Resting membrane potential and electrochemical gradients | — | — |
 | `NNE-C-0008` | Action potentials, thresholds, refractory periods, and propagation | — | — |
 | `NNE-C-0009` | Synapses, neurotransmitters, excitation, inhibition, and integration | — | — |

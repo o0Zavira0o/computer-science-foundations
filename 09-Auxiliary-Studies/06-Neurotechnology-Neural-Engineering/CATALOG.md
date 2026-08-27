@@ -6,3 +6,4 @@
 |---|---|---|---|---|---|
 | [`NNE-0001`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md) | What neurotechnology and neural engineering are actually studying | L0 | complete | `NNE-N-0001` | 2026-08-26 |
 | [`NNE-0002`](lessons/NNE-0002-map-of-the-nervous-system.md) | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | L0 | complete | `NNE-N-0002` | 2026-08-26 |
+| [`NNE-0003`](lessons/NNE-0003-neurons-glia-membranes-and-ions.md) | Neurons, glia, membranes, and ions | L0 | complete | `NNE-N-0003` | 2026-08-27 |
