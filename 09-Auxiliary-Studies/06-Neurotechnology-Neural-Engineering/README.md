@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0004 — Resting membrane potential and electrochemical gradients`](lessons/NNE-0004-resting-membrane-potential-and-electrochemical-gradients.md)
-- Next canonical lesson: `NNE-N-0005 — Action potentials, thresholds, refractory periods, and propagation`
+- Published through: [`NNE-0005 — Action potentials, thresholds, refractory periods, and propagation`](lessons/NNE-0005-action-potentials-thresholds-refractory-periods-and-propagation.md)
+- Next canonical lesson: `NNE-N-0006 — Synapses, neurotransmitters, excitation, inhibition, and integration`
 
 Publication state is not learner mastery.
 

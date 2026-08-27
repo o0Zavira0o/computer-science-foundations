@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 6
+- **Published lessons:** 7
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 20
+- **Examples:** 24
 - **References:** 15
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LA-N-0007` — Linear equations as constraints (L0, planned)
+- `LA-N-0008` — Systems of linear equations and solution sets (L0, planned)
 
 ## Learner next actions
 
@@ -48,6 +48,7 @@
 - `LA-0004` — Vector addition and scalar multiplication (L0, complete)
 - `LA-0005` — Linear combinations and weighted mixtures (L0, complete)
 - `LA-0006` — Span: what combinations can reach (L0, complete)
+- `LA-0007` — Linear equations as constraints (L0, complete)
 
 ## Normal-session retrieval rule
 

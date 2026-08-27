@@ -266,6 +266,50 @@
       "review_after": null,
       "version": "Basic Neurochemistry, 6th edition",
       "notes": "Used for the distinction between single-ion equilibrium and the multi-ion steady state of real cells, GHK permeability weighting, small charge movement, and the modest direct electrogenic contribution of the sodium-potassium pump."
+    },
+    {
+      "id": "NNE-REF-025",
+      "title": "Neuroscience — Voltage-Dependent Membrane Permeability",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11003/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Primary source for voltage-dependent Na and K permeability, threshold, regenerative depolarization, action-potential reconstruction, refractory dynamics, propagation, and myelination."
+    },
+    {
+      "id": "NNE-REF-026",
+      "title": "Neuroscience — Ion Channels Underlying Action Potentials",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK10841/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for the channel-level basis of voltage-dependent conductances underlying action potentials."
+    },
+    {
+      "id": "NNE-REF-027",
+      "title": "Neuroscience — The Refractory Period",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11146/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for Na-channel inactivation, persistent K conductance, firing-rate limitation, and directional propagation during refractoriness."
+    },
+    {
+      "id": "NNE-REF-028",
+      "title": "Neuroscience — Long-Distance Signaling and Increased Conduction Velocity with Myelination",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11107/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Source for passive local current plus active regeneration, conduction velocity, and saltatory propagation; paired with NCBI Bookshelf NBK10921 for myelination details."
     }
   ]
 }

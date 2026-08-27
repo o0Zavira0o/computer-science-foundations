@@ -11,7 +11,7 @@
 | `NNE-C-0005` | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | D1 | — |
 | `NNE-C-0006` | Neurons, glia, membranes, and ions | D1 | — |
 | `NNE-C-0007` | Resting membrane potential and electrochemical gradients | D1 | — |
-| `NNE-C-0008` | Action potentials, thresholds, refractory periods, and propagation | — | — |
+| `NNE-C-0008` | Action potentials, thresholds, refractory periods, and propagation | D1 | — |
 | `NNE-C-0009` | Synapses, neurotransmitters, excitation, inhibition, and integration | — | — |
 | `NNE-C-0010` | From single neurons to populations, circuits, systems, and behavior | — | — |
 | `NNE-C-0011` | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | — | — |

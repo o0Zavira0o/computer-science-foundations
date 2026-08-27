@@ -142,6 +142,41 @@
       "domain": "membrane-voltage measurement semantics",
       "first_lesson": "NNE-0004",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-021",
+      "signature": "Trace one action potential through local depolarization, threshold crossing, Na-driven upstroke, Na-channel inactivation, delayed K conductance, repolarization, afterhyperpolarization, and recovery",
+      "domain": "action-potential phase mechanism",
+      "first_lesson": "NNE-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-022",
+      "signature": "Compare passive subthreshold voltage decay with regenerative axonal propagation driven by local current spread and repeated threshold crossing",
+      "domain": "passive versus regenerative propagation",
+      "first_lesson": "NNE-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-023",
+      "signature": "Compare second stimuli arriving during absolute refractory, relative refractory, and recovered membrane states using channel availability rather than time labels alone",
+      "domain": "refractory-period history dependence",
+      "first_lesson": "NNE-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-024",
+      "signature": "Compare unmyelinated continuous regeneration with myelinated internodal passive spread and node-of-Ranvier regeneration to explain saltatory conduction",
+      "domain": "myelination and propagation",
+      "first_lesson": "NNE-0005",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-025",
+      "signature": "Compare intracellular and extracellular recordings of the same action potential to show why extracellular spikes are geometry-dependent current-field signatures rather than scaled intracellular waveforms",
+      "domain": "action-potential recording geometry",
+      "first_lesson": "NNE-0005",
+      "reuse_purpose": null
     }
   ]
 }

@@ -24,3 +24,7 @@
 | `LA-EX-018` | Compare two pairs of planar generators—one parallel and one nonparallel—to show how equal generator counts can produce a line versus the whole plane | geometric span classification | LA-0006 | — |
 | `LA-EX-019` | Decide target membership in a two-generator span by solving the coefficient equations and verifying the reconstructed target | span membership as solvability | LA-0006 | — |
 | `LA-EX-020` | Add a third signal-pattern generator equal to the sum of two existing generators to show that redundancy can preserve the span while destroying coefficient uniqueness | span redundancy and signal dictionaries | LA-0006 | — |
+| `LA-EX-021` | Interpret a two-variable budget equation as a line of allowed states and separate the algebraic solution set from application-specific integer or nonnegative restrictions | linear equation as constraint | LA-0007 | — |
+| `LA-EX-022` | Interpret one three-variable linear equality as a plane of valid states and show how extra nonnegativity conditions restrict the physically feasible subset | three-variable constraint geometry | LA-0007 | — |
+| `LA-EX-023` | Read the same linear equation as geometric line, budget relation, and fixed sensor measurement to separate algebraic structure from domain semantics | multiple interpretations of one constraint | LA-0007 | — |
+| `LA-EX-024` | Preview a two-equation system as intersection of two line constraints and solve one intersection point to prepare for solution-set classification | constraint intersection preview | LA-0007 | — |

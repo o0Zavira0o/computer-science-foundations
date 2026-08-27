@@ -10,7 +10,7 @@
 | `LA-C-0004` | Vector addition and scalar multiplication | D1 | — |
 | `LA-C-0005` | Linear combinations and weighted mixtures | D1 | — |
 | `LA-C-0006` | Span: what combinations can reach | D1 | — |
-| `LA-C-0007` | Linear equations as constraints | — | — |
+| `LA-C-0007` | Linear equations as constraints | D1 | — |
 | `LA-C-0008` | Systems of linear equations and solution sets | — | — |
 | `LA-C-0009` | Matrices as organized coefficients and operators | — | — |
 | `LA-C-0010` | Matrix-vector multiplication as a column combination | — | — |

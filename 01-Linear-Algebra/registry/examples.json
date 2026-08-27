@@ -142,6 +142,34 @@
       "domain": "span redundancy and signal dictionaries",
       "first_lesson": "LA-0006",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-021",
+      "signature": "Interpret a two-variable budget equation as a line of allowed states and separate the algebraic solution set from application-specific integer or nonnegative restrictions",
+      "domain": "linear equation as constraint",
+      "first_lesson": "LA-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-022",
+      "signature": "Interpret one three-variable linear equality as a plane of valid states and show how extra nonnegativity conditions restrict the physically feasible subset",
+      "domain": "three-variable constraint geometry",
+      "first_lesson": "LA-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-023",
+      "signature": "Read the same linear equation as geometric line, budget relation, and fixed sensor measurement to separate algebraic structure from domain semantics",
+      "domain": "multiple interpretations of one constraint",
+      "first_lesson": "LA-0007",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-024",
+      "signature": "Preview a two-equation system as intersection of two line constraints and solve one intersection point to prepare for solution-set classification",
+      "domain": "constraint intersection preview",
+      "first_lesson": "LA-0007",
+      "reuse_purpose": null
     }
   ]
 }

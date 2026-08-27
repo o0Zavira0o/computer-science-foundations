@@ -8,3 +8,4 @@
 | [`NNE-0002`](lessons/NNE-0002-map-of-the-nervous-system.md) | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | L0 | complete | `NNE-N-0002` | 2026-08-26 |
 | [`NNE-0003`](lessons/NNE-0003-neurons-glia-membranes-and-ions.md) | Neurons, glia, membranes, and ions | L0 | complete | `NNE-N-0003` | 2026-08-27 |
 | [`NNE-0004`](lessons/NNE-0004-resting-membrane-potential-and-electrochemical-gradients.md) | Resting membrane potential and electrochemical gradients | L0 | complete | `NNE-N-0004` | 2026-08-27 |
+| [`NNE-0005`](lessons/NNE-0005-action-potentials-thresholds-refractory-periods-and-propagation.md) | Action potentials, thresholds, refractory periods, and propagation | L0 | complete | `NNE-N-0005` | 2026-08-27 |

@@ -10,3 +10,4 @@
 | [`LA-0004`](lessons/LA-0004-vector-addition-and-scalar-multiplication.md) | Vector addition and scalar multiplication | L0 | complete | `LA-N-0004` | 2026-08-26 |
 | [`LA-0005`](lessons/LA-0005-linear-combinations-and-weighted-mixtures.md) | Linear combinations and weighted mixtures | L0 | complete | `LA-N-0005` | 2026-08-27 |
 | [`LA-0006`](lessons/LA-0006-span-what-combinations-can-reach.md) | Span: what combinations can reach | L0 | complete | `LA-N-0006` | 2026-08-27 |
+| [`LA-0007`](lessons/LA-0007-linear-equations-as-constraints.md) | Linear equations as constraints | L0 | complete | `LA-N-0007` | 2026-08-27 |

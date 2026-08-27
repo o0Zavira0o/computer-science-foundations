@@ -129,7 +129,7 @@
       "id": "LA-N-0007",
       "title": "Linear equations as constraints",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0002"
       ],
@@ -143,7 +143,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0007"
     },
     {
       "id": "LA-N-0008",

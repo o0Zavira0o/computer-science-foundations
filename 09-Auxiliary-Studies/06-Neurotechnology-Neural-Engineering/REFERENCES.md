@@ -28,3 +28,7 @@
 | `NNE-REF-022` | Neuroscience — The Forces that Create Membrane Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-023` | Neuroscience — The Ionic Basis of the Resting Membrane Potential | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-024` | Basic Neurochemistry — The Ionic Hypothesis and Rules of Ionic Electricity | textbook | Bertil Hille and William A. Catterall; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-025` | Neuroscience — Voltage-Dependent Membrane Permeability | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-026` | Neuroscience — Ion Channels Underlying Action Potentials | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-027` | Neuroscience — The Refractory Period | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-028` | Neuroscience — Long-Distance Signaling and Increased Conduction Velocity with Myelination | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-27 | — |
