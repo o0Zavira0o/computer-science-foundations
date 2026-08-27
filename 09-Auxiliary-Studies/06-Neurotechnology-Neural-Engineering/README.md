@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Next canonical lesson: `NNE-N-0002 — A map of the nervous system: CNS, PNS, cells, circuits, and behavior`
+- Published through: [`NNE-0002 — A map of the nervous system: CNS, PNS, cells, circuits, and behavior`](lessons/NNE-0002-map-of-the-nervous-system.md)
+- Next canonical lesson: `NNE-N-0003 — Neurons, glia, membranes, and ions`
 
 Publication state is not learner mastery.
 

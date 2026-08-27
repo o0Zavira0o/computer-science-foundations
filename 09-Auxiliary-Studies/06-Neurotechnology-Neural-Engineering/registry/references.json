@@ -134,6 +134,50 @@
       "review_after": "2027-02-26",
       "version": null,
       "notes": "Current translational program baseline for FDA-regulated invasive and noninvasive CNS technologies, including closed-loop sensing and stimulation."
+    },
+    {
+      "id": "NNE-REF-013",
+      "title": "Anatomy and Physiology 2e — 12.1 Basic Structure and Function of the Nervous System",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Anatomy and Physiology 2e",
+      "notes": "Primary L0 source for anatomical CNS/PNS divisions, sensation-integration-response, and somatic/autonomic/enteric functional organization."
+    },
+    {
+      "id": "NNE-REF-014",
+      "title": "Anatomy and Physiology 2e — 13.2 The Central Nervous System",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Anatomy and Physiology 2e",
+      "notes": "Foundation for the major adult brain regions and the spinal cord as both a communication pathway and an integration site."
+    },
+    {
+      "id": "NNE-REF-015",
+      "title": "Anatomy and Physiology 2e — Chapter 13 Review",
+      "type": "textbook",
+      "authority": "OpenStax",
+      "locator": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-chapter-review",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Anatomy and Physiology 2e",
+      "notes": "Compact source for peripheral nervous system structure, including ganglia, cranial/spinal nerves, and mixed sensory/motor fibers."
+    },
+    {
+      "id": "NNE-REF-016",
+      "title": "Neuroscience — Neural Systems",
+      "type": "textbook",
+      "authority": "Dale Purves et al.; NCBI Bookshelf",
+      "locator": "https://www.ncbi.nlm.nih.gov/books/NBK11061/",
+      "reviewed_at": "2026-08-26",
+      "review_after": null,
+      "version": "Neuroscience, 2nd edition",
+      "notes": "Foundational systems-neuroscience map linking CNS/PNS anatomy, sensory pathways, somatic motor output, autonomic output, and distributed neural systems."
     }
   ]
 }

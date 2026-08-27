@@ -41,7 +41,7 @@
       "id": "NNE-N-0002",
       "title": "A map of the nervous system: CNS, PNS, cells, circuits, and behavior",
       "level": "L0",
-      "status": "ready",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0001"
       ],
@@ -56,7 +56,7 @@
         }
       ],
       "branch": "neuroscience-foundations",
-      "lesson_id": null
+      "lesson_id": "NNE-0002"
     },
     {
       "id": "NNE-N-0003",

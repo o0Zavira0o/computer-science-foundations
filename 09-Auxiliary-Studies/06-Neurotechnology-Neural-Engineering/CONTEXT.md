@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 1
+- **Published lessons:** 2
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 5
-- **References:** 12
+- **Examples:** 10
+- **References:** 16
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0002` — A map of the nervous system: CNS, PNS, cells, circuits, and behavior (L0, ready)
+- `NNE-N-0003` — Neurons, glia, membranes, and ions (L0, planned)
 
 ## Learner next actions
 
@@ -43,6 +43,7 @@
 ## Recent lessons
 
 - `NNE-0001` — What neurotechnology and neural engineering are actually studying (L0, complete)
+- `NNE-0002` — A map of the nervous system: CNS, PNS, cells, circuits, and behavior (L0, complete)
 
 ## Normal-session retrieval rule
 

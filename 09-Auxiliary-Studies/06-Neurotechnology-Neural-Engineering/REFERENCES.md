@@ -16,3 +16,7 @@
 | `NNE-REF-010` | Brain-computer interfaces: Definitions and principles | survey-review | Jonathan R. Wolpaw, José del R. Millán, Nick F. Ramsey | 2026-08-26 | — |
 | `NNE-REF-011` | Standards and Guidances for Neurological Devices | official-documentation | U.S. Food and Drug Administration | 2026-08-26 | 2027-02-26 |
 | `NNE-REF-012` | Therapeutic Human Neuroscience Program | official-documentation | National Institutes of Health — BRAIN Initiative | 2026-08-26 | 2027-02-26 |
+| `NNE-REF-013` | Anatomy and Physiology 2e — 12.1 Basic Structure and Function of the Nervous System | textbook | OpenStax | 2026-08-26 | — |
+| `NNE-REF-014` | Anatomy and Physiology 2e — 13.2 The Central Nervous System | textbook | OpenStax | 2026-08-26 | — |
+| `NNE-REF-015` | Anatomy and Physiology 2e — Chapter 13 Review | textbook | OpenStax | 2026-08-26 | — |
+| `NNE-REF-016` | Neuroscience — Neural Systems | textbook | Dale Purves et al.; NCBI Bookshelf | 2026-08-26 | — |

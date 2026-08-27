@@ -37,6 +37,41 @@
       "domain": "neurotechnology system objectives",
       "first_lesson": "NNE-0001",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-006",
+      "signature": "Classify a fingertip sensory pathway simultaneously by anatomical location (PNS/CNS), information direction (afferent), and functional organization (somatic sensory)",
+      "domain": "nervous-system organization",
+      "first_lesson": "NNE-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-007",
+      "signature": "Map withdrawal from a hot surface through peripheral sensory input, spinal integration, somatic motor output, and ascending pathways to show that the spinal cord is not merely a relay cable",
+      "domain": "sensorimotor reflex circuits",
+      "first_lesson": "NNE-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-008",
+      "signature": "Compare cortex, spinal cord, peripheral nerve, and muscle as four possible interface locations for the same hand-movement restoration objective",
+      "domain": "neural-interface site selection",
+      "first_lesson": "NNE-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-009",
+      "signature": "Contrast somatic efferent control of wrist extension with autonomic efferent control of heart rate to separate efferent from voluntary",
+      "domain": "somatic and autonomic organization",
+      "first_lesson": "NNE-0002",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-010",
+      "signature": "Map a cochlear implant from external sound through encoded stimulation, auditory nerve activity, brainstem and higher CNS pathways, perception, and behavioral adaptation",
+      "domain": "sensory neuroprosthetic pathways",
+      "first_lesson": "NNE-0002",
+      "reuse_purpose": null
     }
   ]
 }

@@ -6,16 +6,16 @@
 - **Curriculum audit:** audited
 - **Total nodes:** 89
 - **Planned:** 87
-- **Ready:** 1
+- **Ready:** 0
 - **Drafting:** 0
-- **Published:** 1
+- **Published:** 2
 - **Deprecated:** 0
 
 ## Published by level
 
 | Level | Count |
 |---|---:|
-| L0 | 1 |
+| L0 | 2 |
 | L1 | 0 |
 | L2 | 0 |
 | L3 | 0 |

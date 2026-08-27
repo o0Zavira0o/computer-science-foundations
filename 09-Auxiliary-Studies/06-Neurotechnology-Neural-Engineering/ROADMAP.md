@@ -13,7 +13,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | Node | Title | Status | Prerequisites | Lesson |
 |---|---|---|---|---|
 | `NNE-N-0001` | What neurotechnology and neural engineering are actually studying | published | — | NNE-0001 |
-| `NNE-N-0002` | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | ready | NNE-N-0001 | — |
+| `NNE-N-0002` | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | published | NNE-N-0001 | NNE-0002 |
 | `NNE-N-0003` | Neurons, glia, membranes, and ions | planned | NNE-N-0002 | — |
 | `NNE-N-0004` | Resting membrane potential and electrochemical gradients | planned | NNE-N-0003 | — |
 | `NNE-N-0005` | Action potentials, thresholds, refractory periods, and propagation | planned | NNE-N-0004 | — |
