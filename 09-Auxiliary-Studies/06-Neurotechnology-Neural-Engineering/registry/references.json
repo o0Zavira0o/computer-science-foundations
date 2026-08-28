@@ -486,6 +486,61 @@
       "review_after": null,
       "version": "Brain Research Bulletin 119(Pt B), 106–117 (2015); DOI 10.1016/j.brainresbull.2015.04.007",
       "notes": "Review source for extracellular mixture interpretation, event detection and spike sorting as an inferential processing stage with validation limits."
+    },
+    {
+      "id": "NNE-REF-045",
+      "title": "Neural stimulation and recording electrodes",
+      "type": "survey-review",
+      "authority": "Stuart F. Cogan; Annual Review of Biomedical Engineering",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/18429704/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Annual Review of Biomedical Engineering 10, 275–309 (2008); DOI 10.1146/annurev.bioeng.10.061807.160518",
+      "notes": "Foundational source for stimulation-electrode charge transfer, electrode materials, interface behavior, and stimulation safety considerations."
+    },
+    {
+      "id": "NNE-REF-046",
+      "title": "Transcranial magnetic stimulation: a primer",
+      "type": "survey-review",
+      "authority": "Mark Hallett; Neuron",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/17640522/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Neuron 55(2), 187–199 (2007); DOI 10.1016/j.neuron.2007.06.026",
+      "notes": "Review source for the TMS chain from brief high-current coil drive through magnetic stimulation and induced cortical electric fields to neural effects."
+    },
+    {
+      "id": "NNE-REF-047",
+      "title": "Mechanisms of deep brain stimulation",
+      "type": "survey-review",
+      "authority": "Todd M. Herrington, Jennifer J. Cheng, and Emad N. Eskandar; Journal of Neurophysiology",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4760496/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neurophysiology 115(1), 19–38 (2016); DOI 10.1152/jn.00281.2015",
+      "notes": "Review source for local, axonal, synaptic, oscillatory, and network-level DBS effects and the limits of a single excitation-or-inhibition mechanism."
+    },
+    {
+      "id": "NNE-REF-048",
+      "title": "Transcranial Focused Ultrasound (tFUS) and Transcranial Unfocused Ultrasound (tUS) Neuromodulation: From Theoretical Principles to Stimulation Practices",
+      "type": "survey-review",
+      "authority": "Lazzaro di Biase, Emma Falato, and Vincenzo Di Lazzaro; Frontiers in Neurology",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6579808/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Frontiers in Neurology 10, 549 (2019); DOI 10.3389/fneur.2019.00549",
+      "notes": "Review source for ultrasound neuromodulation physics, stimulation parameters, targeting, reported effects, safety considerations, and mechanism uncertainty."
+    },
+    {
+      "id": "NNE-REF-049",
+      "title": "Cochlear Implantation: An Overview",
+      "type": "survey-review",
+      "authority": "Nicholas L. Deep, Eric M. Dowling, Daniel Jethanamest, and Matthew L. Carlson; Journal of Neurological Surgery Part B: Skull Base",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6438790/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neurological Surgery Part B: Skull Base 80(2), 169–177 (2019); DOI 10.1055/s-0038-1669411",
+      "notes": "Clinical overview supporting the cochlear-implant chain from acoustic input and signal processing to encoded electrical stimulation of surviving auditory neural elements."
     }
   ]
 }

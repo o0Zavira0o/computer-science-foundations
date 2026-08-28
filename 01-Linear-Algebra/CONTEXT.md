@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 11
+- **Published lessons:** 12
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 40
+- **Examples:** 44
 - **References:** 15
 
 ## Learner state
@@ -33,7 +33,6 @@
 
 ## Authoring candidates
 
-- `LA-N-0012` — Pivots, free variables, and the geometry of solutions (L0, planned)
 - `LA-N-0013` — Linear transformations in the plane (L0, planned)
 
 ## Learner next actions
@@ -43,7 +42,6 @@
 
 ## Recent lessons
 
-- `LA-0004` — Vector addition and scalar multiplication (L0, complete)
 - `LA-0005` — Linear combinations and weighted mixtures (L0, complete)
 - `LA-0006` — Span: what combinations can reach (L0, complete)
 - `LA-0007` — Linear equations as constraints (L0, complete)
@@ -51,6 +49,7 @@
 - `LA-0009` — Matrices as organized coefficients and operators (L0, complete)
 - `LA-0010` — Matrix-vector multiplication as a column combination (L0, complete)
 - `LA-0011` — Elimination: changing equations without changing solutions (L0, complete)
+- `LA-0012` — Pivots, free variables, and the geometry of solutions (L0, complete)
 
 ## Normal-session retrieval rule
 

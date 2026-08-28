@@ -15,3 +15,4 @@
 | [`LA-0009`](lessons/LA-0009-matrices-as-organized-coefficients-and-operators.md) | Matrices as organized coefficients and operators | L0 | complete | `LA-N-0009` | 2026-08-27 |
 | [`LA-0010`](lessons/LA-0010-matrix-vector-multiplication-as-a-column-combination.md) | Matrix-vector multiplication as a column combination | L0 | complete | `LA-N-0010` | 2026-08-27 |
 | [`LA-0011`](lessons/LA-0011-elimination-changing-equations-without-changing-solutions.md) | Elimination: changing equations without changing solutions | L0 | complete | `LA-N-0011` | 2026-08-27 |
+| [`LA-0012`](lessons/LA-0012-pivots-free-variables-and-the-geometry-of-solutions.md) | Pivots, free variables, and the geometry of solutions | L0 | complete | `LA-N-0012` | 2026-08-28 |

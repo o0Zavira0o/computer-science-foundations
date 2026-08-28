@@ -282,6 +282,34 @@
       "domain": "elimination in calibration",
       "first_lesson": "LA-0011",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-041",
+      "signature": "Compare three echelon-form systems with the same three variables to classify unique, one-parameter, and inconsistent solution structures from pivots, free variables, and contradiction rows",
+      "domain": "pivot and free-variable classification",
+      "first_lesson": "LA-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-042",
+      "signature": "Parameterize a consistent three-variable system with one free variable and rewrite the solution as one particular point plus a direction vector to expose line geometry",
+      "domain": "one-free-variable solution geometry",
+      "first_lesson": "LA-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-043",
+      "signature": "Parameterize one linear equation in three variables with two free parameters and write the full solution as a particular point plus two independent directions",
+      "domain": "two-free-variable solution geometry",
+      "first_lesson": "LA-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-044",
+      "signature": "Interpret a three-parameter sensor calibration model with only two independent constraints as a one-parameter family, showing how a free variable represents structural non-identifiability",
+      "domain": "free variables in engineering calibration",
+      "first_lesson": "LA-0012",
+      "reuse_purpose": null
     }
   ]
 }

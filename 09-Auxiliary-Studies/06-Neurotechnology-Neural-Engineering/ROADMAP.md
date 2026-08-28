@@ -21,7 +21,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `NNE-N-0007` | From single neurons to populations, circuits, systems, and behavior | published | NNE-N-0006 | NNE-0007 |
 | `NNE-N-0008` | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | published | NNE-N-0007 | NNE-0008 |
 | `NNE-N-0009` | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | published | NNE-N-0008 | NNE-0009 |
-| `NNE-N-0010` | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | planned | NNE-N-0009 | — |
+| `NNE-N-0010` | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | published | NNE-N-0009 | NNE-0010 |
 | `NNE-N-0011` | Open-loop and closed-loop neural systems | planned | NNE-N-0010 | — |
 | `NNE-N-0012` | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | planned | NNE-N-0011 | — |
 

@@ -5,7 +5,7 @@
   "repository_phase": "active-multi-track-learning",
   "active_track": null,
   "last_completed_lesson": null,
-  "next_planned_item": "Continue public-first authoring through audited curriculum graphs. Current publication frontiers after this transaction: LA-0011, LNX-0010, GER-0001, LLM-0005, PHL-0004, FUS-0004, PWR-0004, and NNE-0009. Use per-track graph state for exact next authoring candidates.",
+  "next_planned_item": "Continue public-first authoring through audited curriculum graphs. Current publication frontiers after this transaction: LA-0012, LNX-0010, GER-0001, LLM-0005, PHL-0004, FUS-0004, PWR-0004, and NNE-0010. Use per-track graph state for exact next authoring candidates.",
   "legacy_linux_policy": "Do not silently reuse removed legacy lessons; salvage only after explicit review.",
   "persistent_decisions": [
     "Repository filenames, structural documentation, and educational content are written in English.",

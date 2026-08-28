@@ -231,7 +231,7 @@
       "id": "LA-N-0012",
       "title": "Pivots, free variables, and the geometry of solutions",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0011"
       ],
@@ -245,7 +245,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0012"
     },
     {
       "id": "LA-N-0013",

@@ -209,7 +209,7 @@
       "id": "NNE-N-0010",
       "title": "The neural modulation chain: stimulus, field or actuator, target, response, and side effects",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0009"
       ],
@@ -224,7 +224,7 @@
         }
       ],
       "branch": "modulation-foundations",
-      "lesson_id": null
+      "lesson_id": "NNE-0010"
     },
     {
       "id": "NNE-N-0011",

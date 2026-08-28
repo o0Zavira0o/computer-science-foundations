@@ -48,3 +48,8 @@
 | `NNE-REF-042` | Implantable neurotechnologies: a review of integrated circuit neural amplifiers | survey-review | Kian Ann Ng, Elliot Greenwald, Yong Ping Xu, and Nitish V. Thakor; Medical & Biological Engineering & Computing | 2026-08-27 | — |
 | `NNE-REF-043` | Multi-Channel Neural Recording Implants: A Review | survey-review | Fereidoon Hashemi Noshahr, Morteza Nabavi, and Mohamad Sawan; Sensors | 2026-08-27 | — |
 | `NNE-REF-044` | Past, present and future of spike sorting techniques | survey-review | Hernan Gonzalo Rey, Carlos Pedreira, and Rodrigo Quian Quiroga; Brain Research Bulletin | 2026-08-27 | — |
+| `NNE-REF-045` | Neural stimulation and recording electrodes | survey-review | Stuart F. Cogan; Annual Review of Biomedical Engineering | 2026-08-28 | — |
+| `NNE-REF-046` | Transcranial magnetic stimulation: a primer | survey-review | Mark Hallett; Neuron | 2026-08-28 | — |
+| `NNE-REF-047` | Mechanisms of deep brain stimulation | survey-review | Todd M. Herrington, Jennifer J. Cheng, and Emad N. Eskandar; Journal of Neurophysiology | 2026-08-28 | — |
+| `NNE-REF-048` | Transcranial Focused Ultrasound (tFUS) and Transcranial Unfocused Ultrasound (tUS) Neuromodulation: From Theoretical Principles to Stimulation Practices | survey-review | Lazzaro di Biase, Emma Falato, and Vincenzo Di Lazzaro; Frontiers in Neurology | 2026-08-28 | — |
+| `NNE-REF-049` | Cochlear Implantation: An Overview | survey-review | Nicholas L. Deep, Eric M. Dowling, Daniel Jethanamest, and Matthew L. Carlson; Journal of Neurological Surgery Part B: Skull Base | 2026-08-28 | — |

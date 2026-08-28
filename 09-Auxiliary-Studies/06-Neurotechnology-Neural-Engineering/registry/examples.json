@@ -317,6 +317,34 @@
       "domain": "calibration versus end-to-end validation",
       "first_lesson": "NNE-0009",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-046",
+      "signature": "Trace deep brain stimulation from therapeutic goal and programmed pulse parameters through electrode-tissue charge transfer, electric field, neural recruitment, network response, desired clinical effect, and side-effect pathways",
+      "domain": "end-to-end deep brain stimulation modulation chain",
+      "first_lesson": "NNE-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-047",
+      "signature": "Trace one TMS pulse from coil current through magnetic field and induced cortical electric field to neural response and a downstream motor-evoked measurement, separating actuator, field, biology, and measurement",
+      "domain": "TMS actuator-field-response separation",
+      "first_lesson": "NNE-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-048",
+      "signature": "Compare two electrode contacts receiving the same programmed stimulation amplitude but producing different neural recruitment because of distance, orientation, and local tissue geometry",
+      "domain": "device command versus biological recruitment",
+      "first_lesson": "NNE-0010",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-049",
+      "signature": "Trace focused ultrasound from electrical drive and transducer through acoustic field and tissue transmission to measured neural effect while separating observed effect from uncertain microscopic mechanism",
+      "domain": "focused ultrasound modulation chain and mechanism uncertainty",
+      "first_lesson": "NNE-0010",
+      "reuse_purpose": null
     }
   ]
 }
