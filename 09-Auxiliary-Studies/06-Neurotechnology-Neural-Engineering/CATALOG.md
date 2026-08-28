@@ -16,3 +16,4 @@
 | [`NNE-0010`](lessons/NNE-0010-the-neural-modulation-chain-stimulus-field-or-actuator-target-response-and-side-effects.md) | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | L0 | complete | `NNE-N-0010` | 2026-08-28 |
 | [`NNE-0011`](lessons/NNE-0011-open-loop-and-closed-loop-neural-systems.md) | Open-loop and closed-loop neural systems | L0 | complete | `NNE-N-0011` | 2026-08-28 |
 | [`NNE-0012`](lessons/NNE-0012-resolution-selectivity-bandwidth-invasiveness-stability-and-safety-as-coupled-tradeoffs.md) | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | L0 | complete | `NNE-N-0012` | 2026-08-28 |
+| [`NNE-0013`](lessons/NNE-0013-the-electrode-tissue-interface-charge-transfer-impedance-and-what-an-electrode-actually-senses.md) | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | L1 | complete | `NNE-N-0013` | 2026-08-28 |

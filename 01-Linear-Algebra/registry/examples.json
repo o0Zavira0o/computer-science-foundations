@@ -380,6 +380,41 @@
       "domain": "rectangular matrix composition and dimension compatibility",
       "first_lesson": "LA-0014",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-055",
+      "signature": "Undo a horizontal shear with the opposite shear and verify both matrix-product orders equal identity, making a two-sided inverse a reversible transformation rather than a symbolic recipe",
+      "domain": "reversible shear and two-sided matrix inverse",
+      "first_lesson": "LA-0015",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-056",
+      "signature": "Use projection onto the x-axis to map two distinct planar inputs to the same output and prove that information collapse makes an inverse impossible",
+      "domain": "projection as irreversible information loss",
+      "first_lesson": "LA-0015",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-057",
+      "signature": "Analyze a square matrix with dependent rows and a nonzero input mapped to zero to connect missing pivots, free-variable ambiguity, geometric collapse, and non-invertibility",
+      "domain": "square singular matrix and lost input direction",
+      "first_lesson": "LA-0015",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-058",
+      "signature": "Solve one triangular two-by-two system by elimination and by an explicitly reasoned inverse to connect reversible transformation, unique solvability, and the reusable solution rule x equals A inverse b",
+      "domain": "inverse action and unique solution of a linear system",
+      "first_lesson": "LA-0015",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-059",
+      "signature": "Reverse a scale-then-shear graphics pipeline by undoing the shear before the scale to derive that the inverse of AB is B inverse A inverse",
+      "domain": "inverse of a composed transformation and order reversal",
+      "first_lesson": "LA-0015",
+      "reuse_purpose": null
     }
   ]
 }

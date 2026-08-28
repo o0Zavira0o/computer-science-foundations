@@ -293,7 +293,7 @@
       "id": "LA-N-0015",
       "title": "Invertibility as reversible linear action",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0011",
         "LA-N-0014"
@@ -308,7 +308,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0015"
     },
     {
       "id": "LA-N-0016",

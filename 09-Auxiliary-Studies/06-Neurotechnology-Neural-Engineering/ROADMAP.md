@@ -29,7 +29,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 
 | Node | Title | Status | Prerequisites | Lesson |
 |---|---|---|---|---|
-| `NNE-N-0013` | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | planned | NNE-N-0012 | — |
+| `NNE-N-0013` | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | published | NNE-N-0012 | NNE-0013 |
 | `NNE-N-0014` | Intracellular recording and patch clamp as a window into membrane voltage and currents | planned | NNE-N-0013 | — |
 | `NNE-N-0015` | Extracellular spikes, multi-unit activity, and local field potentials | planned | NNE-N-0014 | — |
 | `NNE-N-0016` | Microelectrode arrays and high-channel-count invasive recording | planned | NNE-N-0015 | — |

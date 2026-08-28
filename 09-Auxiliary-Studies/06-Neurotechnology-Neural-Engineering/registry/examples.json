@@ -408,6 +408,41 @@
       "domain": "mission-dependent multi-objective interface selection",
       "first_lesson": "NNE-0012",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-059",
+      "signature": "Use a simplified frequency-dependent electrode-headstage voltage divider to show how non-negligible electrode impedance can attenuate and phase-distort different neural frequency components before digitization",
+      "domain": "electrode impedance and recording transfer function",
+      "first_lesson": "NNE-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-060",
+      "signature": "Compare a smaller recording site with a larger site to connect local spatial access to higher interface impedance, amplifier loading, thermal-noise contribution, and usable recording bandwidth",
+      "domain": "recording site area impedance noise tradeoff",
+      "first_lesson": "NNE-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-061",
+      "signature": "Calculate charge per phase and nominal geometric charge density for a rectangular stimulation pulse while explicitly separating the calculation from any universal electrochemical or tissue safety threshold",
+      "domain": "stimulation charge per phase and charge density",
+      "first_lesson": "NNE-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-062",
+      "signature": "Interpret a chronic increase in single-frequency electrode impedance as a diagnostic interface change without treating it as a unique causal explanation or a direct substitute for neural yield and task performance",
+      "domain": "impedance spectroscopy proxy versus neural performance endpoint",
+      "first_lesson": "NNE-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-063",
+      "signature": "Move the reference in a differential extracellular recording to show that the observed waveform depends on both signal and reference potentials and their electrode interfaces rather than on one signal electrode alone",
+      "domain": "reference placement and differential neural voltage measurement",
+      "first_lesson": "NNE-0013",
+      "reuse_purpose": null
     }
   ]
 }

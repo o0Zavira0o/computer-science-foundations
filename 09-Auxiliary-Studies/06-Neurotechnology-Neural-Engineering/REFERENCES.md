@@ -61,3 +61,5 @@
 | `NNE-REF-055` | Response of brain tissue to chronically implanted neural electrodes | survey-review | Vadim S. Polikov, Patrick A. Tresco, and William M. Reichert; Journal of Neuroscience Methods | 2026-08-28 | — |
 | `NNE-REF-056` | A Materials Roadmap to Functional Neural Interface Design | survey-review | Steven M. Wellman et al.; Advanced Functional Materials | 2026-08-28 | — |
 | `NNE-REF-057` | Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates | primary-paper | James C. Barrese et al.; Journal of Neural Engineering | 2026-08-28 | — |
+| `NNE-REF-058` | Impedance characterization and modeling of electrodes for biomedical applications | primary-paper | Wendy Franks, Iwan Schenker, Patrik Schmutz, and Andreas Hierlemann; IEEE Transactions on Biomedical Engineering | 2026-08-28 | — |
+| `NNE-REF-059` | Review of signal distortion through metal microelectrode recording circuits and filters | survey-review | Matthew J. Nelson, Pierre Pouget, Erik A. Nilsen, Craig D. Patten, and Jeffrey D. Schall; Journal of Neuroscience Methods | 2026-08-28 | — |

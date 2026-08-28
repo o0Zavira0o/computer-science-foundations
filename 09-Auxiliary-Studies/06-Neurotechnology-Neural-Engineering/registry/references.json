@@ -629,6 +629,28 @@
       "review_after": null,
       "version": "Journal of Neural Engineering 10(6), 066014 (2013); DOI 10.1088/1741-2560/10/6/066014",
       "notes": "Primary chronic-array study supporting the distinction between acute interface performance and long-term useful stability across biological, material, mechanical, and unknown failure modes."
+    },
+    {
+      "id": "NNE-REF-058",
+      "title": "Impedance characterization and modeling of electrodes for biomedical applications",
+      "type": "primary-paper",
+      "authority": "Wendy Franks, Iwan Schenker, Patrik Schmutz, and Andreas Hierlemann; IEEE Transactions on Biomedical Engineering",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/16041993/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "IEEE Transactions on Biomedical Engineering 52(7), 1295–1302 (2005); DOI 10.1109/TBME.2005.847523",
+      "notes": "Primary electrochemical-impedance study validating a biomedical electrode model with interface capacitance, charge-transfer resistance, and solution resistance across materials and electrode sizes."
+    },
+    {
+      "id": "NNE-REF-059",
+      "title": "Review of signal distortion through metal microelectrode recording circuits and filters",
+      "type": "survey-review",
+      "authority": "Matthew J. Nelson, Pierre Pouget, Erik A. Nilsen, Craig D. Patten, and Jeffrey D. Schall; Journal of Neuroscience Methods",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/18242715/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neuroscience Methods 169(1), 141–157 (2008); DOI 10.1016/j.jneumeth.2007.12.010",
+      "notes": "Review and experimental circuit-analysis source showing frequency-dependent attenuation and phase distortion when microelectrode impedance is not negligible relative to amplifier input impedance and downstream filters."
     }
   ]
 }

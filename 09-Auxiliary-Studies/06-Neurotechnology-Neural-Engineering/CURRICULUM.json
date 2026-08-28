@@ -272,7 +272,7 @@
       "id": "NNE-N-0013",
       "title": "The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0012"
       ],
@@ -287,7 +287,7 @@
         }
       ],
       "branch": "neural-recording",
-      "lesson_id": null
+      "lesson_id": "NNE-0013"
     },
     {
       "id": "NNE-N-0014",
