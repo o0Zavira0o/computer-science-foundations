@@ -310,6 +310,41 @@
       "domain": "free variables in engineering calibration",
       "first_lesson": "LA-0012",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-045",
+      "signature": "Compare a rotation-like origin-preserving rule with translation and use the origin plus addition/scalar tests to separate linear transformations from general geometric transformations",
+      "domain": "linearity boundary in planar transformations",
+      "first_lesson": "LA-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-046",
+      "signature": "Apply a diagonal two-by-two matrix that doubles horizontal components and halves vertical components, interpreting its columns and the resulting square-to-rectangle deformation",
+      "domain": "nonuniform planar scaling",
+      "first_lesson": "LA-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-047",
+      "signature": "Compare reflection across the x-axis with projection onto the x-axis to show that both are linear while only projection collapses distinct inputs and loses information",
+      "domain": "reflection versus projection",
+      "first_lesson": "LA-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-048",
+      "signature": "Use the ninety-degree rotation matrix to map the two coordinate directions and then predict the rotated output of an arbitrary planar vector from the matrix columns",
+      "domain": "planar rotation from basis-direction images",
+      "first_lesson": "LA-0013",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-049",
+      "signature": "Use a horizontal shear matrix and the transformed coordinate directions to send a square to a parallelogram and compute an arbitrary output as a column combination",
+      "domain": "planar shear and column geometry",
+      "first_lesson": "LA-0013",
+      "reuse_purpose": null
     }
   ]
 }

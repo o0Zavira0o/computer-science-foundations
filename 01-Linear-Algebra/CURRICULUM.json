@@ -251,7 +251,7 @@
       "id": "LA-N-0013",
       "title": "Linear transformations in the plane",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0004",
         "LA-N-0009"
@@ -266,7 +266,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0013"
     },
     {
       "id": "LA-N-0014",

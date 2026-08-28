@@ -16,7 +16,7 @@
 | `LA-C-0010` | Matrix-vector multiplication as a column combination | D1 | — |
 | `LA-C-0011` | Elimination: changing equations without changing solutions | D1 | — |
 | `LA-C-0012` | Pivots, free variables, and the geometry of solutions | D1 | — |
-| `LA-C-0013` | Linear transformations in the plane | — | — |
+| `LA-C-0013` | Linear transformations in the plane | D1 | — |
 | `LA-C-0014` | Composition and matrix multiplication | — | — |
 | `LA-C-0015` | Invertibility as reversible linear action | — | — |
 | `LA-C-0016` | L0 synthesis: solve, transform, and explain one problem three ways | — | — |

@@ -230,7 +230,7 @@
       "id": "NNE-N-0011",
       "title": "Open-loop and closed-loop neural systems",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0010"
       ],
@@ -245,7 +245,7 @@
         }
       ],
       "branch": "systems-map",
-      "lesson_id": null
+      "lesson_id": "NNE-0011"
     },
     {
       "id": "NNE-N-0012",

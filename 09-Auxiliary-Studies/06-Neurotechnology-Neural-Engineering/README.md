@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0010 — The neural modulation chain: stimulus, field or actuator, target, response, and side effects`](lessons/NNE-0010-the-neural-modulation-chain-stimulus-field-or-actuator-target-response-and-side-effects.md)
-- Next canonical lesson: `NNE-N-0011 — Open-loop and closed-loop neural systems`
+- Published through: [`NNE-0011 — Open-loop and closed-loop neural systems`](lessons/NNE-0011-open-loop-and-closed-loop-neural-systems.md)
+- Next canonical lesson: `NNE-N-0012 — Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs`
 
 Publication state is not learner mastery.
 

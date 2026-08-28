@@ -53,3 +53,6 @@
 | `NNE-REF-047` | Mechanisms of deep brain stimulation | survey-review | Todd M. Herrington, Jennifer J. Cheng, and Emad N. Eskandar; Journal of Neurophysiology | 2026-08-28 | — |
 | `NNE-REF-048` | Transcranial Focused Ultrasound (tFUS) and Transcranial Unfocused Ultrasound (tUS) Neuromodulation: From Theoretical Principles to Stimulation Practices | survey-review | Lazzaro di Biase, Emma Falato, and Vincenzo Di Lazzaro; Frontiers in Neurology | 2026-08-28 | — |
 | `NNE-REF-049` | Cochlear Implantation: An Overview | survey-review | Nicholas L. Deep, Eric M. Dowling, Daniel Jethanamest, and Matthew L. Carlson; Journal of Neurological Surgery Part B: Skull Base | 2026-08-28 | — |
+| `NNE-REF-050` | Adaptive deep brain stimulation in advanced Parkinson disease | primary-paper | Simon Little et al.; Annals of Neurology | 2026-08-28 | — |
+| `NNE-REF-051` | Long-term treatment with responsive brain stimulation in adults with refractory partial seizures | primary-paper | Gregory K. Bergey et al.; Neurology | 2026-08-28 | — |
+| `NNE-REF-052` | Long-term wireless streaming of neural recordings for circuit discovery and adaptive stimulation in individuals with Parkinson's disease | primary-paper | Ro'ee Gilron et al.; Nature Biotechnology | 2026-08-28 | — |

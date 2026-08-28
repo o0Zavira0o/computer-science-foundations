@@ -345,6 +345,34 @@
       "domain": "focused ultrasound modulation chain and mechanism uncertainty",
       "first_lesson": "NNE-0010",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-050",
+      "signature": "Compare fixed open-loop DBS with adaptive DBS that senses a neural biomarker and uses it to modify later stimulation, explicitly labeling plant, sensor, estimate, controller, actuator, and feedback path",
+      "domain": "open-loop versus adaptive deep brain stimulation",
+      "first_lesson": "NNE-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-051",
+      "signature": "Trace responsive neurostimulation for epilepsy from intracranial sensing through programmed electrocorticographic pattern detection to responsive stimulation and continued sensing",
+      "domain": "responsive closed-loop epilepsy stimulation",
+      "first_lesson": "NNE-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-052",
+      "signature": "Show how stimulation artifact can contaminate the sensed biomarker, trigger a false controller decision, and feed back into stronger actuation unless sensing, artifact handling, and safety constraints break the loop",
+      "domain": "closed-loop artifact feedback failure",
+      "first_lesson": "NNE-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-053",
+      "signature": "Budget a 50-millisecond assistive-BCI feedback cycle across feature window, decoding, communication, rendering, and timing margin to show that a locally improved measurement can violate end-to-end latency",
+      "domain": "closed-loop latency budget",
+      "first_lesson": "NNE-0011",
+      "reuse_purpose": null
     }
   ]
 }

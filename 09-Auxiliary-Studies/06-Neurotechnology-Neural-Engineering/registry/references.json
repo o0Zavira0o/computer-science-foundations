@@ -541,6 +541,39 @@
       "review_after": null,
       "version": "Journal of Neurological Surgery Part B: Skull Base 80(2), 169–177 (2019); DOI 10.1055/s-0038-1669411",
       "notes": "Clinical overview supporting the cochlear-implant chain from acoustic input and signal processing to encoded electrical stimulation of surviving auditory neural elements."
+    },
+    {
+      "id": "NNE-REF-050",
+      "title": "Adaptive deep brain stimulation in advanced Parkinson disease",
+      "type": "primary-paper",
+      "authority": "Simon Little et al.; Annals of Neurology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/23852650/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Annals of Neurology 74(3), 449–457 (2013); DOI 10.1002/ana.23951",
+      "notes": "Primary human study demonstrating adaptive DBS in which a neural biomarker was used to control stimulation rather than applying one fixed stimulation command continuously."
+    },
+    {
+      "id": "NNE-REF-051",
+      "title": "Long-term treatment with responsive brain stimulation in adults with refractory partial seizures",
+      "type": "primary-paper",
+      "authority": "Gregory K. Bergey et al.; Neurology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/25616485/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Neurology 84(8), 810–817 (2015); DOI 10.1212/WNL.0000000000001280",
+      "notes": "Long-term clinical evidence for responsive direct neurostimulation that detects programmed electrocorticographic patterns and delivers stimulation to seizure foci."
+    },
+    {
+      "id": "NNE-REF-052",
+      "title": "Long-term wireless streaming of neural recordings for circuit discovery and adaptive stimulation in individuals with Parkinson's disease",
+      "type": "primary-paper",
+      "authority": "Ro'ee Gilron et al.; Nature Biotechnology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/33941932/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Nature Biotechnology 39(9), 1078–1085 (2021); DOI 10.1038/s41587-021-00897-5",
+      "notes": "Human chronic neural-streaming study linking individualized biomarkers with adaptive DBS and illustrating real-world sensing, decoding, and feedback constraints."
     }
   ]
 }

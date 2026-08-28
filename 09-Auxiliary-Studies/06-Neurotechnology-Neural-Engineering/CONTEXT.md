@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 10
+- **Published lessons:** 11
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 49
-- **References:** 49
+- **Examples:** 53
+- **References:** 52
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0011` — Open-loop and closed-loop neural systems (L0, planned)
+- `NNE-N-0012` — Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs (L0, planned)
 
 ## Learner next actions
 
@@ -42,7 +42,6 @@
 
 ## Recent lessons
 
-- `NNE-0003` — Neurons, glia, membranes, and ions (L0, complete)
 - `NNE-0004` — Resting membrane potential and electrochemical gradients (L0, complete)
 - `NNE-0005` — Action potentials, thresholds, refractory periods, and propagation (L0, complete)
 - `NNE-0006` — Synapses, neurotransmitters, excitation, inhibition, and integration (L0, complete)
@@ -50,6 +49,7 @@
 - `NNE-0008` — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics (L0, complete)
 - `NNE-0009` — The neural measurement chain: source, tissue, sensor, electronics, data, and inference (L0, complete)
 - `NNE-0010` — The neural modulation chain: stimulus, field or actuator, target, response, and side effects (L0, complete)
+- `NNE-0011` — Open-loop and closed-loop neural systems (L0, complete)
 
 ## Normal-session retrieval rule
 
