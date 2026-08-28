@@ -574,6 +574,61 @@
       "review_after": null,
       "version": "Nature Biotechnology 39(9), 1078–1085 (2021); DOI 10.1038/s41587-021-00897-5",
       "notes": "Human chronic neural-streaming study linking individualized biomarkers with adaptive DBS and illustrating real-world sensing, decoding, and feedback constraints."
+    },
+    {
+      "id": "NNE-REF-053",
+      "title": "The Science of Neural Interface Systems",
+      "type": "survey-review",
+      "authority": "Nicholas G. Hatsopoulos and John P. Donoghue; Annual Review of Neuroscience",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/19400719/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Annual Review of Neuroscience 32, 249–266 (2009); DOI 10.1146/annurev.neuro.051508.135241",
+      "notes": "Review source for neural-interface systems, recording approaches, decoding, and the systems-level relationship between interface capability and application requirements."
+    },
+    {
+      "id": "NNE-REF-054",
+      "title": "Electrical stimulation of excitable tissue: design of efficacious and safe protocols",
+      "type": "survey-review",
+      "authority": "Daniel R. Merrill, Marom Bikson, and John G. R. Jefferys; Journal of Neuroscience Methods",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/15661300/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neuroscience Methods 141(2), 171–198 (2005); DOI 10.1016/j.jneumeth.2004.10.020",
+      "notes": "Invited review supporting the separation of stimulation efficacy from safety and the dependence of charge injection and damage risk on electrodes, waveforms, materials, and tissue."
+    },
+    {
+      "id": "NNE-REF-055",
+      "title": "Response of brain tissue to chronically implanted neural electrodes",
+      "type": "survey-review",
+      "authority": "Vadim S. Polikov, Patrick A. Tresco, and William M. Reichert; Journal of Neuroscience Methods",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/16198003/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neuroscience Methods 148(1), 1–18 (2005); DOI 10.1016/j.jneumeth.2005.08.015",
+      "notes": "Review source for acute and chronic tissue response to implanted neural electrodes and the implications of biological response for long-term interface performance."
+    },
+    {
+      "id": "NNE-REF-056",
+      "title": "A Materials Roadmap to Functional Neural Interface Design",
+      "type": "survey-review",
+      "authority": "Steven M. Wellman et al.; Advanced Functional Materials",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/29805350/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Advanced Functional Materials 28(12), 1701269 (2018); DOI 10.1002/adfm.201701269",
+      "notes": "Review and design-roadmap source emphasizing interdependent material, tissue, channel-density, signal-access, and chronic-function tradeoffs in neural interfaces."
+    },
+    {
+      "id": "NNE-REF-057",
+      "title": "Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates",
+      "type": "primary-paper",
+      "authority": "James C. Barrese et al.; Journal of Neural Engineering",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/24216311/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neural Engineering 10(6), 066014 (2013); DOI 10.1088/1741-2560/10/6/066014",
+      "notes": "Primary chronic-array study supporting the distinction between acute interface performance and long-term useful stability across biological, material, mechanical, and unknown failure modes."
     }
   ]
 }

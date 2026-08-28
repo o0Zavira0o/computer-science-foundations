@@ -56,3 +56,8 @@
 | `NNE-REF-050` | Adaptive deep brain stimulation in advanced Parkinson disease | primary-paper | Simon Little et al.; Annals of Neurology | 2026-08-28 | — |
 | `NNE-REF-051` | Long-term treatment with responsive brain stimulation in adults with refractory partial seizures | primary-paper | Gregory K. Bergey et al.; Neurology | 2026-08-28 | — |
 | `NNE-REF-052` | Long-term wireless streaming of neural recordings for circuit discovery and adaptive stimulation in individuals with Parkinson's disease | primary-paper | Ro'ee Gilron et al.; Nature Biotechnology | 2026-08-28 | — |
+| `NNE-REF-053` | The Science of Neural Interface Systems | survey-review | Nicholas G. Hatsopoulos and John P. Donoghue; Annual Review of Neuroscience | 2026-08-28 | — |
+| `NNE-REF-054` | Electrical stimulation of excitable tissue: design of efficacious and safe protocols | survey-review | Daniel R. Merrill, Marom Bikson, and John G. R. Jefferys; Journal of Neuroscience Methods | 2026-08-28 | — |
+| `NNE-REF-055` | Response of brain tissue to chronically implanted neural electrodes | survey-review | Vadim S. Polikov, Patrick A. Tresco, and William M. Reichert; Journal of Neuroscience Methods | 2026-08-28 | — |
+| `NNE-REF-056` | A Materials Roadmap to Functional Neural Interface Design | survey-review | Steven M. Wellman et al.; Advanced Functional Materials | 2026-08-28 | — |
+| `NNE-REF-057` | Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates | primary-paper | James C. Barrese et al.; Journal of Neural Engineering | 2026-08-28 | — |

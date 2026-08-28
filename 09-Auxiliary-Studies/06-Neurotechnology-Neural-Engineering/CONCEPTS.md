@@ -18,7 +18,7 @@
 | `NNE-C-0012` | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | D1 | — |
 | `NNE-C-0013` | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | D1 | — |
 | `NNE-C-0014` | Open-loop and closed-loop neural systems | D1 | — |
-| `NNE-C-0015` | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | — | — |
+| `NNE-C-0015` | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | D1 | — |
 | `NNE-C-0016` | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | — | — |
 | `NNE-C-0017` | Intracellular recording and patch clamp as a window into membrane voltage and currents | — | — |
 | `NNE-C-0018` | Extracellular spikes, multi-unit activity, and local field potentials | — | — |

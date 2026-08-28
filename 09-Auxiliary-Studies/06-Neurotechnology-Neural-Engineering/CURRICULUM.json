@@ -251,7 +251,7 @@
       "id": "NNE-N-0012",
       "title": "Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0011"
       ],
@@ -266,7 +266,7 @@
         }
       ],
       "branch": "systems-map",
-      "lesson_id": null
+      "lesson_id": "NNE-0012"
     },
     {
       "id": "NNE-N-0013",

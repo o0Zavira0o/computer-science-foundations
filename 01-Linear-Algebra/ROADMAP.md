@@ -25,7 +25,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `LA-N-0011` | Elimination: changing equations without changing solutions | published | LA-N-0008, LA-N-0009 | LA-0011 |
 | `LA-N-0012` | Pivots, free variables, and the geometry of solutions | published | LA-N-0011 | LA-0012 |
 | `LA-N-0013` | Linear transformations in the plane | published | LA-N-0004, LA-N-0009 | LA-0013 |
-| `LA-N-0014` | Composition and matrix multiplication | planned | LA-N-0010, LA-N-0013 | — |
+| `LA-N-0014` | Composition and matrix multiplication | published | LA-N-0010, LA-N-0013 | LA-0014 |
 | `LA-N-0015` | Invertibility as reversible linear action | planned | LA-N-0011, LA-N-0014 | — |
 | `LA-N-0016` | L0 synthesis: solve, transform, and explain one problem three ways | planned | LA-N-0012, LA-N-0015 | — |
 

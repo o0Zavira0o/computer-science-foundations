@@ -373,6 +373,41 @@
       "domain": "closed-loop latency budget",
       "first_lesson": "NNE-0011",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-054",
+      "signature": "Compare scalp, cortical-surface, and intracortical recording locations across local signal access, surgical burden, tissue penetration, and chronic stability instead of ranking them by resolution alone",
+      "domain": "interface location tradeoff comparison",
+      "first_lesson": "NNE-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-055",
+      "signature": "Double a high-rate neural interface from 128 to 256 channels and trace the coupled consequences for raw data rate, front-end electronics, processing, telemetry, power, and thermal budget",
+      "domain": "channel count versus bandwidth power and heat",
+      "first_lesson": "NNE-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-056",
+      "signature": "Reduce stimulation contact area while holding current fixed to show how attempts at finer targeting can increase nominal current density and tighten electrode-tissue safety constraints",
+      "domain": "stimulation contact size selectivity and safety",
+      "first_lesson": "NNE-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-057",
+      "signature": "Follow an intracortical interface from strong initial local recordings to chronic channel loss, noise and impedance change, and feature drift to separate acute resolution from long-term useful stability",
+      "domain": "acute performance versus chronic interface stability",
+      "first_lesson": "NNE-0012",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-058",
+      "signature": "Choose between neural-interface designs for home communication and acute intraoperative mapping by weighting resolution, selectivity, bandwidth, invasiveness, stability, safety, maintenance, and lifetime differently for each mission",
+      "domain": "mission-dependent multi-objective interface selection",
+      "first_lesson": "NNE-0012",
+      "reuse_purpose": null
     }
   ]
 }

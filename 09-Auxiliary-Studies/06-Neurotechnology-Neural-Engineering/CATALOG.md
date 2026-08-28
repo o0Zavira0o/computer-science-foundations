@@ -15,3 +15,4 @@
 | [`NNE-0009`](lessons/NNE-0009-the-neural-measurement-chain-source-tissue-sensor-electronics-data-and-inference.md) | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | L0 | complete | `NNE-N-0009` | 2026-08-27 |
 | [`NNE-0010`](lessons/NNE-0010-the-neural-modulation-chain-stimulus-field-or-actuator-target-response-and-side-effects.md) | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | L0 | complete | `NNE-N-0010` | 2026-08-28 |
 | [`NNE-0011`](lessons/NNE-0011-open-loop-and-closed-loop-neural-systems.md) | Open-loop and closed-loop neural systems | L0 | complete | `NNE-N-0011` | 2026-08-28 |
+| [`NNE-0012`](lessons/NNE-0012-resolution-selectivity-bandwidth-invasiveness-stability-and-safety-as-coupled-tradeoffs.md) | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | L0 | complete | `NNE-N-0012` | 2026-08-28 |
