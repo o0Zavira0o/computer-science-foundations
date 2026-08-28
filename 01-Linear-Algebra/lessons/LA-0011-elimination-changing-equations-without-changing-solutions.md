@@ -527,8 +527,8 @@ A simple three-variable form:
 ```math
 \begin{aligned}
 x+2y-z &= 3,\\
-\phantom{x+}y+4z &= 5,\\
-\phantom{x+2y+}2z &= 6.
+y+4z &= 5,\\
+2z &= 6.
 \end{aligned}
 ```
 
