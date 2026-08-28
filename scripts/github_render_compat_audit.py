@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 OPERATOR_RE = re.compile(r"\\operatorname\s*\{([^{}]+)\}")
+PHANTOM_RE = re.compile(r"\\phantom\s*\{")
 BRACKET_LABEL_RE = re.compile(r"\[([^\]\n]*)\]")
 
 
@@ -90,6 +91,13 @@ def audit_text(
                     r"use a supported alternative such as \mathrm{...}"
                 )
 
+            for _ in PHANTOM_RE.finditer(visible):
+                errors.append(
+                    f"{display_name}:{line_no}: unsupported GitHub "
+                    r"math macro '\phantom{...}'; "
+                    "remove layout-only phantom spacing"
+                )
+
             continue
 
         if stripped.startswith(fence_marker):
@@ -102,6 +110,12 @@ def audit_text(
                 errors.append(
                     f"{display_name}:{line_no}: unsupported GitHub "
                     f"math macro {match.group(0)!r} inside fenced math"
+                )
+
+            for _ in PHANTOM_RE.finditer(line):
+                errors.append(
+                    f"{display_name}:{line_no}: unsupported GitHub "
+                    r"math macro '\phantom{...}' inside fenced math"
                 )
 
         elif fence_lang == "mermaid":
@@ -145,13 +159,15 @@ def self_test() -> None:
     cases = [
         (
             "safe inline literal",
-            r"Example literal: `\operatorname{...}`",
+            r"Example literals: `\operatorname{...}` and `\phantom{x}`",
             0,
         ),
         (
             "safe normal fenced code",
             "```text\n"
             r"\operatorname{count}(x)"
+            "\n"
+            r"\phantom{x}"
             "\n```\n",
             0,
         ),
@@ -161,9 +177,21 @@ def self_test() -> None:
             1,
         ),
         (
+            "bad display phantom",
+            r"$$ \phantom{x} y = 1 $$" + "\n",
+            1,
+        ),
+        (
             "bad fenced math",
             "```math\n"
             r"\operatorname{count}(x)=1"
+            "\n```\n",
+            1,
+        ),
+        (
+            "bad fenced phantom",
+            "```math\n"
+            r"\phantom{x}y=1"
             "\n```\n",
             1,
         ),

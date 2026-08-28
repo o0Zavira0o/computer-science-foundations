@@ -367,3 +367,5 @@ python scripts/csf.py audit --strict
 Actual pushed GitHub Preview inspection remains the final rendering gate.
 
 Literal hazard examples written inside inline code or ordinary fenced code are documentation and are intentionally excluded from the compatibility scan; real math contexts and Mermaid diagrams remain checked.
+
+GitHub math compatibility note: rendered math must not use `\phantom{...}` because GitHub rejects that macro. The render-compatibility auditor checks it in rendered math contexts, while literal examples inside inline code or ordinary fenced code remain excluded from the scan.
