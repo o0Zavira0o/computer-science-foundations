@@ -188,7 +188,7 @@
       "id": "NNE-N-0009",
       "title": "The neural measurement chain: source, tissue, sensor, electronics, data, and inference",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0008"
       ],
@@ -203,7 +203,7 @@
         }
       ],
       "branch": "signals-and-observation",
-      "lesson_id": null
+      "lesson_id": "NNE-0009"
     },
     {
       "id": "NNE-N-0010",

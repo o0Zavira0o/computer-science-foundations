@@ -97,7 +97,7 @@
       "id": "NNE-C-0012",
       "name": "The neural measurement chain: source, tissue, sensor, electronics, data, and inference",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D1",
       "notes": "Curriculum concept supporting the neural measurement chain: source, tissue, sensor, electronics, data, and inference."
     },
     {

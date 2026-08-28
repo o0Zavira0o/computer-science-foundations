@@ -15,7 +15,7 @@
 | `NNE-C-0009` | Synapses, neurotransmitters, excitation, inhibition, and integration | D1 | — |
 | `NNE-C-0010` | From single neurons to populations, circuits, systems, and behavior | D1 | — |
 | `NNE-C-0011` | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | D1 | — |
-| `NNE-C-0012` | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | — | — |
+| `NNE-C-0012` | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | D1 | — |
 | `NNE-C-0013` | The neural modulation chain: stimulus, field or actuator, target, response, and side effects | — | — |
 | `NNE-C-0014` | Open-loop and closed-loop neural systems | — | — |
 | `NNE-C-0015` | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | — | — |

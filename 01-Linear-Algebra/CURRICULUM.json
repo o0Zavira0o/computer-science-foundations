@@ -210,7 +210,7 @@
       "id": "LA-N-0011",
       "title": "Elimination: changing equations without changing solutions",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0008",
         "LA-N-0009"
@@ -225,7 +225,7 @@
         }
       ],
       "branch": "core",
-      "lesson_id": null
+      "lesson_id": "LA-0011"
     },
     {
       "id": "LA-N-0012",

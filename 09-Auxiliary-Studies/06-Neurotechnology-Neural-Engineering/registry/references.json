@@ -442,6 +442,50 @@
       "review_after": null,
       "version": "Electrochemical Methods for Neuroscience",
       "notes": "Source for in-vivo neurochemical measurement, electrochemical microelectrodes, microdialysis, and the spatial-temporal-selectivity tradeoffs of chemical sensing."
+    },
+    {
+      "id": "NNE-REF-041",
+      "title": "The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes",
+      "type": "survey-review",
+      "authority": "György Buzsáki, Costas A. Anastassiou, and Christof Koch; Nature Reviews Neuroscience",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4907333/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Nature Reviews Neuroscience 13, 407–420 (2012); DOI 10.1038/nrn3241",
+      "notes": "Biophysical source for extracellular-field generation, source superposition, distance and geometry effects, and the relation among spikes, LFP, ECoG, and EEG."
+    },
+    {
+      "id": "NNE-REF-042",
+      "title": "Implantable neurotechnologies: a review of integrated circuit neural amplifiers",
+      "type": "survey-review",
+      "authority": "Kian Ann Ng, Elliot Greenwald, Yong Ping Xu, and Nitish V. Thakor; Medical & Biological Engineering & Computing",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4958006/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Med Biol Eng Comput 54(1), 45–62 (2016); DOI 10.1007/s11517-015-1431-3",
+      "notes": "Review source for electrode-to-amplifier neural recording, weak-signal conditioning, low-noise front ends, and practical implantable recording constraints."
+    },
+    {
+      "id": "NNE-REF-043",
+      "title": "Multi-Channel Neural Recording Implants: A Review",
+      "type": "survey-review",
+      "authority": "Fereidoon Hashemi Noshahr, Morteza Nabavi, and Mohamad Sawan; Sensors",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7038972/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Sensors 20(3), 904 (2020); DOI 10.3390/s20030904",
+      "notes": "System-level review covering neural amplifiers, ADCs, digitization, compression, noise, power, and multi-channel acquisition architecture."
+    },
+    {
+      "id": "NNE-REF-044",
+      "title": "Past, present and future of spike sorting techniques",
+      "type": "survey-review",
+      "authority": "Hernan Gonzalo Rey, Carlos Pedreira, and Rodrigo Quian Quiroga; Brain Research Bulletin",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674014/",
+      "reviewed_at": "2026-08-27",
+      "review_after": null,
+      "version": "Brain Research Bulletin 119(Pt B), 106–117 (2015); DOI 10.1016/j.brainresbull.2015.04.007",
+      "notes": "Review source for extracellular mixture interpretation, event detection and spike sorting as an inferential processing stage with validation limits."
     }
   ]
 }

@@ -14,3 +14,4 @@
 | [`LA-0008`](lessons/LA-0008-systems-of-linear-equations-and-solution-sets.md) | Systems of linear equations and solution sets | L0 | complete | `LA-N-0008` | 2026-08-27 |
 | [`LA-0009`](lessons/LA-0009-matrices-as-organized-coefficients-and-operators.md) | Matrices as organized coefficients and operators | L0 | complete | `LA-N-0009` | 2026-08-27 |
 | [`LA-0010`](lessons/LA-0010-matrix-vector-multiplication-as-a-column-combination.md) | Matrix-vector multiplication as a column combination | L0 | complete | `LA-N-0010` | 2026-08-27 |
+| [`LA-0011`](lessons/LA-0011-elimination-changing-equations-without-changing-solutions.md) | Elimination: changing equations without changing solutions | L0 | complete | `LA-N-0011` | 2026-08-27 |

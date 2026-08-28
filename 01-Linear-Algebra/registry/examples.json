@@ -254,6 +254,34 @@
       "domain": "linear source mixing as column combination",
       "first_lesson": "LA-0010",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-037",
+      "signature": "Solve a two-equation system with a unique solution by replacing one row with itself minus a multiple of another, then back-substitute from the resulting triangular structure",
+      "domain": "elimination with unique solution",
+      "first_lesson": "LA-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-038",
+      "signature": "Eliminate proportional left-hand sides with incompatible right-hand sides to expose a contradiction row of the form zero equals a nonzero constant",
+      "domain": "elimination exposing inconsistency",
+      "first_lesson": "LA-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-039",
+      "signature": "Eliminate one equation that is an exact scalar multiple of another to expose a zero-equals-zero row and interpret it as redundant information rather than inconsistency",
+      "domain": "elimination exposing redundancy",
+      "first_lesson": "LA-0011",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-040",
+      "signature": "Solve a two-parameter sensor calibration system for gain and offset by subtracting one calibration constraint from another, transferring elimination to an engineering setting",
+      "domain": "elimination in calibration",
+      "first_lesson": "LA-0011",
+      "reuse_purpose": null
     }
   ]
 }

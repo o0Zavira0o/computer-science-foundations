@@ -5,17 +5,17 @@
 - **Track status:** active
 - **Curriculum audit:** audited
 - **Total nodes:** 89
-- **Planned:** 81
+- **Planned:** 80
 - **Ready:** 0
 - **Drafting:** 0
-- **Published:** 8
+- **Published:** 9
 - **Deprecated:** 0
 
 ## Published by level
 
 | Level | Count |
 |---|---:|
-| L0 | 8 |
+| L0 | 9 |
 | L1 | 0 |
 | L2 | 0 |
 | L3 | 0 |

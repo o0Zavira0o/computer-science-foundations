@@ -282,6 +282,41 @@
       "domain": "neural signal modality selection",
       "first_lesson": "NNE-0008",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-041",
+      "signature": "Trace one extracellular action potential through transmembrane current, tissue conduction, electrode interface, amplification, filtering, digitization, spike detection, sorting, and firing-pattern inference",
+      "domain": "end-to-end neural measurement chain",
+      "first_lesson": "NNE-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-042",
+      "signature": "Show how a component above the Nyquist frequency can alias into a lower apparent rhythm when analog anti-alias filtering is insufficient before sampling",
+      "domain": "sampling and aliasing failure",
+      "first_lesson": "NNE-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-043",
+      "signature": "Follow a mixed extracellular recording through filtering, event detection, waveform alignment, feature extraction, and spike sorting to show that a putative unit is an inferred data object",
+      "domain": "spike sorting and inference",
+      "first_lesson": "NNE-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-044",
+      "signature": "Design backward from a 20-millisecond cursor-velocity decoder update requirement to derive constraints on neural features, windows, sampling, front-end range, electrode stability, and end-to-end latency",
+      "domain": "measurement chain requirement propagation",
+      "first_lesson": "NNE-0009",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-045",
+      "signature": "Separate amplifier calibration, spike-sort validation, and decoder generalization into three distinct validation layers so component accuracy is not confused with biological inference validity",
+      "domain": "calibration versus end-to-end validation",
+      "first_lesson": "NNE-0009",
+      "reuse_purpose": null
     }
   ]
 }

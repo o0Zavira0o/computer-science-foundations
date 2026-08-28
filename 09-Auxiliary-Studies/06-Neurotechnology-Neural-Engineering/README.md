@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0008 — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics`](lessons/NNE-0008-what-counts-as-a-neural-signal-spikes-field-potentials-rhythms-chemistry-and-hemodynamics.md)
-- Next canonical lesson: `NNE-N-0009 — The neural measurement chain: source, tissue, sensor, electronics, data, and inference`
+- Published through: [`NNE-0009 — The neural measurement chain: source, tissue, sensor, electronics, data, and inference`](lessons/NNE-0009-the-neural-measurement-chain-source-tissue-sensor-electronics-data-and-inference.md)
+- Next canonical lesson: `NNE-N-0010 — The neural modulation chain: stimulus, field or actuator, target, response, and side effects`
 
 Publication state is not learner mastery.
 

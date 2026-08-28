@@ -44,3 +44,7 @@
 | `NNE-REF-038` | Local Field Potential Measurement | official-documentation | U.S. National Library of Medicine; Medical Subject Headings (MeSH) | 2026-08-27 | — |
 | `NNE-REF-039` | Reference Manual on Scientific Evidence — Reference Guide on Neuroscience | technical-report | Federal Judicial Center / National Academies context; NCBI Bookshelf | 2026-08-27 | — |
 | `NNE-REF-040` | Electrochemical Methods for Neuroscience — An Introduction to Electrochemical Methods in Neuroscience | textbook | Adrian C. Michael and Laura M. Borland, eds.; NCBI Bookshelf | 2026-08-27 | — |
+| `NNE-REF-041` | The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes | survey-review | György Buzsáki, Costas A. Anastassiou, and Christof Koch; Nature Reviews Neuroscience | 2026-08-27 | — |
+| `NNE-REF-042` | Implantable neurotechnologies: a review of integrated circuit neural amplifiers | survey-review | Kian Ann Ng, Elliot Greenwald, Yong Ping Xu, and Nitish V. Thakor; Medical & Biological Engineering & Computing | 2026-08-27 | — |
+| `NNE-REF-043` | Multi-Channel Neural Recording Implants: A Review | survey-review | Fereidoon Hashemi Noshahr, Morteza Nabavi, and Mohamad Sawan; Sensors | 2026-08-27 | — |
+| `NNE-REF-044` | Past, present and future of spike sorting techniques | survey-review | Hernan Gonzalo Rey, Carlos Pedreira, and Rodrigo Quian Quiroga; Brain Research Bulletin | 2026-08-27 | — |
