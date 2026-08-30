@@ -772,6 +772,72 @@
       "review_after": null,
       "version": "Wikimedia Commons file; CC BY-SA 4.0",
       "notes": "Verified patch-pipette/membrane spatial visual anchor for NNE-0014."
+    },
+    {
+      "id": "NNE-REF-071",
+      "title": "The Utah intracortical Electrode Array: a recording structure for potential brain-computer interfaces",
+      "type": "primary-paper",
+      "authority": "Edwin M. Maynard, Craig T. Nordhausen, and Richard A. Normann; Electroencephalography and Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/9129578/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Electroencephalography and Clinical Neurophysiology 102(3), 228–239 (1997); DOI 10.1016/S0013-4694(96)95176-0",
+      "notes": "Primary source for the Utah intracortical electrode-array architecture and parallel penetrating cortical recording concept."
+    },
+    {
+      "id": "NNE-REF-072",
+      "title": "Fully integrated silicon probes for high-density recording of neural activity",
+      "type": "primary-paper",
+      "authority": "James J. Jun et al.; Nature",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/29120427/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Nature 551(7679), 232–236 (2017); DOI 10.1038/nature24636; PMID 29120427; PMCID PMC5955206",
+      "notes": "Primary Neuropixels paper used for the 960-site/384-channel distinction, dense silicon-shank geometry, programmable site selection, and integrated filtering, amplification, multiplexing, and digitization."
+    },
+    {
+      "id": "NNE-REF-073",
+      "title": "Challenges and opportunities for large-scale electrophysiology with Neuropixels probes",
+      "type": "survey-review",
+      "authority": "Nicholas A. Steinmetz, Christof Koch, Kenneth D. Harris, and Matteo Carandini; Current Opinion in Neurobiology",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5999351/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Current Opinion in Neurobiology 50, 92–100 (2018); DOI 10.1016/j.conb.2018.01.009; PMID 29444488; PMCID PMC5999351; CC BY 4.0",
+      "notes": "Open review used for high-density CMOS-probe scaling, on-board amplification/digitization/multiplexing, anatomical-localization challenges, and large-scale electrophysiology system constraints."
+    },
+    {
+      "id": "NNE-REF-074",
+      "title": "Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings",
+      "type": "primary-paper",
+      "authority": "Nicholas A. Steinmetz et al.; Science",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/33859006/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Science 372(6539), eabf4588 (2021); DOI 10.1126/science.abf4588; PMID 33859006; PMCID PMC8244810",
+      "notes": "Primary source for Neuropixels 2.0's more-than-5000-site architecture, denser site arrangement, motion correction, and stable long-term recordings and neuronal tracking."
+    },
+    {
+      "id": "NNE-REF-075",
+      "title": "Design, Fabrication, and Implantation of Invasive Microelectrode Arrays as in vivo Brain Machine Interfaces: A Comprehensive Review",
+      "type": "survey-review",
+      "authority": "Dongyang Yi, Yao Yao, Yi Wang, and Lei Chen; Journal of Manufacturing Processes",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11340637/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Manufacturing Processes 126, 185–207 (2024); DOI 10.1016/j.jmapro.2024.07.100; PMID 39185373; PMCID PMC11340637",
+      "notes": "Engineering review used for the architecture taxonomy and design/implantation tradeoffs of microwire, silicon, Utah-style, Michigan-style, and other invasive microelectrode arrays."
+    },
+    {
+      "id": "NNE-REF-076",
+      "title": "Neuroprosthetic technologies for sensorimotor disorders.webp",
+      "type": "other",
+      "authority": "Ankur Gupta, Nikolaos Vardalakis, and Fabien B. Wagner; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Neuroprosthetic_technologies_for_sensorimotor_disorders.webp",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons file derived from Communications Biology source figure; CC BY 4.0",
+      "notes": "Verified static visual anchor for NNE-0016. The figure includes a 10×10 Utah-style intracortical microelectrode array and an ECoG grid; the lesson explicitly uses the intracortical array as the present visual focus and reserves ECoG for NNE-0017."
     }
   ]
 }

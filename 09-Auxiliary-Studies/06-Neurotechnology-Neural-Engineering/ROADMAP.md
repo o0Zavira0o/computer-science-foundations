@@ -32,7 +32,7 @@ This is a human-readable view of the dependency graph. `CURRICULUM.json` is cano
 | `NNE-N-0013` | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | published | NNE-N-0012 | NNE-0013 |
 | `NNE-N-0014` | Intracellular recording and patch clamp as a window into membrane voltage and currents | published | NNE-N-0013 | NNE-0014 |
 | `NNE-N-0015` | Extracellular spikes, multi-unit activity, and local field potentials | published | NNE-N-0014 | NNE-0015 |
-| `NNE-N-0016` | Microelectrode arrays and high-channel-count invasive recording | planned | NNE-N-0015 | — |
+| `NNE-N-0016` | Microelectrode arrays and high-channel-count invasive recording | published | NNE-N-0015 | NNE-0016 |
 | `NNE-N-0017` | ECoG and intracranial EEG: recording from the cortical surface and depth | planned | NNE-N-0016 | — |
 | `NNE-N-0018` | Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity | planned | NNE-N-0017 | — |
 | `NNE-N-0019` | Peripheral neural and neuromuscular signals: ENG and EMG | planned | NNE-N-0018 | — |

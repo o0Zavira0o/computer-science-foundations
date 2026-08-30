@@ -74,3 +74,9 @@
 | `NNE-REF-068` | Anatomy of neuron.png | other | Curtis Neveu; Wikimedia Commons | 2026-08-30 | — |
 | `NNE-REF-069` | Synaptic Transmission from the Presynaptic Neuron to the Postsynaptic Neuron (1).svg | other | Nah1204; Wikimedia Commons | 2026-08-30 | — |
 | `NNE-REF-070` | Patch Clamp.svg | other | Jonqthqnnn; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-071` | The Utah intracortical Electrode Array: a recording structure for potential brain-computer interfaces | primary-paper | Edwin M. Maynard, Craig T. Nordhausen, and Richard A. Normann; Electroencephalography and Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-072` | Fully integrated silicon probes for high-density recording of neural activity | primary-paper | James J. Jun et al.; Nature | 2026-08-30 | — |
+| `NNE-REF-073` | Challenges and opportunities for large-scale electrophysiology with Neuropixels probes | survey-review | Nicholas A. Steinmetz, Christof Koch, Kenneth D. Harris, and Matteo Carandini; Current Opinion in Neurobiology | 2026-08-30 | — |
+| `NNE-REF-074` | Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings | primary-paper | Nicholas A. Steinmetz et al.; Science | 2026-08-30 | — |
+| `NNE-REF-075` | Design, Fabrication, and Implantation of Invasive Microelectrode Arrays as in vivo Brain Machine Interfaces: A Comprehensive Review | survey-review | Dongyang Yi, Yao Yao, Yi Wang, and Lei Chen; Journal of Manufacturing Processes | 2026-08-30 | — |
+| `NNE-REF-076` | Neuroprosthetic technologies for sensorimotor disorders.webp | other | Ankur Gupta, Nikolaos Vardalakis, and Fabien B. Wagner; Wikimedia Commons | 2026-08-30 | — |

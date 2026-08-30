@@ -513,6 +513,41 @@
       "domain": "spike and LFP information dissociation",
       "first_lesson": "NNE-0015",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-074",
+      "signature": "Compare 960 physical recording sites with 384 simultaneous Neuropixels channels to show that site count, channel count, and neuronal unit count are distinct quantities",
+      "domain": "physical sites versus simultaneous channels",
+      "first_lesson": "NNE-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-075",
+      "signature": "Compare two 128-channel invasive recording systems with different depth and lateral geometries to show that channel count alone does not define spatial sampling capability",
+      "domain": "channel count versus array geometry",
+      "first_lesson": "NNE-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-076",
+      "signature": "Track one extracellular spike across several neighboring recording sites with different amplitudes to distinguish a spatial biological footprint from a one-channel-one-neuron interpretation",
+      "domain": "multichannel extracellular spike footprint",
+      "first_lesson": "NNE-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-077",
+      "signature": "Compute the ideal raw data rate for 512 channels sampled at 30 kHz with 16-bit samples and obtain 245.76 Mbit/s, about 30.72 MB/s or 110.6 GB/hour before overhead",
+      "domain": "high-channel-count raw data-rate scaling",
+      "first_lesson": "NNE-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-078",
+      "signature": "Compare a putative unit's spatial waveform footprint across days to show how relative probe-tissue motion can shift the strongest channel and make longitudinal neuronal identity an inference problem",
+      "domain": "chronic recording drift and longitudinal unit identity",
+      "first_lesson": "NNE-0016",
+      "reuse_purpose": null
     }
   ]
 }

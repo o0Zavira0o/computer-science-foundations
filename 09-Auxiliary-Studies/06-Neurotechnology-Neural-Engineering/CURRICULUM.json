@@ -335,7 +335,7 @@
       "id": "NNE-N-0016",
       "title": "Microelectrode arrays and high-channel-count invasive recording",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0015"
       ],
@@ -350,7 +350,7 @@
         }
       ],
       "branch": "neural-recording",
-      "lesson_id": null
+      "lesson_id": "NNE-0016"
     },
     {
       "id": "NNE-N-0017",
