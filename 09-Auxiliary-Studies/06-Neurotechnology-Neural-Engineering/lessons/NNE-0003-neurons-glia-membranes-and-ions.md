@@ -9,8 +9,8 @@ concepts_introduced: ["NNE-C-0006"]
 concepts_deepened: ["NNE-C-0005", "NNE-C-0002"]
 concepts_used: ["NNE-C-0001", "NNE-C-0004"]
 examples_added: ["NNE-EX-011", "NNE-EX-012", "NNE-EX-013", "NNE-EX-014", "NNE-EX-015"]
-references_used: ["NNE-REF-017", "NNE-REF-018", "NNE-REF-019", "NNE-REF-020"]
-last_reviewed: 2026-08-27
+references_used: ["NNE-REF-017", "NNE-REF-018", "NNE-REF-019", "NNE-REF-020", "NNE-REF-068"]
+last_reviewed: 2026-08-30
 version_sensitive: false
 review_after: null
 ---
@@ -140,6 +140,12 @@ This diagram is intentionally simple.
 Real neurons can have diverse shapes, branching patterns, and signal flows.
 
 But the map gives us functional regions to reason about.
+
+The static figure below gives those regions a physical shape. Pay attention to the dendritic tree, soma, axon hillock/initial segment, axon, myelinated segments, nodes, and terminal synaptic contact.
+
+![Labeled anatomy of a neuron with dendrites, soma, axon, nodes, Schwann cells, and a synaptic contact](https://upload.wikimedia.org/wikipedia/commons/9/9e/Anatomy_of_neuron.png)
+
+*Visual anchor — labeled neuron anatomy. This particular drawing labels **Schwann cells**, so treat the myelinated axon in the figure as a PNS-style example; CNS myelin is produced by oligodendrocytes, discussed later in this lesson. Source: [Wikimedia Commons — Anatomy of neuron.png](https://commons.wikimedia.org/wiki/File:Anatomy_of_neuron.png), Curtis Neveu; CC BY-SA 4.0. Registry: `NNE-REF-068`.*
 
 ---
 
@@ -1995,3 +2001,4 @@ That is enough to move from cellular anatomy to membrane biophysics.
 - **NNE-REF-018** — OpenStax, *Anatomy and Physiology 2e*, §12.4, “The Action Potential,” especially the membrane, ion, channel, pump, and resting-state foundations used here.
 - **NNE-REF-019** — Purves et al., *Neuroscience*, 2nd ed., “Channels and Transporters,” NCBI Bookshelf.
 - **NNE-REF-020** — OpenStax, *Biology 2e*, §35.1, “Neurons and Glial Cells.”
+- **NNE-REF-068** — Curtis Neveu, *Anatomy of neuron.png*, verified neuron-morphology visual anchor via Wikimedia Commons; CC BY-SA 4.0.

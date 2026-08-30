@@ -5,11 +5,11 @@
 | Lesson | Title | Level | Status | Curriculum node | Last reviewed |
 |---|---|---|---|---|---|
 | [`NNE-0001`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md) | What neurotechnology and neural engineering are actually studying | L0 | complete | `NNE-N-0001` | 2026-08-26 |
-| [`NNE-0002`](lessons/NNE-0002-map-of-the-nervous-system.md) | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | L0 | complete | `NNE-N-0002` | 2026-08-26 |
-| [`NNE-0003`](lessons/NNE-0003-neurons-glia-membranes-and-ions.md) | Neurons, glia, membranes, and ions | L0 | complete | `NNE-N-0003` | 2026-08-27 |
+| [`NNE-0002`](lessons/NNE-0002-map-of-the-nervous-system.md) | A map of the nervous system: CNS, PNS, cells, circuits, and behavior | L0 | complete | `NNE-N-0002` | 2026-08-30 |
+| [`NNE-0003`](lessons/NNE-0003-neurons-glia-membranes-and-ions.md) | Neurons, glia, membranes, and ions | L0 | complete | `NNE-N-0003` | 2026-08-30 |
 | [`NNE-0004`](lessons/NNE-0004-resting-membrane-potential-and-electrochemical-gradients.md) | Resting membrane potential and electrochemical gradients | L0 | complete | `NNE-N-0004` | 2026-08-27 |
 | [`NNE-0005`](lessons/NNE-0005-action-potentials-thresholds-refractory-periods-and-propagation.md) | Action potentials, thresholds, refractory periods, and propagation | L0 | complete | `NNE-N-0005` | 2026-08-27 |
-| [`NNE-0006`](lessons/NNE-0006-synapses-neurotransmitters-excitation-inhibition-and-integration.md) | Synapses, neurotransmitters, excitation, inhibition, and integration | L0 | complete | `NNE-N-0006` | 2026-08-27 |
+| [`NNE-0006`](lessons/NNE-0006-synapses-neurotransmitters-excitation-inhibition-and-integration.md) | Synapses, neurotransmitters, excitation, inhibition, and integration | L0 | complete | `NNE-N-0006` | 2026-08-30 |
 | [`NNE-0007`](lessons/NNE-0007-from-single-neurons-to-populations-circuits-systems-and-behavior.md) | From single neurons to populations, circuits, systems, and behavior | L0 | complete | `NNE-N-0007` | 2026-08-27 |
 | [`NNE-0008`](lessons/NNE-0008-what-counts-as-a-neural-signal-spikes-field-potentials-rhythms-chemistry-and-hemodynamics.md) | What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics | L0 | complete | `NNE-N-0008` | 2026-08-27 |
 | [`NNE-0009`](lessons/NNE-0009-the-neural-measurement-chain-source-tissue-sensor-electronics-data-and-inference.md) | The neural measurement chain: source, tissue, sensor, electronics, data, and inference | L0 | complete | `NNE-N-0009` | 2026-08-27 |
@@ -17,4 +17,5 @@
 | [`NNE-0011`](lessons/NNE-0011-open-loop-and-closed-loop-neural-systems.md) | Open-loop and closed-loop neural systems | L0 | complete | `NNE-N-0011` | 2026-08-28 |
 | [`NNE-0012`](lessons/NNE-0012-resolution-selectivity-bandwidth-invasiveness-stability-and-safety-as-coupled-tradeoffs.md) | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | L0 | complete | `NNE-N-0012` | 2026-08-28 |
 | [`NNE-0013`](lessons/NNE-0013-the-electrode-tissue-interface-charge-transfer-impedance-and-what-an-electrode-actually-senses.md) | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | L1 | complete | `NNE-N-0013` | 2026-08-28 |
-| [`NNE-0014`](lessons/NNE-0014-intracellular-recording-and-patch-clamp-as-a-window-into-membrane-voltage-and-currents.md) | Intracellular recording and patch clamp as a window into membrane voltage and currents | L1 | complete | `NNE-N-0014` | 2026-08-28 |
+| [`NNE-0014`](lessons/NNE-0014-intracellular-recording-and-patch-clamp-as-a-window-into-membrane-voltage-and-currents.md) | Intracellular recording and patch clamp as a window into membrane voltage and currents | L1 | complete | `NNE-N-0014` | 2026-08-30 |
+| [`NNE-0015`](lessons/NNE-0015-extracellular-spikes-multi-unit-activity-and-local-field-potentials.md) | Extracellular spikes, multi-unit activity, and local field potentials | L1 | complete | `NNE-N-0015` | 2026-08-30 |

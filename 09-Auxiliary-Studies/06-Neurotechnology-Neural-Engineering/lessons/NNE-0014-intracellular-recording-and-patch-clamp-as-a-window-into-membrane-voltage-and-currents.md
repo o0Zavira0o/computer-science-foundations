@@ -9,8 +9,8 @@ concepts_introduced: ["NNE-C-0017"]
 concepts_deepened: ["NNE-C-0007", "NNE-C-0008", "NNE-C-0012", "NNE-C-0016"]
 concepts_used: ["NNE-C-0006", "NNE-C-0009", "NNE-C-0011", "NNE-C-0015"]
 examples_added: ["NNE-EX-064", "NNE-EX-065", "NNE-EX-066", "NNE-EX-067", "NNE-EX-068"]
-references_used: ["NNE-REF-060", "NNE-REF-061", "NNE-REF-062", "NNE-REF-063"]
-last_reviewed: 2026-08-28
+references_used: ["NNE-REF-060", "NNE-REF-061", "NNE-REF-062", "NNE-REF-063", "NNE-REF-070"]
+last_reviewed: 2026-08-30
 version_sensitive: false
 review_after: null
 ---
@@ -170,6 +170,12 @@ Its resistance is not negligible.
 Once the pipette has whole-cell access, this resistance becomes part of the series path between the cell and amplifier.
 
 That fact will matter later when we discuss voltage error and bandwidth.
+
+The static figure below gives a physical anchor for the pipette-to-cell geometry. Use it to see where the glass pipette contacts the membrane; the electrical details and configuration-specific caveats still come from the prose and primary patch-clamp sources.
+
+![Schematic representation of a patch-clamp pipette contacting a cell membrane](https://upload.wikimedia.org/wikipedia/commons/a/af/Patch_Clamp.svg)
+
+*Visual anchor — schematic patch-clamp geometry. The figure is useful for the physical relationship among glass pipette, membrane contact, and cell; it is not a complete circuit diagram and does not replace the configuration definitions below. Source: [Wikimedia Commons — Patch Clamp.svg](https://commons.wikimedia.org/wiki/File:Patch_Clamp.svg), Jonqthqnnn; CC BY-SA 4.0. Registry: `NNE-REF-070`.*
 
 ---
 
@@ -1014,3 +1020,4 @@ The engineering habit to keep is:
 - `NNE-REF-061` — Hamill et al. (1981), improved patch-clamp techniques and high-resistance seals.
 - `NNE-REF-062` — Noguchi, Ikegaya, and Matsumoto (2021), review of in vivo whole-cell patch-clamp methods.
 - `NNE-REF-063` — Gray and Santin (2023), direct analysis of series-resistance voltage errors in whole-cell voltage clamp.
+- `NNE-REF-070` — Jonqthqnnn, *Patch Clamp.svg*, verified patch-pipette/membrane visual anchor via Wikimedia Commons; CC BY-SA 4.0.

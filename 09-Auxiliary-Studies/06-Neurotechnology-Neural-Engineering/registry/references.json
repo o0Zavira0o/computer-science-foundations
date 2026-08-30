@@ -695,6 +695,83 @@
       "review_after": null,
       "version": "Journal of Neurophysiology 129(5), 1177–1190 (2023); DOI 10.1152/jn.00476.2022",
       "notes": "Primary study directly measuring series-resistance voltage errors and illustrating why command voltage, simple Ohmic correction, compensation, and actual membrane voltage must be distinguished."
+    },
+    {
+      "id": "NNE-REF-064",
+      "title": "On the Origin of the Extracellular Action Potential Waveform: A Modeling Study",
+      "type": "primary-paper",
+      "authority": "Carl Gold, Darrell A. Henze, Christof Koch, and György Buzsáki; Journal of Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/16467426/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Neurophysiology 95(5), 3113–3128 (2006); DOI 10.1152/jn.00979.2005",
+      "notes": "Primary modeling study used for the dependence of extracellular action-potential waveform and amplitude on electrode position relative to the recorded cell."
+    },
+    {
+      "id": "NNE-REF-065",
+      "title": "Modelling and analysis of local field potentials for studying the function of cortical circuits",
+      "type": "survey-review",
+      "authority": "Gaute T. Einevoll, Christoph Kayser, Nikos K. Logothetis, and Stefano Panzeri; Nature Reviews Neuroscience",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/24135696/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Nature Reviews Neuroscience 14(11), 770–785 (2013); DOI 10.1038/nrn3599",
+      "notes": "Review used for disciplined LFP interpretation, multiple contributing neural processes, and the need for biophysical modeling."
+    },
+    {
+      "id": "NNE-REF-066",
+      "title": "Local Field Potentials: Myths and Misunderstandings",
+      "type": "survey-review",
+      "authority": "Oscar Herreras; Frontiers in Neural Circuits",
+      "locator": "https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2016.00101/full",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Frontiers in Neural Circuits 10:101 (2016); DOI 10.3389/fncir.2016.00101; CC BY 4.0",
+      "notes": "Review used for source-geometry, locality, polarity, and volume-conduction cautions. Figure 5 is embedded in NNE-0015 as the verified visual anchor under the article's CC BY license."
+    },
+    {
+      "id": "NNE-REF-067",
+      "title": "1201 Overview of Nervous System.jpg",
+      "type": "other",
+      "authority": "OpenStax; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:1201_Overview_of_Nervous_System.jpg",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "OpenStax Anatomy and Physiology, version 8.25 figure; CC BY 4.0",
+      "notes": "Verified anatomical visual anchor for NNE-0002 showing the spatial relationship of the brain and spinal cord to the body-wide peripheral nervous system."
+    },
+    {
+      "id": "NNE-REF-068",
+      "title": "Anatomy of neuron.png",
+      "type": "other",
+      "authority": "Curtis Neveu; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Anatomy_of_neuron.png",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons file; CC BY-SA 4.0",
+      "notes": "Verified neuron-morphology visual anchor for NNE-0003. The figure labels Schwann cells, so the lesson caption explicitly identifies its myelinated segment as a PNS-style example rather than generalizing it to CNS myelin."
+    },
+    {
+      "id": "NNE-REF-069",
+      "title": "Synaptic Transmission from the Presynaptic Neuron to the Postsynaptic Neuron (1).svg",
+      "type": "other",
+      "authority": "Nah1204; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Synaptic_Transmission_from_the_Presynaptic_Neuron_to_the_Postsynaptic_Neuron_(1).svg",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons file; CC BY-SA 4.0",
+      "notes": "Verified visual anchor for NNE-0006 showing general presynaptic-to-postsynaptic chemical synaptic transmission and the physical synaptic cleft."
+    },
+    {
+      "id": "NNE-REF-070",
+      "title": "Patch Clamp.svg",
+      "type": "other",
+      "authority": "Jonqthqnnn; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Patch_Clamp.svg",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons file; CC BY-SA 4.0",
+      "notes": "Verified patch-pipette/membrane spatial visual anchor for NNE-0014."
     }
   ]
 }

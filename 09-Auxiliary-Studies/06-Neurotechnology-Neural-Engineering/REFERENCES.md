@@ -67,3 +67,10 @@
 | `NNE-REF-061` | Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches | primary-paper | O. P. Hamill, A. Marty, E. Neher, B. Sakmann, and F. J. Sigworth; Pflügers Archiv | 2026-08-28 | — |
 | `NNE-REF-062` | In Vivo Whole-Cell Patch-Clamp Methods: Recent Technical Progress and Future Perspectives | survey-review | Asako Noguchi, Yuji Ikegaya, and Nobuyoshi Matsumoto; Sensors | 2026-08-28 | — |
 | `NNE-REF-063` | Series resistance errors in whole cell voltage clamp measured directly with dual patch-clamp recordings: not as bad as you think | primary-paper | Michael Gray and Joseph M. Santin; Journal of Neurophysiology | 2026-08-28 | — |
+| `NNE-REF-064` | On the Origin of the Extracellular Action Potential Waveform: A Modeling Study | primary-paper | Carl Gold, Darrell A. Henze, Christof Koch, and György Buzsáki; Journal of Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-065` | Modelling and analysis of local field potentials for studying the function of cortical circuits | survey-review | Gaute T. Einevoll, Christoph Kayser, Nikos K. Logothetis, and Stefano Panzeri; Nature Reviews Neuroscience | 2026-08-30 | — |
+| `NNE-REF-066` | Local Field Potentials: Myths and Misunderstandings | survey-review | Oscar Herreras; Frontiers in Neural Circuits | 2026-08-30 | — |
+| `NNE-REF-067` | 1201 Overview of Nervous System.jpg | other | OpenStax; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-068` | Anatomy of neuron.png | other | Curtis Neveu; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-069` | Synaptic Transmission from the Presynaptic Neuron to the Postsynaptic Neuron (1).svg | other | Nah1204; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-070` | Patch Clamp.svg | other | Jonqthqnnn; Wikimedia Commons | 2026-08-30 | — |

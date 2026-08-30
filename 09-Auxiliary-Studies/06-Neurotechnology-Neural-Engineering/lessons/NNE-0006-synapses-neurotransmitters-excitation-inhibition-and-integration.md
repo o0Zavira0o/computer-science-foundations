@@ -9,8 +9,8 @@ concepts_introduced: ["NNE-C-0009"]
 concepts_deepened: ["NNE-C-0008", "NNE-C-0007"]
 concepts_used: ["NNE-C-0006", "NNE-C-0005", "NNE-C-0002", "NNE-C-0004"]
 examples_added: ["NNE-EX-026", "NNE-EX-027", "NNE-EX-028", "NNE-EX-029", "NNE-EX-030"]
-references_used: ["NNE-REF-029", "NNE-REF-030", "NNE-REF-031", "NNE-REF-032"]
-last_reviewed: 2026-08-27
+references_used: ["NNE-REF-029", "NNE-REF-030", "NNE-REF-031", "NNE-REF-032", "NNE-REF-069"]
+last_reviewed: 2026-08-30
 version_sensitive: false
 review_after: null
 ---
@@ -126,6 +126,12 @@ The presynaptic terminal contains vesicles loaded with neurotransmitter.
 The postsynaptic membrane contains receptors that detect the released transmitter.
 
 The two membranes are separated by a small extracellular cleft.
+
+The static figure below anchors that geometry before we follow the mechanism step by step.
+
+![General step-by-step schematic of chemical synaptic transmission from a presynaptic neuron to a postsynaptic neuron](https://upload.wikimedia.org/wikipedia/commons/d/d2/Synaptic_Transmission_from_the_Presynaptic_Neuron_to_the_Postsynaptic_Neuron_%281%29.svg)
+
+*Visual anchor — general chemical synaptic transmission from the presynaptic side to the postsynaptic side. Use the figure to locate the terminal, vesicle/release side, cleft, and postsynaptic side; do not read its drawn distances or molecule counts as quantitative anatomy. Source: [Wikimedia Commons — Synaptic Transmission from the Presynaptic Neuron to the Postsynaptic Neuron (1).svg](https://commons.wikimedia.org/wiki/File:Synaptic_Transmission_from_the_Presynaptic_Neuron_to_the_Postsynaptic_Neuron_(1).svg), Nah1204; CC BY-SA 4.0. Registry: `NNE-REF-069`.*
 
 ---
 
@@ -1752,3 +1758,4 @@ The next step is to scale this from one neuron to populations, circuits, systems
 - **NNE-REF-030** — Purves et al., *Neuroscience*, 2nd ed., “Excitatory and Inhibitory Postsynaptic Potentials,” NCBI Bookshelf.
 - **NNE-REF-031** — Purves et al., *Neuroscience*, 2nd ed., “Summation of Synaptic Potentials,” NCBI Bookshelf.
 - **NNE-REF-032** — Purves et al., *Neuroscience*, 2nd ed., “Neurotransmitters” and chapter summary material on transmitter synthesis, release, receptor action, and clearance, NCBI Bookshelf.
+- **NNE-REF-069** — Nah1204, *Synaptic Transmission from the Presynaptic Neuron to the Postsynaptic Neuron (1).svg*, verified chemical-synapse visual anchor via Wikimedia Commons; CC BY-SA 4.0.

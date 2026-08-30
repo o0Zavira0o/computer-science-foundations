@@ -17,13 +17,13 @@
 - **Nodes:** 89
 - **Coverage baseline:** audited
 - **Coverage items:** 10
-- **Published lessons:** 14
+- **Published lessons:** 15
 
 ## Registry sizes
 
 - **Concepts:** 92
-- **Examples:** 68
-- **References:** 63
+- **Examples:** 73
+- **References:** 70
 
 ## Learner state
 
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `NNE-N-0015` — Extracellular spikes, multi-unit activity, and local field potentials (L1, planned)
+- `NNE-N-0016` — Microelectrode arrays and high-channel-count invasive recording (L1, planned)
 
 ## Learner next actions
 
@@ -42,7 +42,6 @@
 
 ## Recent lessons
 
-- `NNE-0007` — From single neurons to populations, circuits, systems, and behavior (L0, complete)
 - `NNE-0008` — What counts as a neural signal: spikes, field potentials, rhythms, chemistry, and hemodynamics (L0, complete)
 - `NNE-0009` — The neural measurement chain: source, tissue, sensor, electronics, data, and inference (L0, complete)
 - `NNE-0010` — The neural modulation chain: stimulus, field or actuator, target, response, and side effects (L0, complete)
@@ -50,6 +49,7 @@
 - `NNE-0012` — Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs (L0, complete)
 - `NNE-0013` — The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses (L1, complete)
 - `NNE-0014` — Intracellular recording and patch clamp as a window into membrane voltage and currents (L1, complete)
+- `NNE-0015` — Extracellular spikes, multi-unit activity, and local field potentials (L1, complete)
 
 ## Normal-session retrieval rule
 

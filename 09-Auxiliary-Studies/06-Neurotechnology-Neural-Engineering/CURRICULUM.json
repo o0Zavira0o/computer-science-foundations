@@ -314,7 +314,7 @@
       "id": "NNE-N-0015",
       "title": "Extracellular spikes, multi-unit activity, and local field potentials",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0014"
       ],
@@ -329,7 +329,7 @@
         }
       ],
       "branch": "neural-recording",
-      "lesson_id": null
+      "lesson_id": "NNE-0015"
     },
     {
       "id": "NNE-N-0016",

@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0014 — Intracellular recording and patch clamp as a window into membrane voltage and currents`](lessons/NNE-0014-intracellular-recording-and-patch-clamp-as-a-window-into-membrane-voltage-and-currents.md)
-- Next canonical lesson: `NNE-N-0015 — Extracellular spikes, multi-unit activity, and local field potentials`
+- Published through: [`NNE-0015 — Extracellular spikes, multi-unit activity, and local field potentials`](lessons/NNE-0015-extracellular-spikes-multi-unit-activity-and-local-field-potentials.md)
+- Next canonical lesson: `NNE-N-0016 — Microelectrode arrays and high-channel-count invasive recording`
 
 Publication state is not learner mastery.
 

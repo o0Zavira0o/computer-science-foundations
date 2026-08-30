@@ -9,8 +9,8 @@ concepts_introduced: ["NNE-C-0005"]
 concepts_deepened: ["NNE-C-0001", "NNE-C-0002", "NNE-C-0003"]
 concepts_used: ["NNE-C-0004"]
 examples_added: ["NNE-EX-006", "NNE-EX-007", "NNE-EX-008", "NNE-EX-009", "NNE-EX-010"]
-references_used: ["NNE-REF-013", "NNE-REF-014", "NNE-REF-015", "NNE-REF-016"]
-last_reviewed: 2026-08-26
+references_used: ["NNE-REF-013", "NNE-REF-014", "NNE-REF-015", "NNE-REF-016", "NNE-REF-067"]
+last_reviewed: 2026-08-30
 version_sensitive: false
 review_after: null
 ---
@@ -117,6 +117,12 @@ flowchart TD
 ```
 
 At L0, this is the first map to remember.
+
+The Mermaid diagram above is a categorical map. The static figure below adds the anatomical spatial anchor: the **CNS is physically concentrated in the brain and spinal cord**, while peripheral nerves extend through the body.
+
+![Overview of the central and peripheral nervous systems in the human body](https://upload.wikimedia.org/wikipedia/commons/d/d3/1201_Overview_of_Nervous_System.jpg)
+
+*Visual anchor — overview of the human central and peripheral nervous systems. Use it to locate brain, spinal cord, and the body-wide peripheral nerve distribution; it is not a complete atlas of named nerves. Source: [Wikimedia Commons — 1201 Overview of Nervous System.jpg](https://commons.wikimedia.org/wiki/File:1201_Overview_of_Nervous_System.jpg), OpenStax, from* Anatomy and Physiology *version 8.25; CC BY 4.0. Registry: `NNE-REF-067`.*
 
 ### Central nervous system
 
@@ -2012,3 +2018,4 @@ That is enough structure to begin the cellular foundations.
 - **NNE-REF-014** — OpenStax, `Anatomy and Physiology 2e — 13.2 The Central Nervous System`.
 - **NNE-REF-015** — OpenStax, `Anatomy and Physiology 2e — Chapter 13 Review`, especially the peripheral-nervous-system overview.
 - **NNE-REF-016** — Purves et al., `Neuroscience — Neural Systems`, NCBI Bookshelf.
+- **NNE-REF-067** — OpenStax, *1201 Overview of Nervous System*, verified anatomical visual anchor via Wikimedia Commons; CC BY 4.0.
