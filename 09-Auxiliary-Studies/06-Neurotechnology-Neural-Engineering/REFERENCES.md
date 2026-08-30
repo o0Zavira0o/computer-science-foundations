@@ -87,3 +87,10 @@
 | `NNE-REF-081` | Electrical Stimulation Mapping of Brain Function: A Comparison of Subdural Electrodes and Stereo-EEG | survey-review | Krista M. Grande, Sarah K. Z. Ihnen, and Ravindra Arya; Frontiers in Human Neuroscience | 2026-08-30 | — |
 | `NNE-REF-082` | Atlas of the normal intracranial electroencephalogram: neurophysiological awake activity in different cortical areas | primary-paper | Birgit Frauscher et al.; Brain | 2026-08-30 | — |
 | `NNE-REF-083` | Dissociation of broadband high-frequency activity and neuronal firing in the neocortex | primary-paper | Marcin Leszczyński et al.; Science Advances | 2026-08-30 | — |
+| `NNE-REF-084` | The standardized EEG electrode array of the IFCN | technical-report | Margitta Seeck et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-085` | Montages for Noninvasive EEG Recording | survey-review | Ekrem Kutluay and Giridhar P. Kalamangalam; Journal of Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-086` | Which Reference Should We Use for EEG and ERP practice? | survey-review | Dezhong Yao et al.; Brain Topography | 2026-08-30 | — |
+| `NNE-REF-087` | Electroencephalography source localization | survey-review | Tae-Hoon Eom; Clinical and Experimental Pediatrics | 2026-08-30 | — |
+| `NNE-REF-088` | Cerebral location of international 10-20 system electrode placement | primary-paper | R. W. Homan, J. Herman, and P. Purdy; Electroencephalography and Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-089` | Routine and sleep EEG: Minimum recording standards of the International Federation of Clinical Neurophysiology and the International League Against Epilepsy | technical-report | Maria E. Peltola et al.; IFCN and ILAE / Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-090` | International 10-20 system for EEG-MCN.png | other | Brylie Christopher Oxley; Wikimedia Commons | 2026-08-30 | — |

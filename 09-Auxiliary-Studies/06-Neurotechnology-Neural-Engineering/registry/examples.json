@@ -583,6 +583,41 @@
       "domain": "ECoG broadband high-frequency interpretation",
       "first_lesson": "NNE-0017",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-084",
+      "signature": "Compare the same standardized 10-20 proportional placement logic on two different head sizes to show that standardization uses anatomical landmarks and relative distances rather than fixed centimeter spacing",
+      "domain": "standardized proportional scalp electrode geometry",
+      "first_lesson": "NNE-0018",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-085",
+      "signature": "Re-express the same three physical scalp electrode potentials using a physical reference, average reference, and bipolar chain to show that montage changes channel amplitude and polarity without changing the underlying event",
+      "domain": "scalp EEG montage and re-referencing",
+      "first_lesson": "NNE-0018",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-086",
+      "signature": "Compute a bipolar phase reversal around a local scalp voltage extremum and distinguish that sensor-space clue from the unjustified claim that the cortical generator is uniquely located directly under that electrode",
+      "domain": "bipolar phase reversal and source ambiguity",
+      "first_lesson": "NNE-0018",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-087",
+      "signature": "Compare two different candidate cortical source configurations that can predict nearly the same left-frontal scalp voltage field to demonstrate non-uniqueness of the EEG inverse problem",
+      "domain": "EEG inverse problem and source non-uniqueness",
+      "first_lesson": "NNE-0018",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-088",
+      "signature": "Sum opposing scalp contributions from two active cortical sources to obtain a small net Cz voltage and show why scalp amplitude is not a direct scalar measure of total neural activity",
+      "domain": "EEG source superposition and cancellation",
+      "first_lesson": "NNE-0018",
+      "reuse_purpose": null
     }
   ]
 }

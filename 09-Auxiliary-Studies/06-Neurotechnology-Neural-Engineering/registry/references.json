@@ -915,6 +915,83 @@
       "review_after": null,
       "version": "Science Advances 6(33), eabb0977 (2020); DOI 10.1126/sciadv.abb0977; PMID 32851172; PMCID PMC7423365; CC BY-NC 4.0",
       "notes": "Primary study used to prevent the oversimplification that broadband high-frequency activity is physically identical to local multi-unit firing."
+    },
+    {
+      "id": "NNE-REF-084",
+      "title": "The standardized EEG electrode array of the IFCN",
+      "type": "technical-report",
+      "authority": "Margitta Seeck et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/28778476/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Clinical Neurophysiology 128(10), 2070–2077 (2017); DOI 10.1016/j.clinph.2017.06.254; PMID 28778476",
+      "notes": "IFCN guideline used for modern standardized scalp-electrode arrays, 10-10-compatible nomenclature, inferior temporal sampling, and high-density EEG context."
+    },
+    {
+      "id": "NNE-REF-085",
+      "title": "Montages for Noninvasive EEG Recording",
+      "type": "survey-review",
+      "authority": "Ekrem Kutluay and Giridhar P. Kalamangalam; Journal of Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/31490450/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Clinical Neurophysiology 36(5), 330–336 (2019); DOI 10.1097/WNP.0000000000000546; PMID 31490450; PMCID PMC6733527",
+      "notes": "Review used for referential and bipolar montage interpretation, scalp polarity, spatial maxima, and phase reversal."
+    },
+    {
+      "id": "NNE-REF-086",
+      "title": "Which Reference Should We Use for EEG and ERP practice?",
+      "type": "survey-review",
+      "authority": "Dezhong Yao et al.; Brain Topography",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/31037477/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Brain Topography 32(4), 530–549 (2019); DOI 10.1007/s10548-019-00707-x; PMID 31037477; PMCID PMC6592976",
+      "notes": "Review used for the nonzero-reference problem, average reference, linked ears/mastoids, bipolar and Laplacian reference families, and reference-dependent downstream measures."
+    },
+    {
+      "id": "NNE-REF-087",
+      "title": "Electroencephalography source localization",
+      "type": "survey-review",
+      "authority": "Tae-Hoon Eom; Clinical and Experimental Pediatrics",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10167408/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Clinical and Experimental Pediatrics 66(5), 201–209 (2023); DOI 10.3345/cep.2022.00962; PMID 36596745; PMCID PMC10167408; CC BY-NC 4.0",
+      "notes": "Review used for the scalp EEG forward problem, head models, inverse non-uniqueness, source constraints, and high-density source imaging."
+    },
+    {
+      "id": "NNE-REF-088",
+      "title": "Cerebral location of international 10-20 system electrode placement",
+      "type": "primary-paper",
+      "authority": "R. W. Homan, J. Herman, and P. Purdy; Electroencephalography and Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/2435517/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Electroencephalography and Clinical Neurophysiology 66(4), 376–382 (1987); DOI 10.1016/0013-4694(87)90206-9; PMID 2435517",
+      "notes": "Primary anatomical study used to separate standardized scalp positions from exact underlying cerebral anatomy."
+    },
+    {
+      "id": "NNE-REF-089",
+      "title": "Routine and sleep EEG: Minimum recording standards of the International Federation of Clinical Neurophysiology and the International League Against Epilepsy",
+      "type": "technical-report",
+      "authority": "Maria E. Peltola et al.; IFCN and ILAE / Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/36775678/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Clinical Neurophysiology 147, 108–120 (2023); DOI 10.1016/j.clinph.2023.01.002; PMID 36775678; parallel open-access Epilepsia version DOI 10.1111/epi.17448, PMCID PMC10006292",
+      "notes": "IFCN/ILAE guideline used for current routine EEG acquisition standards and the role of standardized electrode arrays and technical metadata."
+    },
+    {
+      "id": "NNE-REF-090",
+      "title": "International 10-20 system for EEG-MCN.png",
+      "type": "other",
+      "authority": "Brylie Christopher Oxley; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:International_10-20_system_for_EEG-MCN.png",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons file; CC0 1.0 Universal Public Domain Dedication",
+      "notes": "Verified static visual anchor for NNE-0018 showing standardized scalp-electrode geometry and modified combinatorial nomenclature; used only for physical sensor placement, not source localization."
     }
   ]
 }

@@ -160,7 +160,7 @@
       "id": "NNE-C-0021",
       "name": "Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D2",
       "notes": "Curriculum concept supporting scalp eeg: potentials, montages, volume conduction, and spatial ambiguity."
     },
     {
