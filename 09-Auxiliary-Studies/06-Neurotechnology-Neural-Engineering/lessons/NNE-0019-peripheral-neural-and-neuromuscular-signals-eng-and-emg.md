@@ -374,7 +374,7 @@ The crucial distinction is:
 
 # Part XIII — Verified visual anchor: stimulation is not the same as recording location
 
-![Surface stimulation of the ulnar nerve with EMG recording electrodes on the hand](https://upload.wikimedia.org/wikipedia/commons/8/85/Electromyographic_recording_at_adductor_pollicis_muscle_and_stimulation_of_the_ulnar_nerve.jpg)
+![Surface stimulation of the ulnar nerve with EMG recording electrodes on the hand](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Electromyographic_recording_at_adductor_pollicis_muscle_and_stimulation_of_the_ulnar_nerve.jpg/960px-Electromyographic_recording_at_adductor_pollicis_muscle_and_stimulation_of_the_ulnar_nerve.jpg)
 
 *Visual anchor — photograph by Paul Anthony Stewart showing surface stimulating electrodes positioned over the ulnar-nerve region and separate surface recording electrodes on the hand. Use the photograph to inspect the physical separation between **where a nerve is stimulated** and **where the evoked muscle response is recorded**. The visible recording arrangement is therefore useful for understanding a nerve-to-muscle CMAP measurement; it should not be mislabeled as direct ENG from the motor nerve. Source: [Wikimedia Commons — Electromyographic recording at adductor pollicis muscle and stimulation of the ulnar nerve.jpg](https://commons.wikimedia.org/wiki/File:Electromyographic_recording_at_adductor_pollicis_muscle_and_stimulation_of_the_ulnar_nerve.jpg), Paul Anthony Stewart, CC BY-SA 4.0. Registry: `NNE-REF-097`.*
 

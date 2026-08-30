@@ -151,7 +151,6 @@ The decisive test for row-sensitive mathematics is whether the pushed GitHub Pre
 Static images are selective teaching evidence, not decoration.
 
 When an image is materially useful:
-
 - verify that it depicts the exact object/geometry described;
 - prefer an authoritative source or traceable open-license repository;
 - use a stable direct-media URL for embedding;
@@ -159,7 +158,116 @@ When an image is materially useful:
 - register lesson-critical figures in the reference registry;
 - use one accurate visual anchor rather than several decorative images.
 
-If reliable embedding is not possible, provide a precise **Visual lookup** instruction.
+A valid direct-media URL is **not** sufficient evidence that GitHub will render the image. External images may be proxied through `camo.githubusercontent.com`, and large raster originals can fail with a proxy error such as `Content length exceeded`.
+
+### 8.1 Raster payload preflight
+
+For externally hosted PNG/JPEG/WebP lesson figures, use these conservative repository targets:
+
+```text
+longest edge <= 1600 px
+payload      <= 2 MiB
+```
+
+These are house limits chosen for reliable inline rendering; they are not claims about a fixed GitHub platform limit.
+
+Prefer, in order:
+
+1. an official source-hosted thumbnail/derivative;
+2. a smaller official resolution offered by the same source page;
+3. a locally generated derivative only when the source license permits adaptation.
+
+For Wikimedia Commons, keep the original **file description page** for attribution, but embed an official thumbnail derivative when the original is large.
+
+Typical Wikimedia pattern:
+
+```text
+source page:
+https://commons.wikimedia.org/wiki/File:Example.jpg
+
+original media:
+https://upload.wikimedia.org/wikipedia/commons/a/ab/Example.jpg
+
+preferred rendered derivative:
+https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Example.jpg/1280px-Example.jpg
+```
+
+Do not copy GitHub's generated `camo.githubusercontent.com` URL into repository source.
+
+### 8.2 Verify the remote payload before authoring
+
+Use a temporary download so redirects and the real payload are checked:
+
+```bash
+IMAGE_URL='https://example.org/path/to/rendered-figure.jpg'
+
+curl -L --fail --silent --show-error \
+  "$IMAGE_URL" \
+  -o /tmp/csf-image-check
+
+file /tmp/csf-image-check
+
+bytes="$(wc -c < /tmp/csf-image-check)"
+echo "$bytes bytes"
+
+test "$bytes" -le 2097152
+```
+
+The final `test` must succeed for the normal external-raster house rule.
+
+If the provider publishes dimensions on its source page, record/check those there. If dimensions must be inspected locally and ImageMagick is available:
+
+```bash
+identify /tmp/csf-image-check
+```
+
+### 8.3 Create a smaller derivative when necessary
+
+Only do this when the license permits a derivative and no suitable official derivative exists.
+
+With ImageMagick:
+
+```bash
+magick input.jpg \
+  -auto-orient \
+  -resize '1600x1600>' \
+  -strip \
+  -quality 85 \
+  output.jpg
+```
+
+Then verify:
+
+```bash
+file output.jpg
+identify output.jpg
+
+bytes="$(wc -c < output.jpg)"
+echo "$bytes bytes"
+
+test "$bytes" -le 2097152
+```
+
+If the result is still too large, reduce the longest edge or JPEG quality modestly and check again. Do not degrade a technical figure until labels or required spatial details become unreadable.
+
+When a derivative is made:
+- preserve the exact original source-page URL;
+- preserve author/organization and license;
+- state that the displayed copy was resized/converted when the license or attribution practice requires it;
+- keep the lesson-critical figure registered under its verified source, not under a GitHub `camo` URL.
+
+### 8.4 Actual GitHub Preview is still mandatory
+
+After pushing the feature branch, verify that:
+
+- the image appears **inline**, rather than as alt text or a clickable fallback link;
+- opening the rendered image does not produce `Content length exceeded` or another proxy error;
+- the visual still has enough resolution to teach the intended geometry/detail;
+- caption, source page, author/organization, license, and reference ID remain correct.
+
+If any of these checks fail, do not merge. Replace the embedded media URL with a smaller verified derivative, rerun the render/audit gates, push the fix, and inspect the actual Preview again.
+
+If reliable embedding is not possible after a reasonable verified attempt, provide a precise **Visual lookup** instruction instead.
 
 ## 9. Git review before commit
 

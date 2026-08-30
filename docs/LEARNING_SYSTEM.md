@@ -475,6 +475,23 @@ If a correct figure is genuinely necessary but cannot be embedded reliably, incl
 Interactive Markdown patterns such as `<details>` may reveal hints, checks, counterexamples, or optional derivations after the reader has had a chance to predict. Core prerequisites and essential explanations must remain visible without interaction.
 
 A page can be excellent with no static image. A page with many decorative images can be worse than one precise, correctly sourced visual anchor.
+#### Static-image payload and GitHub proxy reliability
+
+A valid source URL is not enough by itself. GitHub may proxy externally embedded images through `camo.githubusercontent.com`, and a large upstream raster file can fail in the actual rendered page even when the source URL, attribution, and license are correct.
+
+Repository house rules for externally hosted static raster images:
+
+- do **not** embed the largest available original merely because it is canonical;
+- prefer an official provider-generated derivative or thumbnail whose longest edge is at most **1600 px** and whose payload is at most **2 MiB**; 960 px or 1280 px is usually sufficient for lesson figures;
+- treat the 1600 px / 2 MiB values as conservative repository targets, not claims about GitHub's undocumented hard limits;
+- for Wikimedia Commons, prefer an official `/thumb/.../<width>px-<filename>` media derivative while keeping the **original Commons file page** as the source/attribution link;
+- never copy a `camo.githubusercontent.com` URL back into authored Markdown; the source should remain the stable upstream media/thumbnail URL;
+- preserve author/organization, source page, license, and registry ID when changing only the rendered derivative;
+- if no official derivative exists, create a resized derivative only when the license permits it, and indicate changes when the license requires that disclosure;
+- after push, the actual GitHub Preview must show the image **inline**. A link-only fallback, broken-image placeholder, proxy error, or `Content length exceeded` message is a publication failure.
+
+The operational payload check and conversion commands are defined in [`PUBLISH_AUDIT.md`](PUBLISH_AUDIT.md).
+
 ### Mathematical notation and GitHub rendering
 
 Mathematical notation is part of the teaching interface, not merely source text. Repository Markdown must use GitHub-supported math syntax so formulas render rather than leak LaTeX into the page.
