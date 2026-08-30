@@ -314,7 +314,7 @@
       "id": "LA-N-0016",
       "title": "L0 synthesis: solve, transform, and explain one problem three ways",
       "level": "L0",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "LA-N-0012",
         "LA-N-0015"
@@ -329,7 +329,7 @@
         }
       ],
       "branch": "synthesis",
-      "lesson_id": null
+      "lesson_id": "LA-0016"
     },
     {
       "id": "LA-N-0017",

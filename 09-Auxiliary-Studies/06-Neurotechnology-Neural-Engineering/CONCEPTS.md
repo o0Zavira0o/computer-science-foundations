@@ -20,7 +20,7 @@
 | `NNE-C-0014` | Open-loop and closed-loop neural systems | D1 | — |
 | `NNE-C-0015` | Resolution, selectivity, bandwidth, invasiveness, stability, and safety as coupled tradeoffs | D1 | — |
 | `NNE-C-0016` | The electrode-tissue interface: charge transfer, impedance, and what an electrode actually senses | D2 | — |
-| `NNE-C-0017` | Intracellular recording and patch clamp as a window into membrane voltage and currents | — | — |
+| `NNE-C-0017` | Intracellular recording and patch clamp as a window into membrane voltage and currents | D2 | — |
 | `NNE-C-0018` | Extracellular spikes, multi-unit activity, and local field potentials | — | — |
 | `NNE-C-0019` | Microelectrode arrays and high-channel-count invasive recording | — | — |
 | `NNE-C-0020` | ECoG and intracranial EEG: recording from the cortical surface and depth | — | — |

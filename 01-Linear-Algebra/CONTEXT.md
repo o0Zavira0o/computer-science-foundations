@@ -17,12 +17,12 @@
 - **Nodes:** 128
 - **Coverage baseline:** audited
 - **Coverage items:** 20
-- **Published lessons:** 15
+- **Published lessons:** 16
 
 ## Registry sizes
 
 - **Concepts:** 128
-- **Examples:** 59
+- **Examples:** 64
 - **References:** 15
 
 ## Learner state
@@ -33,7 +33,7 @@
 
 ## Authoring candidates
 
-- `LA-N-0016` — L0 synthesis: solve, transform, and explain one problem three ways (L0, planned)
+- `LA-N-0017` — Vector spaces: the abstraction behind vectors (L1, planned)
 
 ## Learner next actions
 
@@ -42,7 +42,6 @@
 
 ## Recent lessons
 
-- `LA-0008` — Systems of linear equations and solution sets (L0, complete)
 - `LA-0009` — Matrices as organized coefficients and operators (L0, complete)
 - `LA-0010` — Matrix-vector multiplication as a column combination (L0, complete)
 - `LA-0011` — Elimination: changing equations without changing solutions (L0, complete)
@@ -50,6 +49,7 @@
 - `LA-0013` — Linear transformations in the plane (L0, complete)
 - `LA-0014` — Composition and matrix multiplication (L0, complete)
 - `LA-0015` — Invertibility as reversible linear action (L0, complete)
+- `LA-0016` — L0 synthesis: solve, transform, and explain one problem three ways (L0, complete)
 
 ## Normal-session retrieval rule
 

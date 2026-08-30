@@ -415,6 +415,41 @@
       "domain": "inverse of a composed transformation and order reversal",
       "first_lesson": "LA-0015",
       "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-060",
+      "signature": "Solve one invertible two-by-two matrix equation as simultaneous constraints, as a column combination, and as a transformation preimage, then verify all three descriptions give the same unique input",
+      "domain": "three-view synthesis for unique linear solution",
+      "first_lesson": "LA-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-061",
+      "signature": "Use a singular two-by-two matrix with parallel columns and an off-span target to connect contradiction under elimination, unreachable column target, and absence of a transformation preimage",
+      "domain": "three-view synthesis for inconsistent system",
+      "first_lesson": "LA-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-062",
+      "signature": "Use the same singular matrix with an in-span target to connect a free parameter, nonunique column weights, and infinitely many transformation preimages",
+      "domain": "three-view synthesis for infinitely many solutions",
+      "first_lesson": "LA-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-063",
+      "signature": "Reverse a scale-then-shear pipeline by reasoning about transformation order to connect composition, matrix multiplication, invertibility, and the reversed order of inverse factors",
+      "domain": "composition and inverse synthesis",
+      "first_lesson": "LA-0016",
+      "reuse_purpose": null
+    },
+    {
+      "id": "LA-EX-064",
+      "signature": "Interpret an invertible two-source two-sensor mixing model as row constraints, source-signature columns, and an input-output transformation while separating mathematical recoverability from physical model validity",
+      "domain": "engineering source mixing across linear representations",
+      "first_lesson": "LA-0016",
+      "reuse_purpose": null
     }
   ]
 }

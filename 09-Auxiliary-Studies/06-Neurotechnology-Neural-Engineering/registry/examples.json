@@ -443,6 +443,41 @@
       "domain": "reference placement and differential neural voltage measurement",
       "first_lesson": "NNE-0013",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-064",
+      "signature": "Estimate neuronal input resistance from a small current-clamp step while explicitly limiting the inference to a local approximately linear operating range",
+      "domain": "current clamp input resistance estimate",
+      "first_lesson": "NNE-0014",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-065",
+      "signature": "Estimate a whole-cell voltage-clamp series-resistance voltage drop from current and access resistance, then distinguish the simple diagnostic estimate from the actual membrane voltage error",
+      "domain": "series resistance and voltage clamp error",
+      "first_lesson": "NNE-0014",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-066",
+      "signature": "Use a soma-plus-long-dendrite thought experiment to show why tight somatic voltage control does not imply perfect voltage control across an extended neuron",
+      "domain": "space clamp limitation in extended neurons",
+      "first_lesson": "NNE-0014",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-067",
+      "signature": "Interpret a current-voltage zero crossing as a reversal potential under stated ionic and sign conventions without incorrectly concluding that channels are closed at zero net current",
+      "domain": "voltage clamp reversal potential reasoning",
+      "first_lesson": "NNE-0014",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-068",
+      "signature": "Choose cell-attached, whole-cell current clamp, inside-out, or outside-out patch configuration by matching the experimentally accessible membrane face and controlled variable to four biological questions",
+      "domain": "patch clamp configuration selection",
+      "first_lesson": "NNE-0014",
+      "reuse_purpose": null
     }
   ]
 }

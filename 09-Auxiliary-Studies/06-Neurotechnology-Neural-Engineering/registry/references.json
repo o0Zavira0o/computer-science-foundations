@@ -651,6 +651,50 @@
       "review_after": null,
       "version": "Journal of Neuroscience Methods 169(1), 141–157 (2008); DOI 10.1016/j.jneumeth.2007.12.010",
       "notes": "Review and experimental circuit-analysis source showing frequency-dependent attenuation and phase distortion when microelectrode impedance is not negligible relative to amplifier input impedance and downstream filters."
+    },
+    {
+      "id": "NNE-REF-060",
+      "title": "Single-channel currents recorded from membrane of denervated frog muscle fibres",
+      "type": "primary-paper",
+      "authority": "Erwin Neher and Bert Sakmann; Nature",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/1083489/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Nature 260(5554), 799–802 (1976); DOI 10.1038/260799a0",
+      "notes": "Foundational primary demonstration of single-channel current recording, supporting the distinction between discrete channel currents and macroscopic membrane current."
+    },
+    {
+      "id": "NNE-REF-061",
+      "title": "Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches",
+      "type": "primary-paper",
+      "authority": "O. P. Hamill, A. Marty, E. Neher, B. Sakmann, and F. J. Sigworth; Pflügers Archiv",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/6270629/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Pflügers Archiv 391(2), 85–100 (1981); DOI 10.1007/BF00656997",
+      "notes": "Foundational patch-clamp methods paper describing high-resistance seals and configurations for high-resolution current recording from cells and isolated membrane patches."
+    },
+    {
+      "id": "NNE-REF-062",
+      "title": "In Vivo Whole-Cell Patch-Clamp Methods: Recent Technical Progress and Future Perspectives",
+      "type": "survey-review",
+      "authority": "Asako Noguchi, Yuji Ikegaya, and Nobuyoshi Matsumoto; Sensors",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/33669656/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Sensors 21(4), 1448 (2021); DOI 10.3390/s21041448",
+      "notes": "Review source for whole-cell patch-clamp configuration, membrane-potential recording, in vivo practice, and the relationship between technical access and single-cell physiological interpretation."
+    },
+    {
+      "id": "NNE-REF-063",
+      "title": "Series resistance errors in whole cell voltage clamp measured directly with dual patch-clamp recordings: not as bad as you think",
+      "type": "primary-paper",
+      "authority": "Michael Gray and Joseph M. Santin; Journal of Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/37073967/",
+      "reviewed_at": "2026-08-28",
+      "review_after": null,
+      "version": "Journal of Neurophysiology 129(5), 1177–1190 (2023); DOI 10.1152/jn.00476.2022",
+      "notes": "Primary study directly measuring series-resistance voltage errors and illustrating why command voltage, simple Ohmic correction, compensation, and actual membrane voltage must be distinguished."
     }
   ]
 }

@@ -19,3 +19,4 @@
 | [`LA-0013`](lessons/LA-0013-linear-transformations-in-the-plane.md) | Linear transformations in the plane | L0 | complete | `LA-N-0013` | 2026-08-28 |
 | [`LA-0014`](lessons/LA-0014-composition-and-matrix-multiplication.md) | Composition and matrix multiplication | L0 | complete | `LA-N-0014` | 2026-08-28 |
 | [`LA-0015`](lessons/LA-0015-invertibility-as-reversible-linear-action.md) | Invertibility as reversible linear action | L0 | complete | `LA-N-0015` | 2026-08-28 |
+| [`LA-0016`](lessons/LA-0016-l0-synthesis-solve-transform-and-explain-one-problem-three-ways.md) | L0 synthesis: solve, transform, and explain one problem three ways | L0 | complete | `LA-N-0016` | 2026-08-28 |

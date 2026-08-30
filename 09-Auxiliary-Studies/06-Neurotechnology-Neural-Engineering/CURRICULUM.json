@@ -293,7 +293,7 @@
       "id": "NNE-N-0014",
       "title": "Intracellular recording and patch clamp as a window into membrane voltage and currents",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0013"
       ],
@@ -308,7 +308,7 @@
         }
       ],
       "branch": "neural-recording",
-      "lesson_id": null
+      "lesson_id": "NNE-0014"
     },
     {
       "id": "NNE-N-0015",
