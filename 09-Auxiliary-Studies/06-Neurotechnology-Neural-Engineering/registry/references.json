@@ -1069,6 +1069,94 @@
       "review_after": null,
       "version": "Wikimedia Commons photograph, original 2016; CC BY-SA 4.0",
       "notes": "Verified static visual anchor for NNE-0019 showing the physical separation between peripheral-nerve surface stimulation and separate muscle EMG recording in an evoked CMAP arrangement; used explicitly to prevent mislabeling the muscle response as direct ENG."
+    },
+    {
+      "id": "NNE-REF-098",
+      "title": "Magnetoencephalography—theory, instrumentation, and applications to noninvasive studies of the working human brain",
+      "type": "survey-review",
+      "authority": "Matti Hämäläinen, Riitta Hari, Risto J. Ilmoniemi, Jukka Knuutila, and Olli V. Lounasmaa; Reviews of Modern Physics",
+      "locator": "https://doi.org/10.1103/RevModPhys.65.413",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Reviews of Modern Physics 65, 413–497 (1993); DOI 10.1103/RevModPhys.65.413",
+      "notes": "Foundational review used for current-dipole physics, field magnitudes, SQUID instrumentation, source orientation, forward modeling, and classical MEG source theory."
+    },
+    {
+      "id": "NNE-REF-099",
+      "title": "Magnetoencephalography for brain electrophysiology and imaging",
+      "type": "survey-review",
+      "authority": "Sylvain Baillet; Nature Neuroscience",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/28230841/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Nature Neuroscience 20(3), 327–339 (2017); DOI 10.1038/nn.4504; PMID 28230841",
+      "notes": "Review used for modern MEG electrophysiological source imaging, modality strengths, limitations, timing, and comparison with other neuroimaging methods."
+    },
+    {
+      "id": "NNE-REF-100",
+      "title": "Magnetoencephalography: From SQUIDs to neuroscience. NeuroImage 20th anniversary special edition",
+      "type": "survey-review",
+      "authority": "Riitta Hari and Riitta Salmelin; NeuroImage",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/22166794/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "NeuroImage 61(2), 386–396 (2012); DOI 10.1016/j.neuroimage.2011.11.074; PMID 22166794",
+      "notes": "Review used for SQUID-era instrumentation, cortical population physiology, and development of MEG methodology."
+    },
+    {
+      "id": "NNE-REF-101",
+      "title": "Good practice for conducting and reporting MEG research",
+      "type": "technical-report",
+      "authority": "Joachim Gross et al.; NeuroImage",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3925794/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "NeuroImage 65, 349–363 (2013); DOI 10.1016/j.neuroimage.2012.10.001; PMID 23046981; PMCID PMC3925794; CC BY",
+      "notes": "Methodological recommendations used for acquisition metadata, head position, preprocessing order, source reconstruction, connectivity cautions, and reproducible reporting."
+    },
+    {
+      "id": "NNE-REF-102",
+      "title": "IFCN-endorsed practical guidelines for clinical magnetoencephalography (MEG)",
+      "type": "technical-report",
+      "authority": "Riitta Hari et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6045462/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Clinical Neurophysiology 129(8), 1720–1747 (2018); DOI 10.1016/j.clinph.2018.03.042; PMID 29724661; PMCID PMC6045462; CC BY 4.0",
+      "notes": "IFCN-endorsed guideline used for MEG physical principles, clinical measurement practice, artifacts, source modeling, and complementary EEG/MEG interpretation."
+    },
+    {
+      "id": "NNE-REF-103",
+      "title": "Magnetoencephalography with optically pumped magnetometers (OPM-MEG): the next generation of functional neuroimaging",
+      "type": "survey-review",
+      "authority": "Matthew J. Brookes et al.; Trends in Neurosciences",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10465236/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Trends in Neurosciences 45(8), 621–634 (2022); DOI 10.1016/j.tins.2022.05.008; PMID 35779970; PMCID PMC10465236",
+      "notes": "Review used for OPM sensing, on-scalp geometry, cryogenic-system limitations, participant movement, shielding, and emerging wearable MEG."
+    },
+    {
+      "id": "NNE-REF-104",
+      "title": "Magnetoencephalography: physics, techniques, and applications in the basic and clinical neurosciences",
+      "type": "survey-review",
+      "authority": "Junseok A. Kim and Karen D. Davis; Journal of Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/33567968/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Neurophysiology 125(3), 938–956 (2021); DOI 10.1152/jn.00530.2020; PMID 33567968",
+      "notes": "Review used for MEG signal origins, instrumentation, source-localization intuition, beamforming, functional coupling, and clinical applications."
+    },
+    {
+      "id": "NNE-REF-105",
+      "title": "Magnetoencephalography.svg",
+      "type": "other",
+      "authority": "Tom Holroyd; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Magnetoencephalography.svg",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons SVG; original upload 2006, validated redraw 2019; public domain; original SVG 398×266 and 14 KB; lesson embeds official 960 px PNG derivative",
+      "notes": "Verified visual anchor for NNE-0020 used only to illustrate the directional relationship between neural current and the external magnetic field measured by MEG; source page and public-domain attribution are preserved separately from the rendered derivative."
     }
   ]
 }

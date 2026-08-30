@@ -653,6 +653,41 @@
       "domain": "ENG EMG SNAP CMAP source classification",
       "first_lesson": "NNE-0019",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-094",
+      "signature": "Compare a 50 microtesla terrestrial background field with a 100 femtotesla neural MEG signal to quantify the approximately five-hundred-million-fold scale difference that motivates shielding and interference control",
+      "domain": "MEG magnetic-field scale and environmental interference",
+      "first_lesson": "NNE-0020",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-095",
+      "signature": "Compare equally strong tangential and nearly radial cortical current dipoles in the ideal spherical-head model to separate source strength from source-orientation sensitivity in MEG",
+      "domain": "MEG tangential versus radial source orientation",
+      "first_lesson": "NNE-0020",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-096",
+      "signature": "Subtract two idealized pickup-loop signals containing the same large distant environmental field but different local brain fields to demonstrate first-order gradiometric common-field rejection",
+      "domain": "MEG gradiometer interference rejection",
+      "first_lesson": "NNE-0020",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-097",
+      "signature": "Construct two distinct MEG source vectors that produce the same sensor data by adding a nonzero null-space vector n satisfying L n = 0, demonstrating inverse nonuniqueness algebraically",
+      "domain": "MEG lead-field null space and inverse nonuniqueness",
+      "first_lesson": "NNE-0020",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-098",
+      "signature": "Model two MEG sensor channels that share one latent neural source and show why strong sensor correlation can arise from field spread without implying interaction between two distinct neural populations",
+      "domain": "MEG common-source correlation and connectivity ambiguity",
+      "first_lesson": "NNE-0020",
+      "reuse_purpose": null
     }
   ]
 }

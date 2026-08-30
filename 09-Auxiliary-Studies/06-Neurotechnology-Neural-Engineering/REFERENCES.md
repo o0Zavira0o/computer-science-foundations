@@ -101,3 +101,11 @@
 | `NNE-REF-095` | The extraction of neural strategies from the surface EMG: 2004–2024 | survey-review | Dario Farina, Roberto Merletti, and Roger M. Enoka; Journal of Applied Physiology | 2026-08-30 | — |
 | `NNE-REF-096` | Standards of instrumentation of EMG | technical-report | Hatice Tankisi et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology | 2026-08-30 | — |
 | `NNE-REF-097` | Electromyographic recording at adductor pollicis muscle and stimulation of the ulnar nerve.jpg | other | Paul Anthony Stewart; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-098` | Magnetoencephalography—theory, instrumentation, and applications to noninvasive studies of the working human brain | survey-review | Matti Hämäläinen, Riitta Hari, Risto J. Ilmoniemi, Jukka Knuutila, and Olli V. Lounasmaa; Reviews of Modern Physics | 2026-08-30 | — |
+| `NNE-REF-099` | Magnetoencephalography for brain electrophysiology and imaging | survey-review | Sylvain Baillet; Nature Neuroscience | 2026-08-30 | — |
+| `NNE-REF-100` | Magnetoencephalography: From SQUIDs to neuroscience. NeuroImage 20th anniversary special edition | survey-review | Riitta Hari and Riitta Salmelin; NeuroImage | 2026-08-30 | — |
+| `NNE-REF-101` | Good practice for conducting and reporting MEG research | technical-report | Joachim Gross et al.; NeuroImage | 2026-08-30 | — |
+| `NNE-REF-102` | IFCN-endorsed practical guidelines for clinical magnetoencephalography (MEG) | technical-report | Riitta Hari et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-103` | Magnetoencephalography with optically pumped magnetometers (OPM-MEG): the next generation of functional neuroimaging | survey-review | Matthew J. Brookes et al.; Trends in Neurosciences | 2026-08-30 | — |
+| `NNE-REF-104` | Magnetoencephalography: physics, techniques, and applications in the basic and clinical neurosciences | survey-review | Junseok A. Kim and Karen D. Davis; Journal of Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-105` | Magnetoencephalography.svg | other | Tom Holroyd; Wikimedia Commons | 2026-08-30 | — |
