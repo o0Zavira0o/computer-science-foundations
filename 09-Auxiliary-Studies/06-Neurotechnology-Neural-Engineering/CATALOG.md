@@ -20,3 +20,4 @@
 | [`NNE-0014`](lessons/NNE-0014-intracellular-recording-and-patch-clamp-as-a-window-into-membrane-voltage-and-currents.md) | Intracellular recording and patch clamp as a window into membrane voltage and currents | L1 | complete | `NNE-N-0014` | 2026-08-30 |
 | [`NNE-0015`](lessons/NNE-0015-extracellular-spikes-multi-unit-activity-and-local-field-potentials.md) | Extracellular spikes, multi-unit activity, and local field potentials | L1 | complete | `NNE-N-0015` | 2026-08-30 |
 | [`NNE-0016`](lessons/NNE-0016-microelectrode-arrays-and-high-channel-count-invasive-recording.md) | Microelectrode arrays and high-channel-count invasive recording | L1 | complete | `NNE-N-0016` | 2026-08-30 |
+| [`NNE-0017`](lessons/NNE-0017-ecog-and-intracranial-eeg-recording-from-the-cortical-surface-and-depth.md) | ECoG and intracranial EEG: recording from the cortical surface and depth | L1 | complete | `NNE-N-0017` | 2026-08-30 |

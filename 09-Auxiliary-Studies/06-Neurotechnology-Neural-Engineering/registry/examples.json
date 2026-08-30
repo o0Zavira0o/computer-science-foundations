@@ -548,6 +548,41 @@
       "domain": "chronic recording drift and longitudinal unit identity",
       "first_lesson": "NNE-0016",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-079",
+      "signature": "Compare 64 contacts arranged as an 8-by-8 subdural surface grid with 64 contacts distributed across eight SEEG depth electrodes to show that equal contact count does not imply equal density, anatomical access, or spatial coverage",
+      "domain": "surface versus depth intracranial sampling geometry",
+      "first_lesson": "NNE-0017",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-080",
+      "signature": "Follow one eight-contact SEEG electrode through superficial gray matter, white matter, hippocampal gray matter, and deeper cortex to separate hardware contact order from actual tissue localization and source interpretation",
+      "domain": "SEEG contact localization across tissue compartments",
+      "first_lesson": "NNE-0017",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-081",
+      "signature": "Re-reference two intracranial contacts numerically and derive a bipolar channel to show that montage changes displayed amplitude and polarity even when the underlying physical contact potentials are unchanged",
+      "domain": "intracranial EEG reference and bipolar montage",
+      "first_lesson": "NNE-0017",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-082",
+      "signature": "Compare a surface-only recording with a depth-plus-surface recording of the same synthetic seizure to show that the earliest recorded ictal contact depends on electrode coverage and need not be the absolute biological origin",
+      "domain": "sampling-dependent seizure-onset inference",
+      "first_lesson": "NNE-0017",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-083",
+      "signature": "Interpret an ECoG task-related increase in broadband high-frequency activity without converting it directly into a proportional spike-count claim, separating an informative population correlate from the underlying physical variable",
+      "domain": "ECoG broadband high-frequency interpretation",
+      "first_lesson": "NNE-0017",
+      "reuse_purpose": null
     }
   ]
 }

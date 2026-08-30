@@ -80,3 +80,10 @@
 | `NNE-REF-074` | Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings | primary-paper | Nicholas A. Steinmetz et al.; Science | 2026-08-30 | — |
 | `NNE-REF-075` | Design, Fabrication, and Implantation of Invasive Microelectrode Arrays as in vivo Brain Machine Interfaces: A Comprehensive Review | survey-review | Dongyang Yi, Yao Yao, Yi Wang, and Lei Chen; Journal of Manufacturing Processes | 2026-08-30 | — |
 | `NNE-REF-076` | Neuroprosthetic technologies for sensorimotor disorders.webp | other | Ankur Gupta, Nikolaos Vardalakis, and Fabien B. Wagner; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-077` | Promises and limitations of human intracranial electroencephalography | survey-review | Josef Parvizi and Sabine Kastner; Nature Neuroscience | 2026-08-30 | — |
+| `NNE-REF-078` | Diagnostic utility of invasive EEG for epilepsy surgery: Indications, modalities, and techniques | technical-report | Prasanna Jayakar et al.; ILAE Neurophysiology Task Force / Epilepsia | 2026-08-30 | — |
+| `NNE-REF-079` | Depth versus surface: A critical review of subdural and depth electrodes in intracranial electroencephalographic studies | survey-review | Shasha Wu et al.; Epilepsia | 2026-08-30 | — |
+| `NNE-REF-080` | Comparative Effectiveness of Stereotactic Electroencephalography Versus Subdural Grids in Epilepsy Surgery | primary-paper | Lara Jehi et al.; Annals of Neurology | 2026-08-30 | — |
+| `NNE-REF-081` | Electrical Stimulation Mapping of Brain Function: A Comparison of Subdural Electrodes and Stereo-EEG | survey-review | Krista M. Grande, Sarah K. Z. Ihnen, and Ravindra Arya; Frontiers in Human Neuroscience | 2026-08-30 | — |
+| `NNE-REF-082` | Atlas of the normal intracranial electroencephalogram: neurophysiological awake activity in different cortical areas | primary-paper | Birgit Frauscher et al.; Brain | 2026-08-30 | — |
+| `NNE-REF-083` | Dissociation of broadband high-frequency activity and neuronal firing in the neocortex | primary-paper | Marcin Leszczyński et al.; Science Advances | 2026-08-30 | — |

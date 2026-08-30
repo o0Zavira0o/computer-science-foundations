@@ -153,7 +153,7 @@
       "id": "NNE-C-0020",
       "name": "ECoG and intracranial EEG: recording from the cortical surface and depth",
       "aliases": [],
-      "current_depth": null,
+      "current_depth": "D2",
       "notes": "Curriculum concept supporting ecog and intracranial eeg: recording from the cortical surface and depth."
     },
     {

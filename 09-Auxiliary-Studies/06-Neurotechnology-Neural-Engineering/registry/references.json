@@ -838,6 +838,83 @@
       "review_after": null,
       "version": "Wikimedia Commons file derived from Communications Biology source figure; CC BY 4.0",
       "notes": "Verified static visual anchor for NNE-0016. The figure includes a 10×10 Utah-style intracortical microelectrode array and an ECoG grid; the lesson explicitly uses the intracortical array as the present visual focus and reserves ECoG for NNE-0017."
+    },
+    {
+      "id": "NNE-REF-077",
+      "title": "Promises and limitations of human intracranial electroencephalography",
+      "type": "survey-review",
+      "authority": "Josef Parvizi and Sabine Kastner; Nature Neuroscience",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6476542/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Nature Neuroscience 21, 474–483 (2018); DOI 10.1038/s41593-018-0108-2; PMID 29507407; PMCID PMC6476542",
+      "notes": "Review used for the ECoG/SEEG distinction, millisecond temporal access, clinically constrained placement, spatial sampling, and limitations of human intracranial EEG research."
+    },
+    {
+      "id": "NNE-REF-078",
+      "title": "Diagnostic utility of invasive EEG for epilepsy surgery: Indications, modalities, and techniques",
+      "type": "technical-report",
+      "authority": "Prasanna Jayakar et al.; ILAE Neurophysiology Task Force / Epilepsia",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/27677490/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Epilepsia 57(11), 1735–1747 (2016); DOI 10.1111/epi.13515; PMID 27677490",
+      "notes": "ILAE task-force special report used for indications, modalities, limitations, and interpretation of invasive EEG in epilepsy-surgery evaluation."
+    },
+    {
+      "id": "NNE-REF-079",
+      "title": "Depth versus surface: A critical review of subdural and depth electrodes in intracranial electroencephalographic studies",
+      "type": "survey-review",
+      "authority": "Shasha Wu et al.; Epilepsia",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/38722693/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Epilepsia 65(7), 1868–1878 (2024); DOI 10.1111/epi.18002; PMID 38722693; CC BY-NC 4.0",
+      "notes": "Critical review used for two-dimensional surface versus three-dimensional depth sampling, sulcal/deep access, and modality tradeoffs."
+    },
+    {
+      "id": "NNE-REF-080",
+      "title": "Comparative Effectiveness of Stereotactic Electroencephalography Versus Subdural Grids in Epilepsy Surgery",
+      "type": "primary-paper",
+      "authority": "Lara Jehi et al.; Annals of Neurology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/34590337/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Annals of Neurology 90(6), 927–939 (2021); DOI 10.1002/ana.26238; PMID 34590337; PMCID PMC9438788",
+      "notes": "International comparative-effectiveness study used for cautious discussion of procedural complications and outcomes in SEEG versus subdural-grid cohorts."
+    },
+    {
+      "id": "NNE-REF-081",
+      "title": "Electrical Stimulation Mapping of Brain Function: A Comparison of Subdural Electrodes and Stereo-EEG",
+      "type": "survey-review",
+      "authority": "Krista M. Grande, Sarah K. Z. Ihnen, and Ravindra Arya; Frontiers in Human Neuroscience",
+      "locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.611291/full",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Frontiers in Human Neuroscience 14:611291 (2020); DOI 10.3389/fnhum.2020.611291; CC BY 4.0",
+      "notes": "Review used for surface-versus-depth geometry, contact forms, functional-mapping context, and the verified Figure 2 static visual anchor embedded in NNE-0017."
+    },
+    {
+      "id": "NNE-REF-082",
+      "title": "Atlas of the normal intracranial electroencephalogram: neurophysiological awake activity in different cortical areas",
+      "type": "primary-paper",
+      "authority": "Birgit Frauscher et al.; Brain",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/29506200/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Brain 141(4), 1130–1144 (2018); DOI 10.1093/brain/awy035; PMID 29506200",
+      "notes": "Multicenter primary study used for anatomical variation in physiological intracranial EEG and for the importance of rigorous contact localization and selection."
+    },
+    {
+      "id": "NNE-REF-083",
+      "title": "Dissociation of broadband high-frequency activity and neuronal firing in the neocortex",
+      "type": "primary-paper",
+      "authority": "Marcin Leszczyński et al.; Science Advances",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/32851172/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Science Advances 6(33), eabb0977 (2020); DOI 10.1126/sciadv.abb0977; PMID 32851172; PMCID PMC7423365; CC BY-NC 4.0",
+      "notes": "Primary study used to prevent the oversimplification that broadband high-frequency activity is physically identical to local multi-unit firing."
     }
   ]
 }

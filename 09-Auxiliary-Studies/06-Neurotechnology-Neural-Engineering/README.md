@@ -11,8 +11,8 @@ It deliberately treats neurotechnology as more than brain-computer interfaces. T
 ## Publication frontier
 
 - Start: [`NNE-0001 — What neurotechnology and neural engineering are actually studying`](lessons/NNE-0001-what-neurotechnology-and-neural-engineering-are-actually-studying.md)
-- Published through: [`NNE-0016 — Microelectrode arrays and high-channel-count invasive recording`](lessons/NNE-0016-microelectrode-arrays-and-high-channel-count-invasive-recording.md)
-- Next canonical lesson: `NNE-N-0017 — ECoG and intracranial EEG: recording from the cortical surface and depth`
+- Published through: [`NNE-0017 — ECoG and intracranial EEG: recording from the cortical surface and depth`](lessons/NNE-0017-ecog-and-intracranial-eeg-recording-from-the-cortical-surface-and-depth.md)
+- Next canonical lesson: `NNE-N-0018 — Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity`
 
 Publication state is not learner mastery.
 

@@ -356,7 +356,7 @@
       "id": "NNE-N-0017",
       "title": "ECoG and intracranial EEG: recording from the cortical surface and depth",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0016"
       ],
@@ -371,7 +371,7 @@
         }
       ],
       "branch": "neural-recording",
-      "lesson_id": null
+      "lesson_id": "NNE-0017"
     },
     {
       "id": "NNE-N-0018",
