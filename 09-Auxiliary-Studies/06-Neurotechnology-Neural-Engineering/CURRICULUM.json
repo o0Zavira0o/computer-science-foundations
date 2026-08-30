@@ -398,7 +398,7 @@
       "id": "NNE-N-0019",
       "title": "Peripheral neural and neuromuscular signals: ENG and EMG",
       "level": "L1",
-      "status": "planned",
+      "status": "published",
       "prerequisites": [
         "NNE-N-0018"
       ],
@@ -413,7 +413,7 @@
         }
       ],
       "branch": "peripheral-interfaces",
-      "lesson_id": null
+      "lesson_id": "NNE-0019"
     },
     {
       "id": "NNE-N-0020",

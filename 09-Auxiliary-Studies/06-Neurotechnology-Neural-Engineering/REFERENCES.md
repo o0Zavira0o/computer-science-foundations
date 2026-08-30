@@ -94,3 +94,10 @@
 | `NNE-REF-088` | Cerebral location of international 10-20 system electrode placement | primary-paper | R. W. Homan, J. Herman, and P. Purdy; Electroencephalography and Clinical Neurophysiology | 2026-08-30 | — |
 | `NNE-REF-089` | Routine and sleep EEG: Minimum recording standards of the International Federation of Clinical Neurophysiology and the International League Against Epilepsy | technical-report | Maria E. Peltola et al.; IFCN and ILAE / Clinical Neurophysiology | 2026-08-30 | — |
 | `NNE-REF-090` | International 10-20 system for EEG-MCN.png | other | Brylie Christopher Oxley; Wikimedia Commons | 2026-08-30 | — |
+| `NNE-REF-091` | Nerve conduction studies: essentials and pitfalls in practice | survey-review | A. Mallik and A. I. Weir; Journal of Neurology, Neurosurgery & Psychiatry | 2026-08-30 | — |
+| `NNE-REF-092` | Models and analysis of compound nerve action potentials | survey-review | R. Schoonhoven and D. F. Stegeman; Critical Reviews in Biomedical Engineering | 2026-08-30 | — |
+| `NNE-REF-093` | Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors | survey-review | Isabella Campanini et al.; Sensors | 2026-08-30 | — |
+| `NNE-REF-094` | Development of recommendations for SEMG sensors and sensor placement procedures | technical-report | H. J. Hermens, B. Freriks, C. Disselhorst-Klug, and G. Rau; SENIAM / Journal of Electromyography and Kinesiology | 2026-08-30 | — |
+| `NNE-REF-095` | The extraction of neural strategies from the surface EMG: 2004–2024 | survey-review | Dario Farina, Roberto Merletti, and Roger M. Enoka; Journal of Applied Physiology | 2026-08-30 | — |
+| `NNE-REF-096` | Standards of instrumentation of EMG | technical-report | Hatice Tankisi et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology | 2026-08-30 | — |
+| `NNE-REF-097` | Electromyographic recording at adductor pollicis muscle and stimulation of the ulnar nerve.jpg | other | Paul Anthony Stewart; Wikimedia Commons | 2026-08-30 | — |

@@ -22,3 +22,4 @@
 | [`NNE-0016`](lessons/NNE-0016-microelectrode-arrays-and-high-channel-count-invasive-recording.md) | Microelectrode arrays and high-channel-count invasive recording | L1 | complete | `NNE-N-0016` | 2026-08-30 |
 | [`NNE-0017`](lessons/NNE-0017-ecog-and-intracranial-eeg-recording-from-the-cortical-surface-and-depth.md) | ECoG and intracranial EEG: recording from the cortical surface and depth | L1 | complete | `NNE-N-0017` | 2026-08-30 |
 | [`NNE-0018`](lessons/NNE-0018-scalp-eeg-potentials-montages-volume-conduction-and-spatial-ambiguity.md) | Scalp EEG: potentials, montages, volume conduction, and spatial ambiguity | L1 | complete | `NNE-N-0018` | 2026-08-30 |
+| [`NNE-0019`](lessons/NNE-0019-peripheral-neural-and-neuromuscular-signals-eng-and-emg.md) | Peripheral neural and neuromuscular signals: ENG and EMG | L1 | complete | `NNE-N-0019` | 2026-08-30 |

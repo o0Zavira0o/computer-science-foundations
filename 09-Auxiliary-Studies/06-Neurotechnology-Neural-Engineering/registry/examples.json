@@ -618,6 +618,41 @@
       "domain": "EEG source superposition and cancellation",
       "first_lesson": "NNE-0018",
       "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-089",
+      "signature": "Estimate motor-nerve segment conduction velocity from the distance between proximal and distal stimulation sites divided by the difference in CMAP onset latencies, explicitly canceling shared distal neuromuscular and muscle delays",
+      "domain": "motor nerve conduction velocity from paired stimulation",
+      "first_lesson": "NNE-0019",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-090",
+      "signature": "Compare two sensory nerve responses with the same conduction velocity but different amplitudes to separate propagation speed from compound-response magnitude and its geometric, dispersive, and population determinants",
+      "domain": "sensory nerve conduction velocity versus SNAP amplitude",
+      "first_lesson": "NNE-0019",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-091",
+      "signature": "Compute bipolar surface-EMG outputs for two electrode pairs sampling the same propagating muscle field, showing that symmetric potentials near an innervation-zone geometry can cancel even though muscle activity is present",
+      "domain": "surface EMG differential geometry and innervation-zone cancellation",
+      "first_lesson": "NNE-0019",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-092",
+      "signature": "Sum overlapping motor-unit action-potential contributions of opposite polarity to demonstrate amplitude cancellation and why stronger neural activation need not produce a proportional increase in instantaneous surface-EMG amplitude",
+      "domain": "surface EMG motor-unit superposition and amplitude cancellation",
+      "first_lesson": "NNE-0019",
+      "reuse_purpose": null
+    },
+    {
+      "id": "NNE-EX-093",
+      "signature": "Classify four peripheral electrophysiology experiments by stimulation site, recording site, and true recorded source to distinguish SNAP, CMAP, voluntary surface EMG, and direct peripheral ENG",
+      "domain": "ENG EMG SNAP CMAP source classification",
+      "first_lesson": "NNE-0019",
+      "reuse_purpose": null
     }
   ]
 }

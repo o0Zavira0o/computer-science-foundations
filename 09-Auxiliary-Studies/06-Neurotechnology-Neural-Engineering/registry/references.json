@@ -992,6 +992,83 @@
       "review_after": null,
       "version": "Wikimedia Commons file; CC0 1.0 Universal Public Domain Dedication",
       "notes": "Verified static visual anchor for NNE-0018 showing standardized scalp-electrode geometry and modified combinatorial nomenclature; used only for physical sensor placement, not source localization."
+    },
+    {
+      "id": "NNE-REF-091",
+      "title": "Nerve conduction studies: essentials and pitfalls in practice",
+      "type": "survey-review",
+      "authority": "A. Mallik and A. I. Weir; Journal of Neurology, Neurosurgery & Psychiatry",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1765692/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "J Neurol Neurosurg Psychiatry 76(Suppl 2), ii23–ii31 (2005); DOI 10.1136/jnnp.2005.069138; PMID 15961865; PMCID PMC1765692",
+      "notes": "Review used for sensory versus motor nerve-conduction measurements, latency and conduction-velocity logic, temperature, technical pitfalls, and clinical measurement boundaries."
+    },
+    {
+      "id": "NNE-REF-092",
+      "title": "Models and analysis of compound nerve action potentials",
+      "type": "survey-review",
+      "authority": "R. Schoonhoven and D. F. Stegeman; Critical Reviews in Biomedical Engineering",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/1893755/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Critical Reviews in Biomedical Engineering 19(1), 47–111 (1991); PMID 1893755",
+      "notes": "Review used for CNAP superposition, single-fiber contributions, conduction-velocity distributions, volume-conductor models, and inverse interpretation of compound nerve responses."
+    },
+    {
+      "id": "NNE-REF-093",
+      "title": "Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors",
+      "type": "survey-review",
+      "authority": "Isabella Campanini et al.; Sensors",
+      "locator": "https://www.mdpi.com/1424-8220/22/11/4150",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Sensors 22(11), 4150 (2022); DOI 10.3390/s22114150; PMID 35684769; PMCID PMC9185290; CC BY 4.0",
+      "notes": "Review used for MUAP generation and propagation, bipolar detection, innervation zones, crosstalk, electrode geometry, and high-density surface EMG."
+    },
+    {
+      "id": "NNE-REF-094",
+      "title": "Development of recommendations for SEMG sensors and sensor placement procedures",
+      "type": "technical-report",
+      "authority": "H. J. Hermens, B. Freriks, C. Disselhorst-Klug, and G. Rau; SENIAM / Journal of Electromyography and Kinesiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/11018445/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Electromyography and Kinesiology 10(5), 361–374 (2000); DOI 10.1016/S1050-6411(00)00027-4; PMID 11018445",
+      "notes": "SENIAM recommendations used for reproducible surface-EMG sensor geometry and placement principles."
+    },
+    {
+      "id": "NNE-REF-095",
+      "title": "The extraction of neural strategies from the surface EMG: 2004–2024",
+      "type": "survey-review",
+      "authority": "Dario Farina, Roberto Merletti, and Roger M. Enoka; Journal of Applied Physiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/39576281/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Journal of Applied Physiology 138(1), 121–135 (2025); DOI 10.1152/japplphysiol.00453.2024; PMID 39576281",
+      "notes": "Contemporary review used for model-based interpretation of surface EMG, neural-drive inference, decomposition, cancellation, and modern interfacing applications."
+    },
+    {
+      "id": "NNE-REF-096",
+      "title": "Standards of instrumentation of EMG",
+      "type": "technical-report",
+      "authority": "Hatice Tankisi et al.; International Federation of Clinical Neurophysiology / Clinical Neurophysiology",
+      "locator": "https://pubmed.ncbi.nlm.nih.gov/31761717/",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Clinical Neurophysiology 131(1), 243–258 (2020); DOI 10.1016/j.clinph.2019.07.025; PMID 31761717; CC BY-NC-ND 4.0",
+      "notes": "IFCN consensus report used for EMG instrumentation, electrodes, stimulation, filters, artifacts, safety, and standardization boundaries."
+    },
+    {
+      "id": "NNE-REF-097",
+      "title": "Electromyographic recording at adductor pollicis muscle and stimulation of the ulnar nerve.jpg",
+      "type": "other",
+      "authority": "Paul Anthony Stewart; Wikimedia Commons",
+      "locator": "https://commons.wikimedia.org/wiki/File:Electromyographic_recording_at_adductor_pollicis_muscle_and_stimulation_of_the_ulnar_nerve.jpg",
+      "reviewed_at": "2026-08-30",
+      "review_after": null,
+      "version": "Wikimedia Commons photograph, original 2016; CC BY-SA 4.0",
+      "notes": "Verified static visual anchor for NNE-0019 showing the physical separation between peripheral-nerve surface stimulation and separate muscle EMG recording in an evoked CMAP arrangement; used explicitly to prevent mislabeling the muscle response as direct ENG."
     }
   ]
 }
